@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/linking-css?page=4",
+  "title": "Linking Multiple CSS Files",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Linking Multiple CSS Files"
+    },
+    {
+      "type": "paragraph",
+      "content": "When working on real-world projects, your CSS code can get long. In such cases, you may need to organize your code in multiple files."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's when external linking comes in handy, as you can link multiple CSS files to an HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what linking multiple CSS files may look like:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "<head>\n    <link rel=\"stylesheet\" href=\"style1.css\">\n    <link rel=\"stylesheet\" href=\"style2.css\">\n    <link rel=\"stylesheet\" href=\"style3.css\">\n</head>"
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, all the styling rules in style1.css, style2.css, and style3.css will be applied to the HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see the other ways of writing CSS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

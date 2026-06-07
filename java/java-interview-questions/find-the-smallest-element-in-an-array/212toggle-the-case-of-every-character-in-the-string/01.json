@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/toggle-case-of-every-character-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, toggle the case of each character and add it to a new string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we are toggling the case of the text string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Initialize an empty string toggledString to add the toggled string.",
+        "Loop through each character in the text string.",
+        "Check whether text is an uppercase character or not using an if statement.",
+        "If the character is uppercase, convert it to lowercase using the toLowerCase() method and add it to toggledString.",
+        "If the character is not uppercase, convert it to uppercase using the toUpperCase() method and add it to toggledString."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

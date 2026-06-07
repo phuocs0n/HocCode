@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/local-variables?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a function we previously created:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function addNumbers(n1, n2) {\n2    let result = n1 + n2;\n3    console.log(result);\n4}\n5\n6addNumbers(2, 5);"
+    },
+    {
+      "type": "paragraph",
+      "content": "You might guess the output of the above program is 7 and you're correct. But, can you guess the output for the below program?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function addNumbers(n1, n2) {\n2    let result = n1 + n2;\n3}\n4\n5addNumbers(2, 5);\n6\n7console.log(result);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the output is an error because the result variable is defined inside the function. However, we're trying to access and display result outside the function, where it doesn't exist."
+    },
+    {
+      "type": "paragraph",
+      "content": "This example highlights the importance of understanding variable scope—where a variable is declared and where it can be accessed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's explore this concept further."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

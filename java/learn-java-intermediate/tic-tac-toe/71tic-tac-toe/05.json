@@ -1,0 +1,122 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/tic-tac-toe?page=5",
+  "title": "Step 4: Updating the play() Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Updating the play() Method"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The play() method of the Game class is updated.",
+        "The updateBoard() method is added to the Board class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2import java.util.Scanner;\n3\n4class Board {\n5\n6    // create an ArrayList\n7    ArrayList<String> board = new ArrayList<>();\n8\n9    // add elements to the board ArrayList\n10    void addElements() {\n11        board.add(\" \");\n12        board.add(\" \");\n13        board.add(\" \");\n14        board.add(\" \");\n15        board.add(\" \");\n16        board.add(\" \");\n17        board.add(\" \");\n18        board.add(\" \");\n19        board.add(\" \");\n20    }\n21\n22    // print elements of the board\n23    void printBoard() {\n24\n25        System.out.println(\" \" + board.get(0) + \" | \" + board.get(1) + \" | \" + board.get(2));\n26        System.out.println(\"-----------\");\n27        System.out.println(\" \" + board.get(3) + \" | \" + board.get(4) + \" | \" + board.get(5));\n28        System.out.println(\"-----------\");\n29        System.out.println(\" \" + board.get(6) + \" | \" + board.get(7) + \" | \" + board.get(8));\n30\n31    }\n32\n33\n34    boolean updateBoard(int position, String type) {\n35\n36        boolean returnValue;\n37\n38        // if a player selects position n, n-1 index should be updated\n39        // if the position is not already filled, update the board\n40        if (board.get(position - 1).equals(\" \")) {\n41            board.set(position - 1, type);\n42\n43            returnValue = true;\n44        }\n45\n46        // if the position is already filled, ask user to select another position\n47        else {\n48            System.out.println(\"Position already selected. Select another position.\");\n49            returnValue = false;\n50        }\n51\n52        return returnValue;\n53    }\n54\n55}\n56\n57class Player {\n58\n59    String name;\n60    String type;\n61\n62    Player(String type) {\n63\n64        this.type = type;\n65        Scanner input = new Scanner(System.in);\n66        if (type == \"X\") {\n67            System.out.println(\"Player selecting X, enter your name: \");\n68            name = input.nextLine();\n69        }\n70        else {\n71            System.out.println(\"Player selecting O, enter your name: \");\n72            name = input.nextLine();\n73        }\n74    }\n75}\n76\n77class Game {\n78\n79    // create object of Board class\n80    Board b1 = new Board();\n81\n82    // create object of Player class\n83    Player player1 = new Player(\"X\");\n84    Player player2 = new Player(\"O\");\n85\n86    // set currentPlayer as player1\n87    Player currentPlayer = player1;\n88\n89\n90    void play() {\n91\n92        // add elements to the board ArrayList\n93        b1.addElements();\n94\n95        // using an infinite loop to run the game\n96        // we will later add conditions to terminate the loop\n97        String message = \"enter the position (1 - 9):\";\n98        while (true) {\n99\n100            message = \"enter the position (1 - 9):\";\n101            System.out.println(currentPlayer.name + \" \" + message);\n102            Scanner input = new Scanner(System.in);\n103            int position = input.nextInt();\n104\n105            // the updateBoard() method return true if\n106            // the user selected position is not already filled\n107            if (b1.updateBoard(position, currentPlayer.type)) {\n108\n109                b1.printBoard();\n110\n111                if (currentPlayer == player1) {\n112                    currentPlayer = player2;\n113                }\n114\n115                else {\n116                    currentPlayer = player1;\n117                }\n118            }\n119        }\n120    }\n121\n122}\n123\n124class Main {\n125    public static void main(String[] args) {\n126\n127        // create object of Game method\n128        Game game = new Game();\n129        game.play();\n130\n131    }\n132}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: \nLily\nPlayer selecting O, enter your name: \nRobin\nLily enter the position (1 - 9):\n2\n   | X |  \n-----------\n   |   |  \n-----------\n   |   |  \nRobin enter the position (1 - 9):\n4\n   | X |  \n-----------\n O |   |  \n-----------\n   |   |  \nLily enter the position (1 - 9):"
+    },
+    {
+      "type": "paragraph",
+      "content": "The updateBoard() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method takes two arguments:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "position - the position selected by the user (an integer)",
+        "type - If the current player is player1, it will be X otherwise it will be O."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This method checks if the position is already filled or not. If it's not filled, we will update the board and true is assigned to returnValue. However, if the position is already filled, a message is shown and false is assigned to returnValue."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the updateBoard() method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "if (board.get(position - 1).equals(\" \")) {\n\n    board.set(position - 1, type);\n    returnValue = true;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, we have used,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "board.get(position - 1) - to access the element at position - 1. It's because a player selects position 2, which means we have to update index 1 of the list. Remember that the ArrayList index starts from 0.",
+        "board.set(position - 1, type) - to update the board. It changes the element at position - 1 with the value of type. As the element is already filled, we are using the set method instead of add() method."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The play() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the method, we have added elements to the board arrayList. Then we have used a while loop to run the game continuously; we will add logic to terminate the loop later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the loop, we asked the user to enter the position between 1 and 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we called the updateBoard() method of the Board class. To call this method we have used b1.updateBoard()."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have called the updateBoard() method with parameters position and the current player type."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the position passed to updateBoard() is not already selected, true is returned. In that case, the currentPlayer is changed to the next player."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,128 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/nonblocking-javascript?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of this code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "setTimeout(() => {\n  console.log(\"A\");\n}, 0);\n\nconsole.log(\"B\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "setTimeout() never runs before the synchronous code, i.e., console.log(\"B\"), even with a 0ms delay."
+    },
+    {
+      "type": "paragraph",
+      "content": "setTimeout() never runs before the synchronous code, i.e., console.log(\"B\"), even with a 0ms delay."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log(\"B\") runs immediately because it's synchronous code. The setTimeout() callback is queued and runs after the current call stack finishes."
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log(\"B\") runs immediately because it's synchronous code. The setTimeout() callback is queued and runs after the current call stack finishes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only A"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"B\" is logged to the console right away, so it will always appear."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"B\" is logged to the console right away, so it will always appear."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only B"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"A\" still prints later because the timeout callback will execute once the stack is clear (assuming the environment keeps running)."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"A\" still prints later because the timeout callback will execute once the stack is clear (assuming the environment keeps running)."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of this code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:AB",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "AB",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:BA",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "BA",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Only A",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Only A",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Only B",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Only B",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

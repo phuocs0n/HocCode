@@ -1,0 +1,140 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/why-game-needs-loops?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the quiz we have"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "while (i < total) { \n  ... prompt,\n  check answer,\n  score++; \n  i++;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "What happens if we forget to write i++; inside the loop?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop gets stuck on the first question and never finishes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Without i++, i never changes, so i < total stays true and the loop keeps repeating the same question."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Without i++, i never changes, so i < total stays true and the loop keeps repeating the same question."
+    },
+    {
+      "type": "paragraph",
+      "content": "The score never increases."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Score increases with score++ when the answer is correct. The real issue is that the loop doesn't move forward."
+    },
+    {
+      "type": "paragraph",
+      "content": "Score increases with score++ when the answer is correct. The real issue is that the loop doesn't move forward."
+    },
+    {
+      "type": "paragraph",
+      "content": "The player can only answer once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The player can keep answering, but the game keeps showing the same question because the counter never moves."
+    },
+    {
+      "type": "paragraph",
+      "content": "The player can keep answering, but the game keeps showing the same question because the counter never moves."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pass or fail will be wrong."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pass/fail happens after the loop. If the loop never ends, the game never reaches that part."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pass/fail happens after the loop. If the loop never ends, the game never reaches that part."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the quiz we have",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The loop gets stuck on the first question and never finishes.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The loop gets stuck on the first question and never finishes.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The score never increases.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The score never increases.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The player can only answer once.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The player can only answer once.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Pass or fail will be wrong.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Pass or fail will be wrong.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

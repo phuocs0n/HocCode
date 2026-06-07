@@ -1,0 +1,45 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions?page=7",
+  "title": "DENSE_RANK()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "DENSE_RANK()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your streaming platform is analyzing movie rankings, and your manager notices something unusual:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"I see that movies with the same rating share a rank, but the next rank is skipped. Can we assign ranks without gaps?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "To fix this, you can use DENSE_RANK(), which works like RANK() but ensures that ranks increase sequentially, even for ties."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

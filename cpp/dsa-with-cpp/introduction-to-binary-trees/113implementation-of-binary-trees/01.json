@@ -1,0 +1,106 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/implementation-of-binary-trees?page=2",
+  "title": "Thought Process: Create Nodes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Create Nodes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by creating our nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "A node in a binary tree will have three core information:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The data value.",
+        "The location of the left child.",
+        "The location of the right child."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "And unlike general trees, where we pass all the children of a node as a vector, we must define the child being added as a left or a right child."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we can divide the entire process of creating nodes into the following steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a class to handle nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The BinaryTreeNode class will handle all node-related activities:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "template <typename T>\nclass BinaryTreeNode {\npublic:\n    BinaryTreeNode(T val) : data(val){}\n\n    T data;\n    BinaryTreeNode<T>* left {nullptr};\n    BinaryTreeNode<T>* right {nullptr};\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "data - The data value.",
+        "left - Pointer to the left child.",
+        "right - Pointer to the right child."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Create methods to add children to a node."
+    },
+    {
+      "type": "paragraph",
+      "content": "As we need to explicitly define if a child is a right or left child, we have to create two methods:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void add_left_child(BinaryTreeNode<T>* node) {\n    left = node;\n}\n\nvoid add_right_child(BinaryTreeNode<T>* node) {\n    right = node;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "add_left_child() - Attaches a left child to a node.",
+        "add_right_child() - Attaches a right child to a node."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

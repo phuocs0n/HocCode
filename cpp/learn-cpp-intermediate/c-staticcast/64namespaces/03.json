@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/namespaces?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is false?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A namespace is any scope inside a C++ program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A namespace is not just any scope; it is actually a named scope inside a C++ program."
+    },
+    {
+      "type": "paragraph",
+      "content": "A namespace is not just any scope; it is actually a named scope inside a C++ program."
+    },
+    {
+      "type": "paragraph",
+      "content": "A namespace is a named scope inside a C++ program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "A namespace can contain variables, arrays, functions, classes, etc."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use the same name for multiple entities as long as they are in different scopes or namespaces."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is false?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A namespace is any scope inside a C++ program.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A namespace is any scope inside a C++ program.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A namespace is a named scope inside a C++ program.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A namespace is a named scope inside a C++ program.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A namespace can contain variables, arrays,  functions, classes, etc.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A namespace can contain variables, arrays,  functions, classes, etc.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:We can use the same name for multiple entities as long as they are in different scopes or namespaces.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "We can use the same name for multiple entities as long as they are in different scopes or namespaces.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

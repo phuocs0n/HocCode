@@ -1,0 +1,143 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/select-where?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose you have a table named Employees with the fields: id, salary, name, email, and city."
+    },
+    {
+      "type": "paragraph",
+      "content": "How can you select the names and emails of employees whose salary is greater than or equal to 5000?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT *\nFROM Employees\nWHERE salary >= 5000;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects all the columns, but you just need the name and email columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects all the columns, but you just need the name and email columns."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFROM Employees\nWHERE salary > 5000;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects the name and email columns of employees whose salary is greater than 5000.If their salary is exactly equal to 5000, those rows are ignored."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects the name and email columns of employees whose salary is greater than 5000."
+    },
+    {
+      "type": "paragraph",
+      "content": "If their salary is exactly equal to 5000, those rows are ignored."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFROM Employees\nWHERE salary >= 5000;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects the name and email columns of employees whose salary is greater than or equal to 5000."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects the name and email columns of employees whose salary is greater than or equal to 5000."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFROM Employees\nWHERE salary <= 5000;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects the name and email columns of those employees whose salary is less than or equal to 5000. However, you want records of employees whose salary is greater than or equal to 5000."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects the name and email columns of those employees whose salary is less than or equal to 5000. However, you want records of employees whose salary is greater than or equal to 5000."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose you have a table named Employees with the fields: id, salary, name, email, and city.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:SELECT *\nFROM Employees\nWHERE salary >= 5000;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "SELECT *\nFROM Employees\nWHERE salary >= 5000;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:SELECT name, email\nFROM Employees\nWHERE salary > 5000;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "SELECT name, email\nFROM Employees\nWHERE salary > 5000;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:SELECT name, email\nFROM Employees\nWHERE salary >= 5000;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "SELECT name, email\nFROM Employees\nWHERE salary >= 5000;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:SELECT name, email\nFROM Employees\nWHERE salary <= 5000;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "SELECT name, email\nFROM Employees\nWHERE salary <= 5000;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

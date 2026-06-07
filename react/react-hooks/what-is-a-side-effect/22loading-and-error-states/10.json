@@ -1,0 +1,61 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=11",
+  "title": "Learning From My Mistake",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Learning From My Mistake"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are the key takeaways from my blunder:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"If my catch block did not run, the request must have succeeded.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() only rejects on network failures. HTTP error codes (200, 403, 404, 500) still resolve the Promise. Without the res.ok check, your error state is never set."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "After every await fetch(), check res.ok before touching the response body. Make it a reflex."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/selecting-changing-content?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: When should you use textContent instead of innerHTML?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the element has no child elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Having children or not doesn't decide. We choose based on whether we need to insert HTML or just text."
+    },
+    {
+      "type": "paragraph",
+      "content": "Having children or not doesn't decide. We choose based on whether we need to insert HTML or just text."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you only need to display plain text."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use textContent for plain text; the browser won't interpret tags. Use innerHTML when you need actual HTML (e.g. links)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use textContent for plain text; the browser won't interpret tags. Use innerHTML when you need actual HTML (e.g. links)."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you want the content to load faster."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Performance isn't the main reason. The choice is about meaning: plain text vs. HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "Performance isn't the main reason. The choice is about meaning: plain text vs. HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the text is longer than one line."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Length doesn't determine which property to use. Both can handle long or short strings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Length doesn't determine which property to use. Both can handle long or short strings."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: When should you use textContent instead of innerHTML?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:When the element has no child elements.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "When the element has no child elements.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:When you only need to display plain text.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "When you only need to display plain text.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:When you want the content to load faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "When you want the content to load faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:When the text is longer than one line.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "When the text is longer than one line.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

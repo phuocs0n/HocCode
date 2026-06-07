@@ -1,0 +1,72 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=4",
+  "title": "Rendering the Loading State",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Rendering the Loading State"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to check isLoading before anything else:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "While it's true, the fetch is still in progress. So we show the loading message.",
+        "Once it flips to false, we can check what actually came back."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1{isLoading ? (\n2  <p className=\"loading-state\">Loading entries...</p>\n3) : entries.length === 0 ? (\n4  <p className=\"empty-state\">No entries found.</p>\n5) : (\n6  entries.map(...)\n7)}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function Header() {\n2  return (\n3    <header className=\"header\">\n4      <h2 className=\"title-primary\">My Daily Journal</h2>\n5      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n6    </header>\n7  );\n8}\n9\n10export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content }) {\n2  return (\n3    <div className=\"entry-card\">\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "Three states, three distinct messages. Loading entries... now only appears while the fetch is actually in progress."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if the fetch fails entirely? Let's handle that next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/operator-is-keyword?page=1",
+  "title": "Differentiate Between == Operator and is Keyword",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Differentiate Between == Operator and is Keyword"
+    },
+    {
+      "type": "paragraph",
+      "content": "The == operator is used to compare the value of two objects whereas the is keyword is used to check if two variables point to the same object in memory."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand this with the help of an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1a = [1, 2, 3]\n2\n3b = a\n4c = a.copy() # creates another instance of same object\n5\n6print(a)  # [1, 2, 3]\n7print(b)  # [1, 2, 3]\n8print(c)  # [1, 2, 3]\n9\n10print(a == b)  # True\n11print(a == c)  # True\n12\n13print(a is b)  # True\n14print(a is c)  # False"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, lists b and c have the same value as list a. But in memory, b points to the original list a, whereas c has a clone of a in another memory location."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, because the == operator only checks values, a == b and a == c are True."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, because the is keyword checks if both variables are pointing to the same memory location, a is b returns True, but a is c returns False."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

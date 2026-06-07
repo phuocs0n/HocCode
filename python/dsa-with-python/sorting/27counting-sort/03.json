@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/counting-sort?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the primary purpose of the counting list in counting sort?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To store the original list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list doesn't contain the items of the original list but their frequency of occurrence within the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list doesn't contain the items of the original list but their frequency of occurrence within the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "To replace the original list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list doesn't replace the original list. It's a new list with the frequency of occurrence of items in the original list."
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list doesn't replace the original list. It's a new list with the frequency of occurrence of items in the original list."
+    },
+    {
+      "type": "paragraph",
+      "content": "To store the maximum element of the list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list doesn't just store the maximum element. It stores all the elements starting from 0 to the maximum element; it has a size of max + 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list doesn't just store the maximum element. It stores all the elements starting from 0 to the maximum element; it has a size of max + 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "To record the occurrence of each element in the original list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list is used to keep track of the occurrence of each element from the original list."
+    },
+    {
+      "type": "paragraph",
+      "content": "The counting list is used to keep track of the occurrence of each element from the original list."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the primary purpose of the counting list in counting sort?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To store the original list.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To store the original list.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To replace the original list.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To replace the original list.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To store the maximum element of the list.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To store the maximum element of the list.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To record the occurrence of each element in the original list.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To record the occurrence of each element in the original list.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

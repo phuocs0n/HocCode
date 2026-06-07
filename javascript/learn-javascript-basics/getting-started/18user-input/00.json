@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-input-prompt?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, we've been storing the user's information manually, like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let firstName = \"John\";\n2\n3console.log(\"Hello, \" + firstName);"
+    },
+    {
+      "type": "paragraph",
+      "content": "But wouldn't it be more practical to let the user input their own name, rather than us setting it ourselves?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn how to take input from the user and use it in your code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

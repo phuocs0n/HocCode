@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/same-subsequent-characters?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In any string, if two letters are repeated one after another, it is said to have the same subsequent characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we need to loop through each letter in a string by the index. And if a character at one index is the same as the character at the next index, that means the character has the same subsequent character."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to follow these steps to solve this problem:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "First, we need to loop from 0 to the length of the string using the range() function with len(string) as a parameter.",
+        "Then, we need to compare the character at the current index, with the character at the next index in a string.",
+        "If they are the same, we need to return the character."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

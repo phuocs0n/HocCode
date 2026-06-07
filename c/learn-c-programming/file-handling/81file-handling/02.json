@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/file-handling?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Làm thế nào để khai báo con trỏ làm việc với file trong C?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "con trỏ tập tin*;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "file không phải là từ khóa hợp lệ trong C."
+    },
+    {
+      "type": "paragraph",
+      "content": "file không phải là từ khóa hợp lệ trong C."
+    },
+    {
+      "type": "paragraph",
+      "content": "con trỏ FILE*;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng con trỏ kiểu FILE để làm việc với các tệp."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng con trỏ kiểu FILE để làm việc với các tệp."
+    },
+    {
+      "type": "paragraph",
+      "content": "con trỏ int*;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi không sử dụng con trỏ kiểu int để làm việc với các tệp."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi không sử dụng con trỏ kiểu int để làm việc với các tệp."
+    },
+    {
+      "type": "paragraph",
+      "content": "con trỏ TẬP TIN;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng biến con trỏ kiểu FILE chứ không phải biến thông thường."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng biến con trỏ kiểu FILE chứ không phải biến thông thường."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "file không phải là từ khóa hợp lệ trong C."
+    },
+    {
+      "type": "paragraph",
+      "content": "file không phải là từ khóa hợp lệ trong C."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng con trỏ kiểu FILE để làm việc với các tệp."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng con trỏ kiểu FILE để làm việc với các tệp."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi không sử dụng con trỏ kiểu int để làm việc với các tệp."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi không sử dụng con trỏ kiểu int để làm việc với các tệp."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng biến con trỏ kiểu FILE chứ không phải biến thông thường."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng biến con trỏ kiểu FILE chứ không phải biến thông thường."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Làm thế nào để khai báo con trỏ làm việc với file trong C?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:con trỏ tập tin*;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "con trỏ tập tin*;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:con trỏ FILE*;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "con trỏ FILE*;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:con trỏ int*;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "con trỏ int*;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:con trỏ TẬP TIN;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "con trỏ TẬP TIN;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

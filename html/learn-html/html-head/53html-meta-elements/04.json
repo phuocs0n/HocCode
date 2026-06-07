@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/html-meta-elements?page=4",
+  "title": "Enhance Social Media Share Link",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Enhance Social Media Share Link"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use the <meta> tag to control how content appears when we share the webpage on social media platforms (Facebook, Twitter, LinkedIn, and others."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<meta property=\"og:title\" content=\"Learn HTML\">\n<meta property=\"og:description\" content=\"A comprehensive guide to HTML for web development.\">\n<meta property=\"og:image\" content=\"https://example.com/image.jpg\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "This controls the title, image, and description that are shown when a URL is shared on social media."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

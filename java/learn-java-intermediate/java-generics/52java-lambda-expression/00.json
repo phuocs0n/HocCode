@@ -1,0 +1,97 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-lambda-expression?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you learn about lambda expressions in Java, you need to understand a few important concepts first."
+    },
+    {
+      "type": "paragraph",
+      "content": "Java Interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "You have learned about the interface in the previous tutorial. We will have a quick revision of the Java interface."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the interface keyword to create an interface in Java."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "interface Animal {\n\n    void play(); \n    void makeSound();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Animal is an interface. We can create abstract methods inside the interface."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "void play();"
+    },
+    {
+      "type": "paragraph",
+      "content": "is an abstract method (method without body). To use the interface, we must implement it in a class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Functional Interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "If a Java interface contains one and only one abstract method (method without a body) then it is a functional interface."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "interface AddNumber{  \n  \n    void add();\n  \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the interface AddNumber has only one abstract method add(). Hence, it is a functional interface."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use @FunctionalInterface annotation to indicate an interface as a functional interface."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "@FunctionalInterface  \ninterface AddNumber{  \n \n    void add(); \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "@FunctionalInterface annotation, allows one and only one abstract method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

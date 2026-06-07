@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-arrow-function?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct syntax for an arrow function that returns the sum of two numbers?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "const add = (a, b) = a + b;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax isn't correct because there needs to be => after the parameters and not =."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax isn't correct because there needs to be => after the parameters and not =."
+    },
+    {
+      "type": "paragraph",
+      "content": "const add = (a, b) => a + b;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct syntax for an arrow function with a concise body."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct syntax for an arrow function with a concise body."
+    },
+    {
+      "type": "paragraph",
+      "content": "const add = (a, b) => { a + b; }"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Code inside curly braces {} needs to explicitly return a value using return statement. This doesn't return any value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Code inside curly braces {} needs to explicitly return a value using return statement. This doesn't return any value."
+    },
+    {
+      "type": "paragraph",
+      "content": "const add = (a, b) -> { return a + b; };"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The -> syntax is incorrect for JavaScript arrow functions. JavaScript uses => for defining arrow functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "The -> syntax is incorrect for JavaScript arrow functions. JavaScript uses => for defining arrow functions."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct syntax for an arrow function that returns the sum of two numbers?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:const add = (a, b) = a + b;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "const add = (a, b) = a + b;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:const add = (a, b) => a + b;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "const add = (a, b) => a + b;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:const add = (a, b) => { a + b; }",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "const add = (a, b) => { a + b; }",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:const add = (a, b) -> { return a + b; };",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "const add = (a, b) -> { return a + b; };",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

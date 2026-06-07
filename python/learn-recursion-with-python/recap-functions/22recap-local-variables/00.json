@@ -1,0 +1,80 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/recap-local-variables?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of local variables is critical in recursion since each recursive call possesses a separate local variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, we must revisit this topic here."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any variable that is created inside a function is local to it. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def add_numbers(n1, n2):\n2    result = n1 + n2\n3\n4add_numbers(2, 5)\n5print(result) # NameError: name 'result' is not defined"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, when the execution of the add_numbers() function ends, all the variables inside it—n1, n2, and result—are destroyed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The reason why the above program throws an error is that Python thinks that the result variable is not defined."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can fix it by using a return statement."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def add_numbers(n1, n2):\n2    result = n1 + n2\n3    return result\n4\n5output = add_numbers(2, 5)\n6print(output) # Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "By using a return statement, we are not using the local variable directly. Instead, we are returning its value to the calling function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see why this concept of local variables is important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

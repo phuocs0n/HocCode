@@ -1,0 +1,88 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/selecting-changing-content?page=2",
+  "title": "Selecting Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Selecting Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you can change something, you have to find it."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is the first step of the pattern. Let's look at a small example."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Selecting Elements</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <p id=\"main\">Main paragraph</p>\n11  <p class=\"item\">Item 1</p>\n12  <p class=\"item\">Item 2</p>\n13  <p class=\"item\">Item 3</p>\n14\n15  <script src=\"script.js\"></script>\n16</body>\n17</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var firstItem = document.querySelector('.item');\n2var allItems = document.querySelectorAll('.item');\n3var main = document.getElementById('main');\n4\n5if (firstItem) {\n6  firstItem.textContent = 'First item updated';\n7}\n8\n9if (main) {\n10  main.textContent = 'Main updated by id';\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. You'll notice two things:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The paragraph with id main changes to \"Main updated by id\". Only the first .item changes to \"First item updated\". The other two items stay the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's why. Switch to the script.js tab."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "querySelector('.item') selects only the first matching element. Even though there are three .item elements, it stops at the first one.",
+        "querySelectorAll('.item') selects all matching elements and returns a list. We're not using that list yet, but we will soon.",
+        "getElementById('main') selects the element with that specific id. Since ids are unique, it returns just one element."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You select exactly what you need. Then you update it."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is the pattern holding steady."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's look at how to change text and HTML inside an element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

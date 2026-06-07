@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction-to-promises?page=2",
+  "title": "Return Value of a Promise",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Return Value of a Promise"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript returns a promise the moment you call an asynchronous function. But it does not return the final value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, it returns a placeholder in the form of a promise object. This has a few important advantages:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Asynchronous operations can now be treated like data",
+        "Multiple async steps can be connected cleanly",
+        "Control stays with the code that uses the result, not the code that produces it"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "A promise lets you describe what should happen later without stopping the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "To make this idea clearer, let's look at a real-world example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

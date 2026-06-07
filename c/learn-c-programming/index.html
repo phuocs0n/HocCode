@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learn C Programming</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ===== RESET & BASE ===== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0d1117;
+  --sidebar-bg: #161b22;
+  --card-bg: #1c2333;
+  --accent: #7c3aed;
+  --accent-hover: #6d28d9;
+  --accent-glow: rgba(124, 58, 237, 0.25);
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --border: #30363d;
+  --success: #3fb950;
+  --success-bg: rgba(63, 185, 80, 0.12);
+  --error: #f85149;
+  --error-bg: rgba(248, 81, 73, 0.12);
+  --code-bg: #0d1117;
+  --code-border: #30363d;
+  --sidebar-width: 320px;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* ===== LOADING SCREEN ===== */
+#loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+#loading-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.loading-text {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.loading-brand {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ===== ERROR SCREEN ===== */
+#error-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  background: var(--bg);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px;
+  text-align: center;
+}
+#error-screen.visible {
+  display: flex;
+}
+.error-icon {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+.error-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--error);
+}
+.error-message {
+  color: var(--text-secondary);
+  max-width: 480px;
+  line-height: 1.7;
+}
+.error-retry {
+  margin-top: 12px;
+  padding: 10px 28px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+.error-retry:hover {
+  background: var(--accent-hover);
+}
+
+/* ===== SIDEBAR ===== */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--sidebar-width);
+  height: 100vh;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  transition: transform var(--transition-slow);
+}
+
+.sidebar-header {
+  padding: 20px 20px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.sidebar-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, var(--accent), #a78bfa);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fff;
+  flex-shrink: 0;
+}
+.sidebar-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.sidebar-subtitle {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.chapter {
+  margin: 2px 0;
+}
+.chapter-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+  position: relative;
+}
+.chapter-toggle:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+.chapter-chevron {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  transition: transform var(--transition-normal);
+  color: var(--text-secondary);
+}
+.chapter.expanded .chapter-chevron {
+  transform: rotate(90deg);
+}
+.chapter-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: var(--border);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.lessons-list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-slow);
+}
+.chapter.expanded .lessons-list {
+  max-height: 2000px;
+}
+
+.lesson-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 20px 8px 52px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  position: relative;
+}
+.lesson-item:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.03);
+}
+.lesson-item.active {
+  color: var(--accent);
+  background: var(--accent-glow);
+  border-left-color: var(--accent);
+  font-weight: 500;
+}
+.lesson-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--border);
+  flex-shrink: 0;
+  transition: background var(--transition-fast);
+}
+.lesson-item.active .lesson-dot {
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+/* ===== HAMBURGER ===== */
+#menu-toggle {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 1100;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+  flex-direction: column;
+  gap: 4px;
+}
+#menu-toggle:hover {
+  background: var(--sidebar-bg);
+}
+.hamburger-line {
+  width: 18px;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 1px;
+  transition: all var(--transition-normal);
+}
+body.sidebar-open #menu-toggle .hamburger-line:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+body.sidebar-open #menu-toggle .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+body.sidebar-open #menu-toggle .hamburger-line:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+#sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-normal);
+}
+body.sidebar-open #sidebar-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ===== MAIN CONTENT ===== */
+#main {
+  margin-left: var(--sidebar-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 32px 40px 80px;
+  flex: 1;
+}
+
+/* ===== BREADCRUMB ===== */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 28px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.breadcrumb-sep {
+  color: var(--border);
+  font-size: 0.7rem;
+}
+.breadcrumb-current {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ===== CONTENT BLOCKS ===== */
+#content-area {
+  opacity: 1;
+  transition: opacity 200ms ease;
+}
+#content-area.fade-out {
+  opacity: 0;
+}
+
+.block-heading {
+  font-weight: 700;
+  color: #fff;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+.block-heading:first-child {
+  margin-top: 0;
+}
+h1.block-heading { font-size: 1.8rem; margin-bottom: 16px; }
+h2.block-heading { font-size: 1.4rem; }
+h3.block-heading { font-size: 1.15rem; }
+h4.block-heading { font-size: 1rem; }
+
+.block-paragraph {
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+.block-paragraph code,
+.inline-code {
+  background: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: #e5a0f7;
+}
+
+.block-list {
+  margin: 12px 0 20px;
+  padding-left: 24px;
+}
+.block-list li {
+  color: var(--text-primary);
+  line-height: 1.8;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+.block-list li code {
+  background: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: #e5a0f7;
+}
+
+ul.block-list {
+  list-style: none;
+  padding-left: 0;
+}
+ul.block-list li {
+  position: relative;
+  padding-left: 20px;
+}
+ul.block-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+ol.block-list {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: ol-counter;
+}
+ol.block-list li {
+  position: relative;
+  padding-left: 28px;
+  counter-increment: ol-counter;
+}
+ol.block-list li::before {
+  content: counter(ol-counter);
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-image-wrap {
+  margin: 24px 0;
+  text-align: center;
+}
+.block-image {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.block-image-caption {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.block-code-wrap {
+  margin: 20px 0;
+  background: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.code-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid var(--code-border);
+}
+.code-lang {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+}
+.code-copy {
+  padding: 4px 12px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.code-copy:hover {
+  color: var(--text-primary);
+  border-color: var(--text-secondary);
+}
+.code-copy.copied {
+  color: var(--success);
+  border-color: var(--success);
+}
+.block-code-content {
+  padding: 16px 20px;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+  white-space: pre;
+  tab-size: 4;
+}
+
+/* Simple syntax highlight classes */
+.kw { color: #ff7b72; }
+.str { color: #a5d6ff; }
+.num { color: #79c0ff; }
+.cmt { color: #8b949e; font-style: italic; }
+.fn { color: #d2a8ff; }
+.type { color: #ff7b72; }
+.pp { color: #ffa657; }
+.op { color: #e6edf3; }
+
+.block-table-wrap {
+  margin: 20px 0;
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.block-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.block-table th {
+  background: rgba(124, 58, 237, 0.12);
+  color: var(--text-primary);
+  font-weight: 600;
+  padding: 10px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.block-table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+  color: var(--text-primary);
+}
+.block-table tr:last-child td {
+  border-bottom: none;
+}
+.block-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+.block-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+.block-table td code,
+.block-table th code {
+  background: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: #e5a0f7;
+}
+
+/* ===== QUIZ UI ===== */
+.quiz-container {
+  margin: 24px 0;
+}
+.quiz-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  background: var(--accent-glow);
+  border: 1px solid var(--accent);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+.quiz-question {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+.quiz-question code {
+  background: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: #e5a0f7;
+}
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  text-align: left;
+  width: 100%;
+}
+.quiz-option:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: rgba(124, 58, 237, 0.08);
+}
+.quiz-option:disabled {
+  cursor: default;
+}
+.quiz-option-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: var(--border);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+.quiz-option.correct {
+  border-color: var(--success);
+  background: var(--success-bg);
+}
+.quiz-option.correct .quiz-option-letter {
+  background: var(--success);
+  color: #fff;
+}
+.quiz-option.incorrect {
+  border-color: var(--error);
+  background: var(--error-bg);
+}
+.quiz-option.incorrect .quiz-option-letter {
+  background: var(--error);
+  color: #fff;
+}
+.quiz-option.correct-reveal {
+  border-color: var(--success);
+  background: var(--success-bg);
+}
+.quiz-option.correct-reveal .quiz-option-letter {
+  background: var(--success);
+  color: #fff;
+}
+.quiz-option code {
+  background: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: #e5a0f7;
+}
+
+.quiz-explanation {
+  margin-top: 16px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  animation: slideUp 0.3s ease;
+  display: none;
+}
+.quiz-explanation.visible {
+  display: block;
+}
+.quiz-explanation-title {
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+}
+.quiz-explanation-title.correct {
+  color: var(--success);
+}
+.quiz-explanation-title.incorrect {
+  color: var(--error);
+}
+.quiz-explanation-text {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== NAVIGATION ===== */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  gap: 16px;
+}
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: rgba(124, 58, 237, 0.08);
+  color: #fff;
+}
+.nav-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.nav-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.nav-btn.primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+.nav-arrow {
+  font-size: 1rem;
+}
+.nav-page-info {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* ===== PROGRESS BAR ===== */
+.progress-bar-wrap {
+  margin-bottom: 24px;
+}
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+.progress-track {
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), #a78bfa);
+  border-radius: 2px;
+  transition: width var(--transition-slow);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  :root {
+    --sidebar-width: 300px;
+  }
+  #sidebar {
+    transform: translateX(-100%);
+  }
+  body.sidebar-open #sidebar {
+    transform: translateX(0);
+  }
+  #menu-toggle {
+    display: flex;
+  }
+  #main {
+    margin-left: 0;
+  }
+  .content-wrapper {
+    padding: 24px 20px 80px;
+    padding-top: 64px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1.block-heading { font-size: 1.4rem; }
+  h2.block-heading { font-size: 1.2rem; }
+  .content-wrapper {
+    padding: 20px 16px 80px;
+    padding-top: 64px;
+  }
+  .quiz-option {
+    padding: 12px 14px;
+    font-size: 0.85rem;
+  }
+  .nav-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div id="loading-screen">
+  <div class="loading-brand">C</div>
+  <div class="spinner"></div>
+  <div class="loading-text">Loading course content...</div>
+</div>
+
+<!-- Error Screen -->
+<div id="error-screen">
+  <div class="error-icon">⚠️</div>
+  <div class="error-title">Failed to Load Course</div>
+  <div class="error-message" id="error-message">Unable to load course data. Please ensure the JSON files are in the correct directory and you're running a local HTTP server.</div>
+  <button class="error-retry" onclick="location.reload()">Retry</button>
+</div>
+
+<!-- Sidebar Overlay (mobile) -->
+<div id="sidebar-overlay"></div>
+
+<!-- Menu Toggle (mobile) -->
+<button id="menu-toggle" aria-label="Toggle sidebar">
+  <span class="hamburger-line"></span>
+  <span class="hamburger-line"></span>
+  <span class="hamburger-line"></span>
+</button>
+
+<!-- Sidebar -->
+<aside id="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-brand">
+      <div class="sidebar-icon">C</div>
+      <div>
+        <div class="sidebar-title">Learn C Programming</div>
+        <div class="sidebar-subtitle">Complete Course</div>
+      </div>
+    </div>
+  </div>
+  <nav class="sidebar-nav" id="sidebar-nav"></nav>
+</aside>
+
+<!-- Main Content -->
+<main id="main">
+  <div class="content-wrapper">
+    <div class="breadcrumb" id="breadcrumb"></div>
+    <div class="progress-bar-wrap" id="progress-wrap">
+      <div class="progress-info">
+        <span id="progress-label">Progress</span>
+        <span id="progress-pct">0%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+    <div id="content-area"></div>
+    <div class="nav-bar" id="nav-bar"></div>
+  </div>
+</main>
+
+<script>
+(function() {
+  'use strict';
+
+  // ===== STATE =====
+  const state = {
+    structure: null,
+    currentLevel: 0,
+    currentLesson: 0,
+    currentPage: 0,
+    totalPages: 0,
+    lessonMeta: null,
+    pageData: null,
+    quizAnswered: false,
+  };
+
+  // ===== DOM REFS =====
+  const $loading = document.getElementById('loading-screen');
+  const $error = document.getElementById('error-screen');
+  const $errorMsg = document.getElementById('error-message');
+  const $sidebarNav = document.getElementById('sidebar-nav');
+  const $breadcrumb = document.getElementById('breadcrumb');
+  const $content = document.getElementById('content-area');
+  const $navBar = document.getElementById('nav-bar');
+  const $menuToggle = document.getElementById('menu-toggle');
+  const $overlay = document.getElementById('sidebar-overlay');
+  const $progressFill = document.getElementById('progress-fill');
+  const $progressPct = document.getElementById('progress-pct');
+
+  // ===== HELPERS =====
+  function toKebab(str) {
+    return str
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+  }
+
+  function lessonToFolder(title) {
+    // "1.1Introduction to C Programming" → "11introduction-to-c-programming"
+    // Remove dots from the number prefix, then kebab-case
+    return title
+      .replace(/\./g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+  }
+
+  function getLessonPath(levelIdx, lessonIdx) {
+    const level = state.structure.levels[levelIdx];
+    const lesson = level.lessons[lessonIdx];
+    const chapterFolder = level.chapterFolder || toKebab(level.title);
+    const lessonFolder = lesson.lessonFolder || lessonToFolder(lesson.title);
+    return `${chapterFolder}/${lessonFolder}`;
+  }
+
+  async function fetchJSON(path) {
+    const url = path.includes('?') ? `${path}&t=${Date.now()}` : `${path}?t=${Date.now()}`;
+    const resp = await fetch(url, { cache: 'no-store' });
+    if (!resp.ok) throw new Error(`Failed to load ${path}: ${resp.status}`);
+    return resp.json();
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function renderInlineCode(text) {
+    if (!text) return '';
+    // Escape HTML first, then handle backtick code
+    let escaped = escapeHtml(text);
+    // Replace `code` with styled spans
+    escaped = escaped.replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+    return escaped;
+  }
+
+  function saveProgress() {
+    try {
+      localStorage.setItem('c-course-progress', JSON.stringify({
+        level: state.currentLevel,
+        lesson: state.currentLesson,
+        page: state.currentPage,
+      }));
+    } catch(e) {}
+  }
+
+  function loadProgress() {
+    try {
+      const raw = localStorage.getItem('c-course-progress');
+      if (raw) return JSON.parse(raw);
+    } catch(e) {}
+    return null;
+  }
+
+  // ===== SYNTAX HIGHLIGHTING (simple) =====
+  function highlightC(code) {
+    let escaped = escapeHtml(code);
+
+    // Preprocessor directives
+    escaped = escaped.replace(/(#\s*(?:include|define|ifdef|ifndef|endif|if|else|elif|undef|pragma|error|warning)\b.*)/g, '<span class="pp">$1</span>');
+
+    // Single-line comments
+    escaped = escaped.replace(/(\/\/.*)/g, '<span class="cmt">$1</span>');
+
+    // Multi-line comments
+    escaped = escaped.replace(/(\/\*[\s\S]*?\*\/)/g, '<span class="cmt">$1</span>');
+
+    // Strings
+    escaped = escaped.replace(/(&quot;(?:[^&]|&(?!quot;))*?&quot;)/g, '<span class="str">$1</span>');
+
+    // Char literals
+    escaped = escaped.replace(/(&#39;(?:[^&]|&(?!#39;))*?&#39;)/g, '<span class="str">$1</span>');
+
+    // Keywords
+    const keywords = ['auto','break','case','char','const','continue','default','do','double','else','enum','extern','float','for','goto','if','int','long','register','return','short','signed','sizeof','static','struct','switch','typedef','union','unsigned','void','volatile','while','printf','scanf','NULL','main','true','false','bool','FILE','size_t','stdin','stdout','stderr'];
+    const kwRegex = new RegExp('\\b(' + keywords.join('|') + ')\\b', 'g');
+    escaped = escaped.replace(kwRegex, (match) => {
+      const types = ['int','char','float','double','void','long','short','unsigned','signed','bool','size_t','FILE','auto','struct','enum','union','typedef','const','static','extern','volatile','register'];
+      if (types.includes(match)) {
+        return `<span class="type">${match}</span>`;
+      }
+      return `<span class="kw">${match}</span>`;
+    });
+
+    // Numbers
+    escaped = escaped.replace(/\b(\d+\.?\d*[fFlLuU]?)\b/g, '<span class="num">$1</span>');
+
+    // Function calls
+    escaped = escaped.replace(/\b([a-zA-Z_]\w*)\s*(?=\()/g, '<span class="fn">$1</span>');
+
+    return escaped;
+  }
+
+  // ===== RENDER SIDEBAR =====
+  function renderSidebar() {
+    const levels = state.structure.levels;
+    let html = '';
+
+    levels.forEach((level, li) => {
+      const isExpanded = li === state.currentLevel;
+      html += `<div class="chapter ${isExpanded ? 'expanded' : ''}" data-level="${li}">`;
+      html += `<button class="chapter-toggle" data-level="${li}">`;
+      html += `<svg class="chapter-chevron" viewBox="0 0 16 16" fill="currentColor"><path d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"/></svg>`;
+      html += `<span class="chapter-number">${li + 1}</span>`;
+      html += `<span>${escapeHtml(level.title)}</span>`;
+      html += `</button>`;
+      html += `<div class="lessons-list">`;
+
+      level.lessons.forEach((lesson, lsi) => {
+        const isActive = li === state.currentLevel && lsi === state.currentLesson;
+        // Clean up lesson title for display: remove leading number pattern like "1.1"
+        const displayTitle = lesson.title.replace(/^\d+\.\d+/, (m) => m + ' ');
+        html += `<div class="lesson-item ${isActive ? 'active' : ''}" data-level="${li}" data-lesson="${lsi}">`;
+        html += `<span class="lesson-dot"></span>`;
+        html += `<span>${escapeHtml(displayTitle)}</span>`;
+        html += `</div>`;
+      });
+
+      html += `</div></div>`;
+    });
+
+    $sidebarNav.innerHTML = html;
+
+    // Bind events
+    $sidebarNav.querySelectorAll('.chapter-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const chapter = btn.closest('.chapter');
+        chapter.classList.toggle('expanded');
+      });
+    });
+
+    $sidebarNav.querySelectorAll('.lesson-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const li = parseInt(item.dataset.level);
+        const lsi = parseInt(item.dataset.lesson);
+        navigateToLesson(li, lsi, 0);
+        closeSidebar();
+      });
+    });
+  }
+
+  function updateSidebarActive() {
+    $sidebarNav.querySelectorAll('.lesson-item').forEach(item => {
+      const li = parseInt(item.dataset.level);
+      const lsi = parseInt(item.dataset.lesson);
+      item.classList.toggle('active', li === state.currentLevel && lsi === state.currentLesson);
+    });
+
+    // Expand current chapter
+    $sidebarNav.querySelectorAll('.chapter').forEach(ch => {
+      const li = parseInt(ch.dataset.level);
+      if (li === state.currentLevel) {
+        ch.classList.add('expanded');
+      }
+    });
+
+    // Scroll active item into view
+    const active = $sidebarNav.querySelector('.lesson-item.active');
+    if (active) {
+      active.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+  }
+
+  // ===== RENDER BREADCRUMB =====
+  function renderBreadcrumb() {
+    const level = state.structure.levels[state.currentLevel];
+    const lesson = level.lessons[state.currentLesson];
+    const displayTitle = lesson.title.replace(/^\d+\.\d+/, (m) => m + ' ');
+
+    $breadcrumb.innerHTML = `
+      <span>${escapeHtml(level.title)}</span>
+      <span class="breadcrumb-sep">›</span>
+      <span>${escapeHtml(displayTitle)}</span>
+      <span class="breadcrumb-sep">›</span>
+      <span class="breadcrumb-current">Page ${state.currentPage + 1} / ${state.totalPages}</span>
+    `;
+  }
+
+  // ===== RENDER PROGRESS =====
+  function renderProgress() {
+    const pct = state.totalPages > 0 ? Math.round(((state.currentPage + 1) / state.totalPages) * 100) : 0;
+    $progressFill.style.width = pct + '%';
+    $progressPct.textContent = pct + '%';
+  }
+
+  // ===== RENDER BLOCKS =====
+  function renderBlocks(blocks) {
+    if (!blocks || !blocks.length) return '';
+    let html = '';
+
+    for (const block of blocks) {
+      switch (block.type) {
+        case 'heading': {
+          // Skip level 3 headings starting with "Course:"
+          if (block.level === 3 && block.content && block.content.startsWith('Course:')) continue;
+          // Skip "Correct Answer!" headings (quiz internals)
+          if (block.content === 'Correct Answer!') continue;
+          const tag = `h${Math.min(block.level || 1, 4)}`;
+          html += `<${tag} class="block-heading">${renderInlineCode(block.content)}</${tag}>`;
+          break;
+        }
+        case 'paragraph': {
+          // Skip paragraphs right before/after "Correct Answer!" heading in quiz context
+          html += `<p class="block-paragraph">${renderInlineCode(block.content)}</p>`;
+          break;
+        }
+        case 'bullet_list': {
+          html += '<ul class="block-list">';
+          for (const item of (block.items || [])) {
+            html += `<li>${renderInlineCode(item)}</li>`;
+          }
+          html += '</ul>';
+          break;
+        }
+        case 'numbered_list': {
+          html += '<ol class="block-list">';
+          for (const item of (block.items || [])) {
+            html += `<li>${renderInlineCode(item)}</li>`;
+          }
+          html += '</ol>';
+          break;
+        }
+        case 'image': {
+          html += `<div class="block-image-wrap">`;
+          html += `<img class="block-image" src="${escapeHtml(block.src || '')}" alt="${escapeHtml(block.alt || '')}" loading="lazy">`;
+          if (block.alt) {
+            html += `<div class="block-image-caption">${escapeHtml(block.alt)}</div>`;
+          }
+          html += `</div>`;
+          break;
+        }
+        case 'code': {
+          const lang = block.language || 'text';
+          html += `<div class="block-code-wrap">`;
+          html += `<div class="code-header">`;
+          html += `<span class="code-lang">${escapeHtml(lang)}</span>`;
+          html += `<button class="code-copy" onclick="copyCode(this)">Copy</button>`;
+          html += `</div>`;
+          const highlighted = (lang === 'c' || lang === 'cpp' || lang === 'c++') ? highlightC(block.content || '') : escapeHtml(block.content || '');
+          html += `<pre class="block-code-content">${highlighted}</pre>`;
+          html += `</div>`;
+          break;
+        }
+        case 'table': {
+          if (!block.rows || !block.rows.length) break;
+          html += `<div class="block-table-wrap"><table class="block-table">`;
+          // First row as header
+          html += `<thead><tr>`;
+          for (const cell of block.rows[0]) {
+            html += `<th>${renderInlineCode(cell)}</th>`;
+          }
+          html += `</tr></thead>`;
+          if (block.rows.length > 1) {
+            html += `<tbody>`;
+            for (let i = 1; i < block.rows.length; i++) {
+              html += `<tr>`;
+              for (const cell of block.rows[i]) {
+                html += `<td>${renderInlineCode(cell)}</td>`;
+              }
+              html += `</tr>`;
+            }
+            html += `</tbody>`;
+          }
+          html += `</table></div>`;
+          break;
+        }
+        default:
+          break;
+      }
+    }
+    return html;
+  }
+
+  // ===== RENDER QUIZ =====
+  function renderQuiz(data) {
+    const quiz = data.quiz;
+    if (!quiz) return '';
+
+    // Get question from blocks - look for the first heading or use quiz.question
+    let questionText = quiz.question || '';
+
+    // Find correct answer - scan blocks for "Correct Answer!" heading, paragraph before it is the answer
+    let correctAnswerText = '';
+    if (data.blocks) {
+      for (let i = 0; i < data.blocks.length; i++) {
+        if (data.blocks[i].type === 'heading' && data.blocks[i].content === 'Correct Answer!') {
+          // The paragraph before this heading
+          if (i > 0 && data.blocks[i - 1].type === 'paragraph') {
+            correctAnswerText = data.blocks[i - 1].content;
+          }
+          break;
+        }
+      }
+    }
+
+    // Filter quiz options with letter prefix
+    const letterOptions = (quiz.options || []).filter(opt => /^[A-D]:/.test(opt.text));
+
+    // Determine which option is correct
+    // Method 1: isCorrect flag
+    // Method 2: match correctAnswerText
+    let correctIdx = -1;
+    letterOptions.forEach((opt, i) => {
+      if (opt.isCorrect) correctIdx = i;
+    });
+    if (correctIdx === -1 && correctAnswerText) {
+      letterOptions.forEach((opt, i) => {
+        const cleanOpt = opt.text.replace(/^[A-D]:\s*/, '').trim();
+        if (cleanOpt === correctAnswerText.trim()) {
+          correctIdx = i;
+        }
+      });
+    }
+
+    // Render quiz-relevant blocks (before "Correct Answer!" heading, and skip the answer paragraph)
+    let quizBlocks = [];
+    if (data.blocks) {
+      let stopIdx = data.blocks.length;
+      for (let i = 0; i < data.blocks.length; i++) {
+        if (data.blocks[i].type === 'heading' && data.blocks[i].content === 'Correct Answer!') {
+          // Exclude the paragraph before it too (it's the answer text)
+          stopIdx = i > 0 && data.blocks[i-1].type === 'paragraph' ? i - 1 : i;
+          break;
+        }
+      }
+      quizBlocks = data.blocks.slice(0, stopIdx);
+    }
+
+    let html = '';
+    html += `<div class="quiz-container">`;
+    html += `<div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Quiz</div>`;
+
+    // Render content blocks (code, etc.) for quiz context
+    html += renderBlocks(quizBlocks);
+
+    // Question
+    if (questionText) {
+      html += `<div class="quiz-question">${renderInlineCode(questionText)}</div>`;
+    }
+
+    // Options
+    html += `<div class="quiz-options" id="quiz-options">`;
+    letterOptions.forEach((opt, i) => {
+      const letter = opt.text.charAt(0);
+      const text = opt.text.replace(/^[A-D]:\s*/, '');
+      html += `<button class="quiz-option" data-idx="${i}" data-correct="${i === correctIdx}">`;
+      html += `<span class="quiz-option-letter">${letter}</span>`;
+      html += `<span>${renderInlineCode(text)}</span>`;
+      html += `</button>`;
+    });
+    html += `</div>`;
+
+    // Explanation area (hidden initially)
+    const hint = quiz.hint || '';
+    html += `<div class="quiz-explanation" id="quiz-explanation">`;
+    html += `<div class="quiz-explanation-title" id="quiz-explanation-title"></div>`;
+    html += `<div class="quiz-explanation-text" id="quiz-explanation-text">${hint ? renderInlineCode(hint) : ''}</div>`;
+    html += `</div>`;
+
+    html += `</div>`;
+    return html;
+  }
+
+  function bindQuizEvents() {
+    const options = document.querySelectorAll('#quiz-options .quiz-option');
+    if (!options.length) return;
+
+    state.quizAnswered = false;
+
+    options.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (state.quizAnswered) return;
+        state.quizAnswered = true;
+
+        const isCorrect = btn.dataset.correct === 'true';
+        const idx = parseInt(btn.dataset.idx);
+
+        // Disable all
+        options.forEach(b => b.disabled = true);
+
+        // Mark selected
+        if (isCorrect) {
+          btn.classList.add('correct');
+        } else {
+          btn.classList.add('incorrect');
+          // Reveal correct
+          options.forEach(b => {
+            if (b.dataset.correct === 'true') {
+              b.classList.add('correct-reveal');
+            }
+          });
+        }
+
+        // Show explanation
+        const $expl = document.getElementById('quiz-explanation');
+        const $explTitle = document.getElementById('quiz-explanation-title');
+        if ($expl) {
+          $expl.classList.add('visible');
+          if (isCorrect) {
+            $explTitle.textContent = '✓ Correct!';
+            $explTitle.className = 'quiz-explanation-title correct';
+          } else {
+            $explTitle.textContent = '✗ Incorrect';
+            $explTitle.className = 'quiz-explanation-title incorrect';
+          }
+        }
+      });
+    });
+  }
+
+  // ===== COPY CODE =====
+  window.copyCode = function(btn) {
+    const pre = btn.closest('.block-code-wrap').querySelector('.block-code-content');
+    const text = pre.textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = 'Copy';
+        btn.classList.remove('copied');
+      }, 2000);
+    }).catch(() => {
+      btn.textContent = 'Failed';
+      setTimeout(() => { btn.textContent = 'Copy'; }, 2000);
+    });
+  };
+
+  // ===== NAVIGATION =====
+  function renderNavBar() {
+    const hasPrev = state.currentPage > 0 || state.currentLesson > 0 || state.currentLevel > 0;
+    const hasNext = canGoNext();
+
+    let html = '';
+    html += `<button class="nav-btn" id="btn-prev" ${!hasPrev ? 'disabled' : ''}>`;
+    html += `<span class="nav-arrow">←</span> Previous`;
+    html += `</button>`;
+
+    html += `<span class="nav-page-info">${state.currentPage + 1} of ${state.totalPages}</span>`;
+
+    html += `<button class="nav-btn primary" id="btn-next" ${!hasNext ? 'disabled' : ''}>`;
+    html += `Next <span class="nav-arrow">→</span>`;
+    html += `</button>`;
+
+    $navBar.innerHTML = html;
+
+    document.getElementById('btn-prev')?.addEventListener('click', goPrev);
+    document.getElementById('btn-next')?.addEventListener('click', goNext);
+  }
+
+  function canGoNext() {
+    // Can go next page in current lesson
+    if (state.currentPage < state.totalPages - 1) return true;
+    // Can go next lesson
+    const level = state.structure.levels[state.currentLevel];
+    if (state.currentLesson < level.lessons.length - 1) return true;
+    // Can go next level
+    if (state.currentLevel < state.structure.levels.length - 1) return true;
+    return false;
+  }
+
+  function goNext() {
+    if (state.currentPage < state.totalPages - 1) {
+      navigateToPage(state.currentPage + 1);
+    } else {
+      // Next lesson
+      const level = state.structure.levels[state.currentLevel];
+      if (state.currentLesson < level.lessons.length - 1) {
+        navigateToLesson(state.currentLevel, state.currentLesson + 1, 0);
+      } else if (state.currentLevel < state.structure.levels.length - 1) {
+        navigateToLesson(state.currentLevel + 1, 0, 0);
+      }
+    }
+  }
+
+  function goPrev() {
+    if (state.currentPage > 0) {
+      navigateToPage(state.currentPage - 1);
+    } else {
+      // Previous lesson
+      if (state.currentLesson > 0) {
+        navigateToLessonLastPage(state.currentLevel, state.currentLesson - 1);
+      } else if (state.currentLevel > 0) {
+        const prevLevel = state.structure.levels[state.currentLevel - 1];
+        navigateToLessonLastPage(state.currentLevel - 1, prevLevel.lessons.length - 1);
+      }
+    }
+  }
+
+  async function navigateToLessonLastPage(levelIdx, lessonIdx) {
+    try {
+      const path = getLessonPath(levelIdx, lessonIdx);
+      const meta = await fetchJSON(`${path}/meta.json`);
+      const lastPage = (meta.totalSubLessons || 1) - 1;
+      await navigateToLesson(levelIdx, lessonIdx, lastPage);
+    } catch (e) {
+      console.error('Error navigating to last page:', e);
+    }
+  }
+
+  async function navigateToLesson(levelIdx, lessonIdx, pageIdx) {
+    state.currentLevel = levelIdx;
+    state.currentLesson = lessonIdx;
+    state.currentPage = pageIdx;
+
+    try {
+      const path = getLessonPath(levelIdx, lessonIdx);
+      const meta = await fetchJSON(`${path}/meta.json`);
+      state.lessonMeta = meta;
+      state.totalPages = meta.totalSubLessons || 1;
+      state.currentPage = Math.min(pageIdx, state.totalPages - 1);
+
+      await loadPage();
+      updateSidebarActive();
+      saveProgress();
+    } catch (e) {
+      console.error('Error loading lesson:', e);
+      $content.innerHTML = `<div style="text-align:center;padding:60px 20px;"><p style="color:var(--text-secondary);">Failed to load this lesson. Please try another one.</p></div>`;
+      renderNavBar();
+    }
+  }
+
+  async function navigateToPage(pageIdx) {
+    state.currentPage = pageIdx;
+    await loadPage();
+    saveProgress();
+  }
+
+  async function loadPage() {
+    // Fade out
+    $content.classList.add('fade-out');
+    await new Promise(r => setTimeout(r, 200));
+
+    try {
+      const path = getLessonPath(state.currentLevel, state.currentLesson);
+      const pageFile = String(state.currentPage).padStart(2, '0') + '.json';
+      const data = await fetchJSON(`${path}/${pageFile}`);
+      state.pageData = data;
+
+      let html = '';
+
+      if (data.type === 'quiz' || (data.quiz && data.quiz.type)) {
+        html = renderQuiz(data);
+      } else {
+        html = renderBlocks(data.blocks || []);
+      }
+
+      $content.innerHTML = html;
+
+      // Bind quiz events if quiz
+      if (data.type === 'quiz' || (data.quiz && data.quiz.type)) {
+        bindQuizEvents();
+      }
+
+      renderBreadcrumb();
+      renderProgress();
+      renderNavBar();
+
+      // Scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } catch (e) {
+      console.error('Error loading page:', e);
+      $content.innerHTML = `<div style="text-align:center;padding:60px 20px;"><p style="color:var(--text-secondary);">Failed to load page content.</p></div>`;
+      renderNavBar();
+    }
+
+    // Fade in
+    $content.classList.remove('fade-out');
+  }
+
+  // ===== SIDEBAR TOGGLE =====
+  function openSidebar() {
+    document.body.classList.add('sidebar-open');
+  }
+  function closeSidebar() {
+    document.body.classList.remove('sidebar-open');
+  }
+  function toggleSidebar() {
+    document.body.classList.toggle('sidebar-open');
+  }
+
+  $menuToggle.addEventListener('click', toggleSidebar);
+  $overlay.addEventListener('click', closeSidebar);
+
+  // ===== KEYBOARD NAV =====
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      goNext();
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      goPrev();
+    }
+  });
+
+  // ===== INIT =====
+  async function init() {
+    try {
+      const structure = await fetchJSON('structure.json');
+      state.structure = structure;
+
+      if (!structure.levels || !structure.levels.length) {
+        throw new Error('No course levels found in structure.json');
+      }
+
+      renderSidebar();
+
+      // Restore progress
+      const saved = loadProgress();
+      let startLevel = 0, startLesson = 0, startPage = 0;
+      if (saved) {
+        if (saved.level < structure.levels.length) {
+          startLevel = saved.level;
+          if (saved.lesson < structure.levels[saved.level].lessons.length) {
+            startLesson = saved.lesson;
+          }
+          startPage = saved.page || 0;
+        }
+      }
+
+      await navigateToLesson(startLevel, startLesson, startPage);
+
+      // Hide loading
+      $loading.classList.add('hidden');
+    } catch (e) {
+      console.error('Init error:', e);
+      $loading.classList.add('hidden');
+      $errorMsg.textContent = `Error: ${e.message}. Please ensure structure.json and lesson data files exist, and you're serving this page via an HTTP server (not file://).`;
+      $error.classList.add('visible');
+    }
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>

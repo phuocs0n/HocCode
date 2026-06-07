@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/class-composition?page=2",
+  "title": "Composing with Classes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Composing with Classes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the full pattern. Each class stays small and focused, and the Game class combines them using everything you have learned - classes, constructors, template literals, and object properties."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1class User {\n2    constructor(name, role) {\n3        this.name = name;\n4        this.role = role;\n5    }\n6\n7    describe() {\n8        return `${this.name} (${this.role})`;\n9    }\n10}\n11\n12class Task {\n13    constructor(title, priority) {\n14        this.title = title;\n15        this.priority = priority;\n16    }\n17\n18    describe() {\n19        return `${this.title} [${this.priority}]`;\n20    }\n21}\n22\n23class TaskBoard {\n24    constructor() {\n25        this.task = new Task(\"Fix login\", \"high\");\n26        this.user = new User(\"Abidit\", \"developer\");\n27        this.active = false;\n28    }\n29\n30    start() {\n31        this.active = true;\n32        return `Board active - ${this.user.describe()} assigned ${this.task.describe()}`;\n33    }\n34}\n35\n36const board = new TaskBoard();\n37console.log(board.start());"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, TaskBoard does not extend Task or User. It creates them in its constructor and uses them through their public methods. Each class stays small and testable on its own. If you need to change how tasks are described, you edit the Task class. If you need a different user format, you change the User class. The TaskBoard class just coordinates."
+    },
+    {
+      "type": "image",
+      "alt": "Composition vs Inheritance",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDBiZWI2OWViOTE0MDU5ZWVmLTAwNmExN2NmNDYtYWU1M2VhMGUtc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmFlNTNlYTBlLXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

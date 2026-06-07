@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/local-variables?page=3",
+  "title": "Ví dụ: Phạm vi của một biến",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Phạm vi của một biến"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4   int x = 5;\n5\n6    // Create a new scope\n7   { \n8\n9       int y = 56; \n10       // y in current scope is 56.\n11       printf(\"%d\\n\", y);\n12     }  \n13     // y in not accessible outside the scope\n14\n15     // Attempt to access and print y outside the scope\n16     // printf(\"%d\", y);\n17     // Error: cannot access y\n18}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "56"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, chúng ta đã sử dụng { để tạo phạm vi mới trong hàm chính. Trong phạm vi mới được tạo đó, chúng tôi đã tạo một biến y."
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến y chỉ có thể truy cập được trong phạm vi được xác định. Vì vậy, nếu chúng ta thử in biến ngoài phạm vi, chúng ta sẽ gặp lỗi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vì vậy, một biến là cục bộ trong phạm vi mà nó được xác định. Tiếp theo, chúng ta sẽ xem xét tại sao các biến cục bộ lại quan trọng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,74 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/grouping-related-content?page=3",
+  "title": "The section Tag: A Meaningful Group",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The section Tag: A Meaningful Group"
+    },
+    {
+      "type": "paragraph",
+      "content": "When grouped content represents one clear idea or topic, developers use <section>."
+    },
+    {
+      "type": "paragraph",
+      "content": "Key Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "A <section> usually has a heading."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section>\n2  <h2>What You Will Learn</h2>\n3  <p>\n4    This blog teaches HTML fundamentals through simple, practical examples.\n5  </p>\n6</section>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Compared to <div>, <section> adds meaning to the group."
+    },
+    {
+      "type": "paragraph",
+      "content": "Developer's Note:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Personally, I didn't know <section> added meaning while <div> didn't when I started out as a junior developer (I thought they were interchangeable)."
+    },
+    {
+      "type": "paragraph",
+      "content": "They didn't teach such stuff in my class 😔"
+    },
+    {
+      "type": "paragraph",
+      "content": "It was only when my supervisor pointed out the difference that things finally clicked!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,82 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/bubble-sort?page=4",
+  "title": "Thought Process to Implement Bubble Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process to Implement Bubble Sort"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we understand the workings of bubble sort, let's see how we can implement the programming logic based on its principles."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Compare the first element with its next element and swap them if necessary."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bubble Sort is based on comparing and swapping two adjacent elements, so we need to write code that does the same."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "if (arr[0] > [arr[1]) {\n    // Swap adjacent elements\n    swap(arr[0], arr[1];\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Based on the order in which we are sorting, we might have to change the operation"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "arr[0] > arr[1] for ascending order",
+        "arr[0] < arr[1] for descending order"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Perform comparison and swapping for all vector elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our algorithm compares each element with its next element, so we will use a for loop."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for (int j = 0; j < arr.size() - 1; ++j) {\n    // Compare and swap if they are in wrong order\n    if (arr[j] > arr[j+1]) {\n        swap(arr[j], arr[j+1]);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the last element doesn't have any next element, we only need to run the loop up to the last element (denoted by j < arr.size() - 1)."
+    },
+    {
+      "type": "paragraph",
+      "content": "This will sort the largest element in the vector."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

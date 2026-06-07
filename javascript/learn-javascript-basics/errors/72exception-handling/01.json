@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/handling-errors?page=2",
+  "title": "The try...catch Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The try...catch Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of the try...catch statement is:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "try {\n    // Code that might cause an exception\n} catch (error) {\n    // Code to handle the exception\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the try block, you write code that might cause an exception.",
+        "The catch block handles any exception that occurs inside try. If there's no exception, the catch block is skipped."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see how try...catch works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

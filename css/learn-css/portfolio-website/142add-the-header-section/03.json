@@ -1,0 +1,64 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/add-header-section?page=4",
+  "title": "Style Logo",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Style Logo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the CSS to style the logo:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header class=\"header\">\n2    <div class=\"logo\">Jane</div>\n3    <div class=\"nav\">\n4        <a href=\"#projects\">Projects</a>\n5        <a href=\"#contact\">Contact</a>\n6    </div>\n7</header>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.logo {\n2    font-size: 32px;\n3    font-weight: 400;\n4    font-family: Galdeano, sans-serif;\n5    color: white;\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this code,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "font-size: 32px makes the logo text prominent and easy to notice.",
+        "font-weight: 400 keeps the text from being too bold, giving it a clean, professional look.",
+        "font-family: Galdeano, sans-serif applies the imported Galdeano font, giving it a modern, professional style that pairs well with the rest of the header.",
+        "color: white keeps the logo text white to standout against the header background, enhancing readability."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's style the navigation links to space them out and polish their appearance."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

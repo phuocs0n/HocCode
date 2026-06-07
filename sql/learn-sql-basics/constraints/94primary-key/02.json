@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/primary-key?page=3",
+  "title": "The AUTOINCREMENT Keyword",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The AUTOINCREMENT Keyword"
+    },
+    {
+      "type": "paragraph",
+      "content": "Often, while inserting data, you accidentally try to add duplicate or null values to the primary key column."
+    },
+    {
+      "type": "paragraph",
+      "content": "To avoid these issues and ensure that each row is automatically assigned a unique identifier, SQL provides the AUTOINCREMENT keyword to use with the PRIMARY KEY constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you add the AUTOINCREMENT keyword to a column of an integer data type, the value of that column is automatically incremented every time a new row is inserted into the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how it works in SQL:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Books (\n2    id INTEGER PRIMARY KEY AUTOINCREMENT,\n3    title VARCHAR(100) NOT NULL,\n4    book_code VARCHAR(20) UNIQUE,\n5    publisher VARCHAR(100)\n6);\n7\n8\n9INSERT INTO Books (title, book_code, publisher)\n10VALUES ('The Great Gatsby', 'BC123', 'ABC Publishing');\n11\n12INSERT INTO Books (title, book_code, publisher)\n13VALUES ('Harry Potter', 'BC456', 'XYZ Publishing');\n14\n15INSERT INTO Books (title, book_code, publisher)\n16VALUES ('To Kill a Mockingbird', 'BC789', 'Penguin Books');"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you run the code, you'll see that the id column is automatically filled with unique values (1, 2, 3, etc.) for each book, even without manually entering them."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

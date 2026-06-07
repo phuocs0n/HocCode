@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-string?page=2",
+  "title": "Frequency of a Character",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Frequency of a Character"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given a string and a character. We need to find the number of times this character is present in the string."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to access each character of the string using a for loop. Then, we need to compare those characters with the given character using if..else."
+    },
+    {
+      "type": "paragraph",
+      "content": "If there is a match, we need to record the number of matches."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2#include <string.h>\n3\n4int main() {\n5\n6  char text[] = \"C programming is interesting.\";\n7  char ch = 'e';\n8\n9  // variable to store the occurrence\n10  int frequency = 0;\n11\n12  // access each character \n13  for (int i = 0; i < strlen(text); ++i) {\n14\n15    // compare each character with the given character\n16    // if match found, increase frequency\n17    if (ch == text[i]) {\n18      ++frequency;\n19    }\n20  }\n21\n22  printf(\"%d\", frequency);    // 2\n23\n24  return 0;\n25}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

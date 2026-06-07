@@ -1,0 +1,136 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/drop-table?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens when you execute the following SQL statement?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "DROP TABLE IF EXISTS Customers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Customers table is deleted only if it exists in the database."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! The IF EXISTS clause checks for the table's existence before deleting it, preventing errors if the table doesn't exist."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! The IF EXISTS clause checks for the table's existence before deleting it, preventing errors if the table doesn't exist."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Customers table is always deleted, even if it doesn't exist."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Not quite! Without the IF EXISTS clause, this would cause an error if the table wasn't found."
+    },
+    {
+      "type": "paragraph",
+      "content": "Not quite! Without the IF EXISTS clause, this would cause an error if the table wasn't found."
+    },
+    {
+      "type": "paragraph",
+      "content": "All records from the Customers table are deleted but keep the table structure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Oops! You're thinking of the TRUNCATE statement. DROP TABLE removes both the data and the table structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Oops! You're thinking of the TRUNCATE statement. DROP TABLE removes both the data and the table structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Multiple tables named Customers get deleted across all databases."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nope! DROP TABLE only affects the specified table within the current database, not across multiple databases."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nope! DROP TABLE only affects the specified table within the current database, not across multiple databases."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens when you execute the following SQL statement?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The Customers table is deleted only if it exists in the database.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The Customers table is deleted only if it exists in the database.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The Customers table is always deleted, even if it doesn't exist.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The Customers table is always deleted, even if it doesn't exist.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:All records from the Customers table are deleted but keep the table structure.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "All records from the Customers table are deleted but keep the table structure.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Multiple tables named Customers get deleted across all databases.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Multiple tables named Customers get deleted across all databases.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

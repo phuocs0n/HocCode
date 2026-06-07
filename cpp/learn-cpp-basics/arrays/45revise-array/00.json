@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-array?page=1",
+  "title": "Summary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the summary of what we have learned so far in this chapter."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create an Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "An array is the collection of similar types of data."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int numbers[5] = {1, 2, 3, 4, 5};\n7\n8    cout << \"Numbers: \";\n9\n10    for (int i = 0; i < 5; ++i) {\n11        cout << numbers[i] << \" \";\n12    }\n13\n14    return 0;\n15}\n16\n17// Output: Numbers: 1  2  3  4  5"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Pass Array as Function Argument"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also pass an array to a function as the argument."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// function to find sum\n5int find_sum(int numbers[5]) {\n6\n7    int sum = 0;\n8    \n9    for (int i = 0; i < 5; ++i) {\n10        sum = sum + numbers[i];\n11    }\n12    \n13    return sum;\n14}\n15\n16int main() {\n17\n18    int numbers[5] = {1, 2, 3, 4, 5};\n19  \n20    // pass the array as function argument\n21    int result = find_sum(numbers);\n22\n23    cout << \"Sum: \" << result;\n24\n25    return 0;\n26}\n27\n28// Output:\n29// Sum: 15"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

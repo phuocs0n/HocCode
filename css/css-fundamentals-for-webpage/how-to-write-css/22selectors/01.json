@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/selectors?page=1",
+  "title": "Element, Class, and ID Selectors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Element, Class, and ID Selectors"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, you wrote CSS like this:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>\n2  If HTML is the <strong>skeleton</strong>, then <em>CSS is the paintbrush</em>\n3  for the browser. This blog helps you understand the building blocks of the web.\n4</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1p {\n2  color: #333;\n3  font-size: 16px;\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "You might not have realized it yet, but you were already using a selector. Specifically, this is called an element selector."
+    },
+    {
+      "type": "paragraph",
+      "content": "So instead of introducing something completely new, let's name and build on what you've already practiced."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

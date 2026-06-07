@@ -1,0 +1,69 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/conclusion-whats-next?page=1",
+  "title": "Summarizing What You've Learned",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summarizing What You've Learned"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've completed the course."
+    },
+    {
+      "type": "paragraph",
+      "content": "From adding your first script tag to building modals and handling forms, you've transformed a static page into an interactive one. That's not a small thing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we close, do you remember everything you covered?"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Connecting JavaScript: Linking a script to a page and responding to events like clicks and scroll",
+        "Selecting and updating: Finding elements and changing their text, attributes, or classes",
+        "Visibility with classList: Controlling what appears using classes instead of inline styles",
+        "State: Using one variable as the source of truth and updating the UI from it",
+        "Slider: Building navigation with boundaries and synced controls",
+        "Modal: Opening and closing properly, including overlay clicks and Escape",
+        "Forms: Reading values, validating input, preventing reload, and showing feedback"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Overall, the pattern remained the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "Update the state. Update the UI."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's the core idea behind interactive web apps."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

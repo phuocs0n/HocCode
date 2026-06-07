@@ -1,0 +1,97 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-struct?page=2",
+  "title": "Create struct Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create struct Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a struct like this,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "struct Person {\n  int age;\n  double salary;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's create a variable of the struct Person type."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int main() {\n\n  // create struct variables\n  struct Person person1;\n  struct Person person2;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you look carefully, the syntax looks similar to creating regular variables."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "dataType variableName;"
+    },
+    {
+      "type": "paragraph",
+      "content": "where"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "struct Person - represents data type",
+        "person1/person2 - represents variable names"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can use these struct variables to access members of the struct."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Access struct Members"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the . operator to access members of a struct."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's say we want to assign 25 to the age member using the person1 variable. Here's how we can do that"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// assign 25 to person1's age\nperson1.age = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's quite simple, right? Let's see a working example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

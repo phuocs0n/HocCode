@@ -1,0 +1,65 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/merge-two-dictionaries?page=1",
+  "title": "Merge Two Dictionaries",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Merge Two Dictionaries"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to merge two dictionaries."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a dictionary A with items {12: 'Kathmandu', 11: 'London', 3: 'Sydney'}.",
+        "Create another dictionary B with items {10: 'New York', 2: 'Delhi'}.",
+        "Merge these two dictionaries using update() and print it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output{12: 'Kathmandu', 11: 'London', 3: 'Sydney', 10: 'New York', 2: 'Delhi'}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

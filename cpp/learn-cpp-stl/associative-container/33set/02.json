@@ -1,0 +1,91 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/set?page=2",
+  "title": "Create and Initialize a Set",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create and Initialize a Set"
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to create a set, we first need to include the set header file."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <set>"
+    },
+    {
+      "type": "paragraph",
+      "content": "We then use create a set as,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Create an integer set\nset<int> numbers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also initialize this set using the following methods:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Method 1\nset<int> numbers = {3, 2, 5, 4, 3, 5, 1};\n\n// Method 2\nset<int> numbers {3, 2, 5, 4, 3, 5, 1};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the set numbers is of integer type and contains the following elements:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "{1, 2, 3, 4, 5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can then iterate through the set using a ranged for loop. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <set>\n3using namespace std;\n4\n5int main() {\n6\n7    // Create an integer set\n8    set<int> numbers {3, 2, 5, 4, 3, 5, 1};\n9\n10    for (int num : numbers) {\n11        cout << num << \", \";\n12    }\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1, 2, 3, 4, 5,"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that the keys have been arranged in ascending order and contain no duplicates, even though we have repeated the integers 3 and 5 when initializing the set."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

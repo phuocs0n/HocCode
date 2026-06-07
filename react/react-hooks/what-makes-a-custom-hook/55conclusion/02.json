@@ -1,0 +1,61 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/conclusion?page=3",
+  "title": "Hooks Mental Model: Component Analysis",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hooks Mental Model: Component Analysis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every React component can be understood with four questions:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Mental Model: React Components"
+        ],
+        [
+          "Question 1: What state does this component own?\n\nAny value that changes over time and cannot be derived from another state. Store it with useState()."
+        ],
+        [
+          "Question 2: What derived values can be computed from that state?\n\nAny value that can be calculated from an existing state. Compute it with useMemo() rather than storing it separately. Storing it separately creates two sources of truth."
+        ],
+        [
+          "Question 3: What side effects run when state changes?\n\nAny operation that reaches outside React — fetching data, setting up subscriptions, writing to the DOM. Run them with useEffect() and always clean up listeners and subscriptions."
+        ],
+        [
+          "Question 4: What function references need to stay stable?\n\nFunctions passed to child components or listed in a useEffect() dependency array. Stabilise them with useCallback() to prevent unnecessary re-renders or effect re-runs."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These four questions help you analyze what a component owns and does. The next section covers what to do when the analysis reveals too much."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

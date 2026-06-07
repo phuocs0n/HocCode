@@ -1,0 +1,55 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/base-case?page=4",
+  "title": "Example 1: Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 1: Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's modify our previous program so that the functions return a value."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function printNumbers(n) {\n2\n3    // Base case with return value\n4    if (n === 3) {\n5        return \"Done\";\n6    }\n7\n8    console.log(n);\n9\n10    return printNumbers(n + 1);\n11}\n12\n13let output = printNumbers(1);\n14console.log(output);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\nDone"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are using a recursive call as a return statement. Let's understand how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

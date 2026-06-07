@@ -1,0 +1,55 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/for-loop?page=3",
+  "title": "Example: for Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: for Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we want to write a program that prints a sentence 3 times. Our program will look like this:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3\n4        for (int i = 1; i <= 3; ++i) {\n5            System.out.println(\"I am inside the for loop.\");\n6            System.out.println(\"for Loop is easy.\");\n7        }\n8    }\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside the for loop.\nfor Loop is easy.\nI am inside the for loop.\nfor Loop is easy.\nI am inside the for loop.\nfor Loop is easy."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how this code works on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

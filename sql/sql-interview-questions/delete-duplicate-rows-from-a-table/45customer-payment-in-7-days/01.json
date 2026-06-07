@@ -1,0 +1,212 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/customer-payment-in--days?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a Customers table with columns customer_id, name, visited_on, and amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "Our goal is to write a query that computes the moving average of how much the customers paid in a seven days window (i.e., current day + 6 days before)."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we need to understand two key concepts: Window Function and Moving Average."
+    },
+    {
+      "type": "paragraph",
+      "content": "Moving Average refers to the cumulative average of all preceding and current rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "customer_id",
+          "name",
+          "visited_on",
+          "amount",
+          "moving_average"
+        ],
+        [
+          "1",
+          "Dennis",
+          "2023-01-01",
+          "100",
+          "100"
+        ],
+        [
+          "2",
+          "Harry",
+          "2023-01-02",
+          "200",
+          "(100 + 200)/2 = 150"
+        ],
+        [
+          "3",
+          "Marcus",
+          "2023-01-03",
+          "110",
+          "(100+ 200+110)/3 = 136.67"
+        ],
+        [
+          "4",
+          "Wayne",
+          "2023-01-04",
+          "140",
+          "(100 + 200 +110 + 140)/4 = 137.5"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "A window function calculates across a set of table rows related to the current row."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, we can use the OVER() function to define the window or subset of rows over which the function operates. Here's the syntax of the OVER() function:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "OVER (\n  PARTITION BY partition_column\n  ORDER BY order_column\n  [window_frame_clause]\n)\nAS alias\nFROM table_name;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "PARTITION BY partition_column is optional and allows you to divide the result set into partitions or groups based on the values in the partition_column. The aggregate function will be applied separately within each partition."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "ORDER BY order_column  specifies the ordering of rows within each partition. The aggregate function will be applied in the order specified."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "window_frame_clause is optional and allows you to define the window frame or range of rows over which the aggregate function operates."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Two common window frame clauses include:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "ROWS BETWEEN x PRECEDING AND y FOLLOWING\n\nROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW"
+    },
+    {
+      "type": "paragraph",
+      "content": "When using the OVER() function, we can further refine the window specification by specifying the ordering of the rows within the window."
+    },
+    {
+      "type": "paragraph",
+      "content": "The PRECEDING and CURRENT ROW keywords are used to define the boundaries of the window in relation to the current row being processed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you can approach the question in the following way:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Select the visited_on and average_amount columns from the Customers table."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The average_amount is an alias with a Round function that can round the result to a set decimal point."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Then, use the OVER() function with the 7-Day Window represented by ROWS BETWEEN 6 PRECEDING AND CURRENT ROW."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The resulting table will be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "visited_on",
+          "average_amount"
+        ],
+        [
+          "2023-01-01",
+          "100"
+        ],
+        [
+          "2023-01-02",
+          "150"
+        ],
+        [
+          "2023-01-03",
+          "136.67"
+        ],
+        [
+          "2023-01-04",
+          "137.5"
+        ],
+        [
+          "2023-01-05",
+          "140"
+        ],
+        [
+          "2023-01-06",
+          "143.33"
+        ],
+        [
+          "2023-01-06",
+          "147.14"
+        ],
+        [
+          "2023-01-06",
+          "151.43"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

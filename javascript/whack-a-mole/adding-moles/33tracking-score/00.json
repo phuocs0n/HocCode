@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/whack-a-mole/tracking-score?page=1",
+  "title": "Keeping Count! 🎯",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Keeping Count! 🎯"
+    },
+    {
+      "type": "paragraph",
+      "content": "Great work! Your moles can now pop up and disappear when clicked. But there's one crucial thing missing: the score."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, your game has no way to track how many moles the player has hit. Every game needs feedback—players want to know how well they're doing!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll add score tracking. Every time a player clicks a mole, the score will increase and update on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of this lesson:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Clicking a mole will add 1 point",
+        "The score will display on screen",
+        "Your game will feel more complete and rewarding"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's make hits count!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,64 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/transitions?page=5",
+  "title": "Change Multiple Property Values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Change Multiple Property Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's add a transition to scale the \"No\" button."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we already have a transition for rotate, here's how you can add another transition for scale:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "transition: rotate 1s linear, scale 1s ease;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is what our code looks like after the addition:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div id=\"container\">\n2    <h1>In your opinion, is it fair for CSS to be overlooked as a non-programming language?</h1>\n3    <button class=\"yes\">Yes</button>\n4    <button class=\"no\">No</button>\n5</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1button {\n2    transition: rotate 1s linear, scale 1s ease;\n3}\n4\n5.yes:hover {\n6    rotate: 360deg;\n7}\n8\n9.no:hover {\n10    scale: 1.5;\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code to see how the \"Yes\" and \"No\" buttons animate."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

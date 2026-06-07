@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/usecontext-theme-toggle?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens when the value inside a Context Provider changes?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "All components that called useContext() with that context object re-render with the new value"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useContext() creates a subscription. When the Provider's value updates, every subscriber re-renders."
+    },
+    {
+      "type": "paragraph",
+      "content": "useContext() creates a subscription. When the Provider's value updates, every subscriber re-renders."
+    },
+    {
+      "type": "paragraph",
+      "content": "The entire app re-renders from the root, including components not using context"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React only re-renders the components that are subscribed to that context."
+    },
+    {
+      "type": "paragraph",
+      "content": "React only re-renders the components that are subscribed to that context."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the component that called toggleTheme() re-renders"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "toggleTheme() lives in the Provider. The component calling it re-renders, but that's not the full picture."
+    },
+    {
+      "type": "paragraph",
+      "content": "toggleTheme() lives in the Provider. The component calling it re-renders, but that's not the full picture."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nothing happens until the user navigates to a new page"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Context updates are reactive and immediate, no navigation needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Context updates are reactive and immediate, no navigation needed."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens when the value inside a Context Provider changes?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:All components that called useContext() with that context object re-render with the new value",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "All components that called useContext() with that context object re-render with the new value",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The entire app re-renders from the root, including components not using context",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The entire app re-renders from the root, including components not using context",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Only the component that called toggleTheme() re-renders",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Only the component that called toggleTheme() re-renders",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Nothing happens until the user navigates to a new page",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Nothing happens until the user navigates to a new page",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

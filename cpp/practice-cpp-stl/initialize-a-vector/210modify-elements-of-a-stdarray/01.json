@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/modify-elements-of-stdarray?page=1",
+  "title": "Modify Elements of a std::array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Modify Elements of a std::array"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to modify elements of a std::array."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get integer inputs for index and value variables.",
+        "Declare an integer array called marks and initialize it with the values 12, 24, and 36.",
+        "Print the array.",
+        "Change the element at the index position of the array.",
+        "Print the updated array in a new line."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Assumption: The user will only enter the numbers 0, 1, and 2 for index."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: Use the at() function to change the element at the specified index."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputindex = 0\nvalue = 48"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output12, 24, 36, \n48, 24, 36,"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

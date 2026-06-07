@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=2",
+  "title": "Vòng lặp while",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Vòng lặp while"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C có 2 loại vòng lặp: vòng lặp while và vòng lặp for. Chúng ta cùng tìm hiểu về vòng lặp while trong bài học này."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cú pháp của vòng lặp while là:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "while (booleanExpression) {\n  // statement\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vòng lặp while chạy các câu lệnh bên trong nó miễn là điều kiện được đánh giá là đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Không giống như câu lệnh if chỉ thực hiện một lần, vòng lặp while liên tục kiểm tra điều kiện và tiếp tục thực hiện cho đến khi điều kiện được đánh giá là sai."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy hiểu điều này hơn nữa với sự trợ giúp của một ví dụ tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

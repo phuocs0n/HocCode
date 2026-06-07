@@ -1,0 +1,93 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-operations?page=2",
+  "title": "Array Filtering",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Filtering"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can filter arrays based on conditions to obtain an identical sized array of booleans which describes if the condition is satisfied at an index in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's say we want to identify where in an array we have negative values. We can filter the array based on the condition less than 0."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2array1 = np.array([[1,2,-1,-2,10,12,20],\n3                   [1,2,3,-6,1,-10,-1]])\n4\n5print(\"Original array : \\n\",array1)\n6\n7print(\"Identify Negative values:\")\n8print(array1<0)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Original array : \n[[  1   2  -1  -2  10  12  20]\n [  1   2   3  -6   1 -10  -1]]\n\nIdentify Negative values:\n[[False False  True  True False False False]\n [False False False  True False  True  True]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we have identified the negative values from the array1 array, let's filter array1 and obtain only negative values."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2array1 = np.array([[1,2,-1,-2,10,12,20],\n3                   [1,2,3,-6,1,-10,-1]])\n4\n5filtered_arr = array1[array1 < 0]\n6\n7print(filtered_arr)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[ -1  -2  -6 -10  -1]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, filtering can be divided into two parts."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we perform array1<0. This will create a boolean array of the same shape and size as array1. In this boolean array, the element is True if the element in array1<0 and False otherwise. This boolean array is also called a boolean mask."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the second part, we are using this boolean mask as an index for array1. This returns a 1-D array containing only the elements where the corresponding position in the boolean mask is True."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of boolean masking as a technique to select elements from an array based on a boolean condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Don't worry about boolean masking, we'll discuss it later in this course."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

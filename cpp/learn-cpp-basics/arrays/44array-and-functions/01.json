@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/array-functions?page=2",
+  "title": "Array Element as Function Argument",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Element as Function Argument"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember how we access array elements?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int ages[5] = {25, 31, 30, 17, 39};\n7\n8    // access first element\n9    cout << ages[0] << endl;  // 25\n10  \n11    // access third element\n12    cout << ages[2];  // 30\n13  \n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, each individual element of an array acts like a regular variable. And we can pass these elements to a function in a similar way we pass variables/values to functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// function to return the larger value\n5int find_larger(int age1, int age2) {\n6\n7    // compare two ages and return the larger age\n8    if (age1 > age2) {\n9        return age1;\n10    }\n11    else {\n12        return age2;\n13    }\n14}\n15\n16int main() {\n17\n18    int ages[5] = {25, 31, 30, 17, 39};\n19\n20    // call the function with second and fifth array element\n21    int result = find_larger(ages[1], ages[4]);\n22    cout << result;\n23 \n24    return 0;\n25}\n26\n27// Output: 39"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have passed two array elements to the find_larger() function."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "age1 argument takes the value ages[1] (31)",
+        "age2 parameter takes the value ages[4] (39)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The function then compares the two ages and returns the larger age. In our case, it's 39."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the program works similar to passing variables to a function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-cpp/example-check-palindrome-strings?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4bool check_palindrome(string text) {\n5\n6    // if the string is empty or contains a single character,\n7    // the string is a palindrome\n8    if (text.empty() || text.length() == 1) {\n9        return true;\n10\n11    }\n12    \n13    // check if the first and last characters are the same\n14    if (text[0] == text[text.length() - 1]) {\n15        return check_palindrome(text.substr(1, text.length() - 2));\n16    }\n17    else {\n18        return false;\n19    }\n20}\n21\n22int main() {\n23\n24    bool result = check_palindrome(\"level\");\n25    cout << (result ? \"Palindrome\" : \"Not Palindrome\");\n26\n27    return 0;\n28\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Palindrome"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will look at how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

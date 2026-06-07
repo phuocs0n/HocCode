@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/looping-object-elements?page=2",
+  "title": "Accessing All Object Properties",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Accessing All Object Properties"
+    },
+    {
+      "type": "paragraph",
+      "content": "When working with arrays, you used the for and for...of loop to easily access each element. However, these loops aren't designed for working with objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "To loop through an object's properties, JavaScript provides the for...in loop. This loop allows you to go through each key in an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the syntax:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "for (let key in object) {\n    // statement(s)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, key is a variable that holds the current property name in each iteration. Looping through the keys also means you can use object[key] to get the value linked to that key."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

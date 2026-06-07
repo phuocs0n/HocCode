@@ -1,0 +1,69 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/ifelse-statement?page=2",
+  "title": "The if Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The if Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with a simple if statement first. Then, we'll learn about the if...else statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of the if statement is:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "if (booleanExpression) {\n statement(s)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is how it works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement evaluates booleanExpression that results in either true or false."
+    },
+    {
+      "type": "paragraph",
+      "content": "If booleanExpression is:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "true - statements inside if are executed.",
+        "false - statements inside if are skipped from execution."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a working example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

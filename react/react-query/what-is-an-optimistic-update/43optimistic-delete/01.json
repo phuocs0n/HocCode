@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/optimistic-delete?page=2",
+  "title": "The Full TaskList.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Full TaskList.jsx"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'\n2import { useState } from 'react'\n3import { fetchTasks, createTask, updateTask, deleteTask } from './api'\n4import { taskKeys } from './queryKeys'\n5 \n6export default function TaskList() {\n7  const [title, setTitle] = useState('')\n8  const [status, setStatus] = useState('')\n9  const queryClient = useQueryClient()\n10 \n11  const { data: tasks, isLoading, isError } = useQuery({\n12    queryKey: taskKeys.list({ status }),\n13    queryFn: () => fetchTasks({ status }),\n14  })\n15 \n16  const createMutation = useMutation({\n17    mutationFn: createTask,\n18    onSuccess: (data) => {\n19      queryClient.setQueryData(taskKeys.list({ status }), (old) => [\n20        ...old,\n21        { id: data.id, title: data.todo, status: 'open' }\n22      ])\n23    }\n24  })\n25 \n26  const updateMutation = useMutation({\n27    mutationFn: updateTask,\n28    onMutate: async (updatedTask) => {\n29      await queryClient.cancelQueries({ queryKey: taskKeys.list({ status }) })\n30      const previousTasks = queryClient.getQueryData(taskKeys.list({ status }))\n31      queryClient.setQueryData(taskKeys.list({ status }), (old) =>\n32        old.map(t => t.id === updatedTask.id ? { ...t, ...updatedTask } : t)\n33      )\n34      return { previousTasks }\n35    },\n36    onError: (error, updatedTask, context) => {\n37      queryClient.setQueryData(taskKeys.list({ status }), context.previousTasks)\n38    },\n39    onSettled: () => {\n40      queryClient.invalidateQueries({ queryKey: taskKeys.all })\n41    }\n42  })\n43 \n44  const deleteMutation = useMutation({\n45    mutationFn: deleteTask,\n46    onMutate: async (id) => {\n47      await queryClient.cancelQueries({ queryKey: taskKeys.list({ status }) })\n48      const previousTasks = queryClient.getQueryData(taskKeys.list({ status }))\n49      queryClient.setQueryData(taskKeys.list({ status }), (old) =>\n50        old.filter(task => task.id !== id)\n51      )\n52      return { previousTasks }\n53    },\n54    onError: (error, id, context) => {\n55      queryClient.setQueryData(taskKeys.list({ status }), context.previousTasks)\n56    },\n57    onSettled: () => {\n58      queryClient.invalidateQueries({ queryKey: taskKeys.all })\n59    }\n60  })\n61 \n62  if (isLoading) return <p>Loading...</p>\n63  if (isError) return <p>Something went wrong.</p>\n64 \n65  return (\n66    <div>\n67      <form onSubmit={e => {\n68        e.preventDefault()\n69        createMutation.mutate({ title })\n70        setTitle('')\n71      }}>\n72        <input value={title} onChange={e => setTitle(e.target.value)} placeholder='New task...' />\n73        <button type='submit'>Add</button>\n74      </form>\n75      <select value={status} onChange={e => setStatus(e.target.value)}>\n76        <option value=''>All</option>\n77        <option value='open'>Open</option>\n78        <option value='inProgress'>In progress</option>\n79        <option value='done'>Done</option>\n80      </select>\n81      <ul>\n82        {tasks.map(task => (\n83          <li key={task.id}>\n84            {task.title}\n85            <select value={task.status} onChange={e => updateMutation.mutate({ ...task, status: e.target.value })}>\n86              <option value='open'>Open</option>\n87              <option value='inProgress'>In progress</option>\n88              <option value='done'>Done</option>\n89            </select>\n90            <button onClick={() => deleteMutation.mutate(task.id)}>Delete</button>\n91          </li>\n92        ))}\n93      </ul>\n94    </div>\n95  )\n96}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const BASE = 'https://dummyjson.com/todos'\n2 \n3export function fetchTasks({ status } = {}) {\n4  return fetch(`${BASE}?limit=10`)\n5    .then(r => r.json())\n6    .then(d => d.todos.map((t, i) => ({\n7      id: t.id, title: t.todo,\n8      status: t.completed ? 'done' : (i % 3 === 1 ? 'inProgress' : 'open')\n9    })))\n10    .then(tasks => status ? tasks.filter(t => t.status === status) : tasks)\n11}\n12 \n13export function createTask(newTask) {\n14  return fetch(`${BASE}/add`, {\n15    method: 'POST',\n16    headers: { 'Content-Type': 'application/json' },\n17    body: JSON.stringify({ todo: newTask.title, completed: false, userId: 1 })\n18  }).then(res => res.json())\n19}\n20 \n21export function updateTask(task) {\n22  return fetch(`${BASE}/${task.id}`, {\n23    method: 'PATCH',\n24    headers: { 'Content-Type': 'application/json' },\n25    body: JSON.stringify({ completed: task.status === 'done' })\n26  }).then(res => res.json())\n27}\n28 \n29export function deleteTask(id) {\n30  return fetch(`${BASE}/${id}`, { method: 'DELETE' }).then(res => res.json())\n31}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react'\n2import { createRoot } from 'react-dom/client'\n3import { QueryClient, QueryClientProvider } from '@tanstack/react-query'\n4import { ReactQueryDevtools } from '@tanstack/react-query-devtools'\n5import App from './App'\n6 \n7const queryClient = new QueryClient({\n8  defaultOptions: { queries: { staleTime: 1000 * 60 } }\n9})\n10 \n11createRoot(document.getElementById('root')).render(\n12  <QueryClientProvider client={queryClient}>\n13    <App />\n14    <ReactQueryDevtools />\n15  </QueryClientProvider>\n16)"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import TaskList from './TaskList'\n2 \n3export default function App() {\n4  return <TaskList />\n5}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1export const taskKeys = {\n2  all: ['tasks'],\n3  lists: () => [...taskKeys.all, 'list'],\n4  list: (filters) => [...taskKeys.lists(), { filters }],\n5  detail: (id) => [...taskKeys.all, 'detail', id],\n6}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1{\n2  \"dependencies\": {\n3    \"react\": \"^18.2.0\",\n4    \"react-dom\": \"^18.2.0\",\n5    \"@tanstack/react-query\": \"^5.0.0\",\n6    \"@tanstack/react-query-devtools\": \"^5.0.0\"\n7  }\n8}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

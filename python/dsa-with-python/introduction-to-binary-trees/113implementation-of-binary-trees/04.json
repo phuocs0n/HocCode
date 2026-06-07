@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-binary-trees?page=5",
+  "title": "Combining the Classes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Combining the Classes"
+    },
+    {
+      "type": "paragraph",
+      "content": "So our combined code for Binary Tree looks like this"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class BinaryTreeNode:\n2    def __init__(self, data):\n3        self.data = data\n4        self.left = None\n5        self.right = None\n6\n7    def add_left_child(self, node):\n8        self.left = node\n9\n10    def add_right_child(self, node):\n11        self.right = node\n12\n13class BinaryTree:\n14    def __init__(self, root=None):\n15        self.root = root\n16\n17binary_tree = BinaryTree()"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we haven't created any nodes nor defined any hierarchy, there's nothing to process here yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we will be creating a sample tree using this skeletal code next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

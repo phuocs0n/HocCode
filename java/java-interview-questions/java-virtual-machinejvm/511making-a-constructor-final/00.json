@@ -1,0 +1,55 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/making-constructor-final?page=1",
+  "title": "Can a constructor be made final?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Can a constructor be made final?"
+    },
+    {
+      "type": "paragraph",
+      "content": "No, a constructor cannot be made final in Java. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Test {\n    \n    // error code\n    final Test () {\n        \n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we try to make a constructor final, we get the following error;"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Main.java:3: error: modifier final not allowed here\n    final Test () {\n          ^\n2 errors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Final methods prevents overriding. Constructors are also the special kind of methods but constructor cannot be inherited in subclass, hence there is no use of final keyword with constructor."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

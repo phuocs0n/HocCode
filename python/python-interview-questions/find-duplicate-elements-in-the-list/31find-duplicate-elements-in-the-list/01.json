@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/find-duplicate-elements-in-list?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the duplicate elements in a list, we first need to track all the elements encountered during the iteration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, if any element is present more than once, we can mark it as a duplicate."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this approach, we use two lists:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "seen_elements: to track all the elements we've seen so far",
+        "duplicates: to store any elements that appear more than once in the input list"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We start by initializing seen_elements as an empty list to store the elements as we encounter them during the iteration. We also create an empty duplicates list to store any duplicate elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then run a loop through each element of the input list:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If an element has already been added to seen_elements and is not yet in duplicates, it means the element is a duplicate. We then add it to the duplicates list.",
+        "If the element has not been encountered before, we add it to the seen_elements list to track it.",
+        "At the end of the loop, the duplicates list will contain all the duplicate elements."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This method effectively finds duplicates by checking each element's occurrence and using two lists to keep track of unique and duplicate elements separately."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

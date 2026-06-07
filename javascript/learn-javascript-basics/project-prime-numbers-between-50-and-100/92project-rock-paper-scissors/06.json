@@ -1,0 +1,68 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-rock-paper-scissors?page=7",
+  "title": "Step 2: Taking user input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Taking user input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's create a function to take user input among \"rock\", \"paper\" or \"scissors\"."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const getUserChoice = () => {\n2    let choice = prompt(\"Enter your choice: \");\n3    return choice;\n4};\n5\n6let userChoice = getUserChoice();\n7console.log(userChoice);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the getUserChoice() function takes user input and stores it in the userChoice variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to convert the user's choice to lowercase using choice.toLowerCase(). This is because we need to compare this value with the computer's value (which is in lowercase)."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const getUserChoice = () => {\n2    let choice = prompt(\"Enter your choice: \");\n3    choice = choice.toLowerCase();\n4    return choice;\n5};\n6\n7let userChoice = getUserChoice();\n8console.log(userChoice);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your choice: ROCK\nrock"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we are done with both choices, let's look at the game win conditions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

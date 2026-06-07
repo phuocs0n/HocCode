@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/replace-substring?page=1",
+  "title": "Replace a Substring",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Replace a Substring"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to replace 'yt' in 'Python' with the string entered by the user."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a string named language with the value \"Python\".",
+        "Take string as an input for ch variable.",
+        "Use the replace() method to replace \"yt\" with user-entered string stored in ch.",
+        "Print the new string."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: Use the string replace() method. This method takes two arguments."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "oldValue - a substring we want to replace",
+        "newValue - a substring that replaces the oldValue"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputab"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputPabhon"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/fetch-api?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why is the fetch() function used asynchronously in JavaScript?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because it sends a request and blocks the rest of your code until a response is received."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() doesn't block the rest of your code."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() doesn't block the rest of your code."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because it sends a request and doesn't block the rest of your code from running while it waits for a response."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() sends a request and runs the rest of the code asynchronously."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() sends a request and runs the rest of the code asynchronously."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because it always requires a callback function to handle the response."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() doesn't always require callback. It sends the request and runs the rest of the code asynchronously."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() doesn't always require callback. It sends the request and runs the rest of the code asynchronously."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because it automatically retries the request if it fails."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() doesn't automatically retry the request if it fails. It runs the rest of the code after sending a request."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() doesn't automatically retry the request if it fails. It runs the rest of the code after sending a request."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why is the fetch() function used asynchronously in JavaScript?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because it sends a request and blocks the rest of your code until a response is received.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because it sends a request and blocks the rest of your code until a response is received.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because it sends a request and doesn't block the rest of your code from running while it waits for a response.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because it sends a request and doesn't block the rest of your code from running while it waits for a response.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because it always requires a callback function to handle the response.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because it always requires a callback function to handle the response.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because it automatically retries the request if it fails.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because it automatically retries the request if it fails.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

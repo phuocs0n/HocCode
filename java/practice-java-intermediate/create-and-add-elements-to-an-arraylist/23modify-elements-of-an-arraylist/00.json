@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/modify-elements-of-arraylist?page=1",
+  "title": "Modify Elements of an ArrayList",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Modify Elements of an ArrayList"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to modify elements of an arraylist."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() method, declare a new integer ArrayList called marks",
+        "Take three integer inputs from the user and store them in the input1, input2, input3 variables.",
+        "Add input values in the marks arraylist using the add() method.",
+        "Print marks.",
+        "Using the set() method of marks, change its second element (index 1) to 86.",
+        "Print marks again."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input33\n44\n55"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output[33, 44, 55]\n[33, 86, 55]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

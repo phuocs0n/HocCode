@@ -1,0 +1,75 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/file-handling?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of computer files needs no introduction. In this lesson, we will learn to perform file operations, such as reading content from files and writing content to files."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three steps involved in working with files:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Opening a file",
+        "Perform file operations (read and write files)",
+        "Close the file"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we use the <fstream> library to work with files. To use this library, we must include the <fstream> header file in our program."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <fstream>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we've imported the <fstream> header file, we can now create an object of the fstream class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// create an fstream object\nfstream my_file;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can use the my_file object to read from and write to files. Next, we'll learn how to use an fstream object to open a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, our C++ compiler doesn't support working with files at the moment, so we have to rely on images."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

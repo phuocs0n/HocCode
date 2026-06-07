@@ -1,0 +1,135 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/what-youve-learned?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You want to add a \"Back to top\" button that only appears after the user scrolls down 200 pixels."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which pattern from this course fits best?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Form validation and feedback."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Form validation is used for inputs and submit handling, not for reacting to scroll position."
+    },
+    {
+      "type": "paragraph",
+      "content": "Form validation is used for inputs and submit handling, not for reacting to scroll position."
+    },
+    {
+      "type": "paragraph",
+      "content": "Modal open and close functions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Modals are for overlay dialogs, not scroll-based visibility."
+    },
+    {
+      "type": "paragraph",
+      "content": "Modals are for overlay dialogs, not scroll-based visibility."
+    },
+    {
+      "type": "paragraph",
+      "content": "Slider state with currentSlideIndex."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Slider state controls which slide is visible. It does not relate to scroll-based UI changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Slider state controls which slide is visible. It does not relate to scroll-based UI changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Scroll event, threshold, and toggling a class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Listen for scroll on window, read scrollY, compare it to a threshold like 200, and toggle a class when the condition is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Listen for scroll on window, read scrollY, compare it to a threshold like 200, and toggle a class when the condition is true."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You want to add a \"Back to top\" button that only appears after the user scrolls down 200 pixels.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Form validation and feedback.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Form validation and feedback.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Modal open and close functions.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Modal open and close functions.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Slider state with currentSlideIndex.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Slider state with currentSlideIndex.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Scroll event, threshold, and toggling a class.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Scroll event, threshold, and toggling a class.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

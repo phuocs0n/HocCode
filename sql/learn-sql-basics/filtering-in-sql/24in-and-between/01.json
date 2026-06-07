@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/in-between?page=2",
+  "title": "IN Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "IN Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The IN operator is used with the WHERE clause to match values within a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if you want to find customers who live in either the USA or UK, you can use the IN operator:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select Customers from USA or UK\n2\n3SELECT first_name, country\n4FROM Customers\n5WHERE country IN ('USA', 'UK');"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above query is equivalent to:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT first_name, country\n2FROM Customers\n3WHERE country = 'USA' OR country = 'UK';"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the SQL query selects rows if the country is USA or UK."
+    },
+    {
+      "type": "paragraph",
+      "content": "By using IN, you can simplify queries requiring multiple OR conditions. This makes the query more concise and easier to read."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can combine IN with NOT to get the NOT IN operator. Let's see that on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,57 @@
+{
+  "index": 13,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-side-effect?page=13",
+  "title": "Modifying the Codebase for the Course",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Modifying the Codebase for the Course"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll now implement some changes to our codebase so that they can better serve the purposes of this course:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Remove the 'JournalForm' component"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we're fetching journal data from an API, we don't need a journal form right now. So, we'll remove JournalForm.jsx from our codebase."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Remove the 'Edit' and 'Delete' Buttons"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our EntryCard will no longer have the Edit and Delete buttons. You don't need them for this course."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's observe the changes on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

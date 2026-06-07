@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/screen-navigation?page=3",
+  "title": "Write showScreen Function 🎬",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Write showScreen Function 🎬"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to create a function that switches between screens!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function will take a screen name as input, hide all screens, then show only the one you specified."
+    },
+    {
+      "type": "paragraph",
+      "content": "How this function works: The trick is simple:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "First, hide ALL screens (add hidden class to everything)",
+        "Then, show ONLY the screen you want (remove hidden from that one)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This ensures only one screen is ever visible at a time, no matter which screen was showing before."
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function called showScreen that accepts a screenName parameter.",
+        "The function should select all three screen elements (start-screen, play-screen, end-screen), add the \"hidden\" class to all of them.",
+        "Then use if statements to remove the \"hidden\" class from the screen matching the screenName parameter."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

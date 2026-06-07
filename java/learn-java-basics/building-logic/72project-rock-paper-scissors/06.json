@@ -1,0 +1,77 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-java-basics/project-rock-paper-scissors?page=4",
+  "title": "Step 3: Take User Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Take User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's create a method to take user input among \"rock\", \"paper\", or \"scissors\"."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4\n5    String getUserInput() {\n6\n7        Scanner input = new Scanner(System.in);\n8\n9        System.out.println(\"Enter rock, paper or scissors:\");\n10        String userInput = input.nextLine();\n11\n12        // Convert user input to lowercase\n13        userInput = userInput.toLowerCase();\n14\n15        return userInput;\n16    }\n17\n18    public static void main(String[] args) {\n19\n20        Main obj = new Main();\n21\n22        // get user input\n23        String userInput = obj.getUserInput();\n24        System.out.println(userInput);\n25\n26    }\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors:\nrock\nrock"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors:\nscissors\nscissors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors:\nPaper\npaper"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the getUserInput() method returns the user's input and converts it to lowercase."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are converting the user input to lowercase because the computer's choice will be in lowercase, and we want our program to work for both the uppercase and lowercase user inputs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

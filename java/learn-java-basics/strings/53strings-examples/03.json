@@ -1,0 +1,102 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/revise-string?page=3",
+  "title": "Replacing Strings using replace()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Replacing Strings using replace()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "You are given a string \"Fool Mouse\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to change it into \"Wool House\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use the replace() method to replace the characters/substring of the strings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Syntax"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "string.replace(char oldValue, char newValue)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The replace() method replaces each matching occurrence of the old value in the string with the new value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        String str1 = \"Fool Mouse\";\n4        \n5        System.out.println(\"Before: \" + str1);\n6        \n7        // Replace F with W\n8        String str2 = str1.replace('F', 'W');\n9        \n10        // Replace M with H\n11        str2 = str2.replace('M', 'H');\n12\n13        System.out.println(\"After: \" + str2);\n14    }\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Before: Fool Mouse\nAfter: Wool House"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, you can also replace a substring with another substring. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        String str1 = \"Fool Mouse\";\n4        \n5        System.out.println(\"Before: \" + str1);\n6        \n7        // Replace \"Fool Mouse\" with \"Wool House\"\n8        String str2 = str1.replace(\"Fool Mouse\", \"Wool House\");\n9  \n10        System.out.println(\"After: \" + str2);\n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Before: Fool Mouse\nAfter: Wool House"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

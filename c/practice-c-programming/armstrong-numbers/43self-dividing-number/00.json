@@ -1,0 +1,108 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/selfdividing-number?page=1",
+  "title": "Check Self-Dividing Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Self-Dividing Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a function to check if a number is a self-dividing number."
+    },
+    {
+      "type": "paragraph",
+      "content": "A self-dividing number is a number that is divided by every digit it contains. For example, 128"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "128 % 1 == 0\n128 % 2 == 0\n128 % 8 == 0"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the variable number.",
+        "Call the checkSelfDivide() function with an argument number."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside checkSelfDivide()"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Run a while loop to access each digit of the number.",
+        "Inside the loop, check if each digit of the number divides the number perfectly.",
+        "If all the digits of the number divides the number, return 1. Otherwise return 0."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside main()"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check the returned value. If it is 1, print Self Dividing Number. Otherwise, print Not a Self Dividing Number."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Assumption"
+    },
+    {
+      "type": "paragraph",
+      "content": "The input value shouldn't end with 0. For example, 230, 460, etc."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input128"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputSelf Dividing Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

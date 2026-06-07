@@ -1,0 +1,144 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/callbacks?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function greet(name, callback) {\n  console.log('Hello ' + name);\n  callback();\n}\n\nfunction callMe() {\n  console.log('I am a callback function');\n}\n\ngreet('Alice', callMe);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello Alice"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greet() function prints \"Hello Alice\" first, but it also calls the callback function after."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greet() function prints \"Hello Alice\" first, but it also calls the callback function after."
+    },
+    {
+      "type": "paragraph",
+      "content": "I am a callback function"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The callMe() function prints \"I am a callback function\", but it is called after \"Hello Alice\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "The callMe() function prints \"I am a callback function\", but it is called after \"Hello Alice\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello Alice"
+    },
+    {
+      "type": "paragraph",
+      "content": "I am a callback function"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greet() function prints \"Hello Alice\" and then calls the callback function callMe(), which prints \"I am a callback function\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greet() function prints \"Hello Alice\" and then calls the callback function callMe(), which prints \"I am a callback function\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "I am a callback function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello Alice"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The callback function is called after the greeting message."
+    },
+    {
+      "type": "paragraph",
+      "content": "The callback function is called after the greeting message."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Hello Alice",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Hello Alice",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:I am a callback function",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "I am a callback function",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Hello AliceI am a callback function",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Hello AliceI am a callback function",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:I am a callback functionHello Alice",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "I am a callback functionHello Alice",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/inline-flex?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: By default, how wide is a flexbox?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The width of the parent element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A flexbox can extend to the width of its parent element. But by default, it takes the entire width of the browser screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "A flexbox can extend to the width of its parent element. But by default, it takes the entire width of the browser screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "The combined width of the flex items."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The combined width of the flex items doesn't determine the width of a flexbox. By default, it spans the entire width of the browser screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "The combined width of the flex items doesn't determine the width of a flexbox. By default, it spans the entire width of the browser screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "The entire width of the browser screen."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "By default, flexboxes span the entire width of the browser screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "By default, flexboxes span the entire width of the browser screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "The minimum width required to accommodate the flex items without wrapping."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A flexbox's width is not automatically set to the minimum width required to accommodate the flex items. By default, it takes up the entire width of the browser screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "A flexbox's width is not automatically set to the minimum width required to accommodate the flex items. By default, it takes up the entire width of the browser screen."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: By default, how wide is a flexbox?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The width of the parent element.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The width of the parent element.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The combined width of the flex items.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The combined width of the flex items.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The entire width of the browser screen.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The entire width of the browser screen.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The minimum width required to accommodate the flex items without wrapping.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The minimum width required to accommodate the flex items without wrapping.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

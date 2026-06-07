@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/github-netlify-pipeline?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In SpeedBlip's GitHub-to-Netlify pipeline, what happens when a git push contains a TypeScript type error that breaks the build?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify deploys the broken code and shows a warning on the live site"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify does not deploy broken builds. If yarn build fails, the deploy stops and the previous working version stays live at the URL."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify does not deploy broken builds. If yarn build fails, the deploy stops and the previous working version stays live at the URL."
+    },
+    {
+      "type": "paragraph",
+      "content": "GitHub automatically reverts the commit to the previous working state"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "GitHub does not automatically revert commits. The commit stays in the repository history, but Netlify's deploy gate prevents broken code from going live."
+    },
+    {
+      "type": "paragraph",
+      "content": "GitHub does not automatically revert commits. The commit stays in the repository history, but Netlify's deploy gate prevents broken code from going live."
+    },
+    {
+      "type": "paragraph",
+      "content": "The build fails in Netlify and the previous successful deploy stays live at the URL"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Netlify runs yarn build on every push. If it fails - for any reason including TypeScript errors - the deploy is aborted and the previous passing deploy continues to serve the live URL."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Netlify runs yarn build on every push. If it fails - for any reason including TypeScript errors - the deploy is aborted and the previous passing deploy continues to serve the live URL."
+    },
+    {
+      "type": "paragraph",
+      "content": "The broken build deploys to a staging URL while the live URL stays clean"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify can be configured with branch previews, but by default, a failed build simply fails. There is no automatic staging URL for broken builds on the main branch."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify can be configured with branch previews, but by default, a failed build simply fails. There is no automatic staging URL for broken builds on the main branch."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In SpeedBlip's GitHub-to-Netlify pipeline, what happens when a git push contains a TypeScript type error that breaks the build?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Netlify deploys the broken code and shows a warning on the live site",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Netlify deploys the broken code and shows a warning on the live site",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:GitHub automatically reverts the commit to the previous working state",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "GitHub automatically reverts the commit to the previous working state",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The build fails in Netlify and the previous successful deploy stays live at the URL",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The build fails in Netlify and the previous successful deploy stays live at the URL",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The broken build deploys to a staging URL while the live URL stays clean",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The broken build deploys to a staging URL while the live URL stays clean",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

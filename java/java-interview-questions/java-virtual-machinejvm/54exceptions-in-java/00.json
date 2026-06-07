@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/exceptions-in-java?page=1",
+  "title": "What are the two types of Exceptions in Java? Which are the differences between them?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What are the two types of Exceptions in Java? Which are the differences between them?"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two types of exceptions in Java: checked exceptions and unchecked exceptions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Checked Exceptions: These are the exceptions that the Java compiler requires you to handle, either by catching them or by declaring them in the throws clause of the method in which they occur."
+    },
+    {
+      "type": "paragraph",
+      "content": "These are exceptions that are checked at compile time, and are generally used to indicate a recoverable error condition, such as an I/O exception or a parse error. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "try {\n  FileInputStream fis = new FileInputStream(\"input.txt\");\n} catch (FileNotFoundException e) {\n  System.out.println(\"File not found\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unchecked Exceptions: These are the exceptions that are not checked at compile time and do not need to be handled or declared."
+    },
+    {
+      "type": "paragraph",
+      "content": "These are generally used to indicate a runtime error, such as a null pointer exception or an index out of bounds exception. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "int[] array = {1, 2, 3};\n// this will throw an ArrayIndexOutOfBoundsException\nSystem.out.println(array[3]);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

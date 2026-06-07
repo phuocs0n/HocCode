@@ -1,0 +1,135 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/events-toggling-with-classes?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You want a navigation menu to open and close each time the user clicks the menu button."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which approach is best?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use classList.add('is-open') inside the click handler every time."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding the class every time would keep the menu open and never hide it. You need to switch between two states, not only add."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding the class every time would keep the menu open and never hide it. You need to switch between two states, not only add."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use classList.remove('is-open') inside the click handler every time."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Removing the class every time would keep the menu closed. It doesn't alternate between states."
+    },
+    {
+      "type": "paragraph",
+      "content": "Removing the class every time would keep the menu closed. It doesn't alternate between states."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use classList.toggle('is-open') inside the click handler."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "toggle adds the class if it's missing and removes it if present. One click opens, the next closes."
+    },
+    {
+      "type": "paragraph",
+      "content": "toggle adds the class if it's missing and removes it if present. One click opens, the next closes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Set element.style.display directly inside JavaScript."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You could use inline styles, but toggling a class is cleaner: CSS handles the look, JS only toggles the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "You could use inline styles, but toggling a class is cleaner: CSS handles the look, JS only toggles the class."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You want a navigation menu to open and close each time the user clicks the menu button.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Use classList.add('is-open') inside the click handler every time.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Use classList.add('is-open') inside the click handler every time.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Use classList.remove('is-open') inside the click handler every time.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Use classList.remove('is-open') inside the click handler every time.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Use classList.toggle('is-open') inside the click handler.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Use classList.toggle('is-open') inside the click handler.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Set element.style.display directly inside JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Set element.style.display directly inside JavaScript.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,66 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/add-about-section?page=5",
+  "title": "Common Styles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Common Styles"
+    },
+    {
+      "type": "paragraph",
+      "content": "To maintain readability and consistency, let's use a unified text color (#25265e) across all headings and paragraphs."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Headings (<h2>): A larger font size of 32px with bold weight (600) to stand out, centered for emphasis and balance.",
+        "Paragraphs (<p>): A smaller font size of 18px with lighter weight (300) for readability without overwhelming the user."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section class=\"about\" id=\"about\">\n2    <h2>About Me</h2>\n3    <p>\n4        I'm a frontend developer with a passion for creating clean, responsive web experiences. \n5        Currently working at Programiz, I specialize in HTML, CSS, JavaScript, and React. \n6        I also have a strong background in UI/UX design, working with tools like Figma to bring intuitive \n7        and visually appealing interfaces to life.\n8    </p>\n9</section>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1section h2 {\n2    color: #25265e;\n3    font-size: 32px; \n4    font-weight: 600; \n5    text-align: center; \n6}\n7\n8section p {\n9    color: #25265e;\n10    font-size: 18px;\n11    font-weight: 300;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This standardized CSS ensures that all section headings and paragraphs maintain a cohesive design throughout the site, as shown in the image."
+    },
+    {
+      "type": "paragraph",
+      "content": "The layout also looks great on mobile, so no additional adjustments are needed for smaller screens."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move on to the Blogs section."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

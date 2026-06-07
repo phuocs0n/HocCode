@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/binary-search?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similar to linear search, binary search is used to find an element within a vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, binary search can only be implemented in a sorted vector. If vector elements are unsorted, we need to sort them first."
+    },
+    {
+      "type": "paragraph",
+      "content": "Binary search works by repeatedly dividing the vector in half until the possible location of the item is narrowed down to just one."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand this with the help of images."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

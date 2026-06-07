@@ -1,0 +1,112 @@
+{
+  "levels": [
+    {
+      "title": "Introduction to the Course",
+      "lessons": [
+        {
+          "title": "1.1Introduction to the Course",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/introduction-to"
+        },
+        {
+          "title": "1.2Introduction to STL in C++",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/introduction-to-stl-in-c"
+        }
+      ]
+    },
+    {
+      "title": "Sequential Container",
+      "lessons": [
+        {
+          "title": "2.1Sequential Container",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/sequential-container"
+        },
+        {
+          "title": "2.2C++ Vectors",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/c-vectors"
+        },
+        {
+          "title": "2.3C++ List",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/c-list"
+        },
+        {
+          "title": "2.4std::array",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/stdarray"
+        }
+      ]
+    },
+    {
+      "title": "Associative Container",
+      "lessons": [
+        {
+          "title": "3.1Associative Container",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/associative-container"
+        },
+        {
+          "title": "3.2Map",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/map"
+        },
+        {
+          "title": "3.3Set",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/set"
+        }
+      ]
+    },
+    {
+      "title": "Container Adapters",
+      "lessons": [
+        {
+          "title": "4.1Container Adapters",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/container-adapters"
+        },
+        {
+          "title": "4.2Stack",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/stack"
+        },
+        {
+          "title": "4.3Queue",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/queue"
+        },
+        {
+          "title": "4.4Deque",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/deque"
+        }
+      ]
+    },
+    {
+      "title": "C++ Iterators",
+      "lessons": [
+        {
+          "title": "5.1C++ Iterators",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/c-iterators"
+        }
+      ]
+    },
+    {
+      "title": "STL Algorithms",
+      "lessons": [
+        {
+          "title": "6.1STL Algorithms",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/stl-algorithms"
+        }
+      ]
+    },
+    {
+      "title": "C++ Lambda",
+      "lessons": [
+        {
+          "title": "7.1C++ Lambda",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/c-lambda"
+        },
+        {
+          "title": "7.2What's Next?",
+          "url": "https://app.programiz.pro/course/learn-cpp-stl/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 17,
+    "sections": 7,
+    "container": "main-content"
+  }
+}

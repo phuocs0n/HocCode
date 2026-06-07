@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/reverse-order-for-specific-range-of-elements?page=1",
+  "title": "Reverse the Order For a Specific Range of Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Reverse the Order For a Specific Range of Elements"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to reverse the order of the 4th, 5th, 6th, and 7th elements of a list."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Initialize a character list called vowels with the elements 'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u'.",
+        "Print the list.",
+        "Initialize a list iterator named initial to point to the first element of vowels list.",
+        "Use the advance() function to point to the 4th element of initial.",
+        "Initialize another iterator final to point to the end of the vowels list using end().",
+        "Then point final to the 8th element.",
+        "Reverse the elements in the range given by initial and final.",
+        "Print the rearranged list elements."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputA, E, I, O, U, a, e, i, o, u, \nA, E, I, e, a, U, O, i, o, u,"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

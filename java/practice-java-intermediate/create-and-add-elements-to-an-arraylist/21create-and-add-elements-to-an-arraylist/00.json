@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/create-add-elements-to-arraylist?page=1",
+  "title": "Create and Add Elements to an ArrayList",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create and Add Elements to an ArrayList"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to create and add elements to an arraylist."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Import java.util.ArrayList",
+        "Inside the main() method, declare a string type ArrayList named series.",
+        "Use the add() method, to add strings Friends and Money Heist respectively.",
+        "Print series."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output[Friends, Money Heist]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,60 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/example-decimal-to-binary-conversion?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static String findBinary(int decimal) {\n4\n5        if (decimal == 0) {\n6            return \"\";\n7        }\n8        \n9        // Recursively divide decimal by 2 \n10        // And concatenate remainder to the result\n11        return findBinary(decimal / 2) + Integer.toString(decimal % 2);\n12    }\n13\n14    public static void main(String[] args) {\n15\n16        String binaryRepresentation = findBinary(6);\n17        System.out.println(binaryRepresentation);\n18    }\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "110"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, here's the equivalent code using an object instead of a static method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public String findBinary(int decimal) {\n4\n5        if (decimal == 0) {\n6            return \"\";\n7        }\n8        \n9        // Recursively divide decimal by 2 \n10        // And concatenate remainder to the result\n11        return findBinary(decimal / 2) + Integer.toString(decimal % 2);\n12    }\n13\n14    public static void main(String[] args) {\n15\n16        Main obj = new Main();\n17\n18        String binaryRepresentation = obj.findBinary(6);\n19        System.out.println(binaryRepresentation);\n20    }\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll look at a visual representation of how the program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

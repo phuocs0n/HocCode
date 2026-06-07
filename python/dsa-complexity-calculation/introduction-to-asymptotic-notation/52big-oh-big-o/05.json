@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/big-oh-big-o?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: If a program has O(n) time complexity, it means the program may execute with ___ complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a correct answer. But it's not the only correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a correct answer. But it's not the only correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(log n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a correct answer. But it's not the only correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a correct answer. But it's not the only correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Neither of the options."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Big O is the upper bound. Meaning a program with O(n) complexity can take O(n) or less time to execute like O(log n)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Big O is the upper bound. Meaning a program with O(n) complexity can take O(n) or less time to execute like O(log n)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both first and second options."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A program with O(n) time complexity may execute in O(n) time or faster (since Big O denotes an upper bound)."
+    },
+    {
+      "type": "paragraph",
+      "content": "A program with O(n) time complexity may execute in O(n) time or faster (since Big O denotes an upper bound)."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: If a program has O(n) time complexity, it means the program may execute with ___ complexity.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:O(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:O(log n)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Neither of the options.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Neither of the options.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Both first and second options.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Both first and second options.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

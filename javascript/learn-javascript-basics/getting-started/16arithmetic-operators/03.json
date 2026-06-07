@@ -1,0 +1,192 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-arithmetic-operators?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let x = -1;\nlet y = 10;\n\nconsole.log(y + x);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "11"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The addition of 10 and -1 is not 11. Think carefully about how negatives affect the sum."
+    },
+    {
+      "type": "paragraph",
+      "content": "The addition of 10 and -1 is not 11. Think carefully about how negatives affect the sum."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "10 - 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript calculates the sum of y and x, not a subtraction in this format. The result is not 10 - 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript calculates the sum of y and x, not a subtraction in this format. The result is not 10 - 1."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "9"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9. Consider how addition with negative numbers works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9. Consider how addition with negative numbers works."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "-9"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding 10 and -1 results in a positive value, not a negative one like -9."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding 10 and -1 results in a positive value, not a negative one like -9."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The addition of 10 and -1 is not 11. Think carefully about how negatives affect the sum."
+    },
+    {
+      "type": "paragraph",
+      "content": "The addition of 10 and -1 is not 11. Think carefully about how negatives affect the sum."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript calculates the sum of y and x, not a subtraction in this format. The result is not 10 - 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript calculates the sum of y and x, not a subtraction in this format. The result is not 10 - 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9. Consider how addition with negative numbers works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9. Consider how addition with negative numbers works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding 10 and -1 results in a positive value, not a negative one like -9."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding 10 and -1 results in a positive value, not a negative one like -9."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:11",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:10 - 1",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "10 - 1",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:9",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:-9",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "-9",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

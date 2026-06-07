@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-introduction?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\nint main() {\n  char text[] = \"Hey\\nMan?\";\n  printf(\"%s\", text);\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hey\\nMan?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The \\n character is not printed as it is. The line ends when \\n is encountered and starts the new line."
+    },
+    {
+      "type": "paragraph",
+      "content": "The \\n character is not printed as it is. The line ends when \\n is encountered and starts the new line."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hey"
+    },
+    {
+      "type": "paragraph",
+      "content": "Man?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The line ends when \\n is encountered and starts the new line."
+    },
+    {
+      "type": "paragraph",
+      "content": "The line ends when \\n is encountered and starts the new line."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hey Man"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\\n is not used for space. It's used to end the current line and start a new line."
+    },
+    {
+      "type": "paragraph",
+      "content": "\\n is not used for space. It's used to end the current line and start a new line."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Hey\\nMan?",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Hey\\nMan?",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:HeyMan?",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "HeyMan?",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Hey Man",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Hey Man",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

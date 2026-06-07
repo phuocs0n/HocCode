@@ -1,0 +1,106 @@
+{
+  "index": 18,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=18",
+  "title": "Stage 3: Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Stage 3: Source Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we add the artwork to our program, we first need to make some minor changes to the display_game_status() and display_final_result() methods of the Game class."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The display_game_status() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is how the method looked in the previous stages:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// method used in previous stages\nvoid display_game_status() {\n    message.display_incorrect_guesses(incorrect);\n    message.display_user_answer(user_answer);\n    message.display_misses(misses);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this stage, we'll call message.display_misses() first instead of last:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// method to use in Stage 3\nvoid display_game_status() {\n    message.display_misses(misses);\n    message.display_incorrect_guesses(incorrect);\n    message.display_user_answer(user_answer);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have done this for aesthetic reasons: it just looks better to display the artwork first and then display the incorrect guesses and the user's answer."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The display_game_status() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is how the method looked in the previous stages:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// method used in previous stages\nvoid display_final_result() {\n    message.final_result(user_answer, word);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we will also call message.display_misses() before calling message.final_result(). If we don't do this, then the complete hanged man artwork will not be displayed when you lose the game."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// method used in previous stages\nvoid display_final_result() {\n    message.display_misses(misses);\n    message.final_result(user_answer, word);\n}"
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <ctime>\n3\n4using namespace std;\n5\n6const int max_misses = 6;\n7\n8// message class for displaying messages and design\n9class Message {\n10public:\n11\n12    // method to greet the player\n13    void greet() {\n14        cout << \"------------------------------\" << endl;\n15        cout << \"\\t\\tH A N G M A N\" << endl;\n16        cout << \"------------------------------\" << endl;\n17        cout << \"Guess the Word\" << endl << endl;\n18    }\n19\n20\n21    void display_misses(int misses) {\n22\n23        // add the body parts of the Hangman\n24        // according to the number of misses\n25        switch (misses) {\n26\n27            // display an empty gallows when misses = 0\n28            case 0:\n29                cout << \"  +---+ \" << endl;\n30                cout << \"  |   | \" << endl;\n31                cout << \"      | \" << endl;\n32                cout << \"      | \" << endl;\n33                cout << \"      | \" << endl;\n34                cout << \"      | \" << endl;\n35                cout << \"=========\" << endl;\n36                break;\n37\n38            // draw the Hangman's head\n39            case 1:\n40                cout << \"  +---+ \" << endl;\n41                cout << \"  |   | \" << endl;\n42                cout << \"  O   | \" << endl;\n43                cout << \"      | \" << endl;\n44                cout << \"      | \" << endl;\n45                cout << \"      | \" << endl;\n46                cout << \"=========\" << endl;\n47                break;\n48\n49            // draw the Hangman's torso\n50            case 2:\n51                cout << \"  +---+ \" << endl;\n52                cout << \"  |   | \" << endl;\n53                cout << \"  O   | \" << endl;\n54                cout << \"  |   | \" << endl;\n55                cout << \"      | \" << endl;\n56                cout << \"      | \" << endl;\n57                cout << \"=========\" << endl;\n58                break;\n59\n60            // draw the Hangman's right arm\n61            case 3:\n62                cout << \"  +---+ \" << endl;\n63                cout << \"  |   | \" << endl;\n64                cout << \"  O   | \" << endl;\n65                cout << \" /|   | \" << endl;\n66                cout << \"      | \" << endl;\n67                cout << \"      | \" << endl;\n68                cout << \"=========\" << endl;\n69                break;\n70\n71            // draw the Hangman's left arm\n72            case 4:\n73                cout << \"  +---+ \" << endl;\n74                cout << \"  |   | \" << endl;\n75                cout << \"  O   | \" << endl;\n76                cout << \" /|\\\\  | \" << endl;\n77                cout << \"      | \" << endl;\n78                cout << \"      | \" << endl;\n79                cout << \"=========\" << endl;\n80                break;\n81\n82            // draw the Hangman's left leg\n83            case 5:\n84                cout << \"  +---+ \" << endl;\n85                cout << \"  |   | \" << endl;\n86                cout << \"  O   | \" << endl;\n87                cout << \" /|\\\\  | \" << endl;\n88                cout << \" /    | \" << endl;\n89                cout << \"      | \" << endl;\n90                cout << \"=========\" << endl;\n91                break;\n92\n93            // draw the Hangman's right leg\n94            case 6:\n95                cout << \"  +---+ \" << endl;\n96                cout << \"  |   | \" << endl;\n97                cout << \"  O   | \" << endl;\n98                cout << \" /|\\\\  | \" << endl;\n99                cout << \" / \\\\  | \" << endl;\n100                cout << \"      | \" << endl;\n101                cout << \"=========\" << endl;\n102                break;\n103        }\n104    }\n105\n106\n107    // method to display the incorrect guesses\n108    void display_incorrect_guesses(string incorrect) {\n109        cout << \"Incorrect Guesses: \" << incorrect << endl;\n110    }\n111    \n112    // method to display the user answer\n113    void display_user_answer(string user_answer) {\n114        cout << \"Your Answer: \";\n115        for (char c: user_answer) {\n116            cout << c << \" \";\n117        }\n118\n119        cout << endl;\n120    }\n121\n122    // method to call when the user\n123    // enters non-alphabetic character\n124    void invalid_character_message() {\n125        cout << \"\\nInvalid character!\" << endl;\n126        cout << \"Input must be an alphabet!\" << endl;\n127    }\n128\n129    // method to call when the user enters a\n130    // character that has already been entered\n131    void already_entered_message() {\n132        cout << \"\\nYou have already entered this letter!\" << endl;\n133        cout << \"Enter another letter!\" << endl;\n134    }\n135\n136    void correct_message() {\n137        cout << \"\\nCorrect!\" << endl;\n138    }\n139\n140    void incorrect_message() {\n141        cout << \"\\nIncorrect!\" << endl;\n142    }\n143\n144    // print win or loss message\n145    void final_result(string user_answer, string word) {\n146        cout << \"Your Answer: \";\n147        for (char c: user_answer) {\n148            cout << c << \" \";\n149        }\n150\n151        cout << endl << endl;\n152\n153        // print win message\n154        if (user_answer == word) {\n155            cout << \"-----------------------------------------------\" << endl;\n156            cout << \"\\t\\t\\t\\tY O U  W I N\" << endl;\n157            cout << \"-----------------------------------------------\" << endl;\n158        }\n159\n160        // print loss message\n161        else {\n162            cout << \"The correct answer is: \" << word << endl << endl;\n163            cout << \"-----------------------------------------------\" << endl;\n164            cout << \"\\t\\t\\t\\tY O U  L O S E\" << endl;\n165            cout << \"-----------------------------------------------\" << endl;\n166        }\n167    }\n168};\n169\n170// Game class to code the game logic\n171class Game {\n172private:\n173\n174    string word;\n175    string user_answer;\n176    string incorrect;\n177    string entered_characters;\n178    int misses;\n179    Message message;\n180\n181public:\n182\n183    // constructor to initialize attributes\n184    Game(string chosen_word) {\n185        word = chosen_word;\n186        incorrect = \"\";\n187        entered_characters = \"\";\n188        misses = 0;\n189\n190        for (int i = 0; i < word.length(); ++i) {\n191            user_answer += \"_\";\n192        }\n193    }\n194\n195    // method to ensure that user input is\n196    // an alphabet and not a previous input\n197    bool is_guess_valid(char letter) {\n198\n199        if (!isalpha(letter)) {\n200            message.invalid_character_message();\n201            return false;\n202        }\n203\n204        for (int i = 0; i < entered_characters.length(); ++i) {            \n205            if (letter == entered_characters[i]) {\n206                message.already_entered_message();\n207                return false;\n208            }\n209        }\n210\n211        return true;\n212    }\n213\n214    // method to check if guess is correct\n215    void is_guess_correct(char letter) {\n216\n217        bool guess = false;\n218\n219        for (int i = 0; i < word.length(); i++) {\n220            if (letter == word[i]) {\n221                user_answer[i] = letter;\n222                guess = true;\n223            }\n224        }\n225\n226        if (guess) {\n227            message.correct_message();\n228        }\n229        else {\n230            message.incorrect_message();\n231            incorrect += letter;\n232            incorrect += \", \";\n233            ++misses;\n234        }\n235\n236        entered_characters += letter;\n237    }\n238\n239    // method to check if the game is over\n240    bool is_game_over() {\n241        if (user_answer == word || misses >= max_misses) {\n242            return true;\n243        }\n244        return false;\n245    }\n246\n247    // method to display the game status\n248    void display_game_status() {\n249        message.display_misses(misses);\n250        message.display_incorrect_guesses(incorrect);\n251        message.display_user_answer(user_answer);\n252    }\n253\n254    // method to display the final result\n255    void display_final_result() {\n256        message.display_misses(misses);\n257        message.final_result(user_answer, word);\n258    }\n259};\n260\n261int main() {\n262\n263    string library[] = { \n264        \"ALGORITHM\", \n265        \"AUTOPSY\", \n266        \"DATABASE\", \n267        \"UBIQUITOUS\", \n268        \"TANTALIZING\", \n269        \"REVELATION\", \n270        \"SPORADIC\", \n271        \"DISCRETE\", \n272        \"ANALYSIS\", \n273        \"CALCULUS\" \n274    };\n275\n276    // generate random numbers between 0 and 9\n277    srand(time(0));\n278    int index = rand() % 10;\n279\n280    // choose the mystery word\n281    // based on the random number\n282    string chosen_word = library[index];\n283\n284    // variable to take user input\n285    char letter;\n286    \n287    Message message;\n288    Game game(chosen_word);\n289\n290    // greet the player\n291    message.greet();\n292\n293    // play game until victory or loss\n294    while (!game.is_game_over()) {\n295\n296        // display the game status\n297        game.display_game_status();\n298\n299        cout << \"\\nPlease enter your guess: \";\n300\n301        // get user input and convert it to uppercase\n302        cin >> letter;\n303        letter = toupper(letter);\n304\n305        // check if input is an alphabet\n306        if (game.is_guess_valid(letter)) {\n307\n308            // if input is valid, check if guess is correct\n309            game.is_guess_correct(letter);\n310        }\n311    }\n312\n313    game.display_final_result();\n314\n315    return 0;\n316}"
+    },
+    {
+      "type": "paragraph",
+      "content": "With the addition of the artwork, our project is finally complete."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

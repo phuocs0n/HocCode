@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-whether-string-is-palindrome-or-not?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To check if a string is a palindrome, compare the characters at opposite ends of the string, and finally, return true if all the characters match."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check if string is empty or has only one character. If so return true, as they are palidrome.",
+        "Use a for loop to iterate over the first half of the characters in the string.",
+        "Inside the loop, compare the character at the current index (suppose i) with the character at the opposite index( which is calculated using the length of the string as str.length() - i - 1).",
+        "If all the characters are the same in both positions, then the string is a palindrome. If any of the characters are different, then the string is not a palindrome."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

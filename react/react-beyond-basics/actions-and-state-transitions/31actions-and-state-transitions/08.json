@@ -1,0 +1,63 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions?page=9",
+  "title": "A Minimal Example",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Minimal Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "This counter component shows the full useReducer() cycle in the simplest possible form."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useReducer } from \"react\";\n\nfunction counterReducer(state, action) {\n  switch (action.type) {\n    case \"INCREMENT\":\n      return state + 1;\n    case \"RESET\":\n      return 0;\n    default:\n      return state;\n  }\n}\n\nfunction Counter() {\n  const [count, dispatch] = useReducer(counterReducer, 0);\n  return (\n    <div>\n      <p>{count}</p>\n      <button onClick={() => dispatch({ type: \"INCREMENT\" })}>+1</button>\n      <button onClick={() => dispatch({ type: \"RESET\" })}>Reset</button>\n    </div>\n  );\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what happens when the user clicks the +1 button:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "dispatch({ type: \"INCREMENT\" }) fires",
+        "counterReducer() runs with the current state",
+        "It returns state + 1",
+        "React re-renders with the new count"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The component itself never touches the state update logic. It just dispatches an action and lets the reducer handle the rest."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's apply this pattern to the journal app."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

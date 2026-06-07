@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/overriding-static-method?page=1",
+  "title": "Why is it not possible to override the static method?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why is it not possible to override the static method?"
+    },
+    {
+      "type": "paragraph",
+      "content": "No, we cannot override static methods because method overriding is based on dynamic binding at runtime and the static methods are bonded using static binding at compile time."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we try to override the static method of the derived class the method gets hidden by the static method of the base class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Base {\n2    \n3    // static method \n4    public static void print() {\n5        System.out.println(\"Hello! from base class\");\n6    }\n7}\n8\n9class Derived extends Base {\n10    \n11    // overide print() method of Base class\n12    public static void print() {\n13        System.out.println(\"Hello! from derived class\");\n14    }\n15}\n16class Main {\n17    public static void main(String[] args) {\n18\t\t\n19        Base baseObj = new Base();\n20        baseObj.print();\n21\t\t\n22        Base derivedObj = new Derived();\n23        derivedObj.print();\n24    }\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello! from base class\nHello! from base class"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, even when we call the overridden method of the Derived class, the static method from the Base class is called by Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "Moreover, when we declare static method, it means it is a common method. There is no point in overriding and changing the working of the method that is supposed to be common."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/summary?page=2",
+  "title": "Recap(II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap(II)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Take Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can receive input from the user with the prompt() function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let x = prompt(\"Enter the first number:\");\n2let y = prompt(\"Enter the second number:\");\n3\n4console.log(`You entered: x = ${x}, y = ${y}`);"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Data Conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "The data you're trying to use may not always be in the required format. In such situations, you need to perform data conversions:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Convert strings to integers\n2let x = parseInt(prompt(\"Enter the first number:\"));\n3let y = parseInt(prompt(\"Enter the second number:\"));\n4\n5// Perform addition\n6let sum = x + y;\n7\n8console.log(`Sum: ${sum}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This concludes the recap for the first chapter."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

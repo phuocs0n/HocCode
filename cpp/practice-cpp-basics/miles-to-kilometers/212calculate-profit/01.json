@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/calculate-profit?page=1",
+  "title": "Calculate Profit",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculate Profit"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the profit given the cost price and selling price."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get double input for variables cost_price and selling_price.",
+        "Find the profit amount by subtracting cost price from the selling price.",
+        "Use formula: (profit / cost_price) * 100 to find the profit percent.",
+        "Print both the profit and profit percent."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Assumption"
+    },
+    {
+      "type": "paragraph",
+      "content": "The input value for selling price should be greater than the input value for cost price"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input1500\n1799"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output299\n19.9333"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

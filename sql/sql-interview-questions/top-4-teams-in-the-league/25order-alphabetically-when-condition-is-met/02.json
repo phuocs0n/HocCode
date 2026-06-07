@@ -1,0 +1,52 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/order-alphabetically-when-condition-is-met?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given an Employees table with the columns emp_id, name, department, and salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "The problem statement requires us to check the condition on two fronts:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the employee must belong to the Sales department",
+        "the employee must have a salary greater than 50000"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "After the selection, we need to order our results alphabetically. We can do this with the ORDER BY clause and the ASC command."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

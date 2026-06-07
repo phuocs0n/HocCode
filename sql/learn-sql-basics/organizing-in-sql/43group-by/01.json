@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/group-by?page=2",
+  "title": "How GROUP BY Works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How GROUP BY Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try grouping the data from the Customers table by different countries."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group data by different country\n2\n3SELECT country, purchase_amount\n4FROM Customers\n5GROUP BY country;"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run the code, the output will be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "country",
+          "purchase_amount"
+        ],
+        [
+          "Canada",
+          "6000"
+        ],
+        [
+          "UK",
+          "2000"
+        ],
+        [
+          "USA",
+          "1000"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The output shows the country and purchase amount of the first customer in each country, but this isn't a meaningful summary."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, the GROUP BY clause is almost always used in conjunction with aggregate functions such as SUM(), MIN(), COUNT(), etc., to summarize data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at examples to see how GROUP BY works with aggregate functions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

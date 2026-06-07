@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/other-data-types?page=1",
+  "title": "Data Type: double",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Data Type: double"
+    },
+    {
+      "type": "paragraph",
+      "content": "Numbers with decimal parts can be represented using the double data type."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, 32.9, -56.5, 9.0, etc., can all be represented by the double data type."
+    },
+    {
+      "type": "paragraph",
+      "content": "As we learnt earlier, %d is the format specifier for the int data type. Similarly, %lf is the format specifier for the double type."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a program that declares and prints a double variable:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Initialize a double variable\n6    double PI = 3.1415;\n7\n8   // Use %lf to print a double\n9   printf(\"The value of pi is %lf\", PI);\n10\n11   return 0;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The value of pi is 3.141500"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above program prints 3.141500 as an output."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll learn how to print only the required number of digits after the decimal point in the 'More on Printing Output' lesson."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

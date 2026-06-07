@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/add-project-section?page=3",
+  "title": "Structuring the Projects Section",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Structuring the Projects Section"
+    },
+    {
+      "type": "paragraph",
+      "content": "As shown in the design, the layout contains one large card on the left and four smaller cards on the right."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The left card will take more space to stand out as the featured project.",
+        "The right side will contain smaller cards arranged in two rows with two cards per row."
+      ]
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"projects-grid\">\n2    <div class=\"projects-card\">\n3        <img src=\"/images/learn-css/shopease.png\" alt=\"Project Image\">\n4        <h3>ShopEase</h3>\n5        <p>ShopEase is a fully responsive and interactive e-commerce platform that offers a seamless\n6            shopping experience. It features product listings, shopping cart functionality, secure checkout,\n7            product filtering, and user reviews. With an integrated payment gateway, it provides users with\n8            a secure and efficient way to shop online. Built using modern web technologies and best\n9            practices.</p>\n10        <div class=\"tech-tag-list\">\n11            <div>HTML</div>\n12            <div>CSS</div>\n13            <div>JavaScript</div>\n14            <div>API Integration</div>\n15            <div>Payment Gateway</div>\n16        </div>\n17        <a href=\"#\">Visit Site</a>\n18    </div>\n19    <div class=\"projects-card\">\n20        <img src=\"/images/learn-css/smoothie.png\" alt=\"Project Image\">\n21        <h3>Smoothie Hub</h3>\n22        <p>A vibrant website featuring a collection of smoothie recipes for health-conscious individuals.</p>\n23        <a href=\"#\">Visit Site</a>\n24    </div>\n25    <div class=\"projects-card\">\n26        <img src=\"/images/learn-css/bakery.png\" alt=\"Project Image\">\n27        <h3>BakeItEasy</h3>\n28        <p>A baking recipe website that showcases step-by-step guides for home bakers.</p>\n29        <a href=\"#\">Visit Site</a>\n30    </div>\n31    <div class=\"projects-card\">\n32        <img src=\"/images/learn-css/meal.png\" alt=\"Project Image\">\n33        <h3>QuickFit Meals</h3>\n34        <p>An easy-to-use site that provides quick and healthy meal ideas for people on the go.</p>\n35        <a href=\"#\">Visit Site</a>\n36    </div>\n37    <div class=\"projects-card\">\n38        <img src=\"/images/learn-css/travel.png\" alt=\"Project Image\">\n39        <h3>TravelShots</h3>\n40        <p>A photography portfolio that highlights unique travel destinations through stunning images.</p>\n41        <a href=\"#\">Visit Site</a>\n42    </div>\n43</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Import custom font */\n2@import url(\"https://fonts.googleapis.com/css2?family=Euclid+Circular+A:wght@400;500&display=swap\");\n3\n4* {\n5    font-family: 'Euclid Circular A', sans-serif;\n6    line-height: 1.5;\n7}\n8\n9.projects-grid {\n10    display: grid;\n11    grid-template-columns: 2fr 1fr 1fr;\n12    grid-template-rows: auto auto;\n13    gap: 20px;\n14}\n15\n16/* Style cards */\n17.projects-grid > div {\n18    background-color: #ffffff;\n19    border-radius: 10px;\n20    padding: 20px;\n21    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n22}\n23\n24.primary-card {\n25    grid-area: 1 / 1 / 3 / 2;\n26}\n27\n28/* Flex layout */\n29.tech-tag-list {\n30    display: flex;\n31    gap: 10px;\n32}\n33\n34/* Style tags */\n35.tech-tag-list > div {\n36    background-color: #f3f3f3;\n37    color: #49497e;\n38    font-size: 0.8rem;\n39    border-radius: 5px;\n40    padding: 4px 4px;\n41}\n42\n43/* Style images */\n44img {\n45    width: 100%;\n46    border-radius: 10px;\n47}\n48\n49/* Style headings */\n50h3 {\n51    color: #25265e;\n52    font-size: 1.5rem;\n53    font-weight: 550;\n54}\n55\n56/* Style paragraphs */\n57p {\n58    font-size: 16px;\n59}\n60\n61/* Style links */\n62a {\n63    color: #0556f3;\n64    font-weight: medium;\n65    text-decoration: none;\n66}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        ".projects-grid: Uses CSS Grid to create a responsive layout with one larger column for the featured project and two smaller columns for the remaining cards.",
+        ".primary-card: Styled to span two rows, making it larger and more prominent as the featured project.",
+        "tech-tag-list: Displays the tech stack tags in a flex layout, wrapping as needed on smaller screens.",
+        "Project Card Styling: Each card has a white background, shadow, and padding, creating a clean, organized look.",
+        "Responsive Elements: The grid-template-columns and grid-template-rows allow the cards to adjust effectively on different screen sizes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's make the Projects section responsive."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

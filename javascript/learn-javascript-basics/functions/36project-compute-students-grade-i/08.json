@@ -1,0 +1,66 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-students-grade?page=6",
+  "title": "Project: Compute a Student's Grade",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Project: Compute a Student's Grade"
+    },
+    {
+      "type": "paragraph",
+      "content": "The complete code looks like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Find the average score and return it\n2const getAverageScore = (s1, s2, s3, s4, s5) => {\n3    // Variable for storing total sum\n4    let total = s1 + s2 + s3 + s4 + s5;\n5    \n6    // Compute average score\n7    let averageScore = total / 5;\n8    \n9    return averageScore;\n10}\n11\n12// Returns the grade based on the average score\n13const computeGrade = (averageScore) => {\n14    let grade;\n15\n16    if (averageScore >= 80) {\n17        grade = \"A\";\n18    } else if (averageScore >= 60) {\n19        grade = \"B\";\n20    } else if (averageScore >= 50) {\n21        grade = \"C\";\n22    } else {\n23        grade = \"F\";\n24    }\n25\n26    return grade;\n27};\n28\n29// Call function and store result\n30let averageScore = getAverageScore(55, 64, 75, 80, 65);\n31console.log(`Average Score: ${averageScore}`);\n32\n33let grade = computeGrade(averageScore);\n34console.log(`Grade: ${grade}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Average Score: 67.8\nGrade: B"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The getAverageScore() function first calculates the average score.",
+        "Then, the computeGrade() function uses the average score to compute the grade."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Lets understand this with the help of an image."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

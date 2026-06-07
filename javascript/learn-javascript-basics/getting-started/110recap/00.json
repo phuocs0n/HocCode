@@ -1,0 +1,78 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/summary?page=1",
+  "title": "Recap(I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap(I)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Data Types"
+    },
+    {
+      "type": "paragraph",
+      "content": "You started by learning different types of data:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "String: \"Hello\", '123a'",
+        "Floating-point Numbers: 124.3, 12.0",
+        "Integers: 23, 42"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "To store and use these data later in the program, you can store them in variables:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let x = 5;\n2let y = x;\n3\n4console.log(`y = x = ${x}`);"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "In programming, you often need to perform calculations on values and variables, not just print them. To handle mathematical calculations, you use operators:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let x = 7;\n2let y = 3;\n3\n4let remainder = x % y;\n5let power = x ** y;\n6\n7console.log(`Remainder: ${remainder}`);\n8console.log(`Power: ${power}`);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

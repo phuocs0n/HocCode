@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/arithmetic-operators?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Giá trị của biến tổng trong đoạn mã sau là bao nhiêu?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int a = 33;\nint b = -45;\n\nint sum = a + b;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "78"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 không phải là 78."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 không phải là 78."
+    },
+    {
+      "type": "paragraph",
+      "content": "33"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "33 là giá trị của a. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    },
+    {
+      "type": "paragraph",
+      "content": "33 là giá trị của a. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    },
+    {
+      "type": "paragraph",
+      "content": "-12"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 là -12."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 là -12."
+    },
+    {
+      "type": "paragraph",
+      "content": "-45"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 là giá trị của b. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 là giá trị của b. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 không phải là 78."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 không phải là 78."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "33 là giá trị của a. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    },
+    {
+      "type": "paragraph",
+      "content": "33 là giá trị của a. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 là -12."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tổng của 33 và -45 là -12."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 là giá trị của b. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 là giá trị của b. Ở đây biến tổng chứa giá trị sau khi cộng a và b."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Giá trị của biến tổng trong đoạn mã sau là bao nhiêu?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:78",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "78",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:33",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "33",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:-12",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "-12",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:-45",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "-45",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

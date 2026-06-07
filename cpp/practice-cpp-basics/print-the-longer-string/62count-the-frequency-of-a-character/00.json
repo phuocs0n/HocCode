@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/count-frequency-of-character?page=1",
+  "title": "Count the Frequency of a Character in a String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Count the Frequency of a Character in a String"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get string input for a variable named text.",
+        "Get character input for a char variable named character.",
+        "Find the length of the input string.",
+        "Run a for loop to access each character of the string.",
+        "Inside the loop, check if the character matches the input character character.",
+        "If true, increase the value of a count variable by 1.",
+        "Finally print the count."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputprogramming\nm"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output2"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

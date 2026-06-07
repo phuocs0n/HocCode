@@ -1,0 +1,55 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/project--student-record-analysis-using-numpy?page=7",
+  "title": "Step 6: Putting It All Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 6: Putting It All Together"
+    },
+    {
+      "type": "paragraph",
+      "content": "The project is ready and good to go. However, we will slightly modify the main function to give users a working interface."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def main():\n    subject, students, marks = initialize_data()\n    while(1):\n        print('-'* 75)\n        choice = int(input('1. Press 1 to Display Student Results\\n2. Press 2 to Add a new Student Record\\n3. Press 3 to Display Analyzed Results\\n4. Press 4 to Exit\\n'))\n        print('-'* 75)\n        if(choice == 1):\n            display_record(students, subject, marks)\n        elif(choice == 2):\n            students,marks = add_record(students, subject, marks)\n        elif(choice == 3):\n            obtain_results(students, subject, marks)\n        elif(choice == 4):\n            break;\n        else:\n            print('Invalid Choice')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus the final code becomes,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# initialize student records with random value\n4def initialize_data():\n5    # create a subject array\n6    subject = np.array(['English', 'Maths', 'Science', 'Social', 'History'])\n7    # create a student array\n8    students = np.array(['Alice', 'Bob', 'Charlie', 'Dan'])\n9    marks = np.array([[81, 78, 80, 60, 63],\n10                      [50, 40, 65, 48, 65],\n11                      [30, 83, 97, 97, 75],\n12                      [99, 55, 60, 58, 30]])\n13\n14    # generate random marks for each student and subject\n15    # marks = np.random.randint(30, 101, size=(len(students), len(subject)))\n16\n17    return subject, students, marks\n18\n19# add new student record by taking input from user\n20def add_record(studentArray, subjectArray, marksArray):\n21    print('\\n Add New Student Data\\n')\n22    # get student's name\n23    studentName = input('Student Name : ')\n24    # initialize an empty marks array of same length as subject\n25    marks = np.empty(len(subjectArray), dtype=int)\n26    # get inputs from the user\n27    for i in range(len(subjectArray)):\n28        marks[i] = int(input(f\"Enter marks for {subjectArray[i]}: \"))\n29    # append new student to studentArray\n30    studentArray = np.append(studentArray, studentName)\n31    # append marks of new student to studentArray\n32    marksArray = np.vstack((marksArray, marks))\n33    return studentArray, marksArray\n34\n35# display the record in visually pleasing form\n36def display_record(studentArray, subjectArray, marksArray):\n37    \n38    # create a new Array for Total, Average and Result    \n39    # calculate total marks for each student\n40    totalArray = np.sum(marksArray, axis=1)\n41    # calculate average marks for each student\n42    avgArray = np.mean(marksArray, axis=1)\n43    # check if all marks in a row are >= 40 and assign 'Pass' or 'Fail' accordingly\n44    resultArray = np.where(np.all(marksArray >= 40, axis=1), 'Pass', 'Fail')\n45    \n46    # add Total, Average and Grade to header\n47    headerArray = np.hstack(('Student/Subject', subjectArray, np.array(['Total', 'Average', 'Result'])))\n48    header = \"|\".join(headerArray)\n49    print(header)\n50    \n51    # create a lengthArray for formatting purpose\n52    lengthArray = np.array([len(element) for element in headerArray])\n53    \n54    # print the separator line\n55    separator = \"+\".join([\"-\" * length for length in lengthArray])\n56    print(separator)\n57    \n58    # print the marks for each student\n59    for i, student in enumerate(studentArray):\n60        row = f\"{student :<{lengthArray[0]}}\"\n61        row += ''.join(f\"|{mark:<{lengthArray[col+1]}}\" for col, mark in enumerate(marksArray[i]))\n62        # add Total, Average and Pass result for each student\n63        row += \"|\" + f\"{totalArray[i]:<{lengthArray[6]}}\" \n64        row += \"|\" + f\"{avgArray[i]:<{lengthArray[7]}}\" \n65        row += \"|\" + f\"{resultArray[i]:<{lengthArray[8]}}\" \n66        print(row)\n67    print(separator)\n68\n69def obtain_results(studentArray, subjectArray, marksArray):\n70    \n71    # data part\n72    #  average marks for each subject\n73    avgSubject = np.mean(marksArray, axis=0)\n74    \n75    # deviation and variation of marks\n76    stdSubject = np.std(marksArray, axis = 0)\n77    varSubject = np.var(marksArray, axis = 0)\n78    stdStudents = np.std(marksArray, axis = 1)\n79    varStudents = np.var(marksArray, axis = 1)\n80    \n81    # top and bottom performing student \n82    topPerformer =  studentArray[np.argmax(np.sum(marksArray, axis=1))]\n83    bottomPerformer =  studentArray[np.argmin(np.sum(marksArray, axis=1))]\n84    \n85    # subject comparison\n86    easiestSubject = subjectArray[np.argmax(avgSubject)]\n87    hardestSubject = subjectArray[np.argmin(avgSubject)]\n88    \n89    # overall performance\n90    totalAverage = np.mean(marksArray)\n91    totalStd = np.std(marksArray)\n92    totalVar = np.var(marksArray)\n93    \n94    # analysis and visualization part\n95    # total number of students\n96    print('Total Number of students: ', len(studentArray))\n97    \n98    # average marks for each subject\n99    print('\\nAverage Marks in Each Subject')\n100    for i,subject in enumerate(subjectArray):\n101        print('\\t',subject,':', avgSubject[i])\n102    \n103    # deviation and variation of marks\n104    print('\\nStandard Deviation and Variance per Subject')\n105    header = np.array(['Subject Name','Standard Deviation','Variance'])\n106    print(\"|\".join(header))\n107    # print the separator line\n108    separator = \"+\".join([\"-\" * len(item) for item in header])\n109    print(separator)\n110    for i, subject in enumerate(subjectArray):\n111        row = f\"{subject :<{len(header[0])}}\" +'|'+ f\"{stdSubject[i] :<{len(header[1])}}\" + '|' + f\"{varSubject[i] :<{len(header[2])}}\"\n112        print(row) \n113    \n114    print('\\nStandard Deviation and Variance per Student')\n115    print(\"|\".join(header))\n116    # print the separator line\n117    print(separator)\n118    for i, student in enumerate(studentArray):\n119        row = f\"{student :<{len(header[0])}}\" +'|'+ f\"{stdStudents[i] :<{len(header[1])}}\" + '|' + f\"{varStudents[i] :<{len(header[2])}}\"\n120        print(row)\n121   \n122    # top and bottom performing student \n123    print('\\nTop performer: ', topPerformer)\n124    print('Bottom performer:', bottomPerformer)\n125    \n126    # subject comparison\n127    print('\\nEasiest Subject:',easiestSubject, '\\nHardest Subject:',hardestSubject)\n128    \n129    # overall performance\n130    print('\\nMetrics across all Students and Subjects')\n131    print('Average Marks: ',totalAverage, '\\nStandard Deviation: ',totalStd, '\\nVariance: ',totalVar)\n132    \n133def main():\n134    subject, students, marks = initialize_data()\n135    while(1):\n136        print('-'* 75)\n137        choice = int(input('1. Press 1 to Display Student Results\\n2. Press 2 to Add a new Student Record\\n3. Press 3 to Display Analyzed Results\\n4. Press 4 to Exit\\n\\n'))\n138        print('-'* 75)\n139        if(choice == 1):\n140            display_record(students, subject, marks)\n141        elif(choice == 2):\n142            students,marks = add_record(students, subject, marks)\n143        elif(choice == 3):\n144            obtain_results(students, subject, marks)\n145        elif(choice == 4):\n146            break;\n147        else:\n148            print('Invalid Choice')\n149main()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our project is complete. However, we can refactor the code to make it look and perform better."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

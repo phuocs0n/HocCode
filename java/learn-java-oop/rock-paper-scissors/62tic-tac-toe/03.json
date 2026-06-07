@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-oop/tictactoe?page=4",
+  "title": "Step 1: Creating the Board Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Creating the Board Class"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Board {\n2\n3    String board[] = { \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \" };\n4\n5    void printBoard() {\n6\n7        System.out.println(\" \" + board[0] + \" | \" + board[1] + \" | \" + board[2]);\n8        System.out.println(\"-----------\");\n9        System.out.println(\" \" + board[3] + \" | \" + board[4] + \" | \" + board[5]);\n10        System.out.println(\"-----------\");\n11        System.out.println(\" \" + board[6] + \" | \" + board[7] + \" | \" + board[8]);\n12\n13    }\n14}\n15\n16class Main {\n17    public static void main(String[] args) {\n18\n19        Board b1 = new Board();\n20\n21        b1.printBoard();\n22    }\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "|   |  \n-----------\n   |   |  \n-----------\n   |   |"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the Board class has a field named board which is an array of nine elements. Initially, the value of each element is a space. We will update these elements with either X or O symbols once the players start choosing the position."
+    },
+    {
+      "type": "paragraph",
+      "content": "And, the printBoard() method prints the board in a visually intuitive manner."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have created an object of the Board class inside the Main class. Then, we have called the printBoard() method using the object of the Board class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will add other methods to the Board class later. Next, we will create the Player class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

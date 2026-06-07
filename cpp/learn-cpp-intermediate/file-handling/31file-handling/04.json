@@ -1,0 +1,183 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/file-handling?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What header file is required to read and write files in C++?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "<fstream>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <fstream> file is used to read from and write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <fstream> file is used to read from and write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "<ifstream>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ifstream is a class inside the <fstream> file and is used to read from a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "ifstream is a class inside the <fstream> file and is used to read from a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "<ofstream>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ofstream is a class inside the <fstream> file and is used to write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "ofstream is a class inside the <fstream> file and is used to write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "<iostream>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <iostream> file is used to handle basic input-output operations in C++. It is not used for file handling."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <iostream> file is used to handle basic input-output operations in C++. It is not used for file handling."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <fstream> file is used to read from and write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <fstream> file is used to read from and write to a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ifstream is a class inside the <fstream> file and is used to read from a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "ifstream is a class inside the <fstream> file and is used to read from a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ofstream is a class inside the <fstream> file and is used to write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "ofstream is a class inside the <fstream> file and is used to write to a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <iostream> file is used to handle basic input-output operations in C++. It is not used for file handling."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <iostream> file is used to handle basic input-output operations in C++. It is not used for file handling."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What header file is required to read and write files in C++?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<fstream>",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<fstream>",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<ifstream>",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<ifstream>",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:<ofstream>",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "<ofstream>",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<iostream>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<iostream>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

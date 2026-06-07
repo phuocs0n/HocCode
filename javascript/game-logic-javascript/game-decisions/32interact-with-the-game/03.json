@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/interact-with-game?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does prompt() return when the player types an answer?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The text the player typed, as a string, so we can store it and use it in conditions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. prompt() returns whatever the player entered. We store it in a variable and use it in if/else to decide whether it is correct or wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. prompt() returns whatever the player entered. We store it in a variable and use it in if/else to decide whether it is correct or wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "A number so we can add it to the score."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "prompt() always returns a string. If we need a number we convert it (e.g. Number()). We still store the result in a variable and use it in our logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "prompt() always returns a string. If we need a number we convert it (e.g. Number()). We still store the result in a variable and use it in our logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "True or false depending on whether the player clicked OK."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "True/false would not tell us what they typed. prompt() returns the actual input as a string so we can compare it to the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "True/false would not tell us what they typed. prompt() returns the actual input as a string so we can compare it to the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nothing; it only waits for input in the console."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "prompt() does wait for the player to type in the console, but it also returns the value they typed. We need that return value to decide if the answer was correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "prompt() does wait for the player to type in the console, but it also returns the value they typed. We need that return value to decide if the answer was correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does prompt() return when the player types an answer?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The text the player typed, as a string, so we can store it and use it in conditions.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The text the player typed, as a string, so we can store it and use it in conditions.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A number so we can add it to the score.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A number so we can add it to the score.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:True or false depending on whether the player clicked OK.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "True or false depending on whether the player clicked OK.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Nothing; it only waits for input in the console.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Nothing; it only waits for input in the console.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

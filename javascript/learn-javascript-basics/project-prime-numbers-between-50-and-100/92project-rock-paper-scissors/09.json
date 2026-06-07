@@ -1,0 +1,54 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-rock-paper-scissors?page=10",
+  "title": "Step 4:Handling Wrong User Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4:Handling Wrong User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our code doesn't work if the user enters values other than \"rock\", \"paper\" or \"scissors\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "To handle this problem, we'll ask for user input until the user enters either \"rock\", \"paper\" or \"scissors\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can solve this problem by changing the getUserChoice() function."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const getUserChoice = () => {\n    while (true) {\n        let choice = prompt(\"Enter your choice: \");\n        choice = choice.toLowerCase();\n        if ([\"rock\", \"paper\", \"scissors\"].includes(choice)) {\n            return choice;\n        } else {\n            console.log(\"Invalid choice, please try again.\");\n        }\n    }\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now the user will take input until choice is either \"rock\" or \"paper\" or \"scissors\". Next, let's see the updated code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

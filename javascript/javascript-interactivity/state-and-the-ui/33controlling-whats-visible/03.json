@@ -1,0 +1,89 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-whats-visible?page=3",
+  "title": "Displaying One Project at a Time",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Displaying One Project at a Time"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now apply the state pattern to the project slider."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keep a variable called currentSlideIndex. 0 represents the first card."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a showSlide(index) function that does three things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Keeps the index within a valid range.",
+        "Updates currentSlideIndex.",
+        "Updates the DOM so the correct slide is visible."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If each slide takes up 100% of the visible width, you can move the track like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "(currentSlideIndex * 100) + '%'"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4 <meta charset=\"UTF-8\" />\n5 <title>Slider — one visible</title>\n6 <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9 <div class=\"slider\">\n10   <div class=\"slider-track\">\n11     <div class=\"slide\">Slide 1</div>\n12     <div class=\"slide\">Slide 2</div>\n13     <div class=\"slide\">Slide 3</div>\n14   </div>\n15 </div>\n16 <script src=\"script.js\"></script>\n17</body>\n18</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body { margin: 0; font-family: sans-serif; }\n2\n3.slider { \n4  overflow: hidden; \n5  width: 100%; \n6}\n7\n8.slider-track { \n9  display: flex; \n10  transition: margin-left 0.3s ease; \n11  width: 300%; \n12}\n13\n14.slide { \n15  flex: 0 0 33.333%; \n16  padding: 40px 20px; \n17  text-align: center; \n18  border: 1px solid #E2E8F0; \n19  box-sizing: border-box; \n20}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var currentSlideIndex = 0;\n2var track = document.querySelector('.slider-track');\n3var slides = document.querySelectorAll('.slide');\n4\n5function showSlide(index) {\n6  if (!track) return;\n7\n8  // Keep index within range\n9  currentSlideIndex = Math.max(0, Math.min(index, slides.length - 1));\n10\n11  // Move track so correct slide appears\n12  track.style.marginLeft = -(currentSlideIndex * 100) + '%';\n13}\n14\n15// Show first slide on load\n16showSlide(0);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Call showSlide(0) once when the page loads so the first slide is visible."
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable holds the state. The DOM reflects it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see the complete runnable example with the buttons connected."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

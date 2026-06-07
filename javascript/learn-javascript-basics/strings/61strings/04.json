@@ -1,0 +1,54 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/strings?page=4",
+  "title": "Creating Strings with Template Literals",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Strings with Template Literals"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've already used template literals (backticks ` `) to format output."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, you can use template literals to create strings and embed variables directly into the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let firstName = \"Emma\";\n2let event = \"weekly team meeting\";\n3let time = \"Thursday at 10 AM\";\n4\n5// Use template literals\n6let message = `Hi ${firstName}, you are invited to our ${event} on ${time}.`;\n7\n8console.log(message);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, it's much easier to read and work with dynamic strings."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

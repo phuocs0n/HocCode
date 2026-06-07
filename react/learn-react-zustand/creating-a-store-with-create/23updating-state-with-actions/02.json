@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/updating-state-with-actions?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Where do you define actions in a Zustand store?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a separate actions file"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not require a separate file for actions. Everything lives together in the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not require a separate file for actions. Everything lives together in the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the same object as your state, right alongside it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! In Zustand your state and the functions that change it are all defined together in the same object returned by create()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! In Zustand your state and the functions that change it are all defined together in the same object returned by create()."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a reducer function outside the store"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reducers are a Redux pattern. Zustand does not use reducers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Reducers are a Redux pattern. Zustand does not use reducers."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the component that needs them"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Actions live in the store, not in components. Components only read and call actions — they do not define them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Actions live in the store, not in components. Components only read and call actions — they do not define them."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Where do you define actions in a Zustand store?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:In a separate actions file",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "In a separate actions file",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Inside the same object as your state, right alongside it",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Inside the same object as your state, right alongside it",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:In a reducer function outside the store",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "In a reducer function outside the store",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:In the component that needs them",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "In the component that needs them",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

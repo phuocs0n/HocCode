@@ -1,0 +1,66 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/handling-errors?page=3",
+  "title": "Example: Reasons for Promise Failing",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Reasons for Promise Failing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at a modified version of a previous example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Create a new Promise that simulates an asynchronous operation\n2const promise = new Promise((resolve, reject) => {\n3    // Simulate a condition that determines success or failure\n4    const success = false;\n5    \n6    // If the operation is successful, resolve the promise with a success message\n7    if (success) {\n8        resolve(\"Operation successful\");\n9    }\n10    // Otherwise, reject the promise with an error message\n11    else {\n12        reject(\"Operation failed\");\n13    }\n14});\n15\n16// Consuming a promise\n17promise.then(result => {\n18  console.log(result);\n19});"
+    },
+    {
+      "type": "paragraph",
+      "content": "You should see a scary error."
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we had set success to true but now we've set it to false."
+    },
+    {
+      "type": "paragraph",
+      "content": "There might be various reasons for this change. For now, let's imagine the server is not responding and the value got set to false."
+    },
+    {
+      "type": "paragraph",
+      "content": "As a result, Javascript now calls reject(\"Operation failed\")."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, .then() does not handle failures. If the promise is rejected, you need .catch() to handle the failure."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll learn about .catch() shortly. But first, test yourself with a quiz!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/character-is-alphabet?page=1",
+  "title": "Check if Character is Alphabet",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check if Character is Alphabet"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check if a character is an alphabet or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "A character is an alphabet if it falls under the range from 'a' to 'z' or 'A' to 'Z'."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get a character input for the alphabet variable.",
+        "Check if the character is greater than or equal to 'a' and less than or equal to 'z' or if it is greater than or equal to 'A' and less than or equal to 'Z'.",
+        "If the character falls under this range, print Alphabet. Otherwise, print Not Alphabet."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputa"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputAlphabet"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

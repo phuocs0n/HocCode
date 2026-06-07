@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/in-between?page=3",
+  "title": "NOT IN Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "NOT IN Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The NOT IN operator is similar to IN, but instead of selecting rows that match the list, it excludes rows that match any value."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, you want to exclude customers from the UK and UAE. You can write:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select a row if country is not in the ('UK', 'UAE')\n2\n3SELECT first_name, country\n4FROM Customers\n5WHERE country NOT IN ('UK', 'UAE');"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above query is equivalent to:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select a row if country is not UK\n2-- and country is not UAE\n3\n4SELECT first_name, country\n5FROM Customers\n6WHERE country <> 'UK' AND country <> 'UAE';"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use IN and NOT IN to select or exclude specific values from your result."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you're working with ranges of continuous values (e.g., age, date, etc.), the BETWEEN operator is more appropriate, which we'll cover in the next lesson."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's reinforce what you've learned with a quiz and practice exercise."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

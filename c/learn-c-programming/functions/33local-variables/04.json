@@ -1,0 +1,188 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/local-variables?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nvoid findProduct() {\n\n  int result = 4 * 9;\n}\n\nint main() {\n\n  printf(\"%d\", result);\n\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "36"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả bên trong hàm main() không được xác định. Hãy nhớ rằng, int result = 4 * 9 chỉ cục bộ của hàm findProduct(). Nó không tồn tại bên ngoài."
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả bên trong hàm main() không được xác định. Hãy nhớ rằng, int result = 4 * 9 chỉ cục bộ của hàm findProduct(). Nó không tồn tại bên ngoài."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Lỗi)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả không được xác định. Nó chỉ tồn tại bên trong hàm findProduct()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả không được xác định. Nó chỉ tồn tại bên trong hàm findProduct()."
+    },
+    {
+      "type": "paragraph",
+      "content": "kết quả"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang in biến kết quả chứ không phải văn bản \"kết quả\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang in biến kết quả chứ không phải văn bản \"kết quả\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Không có điều nào ở trên"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Một trong những lựa chọn là chính xác."
+    },
+    {
+      "type": "paragraph",
+      "content": "Một trong những lựa chọn là chính xác."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả bên trong hàm main() không được xác định. Hãy nhớ rằng, int result = 4 * 9 chỉ cục bộ của hàm findProduct(). Nó không tồn tại bên ngoài."
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả bên trong hàm main() không được xác định. Hãy nhớ rằng, int result = 4 * 9 chỉ cục bộ của hàm findProduct(). Nó không tồn tại bên ngoài."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả không được xác định. Nó chỉ tồn tại bên trong hàm findProduct()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến kết quả không được xác định. Nó chỉ tồn tại bên trong hàm findProduct()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang in biến kết quả chứ không phải văn bản \"kết quả\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang in biến kết quả chứ không phải văn bản \"kết quả\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Một trong những lựa chọn là chính xác."
+    },
+    {
+      "type": "paragraph",
+      "content": "Một trong những lựa chọn là chính xác."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:36",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "36",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Lỗi)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Lỗi)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:kết quả",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "kết quả",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Không có điều nào ở trên",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Không có điều nào ở trên",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

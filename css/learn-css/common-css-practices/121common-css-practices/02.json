@@ -1,0 +1,85 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/common-css-practices?page=3",
+  "title": "Use Class Selectors Instead of Tag Selectors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Use Class Selectors Instead of Tag Selectors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using a tag selector (div, p, a, etc.) applies styling to every instance of that tag, which can lead to unintended styling across your site."
+    },
+    {
+      "type": "paragraph",
+      "content": "Additionally, you can't reuse the same styles across different tags with a tag selector, limiting your code's flexibility and reusability."
+    },
+    {
+      "type": "paragraph",
+      "content": "The class selector resolves these issues by allowing you to apply styles only to specific elements, making it easier to reuse styles across multiple tags."
+    },
+    {
+      "type": "paragraph",
+      "content": "Good Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1 class=\"styled-text\">Heading</h1>\n2<h2 class=\"styled-text\">Subheading 1</h2>\n3<p class=\"styled-text\">Paragraph 1</p>\n4\n5<h2>Subheading 2</h2>\n6<p>Paragraph 2</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.styled-text {\n2    font-family: Arial, sans-serif;\n3    color: #feb012;\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the styled-text class is applied to multiple tags—<h1>, <h2>, and <p>. However, not all occurrences of <h2> and <p> are styled."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>Heading</h1>\n2<h2>Subheading 1</h2>\n3<p>Paragraph 1</p>\n4<h2>Subheading 2</h2>\n5<p>Paragraph 2</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1h1 {\n2    font-family: Arial, sans-serif;\n3    color: #feb012;\n4}\n5\n6h2 {\n7    font-family: Arial, sans-serif;\n8    color: #feb012;\n9}\n10\n11p {\n12    font-family: Arial, sans-serif;\n13    color: #feb012;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, each tag requires its own selector for styling, even though the same style is being applied to each tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "Additionally, the h2 and p selectors style every instance of <h2> and <p>, leading to unintended styling effects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

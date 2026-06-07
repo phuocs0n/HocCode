@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-arrays?page=3",
+  "title": "Recap (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (III)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Array Manipulation"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. The map() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "The map() method creates a new array by applying a function to each element of the original array."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Array of prices\n2const prices = [100, 200, 300];\n3\n4// Use map() to create a new array with updated prices\n5const updatedPrices = prices.map((price) => {\n6\n7    return price + 10;\n8});\n9\n10console.log(updatedPrices);    // Output: [110, 210, 310]"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. The filter() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "The filter() method creates a new array by selecting elements from the original array that satisfy a given condition."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Array of numbers\n2const numbers = [1, 2, 3, 4, 5, 6];\n3\n4// Use filter() to extract even numbers\n5const evenNumbers = numbers.filter((number) => {\n6\n7    return number % 2 === 0;\n8});\n9\n10console.log(evenNumbers);    // Output: [2, 4, 6]"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. The reduce() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "The reduce() method combines all elements of an array to produce a single value, such as a total sum or product."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Array of numbers\n2const numbers = [10, 20, 30, 40];\n3\n4// Use reduce() to calculate the total\n5const totalSum = numbers.reduce((sum, number) => {\n6    return sum + number;\n7}, 0);\n8\n9console.log(totalSum);    // Output: 100"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

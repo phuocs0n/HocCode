@@ -1,0 +1,48 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-nth-fibonacci-number?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, recursively add preceding two numbers of n."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a base case. If n is 0 or 1. Return n.",
+        "Create a recursive case. In each recursive call, return the sum of (n - 1)th and (n - 2)th."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

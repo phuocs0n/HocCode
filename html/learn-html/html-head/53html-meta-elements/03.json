@@ -1,0 +1,61 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-html/html-meta-elements?page=3",
+  "title": "Viewport Meta Tag",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Viewport Meta Tag"
+    },
+    {
+      "type": "paragraph",
+      "content": "The viewport meta tag is essential for responsive design (designing the website to adapt based on the user's device size)."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "content=\"width=device-width\" sets the width of the viewport to be the same as the width of the device.",
+        "initial-scale=1.0 sets the initial zoom."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This metadata makes the webpage fit the user's screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "The viewport meta is more useful when working with CSS. We will return to it in the CSS course."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

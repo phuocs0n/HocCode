@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/protected-access-modifier?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is true?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are accessible outside the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are only accessible to the base and derived classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are only accessible to the base and derived classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are only accessible to the base and derived classes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are only accessible inside the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are accessible to the base and derived classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are accessible to the base and derived classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members aren't accessible to any entity in C++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are accessible to the base and derived classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "protected members are accessible to the base and derived classes."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is true?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:protected members are accessible outside the class.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "protected members are accessible outside the class.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:protected members are only accessible to the base and derived classes.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "protected members are only accessible to the base and derived classes.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:protected members are only accessible inside the class.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "protected members are only accessible inside the class.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:protected members aren't accessible to any entity in C++.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "protected members aren't accessible to any entity in C++.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

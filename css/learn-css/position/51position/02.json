@@ -1,0 +1,135 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/position?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You want to correctly position an icon 20px down from its original position. Which of the following code snippets can help you achieve this?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".icon {\n    top: 20px; \n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code doesn't specify a position type, so it won't work as intended."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code doesn't specify a position type, so it won't work as intended."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".icon {\n    position: static;\n    top: 20px; \n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "position: static ignores the top value so the icon won't move."
+    },
+    {
+      "type": "paragraph",
+      "content": "position: static ignores the top value so the icon won't move."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".icon {\n    position: relative;\n    top: -20px; \n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code moves the icon up instead of down due to the negative value of displacement."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code moves the icon up instead of down due to the negative value of displacement."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".icon {\n    position: relative;\n    top: 20px;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code properly uses position: relative to move the icon down by 20px."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code properly uses position: relative to move the icon down by 20px."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You want to correctly position an icon 20px down from its original position. Which of the following code snippets can help you achieve this?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:.icon {\n    top: 20px; \n}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": ".icon {\n    top: 20px; \n}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:.icon {\n    position: static;\n    top: 20px; \n}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": ".icon {\n    position: static;\n    top: 20px; \n}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:.icon {\n    position: relative;\n    top: -20px; \n}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": ".icon {\n    position: relative;\n    top: -20px; \n}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:.icon {\n    position: relative;\n    top: 20px;\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": ".icon {\n    position: relative;\n    top: 20px;\n}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

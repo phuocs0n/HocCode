@@ -1,0 +1,79 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/find-volume-of-cube?page=1",
+  "title": "Find Volume of a Cube",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find Volume of a Cube"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the volume of a cube."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to calculate the volume of a cube:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Volume of cube = length * length * length"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input and assign it to the length variable.",
+        "Use the above formula to compute the volume.",
+        "Print the volume."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output27"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,93 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/view-table-in-sql?page=1",
+  "title": "How is a View different from a Table in SQL?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How is a View different from a Table in SQL?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In SQL, a view and a table are database objects that store and retrieve data."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there are significant differences between them regarding their nature and functionality:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Data Storage"
+    },
+    {
+      "type": "paragraph",
+      "content": "A table in SQL is a physical entity that stores data directly. At the same time, a view is a virtual table that does not have storage."
+    },
+    {
+      "type": "paragraph",
+      "content": "Views are created based on queries and retrieve data from one or more underlying tables."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Data Modification"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tables allow direct data modification operations such as INSERT, UPDATE, and DELETE, while views are primarily used for data retrieval."
+    },
+    {
+      "type": "paragraph",
+      "content": "While some views allow limited modifications, they generally have restrictions and are unsuitable for extensive data modification."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Structure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tables have a fixed structure defined by columns with specific data types. Each row represents a record, and each column represents an attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Views, on the other hand, do not have a fixed structure. They are created by defining a query that retrieves data from tables, allowing for flexible combinations and transformations of data."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Abstraction and Security"
+    },
+    {
+      "type": "paragraph",
+      "content": "Views provide an additional layer of abstraction and security. They can present a simplified and tailored data view, hiding certain columns or performing calculations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Views can also control access to underlying data by granting users access to the view while restricting direct access to the tables, enhancing security measures."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

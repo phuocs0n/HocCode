@@ -1,0 +1,97 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/join-two-tables?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given the following tables:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Orders table with columns order_id, customer_id, and order_date.",
+        "Items table with columns order_id, product_id, and quantity."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Our goal is to write an SQL query to retrieve the ids of customers and the total quantity of products ordered by each customer."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can solve this problem by using the INNER JOIN keyword and combining the information from both tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must match the order_id column in the Orders table with the order_id column in the Items table to ensure proper association between the two tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can then group the combined data based on customer_id i.e., gather all information related to each customer and treat them as separate groups."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we calculate the sum of the quantity of products ordered by each customer using the SUM() function. We will use the total_quantity alias to denote this quantity."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result set will include customer_id and the corresponding total_quantity for each customer."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "customer_id",
+          "total_quantity"
+        ],
+        [
+          "1001",
+          "8"
+        ],
+        [
+          "1002",
+          "7"
+        ],
+        [
+          "1003",
+          "2"
+        ],
+        [
+          "1004",
+          "3"
+        ],
+        [
+          "1005",
+          "6"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

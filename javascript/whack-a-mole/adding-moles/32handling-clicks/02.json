@@ -1,0 +1,49 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/handling-clicks?page=3",
+  "title": "Add Click Listeners 🎯",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Click Listeners 🎯"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to make your moles clickable! You'll add an event listener to each mole that listens for clicks."
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, you'll just test it by logging a message to the console when a mole is clicked. Later, you'll make the mole disappear."
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the for loop that creates holes and moles, add an event listener to each mole that listens for \"click\" events."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When a mole is clicked, log \"Mole clicked!\" to the console."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

@@ -1,0 +1,135 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/analytic-window-functions?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: A company wants to analyze the salary growth of employees over time to compare the salary with previous year's salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which function should they use?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "SUM(), to calculate the total salary for each employee over all years."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "SUM() calculates totals, not comparisons between rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "SUM() calculates totals, not comparisons between rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "RANK(), to rank employees based on their salary growth."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "RANK() ranks rows but doesn't compare current and previous values."
+    },
+    {
+      "type": "paragraph",
+      "content": "RANK() ranks rows but doesn't compare current and previous values."
+    },
+    {
+      "type": "paragraph",
+      "content": "LAG(), to compare each employee's current salary with their previous year's salary."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "LAG() retrieves the previous row's salary, making it ideal for comparing current and past salaries."
+    },
+    {
+      "type": "paragraph",
+      "content": "LAG() retrieves the previous row's salary, making it ideal for comparing current and past salaries."
+    },
+    {
+      "type": "paragraph",
+      "content": "LEAD(), to compare each employee's salary with the next year's salary."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "LEAD() retrieves the next row's salary,which isn't needed for analyzing last year's salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "LEAD() retrieves the next row's salary,which isn't needed for analyzing last year's salary."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: A company wants to analyze the salary growth of employees over time to compare the salary with previous year's salary.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:SUM(), to calculate the total salary for each employee over all years.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "SUM(), to calculate the total salary for each employee over all years.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:RANK(), to rank employees based on their salary growth.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "RANK(), to rank employees based on their salary growth.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:LAG(), to compare each employee's current salary with their previous year's salary.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "LAG(), to compare each employee's current salary with their previous year's salary.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:LEAD(), to compare each employee's salary with the next year's salary.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "LEAD(), to compare each employee's salary with the next year's salary.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

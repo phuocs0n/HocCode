@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction-to-promises?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What was the main reason promises were introduced?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To represent async results as reliable, usable values"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises turn async outcomes into something you can work with."
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises turn async outcomes into something you can work with."
+    },
+    {
+      "type": "paragraph",
+      "content": "To replace callbacks completely"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Callbacks still exist in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "Callbacks still exist in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "To make JavaScript faster"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises are there to improve structure, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises are there to improve structure, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "To reduce syntax complexity"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Syntax improvements came later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Syntax improvements came later."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What was the main reason promises were introduced?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To represent async results as reliable, usable values",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To represent async results as reliable, usable values",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To replace callbacks completely",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To replace callbacks completely",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To make JavaScript faster",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To make JavaScript faster",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To reduce syntax complexity",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To reduce syntax complexity",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

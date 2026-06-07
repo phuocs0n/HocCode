@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/ifelse-statement?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n\n  int number = 0;\n\n  if (number < 0) {\n    printf(\"Number is negative\");\n  }\n\n  printf(\"This is always executed\");\n  \n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Số là âm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều này luôn được thực thi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều kiện kiểm tra của câu lệnh if là sai. Do đó, phần thân của câu lệnh if sẽ không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều kiện kiểm tra của câu lệnh if là sai. Do đó, phần thân của câu lệnh if sẽ không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Không có đầu ra)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Có một tuyên bố bên ngoài nếu. Vì vậy, tuyên bố đó được in bất kể điều gì."
+    },
+    {
+      "type": "paragraph",
+      "content": "Có một tuyên bố bên ngoài nếu. Vì vậy, tuyên bố đó được in bất kể điều gì."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều này luôn được thực thi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều kiện kiểm tra của câu lệnh if là sai. Do đó, phần thân của câu lệnh if không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều kiện kiểm tra của câu lệnh if là sai. Do đó, phần thân của câu lệnh if không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Mã lỗi)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chương trình này hợp lệ và sẽ không gây ra bất kỳ lỗi nào."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chương trình này hợp lệ và sẽ không gây ra bất kỳ lỗi nào."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Số là âm. Điều này luôn được thực thi.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Số là âm. Điều này luôn được thực thi.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Không có đầu ra)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Không có đầu ra)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Điều này luôn được thực thi.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Điều này luôn được thực thi.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(Mã lỗi)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(Mã lỗi)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

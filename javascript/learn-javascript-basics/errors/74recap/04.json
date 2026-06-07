@@ -1,0 +1,56 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-error?page=3",
+  "title": "Recap (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (III)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The try...catch...finally Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The finally block always runs, regardless of an exception occurring. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1try {\n2    console.log(\"Try block executed\");\n3} catch (error) {\n4    console.log(\"Catch block executed\");\n5} finally {\n6    console.log(\"Finally block executed\");\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Try block executed\nFinally block executed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

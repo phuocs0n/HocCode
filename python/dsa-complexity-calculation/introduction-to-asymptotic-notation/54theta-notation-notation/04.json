@@ -1,0 +1,183 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/theta-notation-notation?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: If a program has θ(n) time complexity, it means, the program may execute with ___ complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "θ(n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will take θ(n) complexity to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will take θ(n) complexity to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "θ(n3)θ(n^3)θ(n3)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n3)θ(n^3)θ(n3))."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n3)θ(n^3)θ(n3))."
+    },
+    {
+      "type": "paragraph",
+      "content": "θ(n2)θ(n^2)θ(n2)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n2)θ(n^2)θ(n2))."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n2)θ(n^2)θ(n2))."
+    },
+    {
+      "type": "paragraph",
+      "content": "θ(1)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take less time to execute (like θ(1))."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take less time to execute (like θ(1))."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will take θ(n) complexity to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will take θ(n) complexity to execute."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n3)θ(n^3)θ(n3))."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n3)θ(n^3)θ(n3))."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n2)θ(n^2)θ(n2))."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take more time to execute (like θ(n2)θ(n^2)θ(n2))."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take less time to execute (like θ(1))."
+    },
+    {
+      "type": "paragraph",
+      "content": "Theta is the exact bound. A program with θ(n) complexity will not take less time to execute (like θ(1))."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: If a program has θ(n) time complexity, it means, the program may execute with ___ complexity.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:θ(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "θ(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:θ(n3)θ(n^3)θ(n3)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "θ(n3)θ(n^3)θ(n3)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:θ(n2)θ(n^2)θ(n2)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "θ(n2)θ(n^2)θ(n2)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:θ(1)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "θ(1)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

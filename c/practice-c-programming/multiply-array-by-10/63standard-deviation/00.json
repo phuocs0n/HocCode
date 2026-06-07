@@ -1,0 +1,92 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/standard-deviation?page=1",
+  "title": "Compute Standard Deviation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute Standard Deviation"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the standard deviation."
+    },
+    {
+      "type": "paragraph",
+      "content": "calculateSD() Function"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function calculateSD() with an double array data as parameter.",
+        "Inside the function, find the sum of all the array elements.",
+        "Compute the mean of array elements.",
+        "Find the difference of each array value and mean.",
+        "Compute the square of each difference using pow().",
+        "Add all the squared differences and assign to result.",
+        "Compute the variance by dividing the result by 5.0.",
+        "Compute the square root of variance using sqrt() and assign it to sd.",
+        "Return sd."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "main() Function"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get 5 integer input values for an array",
+        "Call calculateSD() with the array as argument.",
+        "Print the returned value up to 3 decimal places."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input9\n12\n21\n11\n14"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output4.128"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

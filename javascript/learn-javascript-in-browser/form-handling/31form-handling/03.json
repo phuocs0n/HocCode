@@ -1,0 +1,64 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/form-handling?page=4",
+  "title": "Handling Input Field Focus",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handling Input Field Focus"
+    },
+    {
+      "type": "paragraph",
+      "content": "To make the form interactive, you can highlight the input field visually whenever a user clicks on it. This will also help users identify which field they are currently interacting with."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can do so by using the focus and blur (unfocus) event."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<form id=\"signup-form\" action=\"/html-form-submit\" method=\"post\">\n2    <div class=\"form-group\">\n3        <label for=\"email\" class=\"signup-label\">Email:</label>\n4        <input type=\"email\" class=\"signup-input\" id=\"email-input\">\n5    </div>\n6\n7    <div class=\"form-group\">\n8        <label for=\"password\" class=\"signup-label\">Password:</label>\n9        <input type=\"password\" class=\"signup-input\" id=\"password-input\">\n10    </div>\n11\n12    <button type=\"submit\" id=\"submit-btn\">Sign-Up</button>\n13</form>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.focused {\n2    outline: none;\n3    border-color: #007bff;\n4    box-shadow: 0 0 0 5px #007bff40;\n5}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1emailInput.addEventListener(\"focus\", () => {\n2    emailInput.classList.add(\"focused\");\n3});\n4\n5emailInput.addEventListener(\"blur\", () => {\n6    emailInput.classList.remove(\"focused\");\n7});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code and click the email input field. You'll see it highlighted when focused and the highlight removed when blurred."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, try a quick practice exercise to apply this concept to the password field."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

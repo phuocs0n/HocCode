@@ -1,0 +1,58 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/building-logic?page=5",
+  "title": "Step 2: Creating a Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Creating a Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can make this program reusable and easier to manage by creating a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the function will work:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The function will take a single argument number (the number we need to check for prime).",
+        "The function will check if the number is prime or not.",
+        "If the number is prime, the function will return true. If not, the function will return false."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const checkPrime = (number) => {\n    // Only check if number is greater than 1\n    if (number > 1) {\n        for (let i = 2; i < number; i++) {\n            if (number % i === 0) {\n                return false;\n            }\n        }\n        return true;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function only works for numbers greater than 1. We know any number less than or equal to 1 is not a prime number. Next, let's handle that."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

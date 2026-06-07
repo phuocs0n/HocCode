@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/remove-duplicate-characters-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To remove any duplicate elements in a string, we need to create a variable to hold the unique characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, by looping through each character in the string, we need to check if the character is already in the variable used to store the unique characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the character is not already in the new string, that means the character is unique and we can concatenate it to the new variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the character is already in the new string, that means the character is a duplicate. So we can skip the character."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we need to print the new string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

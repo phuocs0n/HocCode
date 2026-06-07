@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/comments?page=2",
+  "title": "Single Line Comments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Single Line Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C, we can use // (two forward slashes) to start a single-line comment. For example:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4  \n5    // Print Hello World\n6    printf(\"Hello World\");\n7 \n8    return 0;\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, // Print Hello World is a comment. It is ignored by the compiler because it begins with a double slash //."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move ahead to multi-line comments."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

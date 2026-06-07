@@ -1,0 +1,67 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/spread-operator?page=2",
+  "title": "Spread Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Spread Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const fruits1 = [\"apple\", \"banana\", \"kiwi\"];\n2\n3// Use spread operator\n4const fruits2 = [\"orange\", \"mango\", ...fruits1, \"apricot\", \"papaya\"];\n5\n6console.log(fruits2);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[\n  'orange', 'mango',\n  'apple',  'banana',\n  'kiwi',   'apricot',\n  'papaya'\n]"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, we achieved the result with just one line of code and without multiple method calls."
+    },
+    {
+      "type": "paragraph",
+      "content": "The spread operator makes adding elements simpler, more readable, and easier to maintain."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn how the spread operator works and how you can use it to perform different operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by understanding how the spread operator works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

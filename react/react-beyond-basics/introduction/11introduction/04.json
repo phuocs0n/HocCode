@@ -1,0 +1,77 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/introduction?page=5",
+  "title": "What You Will Build",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What You Will Build"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll keep working on the Daily Journal App. The same project, the same data, the same components. But we'll add four new layers to it:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Multi-page navigation with React Router"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll split the app into real pages. Each page gets its own URL. The browser's \"back\" button will work. Links will feel native."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. A light/dark theme toggle with useContext()"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll use React's Context API for this feature. One ThemeContext will make the theme available anywhere in the tree without prop drilling."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Journal entries managed by useReducer() and JournalContext"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll replace local useState() calls with a proper reducer. All state changes will go through named actions — ADD_ENTRY, DELETE_ENTRY, SET_ENTRIES."
+    },
+    {
+      "type": "paragraph",
+      "content": "Any component will be able to read or update journal state without receiving props."
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Lazy-loaded routes with React.lazy and Suspense"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll split the bundle so each page only loads its code when visited. We'll add a skeleton fallback so users see something while the code loads."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each chapter covers one of these patterns. Each lesson covers one concept inside that pattern."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

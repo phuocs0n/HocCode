@@ -1,0 +1,176 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/introduction-1?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How many steps does it take for the following Python code to run?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_num(n):\n    print(n)\n    print(n+1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tricky one! As there are no loops, the code takes a fixed number of steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "A tricky one! As there are no loops, the code takes a fixed number of steps."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each print() statement counts as a step."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each print() statement counts as a step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are two print() statements in the code and no loops, the code takes two steps to run."
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are two print() statements in the code and no loops, the code takes two steps to run."
+    },
+    {
+      "type": "paragraph",
+      "content": "n+1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are no loops, the code takes a fixed number of steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are no loops, the code takes a fixed number of steps."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tricky one! As there are no loops, the code takes a fixed number of steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "A tricky one! As there are no loops, the code takes a fixed number of steps."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each print() statement counts as a step."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each print() statement counts as a step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are two print() statements in the code and no loops, the code takes two steps to run."
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are two print() statements in the code and no loops, the code takes two steps to run."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are no loops, the code takes a fixed number of steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are no loops, the code takes a fixed number of steps."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How many steps does it take for the following Python code to run?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:n",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "n",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:1",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:2",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:n+1",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "n+1",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

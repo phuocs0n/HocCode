@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-greedy-algorithms?page=2",
+  "title": "Greedy Algorithms Principles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Greedy Algorithms Principles"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three things to note about greedy algorithms:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Short-Sighted: Greedy algorithms choose the best option at the moment without thinking about the consequences in the future."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "No Looking Back: Once a decision is made, greedy algorithms don't change their minds, even if it turns out not to be the best choice in the end."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Iterative Approach: Greedy algorithms solve problems step by step, always choosing what looks best right now."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

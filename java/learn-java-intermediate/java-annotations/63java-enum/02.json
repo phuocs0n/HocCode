@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-enum?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the program?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "enum Size {\n    SMALL, MEDIUM, LARGE\n}\n\nclass Main {\n    public static void main(String[] args) {\n        System.out.println(Size.SMALL);\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program runs without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program runs without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "MEDIUM"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not MEDIUM."
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not MEDIUM."
+    },
+    {
+      "type": "paragraph",
+      "content": "SMALL"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL."
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL."
+    },
+    {
+      "type": "paragraph",
+      "content": "LARGE"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not LARGE."
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not LARGE."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program runs without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program runs without any error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not MEDIUM."
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not MEDIUM."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL."
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not LARGE."
+    },
+    {
+      "type": "paragraph",
+      "content": "Size.SMALL accesses the enum constant SMALL not LARGE."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the program?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Error",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:MEDIUM",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "MEDIUM",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:SMALL",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "SMALL",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:LARGE",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "LARGE",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

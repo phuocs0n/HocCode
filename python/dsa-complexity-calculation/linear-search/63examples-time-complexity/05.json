@@ -1,0 +1,188 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/examples--time-complexity?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the time complexity of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_hello(n):\n    for i in range(n):\n        print(\"hello\")\n    \n    j = 0\n    while j < n:\n        print(\"hello\")\n        j = j + 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n2)O(n^2)O(n2)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The while loop is not inside the for loop. Hence, the time complexity is not O(n2)O(n^2)O(n2)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The while loop is not inside the for loop. Hence, the time complexity is not O(n2)O(n^2)O(n2)."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The two loops are independent of each other. Hence, the time complexity is O(n)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The two loops are independent of each other. Hence, the time complexity is O(n)."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(logn)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program's execution time changes linearly (not logarithmically) with the change in its input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program's execution time changes linearly (not logarithmically) with the change in its input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(1)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are loops in the program, its execution time doesn't remain constant."
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are loops in the program, its execution time doesn't remain constant."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The while loop is not inside the for loop. Hence, the time complexity is not O(n2)O(n^2)O(n2)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The while loop is not inside the for loop. Hence, the time complexity is not O(n2)O(n^2)O(n2)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The two loops are independent of each other. Hence, the time complexity is O(n)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The two loops are independent of each other. Hence, the time complexity is O(n)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program's execution time changes linearly (not logarithmically) with the change in its input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program's execution time changes linearly (not logarithmically) with the change in its input size."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are loops in the program, its execution time doesn't remain constant."
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are loops in the program, its execution time doesn't remain constant."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the time complexity of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:O(n2)O(n^2)O(n2)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "O(n2)O(n^2)O(n2)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:O(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:O(logn)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "O(logn)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:O(1)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "O(1)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

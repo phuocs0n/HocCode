@@ -1,0 +1,134 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/quadratic-time-complexity?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following codes has quadratic time complexity?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_numbers(n):\n    for i in range(n):\n        for j in range(n):\n            print(j)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code's time complexity is quadratic due to the nested loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code's time complexity is quadratic due to the nested loop."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_numbers(n):\n    i = 0\n    j = 0 \n    while i < n:\n        print(i)\n        i = i + 1\n    \n    while j < n:\n        print(j)\n        j = j + 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nested loops do cause quadratic time complexity, but note that the code here contains two separate while loops."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nested loops do cause quadratic time complexity, but note that the code here contains two separate while loops."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_numbers(n):\n    for i in range(n):\n        if i < n:\n            print(n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code doesn't contain a nested loop. Instead, it contains an if statement inside a for loop. So, the time complexity is linear."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code doesn't contain a nested loop. Instead, it contains an if statement inside a for loop. So, the time complexity is linear."
+    },
+    {
+      "type": "paragraph",
+      "content": "All of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following codes has quadratic time complexity?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:def print_numbers(n):\n    for i in range(n):\n        for j in range(n):\n            print(j)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "def print_numbers(n):\n    for i in range(n):\n        for j in range(n):\n            print(j)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:def print_numbers(n):\n    i = 0\n    j = 0 \n    while i < n:\n        print(i)\n        i = i + 1\n    \n    while j < n:\n        print(j)\n        j = j + 1",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "def print_numbers(n):\n    i = 0\n    j = 0 \n    while i < n:\n        print(i)\n        i = i + 1\n    \n    while j < n:\n        print(j)\n        j = j + 1",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:def print_numbers(n):\n    for i in range(n):\n        if i < n:\n            print(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "def print_numbers(n):\n    for i in range(n):\n        if i < n:\n            print(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,128 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/having-clause?page=1",
+  "title": "How can you use a HAVING clause in SQL?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How can you use a HAVING clause in SQL?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The HAVING clause in SQL filters the results of a query based on conditions that involve aggregate functions. It is similar to the WHERE clause but operates on groups of rows rather than individual rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the table below:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Sales"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "sales_id",
+          "region",
+          "sales",
+          "month"
+        ],
+        [
+          "1",
+          "New York",
+          "3500",
+          "March"
+        ],
+        [
+          "2",
+          "Alaska",
+          "108",
+          "January"
+        ],
+        [
+          "3",
+          "California",
+          "4000",
+          "January"
+        ],
+        [
+          "4",
+          "Texas",
+          "1000",
+          "October"
+        ],
+        [
+          "5",
+          "California",
+          "2000",
+          "June"
+        ],
+        [
+          "6",
+          "Texas",
+          "5000",
+          "December"
+        ],
+        [
+          "7",
+          "New York",
+          "4300",
+          "September"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To find regions with total sales greater than 6000, we can use the HAVING clause as follows:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT region, SUM(sales) AS total_sales\n2FROM Sales\n3GROUP BY region\n4HAVING SUM(sales) > 6000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query groups the sales by region, calculates the total sales for each region using the SUM() function, and then filters the result using the HAVING clause to include only regions with total sales greater than 6000."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, the result set will be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "region",
+          "total_sales"
+        ],
+        [
+          "New York",
+          "7800"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

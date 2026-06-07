@@ -1,0 +1,78 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/java-interview-questions/combinations-of-list-elements-whose-sum-equals-target-value?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have the following array and a target value:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers = [2, 7, 11, 15]\ntarget = 9"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the elements that add up to the target value, we will check if the array contains the target - element. This is because adding two elements, a and b, gives the result t, then subtracting one element from the result gives another element:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "a + b = t\nt - a = b\nt - b = a"
+    },
+    {
+      "type": "paragraph",
+      "content": "Subtracting target with element will give us the value of the other number that adds up to the target value:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "9 - 2 = 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since 7 is in the array numbers, we have found the combination that adds up to the target value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are the steps to solve this problem:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an empty temporary list temp.",
+        "Loop through each element in the original array numbers.",
+        "For each element num in numbers, check if the difference between the target value and num is in the temporary list temp. If it is, then return an array containing num and target - num, as these are the two numbers in the array that add up to the target value.",
+        "If the difference is not in the temporary list, add num to the temporary list.",
+        "If no combination of two numbers in the array add up to the target value, return -1, -1."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/movies-with-duration-greater-than-average?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Movies"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "id",
+          "title",
+          "duration"
+        ],
+        [
+          "1",
+          "Pulp Fiction",
+          "193"
+        ],
+        [
+          "2",
+          "Good Will Hunting",
+          "126"
+        ],
+        [
+          "3",
+          "Forrest Gump",
+          "144"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Find the titles of all movies that have a duration greater than the average duration of all movies in the table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

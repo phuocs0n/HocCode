@@ -1,0 +1,76 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/oop-examples?page=2",
+  "title": "Example: Person class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Person class"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "We will create a Person class.",
+        "The object of this class will have name and age attributes. We will take input from the user and assign values to these attributes.",
+        "Then, we will create another method display_info to print these attributes."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class Person:\n2    def __init__(self):\n3        self.name = input('Enter name: ')\n4        self.age = int(input('Enter age: '))\n5    \n6    def display_info(self):\n7        print(f'name: {self.name}')\n8        print(f'age: {self.age}')\n9\n10person1 = Person()\n11person1.display_info()\n12\n13person2 = Person()\n14person2.display_info()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter name: Jack\nEnter age: 21\nname: Jack\nage: 21\nEnter name: Daniels\nEnter age: 22\nname: Daniels\nage: 22"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, when an object of Person is created, the __init__() method is called, and the user is asked to enter person_name and person_age. We have assigned these values to self.name and self.age respectively. That means, the objects of Person will have two attributes: name and age."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, when we call display_info() using person1, the name and the age attributes of the person1 object are printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, when we call display_info() using person2, the name and age attributes of the person2 object are printed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

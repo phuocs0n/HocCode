@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/git/forks-pull-requests?page=2",
+  "title": "Why Pull Requests Exist",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practical Git and GitHub"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Pull Requests Exist"
+    },
+    {
+      "type": "paragraph",
+      "content": "Without pull requests, anyone with access could push changes directly to main. Changes would go in without review, and mistakes could easily slip through."
+    },
+    {
+      "type": "paragraph",
+      "content": "A pull request adds an important step. Before anything is merged, someone reviews the changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "This catches most mistakes and improves quality. It also creates a clear record of what changed, why it changed, and who approved it."
+    },
+    {
+      "type": "paragraph",
+      "content": "👉 Next, let's walk through the full workflow."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

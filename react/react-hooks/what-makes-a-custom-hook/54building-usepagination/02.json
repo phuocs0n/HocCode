@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usepagination?page=3",
+  "title": "How App is Modified",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How App is Modified"
+    },
+    {
+      "type": "paragraph",
+      "content": "What moved out of App:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "useState() for currentPage",
+        "useMemo() for totalPages",
+        "useMemo() for pagedEntries",
+        "handleNext() and handlePrev() handlers"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "What stays in App:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "useMemo() for entries (journal-specific mapping of raw API data)",
+        "useState() for selectedEntry (drawer state)",
+        "handleQueryChange() — it calls setQuery() from useSearch() and reset() from usePagination(), coordinating both hooks"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "With the hook extracted, we can write the final version of App.jsx."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

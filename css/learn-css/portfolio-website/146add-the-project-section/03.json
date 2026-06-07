@@ -1,0 +1,107 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/add-project-section?page=4",
+  "title": "Making the Layout Responsive",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Making the Layout Responsive"
+    },
+    {
+      "type": "paragraph",
+      "content": "Currently, the layout isn't responsive and doesn't display well on mobile devices. Let's use media queries to make adjustments for screens that are 768px or narrower."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what you'll do:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Stack the cards vertically on smaller screens.",
+        "Remove the tech stack and descriptions on mobile to reduce clutter.",
+        "Center-align all items within each card on mobile for a consistent look."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "First, for small devices(768px width or less), we will make the cards stack vertically on each other."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"projects-grid\">\n2    <div class=\"projects-card primary-card \">\n3        <img src=\"/images/learn-css/shopease.png\" alt=\"Project Image\">\n4        <h3>ShopEase</h3>\n5        <p>ShopEase is a fully responsive and interactive e-commerce platform that offers a seamless\n6            shopping experience. It features product listings, shopping cart functionality, secure checkout,\n7            product filtering, and user reviews. With an integrated payment gateway, it provides users with\n8            a secure and efficient way to shop online. Built using modern web technologies and best\n9            practices.</p>\n10        <div class=\"tech-tag-list\">\n11            <div>HTML</div>\n12            <div>CSS</div>\n13            <div>JavaScript</div>\n14            <div>API Integration</div>\n15            <div>Payment Gateway</div>\n16        </div>\n17        <a href=\"#\">Visit Site</a>\n18    </div>\n19    <div class=\"projects-card\">\n20        <img src=\"/images/learn-css/smoothie.png\" alt=\"Project Image\">\n21        <h3>Smoothie Hub</h3>\n22        <p>A vibrant website featuring a collection of smoothie recipes for health-conscious individuals.</p>\n23        <a href=\"#\">Visit Site</a>\n24    </div>\n25    <div class=\"projects-card\">\n26        <img src=\"/images/learn-css/bakery.png\" alt=\"Project Image\">\n27        <h3>BakeItEasy</h3>\n28        <p>A baking recipe website that showcases step-by-step guides for home bakers.</p>\n29        <a href=\"#\">Visit Site</a>\n30    </div>\n31    <div class=\"projects-card\">\n32        <img src=\"/images/learn-css/meal.png\" alt=\"Project Image\">\n33        <h3>QuickFit Meals</h3>\n34        <p>An easy-to-use site that provides quick and healthy meal ideas for people on the go.</p>\n35        <a href=\"#\">Visit Site</a>\n36    </div>\n37    <div class=\"projects-card\">\n38        <img src=\"/images/learn-css/travel.png\" alt=\"Project Image\">\n39        <h3>TravelShots</h3>\n40        <p>A photography portfolio that highlights unique travel destinations through stunning images.</p>\n41        <a href=\"#\">Visit Site</a>\n42    </div>\n43</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Mobile view */\n2@media (max-width: 768px) {\n3    .projects-grid {\n4        display: flex;\n5        flex-direction: column;\n6        align-items: center;\n7        justify-content: center;\n8    }\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will remove the tech stack and descriptions from the mobile devices to remove clutter."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"projects-grid\">\n2    <div class=\"projects-card primary-card \">\n3        <img src=\"/images/learn-css/shopease.png\" alt=\"Project Image\">\n4        <h3>ShopEase</h3>\n5        <p>ShopEase is a fully responsive and interactive e-commerce platform that offers a seamless\n6            shopping experience. It features product listings, shopping cart functionality, secure checkout,\n7            product filtering, and user reviews. With an integrated payment gateway, it provides users with\n8            a secure and efficient way to shop online. Built using modern web technologies and best\n9            practices.</p>\n10        <div class=\"tech-tag-list\">\n11            <div>HTML</div>\n12            <div>CSS</div>\n13            <div>JavaScript</div>\n14            <div>API Integration</div>\n15            <div>Payment Gateway</div>\n16        </div>\n17        <a href=\"#\">Visit Site</a>\n18    </div>\n19    <div class=\"projects-card\">\n20        <img src=\"/images/learn-css/smoothie.png\" alt=\"Project Image\">\n21        <h3>Smoothie Hub</h3>\n22        <p>A vibrant website featuring a collection of smoothie recipes for health-conscious individuals.</p>\n23        <a href=\"#\">Visit Site</a>\n24    </div>\n25    <div class=\"projects-card\">\n26        <img src=\"/images/learn-css/bakery.png\" alt=\"Project Image\">\n27        <h3>BakeItEasy</h3>\n28        <p>A baking recipe website that showcases step-by-step guides for home bakers.</p>\n29        <a href=\"#\">Visit Site</a>\n30    </div>\n31    <div class=\"projects-card\">\n32        <img src=\"/images/learn-css/meal.png\" alt=\"Project Image\">\n33        <h3>QuickFit Meals</h3>\n34        <p>An easy-to-use site that provides quick and healthy meal ideas for people on the go.</p>\n35        <a href=\"#\">Visit Site</a>\n36    </div>\n37    <div class=\"projects-card\">\n38        <img src=\"/images/learn-css/travel.png\" alt=\"Project Image\">\n39        <h3>TravelShots</h3>\n40        <p>A photography portfolio that highlights unique travel destinations through stunning images.</p>\n41        <a href=\"#\">Visit Site</a>\n42    </div>\n43</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Mobile view */\n2@media (max-width: 768px) {\n3    .tech-tag-list,\n4    .projects-card p {\n5        display: none;\n6    }\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we will align all items inside the card to the center."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"projects-grid\">\n2    <div class=\"projects-card primary-card \">\n3        <img src=\"/images/learn-css/shopease.png\" alt=\"Project Image\">\n4        <h3>ShopEase</h3>\n5        <p>ShopEase is a fully responsive and interactive e-commerce platform that offers a seamless\n6            shopping experience. It features product listings, shopping cart functionality, secure checkout,\n7            product filtering, and user reviews. With an integrated payment gateway, it provides users with\n8            a secure and efficient way to shop online. Built using modern web technologies and best\n9            practices.</p>\n10        <div class=\"tech-tag-list\">\n11            <div>HTML</div>\n12            <div>CSS</div>\n13            <div>JavaScript</div>\n14            <div>API Integration</div>\n15            <div>Payment Gateway</div>\n16        </div>\n17        <a href=\"#\">Visit Site</a>\n18    </div>\n19    <div class=\"projects-card\">\n20        <img src=\"/images/learn-css/smoothie.png\" alt=\"Project Image\">\n21        <h3>Smoothie Hub</h3>\n22        <p>A vibrant website featuring a collection of smoothie recipes for health-conscious individuals.</p>\n23        <a href=\"#\">Visit Site</a>\n24    </div>\n25    <div class=\"projects-card\">\n26        <img src=\"/images/learn-css/bakery.png\" alt=\"Project Image\">\n27        <h3>BakeItEasy</h3>\n28        <p>A baking recipe website that showcases step-by-step guides for home bakers.</p>\n29        <a href=\"#\">Visit Site</a>\n30    </div>\n31    <div class=\"projects-card\">\n32        <img src=\"/images/learn-css/meal.png\" alt=\"Project Image\">\n33        <h3>QuickFit Meals</h3>\n34        <p>An easy-to-use site that provides quick and healthy meal ideas for people on the go.</p>\n35        <a href=\"#\">Visit Site</a>\n36    </div>\n37    <div class=\"projects-card\">\n38        <img src=\"/images/learn-css/travel.png\" alt=\"Project Image\">\n39        <h3>TravelShots</h3>\n40        <p>A photography portfolio that highlights unique travel destinations through stunning images.</p>\n41        <a href=\"#\">Visit Site</a>\n42    </div>\n43</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Mobile view */\n2@media (max-width: 768px) {\n3    .projects-card {\n4        display: flex;\n5        flex-direction: column;\n6        align-items: center;\n7    }\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        ".projects-grid: On screens 768px or narrower, the grid switches to a flex layout to stack each card vertically. The gap property adds space between the stacked cards.",
+        ".tech-tag-list and .projects-card p: The tech stack and description paragraph are hidden to make the cards more compact on mobile screens.",
+        ".projects-card Alignment: On mobile, items in each project card are center-aligned for a consistent look."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This setup ensures the project section remains visually appealing and accessible across various screen sizes, especially on mobile."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,90 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/area-of-rectangle-using-constructor-overloading?page=1",
+  "title": "Area of Rectangle Using Constructor Overloading",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Area of Rectangle Using Constructor Overloading"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the area of rectangles using constructor overloading."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Rectangle with integer variables length and breadth.",
+        "Using a default constructor, set the length variable to 8.",
+        "Create another constructor with two integer parameters and initialize length and breadth with those parameters.",
+        "Create the calculate_area() function that returns the area of the rectangle."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() function, get integer inputs for length and breadth.",
+        "Create rect1 object by passing length and breadth as parameters to its constructor.",
+        "Print its area by calling its calculate_area() function.",
+        "Create another object rect2 without passing any arguments to its constructor.",
+        "Assign the value of the breadth variable to the breadth variable of rect2.",
+        "Print its area by calling its calculate_area() function."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input6\n4"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output24\n32"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

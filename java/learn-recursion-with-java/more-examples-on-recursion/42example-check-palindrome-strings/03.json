@@ -1,0 +1,60 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/example-check-palindrome-strings?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static boolean checkPalindrome(String text) {\n4\n5        // If the string is empty or contains a single character,\n6        // the string is a palindrome\n7        if (text.isEmpty() || text.length() == 1) {\n8            return true;\n9        }\n10        \n11        // Check if the first and last characters are the same\n12        if (text.charAt(0) == text.charAt(text.length() - 1)) {\n13\n14            // Recursive call\n15            return checkPalindrome(text.substring(1, text.length() - 1));\n16        }\n17        else {\n18            return false;\n19        }\n20    }\n21\n22    public static void main(String[] args) {\n23\n24        boolean isPalindrome = checkPalindrome(\"level\");\n25\n26        // Use ternary operator to determine result\n27        String result = isPalindrome ? \"Palindrome\" : \"Not Palindrome\";\n28\n29        System.out.println(result);\n30    }\n31}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Palindrome"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, here's the equivalent code using an object instead of a static method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public boolean checkPalindrome(String text) {\n4\n5        if (text.isEmpty() || text.length() == 1) {\n6            return true;\n7        }\n8        \n9        if (text.charAt(0) == text.charAt(text.length() - 1)) {\n10            return checkPalindrome(text.substring(1, text.length() - 1));\n11        }\n12        else {\n13            return false;\n14        }\n15    }\n16\n17    public static void main(String[] args) {\n18\n19        Main obj = new Main();\n20\n21        boolean isPalindrome = obj.checkPalindrome(\"level\");\n22\n23        String result = isPalindrome ? \"Palindrome\" : \"Not Palindrome\";\n24        System.out.println(result);\n25    }\n26}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will look at how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

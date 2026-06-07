@@ -1,0 +1,58 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-struct?page=3",
+  "title": "Example: C struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: C struct"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// create Person struct\n4struct Person {\n5  int age;\n6  double salary;\n7};\n8\n9int main() {\n10\n11  // create struct variable\n12  struct Person person1;\n13\n14\n15  // assign values to struct members\n16  person1.age = 25;\n17  person1.salary = 3465.78;\n18\n19  // print struct members\n20  printf(\"Age: %d\\n\", person1.age);\n21  printf(\"Salary: %.2lf\", person1.salary);\n22\n23\n24  return 0;\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Age: 25\nSalary: 3465.78"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you can see that we have used"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "person1.age - to assign and access the age member of Person",
+        "person1.salary - to assign and access the salary member of Person"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

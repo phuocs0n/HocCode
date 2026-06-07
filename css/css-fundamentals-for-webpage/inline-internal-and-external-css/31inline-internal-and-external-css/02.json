@@ -1,0 +1,70 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/inline-internal-external-css?page=3",
+  "title": "Internal CSS — Styling Inside the HTML File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Internal CSS — Styling Inside the HTML File"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next is internal CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "What it is:CSS written inside a <style> tag within the HTML file."
+    },
+    {
+      "type": "paragraph",
+      "content": "Where it lives: Inside the <head> section of the HTML."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<head>\n2  <style>\n3    p {\n4      color: blue;\n5    }\n6  </style>\n7</head>"
+    },
+    {
+      "type": "paragraph",
+      "content": "What to notice:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Styles apply to the entire page",
+        "CSS is still locked to a single HTML file"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer take:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Okay for small demos or learning experiments. Not ideal once a project has multiple pages or components."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

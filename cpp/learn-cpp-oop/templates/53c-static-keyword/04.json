@@ -1,0 +1,84 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/c-static-keyword?page=4",
+  "title": "Change static Variable",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Change static Variable"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also change the value of static variables once it's defined. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Student {\n5    public:\n6  \n7\n8        // static variable declaration\n9        static int subject_code;\n10        static string subject;\n11\n12};\n13\n14\n15// static variable definition and initialization\n16int Student::subject_code = 13;\n17\n18// static variable definition\n19string Student::subject;\n20\n21\n22int main() {\n23    \n24    // access static variable\n25    cout << \"Initial subject_code: \" << Student::subject_code << endl;\n26\n27\n28    // change the subject_code variable\n29    Student::subject_code = 15;\n30\n31\n32    cout << \"Final subject_code: \" << Student::subject_code << endl;\n33\n34\n35    // initialize the subject variable\n36    Student::subject = \"Physics\";\n37\n38\n39    // print the subject variable\n40    cout << \"Subject: \" << Student::subject << endl;\n41  \n42    return 0;\n43}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Initial subject_code: 13\nFinal subject_code: 15\nSubject: Physics"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we have created two static variables - subject_code and subject - inside the Student class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice how we have defined the static variables outside the class:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// static variable definition and initialization\nint Student::subject_code = 13;\n\n// static variable definition\nstring Student::subject;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have initialized subject_code to 13 but we have not initialized subject. This is because we can change and also initialize variables later once they've been defined."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// inside the main() function\n\n// change the subject_code variable\nStudent::subject_code = 15;\n\n// initialize the subject variable\nStudent::subject = \"Physics\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "changes the value of subject_code to 15",
+        "initializes subject to \"Physics\""
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

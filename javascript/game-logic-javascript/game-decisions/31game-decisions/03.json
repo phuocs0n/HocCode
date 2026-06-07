@@ -1,0 +1,53 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-decisions?page=4",
+  "title": "Adding else",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding else"
+    },
+    {
+      "type": "paragraph",
+      "content": "But a game usually can't stay silent when the condition is false. We also need to handle what happens when the condition is not true. That's where else comes in."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var passMark = 40;\n2var percentage = 30;\n3\n4if (percentage >= passMark) {\n5  console.log(\"You passed!\");\n6} else {\n7  console.log(\"You failed!\");\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now the program always prints one message:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "if the condition is true → it runs the if block",
+        "if the condition is false → it runs the else block"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

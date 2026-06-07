@@ -1,0 +1,86 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/reading-state-in-components?page=1",
+  "title": "Connecting a Component to the Store",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Connecting a Component to the Store"
+    },
+    {
+      "type": "paragraph",
+      "content": "The store is ready. Now how does a component actually read from it?"
+    },
+    {
+      "type": "paragraph",
+      "content": "To read from the store you use useJournalStore and pass it a selector function. The selector tells Zustand exactly which piece of state you want."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, in src/components/EntryList.jsx you do this."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { create } from 'zustand'\n2 \n3const useJournalStore = create((set) => ({\n4  entries: [],\n5  theme: 'light',\n6}))\n7 \n8export default useJournalStore"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1const entries = useJournalStore((state) => state.entries)\n2console.log(entries)"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import useJournalStore from './store/useJournalStore'\n2import EntryList from './components/EntryList'\n3 \n4export default function App() {\n5  const theme = useJournalStore((state) => state.theme)\n6  return (\n7    <div className={theme}>\n8      <h1>My Daily Journal</h1>\n9      <EntryList />\n10    </div>\n11  )\n12}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react'\n2import { createRoot } from 'react-dom/client'\n3import App from './App'\n4 \n5createRoot(document.getElementById('root')).render(\n6  <React.StrictMode>\n7    <App />\n8  </React.StrictMode>\n9)"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3  <head>\n4    <title>My Daily Journal</title>\n5  </head>\n6  <body>\n7    <div id=\"root\"></div>\n8    <script type=\"module\" src=\"/src/index.jsx\"></script>\n9  </body>\n10</html>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Go ahead and run it and open the console."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is what is happening. EntryList asks the store for entries. Zustand returns the empty array and logs it. No props. No lifting state. The component just reached into the store and took what it needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now entries is empty. In Chapter 3 you will fetch real entries from the API and the list will fill up."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will learn why the selector function matters. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,60 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors?page=8",
+  "title": "Step 6: Putting It All Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 6: Putting It All Together"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "create the main() function",
+        "create an object of the Game class",
+        "call get_computer_pick(), get_user_pick(), and  get_result() functions."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <cstdlib>\n3#include <ctime>\n4using namespace std;\n5\n6class Game {\n7    private:\n8        string user_pick;\n9        string computer_pick;\n10        string result;\n11\n12    public:\n13    \n14        // function to return computer's pick\n15        string get_computer_pick() {\n16\n17            // generate random number based on time\n18            srand(time(NULL));\n19\n20            // random number between 1 and 3\n21            int random_number = (rand() % 3) + 1;\n22\n23            switch(random_number) {\n24                case 1:\n25                    computer_pick = \"rock\";\n26                    break;\n27        \n28                case 2:\n29                    computer_pick = \"paper\";\n30                    break;\n31\n32                case 3:\n33                    computer_pick = \"scissors\";\n34                    break;\n35            }\n36\n37            return computer_pick;\n38        }\n39\n40        // function to return user's pick\n41        string get_user_pick() {\n42\n43            char user_input;\n44\n45            // get input until user enters 'r', 'p', or 's'\n46            while (1) {\n47\n48                cout << \"Enter Your Choice (r for rock, p for paper, s for scissors): \";\n49                cin >> user_input;\n50\n51                // convert user_pick to lowercase\n52                user_input = tolower(user_input);\n53\n54                // assign appropriate string to user_pick\n55                if (user_input == 'r') {\n56                    user_pick = \"rock\";\n57\n58                    // terminate while loop\n59                    break;\n60                }\n61                else if (user_input == 'p') {\n62                    user_pick = \"paper\";\n63\n64                    // terminate while loop\n65                    break;\n66                }\n67                else if (user_input == 's') {\n68                    user_pick = \"scissors\";\n69\n70                    // terminate while loop\n71                    break;\n72                }\n73            }\n74\n75            return user_pick;\n76        }\n77\n78        // return either \"win\", \"lose\" or \"draw\"\n79        string get_result() {\n80\n81            // condition for user to draw\n82            if (user_pick == computer_pick) {\n83                result = \"draw\";\n84            }\n85\n86            // condition for user to win\n87            else if (user_pick == \"paper\" && computer_pick == \"rock\") {\n88                result = \"win\";\n89            }\n90\n91            else if (user_pick == \"rock\" && computer_pick == \"scissors\") {\n92                result = \"win\";\n93            }\n94\n95            else if (user_pick == \"scissors\" && computer_pick == \"paper\") {\n96                result = \"win\";\n97            }\n98\n99            // all other conditions result in loss\n100            else {\n101                result = \"lose\";\n102            }\n103            \n104            return result;\n105        }\n106};\n107\n108int main() {\n109\n110    // create Game object\n111    Game game;\n112\n113    // get user's pick\n114    string user_pick = game.get_user_pick();\n115\n116    // get computer's pick\n117    string computer_pick = game.get_computer_pick();\n118\n119    // check the result of the game\n120    string result = game.get_result();\n121\n122    // print the result\n123    cout << \"User Pick: \" << user_pick << endl;\n124    cout << \"Computer Pick: \" << computer_pick << endl;\n125    cout << \"You \" << result << endl;\n126\n127    return 0;\n128}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter Your Choice (r for rock, p for paper, s for scissors): h\nEnter Your Choice (r for rock, p for paper, s for scissors): r\nUser Pick: rock\nComputer Pick: rock\nYou draw"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

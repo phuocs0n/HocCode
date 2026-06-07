@@ -1,0 +1,54 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/handling-errors?page=6",
+  "title": "The try...catch...finally Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The try...catch...finally Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The try...catch...finally statement enhances exception handling by adding a finally block."
+    },
+    {
+      "type": "paragraph",
+      "content": "The finally block always runs, regardless of whether an exception occurs. It's useful for cleanup tasks, logging, or any operation that should execute regardless of success or failure."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax is:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "try {\n    // Code that might cause an exception\n} catch (error) {\n    // Code to handle the exception\n} finally {\n    // Code that always runs\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see an example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

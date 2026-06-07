@@ -1,0 +1,41 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/sum-of-every-element-in-list?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the sum of all the list elements, we need to access each list element. For which we can use a for loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the loop, we will add each element of the list to a sum variable. We will then print the sum variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

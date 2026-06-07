@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header?page=2",
+  "title": "What Just Happened?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Just Happened?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code you saw in the previous page:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  return (\n3    <div>\n4      <h1>My Daily Journal</h1>\n5    </div>\n6  );\n7}\n8\n9export default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's break down what just happened here:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. You wrote a function called App()."
+    },
+    {
+      "type": "paragraph",
+      "content": "This function returns what looks like HTML, but it's not! In fact, it's JSX, which is JavaScript that looks like HTML. React turns it into real HTML for the browser."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. The function returns the UI."
+    },
+    {
+      "type": "paragraph",
+      "content": "The JSX you return from this function is what React will show on the screen. Right now, it's a <div> with an <h1> inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. React renders the component."
+    },
+    {
+      "type": "paragraph",
+      "content": "Whenever you execute a complete Run Code, the platform runs your app and shows the result. The code you wrote is executed and React renders your component to the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Basically, a component is just a function that returns UI."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's explore what JSX actually is."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

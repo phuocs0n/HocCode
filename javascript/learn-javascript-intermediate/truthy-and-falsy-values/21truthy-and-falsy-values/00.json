@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/truthy-falsy-values?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "You are already familiar with the true and false boolean data types in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "When non-boolean values are used in a boolean context, such as inside an if statement, they are also converted into either true or false. This conversion determines whether a value is truthy or falsy."
+    },
+    {
+      "type": "paragraph",
+      "content": "A truthy value is any value that is considered true when evaluated in a boolean context. Conversely, a falsy value is any value that is considered false when evaluated in a boolean context."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore these concepts to understand how JavaScript handles these conversions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

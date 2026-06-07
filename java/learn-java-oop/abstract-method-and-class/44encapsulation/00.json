@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/encapsulation?page=1",
+  "title": "Encapsulation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Encapsulation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Encapsulation is another key feature of object-oriented programming. It means bundling fields and methods together inside a class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand this with the help of an example."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we need to compute the area of a rectangle. We know that to compute the area we need two data (fields) length and breadth and a method calculateArea()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, we can bundle these fields and the method together inside a single class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Rectangle {\n\n    // fields to calculate area\n    int length;\n    int breadth;\n\n    // method to calculate area\n    public void calculateArea() {\n        int area = length * breadth;\n        System.out.println(\"Area: \" + area);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an example of encapsulation."
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, we are now able to keep related fields and methods together and it makes our code clean and easy to understand."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's complete our code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

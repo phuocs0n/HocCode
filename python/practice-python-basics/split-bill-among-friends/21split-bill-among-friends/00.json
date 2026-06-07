@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/split-bill-among-friends?page=1",
+  "title": "Split Bill Among Friends",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Split Bill Among Friends"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to split the restaurant bill among friends."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the total number of friends and assign it to the total_friends variable.",
+        "Get an integer input for the restaurant bill and assign it to the bill variable.",
+        "Calculate the tax amount, which is 20% of the bill.",
+        "Add the tax to the bill and divide the total bill among friends."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input3\n40"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output16.0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

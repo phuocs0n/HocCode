@@ -1,0 +1,86 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/revise-oop-basics?page=1",
+  "title": "Understanding OOP",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding OOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "C++ is an object-oriented programming language where we solve complex problems by dividing them into objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a Class"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Rectangle {\n    // code    \n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Rectangle is the name of the class. A class can contain data members such as variables (to store data) and member functions (to perform operations). Collectively, they are known as class members."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Rectangle {\n    public:\n \n        // data members\n        int length, breadth;\n\n        // member function\n        void calculate_area(){\n            int area = length * breadth; \n            cout << \"Area: \" << area;\n        }\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Create Objects"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we create objects in C++."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Rectangle rectangle1;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we can use the rectangle1 object to access the class members. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Rectangle {\n5    public:\n6 \n7        // data members\n8        int length, breadth;\n9\n10        // member function\n11        void calculate_area(){\n12            int area = length * breadth; \n13            cout << \"Area: \" << area << endl;\n14        }\n15};\n16\n17\n18int main() {\n19    \n20    // create object of the Rectangle class\n21    Rectangle rectangle1;\n22    \n23    // assign values to length and breadth\n24    rectangle1.length = 12;\n25    rectangle1.breadth = 5;\n26    \n27    // call the member function\n28    rectangle1.calculate_area();\n29\n30    return 0;\n31}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Area: 60"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

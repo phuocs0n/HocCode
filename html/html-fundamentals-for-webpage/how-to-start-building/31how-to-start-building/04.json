@@ -1,0 +1,58 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/how-to-start-building?page=4",
+  "title": "Step 1: Setting Up the HTML Content Structure",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Setting Up the HTML Content Structure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once you have basic html structure setup, most webpage content starts with the following skeleton:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3  <head>\n4    <meta charset=\"UTF-8\">\n5    <title>Learning HTML Blog</title>\n6  </head>\n7  <body>\n8  </body>\n9</html>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Why this matters"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "<html> wraps the entire document",
+        "<head> stores information about the page, including its title",
+        "<body> is where all visible content lives"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the base we'll build on — nothing more, nothing less."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

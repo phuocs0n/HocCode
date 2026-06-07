@@ -1,0 +1,103 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/employees-salaries?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following two tables:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Employees"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "emp_id",
+          "first_name",
+          "last_name"
+        ],
+        [
+          "1",
+          "Jaden",
+          "Smith"
+        ],
+        [
+          "2",
+          "Marshall",
+          "Mathers"
+        ],
+        [
+          "3",
+          "Jermaine",
+          "Cole"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Salaries"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "emp_id",
+          "salary"
+        ],
+        [
+          "1",
+          "4875"
+        ],
+        [
+          "2",
+          "6000"
+        ],
+        [
+          "3",
+          "3800"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write an SQL query to retrieve the emp_id, first_name, last_name, and a column called salary_category which should display:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "High for salaries greater than or equal to 5000.",
+        "Medium for salaries between 4000 and 4999.",
+        "Low for salaries below 4000."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

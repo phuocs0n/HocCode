@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/reverse-string-word-by-word?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have to reverse the string, word by word."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we can split the sentence into list elements by the spaces in between. Here, each word will be an element in a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we need to reverse the order of the list elements. We can do so by slicing a list using [::-1] or by using the reverse() method. In this solution, we will slice each element into a list by the end."
+    },
+    {
+      "type": "paragraph",
+      "content": "By doing this, the letters in the element will be in the same order, but the place will be reversed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we can join the list with a string by adding a space in between. This will give us our word-by-word reversed string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,183 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/example-binary-search-tree?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Given the property of BST (left child < root < right child), performing __________ Traversal on BST returns elements in sorted order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since preorder traversal returns the values in root-left-right manner, the elements are not sorted."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since preorder traversal returns the values in root-left-right manner, the elements are not sorted."
+    },
+    {
+      "type": "paragraph",
+      "content": "Postorder"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since postorder traversal returns the values in left-right-root manner, the elements are not sorted."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since postorder traversal returns the values in left-right-root manner, the elements are not sorted."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inorder"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inorder traversal visits the BST in left-root-right manner, returning elements in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inorder traversal visits the BST in left-root-right manner, returning elements in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Level Order"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since level order traversal returns elements level by level, the elements are not sorted in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since level order traversal returns elements level by level, the elements are not sorted in ascending order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since preorder traversal returns the values in root-left-right manner, the elements are not sorted."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since preorder traversal returns the values in root-left-right manner, the elements are not sorted."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since postorder traversal returns the values in left-right-root manner, the elements are not sorted."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values of elements in a BST are in the order: right > root > left. Since postorder traversal returns the values in left-right-root manner, the elements are not sorted."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inorder traversal visits the BST in left-root-right manner, returning elements in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inorder traversal visits the BST in left-root-right manner, returning elements in ascending order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since level order traversal returns elements level by level, the elements are not sorted in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since level order traversal returns elements level by level, the elements are not sorted in ascending order."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Given the property of BST (left child < root < right child), performing __________ Traversal on BST returns elements in sorted order.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Preorder",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Preorder",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Postorder",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Postorder",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Inorder",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Inorder",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Level Order",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Level Order",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

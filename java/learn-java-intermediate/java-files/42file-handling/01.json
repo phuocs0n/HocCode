@@ -1,0 +1,135 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/file-handling?page=2",
+  "title": "Create a File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create a File"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the createNewFile() method to create a new file. Let's see an example of creating a file in Java."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.io.File;\n\nclass Main {\n    public static void main(String[] args) {\n\n        // create a file object\n        File file = new File(\"newFile.txt\");\n\n        // trying to create a file\n        try {\n            boolean value = file.createNewFile();\n\n            // check if file is created\n            if (value) {\n                System.out.println(\"The new file is created.\");\n            }\n\n            else {\n                System.out.println(\"The file already exists.\");\n            }\n        } \n        catch (Exception e) {\n            System.out.println(e);\n        }\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The new file is created."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The file already exists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's learn about the various steps involved in this program to create a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Import File class"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first code you will notice here is this import statement at the top."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.io.File;"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must import java.io.File to connect our Java program to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "This line imports the File class in our program, which connects our Java program to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Create an object of the File class"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we import the File class, we need to create an object of it."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "File file = new File(\"newFile.txt\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "File - File class",
+        "file - object of file class",
+        "newFile.txt - the name of the file we want to create"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "As we are directly providing the file name inside the parenthesis, the file will be created in the current working directory."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Create a file"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the createNewFile() method to create a new file."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "boolean value = file.createNewFile();"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no newFile.txt file in the current working directory, so file.createNewFile() creates the file and returns true."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if newFile.txt already exists, file.createNewFile() will not create any file. Hence, it returns false."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

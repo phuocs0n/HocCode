@@ -1,0 +1,59 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/handling-errors?page=8",
+  "title": "Example: try...catch...finally without Error",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: try...catch...finally without Error"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Declare result\n2let result = \"Passed\";\n3\n4try {\n5    // Access result\n6    console.log(result);\n7\n8} catch (error) {\n9    console.log(`Error caught: ${error}`);\n10\n11} finally {\n12\n13    // Code that runs regardless of error\n14    console.log(\"Finally executed\");\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Passed\nFinally executed"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, no exception occurs because the result variable is properly declared and accessed."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the finally block still executes, displaying the message \"Finally executed\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

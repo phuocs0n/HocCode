@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=6",
+  "title": "Ví dụ: Vòng lặp while hữu hạn (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Vòng lặp while hữu hạn (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Để chỉ chạy vòng lặp này trong một số lần cố định, chúng ta phải cập nhật giá trị của count bên trong vòng lặp để cuối cùng count <= 3 trở thành sai."
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là cách thực hiện:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int count = 1;\n6\n7    while (count <= 3) {\n8\n9      printf(\"I am inside a loop.\\n\");\n10      printf(\"Looping is interesting.\\n\");\n11\n12      count = count + 1;\n13    }\n14\n15    // Code outside loop\n16    printf(\"OUTSIDE THE LOOP\");\n17  \n18    return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nOUTSIDE THE LOOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, hãy hiểu hoạt động của chương trình này."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

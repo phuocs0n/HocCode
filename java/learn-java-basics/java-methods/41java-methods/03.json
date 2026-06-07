@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-methods?page=4",
+  "title": "Running Our Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Running Our Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's use our previous method in a program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember when we said in Chapter 1 that all properties must be included inside a class? Methods are one of such properties. So, we must place our method inside the class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2  \n3    void greet() {\n4        System.out.println(\"Hello\");\n5        System.out.println(\"How do you do?\");\n6    }\n7  \n8    public static void main(String[] args) {\n9  \n10    }\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if you run this code, you won't see any output. It's because creating a method doesn't mean we are executing the code inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "As per OOP in Java, we must use an object of the class to call the method. This is similar to how we created a scanner object before we took user input using the Scanner class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since, greet() is inside the Main class, we first need to create an object of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see how we can use this method using an object of the Main class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

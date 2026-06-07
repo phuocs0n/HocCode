@@ -1,0 +1,65 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-strings?page=4",
+  "title": "Recap (IV)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (IV)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The for Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can loop through string characters using a for loop. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let word = \"Hello\";\n2\n3for (let i = 0; i < word.length; i++) {\n4  console.log(word[i]);\n5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, word.length gives the length of the word string, which is used for determining the termination condition of the loop."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The for...of Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "The for...of loop makes looping through string characters very simple. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let word = \"Hello\";\n2\n3for (let ch of word) {\n4  console.log(ch);\n5}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

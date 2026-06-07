@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/everything-is-object?page=2",
+  "title": "The type() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The type() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "To verify everything is an object in Python, we can use the built-in type() function. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1number = 10\n2print(type(number))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "<class 'int'>"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we look at the output, we can see <class 'int'>. It means 10 is an object created from the int class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try a few more examples,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [1, 4, 9, 16]\n2print(type(numbers))   # <class 'list'>   \n3\n4flag = True\n5print(type(True))   # <class 'bool'>\n6\n7def my_function():\n8    pass\n9\n10print(type(my_function))    # <class 'function'>"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we can see, all these entities are created from a class, which means they are objects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

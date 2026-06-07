@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/encapsulation?page=2",
+  "title": "Example: Java Encapsulation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Java Encapsulation"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Rectangle {\n2\n3    // fields to calculate area\n4    int length;\n5    int breadth;\n6\n7    // constructor to initialize length/breadth\n8    Rectangle(int length, int breadth) {\n9        this.length = length;\n10        this.breadth = breadth;\n11    }\n12\n13    // method to calculate area\n14    public void calculateArea() {\n15        int area = length * breadth;\n16        System.out.println(\"Area: \" + area);\n17    }\n18}\n19\n20class Main {\n21    public static void main(String[] args) {\n22        \n23        // initialize value of length and breadth\n24        Rectangle obj = new Rectangle(12, 9);\n25\n26        // calculate the area\n27        obj.calculateArea(); \n28    }\n29}\n30\n31// Output:\n32// Area: 108"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have used a constructor to initialize the value of length and breadth."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Rectangle(int length, int breadth) {\n    this.length = length;\n    this.breadth = breadth;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember this represents the current object, that is obj in this case."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see the calculateArea() method uses length and breadth fields to compute the area of the rectangle. Both these fields are also present inside the same class."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is what encapsulation is all about, bundling the related data and method together."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

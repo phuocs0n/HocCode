@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-html/absolute-vs-relative-paths?page=3",
+  "title": "Relative Path",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Relative Path"
+    },
+    {
+      "type": "paragraph",
+      "content": "A relative path specifies the location of a resource relative to the current path. For example,"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<a href=\"/learn/master-python\" target = \"_blank\">Python Course</a>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, if the current path is https://programiz.pro (which it is), the link redirects to https://programiz.pro/learn/master-python."
+    },
+    {
+      "type": "paragraph",
+      "content": "Relative paths can be tricky, that's why let's understand them with the help of examples."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

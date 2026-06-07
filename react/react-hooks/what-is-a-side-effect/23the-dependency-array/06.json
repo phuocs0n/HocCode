@@ -1,0 +1,63 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=6",
+  "title": "Adding a Refresh Button",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding a Refresh Button"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use Form 3 to make the fetch re-run on demand."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, let's add a counter state called refreshKey that starts at 0 and list it in the dependency array:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [refreshKey, setRefreshKey] = useState(0);\n\nuseEffect(function () {\n  // ...\n}, [refreshKey]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Refresh button increments the counter:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<button onClick={() => setRefreshKey((k) => k + 1)}>\n  Refresh\n</button>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each click changes refreshKey. React sees the dependency has changed and re-runs the effect, triggering a fresh fetch."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's add it to the full component."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

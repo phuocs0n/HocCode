@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/deleting-task?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the difference between useQuery and useMutation?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "useQuery runs automatically on load, useMutation only runs when you call .mutate()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. useQuery fires the moment the component mounts. useMutation sits and waits until you trigger it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. useQuery fires the moment the component mounts. useMutation sits and waits until you trigger it."
+    },
+    {
+      "type": "paragraph",
+      "content": "useQuery is for reading data and useMutation is for reading data faster"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useMutation is not about speed. It's specifically for sending changes to the server."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMutation is not about speed. It's specifically for sending changes to the server."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMutation caches data and useQuery doesn't"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's actually the other way around. useQuery caches. useMutation doesn't."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's actually the other way around. useQuery caches. useMutation doesn't."
+    },
+    {
+      "type": "paragraph",
+      "content": "useQuery handles errors and useMutation doesn't"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both handle errors. useMutation has onError just like useQuery."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both handle errors. useMutation has onError just like useQuery."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the difference between useQuery and useMutation?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:useQuery runs automatically on load, useMutation only runs when you call .mutate()",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "useQuery runs automatically on load, useMutation only runs when you call .mutate()",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:useQuery is for reading data and useMutation is for reading data faster",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "useQuery is for reading data and useMutation is for reading data faster",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:useMutation caches data and useQuery doesn't",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "useMutation caches data and useQuery doesn't",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:useQuery handles errors and useMutation doesn't",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "useQuery handles errors and useMutation doesn't",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

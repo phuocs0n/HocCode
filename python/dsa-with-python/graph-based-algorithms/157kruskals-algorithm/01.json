@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/kruskals-algorithm?page=2",
+  "title": "Kruskal's Algorithm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Kruskal's Algorithm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a graph with vertices, edges, and weight. Our goal is to make a minimum spanning tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "Follow these steps to build a minimum spanning tree:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Start with the lowest-cost edge and add it to the minimum spanning tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Move to the next lowest-cost edge and add it to the minimum spanning tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. However, if adding the edge forms a cycle, ignore that edge and move to the next lowest-cost edge."
+    },
+    {
+      "type": "paragraph",
+      "content": "4. The minimum spanning tree will be formed once you've scanned all the edges of the graph."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

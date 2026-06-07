@@ -1,0 +1,76 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-introduction?page=2",
+  "title": "Create Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with the syntax of creating strings in C."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "char message[] = \"Hello World\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see the syntax of string looks somewhat similar to an array. This is because strings are an array of characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "Print a string"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we know, we use format specifiers to print any variable in C and to print a string, we use the %s format specifier."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  // create strings\n6  char message[] = \"Hello World\";\n7  char text[] = \"Strings are fun\";\n8\n9  printf(\"%s\\n\", message);\n10  printf(\"%s\", text);\n11  \n12  return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello World\nStrings are fun"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, we have successfully printed two strings."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

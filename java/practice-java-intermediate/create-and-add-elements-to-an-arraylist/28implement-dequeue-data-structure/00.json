@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/implement-dequeue-data-structure?page=1",
+  "title": "Implement Dequeue Data Structure",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implement Dequeue Data Structure"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to implement dequeue data structure."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() method, declare a new string LinkedList called movies.",
+        "Take three string inputs from the user and store them in the  input1, input2, input3 variables.",
+        "Add input1 to the movies linkedlist using add().",
+        "Use addFirst() to add input2 to the front and addLast() to add input3 at the end of the movies linkedlist.",
+        "Print movies.",
+        "Use removeFirst() and removeLast() to remove the elements at first and last position.",
+        "Print movies again."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputAvengers\nAvatar\nBatman"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output[Avatar, Avengers, Batman]\n[Avengers]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

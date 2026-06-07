@@ -1,0 +1,42 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-python-basics/while-loop?page=5",
+  "title": "Working of the while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of the while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the visualizer below to see step-by-step how the previous program works."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1count = 1\n2\n3while count <= 3:\n4    print(\"I am inside a loop.\")\n5    print(\"Looping is interesting.\")\n6\n7    # Increase count by 1 in each iteration\n8\n9    count = count + 1\n10\n11\n12# Code outside of the loop\n13print(\"OUTSIDE THE LOOP\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

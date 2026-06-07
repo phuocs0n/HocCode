@@ -1,0 +1,75 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/interface?page=1",
+  "title": "Interface Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Interface Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the last lesson, we learned about abstract classes which can include both abstract and non-abstract methods."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, we can also create a fully abstract class known as the interface. An interface contains all abstract methods."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create an Interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, we use the interface keyword to create an interface."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "interface Animal {\n    …\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created an interface named Animal."
+    },
+    {
+      "type": "paragraph",
+      "content": "As mentioned earlier, an interface contains only abstract methods. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "interface Animal {\n\n    abstract public void play(); \n    abstract public void makeSound();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, play() and makeSound() are two abstract methods inside the Animal interface."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see how to use these methods of the interface."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

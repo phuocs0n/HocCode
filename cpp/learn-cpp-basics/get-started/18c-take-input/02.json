@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/c-take-input?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct way to take input of the x variable?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int x;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "cin >> x;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, cin and >> takes input from the user and stores it in the x variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, cin and >> takes input from the user and stores it in the x variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "cin << x;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The << operator is used with cout to print the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "The << operator is used with cout to print the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "cout >> x;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use cout to print output to the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use cout to print output to the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "scanf(\"%d\", &x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The scanf() function is used to take input value in C programming."
+    },
+    {
+      "type": "paragraph",
+      "content": "The scanf() function is used to take input value in C programming."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, cin and >> takes input from the user and stores it in the x variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, cin and >> takes input from the user and stores it in the x variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The << operator is used with cout to print the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "The << operator is used with cout to print the output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use cout to print output to the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use cout to print output to the screen."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The scanf() function is used to take input value in C programming."
+    },
+    {
+      "type": "paragraph",
+      "content": "The scanf() function is used to take input value in C programming."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct way to take input of the x variable?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:cin >> x;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "cin >> x;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:cin << x;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "cin << x;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:cout >> x;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "cout >> x;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:scanf(\"%d\", &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "scanf(\"%d\", &x);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/type-conversion?page=2",
+  "title": "Automatic Type Conversion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Automatic Type Conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, sometimes one data type is automatically converted to another type. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        // Create a double type variable\n5        double number;\n6        \n7        // Assign int value to double\n8        number = 9;\n9        System.out.println(number);\n10    }\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "9.0"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created a double variable number. However, we have assigned an integer value 9 to it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, Java automatically converts the integer value 9 to a double value 9.0. That's why we get 9.0 as output."
+    },
+    {
+      "type": "paragraph",
+      "content": "This type of automatic type conversion is called Implicit Type Conversion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,105 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-java-basics/palindrome-number?page=1",
+  "title": "Check Palindrome Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Palindrome Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check whether a number is palindrome using a method."
+    },
+    {
+      "type": "paragraph",
+      "content": "Definition:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A number is palindrome if the reverse of that number is equal to the original number. For example, 1001, 343, etc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a method named findReverse() that accepts an integer parameter number.",
+        "Inside the method, find the reverse of number and return it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a method named checkPalindrome() that takes two integer parameters: number and reversedNumber.",
+        "Inside the method, compare two parameters.",
+        "If they are equal, print Palindrome Number. Otherwise, print Not a Palindrome Number."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 3:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside main(), take an integer input for the number variable.",
+        "Call findReverse() with number as the argument and store the returned value to reversedNumber.",
+        "Call checkPalindrome() with arguments: number and reversedNumber."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input1001"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputPalindrome Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

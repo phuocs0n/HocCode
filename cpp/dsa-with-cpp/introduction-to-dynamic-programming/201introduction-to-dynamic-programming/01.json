@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-dynamic-programming?page=2",
+  "title": "Why Dynamic Programming?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Dynamic Programming?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming is essential for solving problems with:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Overlapping Subproblems"
+    },
+    {
+      "type": "paragraph",
+      "content": "These are problems where the same problem is solved multiple times."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Optimal Substructure"
+    },
+    {
+      "type": "paragraph",
+      "content": "In such problems, the optimal solution of the problem can be constructed from the optimal solutions of its subproblems."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we've already dealt with these concepts in the Greedy Algorithms chapter, we'll only do a short recap to refresh your memory."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

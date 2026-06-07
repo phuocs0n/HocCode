@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-break-continue?page=2",
+  "title": "The break Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The break Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The break statement is used to terminate a loop immediately when it is encountered. Here's an example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Iterate from 1 to 5\n2for (let i = 1; i <= 5; i++) {\n3    console.log(i);\n4\n5    // Stop the loop\n6    break;\n7}\n8\n9console.log(\"This is outside the loop.\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\nThis is outside the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the code works:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The loop starts at i = 1.",
+        "The value 1 is displayed.",
+        "The break statement is executed, which terminates the loop immediately.",
+        "The program then proceeds to the next line outside the loop, printing \"This is outside the loop.\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Why Use break?"
+    },
+    {
+      "type": "paragraph",
+      "content": "You might wonder why you'd use break since it terminates the loop immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "The answer is to stop a loop when a specific condition is met. This is particularly useful when you don't need to continue the loop after achieving a desired result or detecting an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example where the loop terminates when a certain condition is satisfied."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

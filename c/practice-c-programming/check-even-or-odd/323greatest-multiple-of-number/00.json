@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/greatest-multiple-of-number?page=1",
+  "title": "Find Greatest Multiple of Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find Greatest Multiple of Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the greatest multiple of a number below 100."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the number variable.",
+        "Run a for loop backwards: from i = 100 to i = 1.",
+        "Inside the loop, check if i perfectly divides number.",
+        "If true, print the number and exit the loop."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input9"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output99"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

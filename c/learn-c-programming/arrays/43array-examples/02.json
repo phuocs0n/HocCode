@@ -1,0 +1,94 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array-examples?page=3",
+  "title": "Hiểu: Tìm phần tử lớn nhất trong mảng",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hiểu: Tìm phần tử lớn nhất trong mảng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ban đầu, phần tử đầu tiên của mảng được gán cho biến lớn nhất."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int largest = numbers[0];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sau đó, chúng ta sử dụng vòng lặp for để lặp từ phần tử thứ hai của mảng đến phần tử cuối cùng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong mỗi lần lặp, nếu biến lớn nhất nhỏ hơn bất kỳ phần tử nào của mảng thì phần tử đó sẽ được gán cho biến lớn nhất."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// Inside the for loop\nif (largest < numbers[i] {\n  largest = numbers[i];\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là cách mã này hoạt động:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Lặp lại",
+          "số[i]",
+          "lớn nhất < số[i]",
+          "lớn nhất"
+        ],
+        [
+          "thứ nhất",
+          "64",
+          "ĐÚNG VẬY",
+          "64"
+        ],
+        [
+          "thứ 2",
+          "75",
+          "ĐÚNG VẬY",
+          "75"
+        ],
+        [
+          "thứ 3",
+          "80",
+          "ĐÚNG VẬY",
+          "80"
+        ],
+        [
+          "thứ 4",
+          "65",
+          "SAI",
+          "80"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

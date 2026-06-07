@@ -1,0 +1,124 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/revise-exception-handling?page=2",
+  "title": "Summary II",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary II"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's revise standard exceptions in C++."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Standard Exceptions"
+    },
+    {
+      "type": "paragraph",
+      "content": "These exceptions are defined in the <exception> header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this chapter, we learned the following standard exceptions classes:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Exception Class",
+          "Description"
+        ],
+        [
+          "std::bad_alloc",
+          "Exception class to be used when allocating excessive memory."
+        ],
+        [
+          "std::exception",
+          "Parent class used to catch all standard exceptions."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If we include the using namespace std; code in our program, we can simply write these classes as:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "bad_alloc",
+        "exception"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "C++ bad_alloc"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the bad_alloc exception class when we try to allocate excessive memory to a dynamically declared array. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <exception>\n3using namespace std;\n4\n5int main() {\n6\n7    try {\n8\n9        int* ptr = new int[1000000000000000];\n10\n11        delete[] ptr;\n12    }\n13\n14    catch (bad_alloc e) {\n15\n16        cout << \"Cannot allocate memory!!\";\n17    }\n18\n19    return 0;\n20}\n21\n22// Output: Cannot allocate memory!!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "C++ std::exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use the exception class to catch any standard or non-standard exceptions."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to throw the exception() function to the catch block if we want to manually throw an exception."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// catch a bad_alloc exception using exception class\ntry {\n    int* ptr = new int[1000000000000000];\n    delete[] ptr;\n}\n\ncatch (exception e) {\n\n    cout << \"Cannot allocate memory!!\";\n}\n\n// catch a non-standard exception\ntry {\n    int numerator = 10, denominator = 0;\n\n\n    if (denominator == 0)\n        throw exception();\n\n\n    int result = numerator / denominator;\n    cout << result;\n}\n\ncatch (exception e) {\n\n    cout << \"Error! Cannot divide by 0\";\n}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The what() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "The what() function returns the error message of the exception class whose object is calling the function. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <exception>\n3using namespace std;\n4\n5int main() {\n6\n7    try {\n8        int* ptr = new int[1000000000000000];\n9        delete[] ptr;\n10    }\n11    catch (bad_alloc e) {\n12\n13        cout << e.what();\n14\n15    }\n16\n17    return 0;\n18}\n19\n20// Output: std::bad_alloc"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

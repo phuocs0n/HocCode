@@ -1,0 +1,51 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/example-check-palindrome-strings?page=4",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function checkPalindrome(text) {\n2\n3    // If the string is empty or contains a single character,\n4    // the string is a palindrome\n5    if (text.length === 0 || text.length === 1) {\n6        return true;\n7    }\n8    \n9    // Check if the first and last characters are the same\n10    if (text[0] === text[text.length - 1]) {\n11\n12        // Recursive call\n13        return checkPalindrome(text.substring(1, text.length - 1));\n14    }\n15    else {\n16        return false;\n17    }\n18}\n19\n20let result = checkPalindrome(\"level\");\n21console.log(result ? \"Palindrome\" : \"Not Palindrome\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Palindrome"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will look at how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

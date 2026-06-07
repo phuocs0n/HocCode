@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/sum-of-natural-numbers?page=1",
+  "title": "Sum of Natural Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of Natural Numbers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to find the sum of N natural numbers by creating a function."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Define a function named find_sum() that takes n as an argument.",
+        "Inside the function, compute the sum of numbers from 1 to n and return the total.",
+        "Outside the function, get an integer input for a variable number.",
+        "Call the function and pass number as an argument and print the return value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input9"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output45"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

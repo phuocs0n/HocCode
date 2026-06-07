@@ -1,0 +1,48 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-python/bplus-trees?page=1",
+  "title": "Maximizing the Efficiency of B-Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Maximizing the Efficiency of B-Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "B+ trees are a variation of B-trees. So, before looking at the actual structure of a B+ tree, we need to discuss two shortcomings of B-trees:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Difficulty in finding sequential data in a range.",
+        "Choosing the appropriate degree for the appropriate height and width."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start with searching for sequential data within a range."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

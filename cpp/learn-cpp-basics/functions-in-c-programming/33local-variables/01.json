@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/local-variables?page=2",
+  "title": "Local Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any variable that is created inside a function is local to it. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4void add_numbers(int n1, int n2) {\n5    int result = n1 + n2;\n6}\n7\n8int main() {\n9\n10    add_numbers(3, 9);\n11    cout << result;\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, when the execution of the add_numbers() function ends, all the variables inside it: n1, n2 and result are destroyed."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the reason why the above program throws an error because C++ thinks the result variable is not defined."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you remember, we can fix it by using a return statement."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int add_numbers(int n1, int n2) {\n5    int result = n1 + n2;\n6    return result;\n7}\n8\n9int main() {\n10\n11    int output = add_numbers(3, 9);\n12    cout << output;\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "By using a return statement, we are not using the local variable directly. Rather, we are returning its value to the function call."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see why this concept of local variables is important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/variables?page=2",
+  "title": "Declare Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Declare Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax to declare variables in C++ is:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int age;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "age - a variable",
+        "int - data type of age (we will learn about data types in another lesson)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The age variable can only store integer values. We know this because we have used the data type int to declare it."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, we can also use other data types to create variables. However, for ease, let's just create int type variables for now."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

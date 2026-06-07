@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/linear-search?page=4",
+  "title": "Source Code: Linear Search",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Linear Search"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Template to perform linear search on a vector.\n2template<typename T>\n3int linear_search(const vector<T>& arr, T target) {\n4    \n5    // Iterate through all elements in the vector.\n6    for(int i = 0; i < arr.size(); ++i) {\n7        // Check if the current element matches the target.\n8        if(arr[i] == target)\n9            // Return the index of the element if found.\n10            return i; \n11    }\n12    // Return -1 if the target is not found.\n13    return -1; \n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Element 4 is found at index 5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

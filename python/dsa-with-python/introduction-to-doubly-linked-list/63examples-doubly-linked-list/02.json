@@ -1,0 +1,47 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/examples-doubly-linked-list?page=3",
+  "title": "Source Code: Reverse Doubly Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Reverse Doubly Linked List"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def reverse(self):\n2    # no need to reverse in case of 0 or 1 nodes\n3    if self.length() < 2:\n4        return\n5    \n6    # start from head\n7    current = self.head\n8    while True:\n9        # swap previous and next node pointers\n10        current.prev, current.next = current.next, current.prev\n11        \n12        # move to the new previous node\n13        current = current.prev\n14        \n15        # repeat until you reach None\n16        if current == None:\n17            break\n18        \n19    # swap head and tail\n20    self.head, self.tail = self.tail, self.head"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Original Linked List:\nNone <-> 11 <-> 22 <-> 33 <-> 44 <-> None\n\nReversed Linked List:\nNone <-> 44 <-> 33 <-> 22 <-> 11 <-> None"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

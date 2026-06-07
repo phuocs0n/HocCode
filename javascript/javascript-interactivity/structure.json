@@ -1,0 +1,90 @@
+{
+  "levels": [
+    {
+      "title": "Introduction to the Course",
+      "lessons": [
+        {
+          "title": "1.1Introduction to the Course",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/introduction-to"
+        },
+        {
+          "title": "1.2JavaScript in Action",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/javascript-in-action"
+        },
+        {
+          "title": "1.3Selecting and Changing Content",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/selecting-changing-content"
+        }
+      ]
+    },
+    {
+      "title": "Events and Toggling with Classes",
+      "lessons": [
+        {
+          "title": "2.1Events and Toggling with Classes",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/events-toggling-with-classes"
+        },
+        {
+          "title": "2.2Scroll Events and Conditional Classes",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/scroll-events-conditional-classes"
+        }
+      ]
+    },
+    {
+      "title": "State and the UI",
+      "lessons": [
+        {
+          "title": "3.1State and the UI",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/state-ui"
+        },
+        {
+          "title": "3.2Controlling Visibility with Classes and Toggle",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-visibility-with-classes-toggle"
+        },
+        {
+          "title": "3.3Controlling What's Visible",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-whats-visible"
+        },
+        {
+          "title": "3.4Enabling and Disabling Controls",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/enabling-disabling-controls"
+        }
+      ]
+    },
+    {
+      "title": "Overlay and Modal: Opening and Closing",
+      "lessons": [
+        {
+          "title": "4.1Overlay and Modal: Opening and Closing",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/overlay-modal-opening-closing"
+        },
+        {
+          "title": "4.2Forms and User Input",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/forms-user-input"
+        }
+      ]
+    },
+    {
+      "title": "What You've Learned",
+      "lessons": [
+        {
+          "title": "5.1What You've Learned",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/what-youve-learned"
+        },
+        {
+          "title": "5.2Advanced Interactivity",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/advanced-interactivity"
+        },
+        {
+          "title": "5.3Conclusion and What's Next",
+          "url": "https://app.programiz.pro/course/javascript-interactivity/conclusion-whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 14,
+    "sections": 5,
+    "container": "main-content"
+  }
+}

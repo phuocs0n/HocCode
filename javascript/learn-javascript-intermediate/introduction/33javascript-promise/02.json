@@ -1,0 +1,65 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-promise?page=3",
+  "title": "What is a Promise?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is a Promise?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A Promise in JavaScript is just like a promise in real life."
+    },
+    {
+      "type": "paragraph",
+      "content": "For instance, you go to a restaurant and order pizza. When you order pizza, the waiter takes your order. It is like the waiter promising to give you pizza after some time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, until you see the waiter come with the pizza, the promise is pending."
+    },
+    {
+      "type": "paragraph",
+      "content": "After some time, the waiter comes with the pizza, which means he has fulfilled the promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there might be a case where there is no pizza dough left, so the waiter comes and tells you he can't give you pizza. The promise has been rejected."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, here are the three cases:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Pending: Right after the promise is made and you are waiting for the pizza.",
+        "Fulfilled: When you get the pizza.",
+        "Rejected: In case there is no dough left and you don't get the pizza."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

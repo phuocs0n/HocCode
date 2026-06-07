@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/check-whether-string-is-palindrome-or-not?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before starting to code, let's think about how we can solve the problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since a palindrome reads the same from the start and the end, it's pretty easy to solve the problem if we can reverse the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we reverse the string, we can compare the original string with the reversed string. If the original and reversed strings are the same, we know the string is a palindrome."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's see how we can solve this problem."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Reverse the original string using slicing with a negative index (string[::-1]).",
+        "Compare the reversed string with the original one using an if...else statement.",
+        "If the result is true, then print 'String is Palindrome'.",
+        "Otherwise, print 'String is not Palindrome'."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

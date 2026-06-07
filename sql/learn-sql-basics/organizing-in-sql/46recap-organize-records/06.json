@@ -1,0 +1,50 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2?page=7",
+  "title": "Selecting Employees with Name Containing Letter \"J\"",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Selecting Employees with Name Containing Letter \"J\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Your manager needs to contact an employee about a critical project but can't recall their full name. However, he remembers that their name contains the letter \"J\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "To assist, use wildcards to retrieve the list of employees whose names include the letter \"J\"."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Find employees with name containing \"J\"\n2\n3SELECT name, department\n4FROM employees\n5WHERE name LIKE '%J%';"
+    },
+    {
+      "type": "paragraph",
+      "content": "This helps you retrieve employees' names from incomplete data in a company."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

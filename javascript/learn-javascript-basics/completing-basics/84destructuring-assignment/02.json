@@ -1,0 +1,75 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/destructuring-assignment?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, you learned to unpack arrays and objects using the spread operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, suppose you have an array:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const fruits = [\"apple\", \"banana\", \"kiwi\"];"
+    },
+    {
+      "type": "paragraph",
+      "content": "You want to store each element of the fruits array in individual variables:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "fruit1 should store \"apple\".",
+        "fruit2 should store \"banana\".",
+        "fruit3 should store \"kiwi\"."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "While you could access each element individually and store them in variables like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let fruit1 = fruits[0];\nlet fruit2 = fruits[1];\nlet fruit3 = fruits[2];"
+    },
+    {
+      "type": "paragraph",
+      "content": "This approach works, but it can be repetitive and less readable, especially for larger arrays.JavaScript provides a simpler way to achieve this using the destructuring assignment."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

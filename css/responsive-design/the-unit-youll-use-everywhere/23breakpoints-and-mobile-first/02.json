@@ -1,0 +1,85 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/responsive-design/breakpoints-mobilefirst?page=3",
+  "title": "Mobile-First CSS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Mobile-First CSS"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far you've written desktop-first CSS. The base styles are for wide screens and max-width overrides them for narrow ones. That works, but it's the wrong way around."
+    },
+    {
+      "type": "paragraph",
+      "content": "Most people browse on their phones. So it makes more sense to write CSS for the smallest screen first and add layout as the screen gets wider. That way the worst case, limited space, is handled by default. Everything else is an enhancement."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the same hero layout both ways."
+    },
+    {
+      "type": "paragraph",
+      "content": "Desktop-first."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "/* Works on desktop, breaks on mobile */\n.hero-content {\n  display: grid;\n  grid-template-columns: 220px auto;\n  gap: 64px;\n}\n\n/* On screens 48rem or narrower: collapse to one column */\n@media (max-width: 48rem) {\n  .hero-content {\n    display: flex;\n    flex-direction: column;\n    gap: 1.5rem;\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile-first."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "/* Base: single column, works on any screen */\n.hero-content {\n  display: flex;\n  flex-direction: column;\n  gap: 1.5rem;\n}\n\n/* At 48rem and up: two columns */\n@media (min-width: 48rem) {\n  .hero-content {\n    display: grid;\n    grid-template-columns: 14rem 1fr;\n    gap: 4rem;\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The base styles are simple. The media query only adds complexity when there's room for it. The 48rem isn't a magic number, it's just where the hero needs two columns. You pick the breakpoint based on when your content needs more space."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1/* At 20rem (320px) and up: side by side */\n2@media (min-width: 20rem) {\n3  .hero-content {\n4    flex-direction: row;\n5    align-items: center;\n6  }\n7\n8  .hero-image {\n9    flex: 0 0 7rem;\n10  }\n11}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  margin: 0;\n4  padding: 1rem;\n5}\n6\n7/* Base: single column for mobile */\n8.hero-content {\n9  display: flex;\n10  flex-direction: column;\n11  gap: 1rem;\n12}\n13\n14.hero-image {\n15  padding: 2rem 1rem;\n16  background: #f0f0f0;\n17  border-radius: 8px;\n18  text-align: center;\n19}\n20\n21.hero-text h1 {\n22  font-size: 1.25rem;\n23  margin: 0 0 0.25rem;\n24}\n25\n26.hero-text p {\n27  margin: 0;\n28  color: #64748b;\n29}\n30\n31/* At 20rem (320px) and up: side by side */\n32@media (min-width: 20rem) {\n33  .hero-content {\n34    flex-direction: row;\n35    align-items: center;\n36  }\n37\n38  .hero-image {\n39    flex: 0 0 7rem;\n40  }\n41}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and narrow the window. Below 20rem the content stacks. At 20rem and above it sits side by side."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, quick quiz."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

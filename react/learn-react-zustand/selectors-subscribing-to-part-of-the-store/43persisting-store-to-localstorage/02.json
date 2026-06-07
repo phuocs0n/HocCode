@@ -1,0 +1,53 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/persisting-store-to-localstorage?page=1",
+  "title": "What Survives a Refresh?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Survives a Refresh?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now when you refresh the page two things happen."
+    },
+    {
+      "type": "paragraph",
+      "content": "The entries are fetched fresh from the API — same as always. They live on the server so there is no need to save them locally."
+    },
+    {
+      "type": "paragraph",
+      "content": "But the theme and search query are different. Those are your preferences. They only live in the store. Without persistence they reset to their defaults on every reload."
+    },
+    {
+      "type": "paragraph",
+      "content": "Have you ever set an app to dark mode and come back the next day to find it back to light? That is exactly this problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see how to fix it. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

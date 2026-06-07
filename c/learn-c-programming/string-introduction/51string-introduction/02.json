@@ -1,0 +1,99 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-introduction?page=3",
+  "title": "Trình tự thoát",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Trình tự thoát"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử chúng ta muốn in một chuỗi như thế này:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "\"What's there?\", asked John"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vì có dấu ngoặc kép trong đó nên chúng ta phải sử dụng \\\" để biểu thị \". Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char message[] = \"\\\"What's there?\\\", asked John\";\n6\n7  printf(\"%s\", message);\n8\n9  return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "\"What's there?\", asked John"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, \\\" được gọi là chuỗi thoát. Nó cho phép chúng ta đưa các ký tự đặc biệt vào chuỗi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn còn nhớ\\n? Nó cũng là một chuỗi thoát được sử dụng cho dòng mới (dòng tiếp theo)."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char message[] = \"Hello\\nHow are you?\\nAll good?\";\n6\n7  printf(\"%s\", message);\n8\n9  return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello\nHow are you?\nAll good?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Như bạn có thể thấy, khi gặp \\n, nó được coi là dòng mới."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lưu ý: Khi trình biên dịch C gặp một chuỗi được đặt trong dấu ngoặc kép, nó sẽ tự động thêm ký tự null, '\\0' vào cuối theo mặc định."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nó giúp xác định sự kết thúc của chuỗi. Ví dụ: chuỗi \"Chương trình\" được trình biên dịch hiểu là:"
+    },
+    {
+      "type": "image",
+      "alt": "C compiler automatically appends a null character, '\\0' at the end.",
+      "src": "data:image/png;base64,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"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

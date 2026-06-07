@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/pointers-arrays?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Trong mảng int mark[5];, dấu biểu thị điều gì?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "dấu hiệu[4]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[4] đưa ra giá trị của phần tử cuối cùng trong mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[4] đưa ra giá trị của phần tử cuối cùng trong mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "dấu[0]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[0] trả về giá trị của phần tử đầu tiên trong mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[0] trả về giá trị của phần tử đầu tiên trong mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "&mark[0]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "mark cung cấp địa chỉ của phần tử đầu tiên của mảng. Do đó, &marks[0] giống với mark."
+    },
+    {
+      "type": "paragraph",
+      "content": "mark cung cấp địa chỉ của phần tử đầu tiên của mảng. Do đó, &marks[0] giống với mark."
+    },
+    {
+      "type": "paragraph",
+      "content": "&đánh dấu[4]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] cung cấp địa chỉ của phần tử thứ năm trong mảng. Tuy nhiên, mark cung cấp địa chỉ của phần tử đầu tiên."
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] cung cấp địa chỉ của phần tử thứ năm trong mảng. Tuy nhiên, mark cung cấp địa chỉ của phần tử đầu tiên."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[4] đưa ra giá trị của phần tử cuối cùng trong mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[4] đưa ra giá trị của phần tử cuối cùng trong mảng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[0] trả về giá trị của phần tử đầu tiên trong mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "mark[0] trả về giá trị của phần tử đầu tiên trong mảng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "mark cung cấp địa chỉ của phần tử đầu tiên của mảng. Do đó, &marks[0] giống với mark."
+    },
+    {
+      "type": "paragraph",
+      "content": "mark cung cấp địa chỉ của phần tử đầu tiên của mảng. Do đó, &marks[0] giống với mark."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] cung cấp địa chỉ của phần tử thứ năm trong mảng. Tuy nhiên, mark cung cấp địa chỉ của phần tử đầu tiên."
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] cung cấp địa chỉ của phần tử thứ năm trong mảng. Tuy nhiên, mark cung cấp địa chỉ của phần tử đầu tiên."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Trong mảng int mark[5];, dấu biểu thị điều gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:dấu hiệu[4]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "dấu hiệu[4]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:dấu[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "dấu[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:&mark[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "&mark[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:&đánh dấu[4]",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "&đánh dấu[4]",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

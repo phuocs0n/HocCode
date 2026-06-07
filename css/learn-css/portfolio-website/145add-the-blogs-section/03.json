@@ -1,0 +1,67 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/add-blogs-section?page=4",
+  "title": "Card Layout Design",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Card Layout Design"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add this code to your index.html file to display multiple cards in a responsive grid:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"card-row\">\n2    <div class=\"card\">\n3        <img src=\"/images/learn-css/flexbox.png\" alt=\"Understanding Flexbox in CSS\" />\n4        <h3>Understanding Flexbox in CSS</h3>\n5        <p>freeCodeCamp</p>\n6        <button>Read</button>\n7    </div>\n8    <div class=\"card\">\n9        <img src=\"/images/learn-css/responsive-design.png\" alt=\"Mastering Responsive Design\" />\n10        <h3>Mastering Responsive Design</h3>\n11        <p>Medium</p>\n12        <button>Read</button>\n13    </div>\n14    <div class=\"card\">\n15        <img src=\"/images/learn-css/advanced-grid.png\" alt=\"Advanced CSS Grid Techniques\" />\n16        <h3>Advanced CSS Grid Techniques</h3>\n17        <p>Programiz Blogs</p>\n18        <button>Read</button>\n19    </div>\n20</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Card Container */\n2.card-row {\n3    display: flex;\n4    flex-wrap: wrap;   \n5    justify-content: center;   \n6    gap: 20px;   \n7    margin: 40px auto;    /* Center the container */\n8    padding: 0 20px;    \n9    max-width: 1200px;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In .card-row,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "display: flex and flex-wrap: wrap make the cards responsive, wrapping to the next line on smaller screens.",
+        "justify-content: center aligns the cards in the center, and gap: 20px provides space between them.",
+        "max-width: 1200px keeps the layout contained on larger screens."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In .card, consistent styles (background, shadow, and rounded corners) for an elegant and cohesive look."
+    },
+    {
+      "type": "paragraph",
+      "content": "This setup displays each blog card in a responsive, centered grid layout that looks good on both desktop and mobile screens."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

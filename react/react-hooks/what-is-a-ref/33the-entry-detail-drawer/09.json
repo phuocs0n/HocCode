@@ -1,0 +1,94 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=10",
+  "title": "The Null Guard",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Null Guard"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at this condition inside the listener:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState, useEffect } from \"react\";\n2import Header from \"./components/Header\";\n3import EntryCard from \"./components/EntryCard\";\n4import Drawer from \"./components/Drawer\";\n5\n6function App() {\n7  const [entries, setEntries] = useState([]);\n8  const [isLoading, setIsLoading] = useState(true);\n9  const [error, setError] = useState(null);\n10  const [refreshKey, setRefreshKey] = useState(0);\n11  const [selectedEntry, setSelectedEntry] = useState(null);\n12\n13  useEffect(function () {\n14    async function loadEntries() {\n15      setIsLoading(true);\n16      setError(null);\n17      try {\n18        const res = await fetch(\"https://api.programiz.pro/api/Demo/v1/journal-entries\");\n19        if (!res.ok) {\n20          throw new Error(\"Could not load entries. Status: \" + res.status);\n21        }\n22        const data = await res.json();\n23        const mapped = data.map((post) => {\n24          return {\n25            ...post,\n26            date: new Date(post.date).toLocaleDateString(\"en-US\", {\n27              year: \"numeric\", month: \"short\", day: \"numeric\"\n28            }).toUpperCase()\n29          };\n30        });\n31        setEntries(mapped);\n32        setIsLoading(false);\n33      } catch (err) {\n34        setError(err.message);\n35        setIsLoading(false);\n36      }\n37    }\n38    loadEntries();\n39  }, [refreshKey]);\n40\n41  function handleSelectEntry(entry) {\n42    setSelectedEntry(entry);\n43  }\n44\n45  return (\n46    <div className=\"main-container\">\n47      <Header />\n48      <section className=\"entries-section\">\n49        <div className=\"entry-list-header\">\n50          <h3>Recent Entries</h3>\n51          <span className=\"entry-count\">{entries.length}</span>\n52          <button\n53            className=\"btn btn-secondary\"\n54            onClick={() => setRefreshKey((k) => k + 1)}\n55          >\n56            Refresh\n57          </button>\n58        </div>\n59        {isLoading ? (\n60          <p className=\"loading-state\">Loading entries...</p>\n61        ) : error ? (\n62          <div className=\"error-banner\">\n63            <p className=\"error-label\">Something went wrong.</p>\n64            <p className=\"error-detail\">{error}</p>\n65          </div>\n66        ) : entries.length === 0 ? (\n67          <p className=\"empty-state\">No entries found.</p>\n68        ) : (\n69          entries.map((entry) => (\n70            <EntryCard\n71              key={entry.id}\n72              id={entry.id}\n73              title={entry.title}\n74              date={entry.date}\n75              content={entry.content}\n76              author={entry.author}\n77              onSelect={handleSelectEntry}\n78            />\n79          ))\n80        )}\n81      </section>\n82      <Drawer\n83        entry={selectedEntry}\n84        onClose={() => setSelectedEntry(null)}\n85      />\n86    </div>\n87  );\n88}\n89\n90export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState, useRef, useEffect } from \"react\";\n2\n3function Header() {\n4  const [query, setQuery] = useState(\"\");\n5  const searchRef = useRef(null);\n6\n7  // Utilize useEffect() to focus on the search\n8  useEffect(function () {\n9    searchRef.current.focus();\n10  }, []);\n11\n12  return (\n13    <header className=\"header\">\n14      <h2 className=\"title-primary\">My Daily Journal</h2>\n15      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n16      <input\n17        ref={searchRef}\n18        className=\"search-input\"\n19        type=\"text\"\n20        placeholder=\"Search entries...\"\n21        value={query}\n22        onChange={(e) => setQuery(e.target.value)}\n23      />\n24    </header>\n25  );\n26}\n27\n28export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1if (drawerRef.current && !drawerRef.current.contains(event.target)) {\n2  onClose();\n3}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content, onSelect }) {\n2  return (\n3\n4    <div className=\"entry-card\" onClick={function () { onSelect({ id, title, date, author, content }); }}>\n5\n6      <p className=\"entry-date\">{date}</p>\n7      <h2 className=\"entry-title\">{title}</h2>\n8      <p className=\"entry-author\">by {author}</p>\n9      <p className=\"entry-content\">{content}</p>\n10    </div>\n11  );\n12}\n13\n14export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "The drawerRef.current && part is a null guard. Here's why it's there:"
+    },
+    {
+      "type": "paragraph",
+      "content": "useEffect() runs after every render — including the render where entry is null and the drawer <div> does not exist."
+    },
+    {
+      "type": "paragraph",
+      "content": "On that render, drawerRef.current is null. Without the guard, drawerRef.current.contains(...) would throw a TypeError."
+    },
+    {
+      "type": "paragraph",
+      "content": "The && check prevents that. If drawerRef.current is null, the condition short-circuits and onClose() is never called."
+    },
+    {
+      "type": "paragraph",
+      "content": "A Potential Problem in our Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "So the null guard protects us against a TypeError, and our click detection is working fine. But notice something:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The listener is added every time the effect runs, and never removed."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a huge problem. Let me tell you what that looks like in practice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

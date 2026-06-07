@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/constant-time-complexity?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is true about the constant time complexity?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Constant time complexity doesn't depend on input."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the constant time complexity doesn't depend upon the size of the input. However, it's not the only right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the constant time complexity doesn't depend upon the size of the input. However, it's not the only right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use O(1) for constant time complexity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, we use O(1) for constant time complexity. However, it's not the only right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, we use O(1) for constant time complexity. However, it's not the only right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both the first and the second options."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, both the options above are correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, both the options above are correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "The run time changes very slowly compared to the change in the input size."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The run time is independent of input size in constant time complexity, so it doesn't change at all."
+    },
+    {
+      "type": "paragraph",
+      "content": "The run time is independent of input size in constant time complexity, so it doesn't change at all."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is true about the constant time complexity?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Constant time complexity doesn't depend on input.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Constant time complexity doesn't depend on input.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:We use O(1) for constant time complexity.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We use O(1) for constant time complexity.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Both the first and the second options.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Both the first and the second options.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The run time changes very slowly compared to the change in the input size.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The run time changes very slowly compared to the change in the input size.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

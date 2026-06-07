@@ -1,0 +1,58 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header?page=7",
+  "title": "Try It: Add More Content",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Try It: Add More Content"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, your React app has a heading and nothing else. Let's change this by adding a paragraph below it:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  return (\n3    <div>\n4      <h1>My Daily Journal</h1>\n5      <p>Track your thoughts and ideas</p>\n6    </div>\n7  );\n8}\n9\n10export default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. You should see the heading and the paragraph in the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pretty neat, right? You just wrote the JSX and poof, React rendered the UI to your screen!"
+    },
+    {
+      "type": "paragraph",
+      "content": "I don't know about you, but this marriage between JavaScript and (what seems to be) HTML got me pretty excited and starry-eyed when I was just starting out with React."
+    },
+    {
+      "type": "paragraph",
+      "content": "I hope you feel the same! But it's okay if you don't; that's fine too 😉"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

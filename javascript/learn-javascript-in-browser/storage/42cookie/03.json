@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/cookie?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How long will a cookie last if you set it without specifying an expiration?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Until the user clears the browser cache"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cookies are not part of the browser cache; clearing the cache does not affect cookies."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cookies are not part of the browser cache; clearing the cache does not affect cookies."
+    },
+    {
+      "type": "paragraph",
+      "content": "Until the user closes the browser"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A cookie without an expiration date lasts only until the browser is closed."
+    },
+    {
+      "type": "paragraph",
+      "content": "A cookie without an expiration date lasts only until the browser is closed."
+    },
+    {
+      "type": "paragraph",
+      "content": "For one session and one page load"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A cookie without an expiration date persists throughout the user's session, which includes multiple page loads within the same browsing session."
+    },
+    {
+      "type": "paragraph",
+      "content": "A cookie without an expiration date persists throughout the user's session, which includes multiple page loads within the same browsing session."
+    },
+    {
+      "type": "paragraph",
+      "content": "Indefinitely"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only cookies with an explicitly set expiration date or max-age last indefinitely."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only cookies with an explicitly set expiration date or max-age last indefinitely."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How long will a cookie last if you set it without specifying an expiration?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Until the user clears the browser cache",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Until the user clears the browser cache",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Until the user closes the browser",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Until the user closes the browser",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:For one session and one page load",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "For one session and one page load",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Indefinitely",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Indefinitely",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

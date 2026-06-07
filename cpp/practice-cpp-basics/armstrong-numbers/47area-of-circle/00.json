@@ -1,0 +1,95 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/area-of-circle?page=1",
+  "title": "Compute the Area of Circle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute the Area of Circle"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to compute the area of a circle using a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to compute the area of a circle is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Area = 3.14 * radius * radius"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Create the compute_area() function that accepts double parameters radius and pi.",
+        "Inside the function, compute the area of the circle and return it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Inside main(), get a double input value for the radius of the circle.",
+        "Create a double variable named pi with value 3.14.",
+        "Call compute_area() with arguments radius and pi.",
+        "Print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input12.8"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output514.46"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

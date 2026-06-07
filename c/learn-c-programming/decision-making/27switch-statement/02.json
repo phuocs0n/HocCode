@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/switch-statement?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Trường hợp nào sau đây được thực hiện?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int number = 3;\n\nswitch(number) {\n\n  case 1:\n    …\n\n  case 3:\n    …\n\n  case 2:\n    …\n\n  default:\n    ...\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "trường hợp 2"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 2 không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 2 không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "trường hợp 3"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 3 được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 3 được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "mặc định"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với một trong các trường hợp. Do đó, trường hợp mặc định không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với một trong các trường hợp. Do đó, trường hợp mặc định không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "trường hợp 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 1 không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 1 không được thực thi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 2 không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 2 không được thực thi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 3 được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 3 được thực thi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với một trong các trường hợp. Do đó, trường hợp mặc định không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với một trong các trường hợp. Do đó, trường hợp mặc định không được thực thi."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 1 không được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của số khớp với trường hợp 3. Do đó, trường hợp 1 không được thực thi."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Trường hợp nào sau đây được thực hiện?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:trường hợp 2",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "trường hợp 2",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:trường hợp 3",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "trường hợp 3",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:mặc định",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "mặc định",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:trường hợp 1",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "trường hợp 1",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

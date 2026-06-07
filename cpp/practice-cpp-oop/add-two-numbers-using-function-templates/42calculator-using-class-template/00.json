@@ -1,0 +1,93 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/calculator-using-class-template?page=1",
+  "title": "Calculator Using Class Template",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculator Using Class Template"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate two numbers using a class template."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class template Calculator with two variables of T type: num1 and num2.",
+        "Initialize these variables with a constructor initializer list.",
+        "Inside the class, create a calculate() function that returns a T value and accepts a char variable op as an argument.",
+        "If op = '+', return num1 + num2.",
+        "If op = '*', return num1 * num2.",
+        "Return 0.0 for any other operator."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), create two integer variables n1 and n2, along with two double variables n3 and n4.",
+        "Get inputs for the n1, n2, n3, and n4.",
+        "Create a Calculator object called obj1 for integer type by passing n1 and n2 as arguments.",
+        "Call the calculate() function of obj1 by passing '*' as an argument and storing the return value in the result1 variable.",
+        "Then, create another Calculator object called obj2 for double type by passing n3 and n4 as arguments.",
+        "Call the calculate() function of obj2 by passing '+' as an argument and storing the return value in the result2 variable.",
+        "Print result1 and result2."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n6\n5.5\n6.6"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output30\n12.1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

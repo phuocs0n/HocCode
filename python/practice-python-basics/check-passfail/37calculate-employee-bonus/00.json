@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/calculate-employee-bonus?page=1",
+  "title": "Calculate Bonus From Employee's Salary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculate Bonus From Employee's Salary"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to calculate bonus from employee's salary."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Susan decides to give a bonus of 5% to employees if their year of service is more than 5 years.",
+        "Take salary and year of service as input and print the bonus amount.",
+        "Take float input from the user and assign it to the salary variable.",
+        "Take int input from the user and assign it to the years variable.",
+        "Calculate 5% bonus if the years > 5.",
+        "Print bonus."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take float input from the user and assign it to the salary variable.",
+        "Take int input from the user and assign it to the years variable.",
+        "Calculate 5% bonus if the years > 5.",
+        "Print bonus."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input500000\n6"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output25000.0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

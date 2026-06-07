@@ -1,0 +1,80 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/styling-simple-section?page=2",
+  "title": "What We'll Style First",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What We'll Style First"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll focus only on:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "<h1>",
+        "<p>"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These elements exist in almost every webpage and set the tone for everything else."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"page\">\n2  <h1>Welcome to My Page</h1>\n3  <p>This is a simple paragraph styled with CSS.</p>\n4</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1h1 {\n2  color: #2c3e50;\n3  font-size: 32px;\n4  font-family: Arial, sans-serif;\n5}\n6\n7p {\n8  color: #555;\n9  font-size: 16px;\n10  font-family: Arial, sans-serif;\n11}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What's Happening"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "color → controls text color",
+        "font-size → controls size",
+        "font-family → controls typography"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's enough for now."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

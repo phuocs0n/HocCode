@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/strings?page=2",
+  "title": "Creating Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know a string is created using single quotes or double quotes."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there are also other ways to create strings: using triple single quotes or triple double quotes. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# use triple double quotes\n2text1 = \"\"\"Hello\"\"\"\n3print(text1)   # Hello\n4\n5# use triple single quotes\n6text2 = '''Hey'''\n7print(text2)   # Hey"
+    },
+    {
+      "type": "paragraph",
+      "content": "Usually, triple quotes are used to create multiline strings. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1lyrics = '''Don't stop believing\n2Hold on to that feeling\n3Streetlight, people'''\n4\n5print(lyrics)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Don't stop believing\nHold on to that feeling\nStreetlight, people"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

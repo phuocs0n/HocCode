@@ -1,0 +1,81 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-python-basics/miscellaneous?page=6",
+  "title": "Example: Truthy and Falsy",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Truthy and Falsy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we need to find the largest number between three numbers."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1n1 = 20\n2n2 = 10\n3n3 = 30\n4\n5if n1 > n2 and n3:\n6    print(n1)\n7elif n2 > n1 and n3:\n8    print(n2)\n9else:\n10    print(n3)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "20"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are getting 20 as the largest number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you find out where the error is?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a look at this code:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "if n1 > n2 and n3:\n    print(n1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n1 > n2 evaluates to True, and n3 also evaluates to True because 30 is considered True."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead here's what we should have written:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "if n1 > n2 and n1 > n3:\n    print(n1)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

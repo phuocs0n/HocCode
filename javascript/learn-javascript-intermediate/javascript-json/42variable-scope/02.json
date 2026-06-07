@@ -1,0 +1,136 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/variable-scope?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following JavaScript code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function getMessage() {\n    var message = \"Hello\";\n}\n\ngetMessage();\nconsole.log(message);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "ReferenceError: message is not defined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Variables declared inside a function are local to that function. Attempting to access message variable outside its scope results in a ReferenceError."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Variables declared inside a function are local to that function. Attempting to access message variable outside its scope results in a ReferenceError."
+    },
+    {
+      "type": "paragraph",
+      "content": "undefined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The message variable is initialized inside the function, so it won't print undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "The message variable is initialized inside the function, so it won't print undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable defined inside a function can not be accessed outside its scope, so it doesn't print Hello."
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable defined inside a function can not be accessed outside its scope, so it doesn't print Hello."
+    },
+    {
+      "type": "paragraph",
+      "content": "message"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, message is a variable, not a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, message is a variable, not a string."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following JavaScript code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:ReferenceError: message is not defined",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "ReferenceError: message is not defined",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:message",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "message",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

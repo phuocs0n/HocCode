@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/queue?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is true?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the push() method to push an element to any position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can only use the push() method to add an element after the last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can only use the push() method to add an element after the last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the pop() method to remove elements from any position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can only use the pop() method to remove the first element."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can only use the pop() method to remove the first element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The first element to get inserted in the queue is the first element to be removed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the queue data structure follows the first in first out principle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the queue data structure follows the first in first out principle."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is true."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is true?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:We use the push() method to push an element to any position.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We use the push() method to push an element to any position.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:We use the pop() method to remove elements from any position.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We use the pop() method to remove elements from any position.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The first element to get inserted in the queue is the first element to be removed.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The first element to get inserted in the queue is the first element to be removed.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

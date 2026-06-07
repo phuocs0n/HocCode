@@ -1,0 +1,42 @@
+{
+  "index": 33,
+  "url": "https://app.programiz.pro/course/dsa-with-python/0-1-knapsack-problem?page=34",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's combine what we have built so far to build a working program and visualize how it works."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def maximize_profit(weight, value, capacity):\n2    # Initialize an empty table dp_table\n3    dp_table = [[0] * (capacity + 1) for _ in range(len(weight) + 1)]\n4\n5    # Run the loop once for each item\n6    for item_index, item_weight in enumerate(weight):\n7        for index in range(capacity + 1):\n8            # You can only add an item if the bag size is larger than the item weight\n9            if index >= item_weight:\n10                dp_table[item_index + 1][index] = max(\n11                    dp_table[item_index][index],\n12                    dp_table[item_index][index - item_weight] + value[item_index]\n13                )\n14            # Otherwise, just copy the profit from one row above\n15            else:\n16                dp_table[item_index + 1][index] = dp_table[item_index][index]\n17\n18    # The last cell returns the maximum profit.\n19    return dp_table[-1][-1]\n20\n21# Initialize variables\n22weight = [1, 2, 3, 5]\n23value = [60, 100, 200, 310]\n24capacity = 10\n25\n26# Call the function and print the result\n27print(maximize_profit(weight, value, capacity))"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,135 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/creating-consuming-promises?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which syntax is used to create a new Promise?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const p = Promise();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Promise is a constructor. Calling it like a normal function will not work"
+    },
+    {
+      "type": "paragraph",
+      "content": "Promise is a constructor. Calling it like a normal function will not work"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const p = new Promise();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This uses new, which is good — but Promises require a function with resolve and reject."
+    },
+    {
+      "type": "paragraph",
+      "content": "This uses new, which is good — but Promises require a function with resolve and reject."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const p = new Promise((resolve, reject) => {});"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This correctly uses new and provides a function where async code runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "This correctly uses new and provides a function where async code runs."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const p = Promise((resolve, reject) => {});"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function is there, but new is missing."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function is there, but new is missing."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which syntax is used to create a new Promise?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:const p = Promise();",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "const p = Promise();",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:const p = new Promise();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "const p = new Promise();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:const p = new Promise((resolve, reject) => {});",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "const p = new Promise((resolve, reject) => {});",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:const p = Promise((resolve, reject) => {});",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "const p = Promise((resolve, reject) => {});",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

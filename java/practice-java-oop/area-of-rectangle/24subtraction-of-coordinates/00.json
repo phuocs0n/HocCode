@@ -1,0 +1,89 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-oop/subtraction-of-coordinates?page=1",
+  "title": "Subtraction of Coordinates",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Subtraction of Coordinates"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to subtract coordinates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Coordinate with two integer fields x and y to store values of x and y coordinates.",
+        "Create a constructor to initialize the value of x and y using this."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create the main() method inside a Main class.",
+        "Get 4 coordinate inputs for variables x1, y1, x2, and y2.",
+        "Create an object c1 of Coordinate with arguments x1 and y1.",
+        "Create another object c2 of Coordinate with arguments x2 and y2.",
+        "Subtract x coordinates of c1 and c2 objects and assign the result to xDiff.",
+        "Subtract y coordinates of c1 and c2 objects and assign the result to yDiff.",
+        "Print the value of xDiff and yDiff"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input9\n12\n8\n4"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1\n8"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

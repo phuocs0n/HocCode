@@ -1,0 +1,136 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-exceptions?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which type of exception is caused by this code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "int result = 45/0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayIndexOutOfBoundException"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayIndexOutOfBoundException occurs when we try to access an array element using the index number greater than the size of an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayIndexOutOfBoundException occurs when we try to access an array element using the index number greater than the size of an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "ArithmeticException"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we try to divide a number by 0, ArithmeticException occurs."
+    },
+    {
+      "type": "paragraph",
+      "content": "When we try to divide a number by 0, ArithmeticException occurs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both A and B"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code causes only one exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code causes only one exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which type of exception is caused by this code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:ArrayIndexOutOfBoundException",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "ArrayIndexOutOfBoundException",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:ArithmeticException",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "ArithmeticException",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Both A and B",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Both A and B",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

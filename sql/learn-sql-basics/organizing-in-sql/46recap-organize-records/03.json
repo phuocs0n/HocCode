@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2?page=4",
+  "title": "Finding the Salary Range in Each Department",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding the Salary Range in Each Department"
+    },
+    {
+      "type": "paragraph",
+      "content": "You are asked to find the minimum and maximum salary in each department to understand the distribution of salaries among employees."
+    },
+    {
+      "type": "paragraph",
+      "content": "To accomplish this, use GROUP BY with MIN() and MAX() aggregate functions."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Find the salary range in each department\n2\n3SELECT department, MIN(salary) AS minimum_salary, \n4MAX(salary) AS maximum_salary\n5FROM Employees\n6GROUP BY department;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

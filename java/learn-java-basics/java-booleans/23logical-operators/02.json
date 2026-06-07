@@ -1,0 +1,66 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/logical-operators?page=2",
+  "title": "Logical Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Logical Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three logical operators in Java."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Operator",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "&& (AND)",
+          "true if both expressions are true",
+          "(creditScore > 700) && (annualSalary > 6000.00)"
+        ],
+        [
+          "|| (OR)",
+          "true if either of the expressions is true",
+          "(purchaseAmount> 1000) || (hasMembership)"
+        ],
+        [
+          "! (NOT)",
+          "true if the expression is false",
+          "!(age > 18)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try each of these operators in our examples."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

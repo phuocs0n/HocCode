@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/primary-key?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of using AUTOINCREMENT with a PRIMARY KEY in SQL?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To ensure that the primary key column has a unique constraint."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The PRIMARY KEY constraint ensures a column has a unique constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "The PRIMARY KEY constraint ensures a column has a unique constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "To automatically assign unique values to the primary key column."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using AUTOINCREMENT with a PRIMARY KEY allows the primary key column to automatically assign unique values for each row inserted into the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using AUTOINCREMENT with a PRIMARY KEY allows the primary key column to automatically assign unique values for each row inserted into the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "To allow NULL values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We cannot insert NULL values into a column with a PRIMARY KEY constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "We cannot insert NULL values into a column with a PRIMARY KEY constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of using AUTOINCREMENT with a PRIMARY KEY in SQL?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To ensure that the primary key column has a unique constraint.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To ensure that the primary key column has a unique constraint.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To automatically assign unique values to the primary key column.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To automatically assign unique values to the primary key column.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To allow NULL values.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To allow NULL values.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

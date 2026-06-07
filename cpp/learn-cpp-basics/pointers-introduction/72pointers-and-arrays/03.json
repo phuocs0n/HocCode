@@ -1,0 +1,183 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/pointers-arrays?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following options is the same as marks?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[4]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[4] gives the value of the last element in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[4] gives the value of the last element in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[0]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[0] gives the value of the first element in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[0] gives the value of the first element in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[0]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "marks gives the address of the first element of the array. Hence, &marks[0] is the same as marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "marks gives the address of the first element of the array. Hence, &marks[0] is the same as marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] gives the address of the last element in the array. However, marks gives the address of the first element."
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] gives the address of the last element in the array. However, marks gives the address of the first element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[4] gives the value of the last element in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[4] gives the value of the last element in the array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[0] gives the value of the first element in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "marks[0] gives the value of the first element in the array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "marks gives the address of the first element of the array. Hence, &marks[0] is the same as marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "marks gives the address of the first element of the array. Hence, &marks[0] is the same as marks."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] gives the address of the last element in the array. However, marks gives the address of the first element."
+    },
+    {
+      "type": "paragraph",
+      "content": "&marks[4] gives the address of the last element in the array. However, marks gives the address of the first element."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following options is the same as marks?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:marks[4]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "marks[4]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:marks[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "marks[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:&marks[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "&marks[0]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:&marks[4]",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "&marks[4]",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/abstract-method-class?page=2",
+  "title": "Abstract Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Abstract Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "Normally, when we create a class, then we can create objects from the class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Animal {\n    // class body\n}\n\n// object of Animal\nAnimal obj = new Animal();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are creating the object named obj of the Animal class."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, we can also create abstract classes. Unlike the regular class, we cannot create objects of the abstract class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1abstract class Polygon {\n2    // code inside the class\n3}\n4\n5class Main {\n6    public static void main(String[] args) {\n7        \n8        // create object of Polygon\n9        Polygon obj = new Polygon();\n10    }\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like abstract methods, we have used the abstract keyword to create the abstract class Polygon."
+    },
+    {
+      "type": "paragraph",
+      "content": "When we run this code, we will get an error."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "error: Polygon is abstract; cannot be instantiated\nPolygon obj = new Polygon();\n                      ^"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because we are trying to create an object of the abstract class which is not possible in Java."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

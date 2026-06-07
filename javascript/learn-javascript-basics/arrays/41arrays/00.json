@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/arrays?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Until now, you've been storing individual pieces of data, such as numbers or strings."
+    },
+    {
+      "type": "paragraph",
+      "content": "That works fine when you have just one or two pieces of data."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you need to keep track of a list of items, like fruits, to buy? You might initially think of doing this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let fruit1 = \"Apple\";\nlet fruit2 = \"Banana\";\nlet fruit3 = \"Orange\";\nlet fruit4 = \"Blueberry\";\nlet fruit5 = \"Cherry\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Not only is this inefficient but imagine if you had 100 fruits! Would you create 100 variables? Of course not!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wouldn't it be much better to keep all these related items in one single list—just like a proper shopping list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's where arrays come in."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this chapter, you'll learn how to group and organize multiple values into a single variable using arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by creating our first array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

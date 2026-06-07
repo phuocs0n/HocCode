@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/python-packages?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we have an empty directory named Test. What should we do to make this directory a package?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "By adding a file named main.py inside the Test directory."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a file named main.py won't make a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a file named main.py won't make a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "By adding a file named main.py and creating a class with __init__() method inside it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a file named main.py won't make a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a file named main.py won't make a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "By adding a file named __init__.py."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding a file named __init__.py will tell Python that this directory is a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding a file named __init__.py will tell Python that this directory is a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "We do not need to do anything."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "If a directory has a file with a specific name, only then that directory is considered a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "If a directory has a file with a specific name, only then that directory is considered a package."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we have an empty directory named Test. What should we do to make this directory a package?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:By adding a file named main.py inside the Test directory.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By adding a file named main.py inside the Test directory.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:By adding a file named main.py and creating a class with __init__() method inside it.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "By adding a file named main.py and creating a class with __init__() method inside it.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:By adding a file named __init__.py.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "By adding a file named __init__.py.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:We do not need to do anything.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "We do not need to do anything.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

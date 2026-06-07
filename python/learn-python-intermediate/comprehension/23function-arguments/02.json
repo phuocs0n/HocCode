@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/function-arguments?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def subtract(first, second):\n    result = first - second\n    return result\n\nresult = subtract(second = 20, first = 10)\nprint(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "paragraph",
+      "content": "-10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "paragraph",
+      "content": "30"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not adding arguments inside the function definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not adding arguments inside the function definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "-100"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not multiplying arguments inside the function definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not multiplying arguments inside the function definition."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, first will be 10 and second will be 20. It's because we are passing arguments based on names."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not adding arguments inside the function definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not adding arguments inside the function definition."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not multiplying arguments inside the function definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not multiplying arguments inside the function definition."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:10",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:-10",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "-10",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:30",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:-100",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "-100",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

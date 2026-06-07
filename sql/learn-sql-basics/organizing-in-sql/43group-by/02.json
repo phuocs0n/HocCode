@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/group-by?page=3",
+  "title": "Examples: GROUP BY",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Examples: GROUP BY"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 1: Average Purchase Amount of Customers in Each Country"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group data by different country\n2-- Select country and average purchase amount\n3\n4SELECT country, AVG(purchase_amount) AS average_purchase\n5FROM Customers\n6GROUP BY country;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above query groups customers by country and calculates the average purchase amount for each."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 2: Number of Customers in Each Country"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group data by different country\n2-- Select country and number of customers\n3\n4SELECT country, COUNT(name) AS number_of_customers\n5FROM Customers\n6GROUP BY country;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 3: Maximum and Minimum Purchase Amount of Customers in Each Country"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group data by different country\n2-- Select country, minimum and maximum purchase amount\n3\n4SELECT country, MIN(purchase_amount) AS min_purchase, \n5MAX(purchase_amount) AS max_purchase\n6FROM Customers\n7GROUP BY country;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

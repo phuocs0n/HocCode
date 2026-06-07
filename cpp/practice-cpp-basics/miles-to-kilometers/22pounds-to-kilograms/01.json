@@ -1,0 +1,76 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/pounds-to-kilograms?page=1",
+  "title": "Pounds to Kilograms",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pounds to Kilograms"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Convert weight in Pounds to Kilograms using the formula:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "kilogram = pound * 0.45359"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create double variables kg and pounds.",
+        "Get weight in Pounds from the user and assign it to pounds.",
+        "Convert it to Kilograms using the above formula and assign it to kg.",
+        "Print the result."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input6.5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output2.94834"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

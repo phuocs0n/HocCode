@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-doubly-linked-list?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is a doubly linked list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A data structure where each node contains a reference to the next node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a singly linked list where each node has a reference to the next node."
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a singly linked list where each node has a reference to the next node."
+    },
+    {
+      "type": "paragraph",
+      "content": "A data structure where each node contains a reference to the previous node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a characteristic of a doubly linked list, but it is not a complete description."
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a characteristic of a doubly linked list, but it is not a complete description."
+    },
+    {
+      "type": "paragraph",
+      "content": "A data structure where each node contains both a reference to the next node and the previous node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This accurately describes a doubly linked list with references to both the next and previous nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "This accurately describes a doubly linked list with references to both the next and previous nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "A data structure where each node contains only the data value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a simple data value, not a linked list structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a simple data value, not a linked list structure."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is a doubly linked list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A data structure where each node contains a reference to the next node.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A data structure where each node contains a reference to the next node.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A data structure where each node contains a reference to the previous node.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A data structure where each node contains a reference to the previous node.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A data structure where each node contains both a reference to the next node and the previous node.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A data structure where each node contains both a reference to the next node and the previous node.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A data structure where each node contains only the data value.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A data structure where each node contains only the data value.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

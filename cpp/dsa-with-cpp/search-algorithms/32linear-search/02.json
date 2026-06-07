@@ -1,0 +1,84 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/linear-search?page=3",
+  "title": "Thought Process to Implement Linear Search",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process to Implement Linear Search"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we know how linear search works, let's see how we can implement it in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Access all vector elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "In linear search, we need to compare the target value with every element in a vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "To access every vector elements, we can use a for loop that runs up to the end of the vector:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for (int i = 0; i < arr.size(); ++i) {\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Compare target value with vector elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the target element matches with any vector element, we return the index of that element."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for (int i = 0; i < arr.size(); ++i) {\n    if (arr[i] == target) \n        return i;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Hand unsuccessful search."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the target element doesn't exist in the vector, we return -1 to signify an unsuccessful search."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for (int i = 0; i < arr.size(); ++i) {\n    if (arr[i] == target) \n        return i;\n}\n\nreturn -1;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will create a working program of linear search."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

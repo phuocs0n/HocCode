@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/usecallback-when-functions-change-too-often?page=4",
+  "title": "Apply to handleRefresh() and handleSelectEntry()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Apply to handleRefresh() and handleSelectEntry()"
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() is worth applying to any function we pass as a prop to a component that uses it inside a useEffect()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, we'll wrap handleRefresh() and handleSelectEntry() for the same reason:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const handleRefresh = useCallback(function () {\n  setRefreshKey(function (k) { return k + 1; });\n}, []);\n\nconst handleSelectEntry = useCallback(function (entry) {\n  setSelectedEntry(entry);\n}, []);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both have empty dependency arrays because they only call stable setter functions, which React guarantees never change."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

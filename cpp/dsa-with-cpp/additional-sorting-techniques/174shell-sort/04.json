@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/shell-sort?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How does Shell sort improve over insertion sort?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort sorts the entire vector at once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort does not sort the entire vector at one go; it sorts subvectors with a decreasing interval."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort does not sort the entire vector at one go; it sorts subvectors with a decreasing interval."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort is faster for small vectors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While Shell sort can be efficient, its strength lies in handling larger vectors by initially sorting elements far apart."
+    },
+    {
+      "type": "paragraph",
+      "content": "While Shell sort can be efficient, its strength lies in handling larger vectors by initially sorting elements far apart."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Shell sort, elements far apart are initially sorted, thus reducing the gap gradually."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Shell sort enhances insertion sort by initially sorting elements far apart and gradually reducing this gap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Shell sort enhances insertion sort by initially sorting elements far apart and gradually reducing this gap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort only works on sorted vectors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort is designed to sort unsorted vectors; it is not just meant for already sorted vectors."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort is designed to sort unsorted vectors; it is not just meant for already sorted vectors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How does Shell sort improve over insertion sort?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Shell sort sorts the entire vector at once.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Shell sort sorts the entire vector at once.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Shell sort is faster for small vectors.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Shell sort is faster for small vectors.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:In Shell sort, elements far apart are initially sorted, thus reducing the gap gradually.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "In Shell sort, elements far apart are initially sorted, thus reducing the gap gradually.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Shell sort only works on sorted vectors.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Shell sort only works on sorted vectors.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

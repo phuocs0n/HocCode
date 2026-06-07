@@ -1,0 +1,90 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/advanced-interactivity?page=5",
+  "title": "Runnable Example Dark Mode Toggle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Runnable Example Dark Mode Toggle"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, one button switches the entire page between light and dark."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no complex logic. One click changes the state."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Dark mode</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <p>Page content.</p>\n11  <button type=\"button\" class=\"dark-toggle\">Dark mode</button>\n12\n13  <script src=\"script.js\"></script>\n14</body>\n15</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4  background: #ffffff;\n5  color: #1e293b;\n6  transition: background 0.2s ease, color 0.2s ease;\n7}\n8\n9body.dark {\n10  background: #1e293b;\n11  color: #f1f5f9;\n12}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var toggle = document.querySelector('.dark-toggle');\n2\n3if (toggle) {\n4  toggle.addEventListener('click', function () {\n5    document.body.classList.toggle('dark');\n6  });\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Then click the Dark mode button. The page switches to dark. Click again. It switches back."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the CSS, this part defines the dark theme:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "body.dark {\n  background: #1e293b;\n  color: #f1f5f9;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the dark class exists on the body, these styles apply. Nothing in JavaScript changes colors directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript, this single line controls everything:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "document.body.classList.toggle('dark');"
+    },
+    {
+      "type": "paragraph",
+      "content": "It adds the class if it's missing. It removes the class if it's already there. One class controls the entire theme."
+    },
+    {
+      "type": "paragraph",
+      "content": "Same pattern. One toggle. The whole page responds."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

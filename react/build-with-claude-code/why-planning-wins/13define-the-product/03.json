@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/define-product?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of these belongs in the \"must-have\" column when defining SpeedBlip's MVP?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "ISP comparison charts showing your speed vs neighbors in your area"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a nice-to-have feature that adds context but is not needed for the product to solve the core problem of monitoring your own connection."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a nice-to-have feature that adds context but is not needed for the product to solve the core problem of monitoring your own connection."
+    },
+    {
+      "type": "paragraph",
+      "content": "Automatic background speed tests with download, upload, and ping"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Without automatic measurement, SpeedBlip does not function. This is the core behavior the one-sentence definition describes - it is non-negotiable for the MVP."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Without automatic measurement, SpeedBlip does not function. This is the core behavior the one-sentence definition describes - it is non-negotiable for the MVP."
+    },
+    {
+      "type": "paragraph",
+      "content": "PDF export of historical speed data"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Useful for some users, but not required for the product to work. Users can already see their history in the app - export is a nice-to-have enhancement."
+    },
+    {
+      "type": "paragraph",
+      "content": "Useful for some users, but not required for the product to work. Users can already see their history in the app - export is a nice-to-have enhancement."
+    },
+    {
+      "type": "paragraph",
+      "content": "Multi-device tracking across a home network"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Multi-device support adds significant complexity and is not required for SpeedBlip to solve the problem for a single user. It belongs in the nice-to-have column."
+    },
+    {
+      "type": "paragraph",
+      "content": "Multi-device support adds significant complexity and is not required for SpeedBlip to solve the problem for a single user. It belongs in the nice-to-have column."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of these belongs in the \"must-have\" column when defining SpeedBlip's MVP?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:ISP comparison charts showing your speed vs neighbors in your area",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "ISP comparison charts showing your speed vs neighbors in your area",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Automatic background speed tests with download, upload, and ping",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Automatic background speed tests with download, upload, and ping",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:PDF export of historical speed data",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "PDF export of historical speed data",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Multi-device tracking across a home network",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Multi-device tracking across a home network",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

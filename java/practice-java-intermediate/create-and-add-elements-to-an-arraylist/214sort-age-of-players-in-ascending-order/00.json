@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/sort-age-of-players-in-ascending-order?page=1",
+  "title": "Sort age of Players in Ascending Order",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sort age of Players in Ascending Order"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to sort the age of players in ascending order."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Import java.util.ArrayList; , java.util.Collections; and java.util.Scanner;.",
+        "Create a new integer arraylist called age.",
+        "Take three int inputs from the user and store them in input1, input2, input3 to store age.",
+        "Add int input1, input2 and input3 to age using add().",
+        "Print age.",
+        "Using the sort() method of Collections, sort the age of ArrayList.",
+        "Print age again."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input18\n22\n21"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output[18, 22, 21]\n[18, 21, 22]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

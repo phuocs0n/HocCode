@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-function?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Arguments and Return Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arguments are inputs to the function and return value is the output from the function."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function takes two arguments\n4// returns the sum of numbers\n5int addNumbers(int n1, int n2) {\n6\n7  int result = n1 + n2;\n8\n9  return result;\n10}\n11\n12int main() {\n13\n14  // Function call\n15  int total = addNumbers(12, 36);\n16  printf(\"%d\\n\", total);    // 48\n17\n18  total = addNumbers(10, 20);\n19  printf(\"%d\", total);    // 30\n20\n21  return 0;\n22}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Function Prototype"
+    },
+    {
+      "type": "paragraph",
+      "content": "Function prototype allows us to call functions before defining them."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int addNumbers(int, int);\n4\n5int main() {\n6\n7  // Function call\n8  int result = addNumbers(12, 36);\n9  printf(\"%d\", result);    // 48\n10\n11  return 0;\n12}\n13\n14// Function definition\n15int addNumbers(int n1, int n2) {\n16\n17  int sum = n1 + n2;\n18\n19  return sum;\n20}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

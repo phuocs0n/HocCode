@@ -1,0 +1,64 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction?page=1",
+  "title": "Introduction to the Course",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to the Course"
+    },
+    {
+      "type": "paragraph",
+      "content": "Welcome to this short course on API Handling with Asynchronous JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you know, JavaScript is at the core of modern web applications. And the JavaScript you know so far is synchronous."
+    },
+    {
+      "type": "paragraph",
+      "content": "But as soon as applications start dealing with real-world tasks like loading data, handling user actions, or communicating with servers, things stop being purely synchronous."
+    },
+    {
+      "type": "paragraph",
+      "content": "This course exists to help you understand how JavaScript handles asynchronous work, and, more importantly, how developers reason about it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rather than memorizing syntax, the focus here is on:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Understanding what is happening behind the scenes",
+        "Writing async code that is clear, predictable, and maintainable"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This approach will help you not just write asynchronous code, but read and debug it with confidence."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

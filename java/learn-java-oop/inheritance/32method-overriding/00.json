@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/method-overriding?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, we learned that during inheritance, the child class inherits methods and fields of the parent class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Animal {\n2    void makeSound() {\n3        System.out.println(\"Animal Sound\");\n4    }\n5}\n6\n7class Dog extends Animal {\n8\n9}\n10\n11class Main {\n12    public static void main(String[] args) {\n13\n14        Dog dog1 = new Dog();\n15        dog1.makeSound();\n16    }\n17}\n18\n19// Output: Animal Sound"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the Dog class doesn't have the makeSound() method, however, it is able to access it because of inheritance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, suppose if the same method is also present in the Dog class, then what will happen?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try that in our next example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

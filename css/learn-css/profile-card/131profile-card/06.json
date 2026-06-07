@@ -1,0 +1,60 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-css/profile-card?page=7",
+  "title": "Step 5: Container and Card Layout",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 5: Container and Card Layout"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use flexbox to center the card both vertically and horizontally within the viewport."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".container {\n    display: flex;\n    justify-content: center;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, create a responsive layout for the card with flexbox and add rounded corners."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.container {\n2    display: flex;\n3    justify-content: center;\n4}\n5\n6.card {\n7    display: flex;\n8    border-radius: 24px;\n9    background-color: white;\n10    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);\n11    max-width: clamp(320px, 70vw, 740px);\n12    min-width: min(320px, 100vw);\n13    flex-direction: column;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the element's maximum width will be 70% of the viewport width, but it will never be smaller than 320px or larger than 740px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

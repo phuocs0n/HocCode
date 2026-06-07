@@ -1,0 +1,72 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/circular-queue?page=4",
+  "title": "Removing from the Circular Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Removing from the Circular Queue"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like we updated the rear pointer for circular behavior, we also need to update the front pointer to wrap around when it reaches the end of the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the regular version, the dequeue method looked like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def dequeue(self):\n    if self.is_empty():\n        print(\"We can't remove elements. The queue is empty.\")\n        return None\n\n    item_removed = self.queue[self.front]\n    self.queue[self.front] = None\n    self.front += 1\n    self.count -= 1\n    return item_removed"
+    },
+    {
+      "type": "paragraph",
+      "content": "To make this circular, we replace:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "self.front += 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "with:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "self.front = (self.front + 1) % self.capacity"
+    },
+    {
+      "type": "paragraph",
+      "content": "This ensures the front pointer wraps around when needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's update the dequeue() method and visualize how it works in the circular queue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

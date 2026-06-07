@@ -1,0 +1,73 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/hashmap?page=2",
+  "title": "Why Use a Hashmap?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Use a Hashmap?"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Avoiding Collisions"
+    },
+    {
+      "type": "paragraph",
+      "content": "The primary advantage of hashmaps over traditional hash tables is that they can effectively avoid collisions, which reduces the likelihood of data loss or corruption."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps avoid collisions through techniques such as chaining, where multiple values are stored at the same index using data structures like linked lists or trees."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Faster Operations"
+    },
+    {
+      "type": "paragraph",
+      "content": "The use of linked lists or trees enables hashmaps to provide faster lookup, insertion, and deletion."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, hashmaps can efficiently manage and retrieve data, making them a popular choice for applications that require fast data access and manipulation."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Ability to Handle Large and Complex Datasets"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ability of hashmaps to avoid collisions and provide fast data access makes them scalable and reliable, thus making them ideal for processing large and complex datasets."
+    },
+    {
+      "type": "paragraph",
+      "content": "As a result, hashmaps are often the go-to data structure for applications such as databases, caching systems, and data processing pipelines, where data integrity and performance are critical."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll take a quiz, and then we'll learn how to implement a hashmap in Python."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

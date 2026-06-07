@@ -1,0 +1,65 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-break-continue?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this simple loop that takes numbers as input and displays them:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1for (let i = 1; i <= 5; i++) {\n2    let n = Number(prompt(\"Enter a number: \"));\n3    console.log(`You entered ${n}`);\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you needed to customize it with two conditions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Stop the loop if the user enters 0.",
+        "Only display positive numbers."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Although this can be done with complex logic, JavaScript provides a simpler way using the break and continue statements."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn how break and continue help you control loops more effectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with the break statement."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

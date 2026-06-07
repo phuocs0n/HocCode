@@ -1,0 +1,55 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/recap-data-types?page=4",
+  "title": "Example: Get the Value if Key Exists",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Get the Value if Key Exists"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will check if a key exists in a dictionary. If the key is in the dictionary, we will print its value."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1cubes = {'one': 1, 'two': 2, 'three': 3}\n2\n3if 'three' in cubes:\n4    print(cubes['three'])"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "3"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, 'three' in cubes returns True because the 'three' key is in the cubes dictionary. Hence, we printed its corresponding value using cubes['three']."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,108 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/library-management-system?page=7",
+  "title": "Step 6: Adding returnBook() method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 6: Adding returnBook() method"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Added returnBook() method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.HashMap;\n2import java.util.Scanner;\n3import java.util.Map.Entry;\n4\n5class Student {\n6\n7    HashMap<Integer, String> student = new HashMap<>();\n8    Scanner input = new Scanner(System.in);\n9\n10    // add students\n11    void add() {\n12        student.put(101, \"Niall\");\n13        student.put(102, \"Anna\");\n14    }\n15\n16    // register student\n17    void addStudent() {\n18\n19        System.out.println(\"Enter your name: \");\n20        String name = input.next();\n21        System.out.println(\"Enter your id: \");\n22        int id = input.nextInt();\n23        student.put(id, name);\n24    }\n25}\n26\n27class Book {\n28\n29    HashMap<Integer, String> book = new HashMap<>();\n30\n31    // add books\n32    void add() {\n33        book.put(11, \"The Fault in our Stars\");\n34        book.put(22, \"A Good Book\");\n35    }\n36}\n37\n38class Issue {\n39\n40    // store book issued by student\n41    HashMap<Integer, String> issue = new HashMap<>();\n42\n43    Scanner input = new Scanner(System.in);\n44\n45    Book b1 = new Book();\n46    Student s1 = new Student();\n47\n48    public Issue() {\n49\n50        // add elements to student HashMap\n51        s1.add();\n52\n53        // add elements to book HashMap\n54        b1.add();\n55    }\n56\n57    // method to issue book\n58    void issueBook(int id) {\n59\n60        System.out.println(\"enter a book\");\n61        String bookName = input.nextLine();\n62\n63        // check if book is inside the book hashmap\n64        if (b1.book.containsValue(bookName)) {\n65\n66            // get book id to remove it from the book HashMap\n67            int bookId = 0;\n68            // iterate each entry of hashmap\n69            for (Entry<Integer, String> entry : b1.book.entrySet()) {\n70\n71                // if give value is equal to value from entry\n72                // print the corresponding key\n73                if (entry.getValue().equals(bookName)) {\n74                    bookId = entry.getKey();\n75                    break;\n76                }\n77            }\n78\n79            // add value of student id and book to issue hashmap\n80            issue.put(id, bookName);\n81\n82            // remove book from the book hashmap\n83            b1.book.remove(bookId);\n84\n85            // get student name from id\n86            String name = s1.student.get(id);\n87            // print name and issued book\n88            System.out.println(\"Name: \" + name);\n89            System.out.println(\"Book: \" + bookName);\n90            System.out.println(\"Book issued Congratulation\");\n91        }\n92\n93        else {\n94            System.out.println(\"Book doesn't exist\");\n95            System.out.println(\"We have following Books:\");\n96            System.out.println(b1.book);\n97        }\n98\n99    }\n100\n101\n102    void returnBook(int id) {\n103\n104        issue.put(101, \"A Good Book\");\n105\n106        if (issue.containsKey(id)) {\n107            System.out.println(\"enter a book to return\");\n108            String bookName = input.nextLine();\n109\n110            //get book id\n111            int bookId = 0;\n112            // iterate each entry of hashmap\n113            for (Entry<Integer, String> entry : b1.book.entrySet()) {\n114\n115                // if give value is equal to value from entry\n116                // print the corresponding key\n117                if (entry.getValue().equals(bookName)) {\n118                    bookId = entry.getKey();\n119                    break;\n120                }\n121            }\n122\n123            // check if book is issued\n124            if (issue.containsValue(bookName)) {\n125\n126                // remove issue record form issue HashMap\n127                issue.remove(id);\n128\n129                // add book back to book hashmap\n130                b1.book.put(bookId, bookName);\n131\n132                // print name of student and book\n133                // get student name from id\n134                String name = s1.student.get(id);\n135                System.out.println(\"Name: \" + name);\n136                System.out.println(\"Book: \" + bookName);\n137                System.out.println(\"Book returned\");\n138\n139            }\n140\n141            else {\n142                System.out.println(\"Book is not issued.\");\n143            }\n144\n145        } \n146        else {\n147            System.out.println(\"You haven't issued any book\");\n148        }\n149    }\n150\n151\n152}\n153\n154class Main {\n155\n156    public static void main(String[] args) {\n157\n158        Issue i1 = new Issue();\n159\n160        // get id\n161        Scanner input = new Scanner(System.in);\n162        System.out.println(\"Enter your id:\");\n163        int id = input.nextInt();\n164\n165\n166        i1.returnBook(id);\n167\n168    }\n169}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your id:\n101\nenter a book to return\nA Good Book\nName: Niall\nBook: A Good Book\nBook returned"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have added the returnBook() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have removed the issueBook() method call from the main() method and added returnBook() method call."
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to return the book, student must have issued the book. So first, we check if the issue HashMap contains the studentId."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "if (issue.containsKey(id)) {\n    …\n    …\n    …\n\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the containsKey() checks if the student id is present inside the issue hashmap. If so, we get the bookId."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "//get book id\n int bookId = 0;\n// iterate each entry of hashmap\nfor (Entry<Integer, String> entry : b1.book.entrySet()) {\n\n    // if give value is equal to value from entry\n    // print the corresponding key\n    if (entry.getValue().equals(bookName)) {\n        bookId = entry.getKey();\n        break;\n    }\n }"
+    },
+    {
+      "type": "paragraph",
+      "content": "And remove it from the issue hashmap."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// remove issue record form issue HashMap\nissue.remove(id);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The remove() method removes the book with the key id from the issue hashmap."
+    },
+    {
+      "type": "paragraph",
+      "content": "After that, we put the record of the book inside a book hashmap."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "b1.book.put(bookId, bookName);"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the value of bookId as the key and bookName as value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

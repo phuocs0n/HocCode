@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-while-loop?page=2",
+  "title": "The while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of the while loop is:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "while (condition) {\n    // statement(s)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The while loop runs the code inside it as long as the condition (a boolean expression) evaluates to true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike an if statement that only executes once, the while loop repeatedly checks the condition and continues execution until the condition evaluates to false."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sounds tricky? Let's understand it with the help of an example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

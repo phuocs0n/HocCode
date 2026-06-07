@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/list-comprehension?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given the list of size n, create another list where elements only start with consonant letters using list comprehension."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you are given a list,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "['apple', 'banana', 'pineapple', 'mango', 'watermelon']"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code should return,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "['banana', 'pineapple', 'mango', 'watermelon']"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the code should remove the element apple from the list as it starts with the vowel 'a'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

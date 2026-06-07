@@ -1,0 +1,61 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors?page=5",
+  "title": "Step 4: Make User Input a Valid String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Make User Input a Valid String"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "changed the getUserPick() method to take valid input"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "String getUserPick() {\n\n    Scanner input = new Scanner(System.in);\n\n    String userPick;\n\n    // get input until user enters \"rock\", \"paper\" or \"scissors\"\n    while (true) {\n\n        System.out.println(\"Enter rock, paper or scissors:\");\n        userPick = input.nextLine();\n\n        if (userPick.equals(\"rock\") || userPick.equals(\"paper\") || userPick.equals(\"scissors\")) {\n        break;\n        }\n    }\n\n    return userPick;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the getUserPick() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have created an infinite while loop inside this method. Inside the loop, we have asked for user input."
+    },
+    {
+      "type": "paragraph",
+      "content": "If this value is either \"rock\" or \"paper\" or \"scissors\", the break statement terminates the loop. However, if the user input is invalid, the loop is again iterated and the user is again asked for the input."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

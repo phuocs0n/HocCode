@@ -1,0 +1,50 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-8?page=6",
+  "title": "Moving Average (AVG)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Moving Average (AVG)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lastly, the requirement is to calculate the moving average of sales over a set of transactions."
+    },
+    {
+      "type": "paragraph",
+      "content": "To do this, you can use the AVG() window function to calculate a moving average of sales over the previous three transactions."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT \n2    sales_rep_id, \n3    sales_rep_name, \n4    sales_amount, \n5    AVG(sales_amount) OVER (PARTITION BY sales_rep_id ORDER BY transaction_date ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) AS moving_avg\n6FROM Sales;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query calculates the moving average of the last three sales transactions for each representative."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

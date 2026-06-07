@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/fetch-api?page=3",
+  "title": "Step 1: Making the Request",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Making the Request"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1fetch(\"https://api.programiz.pro/api/demo/javascript/movies\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "When this line runs, the request is sent immediately, and JavaScript does not wait for the response. That's because fetch() returns a promise right away."
+    },
+    {
+      "type": "paragraph",
+      "content": "A very common beginner mistake is expecting the user data to be available immediately after calling fetch()."
+    },
+    {
+      "type": "paragraph",
+      "content": "It doesn't work that way!"
+    },
+    {
+      "type": "paragraph",
+      "content": "At this moment, all you have is a promise that says: \"I'll give you the result later.\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

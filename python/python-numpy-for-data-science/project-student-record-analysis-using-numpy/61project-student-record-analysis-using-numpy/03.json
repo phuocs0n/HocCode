@@ -1,0 +1,90 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/project--student-record-analysis-using-numpy?page=4",
+  "title": "Step 3: Display Student Records",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Display Student Records"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far we've learnt how to initialize a student record and also how to add a new record. Now, we'll learn how to display them."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the major parts of data analysis is data visualization. Analyzing data is important but data presentation is equally important."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are also other libraries that aid in data visualization but for this course we are strictly limiting ourselves to NumPy."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is a code to visualize the data in a pleasing format."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# display the record in visually pleasing form\ndef display_record(studentArray, subjectArray, marksArray):\n    # print the subjects as table header\n    header = f\"Student/Subject |\"\n    header += \"|\".join(subjectArray)\n    print(header)\n\n    # print the separator line\n    separator = \"-\" * 16 + \"+\" + \"+\".join([\"-\" * len(sub) for sub in subjectArray])\n    print(separator)\n\n    # print the marks for each student\n    for i, student in enumerate(studentArray):\n        row = f\"{student :<{16}}\"\n        row += ''.join(f\"|{mark:<{len(subjectArray[col])}}\" for col, mark in enumerate(marksArray[i]))\n        print(row)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python's join() method is used to concatenate strings from an iterable into a single string joined together by the specified separator. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "','.join(['apple', 'banana', 'orange']) would return the string 'apple,banana,orange'"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, Python's split() method is used to split a string into a list of substrings based on a specified separator. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "'apple,banana,orange'.split(',') would return the list ['apple', 'banana', 'orange']."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the full code:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3def initialize_data():\n4    subject = np.array(['English', 'Maths', 'Science', 'Social', 'History'])\n5    students = np.array(['Alice', 'Bob', 'Charlie', 'Dan'])\n6    marks = np.array([[81, 78, 80, 60, 63],\n7                      [50, 60, 65, 48, 55],\n8                      [30, 83, 97, 79, 75],\n9                      [99, 55, 60, 48, 30]])\n10    return subject, students, marks\n11  \n12# display the record in visually pleasing form\n13def display_record(studentArray, subjectArray, marksArray):\n14    # print the subjects as table header\n15    header = f\"Student/Subject |\"\n16    header += \"|\".join(subjectArray)\n17    print(header)\n18\n19    # print the separator line\n20    separator = \"-\" * 16 + \"+\" + \"+\".join([\"-\" * len(sub) for sub in subjectArray])\n21    print(separator)\n22\n23    # print the marks for each student\n24    for i, student in enumerate(studentArray):\n25        row = f\"{student :<{16}}\"\n26        row += ''.join(f\"|{mark:<{len(subjectArray[col])}}\" for col, mark in enumerate(marksArray[i]))\n27        print(row)\n28        \n29# call the initialize_data function\n30def main():\n31    subject, students, marks = initialize_data()\n32    display_record(students, subject, marks)\n33main()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Student/Subject |English|Maths|Science|Social|History\n----------------+-------+-----+-------+------+-------\nAlice           |81     |78   |80     |60    |63     \nBob             |50     |60   |65     |48    |55     \nCharlie         |30     |83   |97     |79    |75     \nDan             |99     |55   |60     |48    |30"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

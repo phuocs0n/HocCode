@@ -1,0 +1,99 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/additional-topics?page=2",
+  "title": "C++ unordered_map as Hash Tables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ unordered_map as Hash Tables"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, std::unordered_map is implemented as a hash table, which is why it has an average O(1) time complexity for lookup, insertion, and deletion."
+    },
+    {
+      "type": "paragraph",
+      "content": "To understand how C++ unordered_map work as hash tables, let's delve into some of the fundamentals:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Hash Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, std::unordered_map uses the std::hash function provided by the STL."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Collisions"
+    },
+    {
+      "type": "paragraph",
+      "content": "std::unordered_map handles collisions using chaining."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Dynamic Resizing"
+    },
+    {
+      "type": "paragraph",
+      "content": "As more items are added to an std::unordered_map, the underlying hash table might become densely populated, leading to more collisions."
+    },
+    {
+      "type": "paragraph",
+      "content": "To handle this, std::unordered_map is designed to resize dynamically."
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Key Invariance"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's important to note that std::unordered_map keys should be immutable."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because if a key changes its value (and thus its hash) after it's been added to the std::unordered_map, it would make the value associated with it unreachable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at a simple example of using the std::unordered_map."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <unordered_map>\n3#include <string>\n4\n5using namespace std;\n6\n7int main() {\n8    // Create an unordered_map\n9    unordered_map<string, string> person = {\n10        {\"name\", \"John\"},\n11        {\"age\", \"30\"},\n12        {\"city\", \"New York\"}\n13    };\n14\n15    // Access a value using a key\n16    cout << person[\"name\"] << '\\n';\n17\n18    // Insert a new key-value pair\n19    person[\"job\"] = \"Engineer\";\n20\n21    // Remove a key-value pair\n22    person.erase(\"age\");\n23\n24    // Display the unordered_map\n25    for (const auto& kv : person) {\n26        cout << kv.first << \": \" << kv.second << '\\n';\n27    }\n28\n29    // Check if a key is in the unordered_map\n30    if (person.find(\"city\") != person.end()) {\n31        cout << \"City is: \" << person[\"city\"] << '\\n';\n32    }\n33\n34    return 0;\n35}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "John\njob: Engineer\ncity: New York\nname: John\nCity is: New York"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

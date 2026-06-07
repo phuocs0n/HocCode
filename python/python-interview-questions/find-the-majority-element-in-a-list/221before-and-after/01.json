@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/before-after?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "When an integer is passed, we can find the numbers that come before and after the given number by subtracting and adding 1 respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "The following steps can be used to solve this problem:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Calculate before by subtracting 1 from the passed number.",
+        "Calculate after by adding 1 to the passed number.",
+        "Return the tuple as (before, passed number, after)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

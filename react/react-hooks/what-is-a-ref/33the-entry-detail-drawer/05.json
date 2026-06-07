@@ -1,0 +1,57 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=6",
+  "title": "How the Changes Work",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How the Changes Work"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the basic working of our modified App.jsx code:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "selectedEntry starts as null, so Drawer renders nothing on load.",
+        "When a card is clicked, handleSelectEntry() sets selectedEntry to that entry.",
+        "Closing the drawer calls setSelectedEntry(null), which resets it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "A Problem in EntryCard"
+    },
+    {
+      "type": "paragraph",
+      "content": "EntryCard now receives an onSelect prop it doesn't know about yet. So, we'll need to update it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's update EntryCard so it calls onSelect()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

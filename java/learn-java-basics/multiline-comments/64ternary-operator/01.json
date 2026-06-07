@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/ternary-operator?page=1",
+  "title": "Introduction to Ternary Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Ternary Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, we can use a ternary operator ? : as an alternative to an if...else statement. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        int marks = 76;\n5        String result;\n6        \n7        if (marks >= 32) {\n8            result = \"Pass\";\n9        }\n10        else {\n11            result = \"Fail\";\n12        }\n13\n14        System.out.println(\"Result: \" + result);\n15    }\n16}\n17\n18// Output\n19// Result: Pass"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used an if...else statement to check if a student passed the exam or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's implement this same program using a ternary operator."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        int marks = 76;\n5        \n6        String result = (marks >= 32) ? \"Pass\" : \"Fail\";\n7\n8        System.out.println(\"Result: \" + result);\n9    }\n10}\n11\n12// Output:\n13// Result: Pass"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll see the working of ternary operators."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

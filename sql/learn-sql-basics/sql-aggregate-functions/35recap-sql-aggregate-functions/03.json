@@ -1,0 +1,68 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-1?page=4",
+  "title": "Finding Total Inventory Value",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding Total Inventory Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "The total inventory value indicates the worth of your current stock, which is crucial for budgeting, restocking, and communicating with stakeholders."
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, you've used SUM() to add values to a single column. However, it can also calculate totals from expressions."
+    },
+    {
+      "type": "paragraph",
+      "content": "For instance, to determine the total inventory value, multiply the price of each product by its quantity and then sum the results."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT SUM(price * quantity) AS total_inventory_value\n2FROM Products;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, SUM(price * quantity) calculates the total value of all products in stock."
+    },
+    {
+      "type": "paragraph",
+      "content": "Insights:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Total inventory value: $21,175"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This calculation provides you with the combined value of all your products, helping you decide whether to increase stock for high-value items."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

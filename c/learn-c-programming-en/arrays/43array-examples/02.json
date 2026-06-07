@@ -1,0 +1,94 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array-examples?page=3",
+  "title": "Understanding: Find the Largest Element in an Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding: Find the Largest Element in an Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "Initially, the first element of the array is assigned to the largest variable."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int largest = numbers[0];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have used a for loop to iterate from the second element of the array to the last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "In each iteration, if the largest variable is smaller than any element of the array, that element is assigned to the largest variable."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// Inside the for loop\nif (largest < numbers[i] {\n  largest = numbers[i];\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Iteration",
+          "numbers[i]",
+          "largest < numbers[i]",
+          "largest"
+        ],
+        [
+          "1st",
+          "64",
+          "true",
+          "64"
+        ],
+        [
+          "2nd",
+          "75",
+          "true",
+          "75"
+        ],
+        [
+          "3rd",
+          "80",
+          "true",
+          "80"
+        ],
+        [
+          "4th",
+          "65",
+          "false",
+          "80"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

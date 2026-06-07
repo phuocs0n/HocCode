@@ -1,0 +1,94 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/final-variable-method-class?page=1",
+  "title": "Explain final variable, final method and a final class?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explain final variable, final method and a final class?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Final variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Final variables cannot modified once they have been assigned a value. They must be initialized when they are declared or in a constructor. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// create final variable\nfinal int number = 34;\n\n// change the value of the final variable\nnumber = 24;\n\nWe have used the final keyword with the number variable. Assigning a new value to final variable will give us the following error."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "error: cannot assign a value to final variable number\nnumber = 24;\n^"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Final methods"
+    },
+    {
+      "type": "paragraph",
+      "content": "Final methods that can't be overridden by a subclass. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Engine {\n    \n    // create a final method\n    final void setEngine() { \n    }\n}\n\nclass PetrolEngine extends Engine {\n    \n    // try to override setEngine()\n    void setEngine() {\n    }\n}\n\nNow, if we run this code, we will get an error.\n\nerror: setEngine() in PetrolEngine cannot override setEngine() in Engine\n    void setEngine() {\n         ^\n  overridden method is final"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Final classes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Final classes can't be inherited.For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "//create a final class"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "final class Person {\n\n    void getDetails() {\n      \n    }\n}\n\n// inherit the final class\n// error\nclass Student extends Person {\n\n    // overridden method\n    void getDetails() {\n        \n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we run this code, we will get an error."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Main.java:11: error: cannot inherit from final Person\nclass Student extends Person {\n                      ^\n1 error\n\nThey can contain both final and non-final methods and variables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

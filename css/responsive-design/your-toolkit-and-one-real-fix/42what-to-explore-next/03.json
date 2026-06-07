@@ -1,0 +1,54 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/responsive-design/what-to-explore-next?page=4",
+  "title": "CSS Grid for Complex Layouts",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "CSS Grid for Complex Layouts"
+    },
+    {
+      "type": "paragraph",
+      "content": "Flexbox handles one dimension at a time. Rows or columns. Grid handles both at once."
+    },
+    {
+      "type": "paragraph",
+      "content": "You already used Grid in your portfolio. grid-template-columns: 220px auto for the hero, repeat(4, 1fr) for the stat cards, 180px 1fr for the journey items. Those were all fixed though."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you're ready to go further, look at auto-fill and minmax(). A grid that reflows without any media queries at all."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".hero-stats {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, lets see container layouts."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

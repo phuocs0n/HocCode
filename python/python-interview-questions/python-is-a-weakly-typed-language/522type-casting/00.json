@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/type-casting?page=1",
+  "title": "Explain Type Casting in Python",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explain Type Casting in Python"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, type casting refers to the technique of changing data from one type to another."
+    },
+    {
+      "type": "paragraph",
+      "content": "That means we can cast integer data to a string and numeric strings to integers. We can cast strings to booleans and vice versa. And so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a look at an example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 5\n2print(x, ' - ', type(x))  # 5 - <class 'int'>\n3\n4x = str(x)\n5print(x, ' - ', type(x))  # 5 - <class 'str'>\n6\n7x = bool(x)\n8print(x, ' - ', type(x))  # True - <class 'bool'>\n9\n10x = int(x)\n11print(x, ' - ', type(x))  # 1 - <class 'int'>\n12\n13x = float(x)\n14print(x, ' - ', type(x))  # 1.0 - <class 'float'>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have first declared x variable with integer data. Then we cast that value to string, boolean, integer, and float types, respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values are automatically converted according to the specified data types."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

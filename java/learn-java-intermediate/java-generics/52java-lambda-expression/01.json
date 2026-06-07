@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-lambda-expression?page=2",
+  "title": "Implementing Functional Interface",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implementing Functional Interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how our code looks without lambda expressions."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1@FunctionalInterface\n2interface AddNumber {\n3    void add();\n4}\n5\n6class Main {\n7    public static void main(String[] args) {\n8\n9        AddNumber ref = new AddNumber() {\n10\n11            public void add() {\n12                System.out.println(4 + 5);\n13            }\n14        };\n15\n16        ref.add();    // 9\n17    }\n18}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have implemented the interface in a different way than before."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "AddNumber ref = new AddNumber() {\n      \n    public void add() {\n        \n        System.out.println(4 + 5);       \n    }\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you know, we must implement an interface to use it."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code creates an anonymous class (class without name) which implements the AddNumber interface. It provides the implementation of the add() method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "ref.add();"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can access the add() method by using object ref of the anonymous class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

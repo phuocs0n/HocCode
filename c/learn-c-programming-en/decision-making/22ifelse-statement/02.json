@@ -1,0 +1,73 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/ifelse-statement?page=3",
+  "title": "Example: if Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: if Statement"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1// Check whether a student passed or failed the exam.\n2// We will assume the passing score is 50 or above.\n3\n4#include <stdio.h>\n5\n6int main() {\n7\n8    int score;\n9  \n10    // Get student score from the user\n11    printf(\"Enter score: \");\n12    scanf(\"%d\", &score);\n13\n14    // Print pass message if score is 50 or above\n15    if (score >= 50) {\n16        printf(\"Congratulations!\\n\");\n17        printf(\"You passed the examination.\");\n18    }\n19  \n20    return 0;\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter score: 72\nCongratulations!\nYou passed the examination."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the user enters 72, score >= 50 in the if statement will be 1 (true). In this case, the statements inside the if statement are executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter score: 42"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the user enters 35, score >= 50 in the if statement will be 0 (false). In this case, the statements inside the if statement are skipped from execution."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's use the visualizer to understand how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

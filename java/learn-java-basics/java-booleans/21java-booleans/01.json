@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-booleans?page=2",
+  "title": "Booleans",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Booleans"
+    },
+    {
+      "type": "paragraph",
+      "content": "A boolean is a data type, like integers, floating-point numbers, and characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, unlike the other data types we have studied so far, booleans can only have one of two possible values: true or false. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        boolean result1 = true;\n5        boolean result2 = false;\n6        \n7        System.out.println(result1);\n8        System.out.println(result2);\n9    }\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "true\nfalse"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you are wondering why the above code runs without errors, the next example should clear things up."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

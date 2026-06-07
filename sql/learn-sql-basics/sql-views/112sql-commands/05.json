@@ -1,0 +1,95 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-commands?page=6",
+  "title": "Data Control Language (DCL)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Data Control Language (DCL)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Data Control Language (DCL) manages permissions for different users."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can create different database users with different permissions in all major database systems."
+    },
+    {
+      "type": "paragraph",
+      "content": "For instance, you may want to grant all permissions to data administrators, but restrict the permissions of data analysts to only select data from specific tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "Commonly used DCL commands include:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "GRANT - to grant permission to a database user",
+        "REVOKE - removes previously granted permissions from a user"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 1: GRANT"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "GRANT SELECT ON Customers, Products TO 'vincent';"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above statement grants the user with username 'vincent' permission to perform the SELECT operation on the Customers and Products tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 2: GRANT"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "GRANT SELECT, INSERT ON * TO 'jules';"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above statement grants the user with username 'jules' both SELECT and INSERT permissions on all tables in the database."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 3: REVOKE"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "REVOKE INSERT ON ALL TABLES FROM 'jules';"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above statement removes the INSERT permission on all tables for the user with the username 'jules'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

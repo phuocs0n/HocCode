@@ -1,0 +1,60 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/sorting?page=2",
+  "title": "How to Sort Data?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How to Sort Data?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you have a list of numbers, as shown below:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "numbers = [12, -4, 56, 67, 10]"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can quickly sort those elements using the list's sort() method."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [12, -4, 56, 67, 10]\n2numbers.sort()  \n3\n4print(numbers)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[-4, 10, 12, 56, 67]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

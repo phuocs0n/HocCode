@@ -1,0 +1,76 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/introduction-examples?page=2",
+  "title": "Example: Convert Kilometers to Miles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Convert Kilometers to Miles"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can convert distance in kilometers to miles using this formula:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1 kilometer = 0.621 miles"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Program to convert distance in kilometers to miles\n2\n3// Get distance in kilometers\n4let km = parseFloat(prompt(\"Enter distance in km: \"));\n5\n6// Conversion ratio\n7const ratio = 0.621;\n8\n9// Compute distance in miles\n10let miles = km * ratio;\n11console.log(`Distance in miles: ${miles}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter distance in km: 10\nDistance in miles: 6.21"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this program works:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "We use prompt() to get input from the user and convert it to a number using parseFloat().",
+        "We calculate the distance in miles by multiplying the kilometers by 0.621."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll convert Celsius to Fahrenheit."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

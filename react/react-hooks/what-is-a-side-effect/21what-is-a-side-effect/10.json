@@ -1,0 +1,81 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-side-effect?page=10",
+  "title": "Summarizing useEffect()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summarizing useEffect()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are a few things you need to remember:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"I can fetch data anywhere in the component as long as I put the result in state.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Calling setEntries() causes a re-render. If fetch() is inside the component body, every re-render starts another fetch."
+    },
+    {
+      "type": "paragraph",
+      "content": "useEffect() with [] is the designated safe zone for code that should only run once."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "Never fetch data — or do anything that updates state — directly inside the component body. Always put it inside useEffect()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keep these things in mind, and you'll be able to utilize useEffect() properly."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Constraint"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mind you, there's one constraint to be aware of: the function you pass to useEffect() cannot be async."
+    },
+    {
+      "type": "paragraph",
+      "content": "The next section explains why, and shows the correct pattern to use instead."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

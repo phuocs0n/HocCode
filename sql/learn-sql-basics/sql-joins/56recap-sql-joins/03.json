@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-3?page=4",
+  "title": "Finding Students Not Enrolled in Any Course: LEFT JOIN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding Students Not Enrolled in Any Course: LEFT JOIN"
+    },
+    {
+      "type": "paragraph",
+      "content": "To answer the dean's question, \"Who hasn't enrolled in any course?\" you need to check for students in the students table who don't have a corresponding record in the enrollments table."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, a LEFT JOIN is ideal, as it includes all rows from the left table (Students) and fills unmatched rows from the right table (Enrollments) with NULL."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Join the students table with the\n2-- enrollments table, including all students\n3-- and showing NULL for those not enrolled\n4-- any course.\n5\n6SELECT Students.id, Students.name\n7FROM Students\n8LEFT JOIN Enrollments\n9ON Students.id = Enrollments.student_id\n10WHERE Enrollments.student_id IS NULL;"
+    },
+    {
+      "type": "paragraph",
+      "content": "From the result, you can see that Jack Miller hasn't enrolled in any course."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

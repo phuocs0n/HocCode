@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/optimistic-delete?page=1",
+  "title": "Making Delete Feel Instant",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Making Delete Feel Instant"
+    },
+    {
+      "type": "paragraph",
+      "content": "Same pattern, just applied to delete. In src/TaskList.jsx we update the deleteMutation:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const deleteMutation = useMutation({\n  mutationFn: deleteTask,\n  onMutate: async (id) => {\n    await queryClient.cancelQueries({ queryKey: taskKeys.list({ status }) })\n    const previousTasks = queryClient.getQueryData(taskKeys.list({ status }))\n    queryClient.setQueryData(taskKeys.list({ status }), (old) =>\n      old.filter(task => task.id !== id)\n    )\n    return { previousTasks }\n  },\n  onError: (error, id, context) => {\n    queryClient.setQueryData(taskKeys.list({ status }), context.previousTasks)\n  },\n  onSettled: () => {\n    queryClient.invalidateQueries({ queryKey: taskKeys.all })\n  }\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "The task disappears instantly when the user clicks Delete. If the server fails it reappears."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full files with both optimistic mutations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

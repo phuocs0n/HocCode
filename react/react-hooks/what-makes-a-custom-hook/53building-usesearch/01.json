@@ -1,0 +1,96 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usesearch?page=2",
+  "title": "Extract useSearch()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Extract useSearch()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Like before, we'll create a new JS file: /src/hooks/useSearch.js. The hook:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Accepts the entries array",
+        "Manages query state",
+        "And derives the filtered list"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState, useMemo, useCallback } from \"react\";\n2import Header from \"./components/Header\";\n3import EntryCard from \"./components/EntryCard\";\n4import Drawer from \"./components/Drawer\";\n5import useFetch from \"./hooks/useFetch\";\n6\n7const ENTRIES_PER_PAGE = 5;\n8\n9function App() {\n10\n11  const { data, isLoading, error } = useFetch(\n12    \"https://api.programiz.pro/api/Demo/v1/journal-entries\"\n13  );\n14\n15  const [selectedEntry, setSelectedEntry] = useState(null);\n16\n17  const [query, setQuery] = useState(\"\");\n18  const [currentPage, setCurrentPage] = useState(1);\n19\n20  const entries = useMemo(function () {\n21    if (!data) return [];\n22\n23    return data.map(function (post) {\n24      return {\n25        ...post,\n26        date: new Date(post.date).toLocaleDateString(\"en-US\", {\n27          year: \"numeric\", month: \"short\", day: \"numeric\"\n28        }).toUpperCase()\n29      };\n30    });\n31  }, [data]);\n32\n33  const filteredEntries = useMemo(function () {\n34    if (!query.trim()) return entries;\n35    const lower = query.toLowerCase();\n36\n37    return entries.filter(function (entry) {\n38      return (\n39        entry.title.toLowerCase().includes(lower) ||\n40        entry.content.toLowerCase().includes(lower)\n41      );\n42    });\n43  }, [entries, query]);\n44\n45  const totalPages = useMemo(function () {\n46    return Math.ceil(filteredEntries.length / ENTRIES_PER_PAGE);\n47  }, [filteredEntries]);\n48\n49  const pagedEntries = useMemo(function () {\n50    const start = (currentPage - 1) * ENTRIES_PER_PAGE;\n51    return filteredEntries.slice(start, start + ENTRIES_PER_PAGE);\n52  }, [filteredEntries, currentPage]);\n53\n54  const handleSelectEntry = useCallback(function (entry) {\n55    setSelectedEntry(entry);\n56  }, []);\n57\n58  const handleCloseDrawer = useCallback(function () {\n59    setSelectedEntry(null);\n60  }, []);\n61\n62  function handleQueryChange(newQuery) {\n63    setQuery(newQuery);\n64    setCurrentPage(1);\n65  }\n66\n67  function handleNext() {\n68    setCurrentPage(function (p) { return Math.min(p + 1, totalPages); });\n69  }\n70\n71  function handlePrev() {\n72    setCurrentPage(function (p) { return Math.max(p - 1, 1); });\n73  }\n74\n75  return (\n76    <div className=\"main-container\">\n77      <Header query={query} onQueryChange={handleQueryChange} />\n78      <section className=\"entries-section\">\n79        <div className=\"entry-list-header\">\n80          <h3>Recent Entries</h3>\n81          <span className=\"entry-count\">{filteredEntries.length}</span>\n82          {query && <span className=\"entry-count\">{\"of \" + entries.length}</span>}\n83        </div>\n84        {isLoading ? (\n85          <p className=\"loading-state\">Loading entries...</p>\n86        ) : error ? (\n87          <div className=\"error-banner\">\n88            <p className=\"error-label\">Something went wrong.</p>\n89            <p className=\"error-detail\">{error}</p>\n90          </div>\n91        ) : pagedEntries.length === 0 ? (\n92          <p className=\"empty-state\">No entries found.</p>\n93        ) : (\n94          pagedEntries.map((entry) => (\n95            <EntryCard\n96              key={entry.id}\n97              id={entry.id}\n98              title={entry.title}\n99              date={entry.date}\n100              content={entry.content}\n101              author={entry.author}\n102              onSelect={handleSelectEntry}\n103            />\n104          ))\n105        )}\n106        {!isLoading && !error && totalPages > 1 && (\n107          <div className=\"pagination\">\n108            <button className=\"btn btn-secondary\" onClick={handlePrev} disabled={currentPage === 1}>Previous</button>\n109            <span className=\"pagination-info\">Page {currentPage} of {totalPages}</span>\n110            <button className=\"btn btn-secondary\" onClick={handleNext} disabled={currentPage === totalPages}>Next</button>\n111          </div>\n112        )}\n113      </section>\n114      <Drawer entry={selectedEntry} onClose={handleCloseDrawer} />\n115    </div>\n116  );\n117}\n118\n119export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Header({ query, onQueryChange }) {\n4  const searchRef = useRef(null);\n5\n6  useEffect(function () {\n7    searchRef.current.focus();\n8  }, []);\n9\n10  function handleClear() {\n11    onQueryChange(\"\");\n12    searchRef.current.focus();\n13  }\n14\n15  return (\n16    <header className=\"header\">\n17      <h2 className=\"title-primary\">My Daily Journal</h2>\n18      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n19      <input\n20        ref={searchRef}\n21        className=\"search-input\"\n22        type=\"text\"\n23        placeholder=\"Search entries...\"\n24        value={query}\n25        onChange={(e) => onQueryChange(e.target.value)}\n26      />\n27      {query && (\n28        <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n29      )}\n30    </header>\n31  );\n32}\n33\n34export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Drawer({ entry, onClose }) {\n4  const drawerRef = useRef(null);\n5\n6  useEffect(function () {\n7    function handleMouseDown(event) {\n8      if (drawerRef.current && !drawerRef.current.contains(event.target)) {\n9        onClose();\n10      }\n11    }\n12\n13    document.addEventListener(\"mousedown\", handleMouseDown);\n14\n15    return function () {\n16      document.removeEventListener(\"mousedown\", handleMouseDown);\n17    };\n18  }, [onClose]);\n19\n20  if (!entry) return null;\n21\n22  return (\n23    <div className=\"drawer-overlay\">\n24      <div className=\"drawer\" ref={drawerRef}>\n25        <button className=\"drawer-close\" onClick={onClose}>×</button>\n26        <h2>{entry.title}</h2>\n27        <p className=\"drawer-meta\">{entry.date} · {entry.author}</p>\n28        <p className=\"drawer-content\">{entry.content}</p>\n29      </div>\n30    </div>\n31  );\n32}\n33\n34export default Drawer;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content, onSelect }) {\n2  return (\n3    <div className=\"entry-card\" onClick={function () { onSelect({ id, title, date, author, content }); }}>\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useEffect } from \"react\";\n2\n3function useFetch(url) {\n4  const [data, setData] = useState(null);\n5  const [isLoading, setIsLoading] = useState(true);\n6  const [error, setError] = useState(null);\n7\n8  useEffect(function () {\n9    async function fetchData() {\n10      setIsLoading(true);\n11      setError(null);\n12\n13      try {\n14        const res = await fetch(url);\n15        if (!res.ok) {\n16          throw new Error(\"Could not load data. Status: \" + res.status);\n17        }\n18        const json = await res.json();\n19        setData(json);\n20        setIsLoading(false);\n21      }\n22\n23      catch (err) {\n24        setError(err.message);\n25        setIsLoading(false);\n26      }\n27    }\n28\n29    fetchData();\n30  }, [url]);\n31\n32  return { data, isLoading, error };\n33}\n34\n35export default useFetch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function useSearch(entries) {\n4  const [query, setQuery] = useState(\"\");\n5\n6  const filteredEntries = useMemo(function () {\n7    if (!query.trim()) return entries;\n8    const lower = query.toLowerCase();\n9\n10    return entries.filter(function (entry) {\n11      return (\n12        entry.title.toLowerCase().includes(lower) ||\n13        entry.content.toLowerCase().includes(lower)\n14      );\n15    });\n16  }, [entries, query]);\n17\n18  return { query, setQuery, filteredEntries };\n19}\n20\n21export default useSearch;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "How It Works"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "useSearch() accepts entries as a parameter.",
+        "useSearch() doesn't fetch; it only filters.",
+        "The caller can use the returned query, setQuery(), and filteredEntries however it needs."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see what this moves out of App.jsx."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

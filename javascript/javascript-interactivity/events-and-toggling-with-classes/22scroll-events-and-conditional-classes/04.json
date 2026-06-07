@@ -1,0 +1,139 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/scroll-events-conditional-classes?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You want to add a class to the header only when the user has scrolled more than 80 pixels."
+    },
+    {
+      "type": "paragraph",
+      "content": "What should your scroll handler do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add the class when scrollY < 80 and remove it when scrollY >= 80."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That would add the class near the top and remove it after scrolling down. For a sticky header we want the opposite: sticky only when past the threshold."
+    },
+    {
+      "type": "paragraph",
+      "content": "That would add the class near the top and remove it after scrolling down. For a sticky header we want the opposite: sticky only when past the threshold."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add the class when scrollY > 80 and remove it when scrollY <= 80."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When scrollY > 80, the user has passed the threshold, so you add the class.When they scroll back up and scrollY <= 80, you remove it."
+    },
+    {
+      "type": "paragraph",
+      "content": "When scrollY > 80, the user has passed the threshold, so you add the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "When they scroll back up and scrollY <= 80, you remove it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add the class once when the page loads"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Header state should depend on current scroll position. We re-check on every scroll (or throttle if needed)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Header state should depend on current scroll position. We re-check on every scroll (or throttle if needed)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add the class every time the user scrolls"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding the class regardless of position would keep the header sticky always. We need to remove the class when they scroll back up above the threshold."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding the class regardless of position would keep the header sticky always. We need to remove the class when they scroll back up above the threshold."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You want to add a class to the header only when the user has scrolled more than 80 pixels.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Add the class when scrollY < 80 and remove it when scrollY >= 80.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Add the class when scrollY < 80 and remove it when scrollY >= 80.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Add the class when scrollY > 80 and remove it when scrollY <= 80.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Add the class when scrollY > 80 and remove it when scrollY <= 80.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Add the class once when the page loads",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Add the class once when the page loads",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Add the class every time the user scrolls",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Add the class every time the user scrolls",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

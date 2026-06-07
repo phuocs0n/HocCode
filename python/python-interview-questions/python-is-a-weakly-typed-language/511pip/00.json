@@ -1,0 +1,67 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/pip?page=1",
+  "title": "What is PIP?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is PIP?"
+    },
+    {
+      "type": "paragraph",
+      "content": "PIP, a recursive acronym for Pip Installs Packages, is a tool that comes with Python and is used to manage packages in our system."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can install, uninstall, upgrade packages, and do various other things using pip. Pip searches the package at https://pypi.org and installs the packages."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if we want to install the Django framework in our system, we can run,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "pip install django"
+    },
+    {
+      "type": "paragraph",
+      "content": "in our terminal."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also, we can view all the installed packages in our system using the"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "pip freeze"
+    },
+    {
+      "type": "paragraph",
+      "content": "command."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/build-game-flow?page=3",
+  "title": "Game loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Game loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is the complete quiz game in one place. Every part comes from the chapters we've built: variables, conditionals, user input, loops, arrays, and objects."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var passMark = 40;\n2var passMessage = \"You passed! Well done.\";\n3var failMessage = \"You didn't reach the pass mark. Try again.\";\n4\n5var questions = [\n6  { question: \"What does HTML stand for?\", options: [\"A: Hyper Text Markup Language\", \"B: High Tech Machine Learning\", \"C: Home Tool Markup Link\"], answer: \"A\" },\n7  { question: \"Which of these is a programming language?\", options: [\"A: Python\", \"B: Pizza\", \"C: Pencil\"], answer: \"A\" },\n8  { question: \"What does JS stand for?\", options: [\"A: Java Source\", \"B: JavaScript\", \"C: Just Script\"], answer: \"B\" },\n9  { question: \"What does CPU stand for?\", options: [\"A: Central Processing Unit\", \"B: Computer Personal Use\", \"C: Code Program Update\"], answer: \"A\" },\n10  { question: \"In a game loop, what does a variable often track?\", options: [\"A: The weather\", \"B: Score or lives\", \"C: The player's name only\"], answer: \"B\" }\n11];\n12\n13while (true) {\n14  var score = 0;\n15  var wrongAnswers = [];\n16  var i = 0;\n17\n18  console.log(\"Welcome to the Quiz Game\");\n19  console.log(\"You will be asked \" + questions.length + \" questions\");\n20  console.log(\"The passing marks is \" + passMark);\n21\n22  while (i < questions.length) {\n23    var num = i + 1;\n24    var q = questions[i];\n25\n26    console.log(\"\\nQ\" + num + \". \" + q.question);\n27    console.log(q.options.join(\"\\n\"));\n28\n29    var userAnswer = prompt(\"\\nEnter A, B, or C: \");\n30    if (userAnswer) {\n31      userAnswer = userAnswer.trim().toUpperCase();\n32    }\n33\n34    while (userAnswer !== \"A\" && userAnswer !== \"B\" && userAnswer !== \"C\") {\n35      userAnswer = prompt(\"Invalid. Enter A, B, or C only: \");\n36\n37      if (userAnswer) {\n38        userAnswer = userAnswer.trim().toUpperCase();\n39      }\n40    }\n41\n42    if (userAnswer === q.answer) {\n43      score++;\n44    } else {\n45      wrongAnswers.push(num + \". \" + q.question + \"\\n\");\n46    }\n47    i++;\n48  }\n49\n50  var total = questions.length;\n51  var percentage = total === 0 ? 0 : Math.round((score / total) * 100);\n52  var passed = percentage >= passMark;\n53  var message = passed ? passMessage : failMessage;\n54\n55  console.log(\"Your score is \" + score + \"/\" + total);\n56  console.log(message);\n57\n58  if (wrongAnswers.length > 0) {\n59    console.log(\"Wrong:\\n\" + wrongAnswers.join(\"\"));\n60  }\n61\n62  var again = prompt(\"Replay? (yes / no)\");\n63  if (again !== \"yes\" && again !== \"y\") {\n64    console.log(\"Bye! Thanks for playing.\");\n65    break;\n66  }\n67}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run it in your console environment."
+    },
+    {
+      "type": "paragraph",
+      "content": "We've brought it all together: one game loop that welcomes, asks each question, validates input, tracks score and wrong answers, shows the summary, and lets the player replay or quit."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

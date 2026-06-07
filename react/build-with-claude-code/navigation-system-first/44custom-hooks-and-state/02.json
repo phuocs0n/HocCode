@@ -1,0 +1,66 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/custom-hooks-state?page=3",
+  "title": "Timeout Fallbacks for Stuck States",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Rapid Build With Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Timeout Fallbacks for Stuck States"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every async operation in SpeedBlip has a timeout. This was not in the initial design - it was added during the final fixes phase after the speed test was observed getting stuck in a loading state when Cloudflare's endpoint was slow to respond."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix in useSpeedTest:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// 30-second timeout safety net\nconst timeoutId = setTimeout(() => {\n  if (isRunning) {\n    setIsRunning(false);\n    setError('Speed test timed out. Check your connection and try again.');\n  }\n}, 30000);\n\n// Clear timeout when result arrives\nworker.onmessage = (event) => {\n  clearTimeout(timeoutId);\n  // handle result...\n};\n\n// Clear timeout AND terminate worker on unmount\nreturn () => {\n  clearTimeout(timeoutId);\n  worker.terminate();\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "The cleanup return is not optional. Without this, a slow response from the Cloudflare API would leave the SpeedGauge spinning forever with no feedback to the user. The timeout creates a definite exit condition: after 30 seconds, the UI resets to a recoverable state with a clear error message."
+    },
+    {
+      "type": "paragraph",
+      "content": "Title: Web Worker Lifecycle"
+    },
+    {
+      "type": "paragraph",
+      "content": "Alt Text: Three-stage diagram showing Worker created on useEffect mount, bidirectional messages during speed test, and worker.terminate() called on useEffect cleanup"
+    },
+    {
+      "type": "paragraph",
+      "content": "Caption: The Worker is created on mount and terminated on unmount — skipping the cleanup stacks Workers on every navigation"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is good practice to add timeout fallbacks to every async operation that could get stuck. The cost is low (10 lines of code) and the protection against bad UX is high."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,188 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-take-input?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct input value for this code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "int test = input.nextInt();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "'c'"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, 'c' is a character and our code is asking for integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, 'c' is a character and our code is asking for integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "13.2"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "nextInt() is used to take integer input but 13.2 is a floating-point value."
+    },
+    {
+      "type": "paragraph",
+      "content": "nextInt() is used to take integer input but 13.2 is a floating-point value."
+    },
+    {
+      "type": "paragraph",
+      "content": "43"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "43 is an integer which is the correct input value for nextInt()."
+    },
+    {
+      "type": "paragraph",
+      "content": "43 is an integer which is the correct input value for nextInt()."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Testing\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Testing\" is a string value but our code is asking for an integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Testing\" is a string value but our code is asking for an integer input."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, 'c' is a character and our code is asking for integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, 'c' is a character and our code is asking for integer input."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "nextInt() is used to take integer input but 13.2 is a floating-point value."
+    },
+    {
+      "type": "paragraph",
+      "content": "nextInt() is used to take integer input but 13.2 is a floating-point value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "43 is an integer which is the correct input value for nextInt()."
+    },
+    {
+      "type": "paragraph",
+      "content": "43 is an integer which is the correct input value for nextInt()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Testing\" is a string value but our code is asking for an integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Testing\" is a string value but our code is asking for an integer input."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct input value for this code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:'c'",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "'c'",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:13.2",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "13.2",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:43",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "43",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:\"Testing\"",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "\"Testing\"",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/transform?page=3",
+  "title": "The translate Property",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The translate Property"
+    },
+    {
+      "type": "paragraph",
+      "content": "The translate property allows you to move an element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's use it to move a box when clicked on it:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>Translate 300px to the right and 50px down.</h1>\n2<p>Click the box to see the change.</p>\n3<div class=\"box\">Click Me!</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.box:active {\n2    /* Moves box 300px to the right and 50px down */\n3    translate: 300px 50px;\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code and click the box element to see how its position changes. The box moves 300px to the right and 50px down from its original position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

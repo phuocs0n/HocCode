@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/flexbox-basics?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which property do you use to make an element a flexbox?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "position: flex;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While position is a CSS property, it cannot be used to create a flexbox."
+    },
+    {
+      "type": "paragraph",
+      "content": "While position is a CSS property, it cannot be used to create a flexbox."
+    },
+    {
+      "type": "paragraph",
+      "content": "display: flex;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The display property is used to create a flexbox when set to flex."
+    },
+    {
+      "type": "paragraph",
+      "content": "The display property is used to create a flexbox when set to flex."
+    },
+    {
+      "type": "paragraph",
+      "content": "flex-container: true;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such property as flex-container in CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such property as flex-container in CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "flex: start;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "flex: start; is used to align items in a flexbox, not to make an element a flexbox."
+    },
+    {
+      "type": "paragraph",
+      "content": "flex: start; is used to align items in a flexbox, not to make an element a flexbox."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While position is a CSS property, it cannot be used to create a flexbox."
+    },
+    {
+      "type": "paragraph",
+      "content": "While position is a CSS property, it cannot be used to create a flexbox."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The display property is used to create a flexbox when set to flex."
+    },
+    {
+      "type": "paragraph",
+      "content": "The display property is used to create a flexbox when set to flex."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such property as flex-container in CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such property as flex-container in CSS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "flex: start; is used to align items in a flexbox, not to make an element a flexbox."
+    },
+    {
+      "type": "paragraph",
+      "content": "flex: start; is used to align items in a flexbox, not to make an element a flexbox."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which property do you use to make an element a flexbox?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:position: flex;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "position: flex;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:display: flex;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "display: flex;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:flex-container: true;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "flex-container: true;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:flex: start;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "flex: start;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

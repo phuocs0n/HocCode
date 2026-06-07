@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/add-hero-section?page=4",
+  "title": "Integrate HTML",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Integrate HTML"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code below to see how the website looks with the Hero section integrated with the rest of the website."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section class=\"hero\" id=\"#hero\">\n2  <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Profile Picture\" />\n3    <h3>Hi, I'm Jane Austen</h3>\n4<p>Frontend Developer</p>\n5</section>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1section.hero {\n2    display: flex;\n3    flex-direction: column;\n4    align-items: center;\n5    justify-content: center;\n6    gap: 8px;\n7\n8    min-height: 500px;\n9    text-align: center;\n10}\n11\n12section.hero img {\n13    width: 200px;\n14    height: 200px;\n15    border-radius: 50%;\n16    object-fit: cover;\n17    margin-bottom: 20px;\n18    border: 2px solid white;\n19}\n20\n21section.hero h3 {\n22    font-size: 32px;\n23    font-weight: 600;\n24    color: #25265e;\n25}\n26\n27section.hero p {\n28\n29    font-size: 18px;\n30    letter-spacing: 1px;\n31    margin-bottom: 10px;\n32    font-weight: 400;\n33    color: #25265e;\n34    text-transform: uppercase;\n35}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

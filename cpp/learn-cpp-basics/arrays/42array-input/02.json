@@ -1,0 +1,92 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/array-input?page=3",
+  "title": "Example: Find Sum of Array Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Find Sum of Array Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will create an array of size 5. Here, we will take input values for the array elements and find the sum of all the elements."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code 1"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5    \n6    // declare an array\n7    int numbers[5]; \n8    \n9    cout << \"Enter array elements: \" << endl;\n10\n11    // get input value for array\n12    for (int index = 0; index < 5; ++index) {\n13        cin >> numbers[index];\n14    }\n15    \n16    // add all array elements\n17    int sum = 0;\n18    for (int index = 0; index < 5; ++index) {\n19        sum = sum + numbers[index];\n20    }\n21\n22    cout << \"Sum: \" << sum;\n23    \n24    return 0;\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter array elements: \n11\n22\n33\n44\n55\nSum: 165"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created a for loop to take input values for the array."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for (int index = 0; index < 5; ++index) {\n    cin >> numbers[index];\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We then used a second for loop to find the sum of all the array elements."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for (int index = 0; index < 5; ++index) {\n    sum = sum + numbers[index];\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use a single for loop to both get the array input and calculate the sum of the elements. Let's see how."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code 2"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5    \n6    // declare an array\n7    int numbers[5]; \n8    \n9    // variable to store sum of array elements\n10    int sum = 0;\n11\n12    cout << \"Enter array elements: \" << endl;\n13\n14    // loop to get input and find sum\n15    for (int index = 0; index < 5; ++index) {\n16\n17        // get array input\n18        cin >> numbers[index];\n19\n20        // add all array elements\n21        sum = sum + numbers[index];\n22    }\n23\n24    cout << \"Sum: \" << sum;\n25    \n26    return 0;\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This program gives the same output as the previous one. We are able to use a single loop because we can add the array element to the sum variable immediately after getting the input for the array element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/safe-property-access?page=1",
+  "title": "Optional Chaining",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Optional Chaining"
+    },
+    {
+      "type": "paragraph",
+      "content": "Not every object will have every property you expect. The next two features let you read missing values safely."
+    },
+    {
+      "type": "paragraph",
+      "content": "When working with nested objects, accessing a property on something that is null or undefined throws a TypeError and crashes your program. Optional chaining (?.) solves this by short-circuiting to undefined instead of throwing an error when it encounters a missing link in the chain."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const player = {\n2    name: \"Abidit\",\n3    powerUp: {\n4        type: \"fireball\",\n5        duration: 10\n6    }\n7};\n8\n9console.log(player.powerUp.type);\n10console.log(player.stats?.highScore);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, player.powerUp.type works normally because powerUp exists. That's simple and easy to understand."
+    },
+    {
+      "type": "paragraph",
+      "content": "But coming to highScore, player.stats?.highScore returns undefined safely, even though stats does not exist on player. Without the ?., player.stats.highScore would crash with a TypeError because you cannot access properties on undefined."
+    },
+    {
+      "type": "image",
+      "alt": "Optional Chaining vs Direct Access",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDA3ODgzMTFlOGU4MGYyYzM1LTAwNmExN2NmNDAtYjA0NGUwYjctc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmIwNDRlMGI3LXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "paragraph",
+      "content": "I use optional chaining any time I access a property more than one level deep and the intermediate object might not exist. For example, a user profile might or might not have a settings property, and settings might or might not have a theme. Using user.settings?.theme keeps your code safe without wrapping everything in if checks."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's good if you reach for ?. whenever you work with data that could be incomplete, such as configuration objects, API responses, or optional game features."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

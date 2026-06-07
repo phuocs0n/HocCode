@@ -1,0 +1,120 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=12",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n\n  int i = 1;\n  int n = 6;\n\n  while (i < n) {\n    printf(\"%d\\n\", i);\n\n    i = i + 2; // Increase i by 2\n  }\n  \n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây sẽ là câu trả lời nếu chúng ta sử dụng i = i + 1; thay vì i = i + 2; bên trong vòng lặp."
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây sẽ là câu trả lời nếu chúng ta sử dụng i = i + 1; thay vì i = i + 2; bên trong vòng lặp."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị ban đầu của i là 1. Sau đó, giá trị của nó tăng lên 3, rồi lên 5. Khi i trở thành 7, vòng lặp kết thúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị ban đầu của i là 1. Sau đó, giá trị của nó tăng lên 3, rồi lên 5. Khi i trở thành 7, vòng lặp kết thúc."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vòng lặp lặp lại 3 lần trước khi i < n trở thành sai. Do đó, giá trị của i được in 3 lần."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vòng lặp lặp lại 3 lần trước khi i < n trở thành sai. Do đó, giá trị của i được in 3 lần."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vòng lặp lặp lại 3 lần trước khi i < n trở thành sai. Do đó, giá trị của i được in 3 lần."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vòng lặp lặp lại 3 lần trước khi i < n trở thành sai. Do đó, giá trị của i được in 3 lần."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:12345",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "12345",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:135",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "135",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:1",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:13",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "13",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

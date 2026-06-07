@@ -1,0 +1,172 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/twodimensional-array?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the value of the x variable in the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "int[][] arr = { {1, 2, 3}, {4, 5, 6} };\n\nx = arr[1][1];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "1 is the first element of the first array and we can access it using arr[0][0]."
+    },
+    {
+      "type": "paragraph",
+      "content": "1 is the first element of the first array and we can access it using arr[0][0]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The position of the 4 inside the second inner array is 1st so it is accessed using arr[1][0]."
+    },
+    {
+      "type": "paragraph",
+      "content": "The position of the 4 inside the second inner array is 1st so it is accessed using arr[1][0]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "2 lies in the second position of the first array so it can be accessed using arr[0][1]."
+    },
+    {
+      "type": "paragraph",
+      "content": "2 lies in the second position of the first array so it can be accessed using arr[0][1]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 lies in the second position of the second array and since array index starts from 0, we can access it using arr[1][1]."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 lies in the second position of the second array and since array index starts from 0, we can access it using arr[1][1]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "1 is the first element of the first array and we can access it using arr[0][0]."
+    },
+    {
+      "type": "paragraph",
+      "content": "1 is the first element of the first array and we can access it using arr[0][0]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The position of the 4 inside the second inner array is 1st so it is accessed using arr[1][0]."
+    },
+    {
+      "type": "paragraph",
+      "content": "The position of the 4 inside the second inner array is 1st so it is accessed using arr[1][0]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "2 lies in the second position of the first array so it can be accessed using arr[0][1]."
+    },
+    {
+      "type": "paragraph",
+      "content": "2 lies in the second position of the first array so it can be accessed using arr[0][1]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 lies in the second position of the second array and since array index starts from 0, we can access it using arr[1][1]."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 lies in the second position of the second array and since array index starts from 0, we can access it using arr[1][1]."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the value of the x variable in the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:4",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:2",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:5",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "5",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-while-loop?page=5",
+  "title": "Infinite Loops",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Infinite Loops"
+    },
+    {
+      "type": "paragraph",
+      "content": "An infinite loop's condition never evaluates to false. Thus, the previous code is equivalent to:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1while (true) {\n2    console.log(\"I am inside a loop.\");\n3    console.log(\"Looping is interesting.\");\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, in most cases, you want the loop to stop after fulfilling its purpose. Ending the loop requires modifying the condition or introducing logic to stop the repetition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll learn how to create loops that terminate properly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

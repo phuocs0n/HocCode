@@ -1,0 +1,134 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/advanced-interactivity?page=3",
+  "title": "Example Filtering by Category",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example Filtering by Category"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see it work."
+    },
+    {
+      "type": "paragraph",
+      "content": "When a button is clicked, the active category changes. The cards update automatically to match it."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Filter</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <div class=\"filters\">\n11    <button type=\"button\" class=\"filter-btn\" data-filter=\"all\">All</button>\n12    <button type=\"button\" class=\"filter-btn\" data-filter=\"web\">Web</button>\n13  </div>\n14\n15  <div class=\"card\" data-category=\"web\">Web</div>\n16  <div class=\"card\" data-category=\"other\">Other</div>\n17\n18  <script src=\"script.js\"></script>\n19</body>\n20</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 16px;\n4}\n5\n6.filters {\n7  margin-bottom: 12px;\n8}\n9\n10.card {\n11  padding: 12px;\n12  margin: 8px 0;\n13  border: 1px solid #E2E8F0;\n14}\n15\n16.card.hidden {\n17  display: none;\n18}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var activeFilter = 'all';\n2var cards = document.querySelectorAll('.card');\n3var buttons = document.querySelectorAll('.filter-btn');\n4\n5function applyFilter() {\n6  cards.forEach(function (card) {\n7    var category = card.dataset.category;\n8    var show = activeFilter === 'all' || category === activeFilter;\n9    card.classList.toggle('hidden', !show);\n10  });\n11}\n12\n13buttons.forEach(function (btn) {\n14  btn.addEventListener('click', function () {\n15    activeFilter = btn.dataset.filter;\n16    applyFilter();\n17  });\n18});\n19\n20// Initialize on load\n21applyFilter();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code first. Then click All and Web and watch the cards update."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is what is happening under the surface."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the CSS, this rule controls visibility:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": ".card.hidden {\n  display: none;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nothing else hides the card. JavaScript only adds or removes this hidden class."
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript, this line stores the current filter:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "var activeFilter = 'all';"
+    },
+    {
+      "type": "paragraph",
+      "content": "That variable represents the current state. When a button is clicked, this line updates that state:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "activeFilter = btn.dataset.filter;"
+    },
+    {
+      "type": "paragraph",
+      "content": "And this line inside applyFilter() does the work:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "card.classList.toggle('hidden', !show);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the key part."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If show is false, the hidden class is added.",
+        "If show is true, the hidden class is removed."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser handles how it looks. JavaScript only decides which class should be present."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the flow is simple:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Update the state.",
+        "Then update the UI."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll see the same idea used to switch the entire page theme to dark mode."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

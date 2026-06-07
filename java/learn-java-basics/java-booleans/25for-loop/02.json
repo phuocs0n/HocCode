@@ -1,0 +1,70 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/for-loop?page=2",
+  "title": "Syntax of for Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Syntax of for Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of the for loop is:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (initialization; booleanExpresssion; update) {\n    // statement(s)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The initialization expression initializes a value of a variable. For example, count = 1, int i = 0, etc."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop then evaluates the boolean expression. If it's true, the body of the for loop is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, the update expression is evaluated. It changes the value of a variable. For example, count = count + 1, ++i, etc."
+    },
+    {
+      "type": "paragraph",
+      "content": "The boolean expression is evaluated again. If it's true again, the body of the loop is executed and the variable is updated."
+    },
+    {
+      "type": "paragraph",
+      "content": "This process continues until the boolean expression is false. If the boolean expression is false, the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Seems confusing? Let's try to understand it with the help of an example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

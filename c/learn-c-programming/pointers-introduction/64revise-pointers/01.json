@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-pointers?page=2",
+  "title": "Thêm 10 vào mỗi phần tử của mảng",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thêm 10 vào mỗi phần tử của mảng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử chúng ta có một mảng có các phần tử: {8, 7, 21, 13}. Bây giờ, chúng ta cần thêm 10 vào mỗi phần tử của mảng để kết quả đầu ra trông như thế này: {18, 17, 31, 23}."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Quá trình suy nghĩ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu tiên, chúng ta cần truy cập từng phần tử mảng bằng vòng lặp. Bên trong vòng lặp, chúng ta cần cộng 10 cho mỗi phần tử và gán kết quả cho vị trí tương ứng."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int numbers[4] = {8, 7, 21, 13};\n6\n7  // loop to access each array element\n8  for (int i = 0; i < 4; ++i) {\n9    *(numbers + i) = *(numbers + i) + 10;\n10  }\n11\n12  // print the array\n13  printf(\"Array Elements: \");\n14  for (int i = 0; i < 4; ++i) {\n15    printf(\"%d \", *(numbers + i));\n16  }\n17\n18  return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong ví dụ trên, hãy chú ý dòng:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "*(numbers + i) = *(numbers + i) + 10;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, *(numbers + i) truy cập phần tử mảng ở vị trí i, thêm 10 vào đó và gán kết quả cho cùng một vị trí."
+    },
+    {
+      "type": "paragraph",
+      "content": "Số dư nhanh:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "số - cung cấp địa chỉ của phần tử mảng đầu tiên",
+        "*số - đưa ra giá trị của phần tử đầu tiên",
+        "số + 1 - cung cấp địa chỉ của phần tử thứ hai",
+        "*(numbers + 1) - đưa ra giá trị của phần tử thứ hai",
+        "....",
+        "số + i - cung cấp địa chỉ của phần tử thứ i",
+        "*(numbers + i) - đưa ra giá trị của phần tử thứ i"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

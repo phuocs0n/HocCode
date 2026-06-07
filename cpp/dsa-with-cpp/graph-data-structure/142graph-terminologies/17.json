@@ -1,0 +1,60 @@
+{
+  "index": 17,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/graph-terminologies?page=18",
+  "title": "Graph Representation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Graph Representation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a moment to revise what we have learned so far."
+    },
+    {
+      "type": "paragraph",
+      "content": "We started by defining graphs as a collection of interconnected vertices and also came up with a formal definition of a graph as G(V, E)."
+    },
+    {
+      "type": "paragraph",
+      "content": "We've understood them through diagrams; learned about their directed, undirected, and weighted types; and delved into the relationships between their elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, we cannot rely on diagrams in programming. Instead, we need mathematical models to represent graphs. In our course, we will focus on two primary representations:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Adjacency Matrix",
+        "Adjacency List"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In the next lesson, we'll look at adjacency matrices and see how we can implement them in C++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/books-with-multiple-words-but-no-z?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a Books table with columns id, title, release_date, and publisher."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to check for book titles containing multiple words but without the alphabet, Z."
+    },
+    {
+      "type": "paragraph",
+      "content": "To perform this comparison, we can use the LIKE and NOT LIKE operators as below:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use LIKE with the % % wildcard characters to select books with more than one word. The % wildcard searches for any character or word. Using two of these characters with a space in between (% %) allows us to search for column values with two or more words (since words are separated by spaces).",
+        "Use the NOT LIKE operator to filter out books with Z in their titles.",
+        "Finally, we use the ORDER BY clause to arrange the book titles in ascending order."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

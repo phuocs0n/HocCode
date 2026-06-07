@@ -1,0 +1,120 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/pointer-types?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\nusing namespace std; \n\n// define the Test class\nclass Test {\n    public:\n        int number;\n\n        void display_number() {\n            cout << this->number << endl;\n        }\n};\n\nint main() {\n\n    Test t1;\n    t1.number = 3;\n    Test t2;\n    t2.number = 5;\n\n    t1.display_number();\n\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are calling the display_number() function only once."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are calling the display_number() function only once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are calling the display_number() function only once."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are calling the display_number() function only once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are calling the function using the t1 object and 5 is the value of number for the t2 object."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are calling the function using the t1 object and 5 is the value of number for the t2 object."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "3 is the value of number for the t1 object and we are calling the function using t1."
+    },
+    {
+      "type": "paragraph",
+      "content": "3 is the value of number for the t1 object and we are calling the function using t1."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:53",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "53",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:35",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "35",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:5",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:3",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "3",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

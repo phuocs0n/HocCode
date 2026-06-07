@@ -1,0 +1,60 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/rabinkarp-string-matching-algorithm?page=2",
+  "title": "Working of Rabin-Karp Algorithm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of Rabin-Karp Algorithm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we need to find a pattern of length m in the text string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is how it works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Find the hash of the pattern.",
+        "Calculate the hash of the substring of the length m in text, starting from the first character.",
+        "Compare the hash of the pattern with the hash of the substring to find the match.",
+        "Calculate the hash of the next substring of the length m in text, starting from the second character.",
+        "Compare the hash of the pattern with the hash of this substring to find the match.",
+        "Repeat this process for all substrings of length m in the text string."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this algorithm, we compare the entire pattern only after the hash value is matched. This approach reduces redundant comparisons."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore this process in detail."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

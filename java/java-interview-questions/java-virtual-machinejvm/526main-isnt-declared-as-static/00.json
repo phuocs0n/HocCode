@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/main-isnt-declared-as-static?page=1",
+  "title": "What happens when the main() isn't declared as static?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What happens when the main() isn't declared as static?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Static variable, method or statement block can be called without creating any object (or instance) of the class in which it is declared."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the main() method is not declared as static, then the JVM would have to create an instance of the class, which would require calling the constructor of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the JVM does not know which constructor to call as there may be multiple constructors with different parameter lists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, by declaring main() as static, we can ensure that it can be invoked without creating an instance of the class, which is necessary for the JVM to run the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "When we execute a Java program, JVM loads the class containing the main() method and invokes it without creating an instance of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is why the main() method needs to be declared as static."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

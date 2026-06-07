@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/first-last-index-of-target-element?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the indexes of the target element, we can loop through the list and update the first and last index when the element is found."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are the steps to solve this problem:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Initialize the first and last variables to store the first and last occurrence indexes of the target element.",
+        "Loop through each element in the list using the enumerate() function so that we can access the element along with its index.",
+        "Inside the loop, we need to check if the current element is our target element.",
+        "If the current element is our target element, we need to check if the value of the first variable is None.",
+        "If the first variable is None, update the value of the first variable to the current index. It means this is the first time the target element has been found.",
+        "Again, outside the if contidition, we need to replace the last index each time the target element is found.",
+        "Finally, after the loop is completed, we can return the first and last variables in a tuple."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

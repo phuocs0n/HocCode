@@ -1,0 +1,50 @@
+{
+  "index": 32,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/0-1-knapsack-problem?page=33",
+  "title": "Thought Process: DP Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: DP Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Encapsulate the entire logic inside a function that returns the solution."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, encapsulate the code in Step 4 inside the maximize_profit() function, which returns the last cell in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "We return the last cell because it contains our solution."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Function that returns the solution\nint maximize_profit(const vector<int>& w, const vector<int>& v, int capacity) {\n    // Initialize an empty DP table\n    vector<vector<int>> DP(w.size() + 1, vector<int>(capacity + 1, 0));\n\n    // Code in Step 4\n    \n\n    // The last cell returns the maximum profit.\n    return DP[w.size()][capacity];\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/main-function-in-python?page=1",
+  "title": "Does Python have a main() Function?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Does Python have a main() Function?"
+    },
+    {
+      "type": "paragraph",
+      "content": "No, Python does not have a main() function. However, we can simulate it using the __name__ attribute of a module."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, if the module is run independently, the value of the inbuilt attribute __name__ is always '__main__'."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we can create an if condition to check if the file is executed from the module itself. And if it is, run the main() function by creating it manually. Here's an example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def main():\n2    print('this is main function')\n3\n4if __name__ == '__main__':\n5    main()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

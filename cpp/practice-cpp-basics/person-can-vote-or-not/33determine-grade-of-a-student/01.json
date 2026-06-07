@@ -1,0 +1,73 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/determine-grade-of-student?page=1",
+  "title": "Determine Grade of a Student",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Determine Grade of a Student"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to determine the grade of a student based on the marks they have obtained."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get integer input for the variable marks.",
+        "Determine the grade using the if..else statement.",
+        "If marks is greater than or equal to 90, print A.",
+        "If marks is greater than or equal to 80, print B.",
+        "If marks is greater than or equal to 70, print C.",
+        "Otherwise, print D."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input75"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputB"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=1",
+  "title": "Different Types of Data",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Different Types of Data"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far in this course, you've worked with three different types of data:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Integer: Whole numbers without decimal parts (e.g., 5, -6, 17, 0).",
+        "Float: Numbers with decimal parts (e.g., 5.6, 0.0, -7.84, 16.0).",
+        "String: A sequence of characters enclosed in quotes (e.g., \"hello there\", \"5\", \"Number is 5.0\")."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In real-world projects, data isn't always in the format you need."
+    },
+    {
+      "type": "paragraph",
+      "content": "For instance, numbers might be stored as text, such as \"5.3\". This makes data manipulation tricky unless you can transform it into the right format."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll explore how to perform data conversions in JavaScript, enabling you to seamlessly handle these scenarios in your projects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

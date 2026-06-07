@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-cpp/recursion-examples?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of the first n natural numbers can also be written as follows:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "total = n + (n - 1) + (n - 2) + . . .+ 3 + 2 + 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will take n as an argument. With each function call, we'll decrement n by one until we reach 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Base Case"
+    },
+    {
+      "type": "paragraph",
+      "content": "If n equals 1, the sum is 1. This will be our base condition."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "if (n == 1) {\n    return 1;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's put this in our code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

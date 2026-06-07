@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-if-given-string-is-palindrome?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a Java program to check if a given string is a palindrome after converting it to lowercase and removing all spaces and special characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "A string is said to be a palindrome if it reads the same backwards as forwards i.e, from left to right and right to left. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"A man, a plan, a canal, Panama!\"\noutput = true\nreason = \"amanaplanacanalpanama\" is a palindrome as it reads the same from left to right and right to left"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"Was it a car or a cat I saw?\"\noutput = true\nreason = \"wasitacaroracatisaw\" is a palindrome as it reads the same from left to right and right to left"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"Hello, world!\"\noutput = false\nreason = \"helloworld\" is not a palindrome as it does not read the same from left to right and right to left"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

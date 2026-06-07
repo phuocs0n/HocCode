@@ -1,0 +1,76 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/scroll-events-conditional-classes?page=2",
+  "title": "Scroll Threshold Example",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Scroll Threshold Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see this in action."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the indicator changes once you scroll past 100 pixels. The logic is the same one you just read. Now watch it happen."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Scroll and threshold</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <div class=\"scroll-indicator\">\n11    Scroll down 100px\n12  </div>\n13\n14  <div class=\"spacer\"></div>\n15\n16  <script src=\"script.js\"></script>\n17</body>\n18</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  margin: 0;\n3  font-family: sans-serif;\n4}\n5\n6.scroll-indicator {\n7  position: fixed;\n8  top: 10px;\n9  left: 50%;\n10  transform: translateX(-50%);\n11  padding: 8px 16px;\n12  background: #F1F5F9;\n13  border-radius: 8px;\n14  transition: background 0.2s;\n15}\n16\n17.scroll-indicator.scrolled {\n18  background: #14B8A5;\n19  color: #fff;\n20}\n21\n22.spacer {\n23  height: 120vh;\n24}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var bar = document.querySelector('.scroll-indicator');\n2var threshold = 100;\n3\n4window.addEventListener('scroll', function () {\n5  var isPast = window.scrollY > threshold;\n6  if (bar) {\n7    bar.classList.toggle('scrolled', isPast);\n8  }\n9});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Now scroll down."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once you pass 100 pixels, the indicator changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "We read the scroll position. We compared it to a threshold. We toggled a class."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is the pattern running exactly as it should."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's apply this idea to a sticky header."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

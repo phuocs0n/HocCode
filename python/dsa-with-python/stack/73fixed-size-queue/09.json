@@ -1,0 +1,74 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/dsa-with-python/fixedsize-queue?page=10",
+  "title": "Source Code: Fixed Sized Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Fixed Sized Queue"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the implementation below, we've completed our fixed-size queue by adding two important methods:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "is_full() — to check if the queue has reached its maximum capacity",
+        "is_empty() — to check if the queue has no elements left to remove"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To make these checks possible, we've introduced a new attribute: count."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "count keeps track of the number of elements currently in the queue.",
+        "It increases by 1 every time we enqueue an item.",
+        "It decreases by 1 every time we dequeue an item."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "By comparing count to the queue's capacity, we can easily determine whether the queue is full or empty."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class Queue:\n2    \n3    def __init__(self, capacity):\n4        # Set the queue's maximum size\n5        self.capacity = capacity\n6\n7        # Create the fixed-size list\n8        self.queue = [None] * capacity\n9\n10        # Rear starts at -1 to indicate no items have been added yet\n11        self.rear = -1\n12\n13        # Front starts at 0 to remove from the first slot\n14        self.front = 0\n15\n16        # Count keeps track of the number of items in the queue\n17        self.count = 0\n18\n19    # Check if the queue is full\n20    def is_full(self):\n21        return self.count == self.capacity\n22\n23    # Check if the queue is empty\n24    def is_empty(self):\n25        return self.count == 0\n26\n27    # Insert elements into the queue\n28    def enqueue(self, item):\n29        if self.is_full():\n30            print(\"We can't add elements. The queue is full.\")\n31            return\n32\n33        # Move rear forward before inserting\n34        self.rear += 1\n35        self.queue[self.rear] = item\n36        self.count += 1\n37\n38    # Remove elements from the queue\n39    def dequeue(self):\n40        if self.is_empty():\n41            print(\"We can't remove elements. The queue is empty.\")\n42            return None\n43\n44        item_removed = self.queue[self.front]\n45        self.queue[self.front] = None\n46        self.front += 1\n47        self.count -= 1\n48        return item_removed\n49\n50    # Display the queue\n51    def display(self):\n52        print(self.queue)\n53\n54queue1 = Queue(5)\n55\n56print(\"Initial queue:\")\n57queue1.display()\n58print(\"---\")\n59\n60queue1.enqueue(12)\n61queue1.enqueue(77)\n62\n63print(\"After inserting two elements:\")\n64queue1.display()\n65print(\"---\")\n66\n67print(f\"Item removed: {queue1.dequeue()}\")\n68print(\"After removing an item:\")\n69queue1.display()\n70print(\"---\")\n71\n72print(f\"Item removed: {queue1.dequeue()}\")\n73print(\"After removing an item:\")\n74queue1.display()\n75print(\"---\")\n76\n77# Try removing from an empty queue\n78print(f\"Item removed: {queue1.dequeue()}\")\n79queue1.display()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Initial queue:\n[None, None, None, None, None]\n---\nAfter inserting two elements:\n[12, 77, None, None, None]\n---\nItem removed: 12\nAfter removing an item:\n[None, 77, None, None, None]\n---\nItem removed: 77\nAfter removing an item:\n[None, None, None, None, None]\n---\nWe can't remove elements. The queue is empty.\nItem removed: None\n[None, None, None, None, None]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

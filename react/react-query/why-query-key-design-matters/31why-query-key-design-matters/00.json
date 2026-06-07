@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/why-query-key-design-matters?page=1",
+  "title": "Your App is Growing",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your App is Growing"
+    },
+    {
+      "type": "paragraph",
+      "content": "TaskFlow is working. You can fetch tasks, create them, update them, delete them. That's solid."
+    },
+    {
+      "type": "paragraph",
+      "content": "But here's something that happens in every real app as it grows. You start having more and more queries and managing all those query keys starts feeling messy."
+    },
+    {
+      "type": "paragraph",
+      "content": "You end up with keys scattered across different files. Someone writes ['tasks'] in one place and ['task'] in another. Typos happen. Invalidations stop working. Data goes stale without you realizing."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a query key problem and it's one of the most common sources of bugs in React Query apps."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's look at exactly why scattered keys cause problems."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

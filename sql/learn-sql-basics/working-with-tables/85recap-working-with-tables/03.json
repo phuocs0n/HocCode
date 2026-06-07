@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-6?page=4",
+  "title": "ALTERING TABLE",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "ALTERING TABLE"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your manager has asked: \"How can we add new details to the table later?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "To address this, you can modify the Customers table by adding a new column."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, to store customer location data for future marketing campaigns, you can add a city column to the table:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1ALTER TABLE Customers\n2ADD COLUMN city VARCHAR(200);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

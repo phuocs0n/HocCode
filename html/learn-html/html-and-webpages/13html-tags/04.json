@@ -1,0 +1,183 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/html-tags?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: If the start tag of an HTML element is <table>, which of the following could be its end tag?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "<table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <table> is a start tag and cannot be used as the end tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <table> is a start tag and cannot be used as the end tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "<table/>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag for an HTML element should have a forward slash after the angle bracket, not after the tag name."
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag for an HTML element should have a forward slash after the angle bracket, not after the tag name."
+    },
+    {
+      "type": "paragraph",
+      "content": "</table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag of <table> is </table>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag of <table> is </table>."
+    },
+    {
+      "type": "paragraph",
+      "content": "<table-end>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "<table-end> is not a valid HTML tag format and does not follow the standard closing tag syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "<table-end> is not a valid HTML tag format and does not follow the standard closing tag syntax."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <table> is a start tag and cannot be used as the end tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <table> is a start tag and cannot be used as the end tag."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag for an HTML element should have a forward slash after the angle bracket, not after the tag name."
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag for an HTML element should have a forward slash after the angle bracket, not after the tag name."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag of <table> is </table>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The end tag of <table> is </table>."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "<table-end> is not a valid HTML tag format and does not follow the standard closing tag syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "<table-end> is not a valid HTML tag format and does not follow the standard closing tag syntax."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: If the start tag of an HTML element is <table>, which of the following could be its end tag?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<table>",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<table>",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<table/>",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<table/>",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<table-end>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<table-end>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

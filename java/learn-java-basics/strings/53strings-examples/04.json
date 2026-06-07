@@ -1,0 +1,67 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/revise-string?page=4",
+  "title": "Changing the Case of String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Changing the Case of String"
+    },
+    {
+      "type": "paragraph",
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "You are given a string in uppercase. You need to change all the characters of the string in lowercase. You'll again change the new strings (lowercase) to uppercase."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java String provides two methods, toLowerCase() and toUpperCase(), to convert a string to lowercase and uppercase respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        String text = \"I LOVE JAVA PROGRAMMING\";\n5        \n6        // Convert text string to lowercase\n7        String lower = text.toLowerCase();\n8        System.out.println(lower);\n9        \n10        // Convert lowercase string to uppercase\n11        String upper = lower.toUpperCase();\n12        System.out.println(upper);\n13    }\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "i love java programming\nI LOVE JAVA PROGRAMMING"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

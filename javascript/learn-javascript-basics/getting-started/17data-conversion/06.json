@@ -1,0 +1,55 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=7",
+  "title": "Converting to String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Converting to String"
+    },
+    {
+      "type": "paragraph",
+      "content": "To convert a number to a string, you can use the toString() method."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let number = 5.5;\n2\n3// Convert number to string\n4let numberString = number.toString();\n5\n6console.log(numberString);   \n7\n8// You can verify the type of data using the typeof operator:\n9\n10console.log(typeof numberString);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "5.5\nstring"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript doesn't just let you convert data types manually—it also automatically converts them in certain situations. Next, let's see how these automatic conversions work."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

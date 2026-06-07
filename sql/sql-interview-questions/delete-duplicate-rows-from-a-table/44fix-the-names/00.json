@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/fix-names?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Users"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "user_id",
+          "name"
+        ],
+        [
+          "1",
+          "aLicE"
+        ],
+        [
+          "2",
+          "boB"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write an SQL query to fix the Users table so that only the first character is uppercase and the rest are lowercase. Display the resulting table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

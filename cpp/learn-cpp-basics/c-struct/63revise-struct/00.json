@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-struct?page=1",
+  "title": "Summary Struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary Struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Define a struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the struct keyword to define a struct. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "struct Rectangle {\n    int length;\n    int breadth;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Create struct Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of creating a struct variable is similar to that of creating a regular variable. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// create struct variable\nstruct Rectangle rect1;\n\n// create integer variable\nint age;"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Access struct Members"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we create a struct variable, we can use it to access the member of a structure. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// assign value to the length and breadth\nrect1.length = 12;\nrect1.breadth = 8\n\n// print length and breadth\ncout << rect1.length << endl;\ncout << rect1.breadth;"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// create a struct\n5struct Rectangle {\n6    int length;\n7    int breadth;\n8};\n9\n10int main() {\n11\n12    struct Rectangle rect1;\n13\n14    rect1.length = 12;\n15    rect1.breadth = 8;\n16\n17    cout << rect1.length << endl;    // 12\n18    cout << rect1.breadth << endl;   // 8\n19\n20    // find area\n21    int area = rect1.length * rect1.breadth;\n22    cout << area;        // 96\n23\n24    return 0;\n25}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-html/html-document-structure?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code from the last lesson:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>This is a Heading</h1>\n2<p>This is a paragraph.</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run this code, you will get the output without an issue."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, it is not a complete and valid HTML code."
+    },
+    {
+      "type": "paragraph",
+      "content": "A valid HTML document looks like this:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html>\n3\n4    <head>\n5    </head>\n6\n7    <body>\n8        <p>This is a short paragraph.</p>\n9    </body>\n10\n11</html>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will learn about this structure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

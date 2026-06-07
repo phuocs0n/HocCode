@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/games-need-array?page=3",
+  "title": "Using array with loops",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using array with loops"
+    },
+    {
+      "type": "paragraph",
+      "content": "We combine the array with a while loop: run while the counter is less than the array's length, and use the counter as the index to get each item."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var options = [\"A: Python\", \"B: Pizza\", \"C: Pencil\"];\n2var i = 0;\n3\n4while (i < options.length) {\n5  console.log(options[i]);\n6  i++;\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The condition i < options.length means we stop when we've reached the end of the array. Each time we use options[i] to get the current item."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the quiz we'll do the same with questions.length and questions[i] to get each question."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,56 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-whether-number-is-prime-or-not?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a Java program to take an integer input and check whether it is prime or not. If the number is prime print Prime else print Not Prime."
+    },
+    {
+      "type": "paragraph",
+      "content": "Prime numbers are numbers that are only divisible by 1 and itself. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 2\noutput = Prime\nreason = 2 is only divisible by 2 and 1"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 11\noutput = Prime\nreason = 11 is only divisible by 11 and 1"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 4\noutput = Not Prime\nreason = 4 is divisible by 4, 2, and 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

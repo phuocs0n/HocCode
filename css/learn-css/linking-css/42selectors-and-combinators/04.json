@@ -1,0 +1,136 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/selectors-combinators?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the given CSS code specify?"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "#intro {\n    color: red;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The HTML element with an ID of intro will have the text color red."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSS code specifies that the style will be applied to the HTML element with the ID intro."
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSS code specifies that the style will be applied to the HTML element with the ID intro."
+    },
+    {
+      "type": "paragraph",
+      "content": "Any HTML element with a class of intro will have the text color red."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In CSS, the hash symbol # selects HTML elements by their ID attribute, not their class attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "In CSS, the hash symbol # selects HTML elements by their ID attribute, not their class attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "The whole webpage will have a red background color."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This CSS code applies the color to the text of the HTML element with the ID intro, not to the page background."
+    },
+    {
+      "type": "paragraph",
+      "content": "This CSS code applies the color to the text of the HTML element with the ID intro, not to the page background."
+    },
+    {
+      "type": "paragraph",
+      "content": "All text on the webpage will be red."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSS code does not modify the color of all text on the webpage. It only changes the color of the text inside the HTML element with the ID intro."
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSS code does not modify the color of all text on the webpage. It only changes the color of the text inside the HTML element with the ID intro."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the given CSS code specify?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The HTML element with an ID of intro will have the text color red.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The HTML element with an ID of intro will have the text color red.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Any HTML element with a class of intro will have the text color red.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Any HTML element with a class of intro will have the text color red.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The whole webpage will have a red background color.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The whole webpage will have a red background color.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All text on the webpage will be red.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All text on the webpage will be red.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

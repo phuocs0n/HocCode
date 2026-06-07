@@ -1,0 +1,136 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/data-attributes?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will this code do?"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "const image = document.querySelector('img');\nconst imgSrc = image.getAttribute('src');\nconsole.log(imgSrc);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It logs the text content of the image."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "getAttribute retrieves the value of an attribute, not the text content of an element."
+    },
+    {
+      "type": "paragraph",
+      "content": "getAttribute retrieves the value of an attribute, not the text content of an element."
+    },
+    {
+      "type": "paragraph",
+      "content": "It retrieves the src attribute value and logs it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "getAttribute('src') specifically retrieves the value of the src attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "getAttribute('src') specifically retrieves the value of the src attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "It sets the src attribute of the image."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting an attribute is done using setAttribute, not getAttribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting an attribute is done using setAttribute, not getAttribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "It removes the src attribute from the image."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Removing attributes is done with removeAttribute, not getAttribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Removing attributes is done with removeAttribute, not getAttribute."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will this code do?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It logs the text content of the image.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It logs the text content of the image.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It retrieves the src attribute value and logs it.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It retrieves the src attribute value and logs it.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It sets the src attribute of the image.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It sets the src attribute of the image.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It removes the src attribute from the image.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It removes the src attribute from the image.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

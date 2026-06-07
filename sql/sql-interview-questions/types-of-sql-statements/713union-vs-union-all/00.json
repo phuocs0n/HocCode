@@ -1,0 +1,115 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/union-vs-union-all?page=1",
+  "title": "How are UNION and UNION ALL different in SQL?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How are UNION and UNION ALL different in SQL?"
+    },
+    {
+      "type": "paragraph",
+      "content": "While both UNION and UNION ALL are used to combine the results of multiple SELECT statements into a single result set, there is one key difference between the two."
+    },
+    {
+      "type": "paragraph",
+      "content": "UNION removes duplicate rows from the combined result set. On the other hand, UNION ALL does not remove duplicate rows from the combined result set."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following two tables:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Midlands"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "team_id",
+          "name"
+        ],
+        [
+          "3",
+          "Spurs"
+        ],
+        [
+          "4",
+          "United"
+        ],
+        [
+          "5",
+          "Liverpool"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - London"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "team_id",
+          "name"
+        ],
+        [
+          "1",
+          "Chelsea"
+        ],
+        [
+          "2",
+          "Arsenal"
+        ],
+        [
+          "3",
+          "Spurs"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "UNION"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT team_id, name\n2FROM London\n3UNION\n4SELECT team_id, name\n5FROM Midlands;"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "UNION ALL"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT team_id, name\n2FROM London\n3UNION ALL \n4SELECT team_id, name\n5FROM Midlands;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

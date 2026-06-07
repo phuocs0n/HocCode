@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/java-interview-questions/reverse-given-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To reverse a string, we need to access each character of the string from the last to the first and assign those characters in a new string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how we can reverse a string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a new empty string to store the reversed input string.",
+        "Iterate through each character of the input string from the end to the beginning. For this, we can convert the given string to an array using the toCharArray() method and then loop through the array.",
+        "Inside the loop, add characters from the input string to the new string so that the last character will be the first for the new string, and so on.",
+        "Finally, print the new string which now has the reversed string."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will implement this logic in practice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

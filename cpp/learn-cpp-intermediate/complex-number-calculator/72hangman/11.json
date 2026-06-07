@@ -1,0 +1,119 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=11",
+  "title": "Step 1.6: Defining Game Methods",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1.6: Defining Game Methods"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The is_guess_valid() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "The is_guess_valid() method takes a character argument, checks if it is an alphabet, and returns false if it is not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Additionally, it checks if the character has already been entered by the user before. If so, it also returns false along with a corresponding message."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the guess is valid, it returns true."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "bool is_guess_valid(char letter) {\n\n    // check if letter is an alphabet\n    if (!isalpha(letter)) {\n        message.invalid_character_message();\n        return false;\n    }\n\n    // check if the user has already entered the letter\n    for (int i = 0; i < entered_characters.length(); ++i) {            \n        if (letter == entered_characters[i]) {\n            message.already_entered_message();\n            return false;\n        }\n    }\n\n    // return true if valid\n    return true;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The is_guess_correct() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "If letter is a correct guess, this method updates the user_answer string and calls the correct_message() method of the message object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Otherwise, it updates the incorrect string, increments misses, and triggers the incorrect_message() method of the message object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Regardless of the guess's correctness, it adds letter to the entered_characters string."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void is_guess_correct(char letter) {\n\n    bool guess = false;\n\n    // check if the guess is correct\n    for (int i = 0; i < word.length(); i++) {\n       if (letter == word[i]) {\n            user_answer[i] = letter;\n            guess = true;\n        }\n    }\n\n    // display message if correct\n    if (guess) {\n        message.correct_message();\n    }\n\n    // if incorrect, display incorrect message\n    // then update incorrect string and\n    // increment misses variable\n    else {\n        message.incorrect_message();\n        incorrect += letter;\n        incorrect += \", \";\n        ++misses;\n    }\n\n    // update entered_characters\n    entered_characters += letter;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The is_game_over() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "The is_game_over() method returns true if the player guesses the word correctly or if the number of maximum allowed misses is exceeded. Otherwise, it returns false."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "bool is_game_over() {\n    if (user_answer == word || misses >= max_misses) {\n        return true;\n    }\n    return false\n}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The display_game_status() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method calls the display_incorrect_message(), display_user_answer(), and display_misses() methods of the message object to display the game status and the number of misses remaining."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void display_game_status() {\n    message.display_incorrect_guesses(incorrect);\n    message.display_user_answer(user_answer);\n    message.display_misses(misses);\n}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The display_final_result() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method calls the final_result() method of the message object to display the final result."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void display_final_result() {\n    message.final_result(user_answer, word);\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

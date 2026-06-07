@@ -1,0 +1,83 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-struct?page=1",
+  "title": "Giới thiệu cấu trúc",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Giới thiệu cấu trúc"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cấu trúc (cấu trúc) là một tập hợp các biến (có thể thuộc nhiều loại khác nhau) dưới một tên duy nhất."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử chúng ta muốn lưu trữ tên, tuổi và mức lương của một người. Chúng ta có thể làm điều đó bằng cách sử dụng 3 biến khác nhau."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuy nhiên, cách tiếp cận tốt hơn là đặt những dữ liệu này dưới một tên duy nhất vì chúng là dữ liệu của cùng một người. Trong những tình huống này, chúng ta có thể sử dụng cấu trúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng làm cho mã của chúng ta dễ viết và dễ hiểu hơn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ bạn đã hiểu tại sao cấu trúc được sử dụng, hãy xem cách chúng ta có thể tạo cấu trúc trong C."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Xác định cấu trúc"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng từ khóa struct để xác định cấu trúc. Hãy tạo một cấu trúc cho ví dụ trên của chúng tôi."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "struct Person {\n  char name[50];\n  int age;\n  double salary;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn có thể thấy, struct Person bao gồm các biến thuộc 3 loại khác nhau."
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi chúng ta định nghĩa một cấu trúc như thế này, về cơ bản chúng ta đang tạo một kiểu dữ liệu như double và int. Trong ví dụ này, kiểu dữ liệu là struct Person."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, chúng ta có thể tạo các biến kiểu struct Person này (tương tự như các biến kiểu int và double)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ học cách tạo các biến cấu trúc."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

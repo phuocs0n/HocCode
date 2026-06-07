@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/responsive-design/flexbox-for-responsive-components?page=4",
+  "title": "Using Flexbox for the Nav and Stat Cards",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using Flexbox for the Nav and Stat Cards"
+    },
+    {
+      "type": "paragraph",
+      "content": "The nav is a horizontal row at every width right now. On a 320px phone there's just no room for that."
+    },
+    {
+      "type": "paragraph",
+      "content": "You've already solved something like this."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember how the hero was a two-column grid at every width and you moved the grid into a media query? Same thinking here. On a phone the nav should stack vertically. On a wider screen it goes back to a row. That's all we're doing."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1nav ul {\n2  display: flex;\n3  flex-direction: column;\n4  gap: 0.5rem;\n5}\n6\n7@media (min-width: 48rem) {\n8  nav ul {\n9    flex-direction: row;\n10    gap: 2rem;\n11  }\n12}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1*, *::before, *::after {\n2  box-sizing: border-box;\n3}\n4\n5body, p, h1, h2, h3 {\n6  margin: 0;\n7}\n8\n9body {\n10  font-family: 'Inter';\n11  background-color: white;\n12}\n13\n14.container {\n15  max-width: 64rem;\n16  margin: 0 auto;\n17  padding: 0 1.5rem;\n18}\n19\n20.site-header {\n21  padding: 1rem 0;\n22  border-bottom: 1px solid #F3F4F6;\n23}\n24\n25.site-header .container {\n26  display: flex;\n27  align-items: center;\n28  justify-content: space-between;\n29}\n30\n31.brand {\n32  font-size: 1.25rem;\n33  font-weight: 700;\n34  text-decoration: none;\n35  color: #1E293B;\n36}\n37\n38nav ul {\n39  list-style: none;\n40  margin: 0;\n41  padding: 0;\n42  display: flex;\n43  flex-direction: column;\n44  gap: 0.5rem;\n45}\n46\n47nav a {\n48  font-size: 0.875rem;\n49  text-decoration: none;\n50  font-weight: 500;\n51  color: #1E293B;\n52}\n53\n54.download-btn {\n55  height: 30px;\n56  padding: 0 8px;\n57  text-decoration: none;\n58  font-size: 0.75rem;\n59  font-weight: 700;\n60  display: flex;\n61  justify-content: center;\n62  align-items: center;\n63  color: #14B8A5;\n64}\n65\n66.download-btn-outline {\n67  border: 1px solid #14B8A5;\n68  border-radius: 30px;\n69}\n70\n71@media (min-width: 48rem) {\n72  nav ul {\n73    flex-direction: row;\n74    gap: 2rem;\n75  }\n76}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and you'll see the nav links stacked vertically on the left side. Widen the browser past 48rem and watch them snap into a horizontal row."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, before we jump into the practice, let's see if this is clicking."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

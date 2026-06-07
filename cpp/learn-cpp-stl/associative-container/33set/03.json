@@ -1,0 +1,55 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/set?page=3",
+  "title": "Example: C++ Set",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: C++ Set"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's write a program to create the string set we saw in the introduction, and see how the keys are arranged."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <set>\n3\n4using namespace std;\n5\n6int main() {\n7\n8    // Create a string set\n9    set<string> animals {\"Tiger\", \"Dog\", \"Elephant\", \"Goat\"};\n10\n11    for (string var: animals) {\n12        cout << var << endl;\n13    } \n14\n15    return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Dog\nElephant\nGoat\nTiger"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the set elements are arranged in alphabetical order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

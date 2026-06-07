@@ -1,0 +1,65 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/access-elements-of-map?page=1",
+  "title": "Access Elements of a Map",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Access Elements of a Map"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to access elements of a map."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Initialize a map called songs of integer key and string value with the key-value pairs {1, \"Smells Like Teen Spirit\"}, {2, \"Last Kiss\"}, and {3, \"Keep On Rockin In The Free World\"}.",
+        "Print the value of the element with key 2 using at().",
+        "Print the value of the element with key 1 using []."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputLast Kiss\nSmells Like Teen Spirit"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

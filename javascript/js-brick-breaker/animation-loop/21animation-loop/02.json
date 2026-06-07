@@ -1,0 +1,61 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/animation-loop?page=3",
+  "title": "Add Ball Movement and the Game Loop 🔄",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Ball Movement and the Game Loop 🔄"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to make things move. We will add an update() method to Ball and wire up the full animation loop in Game."
+    },
+    {
+      "type": "paragraph",
+      "content": "By default, ballSpeedX and ballSpeedY are 0 and isLaunched is false — the ball starts stationary. To see movement right away, we will temporarily set these values directly in the Game constructor with these values below."
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "this.ball.ballSpeedX = 3;\nthis.ball.ballSpeedY = -4;\nthis.ball.isLaunched = true;"
+    },
+    {
+      "type": "paragraph",
+      "content": "We temporarily force the ball to launch so we can see movement. In a later step, we will remove these lines and let the player launch the ball with a spacebar or click."
+    },
+    {
+      "type": "paragraph",
+      "content": "In entities.js, add an update() method to Ball that adds ballSpeedX to this.x and ballSpeedY to this.y (only when isLaunched is true)."
+    },
+    {
+      "type": "paragraph",
+      "content": "In game.js, bind this.loop to the instance in the constructor."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add an update() method that calls this.ball.update().",
+        "Add a loop() method that calls update(), draw(), and schedules the next frame with requestAnimationFrame(this.loop).",
+        "Add a start() method and call game.start() at the bottom."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "\"use strict\";"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

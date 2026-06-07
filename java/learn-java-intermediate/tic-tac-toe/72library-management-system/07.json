@@ -1,0 +1,64 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/library-management-system?page=8",
+  "title": "Step 7: Add getPurpose() method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 7: Add getPurpose() method"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Added getPurpose() method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.HashMap;\n2import java.util.Scanner;\n3import java.util.Map.Entry;\n4\n5class Student {\n6\n7    HashMap<Integer, String> student = new HashMap<>();\n8    Scanner input = new Scanner(System.in);\n9\n10    // add students\n11    void add() {\n12        student.put(101, \"Niall\");\n13        student.put(102, \"Anna\");\n14    }\n15\n16    // register student\n17    void addStudent() {\n18\n19        System.out.println(\"Enter your name: \");\n20        String name = input.next();\n21        System.out.println(\"Enter your id: \");\n22        int id = input.nextInt();\n23        student.put(id, name);\n24    }\n25}\n26\n27class Book {\n28\n29    HashMap<Integer, String> book = new HashMap<>();\n30\n31    // add books\n32    void add() {\n33        book.put(11, \"The Fault in our Stars\");\n34        book.put(22, \"A Good Book\");\n35    }\n36}\n37\n38class Issue {\n39\n40    // store book issued by student\n41    HashMap<Integer, String> issue = new HashMap<>();\n42\n43    Scanner input = new Scanner(System.in);\n44\n45    Book b1 = new Book();\n46    Student s1 = new Student();\n47\n48    public Issue() {\n49\n50        // add elements to student HashMap\n51        s1.add();\n52\n53        // add elements to book HashMap\n54        b1.add();\n55    }\n56\n57    // method to issue book\n58    void issueBook(int id) {\n59\n60        System.out.println(\"enter a book\");\n61        String bookName = input.nextLine();\n62\n63        // check if book is inside the book hashmap\n64        if (b1.book.containsValue(bookName)) {\n65\n66            // get book id to remove it from the book HashMap\n67            int bookId = 0;\n68            // iterate each entry of hashmap\n69            for (Entry<Integer, String> entry : b1.book.entrySet()) {\n70\n71                // if give value is equal to value from entry\n72                // print the corresponding key\n73                if (entry.getValue().equals(bookName)) {\n74                    bookId = entry.getKey();\n75                    break;\n76                }\n77            }\n78\n79            // add value of student id and book to issue hashmap\n80            issue.put(id, bookName);\n81\n82            // remove book from the book hashmap\n83            b1.book.remove(bookId);\n84\n85            // get student name from id\n86            String name = s1.student.get(id);\n87            // print name and issued book\n88            System.out.println(\"Name: \" + name);\n89            System.out.println(\"Book: \" + bookName);\n90            System.out.println(\"Book issued Congratulation\");\n91        }\n92\n93        else {\n94            System.out.println(\"Book doesn't exist\");\n95            System.out.println(\"We have following Books:\");\n96            System.out.println(b1.book);\n97        }\n98\n99    }\n100\n101    void returnBook(int id) {\n102\n103        issue.put(101, \"A Good Book\");\n104        \n105        if (issue.containsKey(id)) {\n106            System.out.println(\"enter a book to return\");\n107            String bookName = input.nextLine();\n108           \n109            //get book id\n110            int bookId = 0;\n111            // iterate each entry of hashmap\n112            for (Entry<Integer, String> entry : b1.book.entrySet()) {\n113\n114                // if give value is equal to value from entry\n115                // print the corresponding key\n116                if (entry.getValue().equals(bookName)) {\n117                    bookId = entry.getKey();\n118                    break;\n119                }\n120            }\n121\n122            // check if book is issued\n123            if (issue.containsValue(bookName)) {\n124\n125                // remove issue record form issue HashMap\n126                issue.remove(id);\n127\n128                // add book back to book hashmap\n129                b1.book.put(bookId, bookName);\n130\n131                // print name of student and book\n132                // get student name from id\n133                String name = s1.student.get(id);\n134                System.out.println(\"Name: \" + name);\n135                System.out.println(\"Book: \" + bookName);\n136                System.out.println(\"Book returned\");\n137\n138            }\n139\n140            else {\n141                System.out.println(\"Book is not issued.\");\n142            }\n143\n144        } else {\n145            System.out.println(\"You haven't issued any book\");\n146        }\n147    }\n148\n149\n150    void getPurpose(int id) {\n151\n152        Issue i1 = new Issue();\n153        String purpose;\n154        \n155        System.out.println(\"Enter your purpose: return or issue\");\n156        purpose = input.next();\n157\n158        if (purpose.equals(\"issue\")) {\n159\n160            i1.issueBook(id);\n161\n162        } \n163        else if (purpose.equals(\"return\")) {\n164\n165            i1.returnBook(id);\n166        }\n167    }\n168\n169}\n170\n171class Main {\n172\n173    public static void main(String[] args) {\n174\n175        Issue i1 = new Issue();\n176        \n177        // get id\n178        Scanner input = new Scanner(System.in);\n179        System.out.println(\"Enter id:\");\n180        int id = input.nextInt();\n181\n182\n183        i1.getPurpose(id);\n184\n185    }\n186}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have added the getPurpose() method. The user can issue and return the book. So, here we ask if the user wants to issue the book or return the book."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "if (purpose.equals(\"issue\")) {\n     i1.issueBook();   \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the purpose of the user equals to issue then, the issueBook() method is returned."
+    },
+    {
+      "type": "paragraph",
+      "content": "And if the purpose of the user equals to return then, the returnBook() method is returned."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

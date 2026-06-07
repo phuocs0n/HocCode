@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-functions?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Trắc nghiệm: Giả sử chúng ta có một biến cấu trúc struct Sinh viên1;. Cách chính xác để gọi hàm có biến này làm đối số là gì?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(Sinh viên);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sinh viên là tên của cấu trúc, không phải biến cấu trúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sinh viên là tên của cấu trúc, không phải biến cấu trúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "chức năng (cấu trúc);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Từ khóa struct được sử dụng để tạo cấu trúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Từ khóa struct được sử dụng để tạo cấu trúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "func(sinh viên1);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "sinh viên1 là biến cấu trúc được truyền dưới dạng đối số cho hàm."
+    },
+    {
+      "type": "paragraph",
+      "content": "sinh viên1 là biến cấu trúc được truyền dưới dạng đối số cho hàm."
+    },
+    {
+      "type": "paragraph",
+      "content": "func(struct Sinh viên sinh viên1);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "struct Sinh viên sinh viên1 được sử dụng để khai báo một biến cấu trúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "struct Sinh viên sinh viên1 được sử dụng để khai báo một biến cấu trúc."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Trắc nghiệm: Giả sử chúng ta có một biến cấu trúc struct Sinh viên1;. Cách chính xác để gọi hàm có biến này làm đối số là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:func(Sinh viên);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "func(Sinh viên);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:chức năng (cấu trúc);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "chức năng (cấu trúc);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:func(sinh viên1);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "func(sinh viên1);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:func(struct Sinh viên sinh viên1);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "func(struct Sinh viên sinh viên1);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,68 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/python-packages?page=4",
+  "title": "Use of __init__.py file",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Use of __init__.py file"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's use the __init__.py file we previously created."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a special file that runs automatically when we import a package. Let's add a simple print statement inside the __init__.py file of the game directory."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "print('Initializing game features')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, if we run the main.py file with this code:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# importing the player module\nimport game.characters.player as player\n\n# call get_player_info()\nplayer.get_player_info()"
+    },
+    {
+      "type": "paragraph",
+      "content": "The __init__.py file is automatically executed. Then, the main.py file is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Initializing game features\nI am the main player."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,77 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/making-functions-dynamic?page=2",
+  "title": "Function Arguments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Function Arguments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a slight modification to the greet() function we previously created:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function definition\n2function greet(name) {\n3    console.log(`Hello ${name}`);\n4    console.log(\"How do you do?\");\n5}\n6\n7// Function call\n8greet(\"Emma\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello Emma  \nHow do you do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you define the function as function greet(name), two important things happen:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A function named greet() is created.",
+        "A placeholder variable name is set up inside the function to accept a value (called an argument)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When you call the function using greet(\"Emma\"), the following happens:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The string \"Emma\" is passed as an argument to the function.",
+        "This value is assigned to the name variable inside the function."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Sounds confusing? Don't worry! You'll explore how this function works in detail next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

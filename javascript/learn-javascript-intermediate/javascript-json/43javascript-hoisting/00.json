@@ -1,0 +1,100 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-hoisting?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, we have used let and const for variable definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like let and const, var is also a keyword used to declare a variable in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// variable definition\n2 var age = 18;\n3\n4// variable usage\n5console.log(age);  //  Output: 18"
+    },
+    {
+      "type": "paragraph",
+      "content": "So how is it different from let and const?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A variable defined using let and const can be used only after we have defined it first."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the same case for var."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at an example:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function printAge(){\n2    \n3    // initialization of age variable \n4    age = 18; \n5    \n6    console.log(age);\n7\n8    var age; \n9}\n10\n11printAge(); // Output: 18\n12"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, age is assigned a value first, and then declared as a variable. This is possible in JavaScript because of a feature called hoisting."
+    },
+    {
+      "type": "paragraph",
+      "content": "Due to this feature, although variable declarations are done later than their usage, when running the code, this part is moved to the top of its scope."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, hoisting moves the declaration var age; to the top of its scope, so the code behaves as if the variable was declared at the beginning."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the initialization age = 18; remains where it is declared. So, when console.log(age); is executed, age has already been assigned the value 18, resulting in the output 18."
+    },
+    {
+      "type": "paragraph",
+      "content": "For better understanding, here's how JavaScript interprets the code due to hoisting:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function printAge(){\n2    // declaration is hoisted to the top of the scope\n3    var age;\n4    \n5    // initialization happens at the original line\n6    age = 18;\n7    \n8    console.log(age); // Output: 18\n9}\n10\n11printAge();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

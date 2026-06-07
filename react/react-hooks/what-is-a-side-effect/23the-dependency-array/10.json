@@ -1,0 +1,58 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=10",
+  "title": "Why the Effect Never Re-Ran",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why the Effect Never Re-Ran"
+    },
+    {
+      "type": "paragraph",
+      "content": "The effect had captured userId from the first render and never let go."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function closed over the value at the moment it was created and held that snapshot even after userId changed in state."
+    },
+    {
+      "type": "paragraph",
+      "content": "The empty [] told React \"this effect has no dependencies,\" so React never re-ran it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix was simple — remove userId from await fetch() and shift it inside the dependency array:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n  // Code\n}, [userId]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now React compares userId after every render. When it changes, the effect re-runs with the fresh value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

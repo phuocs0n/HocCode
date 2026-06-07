@@ -1,0 +1,63 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/directories?page=7",
+  "title": "Deleting a Directory or a File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Deleting a Directory or a File"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use the remove() method of the os module to remove a file. Here, rmdir stands for remove directory"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\n\nos.remove('hello.txt')"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code deletes the hello.txt file."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we use the rmdir() method of the os module to remove a directory."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\n\nos.rmdir('new')"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code removes the new directory we previously created."
+    },
+    {
+      "type": "paragraph",
+      "content": "One thing we need to remember when removing a directory is that the directory must be empty. Otherwise, an exception will be raised."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

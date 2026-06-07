@@ -1,0 +1,127 @@
+{
+  "levels": [
+    {
+      "title": "Introduction to the Course",
+      "lessons": [
+        {
+          "title": "1.1Introduction to the Course",
+          "url": "https://app.programiz.pro/course/learn-java-oop/introduction-to"
+        }
+      ]
+    },
+    {
+      "title": "Understanding OOP",
+      "lessons": [
+        {
+          "title": "2.1Understanding OOP",
+          "url": "https://app.programiz.pro/course/learn-java-oop/understanding-oop"
+        },
+        {
+          "title": "2.2Classes and Objects",
+          "url": "https://app.programiz.pro/course/learn-java-oop/classes-objects"
+        },
+        {
+          "title": "2.3Constructors",
+          "url": "https://app.programiz.pro/course/learn-java-oop/constructors"
+        },
+        {
+          "title": "2.4Public and Private Modifiers",
+          "url": "https://app.programiz.pro/course/learn-java-oop/public-private-modifiers"
+        },
+        {
+          "title": "2.5Revise OOP Basics",
+          "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-basics"
+        }
+      ]
+    },
+    {
+      "title": "Inheritance",
+      "lessons": [
+        {
+          "title": "3.1Inheritance",
+          "url": "https://app.programiz.pro/course/learn-java-oop/inheritance"
+        },
+        {
+          "title": "3.2Method Overriding",
+          "url": "https://app.programiz.pro/course/learn-java-oop/method-overriding"
+        },
+        {
+          "title": "3.3Revision: Java Inheritance",
+          "url": "https://app.programiz.pro/course/learn-java-oop/revision-java-inheritance"
+        }
+      ]
+    },
+    {
+      "title": "Abstract Method and Class",
+      "lessons": [
+        {
+          "title": "4.1Abstract Method and Class",
+          "url": "https://app.programiz.pro/course/learn-java-oop/abstract-method-class"
+        },
+        {
+          "title": "4.2Interface",
+          "url": "https://app.programiz.pro/course/learn-java-oop/interface"
+        },
+        {
+          "title": "4.3Polymorphism",
+          "url": "https://app.programiz.pro/course/learn-java-oop/polymorphism"
+        },
+        {
+          "title": "4.4Encapsulation",
+          "url": "https://app.programiz.pro/course/learn-java-oop/encapsulation"
+        },
+        {
+          "title": "4.5Revise OOP Advanced",
+          "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-advanced"
+        }
+      ]
+    },
+    {
+      "title": "Scanner class",
+      "lessons": [
+        {
+          "title": "5.1Scanner class",
+          "url": "https://app.programiz.pro/course/learn-java-oop/scanner-class"
+        },
+        {
+          "title": "5.2instanceof Operator",
+          "url": "https://app.programiz.pro/course/learn-java-oop/instanceof-operator"
+        },
+        {
+          "title": "5.3More on super Keyword",
+          "url": "https://app.programiz.pro/course/learn-java-oop/more-on-super-keyword"
+        },
+        {
+          "title": "5.4static Keyword",
+          "url": "https://app.programiz.pro/course/learn-java-oop/static-keyword"
+        },
+        {
+          "title": "5.5final keyword",
+          "url": "https://app.programiz.pro/course/learn-java-oop/final-keyword"
+        }
+      ]
+    },
+    {
+      "title": "Rock, Paper, Scissors",
+      "lessons": [
+        {
+          "title": "6.1Rock, Paper, Scissors",
+          "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors"
+        },
+        {
+          "title": "6.2Tic-tac-toe",
+          "url": "https://app.programiz.pro/course/learn-java-oop/tictactoe"
+        },
+        {
+          "title": "6.3What's Next?",
+          "url": "https://app.programiz.pro/course/learn-java-oop/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 22,
+    "sections": 6,
+    "container": "main-content"
+  }
+}

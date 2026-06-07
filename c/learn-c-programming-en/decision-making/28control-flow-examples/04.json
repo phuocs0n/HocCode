@@ -1,0 +1,46 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/control-flow-examples?page=5",
+  "title": "Print Multiplication Table (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Multiplication Table (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will create a multiplication table of a number (let's say 9) up to 5. Here's the output we are looking for."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "9 * 1 = 9\n9 * 2 = 18\n9 * 3 = 27\n9 * 4 = 36\n9 * 5 = 45"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this program, we need to iterate a loop five times from 1 to 5. And, in each iteration of the loop, we will compute the product."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

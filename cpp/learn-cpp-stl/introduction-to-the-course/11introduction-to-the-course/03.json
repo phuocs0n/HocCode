@@ -1,0 +1,70 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/introduction-to-stl-in-c?page=2",
+  "title": "STL Container",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "STL Container"
+    },
+    {
+      "type": "paragraph",
+      "content": "As the name suggests, STL containers store a collection of data (objects) for various purposes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of them as special boxes that can hold different items (data) in specific ways, depending on what you need to do with them."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three main types of containers in the STL:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Sequential container : These containers implement data structure that can be accessed sequentially. For example: vector, list, std::array etc.",
+        "Associative container: These containers store data in a way that makes searching easy and fast. The data is usually sorted. For example: map, set etc.",
+        "Container Adapters: These containers provide a simplified interface on top of other containers, helping you work with data in different ways. For example: stack, queue etc."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Basically, C++ containers are classes that provide implementations of commonly used data structures. For example,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "list - implements doubly linked lists",
+        "stack - implements stacks",
+        "queue - implements queues",
+        "and so on."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll explore sequential containers."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

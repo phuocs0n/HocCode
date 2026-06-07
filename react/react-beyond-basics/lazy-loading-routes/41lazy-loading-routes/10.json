@@ -1,0 +1,69 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/lazy-loading-routes?page=10",
+  "title": "What lazy() Actually Solves",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What lazy() Actually Solves"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "A lot of developers assume that because React Router handles navigation, the code for each route loads separately by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Router only controls which component renders at a given URL. It has no effect on how files are bundled."
+    },
+    {
+      "type": "paragraph",
+      "content": "Without lazy(), every page is still bundled together and downloaded on the first load."
+    },
+    {
+      "type": "paragraph",
+      "content": "lazy() is what creates the split. Router decides what to render, lazy() decides when to download it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wrap lazy components in Suspense. Always."
+    },
+    {
+      "type": "paragraph",
+      "content": "React will throw an error without it, and the fallback is the only way users get visual feedback while the chunk loads."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,67 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/bidirectional-iterator-using-begin?page=1",
+  "title": "Random Access Iterator Using begin()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Random Access Iterator Using begin()"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to access list elements using iterators and the begin() function."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Initialize an integer list called num with the elements 1, 2, 3, and 4.",
+        "Initialize a list iterator itr that points to the first list element using the begin() function.",
+        "Print that element by dereferencing itr.",
+        "Print the next element by incrementing itr by 1 and dereferencing it.",
+        "Continue this process until all the elements are printed."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1\n2\n3\n4"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

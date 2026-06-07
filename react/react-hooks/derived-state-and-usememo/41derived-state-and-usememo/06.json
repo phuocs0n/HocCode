@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/derived-state-usememo?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: When does useMemo() recompute its value?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "On every render, the same as regular code in the component body"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That would defeat the purpose since useMemo() exists precisely to avoid recomputing on every render."
+    },
+    {
+      "type": "paragraph",
+      "content": "That would defeat the purpose since useMemo() exists precisely to avoid recomputing on every render."
+    },
+    {
+      "type": "paragraph",
+      "content": "Whenever the component's parent re-renders"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() depends on its own dependency array, not on the parent's render cycle."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() depends on its own dependency array, not on the parent's render cycle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only when one of the values in its dependency array has changed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React caches the result and only calls the function again when a dependency has changed."
+    },
+    {
+      "type": "paragraph",
+      "content": "React caches the result and only calls the function again when a dependency has changed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only once, when the component first mounts"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() reruns whenever a dependency changes — not only on mount."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() reruns whenever a dependency changes — not only on mount."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: When does useMemo() recompute its value?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:On every render, the same as regular code in the component body",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "On every render, the same as regular code in the component body",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Whenever the component's parent re-renders",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Whenever the component's parent re-renders",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Only when one of the values in its dependency array has changed",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Only when one of the values in its dependency array has changed",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Only once, when the component first mounts",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Only once, when the component first mounts",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

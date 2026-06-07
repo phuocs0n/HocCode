@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/nonblocking-javascript?page=4",
+  "title": "Example: The setTimeout() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: The setTimeout() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before learning about how setTimeout() works, here's a simple working example of the function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"Start\");\n2\n3setTimeout( () => {\n4  console.log(\"Inside timeout\");\n5}, 0);\n6\n7console.log(\"End\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Start\nEnd\nInside timeout"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the code inside setTimeout() is delayed and executed last. This might look like it's breaking the rules of JavaScript, but that's not really the case."
+    },
+    {
+      "type": "paragraph",
+      "content": "To really understand how this program works, let's first understand how setTimeout() works in general."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

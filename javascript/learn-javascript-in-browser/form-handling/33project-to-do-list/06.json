@@ -1,0 +1,68 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/project-todo-list?page=7",
+  "title": "Validating Empty Fields",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Validating Empty Fields"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div id=\"container\">\n2    <h1 id=\"title\">To-do List</h1>\n3    <button id=\"add-list-btn\">List Item</button>\n4    <div id=\"todo-lists\"></div>\n5</div>\n6<button id=\"clear-all-btn\">Clear All</button>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    font-family: Arial, sans-serif;\n3}\n4\n5#container {\n6    color: #25265e;\n7    width: 300px;\n8}\n9\n10#add-list-btn {\n11    text-align: left;\n12    background-color: white;\n13    cursor: pointer;\n14    display: flex;\n15    align-items: center;\n16    padding: 5px;\n17    width: 100%;\n18    border: 1px solid black;\n19}\n20\n21#add-list-btn::before {\n22    content: \"+\";\n23    font-size: 24px;\n24    margin-left: 6px;\n25    margin-right: 10px;\n26}\n27\n28#add-list-btn:hover {\n29    background-color: #f0f0f0;\n30}\n31\n32ul {\n33    list-style-type: none;\n34    padding: 0;\n35}\n36\n37#clear-all-btn {\n38    background-color: #25265e;\n39    color: white;\n40    text-align: left;\n41    font-size: 14px;\n42    cursor: pointer;\n43    padding: 10px;\n44    border: none;\n45    margin-top: 10px;\n46}\n47\n48li {\n49    display: flex;\n50    align-items: center;\n51    margin: 0;\n52    padding: 5px;\n53    border: 1px solid black;\n54    border-top: none;\n55}\n56\n57input[type=\"checkbox\"] {\n58    margin-right: 10px;\n59}\n60\n61.delete {\n62    background-color: transparent;\n63    cursor: pointer;\n64    border: none;\n65    margin-left: 10px;\n66    padding: 5px 10px;\n67}\n68\n69.delete:hover {\n70    font-weight: bold;\n71    background-color: #f1f1f1;\n72}\n73\n74input[type=\"text\"] {\n75    color: #25265ede;\n76    background-color: transparent;\n77    flex-grow: 1;\n78    border: none;\n79    outline: none;\n80}\n81\n82input[type=\"text\"]:focus {\n83    border-bottom: 1px solid black;\n84}\n85\n86.completed {\n87    text-decoration: line-through;\n88}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1addListBtn.addEventListener(\"click\", () => {\n2    // Gather all text fields from list.\n3    const existingInputs = document.querySelectorAll(\"#todo-lists input[type='text']\");\n4\n5    // Check for empty text field.\n6    for (const input of existingInputs) {\n7        if (input.value.trim() === \"\") {\n8            window.alert(\"Please fill in the current task before adding a new one!\");\n9            input.focus();\n10            return;\n11        }\n12    }\n13\n14    ...\n15});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code and click the \"+ List Item\" button multiple times."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice you'll get an alert prompting you to fill the current task before adding a new one."
+    },
+    {
+      "type": "paragraph",
+      "content": "This ensures each task is properly filled out before adding new tasks."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, it's time to work on the \"Clear All\" button."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

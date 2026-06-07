@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/greatest-factor-of-number?page=1",
+  "title": "Greatest Factor of Number (Using Loop)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Greatest Factor of Number (Using Loop)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to print the greatest factor of a number besides itself using a loop."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input and assign it to the number variable.",
+        "Create a for loop that runs from i = number - 1 to i = 1.",
+        "Inside the loop, check if number is perfectly divisible by i and break the loop."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input14"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output7"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

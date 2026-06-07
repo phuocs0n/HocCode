@@ -1,0 +1,45 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/responsive-design/what-to-explore-next?page=5",
+  "title": "Container Queries",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Container Queries"
+    },
+    {
+      "type": "paragraph",
+      "content": "Media queries look at the viewport width. But what if the same component lives in a narrow sidebar on one page and a wide main column on another?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Container queries look at the width of the parent element instead of the viewport. The component responds to its own context, not the screen size."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a newer feature but browser support is solid now. Worth knowing about."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

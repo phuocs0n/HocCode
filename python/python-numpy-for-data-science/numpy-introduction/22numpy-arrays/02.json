@@ -1,0 +1,101 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-arrays?page=3",
+  "title": "Creating an Array Using Python List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating an Array Using Python List"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, let's recall how to create Python lists:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# create list of numbers\n2numbers = [1, 2, 3, 4, 5, 6]\n3print(numbers)\n4\n5# Output: [1, 2, 3, 4, 5, 6]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example we have created a list of numbers by placing comma separated elements inside square brackets []."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use this list to create a 1-D NumPy array."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create list of numbers\n4numbers = [1, 2, 3, 4, 5, 6]\n5\n6\n7# create numpy array using the numbers list\n8np_array = np.array(numbers)\n9\n10\n11print(np_array)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[1 2 3 4 5 6]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've created a NumPy array from the numbers list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the line,"
+    },
+    {
+      "type": "paragraph",
+      "content": "np_array = np.array(numbers)"
+    },
+    {
+      "type": "paragraph",
+      "content": "the np.array() method creates an array from the numbers list and assigns it to the np_array variable. The output is a NumPy array."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also directly pass the list elements to np.array(). For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3\n4# create numpy array using a list\n5np_array = np.array([1, 2, 3, 4, 5, 6])\n6\n7\n8print(np_array)\n9\n10# Output: [1 2 3 4 5 6]"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is similar to our previous example."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: NumPy arrays are preferred over Python lists because they are implemented in C, making them faster and more efficient. Also, NumPy supports vectorized operations, allowing you to perform mathematical operations on entire arrays at once."
+    },
+    {
+      "type": "paragraph",
+      "content": "These features of NumPy arrays make working with large amounts of data easier when compared to Python lists."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

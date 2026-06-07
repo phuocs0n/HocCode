@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/hashmap?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is true about a hashmap?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A hashmap is a type of data structure that is always sorted."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Typically, hashmaps are not sorted in any order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Typically, hashmaps are not sorted in any order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps support faster lookups, insertion, and deletion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lookups, insertion, and deletion in hashmaps are indeed faster."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lookups, insertion, and deletion in hashmaps are indeed faster."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps are like arrays; they are used to store a collection of values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps store values as a key-value pair; they are totally different from arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps store values as a key-value pair; they are totally different from arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps are poor at handling data collision, so they have high chances of data corruption."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps handle collisions excellently, thus preventing the risk of data corruption."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashmaps handle collisions excellently, thus preventing the risk of data corruption."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is true about a hashmap?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A hashmap is a type of data structure that is always sorted.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A hashmap is a type of data structure that is always sorted.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Hashmaps support faster lookups, insertion, and deletion.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Hashmaps support faster lookups, insertion, and deletion.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Hashmaps are like arrays; they are used to  store a collection of values.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Hashmaps are like arrays; they are used to  store a collection of values.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Hashmaps are poor at handling data collision, so they have high chances of data corruption.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Hashmaps are poor at handling data collision, so they have high chances of data corruption.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

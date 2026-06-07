@@ -1,0 +1,62 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/while-loop?page=2",
+  "title": "The while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of of the while loop is:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "while (boolean_expression) {\n    // statement(s)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The while loop evaluates the boolean expression. If it's true, the body of the while loop is executed. Up until this point, it's similar to the if statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, unlike the if statement, the boolean expression is checked again once the body of the loop has been executed. If it's true, the body of the loop is executed again."
+    },
+    {
+      "type": "paragraph",
+      "content": "This process continues until the boolean expression is false. If the boolean expression becomes false, the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Seems hard? Let's try to understand it with the help of an example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

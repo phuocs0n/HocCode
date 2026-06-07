@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/variable-arguments?page=3",
+  "title": "Example: Add Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Add Numbers"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def add_numbers(*numbers):\n2    \n3    # calculate sum of tuple items\n4    total = 0\n5    for number in numbers:\n6        total = total + number\n7        \n8    return total\n9\n10# call add_numbers with two arguments\n11result = add_numbers(5, 10)\n12print(result)    # 15\n13\n14# call add_numbers with three arguments\n15result = add_numbers(5, 10, 20)\n16print(result)    # 35"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the function definition, numbers can take any number of arguments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since numbers will be a tuple, we have used a for loop to find the sum of individual items of the tuple and returned it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

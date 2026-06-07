@@ -1,0 +1,46 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/creating-static-entry-card?page=2",
+  "title": "Add the Entry Card",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add the Entry Card"
+    },
+    {
+      "type": "paragraph",
+      "content": "Below the header, you'll be adding a <div> with a title and some text content:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  return (\n3    <div>\n4      <header>\n5        <h2>My Daily Journal</h2>\n6        <p>Capture your thoughts, one entry at a time</p>\n7      </header>\n8      <div>\n9        <h2>First Day at the Job</h2>\n10        <p>Today was my first day at the new job. Everyone was welcoming and helpful. I'm excited to learn more about the team and start contributing.</p>\n11      </div>\n12    </div>\n13  );\n14}\n15\n16export default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. You should see the header and the entry card below it in the output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

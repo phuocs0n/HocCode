@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/fibonacci-series-using-dynamic-programming?page=4",
+  "title": "Fibonacci Series Using Memoization",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Fibonacci Series Using Memoization"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we can generate the Fibonacci series using memoization."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <unordered_map>\n3using namespace std;\n4\n5unordered_map<int, int> fib = {{0, 0}, {1, 1}};\n6\n7int Fibonacci(int n) {\n8    // If we already have the result, just use it\n9    if (fib.find(n) != fib.end()) {\n10        return fib[n];\n11    }\n12    // Otherwise compute\n13    fib[n] = Fibonacci(n - 1) + Fibonacci(n - 2);\n14    return fib[n];\n15}\n16\n17int main() {\n18    int result = Fibonacci(4);\n19    cout << result << endl;\n20\n21    return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll see how this code works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

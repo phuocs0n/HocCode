@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2?page=5",
+  "title": "Finding the Number of Employees in Each Department",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding the Number of Employees in Each Department"
+    },
+    {
+      "type": "paragraph",
+      "content": "You are asked to find the number of employees in each department of the company. This is necessary to ensure a balanced workforce."
+    },
+    {
+      "type": "paragraph",
+      "content": "To achieve this, use GROUP BY with COUNT() aggregate function."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group employees by departments\n2-- Find the number of employees in each department\n3\n4SELECT department, COUNT(*) AS num_of_employees\n5FROM Employees\n6GROUP BY department;"
+    },
+    {
+      "type": "paragraph",
+      "content": "These insights help the company ensure that the workforce is balanced."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

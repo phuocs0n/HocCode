@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/polymorphism?page=1",
+  "title": "Introduction to Polymorphism",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Polymorphism"
+    },
+    {
+      "type": "paragraph",
+      "content": "Polymorphism is another important concept of object-oriented programming. It simply means more than one form. That is, the same entity (method or operator) can perform different operations in different scenarios."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the working of the + operator. It can be used to perform numeric addition as well as string concatenation."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        // use + to add two numbers\n5        int result = 5 + 1;\n6        System.out.println(\"Sum: \" + result);\n7\n8        // use + to join two strings\n9        String joinedString = \"Hello \" + \"World\";\n10        System.out.println(\"Joined String: \" + joinedString);\n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum: 6\nJoined String: Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have used the same + operator to perform two different tasks:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "5 + 1 - adds two numbers",
+        "\"Hello \" + \"World\" - joins two strings"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the + operator has two different forms. It is an example of Polymorphism."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

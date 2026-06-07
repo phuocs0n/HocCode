@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/wildcards?page=1",
+  "title": "Introducion to Wildcard Characters",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introducion to Wildcard Characters"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, we used % to match patterns in text using the LIKE operator. This character is also known as a wildcard."
+    },
+    {
+      "type": "paragraph",
+      "content": "A wildcard is a special character used with the LIKE operator to match patterns in text data."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn about the two common wildcards in SQL:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "%",
+        "_"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with % wildcard."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

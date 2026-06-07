@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/introduction-1?page=2",
+  "title": "Basic Time Complexity Example",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Basic Time Complexity Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's revisit the code we previously wrote."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1total = 0 \n2n = 1000\n3\n4# iterate n times\n5for i in range(1, n + 1):\n6   total = total + i\n7\n8print(total)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "500500"
+    },
+    {
+      "type": "paragraph",
+      "content": "How does this relate to time complexity?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's analyze the number of steps this code takes based on the value of n:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "5: The loop runs 5 steps",
+        "2000: The loop runs 2000 steps"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, for any value of n, our code takes n steps to run."
+    },
+    {
+      "type": "paragraph",
+      "content": "This calculation is independent of the device or programming language we are using."
+    },
+    {
+      "type": "paragraph",
+      "content": "Takeaway: Time complexity helps us understand performance in a way that applies universally, regardless of where or how the code runs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

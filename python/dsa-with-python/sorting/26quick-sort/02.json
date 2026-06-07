@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/quick-sort?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: If we use quick sort to arrange elements in ascending order, elements that are less than the pivot are moved to the ___ sublist."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "left"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements less than the pivot are moved to the left sublist during the partitioning step."
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements less than the pivot are moved to the left sublist during the partitioning step."
+    },
+    {
+      "type": "paragraph",
+      "content": "right"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements greater than the pivot are moved to the right sublist during the partitioning step."
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements greater than the pivot are moved to the right sublist during the partitioning step."
+    },
+    {
+      "type": "paragraph",
+      "content": "center"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a center sublist during its sorting process."
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a center sublist during its sorting process."
+    },
+    {
+      "type": "paragraph",
+      "content": "bottom"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a bottom sublist during its sorting process."
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a bottom sublist during its sorting process."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements less than the pivot are moved to the left sublist during the partitioning step."
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements less than the pivot are moved to the left sublist during the partitioning step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements greater than the pivot are moved to the right sublist during the partitioning step."
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements greater than the pivot are moved to the right sublist during the partitioning step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a center sublist during its sorting process."
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a center sublist during its sorting process."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a bottom sublist during its sorting process."
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick sort does not use a bottom sublist during its sorting process."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: If we use quick sort to arrange elements in ascending order, elements that are less than the pivot are moved to the ___ sublist.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:left",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "left",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:right",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "right",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:center",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "center",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:bottom",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "bottom",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

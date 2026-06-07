@@ -1,0 +1,75 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/check-leap-year?page=1",
+  "title": "Check Leap Year",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Leap Year"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check if a year is a leap year or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "A leap year is exactly divisible by 4 except for century years (years ending by 00). The century year is a leap year only if it is perfectly divisible by 400."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer year input for the year variable.",
+        "Use the if condition to check if the year is perfectly divisible by 400. If true, print Leap Year.",
+        "Use an else if condition to check if the year is perfectly divisible by 4 and doesn't end with 00 (not divisible by 100). If true, print Leap Year.",
+        "Otherwise, print Not a Leap Year."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input2004"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputLeap Year"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

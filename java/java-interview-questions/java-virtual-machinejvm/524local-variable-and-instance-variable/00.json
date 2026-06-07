@@ -1,0 +1,77 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/local-variable-instance-variable?page=1",
+  "title": "Can you explain the difference between a local variable and an instance variable in Java?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Can you explain the difference between a local variable and an instance variable in Java?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java instance variable is a variable that is declared within the class (outside method) and is associated with the object of the class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public class Person {\n    \n    // instance variable\n    private String name; \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can access the instance variable from method or constructor of the same class or its subclasses."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public static void main (String[] args) {\n        \n    Person obj = new Person();\n    \n    // access instance variable name \n    obj.name = \"Simmy\";\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The lifetime of an instance variable is tied to the lifetime of the object they belong to."
+    },
+    {
+      "type": "paragraph",
+      "content": "On the contrary, a local variable is defined within a method or a block of code."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public void add() {\n    int number = 11;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local variables are only visible and can be accessed within the method or block in which they are defined."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public void print() {\n    \n    // error code\n    // cannot access local variable number\n    System.out.println(number);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "They are created when the method or block is entered and destroyed when it exits, and their lifetime is limited to the execution of the code that defines them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

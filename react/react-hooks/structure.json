@@ -1,0 +1,102 @@
+{
+  "levels": [
+    {
+      "title": "Introduction",
+      "lessons": [
+        {
+          "title": "1.1Introduction",
+          "url": "https://app.programiz.pro/course/react-hooks/introduction"
+        }
+      ]
+    },
+    {
+      "title": "What Is a Side Effect?",
+      "lessons": [
+        {
+          "title": "2.1What Is a Side Effect?",
+          "url": "https://app.programiz.pro/course/react-hooks/what-is-side-effect"
+        },
+        {
+          "title": "2.2Loading and Error States",
+          "url": "https://app.programiz.pro/course/react-hooks/loading-error-states"
+        },
+        {
+          "title": "2.3The Dependency Array",
+          "url": "https://app.programiz.pro/course/react-hooks/dependency-array"
+        }
+      ]
+    },
+    {
+      "title": "What Is a Ref?",
+      "lessons": [
+        {
+          "title": "3.1What Is a Ref?",
+          "url": "https://app.programiz.pro/course/react-hooks/what-is-ref"
+        },
+        {
+          "title": "3.2Focusing the Search Input",
+          "url": "https://app.programiz.pro/course/react-hooks/focusing-search-input"
+        },
+        {
+          "title": "3.3The Entry Detail Drawer",
+          "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer"
+        }
+      ]
+    },
+    {
+      "title": "Derived State and useMemo()",
+      "lessons": [
+        {
+          "title": "4.1Derived State and useMemo()",
+          "url": "https://app.programiz.pro/course/react-hooks/derived-state-usememo"
+        },
+        {
+          "title": "4.2Building the Search Feature",
+          "url": "https://app.programiz.pro/course/react-hooks/building-search-feature"
+        },
+        {
+          "title": "4.3Building Pagination",
+          "url": "https://app.programiz.pro/course/react-hooks/building-pagination"
+        },
+        {
+          "title": "4.4useCallback(): When Functions Change Too Often",
+          "url": "https://app.programiz.pro/course/react-hooks/usecallback-when-functions-change-too-often"
+        }
+      ]
+    },
+    {
+      "title": "What Makes a Custom Hook?",
+      "lessons": [
+        {
+          "title": "5.1What Makes a Custom Hook?",
+          "url": "https://app.programiz.pro/course/react-hooks/what-makes-custom-hook"
+        },
+        {
+          "title": "5.2Building useFetch()",
+          "url": "https://app.programiz.pro/course/react-hooks/building-usefetch"
+        },
+        {
+          "title": "5.3Building useSearch()",
+          "url": "https://app.programiz.pro/course/react-hooks/building-usesearch"
+        },
+        {
+          "title": "5.4Building usePagination()",
+          "url": "https://app.programiz.pro/course/react-hooks/building-usepagination"
+        },
+        {
+          "title": "5.5Conclusion",
+          "url": "https://app.programiz.pro/course/react-hooks/conclusion"
+        },
+        {
+          "title": "5.6What's Next?",
+          "url": "https://app.programiz.pro/course/react-hooks/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 17,
+    "sections": 5,
+    "container": "main-content"
+  }
+}

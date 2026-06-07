@@ -1,0 +1,101 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-basics/project-rock-paper-scissors?page=3",
+  "title": "Step 2: Make Computer Randomly Choose a Value",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Make Computer Randomly Choose a Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, in the next stop, we'll use the random number to make the computer choose between either rock, paper, or scissors."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If the random number is 1, it means the computer's pick is rock.",
+        "If the random number is 2, it means the computer's pick is paper.",
+        "If the random number is 3, it means the computer's pick is scissors."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's implement this logic inside a method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    String getComputerChoice() {\n4\n5        String computerChoice;\n6        // Get an integer from 1 to 3\n7        int randomNumber = (int) (Math.random() * 3) + 1;\n8\n9        if (randomNumber == 1) {\n10            computerChoice = \"rock\";\n11        }\n12\n13        else if (randomNumber == 2) {\n14            computerChoice = \"paper\";\n15        }\n16\n17        else {\n18            computerChoice = \"scissors\";\n19        }\n20\n21    return computerChoice;\n22    }\n23\n24    public static void main(String[] args) {\n25\n26        Main obj = new Main();\n27\n28        // Get the computer's choice\n29        String computerChoice = obj.getComputerChoice();\n30        System.out.println(computerChoice);\n31    }\n32}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "scissors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "rock"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, a random number from 1 to 3 is assigned to the randomNumber variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we used an if .. else statement to assign the corresponding value to the computerChoice variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the number is:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 - computer's pick is rock",
+        "2 - computer's pick is paper",
+        "3 - computer's pick is scissors"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Technically, this method returns a random value among \"rock\", \"paper\", and \"scissors\"."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

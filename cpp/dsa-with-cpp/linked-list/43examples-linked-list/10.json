@@ -1,0 +1,97 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-linked-list?page=11",
+  "title": "Thought Process: Reverse Elements of a Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Reverse Elements of a Linked List"
+    },
+    {
+      "type": "paragraph",
+      "content": "To reverse the elements of a linked list we can perform the following steps:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a vector to store the values of the node"
+    },
+    {
+      "type": "paragraph",
+      "content": "To reverse the elements in a linked list, we first need to get all the values of the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, let's create a vector to store the values of the list elements."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int> list_data;"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Insert the node values into the vector"
+    },
+    {
+      "type": "paragraph",
+      "content": "We traverse through the entire list and insert the node values into the vector."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Node<T>* current = head;\nwhile (current != nullptr){\n    list_data.emplace_back(current -> data);\n    current = current -> next;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Reverse the vector"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we have the values, we need to reverse their order. For this, we'll be using STL's reverse function."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "reverse(list_data.begin(), list_data.end());"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Assign the reversed values to the nodes of the linked list."
+    },
+    {
+      "type": "paragraph",
+      "content": "We now need to update the node values on the linked list in the order they appear in the vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we'll start at the head node and change the value of each node."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Start from the head node\ncurrent = head;\n// Iterate through the vector\nfor(int val: list_data){\n    // Change the value of current node\n    current->data = val;\n    // Move to the next node\n    current = current->next;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

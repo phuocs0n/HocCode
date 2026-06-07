@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-lambda?page=3",
+  "title": "In-place Lambda",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "In-place Lambda"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can invoke the lambda expression in place as well i.e. right after its definition."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3using namespace std;\n4\n5int main(){\n6    auto val = [](int x, int y) -> int {\n7        return x + y;\n8    } (5,5);\n9\n10\n11    cout << \"The sum is : \" << val;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The sum is : 10"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, (5, 5) right after the closing curly brace invokes the lambda expression and the return value is stored into the val variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

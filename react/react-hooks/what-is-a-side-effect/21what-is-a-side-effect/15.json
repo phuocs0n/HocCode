@@ -1,0 +1,131 @@
+{
+  "index": 15,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-side-effect?page=15",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What problem occurs if you call fetch() directly inside the component body and update state with the result?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each render triggers a fetch, which calls setEntries(), which triggers another render, resulting in an infinite loop"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting state during render causes a re-render; that re-render runs the fetch again."
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting state during render causes a re-render; that re-render runs the fetch again."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() is not available inside React components"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() is a browser API; it's available anywhere, including inside components."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() is a browser API; it's available anywhere, including inside components."
+    },
+    {
+      "type": "paragraph",
+      "content": "The data returned from fetch cannot be stored in useState()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The mapped data is a plain array, so useState() handles it fine. The issue is what happens when fetch runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "The mapped data is a plain array, so useState() handles it fine. The issue is what happens when fetch runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "React blocks any async code from running in components"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not block async code. The issue is structural, i.e., it runs on every render."
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not block async code. The issue is structural, i.e., it runs on every render."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What problem occurs if you call fetch() directly inside the component body and update state with the result?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Each render triggers a fetch, which calls setEntries(), which triggers another render, resulting in an infinite loop",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Each render triggers a fetch, which calls setEntries(), which triggers another render, resulting in an infinite loop",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:fetch() is not available inside React components",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "fetch() is not available inside React components",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The data returned from fetch cannot be stored in useState()",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The data returned from fetch cannot be stored in useState()",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:React blocks any async code from running in components",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "React blocks any async code from running in components",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

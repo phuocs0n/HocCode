@@ -1,0 +1,82 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/directories?page=4",
+  "title": "List All Directories and Files",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "List All Directories and Files"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can list all files and subdirectories inside a directory by using the listdir() method of the os module (listdir stands for list directories). For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\nprint(os.listdir())"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code returns a list of all the files and subdirectories in the current working directory."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "['external', 'main.py']"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Get Files and Directories of a Specific Path"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can get files and directories of a specific location by passing the path argument inside the listdir() method. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\nprint(os.listdir('D:/Projects'))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[Scraper, test.js, GoogleDocsAPI]"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code lists all the files and directories located inside D:/Projects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

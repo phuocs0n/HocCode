@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=4",
+  "title": "Tính điểm học sinh",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tính điểm học sinh"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Compute grade and return it\n4char computeGrade(double averageScore) {\n5\n6    char grade;\n7  \n8    if (averageScore >= 80.0) {\n9        grade = 'A';\n10    }\n11    else if (averageScore >= 60.0) {\n12        grade = 'B';\n13    }\n14    else if (averageScore >= 50.0) {\n15      grade = 'C';\n16    }\n17    else {\n18        grade = 'F';\n19    }\n20\n21    return grade;\n22}\n23\n24int main() {\n25\n26    double averageScore = 67.80;\n27\n28    char grade = computeGrade(averageScore);\n29    printf(\"%c\", grade);  // Output: B\n30\n31    return 0;\n32}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, hàm tínhGrade() tính điểm của học sinh dựa trên điểm trung bình và trả về điểm đó."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng tôi sẽ kết hợp chương trình này với chương trình trước để hoàn thành dự án của mình."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

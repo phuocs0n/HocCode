@@ -1,0 +1,203 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-hashing?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we have a hash function, H(x) = (x - 5) mod 10."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we apply this function to the keys: 11, 12, and 20, what hash values will we get?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "6, 7 and 5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 11 will be 6.The hash value of 12 will be 7.The hash value of 20 will be 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 11 will be 6."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 12 will be 7."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 20 will be 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "1, 2 and 0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is subtracted from each key before the mod takes place."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is subtracted from each key before the mod takes place."
+    },
+    {
+      "type": "paragraph",
+      "content": "6, 7 and 15"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash function mods the key by 10 after subtraction."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash function mods the key by 10 after subtraction."
+    },
+    {
+      "type": "paragraph",
+      "content": "11, 12 and 20"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash values and keys are not the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash values and keys are not the same."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 11 will be 6.The hash value of 12 will be 7.The hash value of 20 will be 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 11 will be 6."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 12 will be 7."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash value of 20 will be 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is subtracted from each key before the mod takes place."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is subtracted from each key before the mod takes place."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash function mods the key by 10 after subtraction."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash function mods the key by 10 after subtraction."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash values and keys are not the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hash values and keys are not the same."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we have a hash function, H(x) = (x - 5) mod 10.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:6, 7 and 5",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "6, 7 and 5",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:1, 2 and 0",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "1, 2 and 0",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:6, 7 and 15",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "6, 7 and 15",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:11, 12 and 20",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "11, 12 and 20",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

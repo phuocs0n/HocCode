@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/big-o-complexity-chart?page=2",
+  "title": "Convert O(n2)O(n^2)O(n2) to O(n) Complexity",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Convert O(n2)O(n^2)O(n2) to O(n) Complexity"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example of how we can rewrite a program and improve its time complexity. As we do so, we will achieve the same result, but drastically improve the performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Problem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a list of integers, num_list, and an integer, target_value, let's find the indices of the two numbers such that they add up to the target_value. Our goal is to implement this solution efficiently, reducing its time complexity from O(n²) to O(n)."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Suppose:\nnum_list = [2, 7, 11, 15]\ntarget_value = 9\n\nThe output should be:\n[0, 1]\n\nReason:\n2 plus 7 is 9.\nThe index of 2 and 7 is 0 and 1 respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take another example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Suppose:\nnum_list = [2, 7, 11, 15]\ntarget_value = 22\n\nThe output should be:\n[1, 3]\n\nReason:\n7 plus 15 is 22.\nThe index of 7 and 15 is 1 and 3 respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will solve this problem with different complexities."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

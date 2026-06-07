@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/responsive-design/what-to-explore-next?page=2",
+  "title": "Fluid Typography with clamp()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Fluid Typography with clamp()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now your h1 has a fixed font size. It looks great on desktop but can feel too large on a 320px phone."
+    },
+    {
+      "type": "paragraph",
+      "content": "clamp() lets a value scale smoothly between a minimum and maximum based on the viewport width. No media query needed."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "h1 {\n  font-size: clamp(1.75rem, 5vw + 1rem, 3.75rem);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "On a small screen it's at least 1.75rem. On a large screen it's at most 3.75rem. In between it scales fluidly. One line replaces a media query."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, lets see responsive images."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/deque?page=2",
+  "title": "Create and Initialize a Deque",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create and Initialize a Deque"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Create a Deque"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to import the deque header file to use the STL deque. Then, we can use the deque keyword to create a deque container."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Include deque header file\n#include <deque>\n\n// Create an double deque\ndeque<double> numbers;"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Initialize a Deque"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike a queue, we can initialize a deque using the following methods."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Method 1\ndeque<double> numbers1 = {5.7, 2.95, 3.33};\n\n// Method 2: Uniform Initialization\ndeque<double> numbers2 {5.7, 2.95, 3.33};\n\n// Method 3: Fill Constructor method\n// numbers3 = {2.95, 2.95, 2.95, 2.95, 2.95};\ndeque<double> numbers3(5, 2.95);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

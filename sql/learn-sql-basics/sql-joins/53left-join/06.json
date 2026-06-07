@@ -1,0 +1,136 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/left-join?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which table is the left table in the following SQL statement?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT e.first_name, e.last_name, d.manager\nFROM Employees e\nJOIN Departments d\nON e.department = d.department_name;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Customers table is the left table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We haven't used the Customers table in the above query."
+    },
+    {
+      "type": "paragraph",
+      "content": "We haven't used the Customers table in the above query."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Employees table is the left table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Employees is the left table because it is the first table in the above query."
+    },
+    {
+      "type": "paragraph",
+      "content": "Employees is the left table because it is the first table in the above query."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Departments table is the left table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Departments is not the left table because it is not the first table in the above query."
+    },
+    {
+      "type": "paragraph",
+      "content": "Departments is not the left table because it is not the first table in the above query."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which table is the left table in the following SQL statement?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The Customers table is the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The Customers table is the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The Employees table is the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The Employees table is the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The Departments table is the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The Departments table is the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

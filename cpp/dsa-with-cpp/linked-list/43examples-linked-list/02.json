@@ -1,0 +1,47 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-linked-list?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Member function to find the largest element in a linked list\n2int find_largest(){\n3    // Start from the head of the list\n4    Node<T>* current = head;\n5    // Initialize with the data of the first node\n6    int largest = current->data;\n7    // Iterate over each node in the list\n8    while(current != nullptr){\n9        // If current node's data is greater,\n10        // update largest\n11        if (current->data > largest){\n12            largest = current->data;\n13        }\n14        // Move to the next node in the list\n15        current = current->next;\n16    }\n17    // Return the largest element found in the list\n18    return largest;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Current Linked List:\n85->90->78->92->88->nullptr\n\nLargest Value: 92"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

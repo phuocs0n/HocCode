@@ -1,0 +1,54 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=3",
+  "title": "The Three Forms",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Three Forms"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three ways to write the second argument of useEffect(), and each produces different behavior:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Form 1: No array\n// Runs after every render. Rarely what you want for a fetch\nuseEffect(function () {\n  // ...\n});\n\n// Form 2: Empty array\n// Runs only once, when the component first mounts.\nuseEffect(function () {\n  // ...\n}, []);\n\n// Form 3: With dependencies\n// Runs on mount AND whenever any listed value changes.\nuseEffect(function () {\n  // ...\n}, [query]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Form 3 is what makes an effect respond to changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see that the dependency array in Form 3 has the query state. This means that useEffect() will re-run every time query changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Please note that the dependency array can hold any number of values: state variables, props, or context values. We'll see how to do that next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

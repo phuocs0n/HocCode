@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/print-string-in-date-format?page=1",
+  "title": "Print in Date Format",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print in Date Format"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to print the date in the given format."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get three string inputs: day, month, and year.",
+        "Print them in this format: month/day/year"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: Use the + operator to concatenate strings."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input10\n01\n2000"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output01/10/2000"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

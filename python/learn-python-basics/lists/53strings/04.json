@@ -1,0 +1,86 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/strings?page=4",
+  "title": "Escape Sequences",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Escape Sequences"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose, we want to print a string like this:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "\"What's there?\", asked Paul"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since there are quotation marks in it, we have to use \\' to indicate ' and \\\" to indicate \". For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1text = \"\\\"What\\'s there?\\\", asked Paul\"\n2print(text)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "\"What's there?\", asked Paul"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, \\' and \\\" are called escape sequences. They allow us to include special characters in strings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Another commonly used escape sequence is \\n, which is used for newline (next line)."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(\"Hey\\nHello\\nHowdy?\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hey\nHello\nHowdy?"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, when \\n is encountered, it's treated as a newline."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

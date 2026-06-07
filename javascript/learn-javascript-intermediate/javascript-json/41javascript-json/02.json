@@ -1,0 +1,135 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-json?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct syntax of JSON?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "{\n    \"name\": \"John\";\n    \"age\": 22;\n    \"gender\": \"male\"\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The key-value pairs are separated by a comma , not a semi-colon ;."
+    },
+    {
+      "type": "paragraph",
+      "content": "The key-value pairs are separated by a comma , not a semi-colon ;."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "(\n    \"name\": \"John\",\n    \"age\": 22,\n    \"gender\": \"male\"\n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON objects are written inside curly braces."
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON objects are written inside curly braces."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "{\n    \"name\": \"John\",\n    \"age\": 22,\n    \"gender\": \"male\"\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON objects are written inside curly braces { } and contain multiple key-value pairs separated by a comma ,."
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON objects are written inside curly braces { } and contain multiple key-value pairs separated by a comma ,."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "{\n    \"name\" : \"John\",\n    \"gender\" : \"male\",\n    \"age\" : findAge()\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON data cannot contain functions as values."
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON data cannot contain functions as values."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct syntax of JSON?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:{\n    \"name\": \"John\";\n    \"age\": 22;\n    \"gender\": \"male\"\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "{\n    \"name\": \"John\";\n    \"age\": 22;\n    \"gender\": \"male\"\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(\n    \"name\": \"John\",\n    \"age\": 22,\n    \"gender\": \"male\"\n)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(\n    \"name\": \"John\",\n    \"age\": 22,\n    \"gender\": \"male\"\n)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:{\n    \"name\": \"John\",\n    \"age\": 22,\n    \"gender\": \"male\"\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "{\n    \"name\": \"John\",\n    \"age\": 22,\n    \"gender\": \"male\"\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:{\n    \"name\" : \"John\",\n    \"gender\" : \"male\",\n    \"age\" : findAge()\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "{\n    \"name\" : \"John\",\n    \"gender\" : \"male\",\n    \"age\" : findAge()\n}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

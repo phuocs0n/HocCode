@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/distinct-with-group-by?page=1",
+  "title": "What will happen if we execute the following query?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What will happen if we execute the following query?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT DISTINCT item, COUNT()\n2FROM Products\n3GROUP BY item\n4HAVING COUNT() > 1;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will return the distinct items and their corresponding counts from the Products table, but only for those categories that have more than one product."
+    },
+    {
+      "type": "paragraph",
+      "content": "In our case, none of the distinct items on the table have more than one count."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, we get an \"SQL query successfully executed. However, the result set is empty.\" message."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

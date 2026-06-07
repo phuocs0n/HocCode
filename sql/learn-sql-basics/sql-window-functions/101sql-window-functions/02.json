@@ -1,0 +1,57 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-window-functions?page=3",
+  "title": "Employee Salary Table and Task",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Employee Salary Table and Task"
+    },
+    {
+      "type": "paragraph",
+      "content": "To compare employee salaries with the company average, you first need to review the existing salary data."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT * \n2FROM Employees"
+    },
+    {
+      "type": "paragraph",
+      "content": "As a data analyst, you have a task to compare each employee's salary with the company's average salary. You'll achieve this in two ways:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Using an aggregate function",
+        "Using a window function"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with the aggregate function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

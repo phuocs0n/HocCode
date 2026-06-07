@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/about-this?page=3",
+  "title": "What you'll build",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What you'll build"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of this course, you'll build a mini quiz that:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "asks multiple-choice questions",
+        "keeps track of score",
+        "decides pass or fail",
+        "allows replay or quit"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "It runs in the console, but it behaves like a real game. Every line of code you write will move you closer to that goal."
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, just click on the Run Code button. You can see what the final code looks like. Don't worry about understanding it yet - we'll build up to it piece by piece."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Ask each quiz question one by one and check the user's answer\n2// Keep track of the score and remember which questions were wrong\n3// At the end, decide pass or fail and ask if the user wants to replay"
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll understand each part by the end. Let's get there together."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

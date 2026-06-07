@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/showing-empty-state?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the main reason to show an explicit No entries yet message instead of leaving the list area blank?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To improve performance when the list is empty"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The reason is user experience, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "The reason is user experience, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the user knows the app is working and what to do next"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Empty space can look like an error; a message fixes this issue by giving the appropriate feedback."
+    },
+    {
+      "type": "paragraph",
+      "content": "Empty space can look like an error; a message fixes this issue by giving the appropriate feedback."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because React requires something to be rendered in every branch"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React allows null or empty. Instead, the message is there to provide clarity for the user."
+    },
+    {
+      "type": "paragraph",
+      "content": "React allows null or empty. Instead, the message is there to provide clarity for the user."
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent errors when entries is an empty array"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript map returns [] on an empty array. Instead; the reason is improved user experience."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript map returns [] on an empty array. Instead; the reason is improved user experience."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the main reason to show an explicit No entries yet message instead of leaving the list area blank?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To improve performance when the list is empty",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To improve performance when the list is empty",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So the user knows the app is working and what to do next",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So the user knows the app is working and what to do next",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because React requires something to be rendered in every branch",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because React requires something to be rendered in every branch",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To prevent errors when entries is an empty array",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To prevent errors when entries is an empty array",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

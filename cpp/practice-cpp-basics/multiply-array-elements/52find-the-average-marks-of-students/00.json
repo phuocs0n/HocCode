@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/find-average-marks-of-students?page=1",
+  "title": "Find the Average Marks of Students",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find the Average Marks of Students"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the average marks of a student."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a double array named marks of size 4.",
+        "Get input values from the user.",
+        "Find the sum of all the elements present in the array.",
+        "Divide the sum by 4.0 to find the average marks.",
+        "Print the average."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input96.5\n72\n45.5\n39"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output63.25"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

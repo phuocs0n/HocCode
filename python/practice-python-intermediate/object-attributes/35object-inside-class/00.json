@@ -1,0 +1,86 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-intermediate/object-inside-class?page=1",
+  "title": "Object Inside Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Object Inside Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to create an object of one class inside another class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create Classes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two classes: Engine with attribute power, and Vehicle with attributes: wheels and engine.",
+        "Use the __init__() method with two arguments: self and power to create and initialize the power attribute of the Engine class.",
+        "Use the __init__() method with two arguments self and wheels to initialize the wheels attribute of the Vehicle class.",
+        "Inside the __init__() method of Vehicle, the engine attribute should be assigned with an object of the Engine class with the power attribute equal to 400.",
+        "Create another method named get_power() inside the Vehicle class and print the power attribute of the engine attribute."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside classes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an object of the Vehicle class with wheels attribute equal to 4.",
+        "Call the get_power() method of this object."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For hints, see the code outline."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output400"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

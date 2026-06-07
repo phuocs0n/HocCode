@@ -1,0 +1,116 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/inheritance-access-control?page=3",
+  "title": "Example: C++ Public Inheritance",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: C++ Public Inheritance"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Person {\n5    private:\n6        int id;\n7\n8    protected:\n9        int marks;\n10\n11    public:\n12        string name;\n13};\n14\n15\n16class Student: public Person {};\n17\n18\n19int main() {\n20\n21    Student student;\n22\n23\n24    // valid code because name is public  \n25    student.name = \"Tom Araya\";\n26\n27    // error: marks is protected and cannot be accessed\n28    student.marks = 97;\n29\n30    // error: id is private and cannot be accessed\n31    student.id = 101;\n32\n33\n34    return 0;\n35}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created an object named student of the child class. We have then used this object to access the public (name), protected (marks), and private (id) variables of Person."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, when we run this code, we will get an error"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// error: marks is protected and cannot be accessed\nstudent.marks = 97;\n\n// error: id is private and cannot be accessed\nstudent.id = 101;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because during public inheritance, the child class inherits variables from the parent class the way they were originally defined. Meaning"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "public variable name will be inherited as public in Student",
+        "protected variable marks will be inherited as protected, and",
+        "private variable id will be inherited as private."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "And because of the accessibility (shown in the following table), we get an error."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Accessibility",
+          "Private Members",
+          "Protected Members",
+          "Public Members"
+        ],
+        [
+          "Base Class",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Derived Class",
+          "No",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We have already discussed how to access the private and protected variables from outside:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "private variables - use public getter and setter functions",
+        "protected variables - access inside the subclass or use public getter and setter functions"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We highly recommend you use both of this process and try to solve the issue in the above example."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you're still not confident about accessing private and protected members, then we suggest you revisit the following before proceeding further:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Chapter 3: Inheritance",
+        "Lesson: protected Access Modifier"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

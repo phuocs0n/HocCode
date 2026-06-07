@@ -1,0 +1,66 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usepagination?page=5",
+  "title": "Summary of the Changes to App",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary of the Changes to App"
+    },
+    {
+      "type": "paragraph",
+      "content": "Compare the latest App.jsx to what it was at the start of this chapter. You'll notice the following changes:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The seven state variables became one (selectedEntry).",
+        "Fetch state lives inside useFetch().",
+        "The three standalone useMemo() calls became part of hooks.",
+        "The useEffect() moved into useFetch()."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "What remains in App is only what is unique to this component:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The entry mapping",
+        "The drawer",
+        "The coordination between hooks"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's basically it. You're now approaching the end of this course."
+    },
+    {
+      "type": "paragraph",
+      "content": "But there still are a few things left to do, including the important task of testing yourself with what you've learned."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

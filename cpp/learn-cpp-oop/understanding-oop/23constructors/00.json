@@ -1,0 +1,68 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/constructors?page=1",
+  "title": "C++ Constructors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ Constructors"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, a constructor is similar to a member function, but it doesn't have a return type, and it has the same name as the class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Student {\n    public:\n\n        // constructor\n        Student() {\n            ...\n        }\n\n        // member function\n        void check_name() {\n            ...\n        }\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, Student() is a constructor and check_name() is a member function. You can see that the constructor doesn't have a return type, and it has the same name as the class (Student)."
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, the constructor is called automatically when we create an object. Let's see an example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Student {\n5    public:\n6\n7\n8        // constructor\n9        Student() {\n10            cout << \"Calling Constructor\" << endl;\n11        }\n12\n13};\n14\n15int main() {\n16    \n17    // create an object\n18    Student student1;\n19    \n20    return 0;\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Calling Constructor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the code Student student1; calls the constructor. That's why we get the output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

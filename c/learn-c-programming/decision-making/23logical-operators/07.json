@@ -1,0 +1,120 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-c-programming/logical-operators?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n\n  int result1 = (6 > 2) && (7 > 10);\n  printf(\"%d\\n\", result1);\n\n  int result2 = (6 > 2) || (7 > 10);\n  printf(\"%d\", result2);\n  \n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Toán tử && chỉ trả về 1 (true) khi cả hai toán hạng đều đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Toán tử && chỉ trả về 1 (true) khi cả hai toán hạng đều đúng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "|| toán tử trả về 1 (đúng) nếu một trong hai toán hạng là đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "|| toán tử trả về 1 (đúng) nếu một trong hai toán hạng là đúng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Câu lệnh đầu tiên chỉ là 1 (đúng) khi cả hai toán hạng đều đúng vì nó liên quan đến toán tử &&. Và, giá trị thứ hai chỉ là 0 (false) khi cả hai toán hạng đều sai vì nó liên quan đến || nhà điều hành."
+    },
+    {
+      "type": "paragraph",
+      "content": "Câu lệnh đầu tiên chỉ là 1 (đúng) khi cả hai toán hạng đều đúng vì nó liên quan đến toán tử &&. Và, giá trị thứ hai chỉ là 0 (false) khi cả hai toán hạng đều sai vì nó liên quan đến || nhà điều hành."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Câu đầu tiên là 0 (sai) vì 7 > 10 là sai. Câu thứ hai là 1 (đúng) vì 6 > 2 đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Câu đầu tiên là 0 (sai) vì 7 > 10 là sai. Câu thứ hai là 1 (đúng) vì 6 > 2 đúng."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:11",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:00",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "00",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:10",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:01",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "01",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,102 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/tic-tac-toe-project?page=5",
+  "title": "Adding Event Tasks",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding Event Tasks"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we will modify the code so that when a player clicks on a grid cell, the cell gets filled with either 'X' or 'O', and the player's turn is switched."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first store the cell triggering the event as:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "const cell = event.target;"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll also select set the currentPlayer and select #turnInfo in order to update it:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "// Start with Player 1 (X)\nlet currentPlayer = \"X\"; \nconst turnInfo = document.querySelector(\"#turnInfo\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "To do this, we need to:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Add 'X' or 'O' to the clicked cell depending on the current player.",
+        "Change which player's turn it is.",
+        "Switch to the next player after each click."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "With these changes added, this is what the complete code looks like:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3  <div id=\"leftScreen\">\n4    <h1>Tic Tac Toe</h1>\n5    <div id=\"turnInfo\">Player 1's Turn</div>\n6  </div>\n7\n8  <div id=\"rightScreen\">\n9    <div class=\"game-board\" id=\"gameBoard\">\n10      <div class=\"cell\" data-index=\"0\"></div>\n11      <div class=\"cell\" data-index=\"1\"></div>\n12      <div class=\"cell\" data-index=\"2\"></div>\n13      <div class=\"cell\" data-index=\"3\"></div>\n14      <div class=\"cell\" data-index=\"4\"></div>\n15      <div class=\"cell\" data-index=\"5\"></div>\n16      <div class=\"cell\" data-index=\"6\"></div>\n17      <div class=\"cell\" data-index=\"7\"></div>\n18      <div class=\"cell\" data-index=\"8\"></div>\n19    </div>\n20  </div>\n21</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    padding: 0;\n4    box-sizing: border-box;\n5}\n6\n7body {\n8    margin: 8px;\n9    font-family: 'Helvetica', 'Arial', sans-serif;\n10}\n11\n12h1 {\n13    font-size: 40px;\n14    color: #2A2A7B;\n15    font-weight: bold;\n16    margin: 20px;\n17}\n18\n19div {\n20    font-size: 24px;\n21    color: #2A2A7B;\n22    font-weight: bold;\n23}\n24\n25/* Game Screen Styles */\n26#gameScreen {\n27    display: flex;\n28    padding: 20px;\n29    justify-content: space-around;\n30}\n31\n32#turnInfo {\n33    font-size: 28px;\n34    font-weight: 500;\n35    color: #6B6B9F;\n36    margin-bottom: 40px;\n37    text-align: center;\n38}\n39\n40.game-board {\n41    display: grid;\n42    background: #40E7E7;\n43    grid-template-columns: repeat(3, 1fr);\n44    grid-template-rows: repeat(3, 100px);\n45    grid-gap: 4px;\n46    width: 320px;\n47}\n48\n49.cell {\n50    display: flex;\n51    align-items: center;\n52    justify-content: center;\n53    background-color: white;\n54    font-size: 36px;\n55    font-weight: bold;\n56    cursor: pointer;\n57}\n58\n59.cell:hover {\n60    background-color: #d5f7f7;\n61}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const gameBoard = document.querySelector(\".game-board\");\n2\n3// Start with Player 1 (X)\n4let currentPlayer = \"X\"; \n5const turnInfo = document.querySelector(\"#turnInfo\");\n6\n7\n8// Add click event listener to parent (game board)\n9gameBoard.addEventListener('click', (event) => {\n10    const cell = event.target;\n11\n12    // Ensure the cell is empty before marking it\n13    if (cell.textContent === \"\") {\n14        // Mark the cell with the current player's symbol\n15        cell.textContent = currentPlayer;\n16\n17        // Change turn info\n18        turnInfo.textContent = currentPlayer === \"X\" ? \"Player 2's Turn\" : \"Player 1's Turn\";\n19\n20        // Switch players\n21        currentPlayer = currentPlayer === \"X\" ? \"O\" : \"X\";\n22    }\n23});"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code manages the turn-taking logic for a Tic Tac Toe game."
+    },
+    {
+      "type": "paragraph",
+      "content": "It starts by setting Player 1's symbol to \"X\". When a cell in the game board is clicked, it checks if the cell is empty. If it is, the current player's symbol (\"X\" or \"O\") is placed in that cell."
+    },
+    {
+      "type": "paragraph",
+      "content": "The text displaying whose turn it is (turnInfo) is updated to indicate the next player's turn."
+    },
+    {
+      "type": "paragraph",
+      "content": "After that, the current player is switched between \"X\" and \"O\" to alternate turns. This ensures players take turns marking the board while preventing overwriting of already marked cells."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

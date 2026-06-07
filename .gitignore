@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_reach/
+
+# Build outputs
+dist/
+build/
+out/
+bin/
+obj/
+*.exe
+*.o
+*.out
+*.class
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary status files
+temp_status.txt

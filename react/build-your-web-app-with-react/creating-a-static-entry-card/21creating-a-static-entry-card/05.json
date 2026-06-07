@@ -1,0 +1,71 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/creating-static-entry-card?page=6",
+  "title": "Why Use 'className' Instead of 'class'?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Use 'className' Instead of 'class'?"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSX looks just like HTML, but always remember that it's actually JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you write <div class=\"card\">, React tries to interpret class as a JavaScript property. That's because class is a reserved word in JS (used for classes like class User {...})."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, React uses className instead. This is one of the small differences between HTML and JSX."
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML Code:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<div class=\"card\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSX Code:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<div className=\"card\">"
+    },
+    {
+      "type": "paragraph",
+      "content": "Same result, different syntax. You'll get used to it fast."
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, let's shift to a fun coding challenge."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

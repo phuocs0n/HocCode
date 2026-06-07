@@ -1,0 +1,89 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/templates?page=1",
+  "title": "Introduction to Templates",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Templates"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you think back on how we use functions and classes, you will realize that we are limited by the data type of the variables and arrays we define inside our function/class. For instance, consider the following class and function:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Sample_Class {\n    public:\n        int var1;\n        double var2;\n};\n\nint sample_function (int num1, int num2) {\n    int result = (num1 * num2 * 5) / 11;\n    return result;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "From just a glance at the code above, we can easily conclude that"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Sample_Class can only work with integer and double data, and",
+        "sample_function() can only work with integer data."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if we could define classes and objects to work with almost any data type?"
+    },
+    {
+      "type": "paragraph",
+      "content": "One option to achieve this is using overloading, but that would require us to define the function multiple times. And we can't overload classes in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "What we want is to define the class or function only once, and then let that single class/function work with all sorts of data types."
+    },
+    {
+      "type": "paragraph",
+      "content": "Fortunately, C++ has provided us with an incredibly useful tool to do just that: templates. This is a powerful feature that allows us to write generic programs i.e. programs that include codes that can work with any data type."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two ways we can implement templates:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Function Templates",
+        "Class Templates"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with function templates."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

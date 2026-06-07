@@ -1,0 +1,97 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/python-exceptions?page=1",
+  "title": "Errors and Exceptions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Errors and Exceptions"
+    },
+    {
+      "type": "paragraph",
+      "content": "We might have run into errors numerous times while programming. These errors are of two types:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Syntax errors"
+    },
+    {
+      "type": "paragraph",
+      "content": "These errors are caused because of improper use of Python syntax, such as missing parentheses, wrong indentation, missing colons, etc. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1if 5 > 3\n2    print('5 is greater than 3')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "SyntaxError: invalid syntax"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here we are getting an error because we have missed a colon after 5 > 3. We can easily fix these errors by fixing the syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Exceptions"
+    },
+    {
+      "type": "paragraph",
+      "content": "The next type of error is exceptions. Even if our code is syntactically correct, we may sometimes get an error. For example, if we divide a number by 0, we get an error."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1result = 5/0\n2print(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "ZeroDivisionError: division by zero"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, our code is correct syntax wise, however, it's not allowed to divide a number by 0 in Python. This is an exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, we are getting the ZeroDivisionError exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn a few different types of exceptions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

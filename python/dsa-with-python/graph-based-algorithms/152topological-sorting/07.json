@@ -1,0 +1,113 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-python/topological-sorting?page=8",
+  "title": "Thought Process: Topological Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Topological Sort"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we know the working of the topological sort algorithm, let's try and implement it in Python."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Define the function for topological sort."
+    },
+    {
+      "type": "paragraph",
+      "content": "We take an input graph and also define a list named sorted_vertices to keep track of the sorted vertices."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def topological_sort(graph, sorted_vertices=None):\n    if sorted_vertices is None:\n        sorted_vertices = []"
+    },
+    {
+      "type": "paragraph",
+      "content": "Initially, sorted vertices are empty because no vertices have been sorted."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Base Case"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Define the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the number of sorted vertices is equal to the number of vertices in the graph, all the vertices have been sorted and the process ends."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "if len(sorted_vertices) == len(graph):\n    return [vertices[i] for i in sorted_vertices]"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Recursive Case"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Find vertices with zero indegree."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "indegrees = [sum(col) for col in zip(*graph)]\nzero_indegrees = [i for i, indegree in enumerate(indegrees) if indegree == 0]"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Append the zero_indegrees list to the sorted list."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "sorted_vertices.extend([i for i in zero_indegrees if i not in sorted_vertices])"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Remove the zero indegree vertices."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "new_graph = [row[:] for row in graph]\nfor i in zero_indegrees:\n    new_graph[i] = [0] * len(new_graph[i])"
+    },
+    {
+      "type": "paragraph",
+      "content": "6. Recursively sort the graph."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "return topological_sort(new_graph, sorted_vertices)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

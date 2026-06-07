@@ -1,0 +1,51 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-css/project-positioning-layout?page=6",
+  "title": "Step 5: Highlighting Special Offers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 5: Highlighting Special Offers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, let's style the \"Special Offers\" navigation item using relative positioning. This will allow us to position the badge relative to this item, making it stand out."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2    <nav class=\"navbar\">\n3        <div class=\"logo\">GreatBrand</div>\n4        <div class=\"navbar-items\">\n5            <div class=\"navbar-item\">About</div>\n6            <div class=\"navbar-item offer\">\n7                Special Offers\n8                <span class=\"offer-badge\">New!</span>\n9            </div>\n10        </div>\n11    </nav>\n12    <main>\n13        <p>This is a sample navbar.</p>\n14    </main>\n15</body>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.offer {\n2    /* Positioning parent */\n3    position: relative;\n4}\n5\n6.offer-badge {\n7    background-color: red;\n8    border-radius: 15px;\n9    padding: 5px 8px;\n10    font-size: 12px;\n11\n12    /* Positioning badge */\n13    position: absolute;\n14    top: -20px;\n15    right: -25px;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how this navbar will look like in a full-fledged webpage."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

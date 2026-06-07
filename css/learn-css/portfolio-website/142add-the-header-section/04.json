@@ -1,0 +1,78 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/add-header-section?page=5",
+  "title": "Style Navigation Links",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Style Navigation Links"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you can space the links apart:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header class=\"header\">\n2    <div class=\"logo\">Jane</div>\n3    <div class=\"nav\">\n4        <a href=\"#projects\">Projects</a>\n5        <a href=\"#contact\">Contact</a>\n6    </div>\n7</header>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.nav {\n2    display: flex;\n3    gap: 24px;\n4}\n5\n6.nav a {\n7    text-decoration: none;\n8    color: white;\n9    font-size: 16px;\n10    letter-spacing: 1px;\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the .nav bar,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "display: flex arranges the links in a horizontal row.",
+        "gap: 24px creates space between each link."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For each .nav a link,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "text-decoration: none removes the underline.",
+        "color: white matches the header color.",
+        "font-size: 16px and letter-spacing: 1px  increases the font size and spacing between each letter, improving readability."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Since you have used flexbox for the most part, the layout should be responsive. Check how the website looks on a mobile device by resizing the output browser."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, it's time to work on the next section."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

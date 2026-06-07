@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/welcome-setup?page=2",
+  "title": "What is Modern JavaScript?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is Modern JavaScript?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Modern JavaScript refers to the features introduced in ES6 and later versions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Better variable declarations - const and let instead of var",
+        "Cleaner function syntax - Arrow functions (=>)",
+        "Powerful array methods - map(), filter(), forEach(), some(), every()",
+        "Object-oriented programming - ES6 classes",
+        "Destructuring and spread - Extract and combine data elegantly",
+        "Safety features - Optional chaining (?.) and nullish coalescing (??)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These aren't optional extras or fancy tricks. This is how professional JavaScript is written in 2026. If you read modern codebases, documentation, or tutorials, you'll see these patterns everywhere."
+    },
+    {
+      "type": "image",
+      "alt": "Course progression through Modern JavaScript concepts",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDAxNmViMGFhZmU2Njk4MDA4LTAwNmExN2NmNDMtYjA0ZGYxYWQtc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmIwNGRmMWFkLXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

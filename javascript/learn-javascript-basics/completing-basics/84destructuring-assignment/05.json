@@ -1,0 +1,192 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/destructuring-assignment?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Consider the following code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const animals = [\"lion\", \"tiger\", \"elephant\", \"giraffe\", \"zebra\"];\n\nlet [animal1, animal2, animal3, animal4, animal5] = animals;"
+    },
+    {
+      "type": "paragraph",
+      "content": "After destructuring animals, which value will the animal3 variable store after destructuring?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"lion\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The animal3 variable is the third variable, but \"lion\" is the first value in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "The animal3 variable is the third variable, but \"lion\" is the first value in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"tiger\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"tiger\" is the second value in the array, and animal2 stores the second element."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"tiger\" is the second value in the array, and animal2 stores the second element."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"elephant\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Destructuring assigns the first value to animal1, the second value to animal2, and the third value to animal3. Therefore, animal3 will store the third element in the array, which is \"elephant\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Destructuring assigns the first value to animal1, the second value to animal2, and the third value to animal3. Therefore, animal3 will store the third element in the array, which is \"elephant\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"giraffe\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"giraffe\" is the fourth element in the array, so animal4 stores that value."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"giraffe\" is the fourth element in the array, so animal4 stores that value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The animal3 variable is the third variable, but \"lion\" is the first value in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "The animal3 variable is the third variable, but \"lion\" is the first value in the array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"tiger\" is the second value in the array, and animal2 stores the second element."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"tiger\" is the second value in the array, and animal2 stores the second element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Destructuring assigns the first value to animal1, the second value to animal2, and the third value to animal3. Therefore, animal3 will store the third element in the array, which is \"elephant\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Destructuring assigns the first value to animal1, the second value to animal2, and the third value to animal3. Therefore, animal3 will store the third element in the array, which is \"elephant\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"giraffe\" is the fourth element in the array, so animal4 stores that value."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"giraffe\" is the fourth element in the array, so animal4 stores that value."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Consider the following code:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:\"lion\"",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "\"lion\"",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:\"tiger\"",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "\"tiger\"",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:\"elephant\"",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "\"elephant\"",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:\"giraffe\"",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "\"giraffe\"",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

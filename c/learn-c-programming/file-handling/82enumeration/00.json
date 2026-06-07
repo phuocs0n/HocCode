@@ -1,0 +1,80 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/enumeration?page=1",
+  "title": "Giới thiệu về Enum",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Giới thiệu về Enum"
+    },
+    {
+      "type": "paragraph",
+      "content": "Một enum hay enumeration là một kiểu có một tập hợp các giá trị không đổi cố định. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "enum Days {\n  Sunday,\n  Monday,\n  Tuesday,\n  Wednesday,\n  Thursday,\n  Friday,\n  Saturday\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, chúng tôi đã sử dụng từ khóa enum để tạo một enum có tên Days. Nó chứa các giá trị cố định: Chủ Nhật, Thứ Hai, Thứ Ba, v.v."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tạo biến enum"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi khai báo một enum, chúng ta có thể tạo các biến từ nó."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// create enum variable\nenum Days currentDay;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, currentDay là một biến kiểu enum."
+    },
+    {
+      "type": "paragraph",
+      "content": "Gán giá trị cho các biến enum"
+    },
+    {
+      "type": "paragraph",
+      "content": "Một biến enum chỉ có thể lấy một trong các hằng số được xác định bên trong enum. Vì vậy, biến currentDay chỉ có thể lưu trữ một trong 7 giá trị đó."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// assign value to enum\ncurrentDay = Friday;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ chúng ta sẽ xem một ví dụ hoạt động của enum."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usepagination?page=1",
+  "title": "The Problem: Pagination Logic Still in App",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: Pagination Logic Still in App"
+    },
+    {
+      "type": "paragraph",
+      "content": "After extracting useFetch() and useSearch(), the pagination logic is still sitting in App directly:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "There's a useState() for currentPage",
+        "Two useMemo() calls for totalPages and pagedEntries",
+        "Two handler functions"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "usePagination() extracts all of it into one reusable place."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's build it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

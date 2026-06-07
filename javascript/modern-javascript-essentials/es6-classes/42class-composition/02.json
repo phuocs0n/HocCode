@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/class-composition?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does \"composition over inheritance\" mean?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Classes should always extend a parent class for shared behavior"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That describes inheritance. Composition avoids extending parent classes in favor of combining smaller objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "That describes inheritance. Composition avoids extending parent classes in favor of combining smaller objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "Objects should contain instances of other classes instead of inheriting from them"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Composition means building complex objects by combining simpler ones, keeping each class focused and independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Composition means building complex objects by combining simpler ones, keeping each class focused and independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Static methods should replace instance methods in every class"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Static vs instance methods is a different concern. Composition is about how classes relate to each other, not method types."
+    },
+    {
+      "type": "paragraph",
+      "content": "Static vs instance methods is a different concern. Composition is about how classes relate to each other, not method types."
+    },
+    {
+      "type": "paragraph",
+      "content": "You should avoid using classes entirely and use plain objects instead"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Classes are still useful. Composition is about how you connect classes - through \"has a\" relationships, not \"is a\" hierarchies."
+    },
+    {
+      "type": "paragraph",
+      "content": "Classes are still useful. Composition is about how you connect classes - through \"has a\" relationships, not \"is a\" hierarchies."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does \"composition over inheritance\" mean?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Classes should always extend a parent class for shared behavior",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Classes should always extend a parent class for shared behavior",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Objects should contain instances of other classes instead of inheriting from them",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Objects should contain instances of other classes instead of inheriting from them",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Static methods should replace instance methods in every class",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Static methods should replace instance methods in every class",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:You should avoid using classes entirely and use plain objects instead",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "You should avoid using classes entirely and use plain objects instead",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=12",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why doesn't fetch() automatically throw an error when the server responds with a 404 or 500 status?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The catch block automatically catches 404 and 500 responses"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The catch block only runs when the Promise rejects or when you throw — a 404 response does neither without a res.ok check."
+    },
+    {
+      "type": "paragraph",
+      "content": "The catch block only runs when the Promise rejects or when you throw — a 404 response does neither without a res.ok check."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() always throws for any status above 200"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() is designed to resolve for all HTTP responses regardless of status."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() is designed to resolve for all HTTP responses regardless of status."
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to use axios instead of fetch() to detect error status codes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "axios does throw for error status codes, but fetch() can handle it too — you just check res.ok yourself."
+    },
+    {
+      "type": "paragraph",
+      "content": "axios does throw for error status codes, but fetch() can handle it too — you just check res.ok yourself."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() only rejects on network failures"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Promise resolves as long as a response was received, even if it's an error status. Checking the status is your responsibility."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Promise resolves as long as a response was received, even if it's an error status. Checking the status is your responsibility."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why doesn't fetch() automatically throw an error when the server responds with a 404 or 500 status?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The catch block automatically catches 404 and 500 responses",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The catch block automatically catches 404 and 500 responses",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:fetch() always throws for any status above 200",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "fetch() always throws for any status above 200",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:You need to use axios instead of fetch() to detect error status codes",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "You need to use axios instead of fetch() to detect error status codes",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:fetch() only rejects on network failures",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "fetch() only rejects on network failures",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

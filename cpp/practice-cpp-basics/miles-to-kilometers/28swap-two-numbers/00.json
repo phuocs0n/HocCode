@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/swap-two-numbers?page=1",
+  "title": "Swap Two Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Swap Two Numbers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to swap two numbers using addition and subtraction. Do not use a temporary variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use the following process to swap number1 and number2:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "number1 = number1 + number2\nnumber2 = number1 - number2\nnumber1 = number1 - number2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two int variables number1 and number2 and take their input.",
+        "Add number1 and number2 and store the result in number1.",
+        "Subtract number2 from number1 and store the result in number2.",
+        "Then, subtract number2 from number1 again and store the result in number1.",
+        "Print number1 and number2 in separate lines."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input7\n5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output5\n7"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

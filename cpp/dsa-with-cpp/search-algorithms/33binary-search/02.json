@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/binary-search?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why can't we use binary search on an unsorted vector?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because binary search relies on dividing the vector."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While binary search involves dividing the vector, simply dividing isn't the reason binary search can't be used on an unsorted vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "While binary search involves dividing the vector, simply dividing isn't the reason binary search can't be used on an unsorted vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because binary search requires repeatedly comparing the middle element with the target."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Binary search repeatedly compares the middle element with the target and uses the sorted nature of the vector to eliminate half of the remaining elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Binary search repeatedly compares the middle element with the target and uses the sorted nature of the vector to eliminate half of the remaining elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because the vector has too many elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number of elements in the vector is irrelevant to whether binary search can be applied."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number of elements in the vector is irrelevant to whether binary search can be applied."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because it's less efficient."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Whatever its efficiency might be, binary search is simply not applicable for finding the target element in an unsorted vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "Whatever its efficiency might be, binary search is simply not applicable for finding the target element in an unsorted vector."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why can't we use binary search on an unsorted vector?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because binary search relies on dividing the vector.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because binary search relies on dividing the vector.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because binary search requires repeatedly comparing the middle element with the target.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because binary search requires repeatedly comparing the middle element with the target.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because the vector has too many elements.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because the vector has too many elements.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because it's less efficient.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because it's less efficient.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

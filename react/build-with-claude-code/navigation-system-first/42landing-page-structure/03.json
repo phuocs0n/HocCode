@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/landing-page-structure?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why are LandingNavbar and the AppLayout navigation built as completely separate components in SpeedBlip?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not support conditional rendering of navigation components inside a shared layout"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React fully supports conditional rendering. The separation is an intentional architectural decision, not a React limitation."
+    },
+    {
+      "type": "paragraph",
+      "content": "React fully supports conditional rendering. The separation is an intentional architectural decision, not a React limitation."
+    },
+    {
+      "type": "paragraph",
+      "content": "The LandingNavbar needs different CSS that conflicts with the AppLayout sidebar styles"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS conflicts can be scoped at the component level. The separation exists because the two navigations serve completely different purposes and should never render simultaneously."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS conflicts can be scoped at the component level. The separation exists because the two navigations serve completely different purposes and should never render simultaneously."
+    },
+    {
+      "type": "paragraph",
+      "content": "They serve different purposes and React Router's layout nesting ensures they never render on the wrong route"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. LandingNavbar is a marketing navigation with CTAs. AppLayout navigation is a route-aware app shell. Mixing them in one component would require complex conditional logic - separation is cleaner and more maintainable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. LandingNavbar is a marketing navigation with CTAs. AppLayout navigation is a route-aware app shell. Mixing them in one component would require complex conditional logic - separation is cleaner and more maintainable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify requires separate components for marketing and app pages to enable split routing"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify's routing has no influence on how React components are structured. This is a front-end architecture decision, not a hosting requirement."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify's routing has no influence on how React components are structured. This is a front-end architecture decision, not a hosting requirement."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why are LandingNavbar and the AppLayout navigation built as completely separate components in SpeedBlip?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React does not support conditional rendering of navigation components inside a shared layout",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React does not support conditional rendering of navigation components inside a shared layout",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The LandingNavbar needs different CSS that conflicts with the AppLayout sidebar styles",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The LandingNavbar needs different CSS that conflicts with the AppLayout sidebar styles",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:They serve different purposes and React Router's layout nesting ensures they never render on the wrong route",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "They serve different purposes and React Router's layout nesting ensures they never render on the wrong route",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Netlify requires separate components for marketing and app pages to enable split routing",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Netlify requires separate components for marketing and app pages to enable split routing",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

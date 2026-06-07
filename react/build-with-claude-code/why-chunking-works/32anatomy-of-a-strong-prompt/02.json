@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/anatomy-of-strong-prompt?page=3",
+  "title": "Behavior and Final Checks",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Rapid Build With Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Behavior and Final Checks"
+    },
+    {
+      "type": "paragraph",
+      "content": "The behavior section is where you describe what each piece of code should do in plain English, before Claude Code writes it. This is the most important section because it is where ambiguity causes the most problems."
+    },
+    {
+      "type": "paragraph",
+      "content": "For SpeedBlip's useSpeedTest hook, the behavior spec included:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "Reads interval setting from localStorage (default: 30 minutes)\nPosts a \"start\" message to the Web Worker on mount\nListens for \"result\" messages from the Worker and appends to results array in state\nListens for \"error\" messages from the Worker and sets an error state\nExposes: { results, isRunning, error, runNow, clearHistory }\nrunNow() posts an immediate \"start\" message regardless of interval\nAdds a 30-second timeout: if no \"result\" arrives, sets isRunning to false and sets error\nPersists results to localStorage on every update"
+    },
+    {
+      "type": "paragraph",
+      "content": "The final checks section closes the prompt with verification steps:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "After running: TypeScript should compile with zero errors. The Dashboard page should show a speed gauge and stat cards that update after running a test. Open browser DevTools and confirm the Web Worker is running in the Workers section. Check localStorage has a \"speedblip-history\" key after one test completes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Writing final checks before running the prompt forces you to know what success looks like. It is remarkably easy to accept a partially-working output if you did not decide in advance what \"done\" means."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

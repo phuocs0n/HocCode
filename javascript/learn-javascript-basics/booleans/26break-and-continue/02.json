@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-break-continue?page=3",
+  "title": "Break with Condition",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Break with Condition"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use the break statement in combination with an if condition to terminate a loop when a specific condition is met. Here's an example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1for (let number = 1; number <= 10; number++) {\n2    // Stop the loop if the number is 5\n3    if (number === 5) {\n4        break;\n5    }\n6    console.log(number);\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n3\n4"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the above code works:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The loop starts at number = 1 and iterates up to number <= 10.",
+        "Each number is displayed until the condition number === 5 is met.",
+        "When number equals 5, the break statement is executed, and the loop terminates.",
+        "Numbers 1 to 4 are displayed, but the loop stops before printing 5 or continuing further."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

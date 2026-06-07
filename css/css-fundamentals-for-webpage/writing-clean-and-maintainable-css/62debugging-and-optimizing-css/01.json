@@ -1,0 +1,66 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/debugging-optimizing-css?page=1",
+  "title": "Using DevTools to Inspect and Debug Styles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using DevTools to Inspect and Debug Styles"
+    },
+    {
+      "type": "paragraph",
+      "content": "The major goal of this lesson is to teach you how developers debug CSS when things don't look right — not by guessing, but by using tools and a clear process."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is one of the most transferable skills you'll use in real jobs and React projects."
+    },
+    {
+      "type": "paragraph",
+      "content": "When CSS doesn't behave as expected, developers don't rewrite everything."
+    },
+    {
+      "type": "paragraph",
+      "content": "They inspect."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The First Rule of CSS Debugging"
+    },
+    {
+      "type": "paragraph",
+      "content": "Never guess. Inspect first. Browser DevTools show you:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Which styles are applied",
+        "Which ones are overridden",
+        "Where each rule comes from"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,183 @@
+{
+  "index": 13,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/graph-traversal-with-dfs-algorithm?page=14",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which data structure is used to implement depth-first search?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Linked List"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While a linked list can be used to store sequences of nodes, it does not efficiently support the Last-In-First-Out (LIFO) property needed for DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "While a linked list can be used to store sequences of nodes, it does not efficiently support the Last-In-First-Out (LIFO) property needed for DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Queue"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Queue supports the FIFO property and not the LIFO property required by DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Queue supports the FIFO property and not the LIFO property required by DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Stack"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, a stack is used to implement the DFS algorithm due to its LIFO nature."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, a stack is used to implement the DFS algorithm due to its LIFO nature."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tree"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tree is not a data structure used to implement DFS; rather, it is a type of data structure that can be traversed using DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "A tree is not a data structure used to implement DFS; rather, it is a type of data structure that can be traversed using DFS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While a linked list can be used to store sequences of nodes, it does not efficiently support the Last-In-First-Out (LIFO) property needed for DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "While a linked list can be used to store sequences of nodes, it does not efficiently support the Last-In-First-Out (LIFO) property needed for DFS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Queue supports the FIFO property and not the LIFO property required by DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Queue supports the FIFO property and not the LIFO property required by DFS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, a stack is used to implement the DFS algorithm due to its LIFO nature."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, a stack is used to implement the DFS algorithm due to its LIFO nature."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tree is not a data structure used to implement DFS; rather, it is a type of data structure that can be traversed using DFS."
+    },
+    {
+      "type": "paragraph",
+      "content": "A tree is not a data structure used to implement DFS; rather, it is a type of data structure that can be traversed using DFS."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which data structure is used to implement depth-first search?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Linked List",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Linked List",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Queue",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Queue",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Stack",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Stack",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Tree",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Tree",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

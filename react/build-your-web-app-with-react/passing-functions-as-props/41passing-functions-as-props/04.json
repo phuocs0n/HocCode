@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/passing-functions-as-props?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does EntryCard call onDelete(id) instead of updating the entries list itself?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "So that the Delete button works without re-rendering"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The list re-renders whenever the parent updates the state."
+    },
+    {
+      "type": "paragraph",
+      "content": "The list re-renders whenever the parent updates the state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because EntryCard is not allowed to use useState"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "EntryCard could use useState for other things. The issue is who owns the entries list."
+    },
+    {
+      "type": "paragraph",
+      "content": "EntryCard could use useState for other things. The issue is who owns the entries list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because passing the id would not work from inside EntryCard"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Passing id works; the reason is about where the state lives."
+    },
+    {
+      "type": "paragraph",
+      "content": "Passing id works; the reason is about where the state lives."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because App owns the entries state, not EntryCard"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The state lives in the component that owns it; i.e., inside the parent component App. Children thus need to use callbacks to request changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The state lives in the component that owns it; i.e., inside the parent component App. Children thus need to use callbacks to request changes."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does EntryCard call onDelete(id) instead of updating the entries list itself?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:So that the Delete button works without re-rendering",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "So that the Delete button works without re-rendering",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because EntryCard is not allowed to use useState",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because EntryCard is not allowed to use useState",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because passing the id would not work from inside EntryCard",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because passing the id would not work from inside EntryCard",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because App owns the entries state, not EntryCard",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because App owns the entries state, not EntryCard",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

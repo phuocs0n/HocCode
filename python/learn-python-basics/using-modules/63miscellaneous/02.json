@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/miscellaneous?page=3",
+  "title": "Example: Arithmetic Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Arithmetic Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 1"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1total = 100\n2\n3total += 10   # total = total + 10\n4print(total)\n5\n6# Output: 110"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, total += 10 adds 10 to the total variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 2"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 10\n2\n3x //= 4   # x = x // 4\n4print(x)\n5\n6# Output: 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, x //= 4 computes the quotient when x is divided by 4, and assigns the quotient to x."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

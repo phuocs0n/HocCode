@@ -1,0 +1,86 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/comparisonlogical-operations?page=1",
+  "title": "Comparison Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Comparison Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similar to mathematical operators, NumPy also provides various element-wise comparison operators. These operators are used to compare the elements of two NumPy arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use both operators and functions to perform comparison operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "First we'll discuss how we can use operators to perform comparison operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a list of various comparison operators available in NumPy:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Operators",
+          "Descriptions"
+        ],
+        [
+          "< (less than)",
+          "returns True if element of the first array is less than the second one"
+        ],
+        [
+          "<= (less than or equal to)",
+          "returns True if element of the first array is less than or equal to the second one"
+        ],
+        [
+          "> (greater than)",
+          "returns True if element of the first array is greater than the second one"
+        ],
+        [
+          ">= (greater than or equal to)",
+          "returns True if element of the first array is greater than or equal to the second one"
+        ],
+        [
+          "== (equal to)",
+          "returns True if the element of the first array is equal to the second one"
+        ],
+        [
+          "!= (not equal to)",
+          "returns True if the element of the first array is not equal to the second one"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see examples of these operators."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

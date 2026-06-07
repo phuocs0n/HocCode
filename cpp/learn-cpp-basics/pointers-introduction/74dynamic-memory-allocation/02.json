@@ -1,0 +1,108 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/dynamic-memory-allocation?page=3",
+  "title": "C++ new and delete",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ new and delete"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the new operator to dynamically allocate memory in C++. Let's start by dynamically allocate memory to an integer variable:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int* ptr = new int;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have dynamically allocated memory to an int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "To dynamically allocate memory for a double variable, we use the following code:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "double* ptr = new double;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, if we print the pointer ptr, we will get the memory address as output."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << ptr;   // 0x56425d6e7eb0"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because the new operator returns the address of the newly allocated memory location."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Assign Value to Dynamically Allocated Memory"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we use pointers for dynamic memory allocation, we use the dereference operator * to assign value to the allocated memory:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int* ptr = new int;\n*ptr = 5;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, *ptr = 5; assigns the integer value 5 to the dynamically allocated memory."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn to deallocate the newly allocated memory."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "C++ delete Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the delete operator to dynamically deallocate a memory. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// allocate memory\nint* ptr = new int;\n\n// deallocate memory\ndelete ptr;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is important because we need to free the dynamically allocated memory once it is used."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

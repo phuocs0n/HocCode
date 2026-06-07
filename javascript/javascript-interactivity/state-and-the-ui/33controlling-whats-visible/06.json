@@ -1,0 +1,96 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-whats-visible?page=6",
+  "title": "Expand Details in Project Card",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Expand Details in Project Card"
+    },
+    {
+      "type": "paragraph",
+      "content": "The slider controls which project card is visible."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now each card needs its own interaction."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every project card includes:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A short teaser",
+        "A Read more button",
+        "A full description hidden by default"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When the button is clicked, the full description should expand smoothly."
+    },
+    {
+      "type": "paragraph",
+      "content": "The interaction follows the same toggle pattern used earlier. When clicked:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Toggle the class  .is-expanded on .project-description-wrap",
+        "Change the button text \"Read more\" when collapsed and \"Show less\" when expanded",
+        "Update the aria-expanded attribute to match the state"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript only changes the state. CSS handles the smooth max-height transition."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Case Study and Live Demo links remain normal links. There is no modal and no navigation change."
+    },
+    {
+      "type": "paragraph",
+      "content": "This behavior should work independently for each project card."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can either:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Loop over all cards and attach listeners",
+        "Or attach one listener per button"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will implement this interaction on the project cards."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

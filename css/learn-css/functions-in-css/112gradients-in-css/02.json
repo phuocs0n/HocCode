@@ -1,0 +1,135 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/gradients-in-css?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How would you create a linear gradient that transitions from red at the top to blue at the bottom?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".gradient-box {\n    background: linear-gradient(to bottom, red, blue);\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code will create a vertical gradient that transitions from red at the top to blue at the bottom by specifying to bottom in the linear-gradient() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code will create a vertical gradient that transitions from red at the top to blue at the bottom by specifying to bottom in the linear-gradient() function."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".gradient-box {\n    background: linear-gradient(to left, red, blue);\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code will create a gradient that transitions from left to right, not top to bottom."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code will create a gradient that transitions from left to right, not top to bottom."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".gradient-box {\n    background: radial-gradient(circle, red, blue);\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "With this code, you'll create a radial gradient, not a linear gradient."
+    },
+    {
+      "type": "paragraph",
+      "content": "With this code, you'll create a radial gradient, not a linear gradient."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".gradient-box {\n    background: linear-gradient(to top, red, blue);\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the code specifies a linear gradient, the correct direction for a top-to-bottom gradient in CSS is to bottom, not to top."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the code specifies a linear gradient, the correct direction for a top-to-bottom gradient in CSS is to bottom, not to top."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How would you create a linear gradient that transitions from red at the top to blue at the bottom?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:.gradient-box {\n    background: linear-gradient(to bottom, red, blue);\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": ".gradient-box {\n    background: linear-gradient(to bottom, red, blue);\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:.gradient-box {\n    background: linear-gradient(to left, red, blue);\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": ".gradient-box {\n    background: linear-gradient(to left, red, blue);\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:.gradient-box {\n    background: radial-gradient(circle, red, blue);\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": ".gradient-box {\n    background: radial-gradient(circle, red, blue);\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:.gradient-box {\n    background: linear-gradient(to top, red, blue);\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": ".gradient-box {\n    background: linear-gradient(to top, red, blue);\n}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

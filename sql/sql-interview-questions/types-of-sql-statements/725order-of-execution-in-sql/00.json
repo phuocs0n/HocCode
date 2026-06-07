@@ -1,0 +1,83 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/order-of-execution-in-sql?page=1",
+  "title": "Explain the order of execution in an SQL query involving multiple clauses with an example",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explain the order of execution in an SQL query involving multiple clauses with an example"
+    },
+    {
+      "type": "paragraph",
+      "content": "In SQL, the order of execution is not as same as the query structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is the standard query structure in SQL:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT column(s)\nFROM table\nWHERE condition;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you might think the SELECT statement is executed first, the FROM statement second, and the WHERE clause last."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, that's not the case. The execution order does not align with the apparent order of the statements in SQL."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, SQL has the following order of execution:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "FROM: Identify the table(s) from which to get the data.",
+        "WHERE: Apply any specified condition(s) to filter the data.",
+        "GROUP BY: Group the data based on the specified columns.",
+        "HAVING: Further filter the grouped data based on the given conditions.",
+        "SELECT: Choose the columns to include in the result set.",
+        "DISTINCT: Remove duplicate rows from the result set.",
+        "ORDER BY: Sort the result set based on the specified columns.",
+        "LIMIT/OFFSET: Restrict the number of rows returned or set a starting point."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, the code SELECT column(s) FROM table WHERE condition; has the following execution order:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "FROM table",
+        "WHERE condition",
+        "SELECT column(s)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

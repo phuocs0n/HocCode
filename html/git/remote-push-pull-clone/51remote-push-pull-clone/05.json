@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/git/remote-push-pull-clone?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the -u flag do in git push -u origin main?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Forces the push even if the remote has commits your local branch does not have"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Forcing a push requires --force, which is a different and more dangerous flag. The -u flag has nothing to do with overriding remote history."
+    },
+    {
+      "type": "paragraph",
+      "content": "Forcing a push requires --force, which is a different and more dangerous flag. The -u flag has nothing to do with overriding remote history."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sets the upstream tracking so future git push and git pull commands work without specifying the remote and branch"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. After git push -u origin main, Git remembers that this branch tracks origin/main. Future pushes and pulls on this branch just need git push or git pull — no extra arguments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. After git push -u origin main, Git remembers that this branch tracks origin/main. Future pushes and pulls on this branch just need git push or git pull — no extra arguments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uploads only files that changed since the last push, skipping unchanged files"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Git always sends the commits the remote does not have — the -u flag does not change what gets uploaded. It changes how future push and pull commands behave."
+    },
+    {
+      "type": "paragraph",
+      "content": "Git always sends the commits the remote does not have — the -u flag does not change what gets uploaded. It changes how future push and pull commands behave."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creates a new branch on GitHub called origin"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "origin is the name of the remote connection, not a branch. The -u flag sets up tracking between your local branch and the remote branch — it does not create anything new."
+    },
+    {
+      "type": "paragraph",
+      "content": "origin is the name of the remote connection, not a branch. The -u flag sets up tracking between your local branch and the remote branch — it does not create anything new."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the -u flag do in git push -u origin main?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Forces the push even if the remote has commits your local branch does not have",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Forces the push even if the remote has commits your local branch does not have",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Sets the upstream tracking so future git push and git pull commands work without specifying the remote and branch",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Sets the upstream tracking so future git push and git pull commands work without specifying the remote and branch",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Uploads only files that changed since the last push, skipping unchanged files",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Uploads only files that changed since the last push, skipping unchanged files",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Creates a new branch on GitHub called origin",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Creates a new branch on GitHub called origin",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

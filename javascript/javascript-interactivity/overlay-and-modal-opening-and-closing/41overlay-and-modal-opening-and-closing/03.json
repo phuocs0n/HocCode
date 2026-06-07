@@ -1,0 +1,77 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/overlay-modal-opening-closing?page=4",
+  "title": "Opening and Closing a Modal",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Opening and Closing a Modal"
+    },
+    {
+      "type": "paragraph",
+      "content": "The basic open and close work. Now let's make it complete."
+    },
+    {
+      "type": "paragraph",
+      "content": "Opening the modal is simple. When the user clicks the CTA button, add a class like modal-open to the overlay. Your CSS already knows how to display the modal when that class exists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Closing needs one clean function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a single closeModal() function that removes the class, then call it from three places:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The close button click",
+        "The overlay click",
+        "The Escape key"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For the overlay click, only close when the click happens on the overlay itself. Clicks inside the modal box should not close it."
+    },
+    {
+      "type": "paragraph",
+      "content": "For Escape, add a keydown listener when the modal opens, and remove it when the modal closes. This prevents Escape logic from running after the modal is already closed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Developer Insight"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you do not remove the Escape listener, pressing Escape later can still trigger modal logic. Always clean up listeners when the modal closes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see a runnable example that opens the modal and closes it using the close button, overlay click, and Escape."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

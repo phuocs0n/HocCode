@@ -1,0 +1,111 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/broadcasting?page=3",
+  "title": "Broadcastable Shapes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Broadcastable Shapes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are examples of the shapes that are broadcastable:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "(6, 7) and (6, 7)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Since they have the same shape, they are compatible with each other."
+    },
+    {
+      "type": "paragraph",
+      "content": "Resulting Shape: (6, 7)"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "(6, 7) and (6, 1)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Comparing from the right dimensions, 7 and 1 are compatible, 6 and 6 are compatible. Hence, these are broadcastable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Resulting Shape: (6, 7)"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "(4, 3) and (3, )"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we pad the second shape (3, ) with 1 on the left making the shape: (1, 3)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now the shapes are (4, 3) and (1, 3)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Comparing dimensions from right: 3 and 3 are compatible, 1 and 4 are compatible."
+    },
+    {
+      "type": "paragraph",
+      "content": "Resulting Shape: (4, 3)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Non-Broadcastable Shapes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "(6, 7) and (7, 6)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The right dimensions (7 and 6) are not equal and neither is 1. So, these shapes are not compatible."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "(6, 7) and (6, )"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These shapes are not broadcastable because (6, ) when padded with one we get (1, 6) which is not compatible with (6,7)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

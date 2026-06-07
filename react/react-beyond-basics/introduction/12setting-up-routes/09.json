@@ -1,0 +1,102 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/setting-up-routes?page=10",
+  "title": "Step3: Set Up Routing in App.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step3: Set Up Routing in App.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "App.jsx is now the routing shell. It defines Routes and Route — and nothing else."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code to see the changes:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { Routes, Route } from 'react-router-dom'\n2import HomePage from './pages/HomePage'\n3\n4function App() {\n5  return (\n6      <Routes>\n7        <Route path=\"/\" element={<HomePage />} />\n8      </Routes>\n9  )\n10}\n11\n12export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Header({ query, onQueryChange }) {\n4  const searchRef = useRef(null);\n5\n6  useEffect(function () {\n7    searchRef.current.focus();\n8  }, []);\n9\n10  function handleChange(e) {\n11    onQueryChange(e.target.value);\n12  }\n13\n14  function handleClear() {\n15    onQueryChange(\"\");\n16    searchRef.current.focus();\n17  }\n18\n19  return (\n20    <header className=\"header\">\n21      <h2 className=\"title-primary\">My Daily Journal</h2>\n22      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n23      <div className=\"header-search\">\n24        <input\n25          ref={searchRef}\n26          className=\"search-input\"\n27          type=\"text\"\n28          placeholder=\"Search entries...\"\n29          value={query}\n30          onChange={handleChange}\n31        />\n32        {query && (\n33          <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n34        )}\n35      </div>\n36    </header>\n37  );\n38}\n39\n40export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ title, date, author, content }) {\n2  return (\n3    <div className=\"entry-card\">\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useEffect } from \"react\";\n2\n3function useFetch(url) {\n4  const [data, setData] = useState(null);\n5  const [isLoading, setIsLoading] = useState(true);\n6  const [error, setError] = useState(null);\n7  const [refetchKey, setRefetchKey] = useState(0);\n8\n9  useEffect(function () {\n10    async function fetchData() {\n11      setIsLoading(true);\n12      setError(null);\n13      try {\n14        const res = await fetch(url);\n15        if (!res.ok) {\n16          throw new Error(\"Could not load data. Status: \" + res.status);\n17        }\n18        const json = await res.json();\n19        setData(json);\n20        setIsLoading(false);\n21      } catch (err) {\n22        setError(err.message);\n23        setIsLoading(false);\n24      }\n25    }\n26    fetchData();\n27  }, [url, refetchKey]);\n28\n29  function refetch() {\n30    setRefetchKey(function (k) { return k + 1; });\n31  }\n32\n33  return { data, isLoading, error, refetch };\n34}\n35\n36export default useFetch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function useSearch(entries) {\n4  const [query, setQuery] = useState(\"\");\n5\n6  const filteredEntries = useMemo(function () {\n7    if (!query.trim()) return entries;\n8    const lower = query.toLowerCase();\n9\n10    return entries.filter(function (entry) {\n11      return (\n12        entry.title.toLowerCase().includes(lower) ||\n13        entry.content.toLowerCase().includes(lower)\n14      );\n15    });\n16  }, [entries, query]);\n17\n18  return { query, setQuery, filteredEntries };\n19}\n20\n21export default useSearch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function usePagination(entries, pageSize) {\n4  const [currentPage, setCurrentPage] = useState(1);\n5\n6  const totalPages = useMemo(function () {\n7    return Math.ceil(entries.length / pageSize);\n8  }, [entries, pageSize]);\n9\n10  const pagedEntries = useMemo(function () {\n11    const start = (currentPage - 1) * pageSize;\n12    return entries.slice(start, start + pageSize);\n13  }, [entries, currentPage, pageSize]);\n14\n15  function handleNext() {\n16    setCurrentPage(function (p) { return Math.min(p + 1, totalPages); });\n17  }\n18\n19  function handlePrev() {\n20    setCurrentPage(function (p) { return Math.max(p - 1, 1); });\n21  }\n22\n23  function reset() {\n24    setCurrentPage(1);\n25  }\n26\n27  return { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset };\n28}\n29\n30export default usePagination;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useMemo } from \"react\";\n2import Header from \"../components/Header\";\n3import EntryCard from \"../components/EntryCard\";\n4import useFetch from \"../hooks/useFetch\";\n5import useSearch from \"../hooks/useSearch\";\n6import usePagination from \"../hooks/usePagination\";\n7\n8const ENTRIES_PER_PAGE = 5;\n9\n10function HomePage() {\n11  const { data, isLoading, error, refetch } = useFetch(\n12    \"https://api.programiz.pro/api/Demo/v1/journal-entries\"\n13  );\n14\n15  const entries = useMemo(function () {\n16    if (!data) return [];\n17    return data.map(function (post) {\n18      return {\n19        ...post,\n20        date: new Date(post.date).toLocaleDateString(\"en-US\", {\n21          year: \"numeric\", month: \"short\", day: \"numeric\"\n22        }).toUpperCase()\n23      };\n24    });\n25  }, [data]);\n26\n27  const { query, setQuery, filteredEntries } = useSearch(entries);\n28  const { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset } = usePagination(\n29    filteredEntries,\n30    ENTRIES_PER_PAGE\n31  );\n32\n33  function handleQueryChange(newQuery) {\n34    setQuery(newQuery);\n35    reset();\n36  }\n37\n38  return (\n39    <div className=\"main-container\">\n40      <Header query={query} onQueryChange={handleQueryChange} />\n41      <section className=\"entries-section\">\n42        <div className=\"entry-list-header\">\n43          <h3>Recent Entries</h3>\n44          <span className=\"entry-count\">{filteredEntries.length}</span>\n45          {query && <span className=\"entry-count\">{\"of \" + entries.length}</span>}\n46          <button className=\"btn btn-secondary\" onClick={refetch}>Refresh</button>\n47        </div>\n48        {isLoading ? (\n49          <p className=\"loading-state\">Loading entries...</p>\n50        ) : error ? (\n51          <div className=\"error-banner\">\n52            <p className=\"error-label\">Something went wrong.</p>\n53            <p className=\"error-detail\">{error}</p>\n54          </div>\n55        ) : pagedEntries.length === 0 ? (\n56          <p className=\"empty-state\">No entries found.</p>\n57        ) : (\n58          pagedEntries.map((entry) => (\n59            <EntryCard\n60              key={entry.id}\n61              id={entry.id}\n62              title={entry.title}\n63              date={entry.date}\n64              content={entry.content}\n65              author={entry.author}\n66            />\n67          ))\n68        )}\n69        {!isLoading && !error && totalPages > 1 && (\n70          <div className=\"pagination\">\n71            <button className=\"btn btn-secondary\" onClick={handlePrev} disabled={currentPage === 1}>Previous</button>\n72            <span className=\"pagination-info\">Page {currentPage} of {totalPages}</span>\n73            <button className=\"btn btn-secondary\" onClick={handleNext} disabled={currentPage === totalPages}>Next</button>\n74          </div>\n75        )}\n76      </section>\n77    </div>\n78  );\n79}\n80\n81export default HomePage;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react';\n2import { createRoot } from 'react-dom/client';\n3import { BrowserRouter } from \"react-router-dom\";\n4import App from './App';\n5import './style.css';\n6\n7const root = createRoot(document.getElementById('root'));\n8root.render(    \n9    <BrowserRouter>\n10          <App />\n11    </BrowserRouter>\n12);"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "Things to Notice in Other Components"
+    },
+    {
+      "type": "paragraph",
+      "content": "We've removed Drawer.jsx since our aim is to route each entry to a URL rather than opening a drawer."
+    },
+    {
+      "type": "paragraph",
+      "content": "As such, we've also removed the onSelect prop from EntryCard.jsx so clicking on an entry won't do anything for now."
+    },
+    {
+      "type": "paragraph",
+      "content": "But don't worry! In the next lesson, we'll add a <Link> to route the entry cards to their respective entry URLs. For now, just keep these changes in the back of your mind."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

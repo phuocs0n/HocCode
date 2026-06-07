@@ -1,0 +1,48 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/classroom-scheduling-problem?page=2",
+  "title": "Defining the Greedy Logic",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Defining the Greedy Logic"
+    },
+    {
+      "type": "paragraph",
+      "content": "To be greedy in our approach, we focus on the ending time of each class. The idea is simple: choose the class that ends the earliest."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Start with the class that ends the earliest. This is the first class you'll hold in this classroom.",
+        "Now, you must pick a class that starts after the first class and ends at the earliest. This is the second class you'll hold."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Repeat this pattern until you can't fit more classes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

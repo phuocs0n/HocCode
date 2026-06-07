@@ -1,0 +1,58 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/conclusion?page=7",
+  "title": "Possible Improvements to the App",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Possible Improvements to the App"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's continue with the improvements:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Feature",
+          "Description"
+        ],
+        [
+          "Performance",
+          "React.memo() prevents a child from re-rendering when its props have not changed. It pairs with\n\nuseCallback() to keep function props stable, and\nuseMemo() (to keep object props stable)."
+        ],
+        [
+          "Fullstack",
+          "Frameworks like Next.js and Remix bring React to the server.\n\nServer components fetch data without any hooks at all. They run once on the server and send HTML to the browser.\nClient components use hooks exactly as we have covered here.\n\nThe hooks we've covered (useState(), useEffect(), useRef(), useMemo(), useCallback()) work in every one of these environments without change."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Everything we built here transfers directly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

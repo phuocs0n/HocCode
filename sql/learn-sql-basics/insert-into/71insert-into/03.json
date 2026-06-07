@@ -1,0 +1,139 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/insert-into?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose the id is an integer, name is a string, and age is an integer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which of the following SQL queries doesn't result in an error?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    ('Jules', 8, 22);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query will result in an error because the order of values is incorrect. The name value ('Jules') is inserted into the id column, which expects a numeric value."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query will result in an error because the order of values is incorrect. The name value ('Jules') is inserted into the id column, which expects a numeric value."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    (8, Jules, 22);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This SQL query results in an error because Jules is not enclosed in quotes. Since Jules is a string, it should be written as 'Jules' or \"Jules\" to insert it into the name column properly."
+    },
+    {
+      "type": "paragraph",
+      "content": "This SQL query results in an error because Jules is not enclosed in quotes. Since Jules is a string, it should be written as 'Jules' or \"Jules\" to insert it into the name column properly."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    (8, 'Jules', 22);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This SQL query is correct and will not result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "This SQL query is correct and will not result in an error."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    ('8', 'Jules', 22);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query will result in an error because the id column is expected to be an integer, but the value '8' is enclosed in quotes, making it a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query will result in an error because the id column is expected to be an integer, but the value '8' is enclosed in quotes, making it a string."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose the id is an integer, name is a string, and age is an integer.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:INSERT INTO \n    Students (id, name, age)\nVALUES\n    ('Jules', 8, 22);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    ('Jules', 8, 22);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:INSERT INTO \n    Students (id, name, age)\nVALUES\n    (8, Jules, 22);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    (8, Jules, 22);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:INSERT INTO \n    Students (id, name, age)\nVALUES\n    (8, 'Jules', 22);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    (8, 'Jules', 22);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:INSERT INTO \n    Students (id, name, age)\nVALUES\n    ('8', 'Jules', 22);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "INSERT INTO \n    Students (id, name, age)\nVALUES\n    ('8', 'Jules', 22);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

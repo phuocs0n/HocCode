@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/tuples?page=2",
+  "title": "Creating Tuples",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Tuples"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tuple is created by putting items inside () separated by commas."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# a tuple of numbers\n2numbers1 = (10, 20, 30)\n3print(numbers1)   # (10, 20, 30)\n4\n5# empty tuple\n6numbers2 = ()\n7print(numbers2)\n8\n9# tuple of mixed data types\n10mixed_tuple = (1, 'Hello', [3, 4])\n11print(mixed_tuple)  # (1, 'Hello', [3, 4])"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Creating a Tuple With Only One Item"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a tuple with only one item is a bit tricky."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we put a single item inside (), it will create a string. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1text = ('Hello')\n2print(text)   # Hello"
+    },
+    {
+      "type": "paragraph",
+      "content": "To create a tuple with one item, we also need to put a trailing comma to indicate that it is, in fact, a tuple."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1tuple1 = ('Hello',)\n2print(tuple1)   # ('Hello',)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

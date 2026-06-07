@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/dijkstras-algorithm?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dijkstra's algorithm is a path-finding algorithm that solves single-source shortest path problems."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what is a single-source shortest path problem?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're using a GPS device to find the shortest route from your home to a distant city. You enter your starting point (your home) and your destination (the distant city) into the GPS device."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dijkstra's algorithm can be used to compute the shortest path from the start to the destination."
+    },
+    {
+      "type": "paragraph",
+      "content": "This algorithm traverses through various possible routes, selecting the shortest path at each step, and ultimately providing you with a route that has the minimum distance or travel time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because we are finding the shortest path, this is a minimization problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use this algorithm to find the shortest path between two points."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

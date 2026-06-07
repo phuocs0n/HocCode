@@ -1,0 +1,62 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/add-any-number-of-parameters?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's think of functions with parameters. In Python, a function can accept positional arguments and keyword arguments. The number of arguments must match the number of parameters."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, we can use the concept of packing and unpacking to accept as many arguments as we want."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, * is used to pack elements in a tuple and pass that as arguments in a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we can create a function with *args as arguments and we can use args as a normal tuple in our function."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is what we can do :"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Create a function with *args as a parameter.",
+        "Create a blank sum variable.",
+        "By looping through the args variable, add each element to the sum.",
+        "Print the sum."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

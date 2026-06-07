@@ -1,0 +1,135 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/links?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How would you style an anchor element in CSS such that it changes color on hover?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "a { color: red; } \na:hover { color: green; }"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class is used to style elements when a user hovers over them."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class is used to style elements when a user hovers over them."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "a { color: red; } \na:active { color: green; }"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The :active pseudo-class styles an element when a user presses and holds a mouse button on it, not when they hover over it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :active pseudo-class styles an element when a user presses and holds a mouse button on it, not when they hover over it."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "a { color: red; } \na:visited { color: green; }"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The :visited pseudo-class is used for links that have been visited, not for general changes upon hovering."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :visited pseudo-class is used for links that have been visited, not for general changes upon hovering."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "a { color: red; } \na:first-child { color: green; }"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The :first-child pseudo-class targets the first child of its parent element; it doesn't implement hovering."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :first-child pseudo-class targets the first child of its parent element; it doesn't implement hovering."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How would you style an anchor element in CSS such that it changes color on hover?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:a { color: red; } \na:hover { color: green; }",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "a { color: red; } \na:hover { color: green; }",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:a { color: red; } \na:active { color: green; }",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "a { color: red; } \na:active { color: green; }",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:a { color: red; } \na:visited { color: green; }",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "a { color: red; } \na:visited { color: green; }",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:a { color: red; } \na:first-child { color: green; }",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "a { color: red; } \na:first-child { color: green; }",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

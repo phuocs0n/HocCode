@@ -1,0 +1,59 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/multiline-comments?page=1",
+  "title": "Does Python Have Multiline Comments?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Does Python Have Multiline Comments?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python natively doesn't support multiline comments. In Python, there is only one way to write a comment and that is using the # symbol."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, to write multiline comments, we can use # at the beginning of every line. Another way to add multiline comments is by using multiline string."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, we can write multiline strings by enclosing strings with three (double) quotation (\"\"\") marks. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "\"\"\"\nThis\nis \nstring\n\"\"\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we can place this string anywhere we want without storing it in any variable, thus making it act like a multi-line comment. Here's an example of it,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# This is a single-line comment\n2# written as a multi-line comment\n3print('Hello')\n4\n5\"\"\"\n6This is a multi-line string\n7that acts as a multi-line comment\n8\"\"\"\n9print('world')"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

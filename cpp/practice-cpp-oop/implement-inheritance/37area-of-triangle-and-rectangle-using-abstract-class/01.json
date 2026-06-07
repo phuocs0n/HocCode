@@ -1,0 +1,108 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/area-of-triangle-rectangle-using-abstract-class?page=1",
+  "title": "Area of Triangle and Rectangle Using Abstract Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Area of Triangle and Rectangle Using Abstract Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the area of a triangle and a rectangle by creating an abstract class. The formulas to calculate the areas are:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Area of Triangle = 0.5 * base * height\nArea of Rectangle = length * breadth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Polygon with a pure virtual function calculate_area().",
+        "Derive the Triangle class from Polygon.",
+        "Inside the class, create double variables base and height.",
+        "Initialize these variables using a constructor initializer list.",
+        "Then, create a double function calculate_area() that returns the area of the triangle."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Derive the Rectangle class from Polygon.",
+        "Inside the class, create double variables length and breadth.",
+        "Initialize these variables using a parameterized constructor.",
+        "Then, create a double function calculate_area() that returns the area of the rectangle."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 3"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), get double inputs for base, height, length, and breadth.",
+        "Create an object of Triangle and pass base and height to its constructor.",
+        "Create an object of Rectangle and pass length and breadth to its constructor.",
+        "Call the calculate_area() functions of both objects and store their return values in the area_triangle and area_rectangle variables, respectively.",
+        "Print area_triangle and area_rectangle."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n2\n6\n3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output5\n18"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

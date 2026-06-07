@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/session-storage?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens to session storage data when the browser tab is closed?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It persists across browser restarts."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Session storage is designed to be temporary and does not survive browser restarts or tab closures."
+    },
+    {
+      "type": "paragraph",
+      "content": "Session storage is designed to be temporary and does not survive browser restarts or tab closures."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is deleted when the tab is closed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Session storage is specific to a single browser tab and is cleared when the tab is closed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Session storage is specific to a single browser tab and is cleared when the tab is closed."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is shared across all tabs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Session storage is not shared across tabs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Session storage is not shared across tabs."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is stored permanently unless explicitly cleared."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Permanent storage is a characteristic of local storage, not session storage."
+    },
+    {
+      "type": "paragraph",
+      "content": "Permanent storage is a characteristic of local storage, not session storage."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens to session storage data when the browser tab is closed?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It persists across browser restarts.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It persists across browser restarts.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It is deleted when the tab is closed.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It is deleted when the tab is closed.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It is shared across all tabs.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It is shared across all tabs.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It is stored permanently unless explicitly cleared.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It is stored permanently unless explicitly cleared.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

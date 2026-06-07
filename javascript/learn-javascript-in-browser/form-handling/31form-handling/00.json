@@ -1,0 +1,68 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/form-handling?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've likely interacted with forms, whether to create accounts, log in to a service, or submit applications."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, you might have noticed that certain forms are not submitted unless all fields meet specific criteria. For example,"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<form id=\"signup-form\" action=\"/html-form-submit\" method=\"post\">\n2        <div class=\"form-group\">\n3            ..."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1#signup-form {\n2    background-color: #f9f9f9;\n3    ..."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const signupForm = document.querySelector(\"#signup-form\");\n2..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code, fill in the input fields, and click the \"Sign-Up\" button."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll notice that the form isn't submitted unless you fill it out with valid values. This is made possible through form handling."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn to handle forms, validate inputs, and also enhance user experience."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

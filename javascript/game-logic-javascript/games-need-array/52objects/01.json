@@ -1,0 +1,71 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/objects?page=2",
+  "title": "Group related data (first object)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Group related data (first object)"
+    },
+    {
+      "type": "paragraph",
+      "content": "We create an object with curly braces. Inside we write property names and values separated by colons, and properties separated by commas. We read a property with dot notation: objectName.propertyName."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var q = {\n2  question: \"Which of these is a programming language?\",\n3  options: [\"A: Python\", \"B: Pizza\", \"C: Pencil\"],\n4  answer: \"A\"\n5};\n6\n7console.log(q.question);\n8console.log(q.answer);\n9console.log(q.options[0]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, q is one question object."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "q.question is the text",
+        "q.answer is the correct choice",
+        "q.options is the array of option strings."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We use q.options[0] to get the first option."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Mindset"
+    },
+    {
+      "type": "paragraph",
+      "content": "I use one object per question so everything stays together: the text, the options, and the answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "That way q.question, q.options, q.answer always belong to the same question. It's easier to read, harder to mess up, and adding a new question means adding one object, not updating multiple places."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

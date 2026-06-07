@@ -1,0 +1,76 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/python-functions?page=3",
+  "title": "Call a Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Call a Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the function we created on the previous page:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# Function definition\ndef greet():\n    print(\"Hello\")\n    print(\"How do you do?\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a function doesn't automatically run it. It simply makes the code available for your use whenever you need to."
+    },
+    {
+      "type": "paragraph",
+      "content": "To use this function, you need to call it. Here's how:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Function definition\n2def greet():\n3    print(\"Hello\")\n4    print(\"How do you do?\")\n5\n6# Function call\n7greet()\n8\n9print(\"Next statement\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello\nHow do you do?\nNext statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we've defined a function named greet()."
+    },
+    {
+      "type": "paragraph",
+      "content": "To run the code inside the function, call it using its name followed by parentheses: greet()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore this in detail on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

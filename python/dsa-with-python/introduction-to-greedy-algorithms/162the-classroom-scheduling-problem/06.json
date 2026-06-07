@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-python/classroom-scheduling-problem?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the classroom scheduling problem, which activity should a greedy algorithm select at each step?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The activity that ends the earliest."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedily selecting the activity that ends the earliest ensures that you maximize the number of non-overlapping activities."
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedily selecting the activity that ends the earliest ensures that you maximize the number of non-overlapping activities."
+    },
+    {
+      "type": "paragraph",
+      "content": "The activity that starts last."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting the activity that starts last may lead to overlaps."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting the activity that starts last may lead to overlaps."
+    },
+    {
+      "type": "paragraph",
+      "content": "The classes with the shortest intervals are chosen."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The lengths of the classes don't matter."
+    },
+    {
+      "type": "paragraph",
+      "content": "The lengths of the classes don't matter."
+    },
+    {
+      "type": "paragraph",
+      "content": "The classes are selected at random."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The classes are not selected at random."
+    },
+    {
+      "type": "paragraph",
+      "content": "The classes are not selected at random."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the classroom scheduling problem, which activity should a greedy algorithm select at each step?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The activity that ends the earliest.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The activity that ends the earliest.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The activity that starts last.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The activity that starts last.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The classes with the shortest intervals are chosen.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The classes with the shortest intervals are chosen.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The classes are selected at random.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The classes are selected at random.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

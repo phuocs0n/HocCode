@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/building-query-key-factory?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we use a query key factory instead of writing keys directly in each component?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because React Query requires it for mutations to work"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query doesn't require a factory. It's a pattern you choose to adopt."
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query doesn't require a factory. It's a pattern you choose to adopt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because it keeps all keys in one place so typos and mismatches can't silently break your cache"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. One source of truth means if a key changes you fix it once and everything stays in sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. One source of truth means if a key changes you fix it once and everything stays in sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because query keys only work when they're imported from a separate file"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Keys work fine written inline. The factory is about maintainability not functionality."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keys work fine written inline. The factory is about maintainability not functionality."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because the factory automatically invalidates queries when data changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The factory just generates keys. Invalidation is still your job."
+    },
+    {
+      "type": "paragraph",
+      "content": "The factory just generates keys. Invalidation is still your job."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we use a query key factory instead of writing keys directly in each component?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because React Query requires it for mutations to work",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because React Query requires it for mutations to work",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because it keeps all keys in one place so typos and mismatches can't silently break your cache",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because it keeps all keys in one place so typos and mismatches can't silently break your cache",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because query keys only work when they're imported from a separate file",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because query keys only work when they're imported from a separate file",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because the factory automatically invalidates queries when data changes",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because the factory automatically invalidates queries when data changes",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/base-case?page=4",
+  "title": "Example 1: Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 1: Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's modify our previous program so that functions return a value this time."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_numbers(n):\n2\n3    if n == 4:\n4        return \"Done\"   \n5\n6    print(n)\n7\n8    # recursively call the function and\n9    # return the return value of that recursive call\n10    return print_numbers(n + 1)\n11\n12output = print_numbers(1)\n13print(output)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n3\nDone"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will explore how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

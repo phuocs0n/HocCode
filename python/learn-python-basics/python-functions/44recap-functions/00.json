@@ -1,0 +1,69 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-python-basics/revisit-function?page=1",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you write more complex programs, you'll quickly encounter repetitive code. Functions help you structure your code to make it reusable and organized."
+    },
+    {
+      "type": "paragraph",
+      "content": "Functions don't add additional logic; they are a tool that organizes and reuses existing logic efficiently."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Define a Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's an example to define a function:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# Define the function\ndef calculate_product():\n    n1 = int(input(\"Enter a number: \"))\n    n2 = int(input(\"Enter a number: \"))\n    \n    total = n1 * n2\n    print(total)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Function Call"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a function doesn't run it; you need to call the function to run its code."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Define the function\n2def calculate_product():\n3    n1 = int(input(\"Enter a number: \"))\n4    n2 = int(input(\"Enter a number: \"))\n5    \n6    total = n1 * n2\n7    print(total)\n8\n9# Call the function\n10calculate_product()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

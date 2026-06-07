@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/git/forks-pull-requests?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the fork-based workflow, where do you push your branch before opening a pull request?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Directly to the main branch of the original repository"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Contributors without write access cannot push to the original repository. That is why forking exists — it gives you your own copy to push to."
+    },
+    {
+      "type": "paragraph",
+      "content": "Contributors without write access cannot push to the original repository. That is why forking exists — it gives you your own copy to push to."
+    },
+    {
+      "type": "paragraph",
+      "content": "To a staging branch that the original repository maintainer sets up for contributors"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not how the standard GitHub workflow operates. In the fork-based model, contributors work entirely within their own fork and open a PR from there."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not how the standard GitHub workflow operates. In the fork-based model, contributors work entirely within their own fork and open a PR from there."
+    },
+    {
+      "type": "paragraph",
+      "content": "To their fork of the repository on GitHub"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. You fork the repository, clone your fork, create a branch, push that branch to your fork, and then open a pull request proposing to merge from your fork into the original."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. You fork the repository, clone your fork, create a branch, push that branch to your fork, and then open a pull request proposing to merge from your fork into the original."
+    },
+    {
+      "type": "paragraph",
+      "content": "To a new unrelated repository they create from scratch"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A fork is a connected copy — it maintains the relationship with the original repository needed to open a pull request. An unrelated repository has no connection back to the source."
+    },
+    {
+      "type": "paragraph",
+      "content": "A fork is a connected copy — it maintains the relationship with the original repository needed to open a pull request. An unrelated repository has no connection back to the source."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the fork-based workflow, where do you push your branch before opening a pull request?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Directly to the main branch of the original repository",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Directly to the main branch of the original repository",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To a staging branch that the original repository maintainer sets up for contributors",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To a staging branch that the original repository maintainer sets up for contributors",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To their fork of the repository on GitHub",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To their fork of the repository on GitHub",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To a new unrelated repository they create from scratch",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To a new unrelated repository they create from scratch",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

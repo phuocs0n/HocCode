@@ -1,0 +1,140 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/print-output?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n    public static void main(String[] args) {\n        \n        int number = 18;\n        System.out.println(\"Number is \" + number);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Number is number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The + operator joins the string Number is with the value of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The + operator joins the string Number is with the value of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Number is 18"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The + operator joins the string Number is with 18 (the value of the number variable)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The + operator joins the string Number is with 18 (the value of the number variable)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Number is"
+    },
+    {
+      "type": "paragraph",
+      "content": "18"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have used a single print statement to print the string Number is and the variable number. So, they won't be printed in two different lines."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have used a single print statement to print the string Number is and the variable number. So, they won't be printed in two different lines."
+    },
+    {
+      "type": "paragraph",
+      "content": "Number is18"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a space at the end of our string within the quotation marks which is carried on to the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a space at the end of our string within the quotation marks which is carried on to the output."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Number is number",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Number is number",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Number is 18",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Number is 18",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Number is18",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Number is18",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Number is18",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Number is18",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

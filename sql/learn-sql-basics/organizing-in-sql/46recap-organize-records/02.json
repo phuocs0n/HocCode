@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2?page=3",
+  "title": "Sorting Employees with Higher Salary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sorting Employees with Higher Salary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose your manager asks you to find the top five highest-earning employees, sorted in descending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "To accomplish this, you can use ORDER BY with the LIMIT clause."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select name and salary of top 5 highest-earning employees\n2\n3SELECT name, salary\n4FROM Employees\n5ORDER BY salary DESC\n6LIMIT 5;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the company can easily analyze the employees with higher salaries."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

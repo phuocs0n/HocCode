@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/prefetching-on-hover?page=1",
+  "title": "Why Prefetching Feels Like Magic",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Prefetching Feels Like Magic"
+    },
+    {
+      "type": "paragraph",
+      "content": "You know that feeling when you click something and it loads instantly? Like there was no wait at all?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's usually prefetching. The app quietly fetched the data before you even clicked. It did it the moment you hovered, because hovering usually means you're about to click."
+    },
+    {
+      "type": "paragraph",
+      "content": "In TaskFlow when the user hovers over a task we can silently fetch that task's details in the background. By the time they click it's already loaded."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's add this to TaskFlow."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

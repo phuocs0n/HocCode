@@ -1,0 +1,140 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-hoisting?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Consider the following code snippet."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "console.log(a);\nvar a = 10;"
+    },
+    {
+      "type": "paragraph",
+      "content": "What will it print?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only variable declaration is moved to the top of its scope, not variable initialization. So, it doesn't print 10."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only variable declaration is moved to the top of its scope, not variable initialization. So, it doesn't print 10."
+    },
+    {
+      "type": "paragraph",
+      "content": "undefined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Although var a; is hoisted to the top, a is not yet assigned a value 10 at the time console.log(a); is executed. Therefore, a is undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Although var a; is hoisted to the top, a is not yet assigned a value 10 at the time console.log(a); is executed. Therefore, a is undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "ReferenceError: a is not defined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Variable a is indeed defined due to hoisting, so we don't get a ReferenceError."
+    },
+    {
+      "type": "paragraph",
+      "content": "Variable a is indeed defined due to hoisting, so we don't get a ReferenceError."
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeError: Cannot access 'a' before initialization"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeError occurs when trying to access a const or let variable before it is initialized, not with var."
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeError occurs when trying to access a const or let variable before it is initialized, not with var."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Consider the following code snippet.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:10",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:ReferenceError: a is not defined",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "ReferenceError: a is not defined",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:TypeError: Cannot access 'a' before initialization",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "TypeError: Cannot access 'a' before initialization",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

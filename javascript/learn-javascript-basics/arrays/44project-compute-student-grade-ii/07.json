@@ -1,0 +1,63 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-student-grade-ii?page=5",
+  "title": "Final Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Final Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the final project:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function to add scores\n2const addScore = (sum, score) => {\n3    return sum + score;\n4};\n5\n6// Find the average score and return it\n7const getAverageScore = (scores) => {\n8\n9    // Calculate total score\n10    let total = scores.reduce(addScore, 0);\n11    \n12    // Compute average score\n13    let averageScore = total / scores.length;\n14    \n15    return averageScore;\n16}\n17\n18// Returns the grade based on the average score\n19const computeGrade = (averageScore) => {\n20    let grade;\n21\n22    if (averageScore >= 80) {\n23        grade = \"A\";\n24    } else if (averageScore >= 60) {\n25        grade = \"B\";\n26    } else if (averageScore >= 50) {\n27        grade = \"C\";\n28    } else {\n29        grade = \"F\";\n30    }\n31\n32    return grade;\n33};\n34\n35// Using array with ten values\n36const scores = [55, 64, 75, 80, 65, 40, 90, 85, 68, 78]\n37\n38const averageScore = getAverageScore(scores);\n39\n40console.log(`Average Score: ${averageScore}`);\n41\n42let grade = computeGrade(averageScore);\n43\n44console.log(`Grade: ${grade}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Average Score: 70\nGrade: B"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the scores array contains ten values, and the code works perfectly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the average score is calculated dynamically based on the array's length, the project is now adaptable to arrays of any size."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's quickly recap everything you've learned in this chapter and wrap things up."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

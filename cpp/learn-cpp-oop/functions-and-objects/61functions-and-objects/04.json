@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/functions-objects?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose you have a class named Rectangle and you want to pass its object to the calculate_area() function, which returns a double value. How do you create the function definition?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "double calculate_area(Rectangle) {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need both the class name and object name for the function definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need both the class name and object name for the function definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rectangle calculate_area(object) {...};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the object as a parameter, so we need to specify the class name as the function parameter."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the object as a parameter, so we need to specify the class name as the function parameter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rectangle calculate_area(Rectangle rect) {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The given function returns a double value, not a Rectangle object."
+    },
+    {
+      "type": "paragraph",
+      "content": "The given function returns a double value, not a Rectangle object."
+    },
+    {
+      "type": "paragraph",
+      "content": "double calculate_area(Rectangle rect) {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify the class name and object name inside the parentheses."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify the class name and object name inside the parentheses."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose you have a class named Rectangle and you want to pass its object to the calculate_area() function, which returns a double value. How do you create the function definition?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:double calculate_area(Rectangle) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "double calculate_area(Rectangle) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Rectangle calculate_area(object) {...};",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Rectangle calculate_area(object) {...};",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Rectangle calculate_area(Rectangle rect) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Rectangle calculate_area(Rectangle rect) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:double calculate_area(Rectangle rect) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "double calculate_area(Rectangle rect) {...}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

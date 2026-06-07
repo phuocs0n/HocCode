@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/multiply-strings-as-integers?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that although the given data are in string format, they contain numbers. So it should be easy to convert these strings into integers."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, we can convert string data to integers by using the int() function. Let's look at the steps we need to follow to solve this problem."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "We need to convert both strings to integers.",
+        "Since they are both integers, we can multiply them.",
+        "Finally, we need to convert the product to string format."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

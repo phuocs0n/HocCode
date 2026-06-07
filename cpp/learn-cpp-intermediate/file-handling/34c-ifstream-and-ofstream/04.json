@@ -1,0 +1,183 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/c-ifstream-ofstream?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of these following classes cannot be used to write to a file?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "fstream"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The fstream class can both read from and write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fstream class can both read from and write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "ofstream"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ofstream class is used for writing to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ofstream class is used for writing to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "ifstream"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ifstream class is only used for reading from a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ifstream class is only used for reading from a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The fstream class can both read from and write to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fstream class can both read from and write to a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ofstream class is used for writing to a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ofstream class is used for writing to a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ifstream class is only used for reading from a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ifstream class is only used for reading from a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of these following classes cannot be used to write to a file?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:fstream",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "fstream",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:ofstream",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "ofstream",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:ifstream",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "ifstream",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

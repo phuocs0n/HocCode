@@ -1,0 +1,62 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/what-is-mutation?page=2",
+  "title": "Meet useMutation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Meet useMutation"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query gives us a hook called useMutation. It works a little differently from useQuery."
+    },
+    {
+      "type": "paragraph",
+      "content": "With useQuery the fetch happens automatically when the component loads. With useMutation nothing happens until you actually trigger it. That makes sense because you don't want tasks randomly creating or deleting themselves."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what it looks like:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const mutation = useMutation({\n  mutationFn: createTask\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "You pass it one thing called mutationFn. That's the function that talks to the server."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then when the user does something like clicking a button, you call mutation.mutate() to fire it."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's create our first task."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

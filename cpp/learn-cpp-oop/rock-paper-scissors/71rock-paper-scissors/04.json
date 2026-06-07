@@ -1,0 +1,83 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors?page=5",
+  "title": "Step 3: Get the User's Pick",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Get the User's Pick"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "add the get_user_pick() function to the Game class"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Function Objectives"
+    },
+    {
+      "type": "paragraph",
+      "content": "The purpose of this function is to get a character input from the user and return a string value based on this input."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\n#include <cstdlib>\n#include <ctime>\nusing namespace std;\n\nclass Game {\n    private:\n        string user_pick;\n        string computer_pick;\n        string result;\n\n    public:\n\n        // function to return computer's pick\n        string get_computer_pick() {\n            \n            // generate random number based on time\n            srand(time(NULL));\n\n            // random number between 1 and 3\n            int random_number = (rand() % 3) + 1;\n\n            switch(random_number) {\n                case 1:\n                    computer_pick = \"rock\";\n                    break;\n        \n                case 2:\n                    computer_pick = \"paper\";\n                    break;\n\n                case 3:\n                    computer_pick = \"scissors\";\n                    break;\n            }\n\n            return computer_pick;\n        }\n\n\n        // function to return user's pick\n        string get_user_pick() {\n\n            char user_input;\n\n            cout << \"Enter Your Choice (r for rock, p for paper, s for scissors): \";\n            cin >> user_input;\n\n            // assign appropriate string to user_pick\n            if (user_input == 'r') {\n                user_pick = \"rock\";\n            }\n            else if (user_input == 'p') {\n                user_pick = \"paper\";\n            }\n            else if (user_input == 's') {\n                user_pick = \"scissors\";\n            }\n\n            return user_pick;\n        }\n\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the get_user_pick() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "The user is asked to enter a character, which is stored in the user_input variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Based on the value of user_input, we assign \"rock\", \"paper\", or \"scissors\" to the member variable user_pick. The function then returns this variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if the user enters any character other than 'r', 'p', or 's', we cannot compare it with the computer's pick."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this issue, let's modify the get_user_pick() function so that the user is asked to enter input again and again until the user enters a valid string."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

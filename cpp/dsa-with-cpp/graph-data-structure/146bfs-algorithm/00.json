@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/bfs-algorithm?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Breadth-First Search (BFS) is a graph traversal algorithm that explores the graph layer by layer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Real-Life Analogy"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you post a photo or a status update on social media, your immediate friends or followers see it first."
+    },
+    {
+      "type": "paragraph",
+      "content": "When they like, share, or comment on it, their friends (who might not be directly connected to you) see it, and then their friends, and so on. The post reaches people in layers of closeness to you."
+    },
+    {
+      "type": "paragraph",
+      "content": "The BFS algorithm works in a similar manner. It starts from a source vertex and explores all its adjacent vertices at the current depth before moving on to the vertices at the next depth level."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

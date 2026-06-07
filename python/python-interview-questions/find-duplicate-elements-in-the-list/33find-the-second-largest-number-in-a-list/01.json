@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/find-secondlargest-number-in-list?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are multiple approaches to find the second-largest element from a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In one approach, we can sort the list in descending order, so that the largest element is at the beginning of the list. We can then get the second element as the second-largest element."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if the largest element has a duplicate, the above approach will return the largest element."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# sorted in descending order\nnumbers = [51, 51, 23, 6, 5, 2]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, our above approach will return 51 as the second largest element, which is wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we can make a comparison between the first and second elements. If they are different, then the second element is the second largest element."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if the first and second elements are the same, then we again make a comparison between the first and third elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can find the second largest element using this method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

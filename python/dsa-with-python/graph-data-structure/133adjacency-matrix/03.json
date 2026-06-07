@@ -1,0 +1,52 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/adjacency-matrix?page=4",
+  "title": "Adjacency Matrix of a Directed Graph",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adjacency Matrix of a Directed Graph"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, we have only described the adjacency matrix of undirected graphs."
+    },
+    {
+      "type": "paragraph",
+      "content": "The adjacency matrix of a directed graph is quite similar to that of an undirected graph with one key difference: we also need to take the direction into account."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the case of a directed graph, we fill the matrix as"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "aija_{ij}aij​ = 1,  if an edge is present from vertices viv_{i}vi​ to vjv_{j}vj​  (not from vjv_{j}vj​ to viv_{i}vi​)",
+        "aija_{ij}aij​ = 0, if an edge is not present from vertices viv_{i}vi​ to vjv_{j}vj​"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

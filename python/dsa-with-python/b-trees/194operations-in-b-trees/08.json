@@ -1,0 +1,131 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/dsa-with-python/operations-in-bplus-trees?page=9",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens when a key to be deleted is present only in the leaf node, and the node has more than the minimum number of keys?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The key is removed and replaced with the nearest key from the sibling node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When a node has more than the minimum number of keys, it isn't required to replace it with another key from a sibling node."
+    },
+    {
+      "type": "paragraph",
+      "content": "When a node has more than the minimum number of keys, it isn't required to replace it with another key from a sibling node."
+    },
+    {
+      "type": "paragraph",
+      "content": "The key is simply removed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the node has more than the minimum number of keys, the key is simply deleted without any node reorganization."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the node has more than the minimum number of keys, the key is simply deleted without any node reorganization."
+    },
+    {
+      "type": "paragraph",
+      "content": "The entire node is deleted."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the key is deleted, not the entire node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the key is deleted, not the entire node."
+    },
+    {
+      "type": "paragraph",
+      "content": "The delete operation is disallowed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A deletion is entirely feasible under this situation."
+    },
+    {
+      "type": "paragraph",
+      "content": "A deletion is entirely feasible under this situation."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens when a key to be deleted is present only in the leaf node, and the node has more than the minimum number of keys?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The key is removed and replaced with the nearest key from the sibling node.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The key is removed and replaced with the nearest key from the sibling node.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The key is simply removed.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The key is simply removed.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The entire node is deleted.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The entire node is deleted.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The delete operation is disallowed.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The delete operation is disallowed.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

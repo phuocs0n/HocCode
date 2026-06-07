@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/organizing-in-sql?page=1",
+  "title": "Introduction to Organizing Records",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Organizing Records"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous chapter, you learned to summarize data using SQL aggregate functions. Now, let's focus on organizing data for better analysis and answering specific questions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the updated Customers table you'll be working with:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Customers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine your manager asks:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Can you sort customers by total spending?",
+        "How many customers are there in each country?",
+        "Which countries have fewer than three customers?",
+        "Can you categorize customers as Target Customer, High Spender, or Low Spender based on their purchases?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To answer these, you need to organize the data—sorting it, grouping it, and even creating new categories. SQL offers powerful tools for these tasks."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

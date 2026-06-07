@@ -1,0 +1,104 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-longest-palindromic-substring-in-given-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have to find longest palindromic string in the following text."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = erararr"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will consider each character in the text as the potential center of a palindromic string. And we will check if the character to its left and right are the same. If not, we'll move to the next character."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's check if the second character r is the center of a palindrome. Since the characters to its left and right are not the same, we'll move on to the next character."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's check if the third character a is the center of a palindrome. Since it has the same character r on both sides, it is the center of a palindrome. We'll then check if the characters to the left and right of rar are the same. Since they are different, we'll move on to the next character."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll repeat this process for each character in the text until we find all palindromic strings. In this case, we'll find two palindromic strings rar and rarar. We'll return the longest palindromic string, which is rarar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, as the character to left and right of rarar are e and r, we will not look any further. And we have found two palindromic string, we will return the longest one."
+    },
+    {
+      "type": "paragraph",
+      "content": "This will work if the palindrome has odd length."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = baad"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, the above approach wouldnot work. So, in this case we will consider aa as the middle of the palindromic string and further expand it like we did for erararr."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's look at the step by step approach of finding the palindromic string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take a text string, begin index, and end index as input.",
+        "Initialize begin and end indices to the middle character of the text string.",
+        "While begin index is greater than or equal to zero, end index is less than or equal to the length of the text string minus 1, and characters at begin and end indices are equal, do the following:",
+        "Decrement begin index by 1.",
+        "Increment end index by 1.",
+        "Return the substring of text from index begin + 1 to index end."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, find the longest palindromic string using following steps:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check if the input string is null or has one or less characters. If it is, return the input string as it is already a palindrome.",
+        "Initialize the longest variable to the first character of the string.",
+        "Loop through each character in the string and call the expandFromMiddle() method twice, once with the current character as the center of the palindrome and once with the current and next characters as the center of the palindrome.",
+        "If the resulting substring from expandFromMiddle() is longer than the current longest variable, update longest to the new substring.",
+        "After the loop is complete, return the longest palindromic substring."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

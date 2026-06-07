@@ -1,0 +1,192 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/multidimensional-arrays?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Given the 2D array:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "arr = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Which indices should be used to access the value 4?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[1][0]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the first column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the first column."
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[0][1]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the first row and the second column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the first row and the second column."
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[2][0]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the third row and the first column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the third row and the first column."
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[1][1]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the second column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the second column."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the first column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the first column."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the first row and the second column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the first row and the second column."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the third row and the first column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the third row and the first column."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the second column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This index points to the second row and the second column."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Given the 2D array:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:arr[1][0]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "arr[1][0]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:arr[0][1]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "arr[0][1]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:arr[2][0]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "arr[2][0]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:arr[1][1]",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "arr[1][1]",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

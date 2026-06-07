@@ -1,0 +1,104 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-leaders-in-array?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have an array [17, 4, 2, 3, 1]."
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the leader elements in an array, we start by looking at the rightmost element, which is 1 in this case. It is always considered a leader because there are no elements to its right."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we move to the element to the left, which is 3, and compare it with the current leader, which is 1. Since 3 is greater than 1, we make it the new leader and add it to the list of leaders."
+    },
+    {
+      "type": "paragraph",
+      "content": "We continue this process for the remaining elements until we reach the leftmost element of the array."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Element",
+          "Is it a leader?",
+          "Reason for being a leader"
+        ],
+        [
+          "1",
+          "Yes",
+          "No elements to its right"
+        ],
+        [
+          "3",
+          "Yes",
+          "Greater than current leader"
+        ],
+        [
+          "2",
+          "No",
+          "Smaller than current leader"
+        ],
+        [
+          "4",
+          "Yes",
+          "Greater than current leader"
+        ],
+        [
+          "17",
+          "Yes",
+          "Greater than current leader"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how we can implement this logic in our program."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an empty array called leaders to store the leaders found in the input array.",
+        "Initialize a variable called index to 0. This variable will be used to keep track of the current index in the leaders array.",
+        "Initialize a variable called max to the last element of the input array.",
+        "Add max to the leaders array at the current index (index), and increment index by 1.",
+        "Loop through the input array in reverse order, starting from the second-to-last element.",
+        "For each element in the loop, check if it is greater than max.",
+        "If the element is greater than max, update max to be the current element, and add max to the leaders array at the current index (index).",
+        "Increment index by 1.",
+        "After the loop, create a new array called result that is the same length as the number of leaders found (i.e. index).",
+        "Copy the elements of the leaders array up to the index position into the result array.",
+        "Return the result array containing the leaders."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

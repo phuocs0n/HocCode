@@ -1,0 +1,93 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/responsive-design/media-queries?page=2",
+  "title": "What Are Media Queries?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Are Media Queries?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A media query is a CSS rule that only switches on when a certain condition is met."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Figma to Code course you wrote the hero like this for desktop."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1.hero-content {\n2  display: grid;\n3  grid-template-columns: 220px auto;\n4  gap: 64px;\n5}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1*, *::before, *::after {\n2  box-sizing: border-box;\n3}\n4\n5body, p, h1, h2, h3 {\n6  margin: 0;\n7}\n8\n9body {\n10  font-family: 'Inter';\n11  background-color: white;\n12}\n13\n14.container {\n15  max-width: 1024px; /* content width 976px + padding left and right 24px + 24px */\n16  margin: 0 auto;\n17  padding: 0 24px;\n18}\n19\n20.site-header {\n21  padding: 16px 0;\n22  border-bottom: 1px solid #F3F4F6;\n23}\n24\n25.site-header .container {\n26  display: flex;\n27  align-items: center;\n28  justify-content: space-between;\n29}\n30\n31nav ul {\n32  list-style: none;\n33  margin: 0;\n34  padding: 0;\n35  display: flex;\n36  gap: 32px;\n37}\n38\n39.brand {\n40  font-size: 20px;\n41  font-weight: 700;\n42  text-decoration: none;\n43  color: #1E293B;\n44}\n45\n46nav a {\n47  font-size: 14px;\n48  text-decoration: none;\n49  font-weight: 500;\n50  color: #1E293B;\n51}\n52\n53.download-btn {\n54  height: 30px;\n55  padding: 0 8px;\n56  text-decoration: none;\n57  font-size: 12px;\n58  font-weight: 700;\n59  display: flex;\n60  justify-content: center;\n61  align-items: center;\n62  color: #14B8A5;\n63}\n64\n65.download-btn-outline {\n66  border: 1px solid #14B8A5;\n67  border-radius: 30px;\n68}\n69\n70.hero {\n71  padding: 80px 0;\n72}\n73\n74.hero .container {\n75  display: flex;\n76  flex-direction: column;\n77  gap: 64px;\n78}\n79\n80.hero-content {\n81  display: grid;\n82  grid-template-columns: 220px auto;\n83  gap: 64px;\n84  align-items: center;\n85}\n86\n87.hero-image {\n88  max-width: 224px;\n89  border-radius: 24px;\n90  border: 1px solid #FFFFFF;\n91  background: #F3F4F6;\n92}\n93\n94.hero-image img {\n95  width: 100%;\n96  height: auto;\n97  border-radius: 24px;\n98}\n99\n100.hero-text {\n101  display: flex;\n102  flex-direction: column;\n103  gap: 24px;\n104  max-width: 672px;\n105}\n106\n107.hero-text h1 {\n108  color: #0F172A;\n109  font-family: \"Crimson Pro\";\n110  font-size: 60px;\n111  font-weight: 700;\n112  margin-bottom: 8px;\n113}\n114\n115.hero-subtitle {\n116  color: #14B8A5;\n117  font-family: \"Crimson Pro\";\n118  font-size: 20px;\n119  font-weight: 400;\n120}\n121\n122.hero-text p {\n123  color: #475569;\n124  font-size: 18px;\n125  font-style: normal;\n126  font-weight: 400;\n127  line-height: 30px;\n128}\n129\n130.hero-actions {\n131  display: flex;\n132  align-items: flex-start;\n133  gap: 16px;\n134}\n135\n136.btn {\n137  display: flex;\n138  padding: 12px 24px;\n139  flex-direction: column;\n140  justify-content: center;\n141  align-items: center;\n142  font-size: 16px;\n143  font-weight: 700;\n144  border-radius: 12px;\n145  text-decoration: none;\n146}\n147\n148.btn-dark {\n149  background-color: #0F172A;\n150  color: #ffffff;\n151}\n152\n153.btn-outline-secondary {\n154  border: 1px solid #E2E8F0;\n155  color: #1E293B;\n156  background-color: #ffffff;\n157}\n158\n159.hero-stats {\n160  display: grid;\n161  grid-template-columns: repeat(4, 1fr);\n162  gap: 16px;\n163}\n164\n165.stat-card {\n166  display: flex;\n167  flex-direction: column;\n168  align-items: flex-start;\n169  gap: 5px;\n170  padding: 16px;\n171  border-radius: 16px;\n172  border: 1px solid #F1F5F9;\n173  background: #F8FAFC;\n174}\n175\n176.stat-card strong {\n177  color: #0F172A;\n178  font-family: \"Crimson Pro\";\n179  font-size: 24px;\n180  font-weight: 700;\n181}\n182\n183.stat-card p {\n184  color: #64748B;\n185  font-size: 12px;\n186  font-weight: 700;\n187}\n188\n189.journey-wrapper {\n190  padding: 64px 0;\n191  border-top: 1px solid #F3F4F6;\n192  display: flex;\n193  flex-direction: column;\n194  gap: 40px;\n195}\n196\n197.journey h2 {\n198  color: #1E293B;\n199  font-family: \"Crimson Pro\";\n200  font-size: 30px;\n201  font-weight: 700;\n202}\n203\n204.journey h2 .material-icons {\n205  color: #14B8A5;\n206  font-family: \"Material Icons\";\n207  font-size: 24px;\n208  font-weight: 400;\n209}\n210\n211.journey-list {\n212  display: flex;\n213  flex-direction: column;\n214  gap: 40px;\n215}\n216\n217.journey-item {\n218  display: grid;\n219  grid-template-columns: 180px 1fr;\n220  gap: 16px;\n221}\n222\n223.journey-date {\n224  color: #94A3B8;\n225  font-size: 14px;\n226  font-weight: 700;\n227  text-transform: uppercase;\n228}\n229\n230.journey-content {\n231  display: flex;\n232  flex-direction: column;\n233  align-items: flex-start;\n234  gap: 12px;\n235}\n236\n237.journey-role h3 {\n238  color: #0F172A;\n239  font-family: \"Crimson Pro\";\n240  font-size: 20px;\n241  font-weight: 700;\n242  line-height: 30px;\n243}\n244\n245.journey-role p {\n246  color: #64748B;\n247  font-family: \"Crimson Pro\";\n248  font-size: 16px;\n249  font-style: italic;\n250  font-weight: 500;\n251}\n252\n253.role-description {\n254  color: #475569;\n255  font-size: 16px;\n256  font-weight: 400;\n257  line-height: 24px;\n258}\n259\n260.journey-tags {\n261  display: flex;\n262  gap: 8px;\n263}\n264\n265.tag {\n266  padding: 4px 8px;\n267  border-radius: 4px;\n268  background: #F1F5F9;\n269  color: #1E293B;\n270  font-size: 10px;\n271  font-weight: 700;\n272  text-transform: uppercase;\n273}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code and switch to mobile view. See what that looks like on a phone."
+    },
+    {
+      "type": "paragraph",
+      "content": "Not great, right? A portrait image and a block of text trying to sit side by side in 360px of space."
+    },
+    {
+      "type": "paragraph",
+      "content": "It would be so much nicer if on a phone the content just stacked. Portrait on top, text below, easy to read. So for mobile let's make it a single column."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1.hero-content {\n2  display: flex;\n3  flex-direction: column;\n4}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1*, *::before, *::after {\n2  box-sizing: border-box;\n3}\n4\n5body, p, h1, h2, h3 {\n6  margin: 0;\n7}\n8\n9body {\n10  font-family: 'Inter';\n11  background-color: white;\n12}\n13\n14.container {\n15  max-width: 1024px; /* content width 976px + padding left and right 24px + 24px */\n16  margin: 0 auto;\n17  padding: 0 24px;\n18}\n19\n20.site-header {\n21  padding: 16px 0;\n22  border-bottom: 1px solid #F3F4F6;\n23}\n24\n25.site-header .container {\n26  display: flex;\n27  align-items: center;\n28  justify-content: space-between;\n29}\n30\n31nav ul {\n32  list-style: none;\n33  margin: 0;\n34  padding: 0;\n35  display: flex;\n36  gap: 32px;\n37}\n38\n39.brand {\n40  font-size: 20px;\n41  font-weight: 700;\n42  text-decoration: none;\n43  color: #1E293B;\n44}\n45\n46nav a {\n47  font-size: 14px;\n48  text-decoration: none;\n49  font-weight: 500;\n50  color: #1E293B;\n51}\n52\n53.download-btn {\n54  height: 30px;\n55  padding: 0 8px;\n56  text-decoration: none;\n57  font-size: 12px;\n58  font-weight: 700;\n59  display: flex;\n60  justify-content: center;\n61  align-items: center;\n62  color: #14B8A5;\n63}\n64\n65.download-btn-outline {\n66  border: 1px solid #14B8A5;\n67  border-radius: 30px;\n68}\n69\n70.hero {\n71  padding: 80px 0;\n72}\n73\n74.hero .container {\n75  display: flex;\n76  flex-direction: column;\n77  gap: 64px;\n78}\n79\n80.hero-content {\n81  display: flex;\n82  flex-direction: column;\n83}\n84.hero-image {\n85  max-width: 224px;\n86  border-radius: 24px;\n87  border: 1px solid #FFFFFF;\n88  background: #F3F4F6;\n89}\n90\n91.hero-image img {\n92  width: 100%;\n93  height: auto;\n94  border-radius: 24px;\n95}\n96\n97.hero-text {\n98  display: flex;\n99  flex-direction: column;\n100  gap: 24px;\n101  max-width: 672px;\n102}\n103\n104.hero-text h1 {\n105  color: #0F172A;\n106  font-family: \"Crimson Pro\";\n107  font-size: 60px;\n108  font-weight: 700;\n109  margin-bottom: 8px;\n110}\n111\n112.hero-subtitle {\n113  color: #14B8A5;\n114  font-family: \"Crimson Pro\";\n115  font-size: 20px;\n116  font-weight: 400;\n117}\n118\n119.hero-text p {\n120  color: #475569;\n121  font-size: 18px;\n122  font-style: normal;\n123  font-weight: 400;\n124  line-height: 30px;\n125}\n126\n127.hero-actions {\n128  display: flex;\n129  align-items: flex-start;\n130  gap: 16px;\n131}\n132\n133.btn {\n134  display: flex;\n135  padding: 12px 24px;\n136  flex-direction: column;\n137  justify-content: center;\n138  align-items: center;\n139  font-size: 16px;\n140  font-weight: 700;\n141  border-radius: 12px;\n142  text-decoration: none;\n143}\n144\n145.btn-dark {\n146  background-color: #0F172A;\n147  color: #ffffff;\n148}\n149\n150.btn-outline-secondary {\n151  border: 1px solid #E2E8F0;\n152  color: #1E293B;\n153  background-color: #ffffff;\n154}\n155\n156.hero-stats {\n157  display: grid;\n158  grid-template-columns: repeat(4, 1fr);\n159  gap: 16px;\n160}\n161\n162.stat-card {\n163  display: flex;\n164  flex-direction: column;\n165  align-items: flex-start;\n166  gap: 5px;\n167  padding: 16px;\n168  border-radius: 16px;\n169  border: 1px solid #F1F5F9;\n170  background: #F8FAFC;\n171}\n172\n173.stat-card strong {\n174  color: #0F172A;\n175  font-family: \"Crimson Pro\";\n176  font-size: 24px;\n177  font-weight: 700;\n178}\n179\n180.stat-card p {\n181  color: #64748B;\n182  font-size: 12px;\n183  font-weight: 700;\n184}\n185\n186.journey-wrapper {\n187  padding: 64px 0;\n188  border-top: 1px solid #F3F4F6;\n189  display: flex;\n190  flex-direction: column;\n191  gap: 40px;\n192}\n193\n194.journey h2 {\n195  color: #1E293B;\n196  font-family: \"Crimson Pro\";\n197  font-size: 30px;\n198  font-weight: 700;\n199}\n200\n201.journey h2 .material-icons {\n202  color: #14B8A5;\n203  font-family: \"Material Icons\";\n204  font-size: 24px;\n205  font-weight: 400;\n206}\n207\n208.journey-list {\n209  display: flex;\n210  flex-direction: column;\n211  gap: 40px;\n212}\n213\n214.journey-item {\n215  display: grid;\n216  grid-template-columns: 180px 1fr;\n217  gap: 16px;\n218}\n219\n220.journey-date {\n221  color: #94A3B8;\n222  font-size: 14px;\n223  font-weight: 700;\n224  text-transform: uppercase;\n225}\n226\n227.journey-content {\n228  display: flex;\n229  flex-direction: column;\n230  align-items: flex-start;\n231  gap: 12px;\n232}\n233\n234.journey-role h3 {\n235  color: #0F172A;\n236  font-family: \"Crimson Pro\";\n237  font-size: 20px;\n238  font-weight: 700;\n239  line-height: 30px;\n240}\n241\n242.journey-role p {\n243  color: #64748B;\n244  font-family: \"Crimson Pro\";\n245  font-size: 16px;\n246  font-style: italic;\n247  font-weight: 500;\n248}\n249\n250.role-description {\n251  color: #475569;\n252  font-size: 16px;\n253  font-weight: 400;\n254  line-height: 24px;\n255}\n256\n257.journey-tags {\n258  display: flex;\n259  gap: 8px;\n260}\n261\n262.tag {\n263  padding: 4px 8px;\n264  border-radius: 4px;\n265  background: #F1F5F9;\n266  color: #1E293B;\n267  font-size: 10px;\n268  font-weight: 700;\n269  text-transform: uppercase;\n270}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code and switch to mobile view. Much better."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what about a tablet or desktop?"
+    },
+    {
+      "type": "paragraph",
+      "content": "On those screens there's plenty of room. So what if we could say \"if the screen is a tablet or bigger, go back to two columns\"?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's exactly what a media query does. A media query is for viewport width, the actual width of the browser window, not the device, not the font size, just how wide the screen is at that moment."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, let's see what that looks like in code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

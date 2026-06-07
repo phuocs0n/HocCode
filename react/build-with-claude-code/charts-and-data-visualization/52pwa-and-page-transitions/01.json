@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/pwa-page-transitions?page=2",
+  "title": "Framer Motion for Route Transitions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Rapid Build With Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Framer Motion for Route Transitions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Without animation, navigating between SpeedBlip's pages is an instant swap - the Dashboard disappears and the History page appears in the same frame. With Framer Motion, each page fades in from a slight vertical offset, creating a smooth visual handoff."
+    },
+    {
+      "type": "paragraph",
+      "content": "The setup: wrap the router's <Outlet /> with Framer Motion's <AnimatePresence> and add <motion.div> to each page:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// In AppLayout\nimport { AnimatePresence } from 'framer-motion';\nimport { useLocation } from 'react-router-dom';\nimport { Outlet } from 'react-router-dom';\n\nconst location = useLocation();\n\n// Wrap the Outlet with AnimatePresence in your AppLayout JSX:\n<AnimatePresence mode=\"wait\">\n  <Outlet key={location.pathname} />\n</AnimatePresence>\n\n// In each page component\nimport { motion } from 'framer-motion';\n\nexport const Dashboard = () => (\n  <motion.div\n    initial={{ opacity: 0, y: 12 }}\n    animate={{ opacity: 1, y: 0 }}\n    exit={{ opacity: 0, y: -8 }}\n    transition={{ duration: 0.2 }}\n  >\n    {/* page content */}\n  </motion.div>\n);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The key={location.pathname} on <Outlet /> tells AnimatePresence that each route change is a new component mount. Without it, AnimatePresence cannot detect the change and the transitions do not trigger."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

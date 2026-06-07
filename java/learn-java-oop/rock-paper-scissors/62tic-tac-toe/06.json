@@ -1,0 +1,106 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-java-oop/tictactoe?page=7",
+  "title": "Step 4: Updating the play() Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Updating the play() Method"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the play() method of the Game class is updated",
+        "the updateBoard() method is added to the Board class"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Board {\n4\n5    String board[] = { \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \" };\n6\n7    void printBoard() {\n8\n9        System.out.println(\" \" + board[0] + \" | \" + board[1] + \" | \" + board[2]);\n10        System.out.println(\"-----------\");\n11        System.out.println(\" \" + board[3] + \" | \" + board[4] + \" | \" + board[5]);\n12        System.out.println(\"-----------\");\n13        System.out.println(\" \" + board[6] + \" | \" + board[7] + \" | \" + board[8]);\n14\n15    }\n16\n17\n18    boolean updateBoard(int position, String type) {\n19\n20        // if a player selects position n, n-1 index should be updated\n21        // if the position is not already filled, update the board\n22        if (board[position - 1] == \" \") {\n23            board[position - 1] = type;\n24            return true;\n25        }\n26\n27        // if the position is already filled, ask user to select another position\n28        else {\n29            System.out.println(\"Position already selected. Select another position.\");\n30            return false;\n31\n32        }\n33    }\n34\n35}\n36\n37class Player {\n38\n39    String name;\n40\n41    String type;\n42\n43    Player(String type) {\n44        this.type = type;\n45        Scanner input = new Scanner(System.in);\n46        if (type == \"X\") {\n47            System.out.println(\"Player selecting X, enter your name: \");\n48            name = input.nextLine();\n49        } \n50        else {\n51            System.out.println(\"Player selecting O, enter your name: \");\n52            name = input.nextLine();\n53        }\n54    }\n55}\n56\n57class Game {\n58\n59    Board board = new Board();\n60    Player player1 = new Player(\"X\");\n61    Player player2 = new Player(\"O\");\n62\n63    Player currentPlayer = player1;\n64\n65\n66    void play() {\n67        // using an infinite loop to run the game\n68        // we will later add conditions to terminate the loop\n69        String message = \"enter the position (1 - 9):\";\n70        while (true) {\n71\n72            message = \"enter the position (1 - 9):\";\n73            System.out.println(currentPlayer.name + \" \" + message);\n74            Scanner input = new Scanner(System.in);\n75            int position = input.nextInt();\n76\n77            // the updateBoard() method return true if\n78            // the user selected position is not already filled\n79            if (board.updateBoard(position, currentPlayer.type)) {\n80\n81                board.printBoard();\n82\n83                // changing current player when board is updated\n84                if (currentPlayer == player1) {\n85                    currentPlayer = player2;\n86                }\n87\n88                else {\n89                    currentPlayer = player1;\n90\n91                }\n92\n93            }\n94\n95        }\n96\n97    }\n98\n99\n100}\n101\n102class Main {\n103\n104    public static void main(String[] args) {\n105\n106        Game game = new Game();\n107        game.play();\n108\n109    }\n110}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: \nLily\nPlayer selecting O, enter your name: \nRobin\nLily enter the position (1 - 9):\n2\n   | X |  \n-----------\n   |   |  \n-----------\n   |   |  \nRobin enter the position (1 - 9):\n4\n   | X |  \n-----------\n O |   |  \n-----------\n   |   |  \nLily enter the position (1 - 9):"
+    },
+    {
+      "type": "paragraph",
+      "content": "The updateBoard() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method takes two arguments:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "position - the position selected by the user (an integer)",
+        "type - if the current player is player1, it will be \"X\" otherwise it will be \"O\"."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This method checks if the position is already filled or not. If it's not filled, we will update the board and true is returned. However, if the position is already filled, a message is shown and false is returned."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, we have used board[position - 1] to update the board. It's because a player selects position 2, which means we have to update index 1 of the list. Remember that the array index starts from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "The play() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the method, we have a while loop to run the game continuously; we will add logic to terminate the loop later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the loop, we asked the user to enter the position between 1 and 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we called the updateBoard() method of the Board class. To call this method we have used board.updateBoard()."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have called the updateBoard() method with parameters position and the current player type."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the position passed to updateBoard() is not already selected, true is returned. In that case, the currentPlayer is changed to the next player."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/arithmetic-operators?page=3",
+  "title": "+ Nhà điều hành",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "+ Nhà điều hành"
+    },
+    {
+      "type": "paragraph",
+      "content": "Toán tử + (cộng) được sử dụng để cộng hai giá trị. Hãy lấy một ví dụ:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int number1 = 34;\n6    int number2 = 12;\n7\n8    // + adds values of two variables\n9    int sum = number1 + number2;\n10\n11    printf(\"Sum = %d\", sum);\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum = 46"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, int sum = number1 + number2; đầu tiên thêm giá trị của number1 và number2. Sau đó, kết quả được gán cho biến tổng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sau bài kiểm tra, chúng ta sẽ xem xét toán tử - để thực hiện phép trừ."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

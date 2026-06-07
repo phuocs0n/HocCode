@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/whack-a-mole/working-with-dom?page=1",
+  "title": "What is the DOM? 🌳",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is the DOM? 🌳"
+    },
+    {
+      "type": "paragraph",
+      "content": "Great work on setting up the HTML structure! Now it's time to make your game come alive with JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "But before you start writing code, you need to understand one crucial concept: the DOM (Document Object Model)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of the DOM as a bridge between your HTML and JavaScript:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Your HTML creates elements (divs, buttons, text)",
+        "The DOM turns those elements into objects JavaScript can work with",
+        "The browser builds a tree structure from your HTML. JavaScript can climb that tree, find branches, and add new ones."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, when you write <div id=\"game-board\"></div> in HTML, the DOM lets JavaScript say \"find that div and add stuff to it.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn three essential DOM skills:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Find elements on the page",
+        "Create new elements",
+        "Add elements to the page"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These three skills are the foundation of making interactive websites. Let's practice with your game board!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

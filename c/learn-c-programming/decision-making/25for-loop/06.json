@@ -1,0 +1,188 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-c-programming/for-loop?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu đố: Trong vòng lặp for này, câu lệnh cập nhật là câu lệnh nào?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "for (int i = 1; i < 5; i++) {...}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "int tôi = 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 là biểu thức khởi tạo khởi tạo giá trị của i thành 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 là biểu thức khởi tạo khởi tạo giá trị của i thành 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "tôi < 5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 là biểu thức boolean để kiểm tra xem giá trị của i có nhỏ hơn 5 hay không."
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 là biểu thức boolean để kiểm tra xem giá trị của i có nhỏ hơn 5 hay không."
+    },
+    {
+      "type": "paragraph",
+      "content": "tôi++"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ là biểu thức cập nhật làm tăng giá trị của i lên 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ là biểu thức cập nhật làm tăng giá trị của i lên 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "vì"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "for là từ khóa cho biết sự bắt đầu của vòng lặp for."
+    },
+    {
+      "type": "paragraph",
+      "content": "for là từ khóa cho biết sự bắt đầu của vòng lặp for."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 là biểu thức khởi tạo khởi tạo giá trị của i thành 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 là biểu thức khởi tạo khởi tạo giá trị của i thành 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 là biểu thức boolean để kiểm tra xem giá trị của i có nhỏ hơn 5 hay không."
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 là biểu thức boolean để kiểm tra xem giá trị của i có nhỏ hơn 5 hay không."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ là biểu thức cập nhật làm tăng giá trị của i lên 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ là biểu thức cập nhật làm tăng giá trị của i lên 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "for là từ khóa cho biết sự bắt đầu của vòng lặp for."
+    },
+    {
+      "type": "paragraph",
+      "content": "for là từ khóa cho biết sự bắt đầu của vòng lặp for."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu đố: Trong vòng lặp for này, câu lệnh cập nhật là câu lệnh nào?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:int tôi = 1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "int tôi = 1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:tôi < 5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "tôi < 5",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:tôi++",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "tôi++",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:vì",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "vì",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

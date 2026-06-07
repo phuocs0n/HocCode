@@ -1,0 +1,72 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-basics?page=4",
+  "title": "Compute the area of a rectangle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute the area of a rectangle"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we are computing the area of the rectangle, we will create a class named Rectangle. Inside the class, we will create:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "fields - length and breadth",
+        "constructor - assign values to length and breadth",
+        "method - to compute the area of a rectangle"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Rectangle {\n2    // fields\n3    int length;\n4    int breadth;\n5    \n6    // constructor\n7    Rectangle(int length, int breadth) {\n8        this.length = length;\n9        this.breadth = breadth;\n10    }\n11    \n12    // method\n13    int computeArea() {\n14        int area = this.length * this.breadth;\n15        return area;\n16    }\n17}\n18\n19class Main {\n20    public static void main(String[] args) {\n21        \n22        // object of Rectangle\n23        Rectangle rectangle1 = new Rectangle(12, 8);\n24        \n25        // call the method to compute area\n26        int area = rectangle1.computeArea();\n27        System.out.println(\"Area: \" + area);\n28    }\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Area: 96"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, when we create the rectangle1 object, the value of length and breadth for rectangle1 is 12 and 8."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have called the computeArea() method with rectangle1, so inside the computeArea() method, this.length * this.breadth becomes 12 * 8. Hence, we get 96 as output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

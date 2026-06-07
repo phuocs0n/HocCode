@@ -1,0 +1,131 @@
+{
+  "index": 12,
+  "url": "https://app.programiz.pro/course/dsa-with-python/brute-force-method?page=13",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the basic idea behind the brute force string matching algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Identifying the most efficient substring comparison technique."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Brute force method is not the most efficient comparison technique."
+    },
+    {
+      "type": "paragraph",
+      "content": "Brute force method is not the most efficient comparison technique."
+    },
+    {
+      "type": "paragraph",
+      "content": "Checking each possible substring until a matching pattern is discovered."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The main motive of the brute force method is to check each substring until a match is found."
+    },
+    {
+      "type": "paragraph",
+      "content": "The main motive of the brute force method is to check each substring until a match is found."
+    },
+    {
+      "type": "paragraph",
+      "content": "Utilizing heuristics to optimize computational power."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The brute force method does not utilize any optimization."
+    },
+    {
+      "type": "paragraph",
+      "content": "The brute force method does not utilize any optimization."
+    },
+    {
+      "type": "paragraph",
+      "content": "Implementing a randomized approach for pattern matching."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Brute force method typically involves systematic exploration rather than introducing randomness."
+    },
+    {
+      "type": "paragraph",
+      "content": "Brute force method typically involves systematic exploration rather than introducing randomness."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the basic idea behind the brute force string matching algorithm?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Identifying the most efficient substring comparison technique.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Identifying the most efficient substring comparison technique.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Checking each possible substring until a matching pattern is discovered.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Checking each possible substring until a matching pattern is discovered.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Utilizing heuristics to optimize computational power.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Utilizing heuristics to optimize computational power.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Implementing a randomized approach for pattern matching.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Implementing a randomized approach for pattern matching.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

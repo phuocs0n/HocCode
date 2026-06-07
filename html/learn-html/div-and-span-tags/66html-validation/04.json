@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/html-validation?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following methods can be used to test how different browsers render your HTML page?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use the W3C Validator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The W3C Validator only checks your code against web standards and catches syntax errors. It does not show how the code renders on different browsers."
+    },
+    {
+      "type": "paragraph",
+      "content": "The W3C Validator only checks your code against web standards and catches syntax errors. It does not show how the code renders on different browsers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Open the HTML page in each browser and look for differences."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "By opening your HTML page in different browsers, you can check how it renders and behaves in each of these environments."
+    },
+    {
+      "type": "paragraph",
+      "content": "By opening your HTML page in different browsers, you can check how it renders and behaves in each of these environments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Upload the file to the website server and check online."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uploading to a server helps to make the webpage available online but doesn't necessarily guarantee consistency in rendering across different browsers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uploading to a server helps to make the webpage available online but doesn't necessarily guarantee consistency in rendering across different browsers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use Google Chrome only since it's the most popular."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Although Google Chrome is widely used, relying only on one browser for validation may lead to inconsistencies on other browsers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Although Google Chrome is widely used, relying only on one browser for validation may lead to inconsistencies on other browsers."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following methods can be used to test how different browsers render your HTML page?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Use the W3C Validator.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Use the W3C Validator.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Open the HTML page in each browser and look for differences.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Open the HTML page in each browser and look for differences.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Upload the file to the website server and check online.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Upload the file to the website server and check online.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Use Google Chrome only since it's the most popular.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Use Google Chrome only since it's the most popular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

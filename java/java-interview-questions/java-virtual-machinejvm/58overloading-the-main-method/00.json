@@ -1,0 +1,68 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/overloading-main-method?page=1",
+  "title": "Can the main method be Overloaded?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Can the main method be Overloaded?"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can overload the main() method in Java. However, the JVM will only recognize the main method with the following signature as the entry point for the program:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public static void main(String[] args)"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we want to overload the main() method, we can create additional main() methods with different parameter lists, but they will not be recognized as the entry point for your program."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"This is the main method with a String[] args parameter.\");\n    }\n\n    public static void main(String arg1) {\n        System.out.println(\"This is the main method with a String arg1 parameter.\");\n    }\n\n    public static void main(int arg1) {\n        System.out.println(\"This is the main method with an int arg1 parameter.\");\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "This is the main method with a String[] args parameter."
+    },
+    {
+      "type": "paragraph",
+      "content": "As we can see, JVM executes only the original main() method by default and not the overloaded main() methods. We must call the overloaded main methods from the original main method to execute them"
+    },
+    {
+      "type": "paragraph",
+      "content": "Generally, overloading the main() method is not a common practice and is not recommended."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

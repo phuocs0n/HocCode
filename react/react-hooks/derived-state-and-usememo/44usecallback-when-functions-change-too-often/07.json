@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/react-hooks/usecallback-when-functions-change-too-often?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does wrapping onClose() in useCallback() prevent the Drawer's useEffect() from re-running on every render?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useCallback() returns the same function reference across renders"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useEffect() re-runs when a dependency changes. A stable reference means no change, so no re-run."
+    },
+    {
+      "type": "paragraph",
+      "content": "useEffect() re-runs when a dependency changes. A stable reference means no change, so no re-run."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useCallback() prevents the function from ever being called"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() does not block the function. It only controls when a new function identity is created."
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() does not block the function. It only controls when a new function identity is created."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useCallback() caches the function's return value, not the function itself"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() stabilizes the function reference. useMemo() is what caches return values."
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() stabilizes the function reference. useMemo() is what caches return values."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useCallback() tells React to skip re-renders of the Drawer component"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() does not control rendering. It only stabilizes function references."
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() does not control rendering. It only stabilizes function references."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does wrapping onClose() in useCallback() prevent the Drawer's useEffect() from re-running on every render?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because useCallback() returns the same function reference across renders",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because useCallback() returns the same function reference across renders",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because useCallback() prevents the function from ever being called",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because useCallback() prevents the function from ever being called",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because useCallback() caches the function's return value, not the function itself",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because useCallback() caches the function's return value, not the function itself",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because useCallback() tells React to skip re-renders of the Drawer component",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because useCallback() tells React to skip re-renders of the Drawer component",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

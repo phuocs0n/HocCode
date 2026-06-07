@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions?page=1",
+  "title": "Ranking Window Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ranking Window Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, you used aggregate window functions to calculate averages and totals. Now, your manager has a new request:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Can you show how employee salaries compare? I want to see who earns the most and their ranking within the company.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Sorting alone won't be enough—you need to assign a rank to each employee while keeping all data intact."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is where ranking window functions come in."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

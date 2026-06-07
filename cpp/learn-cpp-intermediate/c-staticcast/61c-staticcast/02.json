@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/c-staticcast?page=3",
+  "title": "C++ static_cast",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ static_cast"
+    },
+    {
+      "type": "paragraph",
+      "content": "The C++ static_cast operator can be used to convert variables and values from one type to another. These types can be built-in data types (such as int, double, char, etc.) or they can be user-defined types (such as pointers to objects, structs, etc.)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at this with an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // initialize a double variable\n7    double number1 = 85.247;\n8\n9\n10    // equivalent to\n11    // int result1 = int(number1);\n12    int result1 = static_cast<int>(number1);\n13\n14\n15    // initialize an integer variable\n16    int number2 = 28;\n17\n18\n19    // equivalent to\n20    // double result2 = double(number2);\n21    double result2 = static_cast<double>(number2);\n22\n23\n24    // print the results\n25    cout << result1 << endl;\n26    cout << result2;\n27\n28    return 0;\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "85\n28"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have converted number1 and number2 to different types using static_cast."
+    },
+    {
+      "type": "paragraph",
+      "content": "As stated before, using static_cast is preferable to the methods we've been using so far, since it checks the type compatibility at compile-time and throws an error if the types are not compatible."
+    },
+    {
+      "type": "paragraph",
+      "content": "This helps to catch type conversion errors early in the development cycle and avoid potential runtime errors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

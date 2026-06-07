@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/dynamic-memory-allocation?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the use of the free() function?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To allocate memory dynamically"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The malloc() function is used to dynamically allocate memory."
+    },
+    {
+      "type": "paragraph",
+      "content": "The malloc() function is used to dynamically allocate memory."
+    },
+    {
+      "type": "paragraph",
+      "content": "To create a resizable array"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of dynamic memory allocation is used to create a resizable array."
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of dynamic memory allocation is used to create a resizable array."
+    },
+    {
+      "type": "paragraph",
+      "content": "To free dynamically allocated memory."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The free() function is used to free the dynamically allocated memory once it is used."
+    },
+    {
+      "type": "paragraph",
+      "content": "The free() function is used to free the dynamically allocated memory once it is used."
+    },
+    {
+      "type": "paragraph",
+      "content": "All of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is the correct answer."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the use of the free() function?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To allocate memory dynamically",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To allocate memory dynamically",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To create a resizable array",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To create a resizable array",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To free dynamically allocated memory.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To free dynamically allocated memory.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

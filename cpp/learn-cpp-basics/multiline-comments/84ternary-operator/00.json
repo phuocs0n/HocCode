@@ -1,0 +1,59 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/ternary-operator?page=1",
+  "title": "Introduction to Ternary Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Ternary Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we can use a ternary operator ? : as an alternative to an if...else statement. Let's see an example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int marks = 76;\n7\n8    string result;\n9  \n10    if (marks >= 32) {\n11        result = \"pass\";\n12    }\n13    else {\n14        result = \"fail\";\n15    }\n16\n17    cout << result;\n18\n19    return 0;\n20}\n21\n22// Output\n23// pass"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used an if...else statement to check if a student passed the exam or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's implement this same program using a ternary operator."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int marks = 76;\n7\n8    string result = (marks >= 32) ? \"pass\" : \"fail\";\n9  \n10    cout << result;\n11\n12    return 0;\n13}\n14\n15// Output:\n16// pass"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see the working of ternary operators."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

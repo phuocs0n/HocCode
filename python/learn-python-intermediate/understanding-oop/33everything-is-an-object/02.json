@@ -1,0 +1,90 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/everything-is-object?page=3",
+  "title": "The dir() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The dir() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "The dir() function lists out all the attributes and methods of the given object. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1number = 1\n2print(dir(number))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', ......]"
+    },
+    {
+      "type": "paragraph",
+      "content": "This means, any integer like 1 (which is an object of the int class) can access all these methods and attributes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try to use this __add__() method in our code."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1number = 5\n2\n3result = number.__add__(100)\n4print(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "105"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we can see, the __add__() method can be used for addition."
+    },
+    {
+      "type": "paragraph",
+      "content": "In fact, the + operator internally calls this __add__() method for addition. The above code is equivalent to:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1number = 5\n2\n3result = number + 100\n4print(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "At the surface, it may look like the + operator is working like how it works in mathematics, but internally it's calling the __add__() method for addition."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

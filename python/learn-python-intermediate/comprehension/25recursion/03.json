@@ -1,0 +1,94 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/recursion?page=4",
+  "title": "Example: Infinite Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Infinite Recursion"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_number(n):\n2    print(n)\n3\n4    # recursive function call\n5    print_number(n + 1)\n6\n7print_number(1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n3\n..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have first called the print_number() function with 1 as an argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the first print_number():"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 (value of n) is printed.",
+        "print_number() is called again with 2, n + 1, as an argument."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the second print_number():"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "2 (value of n) is printed.",
+        "print_number() is called again with 3 as an argument."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This process goes on and on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Again, remember that each n inside the print_number() functions are different."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "End Infinite Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent infinite recursion, if...else statement or a similar approach should be used where the recursive call ends if a certain condition is met."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will create an example of finite recursion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

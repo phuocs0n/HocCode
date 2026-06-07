@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/additional-topic-revise?page=2",
+  "title": "Example: Generics Methods",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Generics Methods"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use Generics methods to work with every type of data."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public <T> void printAll(T[] numbers) {\n\n    for (T number : numbers) {\n        System.out.println(number);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have created a generics method named printAll(). It takes an array as a parameter. We can use this method to loop through and print the array of any type."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how this works:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    // generics method\n4    public <T> void printAll(T[] numbers) {\n5\n6        for (T number : numbers) {\n7            System.out.println(number);\n8        }\n9    }\n10\n11    public static void main(String[] args) {\n12\n13        Main obj = new Main();\n14\n15        // array of integers\n16        Integer intArray[] = { 2, 4, 6 };\n17        obj.printAll(intArray);\n18\n19        System.out.println();\n20\n21        // array of String\n22        String strArray[] = { \"P\", \"R\", \"O\" };\n23        obj.printAll(strArray);\n24\n25    }\n26}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "2\n4\n6\n\nP\nR\nO"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, we can use the same generics method to print the array of String type and Integer type."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

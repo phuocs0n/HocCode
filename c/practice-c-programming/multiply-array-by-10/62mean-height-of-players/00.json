@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/mean-height-of-players?page=1",
+  "title": "Mean Height of Players",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Mean Height of Players"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the mean height of players present in a football team."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to calculate the mean is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "mean = sum of all elements / number of elements"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a double array named heights of size 11.",
+        "Get input values from the user.",
+        "Find the sum of all the elements present in the array.",
+        "Divide the sum by 11 to find the mean height.",
+        "Print the mean height upto 2 decimal places."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5.9\n5.6\n6.1\n5.11\n6.4\n6.3\n5.6\n6.0\n5.8\n6.2\n5.6"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output5.87"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

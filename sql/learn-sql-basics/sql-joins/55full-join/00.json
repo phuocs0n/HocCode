@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/full-join?page=1",
+  "title": "Introduction to FULL JOIN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to FULL JOIN"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, you used LEFT JOIN and RIGHT JOIN to retrieve records from one table while including unmatched rows from either the left or right table."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you need to analyze all data from both tables?"
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, you might want to identify all customers, their orders, and any unmatched records—such as customers without orders or orders missing associated customer details."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, you can use a FULL JOIN. Let's explore FULL JOIN on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

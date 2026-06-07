@@ -1,0 +1,108 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/daily-active-users?page=1",
+  "title": "Questions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Questions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Activity"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "user_id",
+          "session_id",
+          "activity_date",
+          "activity_type"
+        ],
+        [
+          "1",
+          "100",
+          "2023-04-15",
+          "Signup"
+        ],
+        [
+          "1",
+          "101",
+          "2023-04-16",
+          "Login"
+        ],
+        [
+          "2",
+          "102",
+          "2023-04-15",
+          "Login"
+        ],
+        [
+          "3",
+          "103",
+          "2023-04-16",
+          "Add to Cart"
+        ],
+        [
+          "1",
+          "104",
+          "2023-04-17",
+          "Add to Cart"
+        ],
+        [
+          "2",
+          "105",
+          "2023-04-16",
+          "Login"
+        ],
+        [
+          "3",
+          "106",
+          "2023-04-16",
+          "View Product"
+        ],
+        [
+          "1",
+          "107",
+          "2023-04-18",
+          "Checkout"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write an SQL query to find the number of daily active users for a period of 4 days (ending in 2023-04-18) using the alias daily_active_users."
+    },
+    {
+      "type": "paragraph",
+      "content": "Assumption: A user was active on a given day if they engaged in at least one activity on that day."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

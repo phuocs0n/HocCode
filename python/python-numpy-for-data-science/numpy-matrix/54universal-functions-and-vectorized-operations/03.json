@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/universal-functions-vectorized-operations?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following best describes a universal function (ufunc) in NumPy?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Works with arrays of any size and shape"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ufuncs can work with arrays of any size and shape, but this option doesn't best describe ufunc."
+    },
+    {
+      "type": "paragraph",
+      "content": "ufuncs can work with arrays of any size and shape, but this option doesn't best describe ufunc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Performs element-wise operations on arrays"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ufunc applies function to each element of the array individually."
+    },
+    {
+      "type": "paragraph",
+      "content": "ufunc applies function to each element of the array individually."
+    },
+    {
+      "type": "paragraph",
+      "content": "Converts arrays into lists"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ufunc does not convert arrays into lists."
+    },
+    {
+      "type": "paragraph",
+      "content": "ufunc does not convert arrays into lists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only works with one-dimensional arrays"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ufunc can work with arrays of any dimensionality, not just one-dimensional arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "ufunc can work with arrays of any dimensionality, not just one-dimensional arrays."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following best describes a universal function (ufunc) in NumPy?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Works with arrays of any size and shape",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Works with arrays of any size and shape",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Performs element-wise operations on arrays",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Performs element-wise operations on arrays",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Converts arrays into lists",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Converts arrays into lists",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Only works with one-dimensional arrays",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Only works with one-dimensional arrays",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

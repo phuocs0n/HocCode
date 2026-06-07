@@ -1,0 +1,77 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/ternary-operator?page=1",
+  "title": "Introduction to Ternary Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Ternary Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript, we can use a ternary operator ? : as an alternative to an if...else statement. Let's see an example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function getResult() {\n2    let marks = 76;\n3    let result;\n4\n5    if (marks >= 32) {\n6        result = \"Pass\";\n7    } else {\n8        result = \"Fail\";\n9    }\n10\n11    console.log(\"Result: \" + result);\n12}\n13\n14getResult();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Result: Pass"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used an if...else statement to check if a student passed the exam or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's implement this same program using a ternary operator."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function getResult() {\n2    let marks = 76;\n3    let result = (marks >= 32) ? \"Pass\" : \"Fail\";\n4\n5    console.log(\"Result: \" + result);\n6}\n7\n8getResult();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Result: Pass"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see the working of ternary operators."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

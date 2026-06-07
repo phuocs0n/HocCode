@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/creating-static-entry-card?page=3",
+  "title": "What Just Happened?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Just Happened?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just now, you added more JSX code to render the entry card. The structure is simple:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The outer <div> wraps everything (remember: JSX needs one root element).",
+        "Inside, you have the <header> and its contents from before.",
+        "Below the header, another <div> represents one journal entry."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This journal entry (the inner <div>) has:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "An <h2> for the title",
+        "A <p> for the content"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is all static right now. The text is hardcoded directly in JSX. That's fine for now; you'll make it dynamic later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, let's focus on adding some more features to our entry card."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

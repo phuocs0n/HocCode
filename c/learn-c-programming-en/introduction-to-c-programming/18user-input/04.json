@@ -1,0 +1,140 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/take-input?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct way to take input for the variable x ?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int x;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%d\", x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use &x with scanf() to take integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use &x with scanf() to take integer input."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%d\", &x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the %d format specifier and &x with scanf() to take integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the %d format specifier and &x with scanf() to take integer input."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%d\" &x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"%d\" and &x should be separated by a comma."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"%d\" and &x should be separated by a comma."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%c\", &x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are taking the input value for the int variable, so the format specifier is not %c."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are taking the input value for the int variable, so the format specifier is not %c."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct way to take input for the variable x ?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:scanf(\"%d\", x);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "scanf(\"%d\", x);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:scanf(\"%d\", &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "scanf(\"%d\", &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:scanf(\"%d\" &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "scanf(\"%d\" &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:scanf(\"%c\", &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "scanf(\"%c\", &x);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

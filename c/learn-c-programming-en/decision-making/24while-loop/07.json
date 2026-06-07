@@ -1,0 +1,54 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=8",
+  "title": "Example: Print Numbers From 1 to 5 (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Print Numbers From 1 to 5 (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you want to print numbers from 1 to 5 using the while loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, let's first create a loop that runs 5 times."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int count = 1;\n\nwhile (count <= 5) {\n\n  count = count + 1;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the loop runs for 5 times from count equals to 1 to 5. After that, count becomes 6 and the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's implement it in code next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

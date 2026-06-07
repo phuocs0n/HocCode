@@ -1,0 +1,76 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/take-input?page=3",
+  "title": "scanf() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "scanf() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at the previous program we wrote:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Create a variable\n6    int age;\n7\n8    // Store user input in the variable\n9    scanf(\"%d\", &age);\n10\n11    // Print the variable\n12    printf(\"Age is %d\", age);\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We used the statement scanf(\"%d\", &age); to take the input for the age variable. Notice that we've used &age instead of age."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, suppose we typed 25 and pressed the Enter key. The value 25 will be assigned to the age variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The output of this program will vary based on the input value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "25\nAge is 25"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "31\nAge is 31"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn how scanf() works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

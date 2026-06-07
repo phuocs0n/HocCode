@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/change-default-value-of-enum-elements?page=1",
+  "title": "Change Default Value of enum Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Change Default Value of enum Elements"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to assign custom integral values to an enum."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an enum called seasons with the values spring, summer, autumn, and winter.",
+        "Assign the integer -2 to summer.",
+        "Declare an enum variable season1 while defining the enum.",
+        "In main(), assign spring to the season1 variable and print it.",
+        "Then, change the value of season1 to summer and print it.",
+        "Repeat the same process and print the next two enum values."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output0\n-2\n-1\n0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

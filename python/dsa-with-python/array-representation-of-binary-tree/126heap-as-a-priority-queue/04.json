@@ -1,0 +1,47 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-python/heap-as-priority-queue?page=5",
+  "title": "Source Code: Priority Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Priority Queue"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class PriorityQueue(MinHeap):\n2    # use methods from MinHeap Class\n3    def __init__(self):\n4        super().__init__()\n5        \n6    def insert(self, value, priority):\n7        super().insert((priority,value))\n8\n9    def extract_min(self):\n10        return super().extract_min()\n11\n12    def peek(self):\n13        return super().peek()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Insert tasks into priority queue\n[(5, 'Task5'), (12, 'Task1'), (25, 'Task3'), (16, 'Task4'), (15, 'Task2')]\n--------------\nTop priority task\n(5, 'Task5')\n-----------\nAfter removing top priority task\n[(12, 'Task1'), (15, 'Task2'), (25, 'Task3'), (16, 'Task4')]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

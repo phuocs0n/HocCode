@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-oop/override-method-of-parent-class?page=1",
+  "title": "Override Method of Parent Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Override Method of Parent Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to override the method of parent class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Vehicle with a displayInfo() method.",
+        "Inside the method, print Four Wheeler or Two Wheeler.",
+        "Create another class named Car that inherits from Vehicle.",
+        "Inside the class, override the displayInfo() method and print Cars are Four Wheeler."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create the main() method inside a Main class.",
+        "Inside the method, create an object of Car and call the displayInfo() method."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputCars are Four Wheeler"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

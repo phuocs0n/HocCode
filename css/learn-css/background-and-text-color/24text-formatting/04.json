@@ -1,0 +1,60 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/text-formatting?page=5",
+  "title": "Text Decoration: None",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Text Decoration: None"
+    },
+    {
+      "type": "paragraph",
+      "content": "The none value removes text decoration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Browsers underline links by default. Run the code below to view this."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>To learn more, visit <a href=\"https://programiz.pro\">programiz pro</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's remove this underline using text-decoration: none;."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>To learn more, visit <a href=\"https://programiz.pro\">programiz pro</a></p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Remove underline formatting from the link */\n2a {\n3    text-decoration: none;\n4}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

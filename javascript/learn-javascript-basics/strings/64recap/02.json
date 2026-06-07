@@ -1,0 +1,61 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-strings?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Escape Character and Sequences"
+    },
+    {
+      "type": "paragraph",
+      "content": "Escape sequences allow you to perform special operations on strings. Common escape sequences include:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\\n - Newline",
+        "\\t - Tab",
+        "\\' - Single quote",
+        "\\\" - Double quote",
+        "\\\\ - Backslash"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"Hello\\tWorld\");    // Output: Hello    World\n2\n3let speech = \"John said, \\\"Hello!\\\"\";\n4console.log(speech);    // Output: John said, \"Hello!\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

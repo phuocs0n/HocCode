@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-query/query-keys-in-react-query?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: A component uses queryKey: ['tasks'] but fetches tasks filtered by status. The user changes the filter. What happens?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query refetches automatically because the filter changed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query only knows to refetch when the key changes. The key is still ['tasks'] here."
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query only knows to refetch when the key changes. The key is still ['tasks'] here."
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query returns the old cached data because the key didn't change"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The key never changed so React Query serves whatever is sitting in the cache."
+    },
+    {
+      "type": "paragraph",
+      "content": "The key never changed so React Query serves whatever is sitting in the cache."
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query throws an error about a mismatched key"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "No error is thrown. The wrong data just shows up silently, which is the real danger."
+    },
+    {
+      "type": "paragraph",
+      "content": "No error is thrown. The wrong data just shows up silently, which is the real danger."
+    },
+    {
+      "type": "paragraph",
+      "content": "The component re-renders but isLoading stays false"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The component may re-render but it will show the wrong data, not trigger a new fetch."
+    },
+    {
+      "type": "paragraph",
+      "content": "The component may re-render but it will show the wrong data, not trigger a new fetch."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: A component uses queryKey: ['tasks'] but fetches tasks filtered by status. The user changes the filter. What happens?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React Query refetches automatically because the filter changed",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React Query refetches automatically because the filter changed",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:React Query returns the old cached data because the key didn't change",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "React Query returns the old cached data because the key didn't change",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:React Query throws an error about a mismatched key",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "React Query throws an error about a mismatched key",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The component re-renders but isLoading stays false",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The component re-renders but isLoading stays false",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

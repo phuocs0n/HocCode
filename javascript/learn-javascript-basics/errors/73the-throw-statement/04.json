@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-throw-statement?page=4",
+  "title": "Example: throw With try...catch",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: throw With try...catch"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const numerator = 5;\n2const denominator = 0;\n3\n4try {\n5    // Check if denominator is 0\n6    if (denominator === 0) {\n7\n8        // Generate error\n9        throw new Error(\"Cannot divide by zero\");\n10    }\n11\n12    let result = numerator / denominator;\n13    console.log(result);\n14\n15} catch (error) {\n16    console.log(`Error caught: ${error.message}`);\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Error caught: Cannot divide by zero"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The try block first checks if denominator is 0. Then, attempts to perform the division.",
+        "If denominator is 0, we get the custom error with the message \"Cannot divide by zero\".",
+        "If error occurs, the catch block catches it and logs a custom error message that includes the error's description."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

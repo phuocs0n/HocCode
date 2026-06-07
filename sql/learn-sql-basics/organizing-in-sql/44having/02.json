@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/having?page=3",
+  "title": "Examples: SQL HAVING",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Examples: SQL HAVING"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 2"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group data by country \n2-- Display the average purchase in each country \n3-- if the average purchase is greater than 3000\n4\n5SELECT country, AVG(purchase_amount) AS average_purchase\n6FROM Customers\n7GROUP BY country\n8HAVING average_purchase > 3000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 3"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group data by country \n2-- Display the average purchase in each country \n3-- if the average purchase is greater than 3000\n4-- and sort results in descending order by average_purchase\n5\n6SELECT country, AVG(purchase_amount) AS average_purchase\n7FROM Customers\n8GROUP BY country\n9HAVING average_purchase > 3000\n10ORDER BY average_purchase DESC;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

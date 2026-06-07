@@ -1,0 +1,50 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=10",
+  "title": "Comparison Operators: >",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Comparison Operators: >"
+    },
+    {
+      "type": "paragraph",
+      "content": "The > \"greater than\" operator returns 1 (true) if the first value is greater than the second value. If not, it returns 0 (false)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take an example."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int age1 = 20, age2 = 18;\n6\n7    // 0 because age1 is not greater than 20\n8    printf(\"Result: %d \\n\", age1 > 20);\n9\n10    // 0 because age2 is not greater to 50\n11    printf(\"Result: %d \\n\", age2 > 50);\n12\n13    // 1 because age1 is greater than age2\n14    printf(\"Result: %d \\n\", age1 > age2);\n15\n16    return 0;\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's learn about the >= operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

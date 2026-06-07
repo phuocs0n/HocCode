@@ -1,0 +1,93 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/addition-of-complex-number?page=1",
+  "title": "Addition of Complex Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Addition of Complex Numbers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to add complex numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Complex numbers are expressed in the form of 5 + 8i, where 5 is the real part and 8i is the imaginary part."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Complex_Number with two double variables real and imag.",
+        "Create a constructor with double parameters r and i.",
+        "Inside the constructor, initialize the value of variables real and imag."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In the main() function, get 4 double inputs for variables n1, n2 for the first Complex number and n3, n4 for the second complex number.",
+        "Create an object c1 of the Complex_Number class with arguments n1 and n2.",
+        "Create another object c2 of Complex_Number with arguments n3 and n4.",
+        "Add real variables of both objects c1 and c2 and store it in the real_sum variable.",
+        "Add imag variables of both objects c1 and c2 and store it in the imag_sum variable.",
+        "Print the sum in format real_sum + imag_sumi."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input8\n2.4\n6\n4.2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output14.0 + 6.6i"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

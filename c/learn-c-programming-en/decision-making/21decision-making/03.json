@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=4",
+  "title": "Boolean Expressions (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Boolean Expressions (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're helping a coffee shop automate its billing system. They have a special offer: Spend more than $100 and get a free dessert."
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, to determine whether a customer qualifies for the dessert, the cashier used to manually check, \"Is the total amount greater than $100?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the billing system has to handle this decision-making."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's say the total amount spent by a customer is $70."
+    },
+    {
+      "type": "paragraph",
+      "content": "To check if they qualify for the dessert, we can express this condition as:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "total > 100"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, since $70 is not greater than $100, the condition evaluates to false, which in C is represented as 0. Therefore, the customer does not get a dessert."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

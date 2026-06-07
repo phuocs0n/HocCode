@@ -1,0 +1,131 @@
+{
+  "index": 14,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component?page=15",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is a React Fragment used for?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Grouping multiple elements without adding a wrapper DOM node"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fragments let you group multiple elements without adding an extra DOM node like a <div>."
+    },
+    {
+      "type": "paragraph",
+      "content": "Fragments let you group multiple elements without adding an extra DOM node like a <div>."
+    },
+    {
+      "type": "paragraph",
+      "content": "Breaking up long components into smaller pieces"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's what components are for, not fragments."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's what components are for, not fragments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rendering components conditionally"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's conditional rendering, not fragments."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's conditional rendering, not fragments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding CSS styles to multiple elements"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Styling is done with className or CSS, not fragments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Styling is done with className or CSS, not fragments."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is a React Fragment used for?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Grouping multiple elements without adding a wrapper DOM node",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Grouping multiple elements without adding a wrapper DOM node",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Breaking up long components into smaller pieces",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Breaking up long components into smaller pieces",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Rendering components conditionally",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Rendering components conditionally",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Adding CSS styles to multiple elements",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Adding CSS styles to multiple elements",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

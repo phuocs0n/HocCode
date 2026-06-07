@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/spawning-moles?page=3",
+  "title": "Pick a Random Hole 🎰",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pick a Random Hole 🎰"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to write a function that picks a random hole from your array of holes!"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, you'll remove the testing code that hardcodes the first hole. Then you'll write a function that returns a random hole."
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Remove the lines that add the \"active\" class to holes[0].",
+        "Then create a function called getRandomHole that uses Math.random() to select and return a random hole from the holes array."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

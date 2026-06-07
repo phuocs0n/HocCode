@@ -1,0 +1,131 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/setting-up-routes?page=11",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the Routes component do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It fetches data from the server based on the current URL"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Routes doesn't interact with the server at all."
+    },
+    {
+      "type": "paragraph",
+      "content": "Routes doesn't interact with the server at all."
+    },
+    {
+      "type": "paragraph",
+      "content": "It renders all Route children at the same time"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one Route matches at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one Route matches at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "It looks at the current URL and renders the first Route whose path matches"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Routes acts as a switcher that picks the best match."
+    },
+    {
+      "type": "paragraph",
+      "content": "Routes acts as a switcher that picks the best match."
+    },
+    {
+      "type": "paragraph",
+      "content": "It wraps the app and listens to the browser history API"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's what BrowserRouter does, not Routes."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's what BrowserRouter does, not Routes."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the Routes component do?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It fetches data from the server based on the current URL",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It fetches data from the server based on the current URL",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It renders all Route children at the same time",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It renders all Route children at the same time",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It looks at the current URL and renders the first Route whose path matches",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It looks at the current URL and renders the first Route whose path matches",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It wraps the app and listens to the browser history API",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It wraps the app and listens to the browser history API",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

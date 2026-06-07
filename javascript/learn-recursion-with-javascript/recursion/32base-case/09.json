@@ -1,0 +1,136 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/base-case?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following program?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function display(n) {\n    if (n <= 3) {\n        return \"Done\";\n    }\n\n    console.log(n);\n    return display(n + 1);\n}\n\nconsole.log(display(1));"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Done"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at our argument and the base case. Always remember that the recursive calls end when the argument reaches the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at our argument and the base case. Always remember that the recursive calls end when the argument reaches the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Done"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The argument directly reaches the base case as it is less than 3. Always remember that the recursive calls end when the argument reaches the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "The argument directly reaches the base case as it is less than 3. Always remember that the recursive calls end when the argument reaches the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Done Done"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at our argument and the base case. Always remember that the recursive calls end when the argument reaches the base case.Also, there is no string concatenation taking place anywhere."
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at our argument and the base case. Always remember that the recursive calls end when the argument reaches the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also, there is no string concatenation taking place anywhere."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at our argument and the base case. Always remember that the recursive calls end when the argument reaches the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at our argument and the base case. Always remember that the recursive calls end when the argument reaches the base case."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following program?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:12Done",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "12Done",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Done",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Done",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:12Done Done",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "12Done Done",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:12",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "12",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-error?page=4",
+  "title": "Recap (IV)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (IV)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The throw Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can generate and throw custom errors using the throw statement. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let num = -5;\n2if (num < 0) {\n3    throw new Error(\"Negative numbers are not allowed\");\n4}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "throw With try...catch"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can handle custom errors using the try...catch block. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1try {\n2    let num = -5;\n3    if (num < 0) {\n4        throw new Error(\"Negative numbers not allowed\");\n5    }\n6} catch (error) {\n7    console.log(`Error caught: ${error.message}`);\n8}\n9\n10// Output: Error caught: Negative numbers not allowed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,52 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/minimum-characters-to-make-string-palindrome?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a non-empty string text, find the minimum number of characters to be added to the front to make name a palindrome. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = joe\noutput = 2\nreason = adding 2 characters e and o at the beginning makes text palindrome"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = racecarr\noutput = 1\nreason = adding 1 character r at the beginning makes text palindrome"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = refers\noutput = 1\nreason = adding 1 character s at the beginning makes text palindrome"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

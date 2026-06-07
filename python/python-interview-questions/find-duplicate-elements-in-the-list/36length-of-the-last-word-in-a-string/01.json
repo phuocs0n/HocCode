@@ -1,0 +1,45 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/length-of-last-word-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the provided string can contain lowercase letters, uppercase letters, periods, and empty spaces. But we need to count only the alphabets."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we need to split the sentence into list elements by white space. Then, we can get the length of the word at the -1 index."
+    },
+    {
+      "type": "paragraph",
+      "content": "But we also need to check if that last word contains a period at the end. If it does, we need to decrease the count by one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,90 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/scroll-events-conditional-classes?page=1",
+  "title": "Responding to Scroll",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Responding to Scroll"
+    },
+    {
+      "type": "paragraph",
+      "content": "The pattern has not changed. Only the event has."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of listening for a click, this time you are listening for a scroll. The browser fires a scroll event every time the user moves the page."
+    },
+    {
+      "type": "paragraph",
+      "content": "You listen for it the same way:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "window.addEventListener('scroll', handler);"
+    },
+    {
+      "type": "paragraph",
+      "content": "To decide when to change the UI, you need to know how far the user has scrolled. That is what a window.scrollY tells you how many pixels the page has moved from the top."
+    },
+    {
+      "type": "paragraph",
+      "content": "Usually, you compare it to a threshold."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, only add a class when scrollY > 100. Remove the class when it's below that value."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the logic is simple:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Read the scroll position",
+        "Compare it to a number",
+        "Add or remove a class"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Sound familiar? It should."
+    },
+    {
+      "type": "paragraph",
+      "content": "This follows the same pattern:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Event → Check state → Toggle class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see a small example where a scroll threshold changes the UI."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

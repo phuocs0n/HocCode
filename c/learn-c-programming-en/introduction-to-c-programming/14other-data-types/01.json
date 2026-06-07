@@ -1,0 +1,135 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/other-data-types?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we have a double variable named salary. How can we print it?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "To print a variable, we need to use the appropriate format specifier enclosed within double quotes \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "To print a variable, we need to use the appropriate format specifier enclosed within double quotes \"\"."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%d\", salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the %d format specifier with int variables, not with double variables."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the %d format specifier with int variables, not with double variables."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(%lf, salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must enclose the format specifier within double quotes \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must enclose the format specifier within double quotes \"\"."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%lf\", salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the %lf format specifier to print a double variable. The format specifier %lf must be enclosed within double quotes \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the %lf format specifier to print a double variable. The format specifier %lf must be enclosed within double quotes \"\"."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we have a double variable named salary. How can we print it?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:printf(salary);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "printf(salary);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:printf(\"%d\", salary);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "printf(\"%d\", salary);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:printf(%lf, salary);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "printf(%lf, salary);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:printf(\"%lf\", salary);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "printf(\"%lf\", salary);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

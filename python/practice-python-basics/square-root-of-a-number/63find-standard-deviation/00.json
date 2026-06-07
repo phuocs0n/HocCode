@@ -1,0 +1,65 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/find-standard-deviation?page=1",
+  "title": "Find Standard Deviation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find Standard Deviation"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to find standard deviation using the stdev() function of the statistics module."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Import the statistics module.",
+        "Create a list of data 2, 4, 6, 8, 10 and assign it to data_set variable.",
+        "Print the standard deviation of data_set using stdev()."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output3.1622776601683795"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

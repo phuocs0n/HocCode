@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-functions?page=2",
+  "title": "Creating a Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating a Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you have these two statements:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "console.log(\"Hello\");\nconsole.log(\"How do you do?\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's wrap this code inside a function."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function greet() {\n2    console.log(\"Hello\");\n3    console.log(\"How do you do?\");\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run this program, you won't see any output. We'll explain why soon."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, let's understand the syntax of the above function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

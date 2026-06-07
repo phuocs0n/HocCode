@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-control-flow?page=2",
+  "title": "Summary (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary (II)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "4. The break Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The break statement is used to terminate the loop immediately when it's encountered. It is usually used inside an if...else statement."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    for (int i = 1; i <= 100; ++i) {\n7\n8        if (i == 3) {\n9            break;\n10        }\n11        cout << i << endl;\n12    }\n13\n14    return 0;\n15}\n16\n17// Output: \n18// 1\n19// 2"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "5. The continue Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The continue statement skips the code inside the loop for the current iteration. The loop will not terminate but continues on with the next iteration. It's also usually used inside an if...else statement."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    for (int i = 1; i <= 5; ++i) {\n7\n8        if (i == 3 || i == 4) {\n9            continue;\n10        }\n11        cout << i << endl;\n12    }\n13\n14    return 0;\n15}\n16\n17// Output:\n18// 1\n19// 2\n20// 5"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "6. The switch Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The switch statement can be used as a replacement for if...else when we have to choose from multiple alternatives. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number = 3;\n7\n8    switch (number) {\n9        case 1:\n10            cout << \"One\";\n11            break;\n12    \n13        case 2:\n14            cout << \"Two\";\n15            break;\n16\n17        case 3:\n18            cout << \"Three\";\n19            break;\n20    \n21        default:\n22            cout << \"Invalid Number\";\n23    }\n24\n25    return 0;\n26}\n27\n28// Output:\n29// Three"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

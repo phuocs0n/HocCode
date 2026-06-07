@@ -1,0 +1,79 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-python-basics/comments?page=1",
+  "title": "Introduction to Comments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you start writing more code, you might want to add short explanations inside your program—not for the computer, but for yourself or anyone else reading it later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you write this line in your code:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(34.0)"
+    },
+    {
+      "type": "paragraph",
+      "content": "This will simply print the number 34.0."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's say you want to explain what this number means. Maybe it's the temperature or the result of a calculation. You might try writing it like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(34.0) this shows the temperature"
+    },
+    {
+      "type": "paragraph",
+      "content": "But Python won't understand that extra text, and it will give you an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "So how do you include extra information in your code without breaking it?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's where comments come in. Comments let you add helpful notes right inside your code, and Python will simply ignore them when running the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "You don't need to worry about how to write them just yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Next Lesson to learn how to add comments properly in Python."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

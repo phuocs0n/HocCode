@@ -1,0 +1,78 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=4",
+  "title": "Organizing the Project",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Organizing the Project"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before starting to code, let's first organize our project into 3 different stages: starting from a simple, bare-bones game and progressing to a complete game with optimized features."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Stage",
+          "Description",
+          "Primary Focus"
+        ],
+        [
+          "1",
+          "Text-based hangman game with minimal user interface and only a single word in the word database.",
+          "Logic of the game"
+        ],
+        [
+          "2",
+          "Game consists of multiple possible mystery words in the word database.",
+          "Random number generation to select a random word"
+        ],
+        [
+          "3",
+          "Finishing the Project with full UI features.",
+          "Improving UI by adding text-based graphics"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We have divided our project into these stages to ensure effective development."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each stage focuses on a specific aspect of the program, allowing us to create functional programs while addressing one or two key elements at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "To enhance our programming logic and code organization, we further break down each stage into multiple steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's begin with the first stage of our project."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

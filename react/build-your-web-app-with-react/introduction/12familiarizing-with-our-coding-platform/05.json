@@ -1,0 +1,74 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/familiarizing-with-coding-platform?page=6",
+  "title": "A Note on index.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Note on index.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, I need to talk about an important file that'll always be there in our React app, and that's index.jsx."
+    },
+    {
+      "type": "paragraph",
+      "content": "This file is the entry point of your React app, i.e., it's the first file that runs. When the browser loads your app, it executes index.jsx and configures your app."
+    },
+    {
+      "type": "paragraph",
+      "content": "Obviously, you won't touch index.jsx in this course, but here's what it does:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import React from 'react';\nimport { createRoot } from 'react-dom/client';\nimport App from './App';\nimport './style.css';\n\nconst root = createRoot(document.getElementById('root'));\nroot.render(<App />);"
+    },
+    {
+      "type": "paragraph",
+      "content": "What This Code Does"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Imports the React library and other necessary components.",
+        "Locates the <div id=\"root\"> in index.html, and mounts your <App /> component into it.",
+        "Loads style.css. Since it is imported at this root level, its styles are loaded globally. Therefore, you don't need to import the CSS file again in each component."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of index.jsx as the ignition: it starts the app so React can take over the page. That's all there is to it."
+    },
+    {
+      "type": "paragraph",
+      "content": "And with that, let's start coding with React while simultaneously answering a simple question:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Why does React exist at all?\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

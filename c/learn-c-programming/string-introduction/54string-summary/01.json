@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-summary?page=2",
+  "title": "Tóm tắt (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tóm tắt (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Nhập chuỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu cần lấy một từ làm đầu vào, chúng ta có thể sử dụng hàm scanf()."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char text[100];\n6\n7  printf(\"Enter the string: \");\n8  scanf(\"%s\", &text);\n9\n10  printf(\"%s\", text);\n11\n12  return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Lấy dòng hoàn chỉnh làm đầu vào"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta cũng có thể lấy toàn bộ dòng làm đầu vào bằng hàm fgets()."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char text[100];\n6\n7  printf(\"Enter the string: \");\n8  fgets(text, sizeof(text), stdin);\n9\n10  printf(\"%s\", text);\n11\n12  return 0;\n13}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/charts-data-visualization?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: A Recharts chart renders with zero visible height on SpeedBlip's Dashboard. What is the most likely cause?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The chart data array is empty so Recharts renders nothing"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "An empty data array renders the chart axes and container with zero height - it does not cause the entire chart to disappear silently. An empty chart still occupies its defined height."
+    },
+    {
+      "type": "paragraph",
+      "content": "An empty data array renders the chart axes and container with zero height - it does not cause the entire chart to disappear silently. An empty chart still occupies its defined height."
+    },
+    {
+      "type": "paragraph",
+      "content": "ResponsiveContainer is a direct child of a flex container with no explicit height on the wrapper div"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. When ResponsiveContainer has height=\"100%\" but its parent is a flex container with no defined height, the 100% resolves to zero. The fix is wrapping it in a div with an explicit pixel height."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. When ResponsiveContainer has height=\"100%\" but its parent is a flex container with no defined height, the 100% resolves to zero. The fix is wrapping it in a div with an explicit pixel height."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Recharts LineChart requires a minHeight prop to be visible in production builds"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Recharts has no minHeight prop requirement. The issue is the parent container's height, not a chart-level configuration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Recharts has no minHeight prop requirement. The issue is the parent container's height, not a chart-level configuration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vite's production build strips unused Recharts chart types to reduce bundle size"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vite tree-shakes unused code, but Recharts components imported and used in the component are retained. Bundle optimization is not the cause of invisible charts."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vite tree-shakes unused code, but Recharts components imported and used in the component are retained. Bundle optimization is not the cause of invisible charts."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: A Recharts chart renders with zero visible height on SpeedBlip's Dashboard. What is the most likely cause?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The chart data array is empty so Recharts renders nothing",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The chart data array is empty so Recharts renders nothing",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:ResponsiveContainer is a direct child of a flex container with no explicit height on the wrapper div",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "ResponsiveContainer is a direct child of a flex container with no explicit height on the wrapper div",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The Recharts LineChart requires a minHeight prop to be visible in production builds",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The Recharts LineChart requires a minHeight prop to be visible in production builds",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Vite's production build strips unused Recharts chart types to reduce bundle size",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Vite's production build strips unused Recharts chart types to reduce bundle size",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 12,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=12",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You use a state variable called page inside useEffect() to build the API URL, but you forget to add it to the dependency array. What happens?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React automatically detects the missing dependency and adds it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React warns about missing dependencies in development, but it does not add them for you."
+    },
+    {
+      "type": "paragraph",
+      "content": "React warns about missing dependencies in development, but it does not add them for you."
+    },
+    {
+      "type": "paragraph",
+      "content": "The effect always reads the initial value of page, ignoring later changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The effect closes over the initial value and never sees updates. This is called a stale closure."
+    },
+    {
+      "type": "paragraph",
+      "content": "The effect closes over the initial value and never sees updates. This is called a stale closure."
+    },
+    {
+      "type": "paragraph",
+      "content": "The effect re-runs every time page changes anyway"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Without page in the dependency array, React has no way to know it should re-run."
+    },
+    {
+      "type": "paragraph",
+      "content": "Without page in the dependency array, React has no way to know it should re-run."
+    },
+    {
+      "type": "paragraph",
+      "content": "The component throws an error when page changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React won't throw an error. It silently uses the stale value, which is exactly what makes this bug so hard to spot."
+    },
+    {
+      "type": "paragraph",
+      "content": "React won't throw an error. It silently uses the stale value, which is exactly what makes this bug so hard to spot."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You use a state variable called page inside useEffect() to build the API URL, but you forget to add it to the dependency array. What happens?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React automatically detects the missing dependency and adds it",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React automatically detects the missing dependency and adds it",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The effect always reads the initial value of page, ignoring later changes",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The effect always reads the initial value of page, ignoring later changes",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The effect re-runs every time page changes anyway",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The effect re-runs every time page changes anyway",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The component throws an error when page changes",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The component throws an error when page changes",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

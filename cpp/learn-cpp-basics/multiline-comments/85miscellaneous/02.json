@@ -1,0 +1,61 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/miscellaneous?page=3",
+  "title": "Example: Arithmetic Assignment",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Arithmetic Assignment"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Example 1"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int total = 100;\n7 \n8    // total = total + 10 \n9    total += 10;\n10\n11    cout << total;\n12\n13    return 0;\n14}\n15\n16// Output: 110"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, total += 10; adds 10 to the total variable and assigns the result back to the total variable."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Example 2"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int x = 100;\n7  \n8    // x = x % 9\n9    x %= 9;\n10\n11    cout << x;\n12\n13    return 0;\n14}\n15\n16// Output: 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, x %= 9 computes the remainder when x is divided by 9 and assigns the result back to x."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

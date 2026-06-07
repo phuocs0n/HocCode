@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/having?page=2",
+  "title": "Examples: SQL HAVING",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Examples: SQL HAVING"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 1"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group data by country \n2-- Display the total sum of purchase in each country \n3-- if the number of customers is less than 3\n4\n5SELECT country, SUM(purchase_amount) AS total_purchase\n6FROM Customers\n7GROUP BY country\n8HAVING COUNT(*) < 3;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects the country and calculates the total purchase amount by grouping customers by country:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT country, SUM(purchase_amount) AS total_purchase\nFROM Customers\nGROUP BY country .."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, it filters the results to only include countries with less than 3 customers using the HAVING clause."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "HAVING COUNT(*) < 3"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore more examples on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

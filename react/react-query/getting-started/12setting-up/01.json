@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/setting-up?page=2",
+  "title": "Adding React Query to the Project",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding React Query to the Project"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you use an external library in React, it needs to be listed in your project's dependencies."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of dependencies as a list of all the extra tools your project uses."
+    },
+    {
+      "type": "paragraph",
+      "content": "For React Query you need two packages:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "@tanstack/react-query — React Query itself",
+        "@tanstack/react-query-devtools — a panel that shows you what's happening inside the cache"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In package.json you should add these two packages inside dependencies:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "\"@tanstack/react-query\": \"^5.0.0\",\n\"@tanstack/react-query-devtools\": \"^5.0.0\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Now your package.json will look like this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "{\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"react-router-dom\": \"^6.22.3\",\n    \"axios\": \"^1.4.0\",\n    \"@tanstack/react-query\": \"^5.0.0\",\n    \"@tanstack/react-query-devtools\": \"^5.0.0\"\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both are already installed so you don't need to do anything here. Just good to know where they live."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's connect React Query to the app."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

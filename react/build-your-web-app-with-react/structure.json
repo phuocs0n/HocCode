@@ -1,0 +1,101 @@
+{
+  "levels": [
+    {
+      "title": "Introduction",
+      "lessons": [
+        {
+          "title": "1.1Introduction",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/introduction"
+        },
+        {
+          "title": "1.2Familiarizing with Our Coding Platform",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/familiarizing-with-coding-platform"
+        },
+        {
+          "title": "1.3Why React?",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/why-react"
+        },
+        {
+          "title": "1.4Your First Component: App Header",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header"
+        }
+      ]
+    },
+    {
+      "title": "Creating a Static Entry Card",
+      "lessons": [
+        {
+          "title": "2.1Creating a Static Entry Card",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/creating-static-entry-card"
+        },
+        {
+          "title": "2.2Adding Dynamic Content to JSX",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/adding-dynamic-content-to-jsx"
+        },
+        {
+          "title": "2.3Turning the Entry Card into a Component",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/turning-entry-card-into-component"
+        },
+        {
+          "title": "2.4Passing Entry Data with Props",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/passing-entry-data-with-props"
+        },
+        {
+          "title": "2.5Building the JournalForm Component",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component"
+        }
+      ]
+    },
+    {
+      "title": "State and useState",
+      "lessons": [
+        {
+          "title": "3.1State and useState",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/state-usestate"
+        },
+        {
+          "title": "3.2Capturing User Input",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/capturing-user-input"
+        },
+        {
+          "title": "3.3Adding a New Entry",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/adding-new-entry"
+        },
+        {
+          "title": "3.4Rendering the Entries List",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/rendering-entries-list"
+        },
+        {
+          "title": "3.5Showing an Empty State",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/showing-empty-state"
+        }
+      ]
+    },
+    {
+      "title": "Passing Functions as Props",
+      "lessons": [
+        {
+          "title": "4.1Passing Functions as Props",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/passing-functions-as-props"
+        },
+        {
+          "title": "4.2Immutable Deletion and Lifting State Up",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/immutable-deletion-lifting-state-up"
+        },
+        {
+          "title": "4.3Editing an Entry",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/editing-entry"
+        },
+        {
+          "title": "4.4What's Next?",
+          "url": "https://app.programiz.pro/course/build-your-web-app-with-react/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 18,
+    "sections": 4,
+    "container": "main-content"
+  }
+}

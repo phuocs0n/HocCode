@@ -1,0 +1,92 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/lists-tuples-sets?page=1",
+  "title": "Explain Lists, Tuples, and Sets",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explain Lists, Tuples, and Sets"
+    },
+    {
+      "type": "paragraph",
+      "content": "List"
+    },
+    {
+      "type": "paragraph",
+      "content": "A list is a collection of data. It is similar to arrays but can store non-homogeneous data. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "values = [5, 'John', 19.25]"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use square brackets, [], to define a list. Python lists are mutable, i.e., elements can be appended, removed, and changed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements in a list are ordered and can be accessed using its index."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuples are similar to lists but are immutable. That means that elements in tuples cannot be changed, appended, or removed. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "values = (5, 'John', 19.25)"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use parentheses, (), to define a tuple."
+    },
+    {
+      "type": "paragraph",
+      "content": "Set"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sets are also similar to lists. However, they do not allow duplicate elements. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# Error: duplicate elements\nvalues = {1, 2, 4, 2}\n\n# Valid\nvalues = {1, 2, 3, 4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use curly braces, {}, to define sets."
+    },
+    {
+      "type": "paragraph",
+      "content": "Elements in a set are unordered, meaning, we cannot access them using indexes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

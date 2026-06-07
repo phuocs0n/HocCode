@@ -1,0 +1,114 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-for-loop?page=4",
+  "title": "Working of for Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of for Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is the code from the previous page."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Using a for loop to print numbers from 1 to 5\n2for (let i = 1; i <= 5; i++) {\n3    console.log(i);\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n3\n4\n5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how it works:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The value of i starts at 1.",
+        "The loop checks if i <= 5. If true, the loop body executes.",
+        "The current value of i is displayed.",
+        "The value of i is updated (incremented by 1).",
+        "Steps 2–4 repeat until i becomes greater than 5.",
+        "Once i > 5, the loop stops."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now see the step-by-step execution:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Variable (i)",
+          "i <= 5",
+          "Body of Loop"
+        ],
+        [
+          "i = 1",
+          "true",
+          "1 is displayed. i is increased to 2."
+        ],
+        [
+          "i = 2",
+          "true",
+          "2 is displayed. i is increased to 3."
+        ],
+        [
+          "i = 3",
+          "true",
+          "3 is displayed. i is increased to 4."
+        ],
+        [
+          "i = 4",
+          "true",
+          "4 is displayed. i is increased to 5."
+        ],
+        [
+          "i = 5",
+          "true",
+          "5 is displayed. i is increased to 6."
+        ],
+        [
+          "i = 6",
+          "false",
+          "The loop terminates."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you understand how a for loop works, let's use it to calculate the sum of natural numbers up to a given number."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

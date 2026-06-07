@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/css-reset--normalize?page=1",
+  "title": "Default Browser Styles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Default Browser Styles"
+    },
+    {
+      "type": "paragraph",
+      "content": "Do you know what the first thing developers usually do before writing any CSS?"
+    },
+    {
+      "type": "paragraph",
+      "content": "They remove the browser's CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Not because the browser is wrong —but because developers want control."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What's Going On Before You Write Any CSS?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you touch CSS, the browser already applies styles:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Headings come with spacing",
+        "Paragraphs have margins",
+        "Lists are indented",
+        "Buttons look styled"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You didn't write this CSS. The browser did."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-whether-string-is-valid-email-address?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "For a valid email address, we need to check whether the given string contains: @, . after @ and any white spaces."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how we can implement this logic in our program for text string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use regular expression to check fi the email is valid or not.",
+        "If valid return true.",
+        "Else return false."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

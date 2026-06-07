@@ -1,0 +1,135 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-html/tables?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct way to create an HTML table?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<table>\n  <td>\n    <tr>Item 3</tr>\n    <tr>Item 4</tr>\n  </td>\n</table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the table cells, <td>, are incorrectly placed directly under the <table> tag, and the table rows, <tr>, are incorrectly nested within. This is not a correct way to structure an HTML table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the table cells, <td>, are incorrectly placed directly under the <table> tag, and the table rows, <tr>, are incorrectly nested within. This is not a correct way to structure an HTML table."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<table>\n  <tr>\n    <td>Item 3</td>\n    <td>Item 4</td>\n  </tr>\n</table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the proper way to structure an HTML table, with the table rows (<tr>) nested within the <table> tag, and the table cells (<td>) nested within the <tr> tags."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the proper way to structure an HTML table, with the table rows (<tr>) nested within the <table> tag, and the table cells (<td>) nested within the <tr> tags."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<table>\n  <td>Item 3</td>\n  <td>Item 4</td>\n</table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <td> tags are not wrapped inside <tr> tags. Therefore, it is not a valid HTML code."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <td> tags are not wrapped inside <tr> tags. Therefore, it is not a valid HTML code."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<table>\n  <tr>Item 3</tr>\n  <tr>Item 4</tr>\n</table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <tr> tags are incorrectly used without containing <td> tags. Therefore, it is not a valid HTML code."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <tr> tags are incorrectly used without containing <td> tags. Therefore, it is not a valid HTML code."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct way to create an HTML table?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<table>\n  <td>\n    <tr>Item 3</tr>\n    <tr>Item 4</tr>\n  </td>\n</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<table>\n  <td>\n    <tr>Item 3</tr>\n    <tr>Item 4</tr>\n  </td>\n</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<table>\n  <tr>\n    <td>Item 3</td>\n    <td>Item 4</td>\n  </tr>\n</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<table>\n  <tr>\n    <td>Item 3</td>\n    <td>Item 4</td>\n  </tr>\n</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:<table>\n  <td>Item 3</td>\n  <td>Item 4</td>\n</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "<table>\n  <td>Item 3</td>\n  <td>Item 4</td>\n</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<table>\n  <tr>Item 3</tr>\n  <tr>Item 4</tr>\n</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<table>\n  <tr>Item 3</tr>\n  <tr>Item 4</tr>\n</table>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

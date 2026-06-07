@@ -1,0 +1,58 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/c-struct?page=3",
+  "title": "Example: C++ struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: C++ struct"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// create Person struct\n5struct Person {\n6    int age;\n7    double salary;\n8};\n9\n10int main() {\n11\n12    // create struct variable\n13    struct Person person1;\n14\n15\n16    // assign values to struct members\n17    person1.age = 25;\n18    person1.salary = 3465.78;\n19\n20    // print struct members\n21    cout << \"Age: \" << person1.age << endl;\n22    cout << \"Salary: \" << person1.salary;\n23\n24\n25    return 0;\n26}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Age: 25\nSalary: 3465.78"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you can see that we have used"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "person1.age - to assign and access the age member of person1",
+        "person1.salary - to assign and access the salary member of person1"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/nested-loops?page=3",
+  "title": "Example: Nested Loops",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Nested Loops"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# outer loop iterates from i = 0 to 2\n2for i in range(3):\n3    # inner loop iterates from j = 0 to 1\n4    for j in range(2):\n5        print(f\"i = {i}, j = {j}\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "i = 0, j = 0\ni = 0, j = 1\ni = 1, j = 0\ni = 1, j = 1\ni = 2, j = 0\ni = 2, j = 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, the outer loop iterates from i equals 0 to 2. In each iteration of the outer loop, the inner loop iterates from j equals 0 to 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

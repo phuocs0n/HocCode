@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/revise-oop-advanced?page=2",
+  "title": "Implement Brakes in Motor_Bike Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implement Brakes in Motor_Bike Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will look into the practical implementation of abstraction using motorbike brakes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that the purpose of a brake is to stop the motorbike. However, the working of brakes is different for different types of bikes."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, instead of creating separate functions for each type of motor bike, we can simply create a pure virtual function brake() to allow for different implementations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, all the other types of bikes will provide a separate implementation of brakes that suits their needs. However, the actual working of the brake will remain the same (to stop the bike)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// abstract class\n5class Motor_Bike {\n6    public:\n7\n8\n9        // pure virtual function\n10        virtual void brake() = 0;\n11\n12};\n13\n14class Sports_Bike: public Motor_Bike {\n15    public:\n16        \n17\n18        // provide an implementation of brake\n19        void brake() {\n20            cout << \"Stopping the Sports Bike.\" << endl;\n21        }\n22\n23};\n24\n25class Mountain_Bike: public Motor_Bike {\n26    public:\n27    \n28\n29        // provide an implementation of brake\n30        void brake() {\n31            cout << \"Stopping the Mountain Bike.\" << endl;\n32        }\n33\n34};\n35\n36int main() {\n37    \n38    Sports_Bike s1;\n39\n40    s1.brake();\n41\n42    \n43    Mountain_Bike m1;\n44\n45    m1.brake();\n46\n47\n48    return 0;\n49}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Stopping the Sports Bike.\nStopping the Mountain Bike."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created an abstract class Motor_Bike with a pure virtual function named brake()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Sports_Bike and Mountain_Bike classes inherit Motor_Bike and provide an implementation for the pure virtual function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

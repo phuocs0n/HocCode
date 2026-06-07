@@ -1,0 +1,89 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/highest-rated-episode?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a table named Shows with columns show_id, title, episode_name, air_date, and rating."
+    },
+    {
+      "type": "paragraph",
+      "content": "This problem requires us to retrieve all the details on the episode with the highest ratings that did not air on the weekends."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, we need to filter out two days - Sunday and Saturday from the air_date column."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can do this by using the strftime() function with the %w placeholder, which stands for day of week (with values ranging from 0 to 6, where Sunday = 0). This function lets us filter out the days in a week when used with a NOT IN operator as below:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "strftime('%w', air_date) NOT IN ('0', '6')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, 0 stands for Sunday and 6 for Saturday."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a similar way, you can filter Monday to Thursday with 1, 2, 3, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "After filtering out the weekend, we need to order the results by descending order of rating and limit the output to 1 using the LIMIT command."
+    },
+    {
+      "type": "paragraph",
+      "content": "The resulting table would be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "show_id",
+          "title",
+          "episode_name",
+          "air_date",
+          "rating"
+        ],
+        [
+          "3",
+          "HIMYM",
+          "Slap Bet",
+          "2023-05-11",
+          "9"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

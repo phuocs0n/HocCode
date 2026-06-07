@@ -1,0 +1,56 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/popular-books-in-last-decade?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given a table named Books with columns for book_id, title, date, and sales."
+    },
+    {
+      "type": "paragraph",
+      "content": "The goal is to write an SQL query that retrieves all books published in the last decade (2010 - 2019) which has sold more than 1 million copies, along with their sales numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move on to how to approach this problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Start by selecting the title and sales columns from the Books table. Then, filter the books based on the following conditions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The publication date is between January 1, 2010, and December 31, 2019.",
+        "The sales exceed 1 million copies."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

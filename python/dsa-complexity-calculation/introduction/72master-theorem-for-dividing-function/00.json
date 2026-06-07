@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-dividing-function?page=1",
+  "title": "Dividing Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Dividing Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first understand what a dividing function is. Then, we will learn to calculate the time complexity of dividing functions using the master theorem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's an example of a dividing function:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def test(n):\n2    if n > 0:\n3        print(n)\n4        test(n // 2)\n5\n6test(20)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "20\n10\n5\n2\n1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, test() is a recursive function because we have called the same test() function from inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In each recursive call, the argument is divided by 2 using the test(n // 2) statement. Hence, test() is a dividing function."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is also an example of the divide and conquer strategy. It is a common approach in computer science where a big problem is solved by breaking it into smaller subproblems, solving each recursively, and then combining the results."
+    },
+    {
+      "type": "paragraph",
+      "content": "So here, the divide part comes from cutting n in half each time, and the conquer part happens when each smaller problem is handled by a recursive call."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,52 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/binary-search?page=3",
+  "title": "Calculating Time Complexity",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculating Time Complexity"
+    },
+    {
+      "type": "paragraph",
+      "content": "One key thing to notice in binary search is how efficiently it cuts down the search scope. In every iteration, it cuts the array to be searched to half, reducing the number of iterations logarithmically."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous example, initially, we had 7 elements to search through. In the next step, we cut the number down to 3 or 4. By the third step, the number came down to 1 or 2. Binary search repeats this process for us until we find the target or determine that it is not in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's find time complexities for the following cases:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Best Case",
+        "Worst Case"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-decreasing-function?page=3",
+  "title": "Solving Recurrence Relation with Master Theorem",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Solving Recurrence Relation with Master Theorem"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve an equation using recurrence relation for a decreasing function, the function must be in the following format:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=aT(n−b)+f(n)T\\lparen n\\rparen = aT\\lparen n - b\\rparen +f(n) T(n)=aT(n−b)+f(n)where,where,where,f(n)=O(nk),    f(n) = O(n^k), f(n)=O(nk),a>0, b>0,    a > 0,\\ b > 0, a>0, b>0,k≥0    k \\geq 0k≥0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's observe the equation for three different cases:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Case 1: a = 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=O(nk+1)T\\lparen n\\rparen =O(n^{k+1})T(n)=O(nk+1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Case 2: a > 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=O(nkanb)T\\lparen n\\rparen =O(n^ka ^ \\frac{n}{b})T(n)=O(nkabn​)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Case 3: a < 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=O(nk)T\\lparen n\\rparen =O(n^k)T(n)=O(nk)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see some examples of the calculating time complexity of decreasing function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

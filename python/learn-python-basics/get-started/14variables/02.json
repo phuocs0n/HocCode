@@ -1,0 +1,192 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/variables?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What's the variable in the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "jack = \"name\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "jack"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, jack is a variable. In Python, the value on the right of the = symbol (\"name\") is assigned to the variable on the left of the = symbol (jack)."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, jack is a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, the value on the right of the = symbol (\"name\") is assigned to the variable on the left of the = symbol (jack)."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is not a variable. It's a string since it's enclosed inside quotation marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is not a variable. It's a string since it's enclosed inside quotation marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "name"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "name is not a variable; it's the value of the string assigned to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "name is not a variable; it's the value of the string assigned to the variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, jack is a variable. In Python, the value on the right of the = symbol (\"name\") is assigned to the variable on the left of the = symbol (jack)."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, jack is a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, the value on the right of the = symbol (\"name\") is assigned to the variable on the left of the = symbol (jack)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is not a variable. It's a string since it's enclosed inside quotation marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is not a variable. It's a string since it's enclosed inside quotation marks."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "name is not a variable; it's the value of the string assigned to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "name is not a variable; it's the value of the string assigned to the variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What's the variable in the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:jack",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "jack",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:\"name\"",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "\"name\"",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:name",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "name",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:=",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "=",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

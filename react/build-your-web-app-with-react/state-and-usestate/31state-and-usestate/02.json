@@ -1,0 +1,70 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/state-usestate?page=3",
+  "title": "Why React Ignored My Variable",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why React Ignored My Variable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the thing: React doesn't watch your variables and cannot detect their change. It re-renders a component when the state changes — and a variable created with let is not considered a \"state\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every time the component re-renders, let entries = [] runs again and wipes everything. Your updates between renders? Gone."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is what useState() solves. It stores your data outside the component's execution cycle and tells React: \"When this changes, re-render.\""
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [entries, setEntries] = useState([]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only now will React watch for changes, and updates finally trigger UI re-renders."
+    },
+    {
+      "type": "paragraph",
+      "content": "Summary"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The Misconception: Any variable I update will cause the UI to refresh.",
+        "The Truth: React only re-renders when the state (managed by useState()) changes. Regular variables are invisible to React.",
+        "The Golden Rule: If a value changes over time and the UI needs to reflect it — it's a state. So you should put it in useState."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's explore what a state actually is."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

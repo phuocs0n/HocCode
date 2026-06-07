@@ -1,0 +1,106 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/wildcards?page=3",
+  "title": "_ Wildcard in SQL",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "_ Wildcard in SQL"
+    },
+    {
+      "type": "paragraph",
+      "content": "The _ wildcard in SQL is used to represent a single character. For example,"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Expression",
+          "String",
+          "Matched?"
+        ],
+        [
+          "'R_'",
+          "'R'",
+          "no match"
+        ],
+        [
+          "'R_'",
+          "'Ra'",
+          "match"
+        ],
+        [
+          "'R_'",
+          "'Ran'",
+          "no match"
+        ],
+        [
+          "'R_'",
+          "'Or'",
+          "no match"
+        ],
+        [
+          "'_R'",
+          "'Or'",
+          "match"
+        ],
+        [
+          "'_R'",
+          "'Number'",
+          "no match"
+        ],
+        [
+          "'_R_'",
+          "'Ran'",
+          "no match"
+        ],
+        [
+          "'_R_'",
+          "'Ara'",
+          "match"
+        ],
+        [
+          "'__R_'",
+          "'Dara'",
+          "match"
+        ],
+        [
+          "'__R_'",
+          "'Ara'",
+          "no match"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select customers whose country contains -- only three letters\n2\n3SELECT *\n4FROM Customers\n5WHERE country LIKE '___';"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

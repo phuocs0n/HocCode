@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/object-oriented-programming?page=2",
+  "title": "Classes in OOP",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Classes in OOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Object-Oriented Programming (OOP), a class is a container for all the logic we use in a program. It is a fundamental concept, and you've likely been using classes without realizing it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In fact, every Java program you've written so far has included at least one class. Here's a quick look at how a typical Java program is structured using a class:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n    public static void main(String[] args) {\n        // Code goes here\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first line, class Main, defines a class named Main."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll soon see more examples, but for now, remember that everything in Java revolves around classes. Now, let's learn about objects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,56 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/complete-tictactoe?page=2",
+  "title": "Tic-Tac-Toe",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tic-Tac-Toe"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, you only created the foundation for a Tic-Tac-Toe game."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3  …"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    …"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const gameBoard = document.querySelector(\".game-board\");\n2…"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you'll build on this foundation by adding new functionalities, which we'll discuss on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

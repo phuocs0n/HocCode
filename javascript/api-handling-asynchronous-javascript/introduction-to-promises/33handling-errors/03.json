@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/handling-errors?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of these reasons can cause a promise to fail?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises fail only when the browser tab is closed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Closing a tab stops the page, but promises don't \"fail\" for that reason. Promises fail when they are rejected."
+    },
+    {
+      "type": "paragraph",
+      "content": "Closing a tab stops the page, but promises don't \"fail\" for that reason. Promises fail when they are rejected."
+    },
+    {
+      "type": "paragraph",
+      "content": "A promise fails if you forget to use .then()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": ".then() just listens for success. Not using it doesn't fail the promise — it just means you didn't handle the result."
+    },
+    {
+      "type": "paragraph",
+      "content": ".then() just listens for success. Not using it doesn't fail the promise — it just means you didn't handle the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "An external API returns an error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises often depend on things outside your control (server, network, API). If that external system returns an error, the promise can be rejected."
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises often depend on things outside your control (server, network, API). If that external system returns an error, the promise can be rejected."
+    },
+    {
+      "type": "paragraph",
+      "content": "A promise fails if it takes more than 1 second"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time alone doesn't make a promise fail. A promise can take 1ms or 10 seconds, it fails only if something goes wrong and it gets rejected."
+    },
+    {
+      "type": "paragraph",
+      "content": "Time alone doesn't make a promise fail. A promise can take 1ms or 10 seconds, it fails only if something goes wrong and it gets rejected."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of these reasons can cause a promise to fail?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Promises fail only when the browser tab is closed",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Promises fail only when the browser tab is closed",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A promise fails if you forget to use .then()",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A promise fails if you forget to use .then()",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:An external API returns an error",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "An external API returns an error",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A promise fails if it takes more than 1 second",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A promise fails if it takes more than 1 second",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

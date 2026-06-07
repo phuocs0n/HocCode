@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/creating-lists-for-learning-content?page=3",
+  "title": "Ordered Lists",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ordered Lists"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <ol> tag to create unordered lists. Use an ordered list when the sequence matters."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, here's a list of sequential steps needed to master the fundamentals of HTML:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<ol>\n2  <li>Understand basic HTML tags</li>\n3  <li>Practice writing content</li>\n4  <li>Group related information</li>\n5  <li>Build a complete page</li>\n6</ol>"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the order communicates meaning: you must proceed sequentially from step 1 to step 4."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

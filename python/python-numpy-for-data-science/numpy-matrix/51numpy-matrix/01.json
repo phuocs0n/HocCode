@@ -1,0 +1,82 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-matrix?page=2",
+  "title": "Matrix Creation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Matrix Creation"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy matrix is a type of NumPy ndarrays. Unlike arrays, matrices can't have more than 2 dimensions."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we can use the np.array() function to create a matrix."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a 2x2 matrix\n4matrix1 = np.array([[1, 2], \n5                    [3, 5]])\n6\n7print(\"2x2 Matrix:\\n\",matrix1)\n8\n9# create a 3x3  matrix\n10matrix2 = np.array([[1, 2, 3],\n11                    [5, 7, 9],\n12                    [12, 6, 8]])\n13                    \n14print(\"\\n3x3 Matrix:\\n\",matrix2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "2x2 Matrix:\n [[1 2]\n [3 5]]\n\n3x3 Matrix:\n[[ 1  2  3]\n [ 5  7  9]\n [12  6  8]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we can see, we have successfully created two matrices: 2x2 matrix and 3x3 matrix by passing a list of lists to the np.array() function respectively."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Create Prefilled Matrix"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also create a matrix filled with ones or zeros using the np.ones() or np.zeros() functions."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a 3x3 matrix filled with ones\n4ones_matrix = np.ones((3, 3))\n5\n6# create a 2x4 matrix filled with zeros\n7zeros_matrix = np.zeros((2, 4))\n8\n9print(\"Matrix filled with ones: \\n\", ones_matrix)\n10\n11print(\"\\nMatrix filled with zeros:\\n\", zeros_matrix)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Matrix filled with ones: \n[[1. 1. 1.]\n [1. 1. 1.]\n [1. 1. 1.]]\n\nMatrix filled with zeros:\n[[0. 0. 0. 0.]\n [0. 0. 0. 0.]]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

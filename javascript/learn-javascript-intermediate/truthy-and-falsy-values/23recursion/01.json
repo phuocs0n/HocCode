@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/recursion?page=1",
+  "title": "Recursion Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recursion Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we know, we call functions to use them. It's also possible to call the function itself from inside its body."
+    },
+    {
+      "type": "paragraph",
+      "content": "A function that calls itself is known as a recursive function. And, this process is known as recursion."
+    },
+    {
+      "type": "paragraph",
+      "content": "Recursion is not native to JavaScript and is also available in other programming languages. However, we decided to put this topic here because it's harder to create programs involving recursion."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since it's a harder topic, we will take a step by step approach to understand recursion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

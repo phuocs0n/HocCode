@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/sum-of-all-digits?page=1",
+  "title": "Sum of All Digits of a Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of All Digits of a Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the sum of all the digits of a number."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the number variable.",
+        "Create an integer variable sum with initial value 0.",
+        "Create a while loop to access each digit of the number.",
+        "Inside the loop, add each digit of the number to sum.",
+        "Print the sum."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input4382"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output17"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

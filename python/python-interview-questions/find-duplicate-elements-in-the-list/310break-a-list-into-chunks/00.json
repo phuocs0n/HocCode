@@ -1,0 +1,59 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/break-list-into-chunks?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a non-empty list, break the list into chunks that contain 4 elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "You are given a list of numbers,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "numbers = [2, 3, 6, 7, 3, 5, 7, 8, 9, 2, 20, 24, 16, 17, 23, 19]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we can break numbers into chunks,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "[2, 3, 6, 7]\n[3, 5, 7, 8]\n[9, 2, 20, 24]\n[16, 17, 23, 19]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

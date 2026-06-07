@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/lambda-expression-capture-clause?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is true for lambda capture clause by value?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can change the value of the captured variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We cannot change the value of the captured variable when capturing by value."
+    },
+    {
+      "type": "paragraph",
+      "content": "We cannot change the value of the captured variable when capturing by value."
+    },
+    {
+      "type": "paragraph",
+      "content": "We pass the address of the variable we want to capture."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "False. When capturing by value, we pass a copy of the value of the variable we want to capture, not its address."
+    },
+    {
+      "type": "paragraph",
+      "content": "False. When capturing by value, we pass a copy of the value of the variable we want to capture, not its address."
+    },
+    {
+      "type": "paragraph",
+      "content": "We pass a copy of the value of the variable we want to capture."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "All of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above statements is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above statements is true."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is true for lambda capture clause by value?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:We can change the value of the captured variable.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We can change the value of the captured variable.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:We pass the address of the variable we want to capture.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We pass the address of the variable we want to capture.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:We pass a copy of the value of the variable we want to capture.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "We pass a copy of the value of the variable we want to capture.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

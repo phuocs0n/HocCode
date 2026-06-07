@@ -1,0 +1,179 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/avl-trees?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What are the valid balance factors for an AVL tree?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "-1 and 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The child subtrees can also be of equal height."
+    },
+    {
+      "type": "paragraph",
+      "content": "The child subtrees can also be of equal height."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The height of two child subtrees can differ by up to a value of 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "The height of two child subtrees can differ by up to a value of 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "-1 , 0, and 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "These are the valid balance factors for a node in an AVL tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "These are the valid balance factors for a node in an AVL tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The child subtrees can also be of equal height."
+    },
+    {
+      "type": "paragraph",
+      "content": "The child subtrees can also be of equal height."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The height of two child subtrees can differ by up to a value of 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "The height of two child subtrees can differ by up to a value of 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "These are the valid balance factors for a node in an AVL tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "These are the valid balance factors for a node in an AVL tree."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What are the valid balance factors for an AVL tree?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:-1 and 1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "-1 and 1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:0",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:-1 , 0, and 1",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "-1 , 0, and 1",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

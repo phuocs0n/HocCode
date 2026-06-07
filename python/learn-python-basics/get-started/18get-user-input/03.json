@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/get-user-input?page=3",
+  "title": "User Input Without Prompt",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "User Input Without Prompt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take another example of user input."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1full_name = input()\n2print(\"Full Name:\", full_name)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Micheal Smith\nFull Name: Micheal Smith"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used the input() function without putting text (prompt message) inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The full_name = input() function doesn't print anything but makes the program wait until the user enters some input."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the user types something and hits the ENTER key, it is assigned to the full_name variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

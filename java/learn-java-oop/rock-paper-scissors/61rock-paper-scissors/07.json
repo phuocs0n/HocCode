@@ -1,0 +1,65 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors?page=8",
+  "title": "Extending the Project",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Extending the Project"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Running the game n times"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we want to run our game 5 times. We can do that using the for loop."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Game game = new Game();\n    \n    for(int i =1; i <=5; i++) {\n      \n        String userPick = game.getUserPick();\n        String computerPick = game.getComputerPick();\n        String result = game.getResult(userPick, computerPick);\n\n        System.out.println(\"User Pick: \" + userPick);\n        System.out.println(\"Computer Pick: \" + computerPick);\n        System.out.println(\"You \" + result);\n      \n}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Asking the user to play the game again"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we want to ask the user if they want to play the game again after a game is completed. Here's how we can do it."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "while (true) {\n    Game game = new Game();\n    String userPick = game.getUserPick();\n    String computerPick = game.getComputerPick();\n    String result = game.getResult(userPick, computerPick);\n\n    System.out.println(\"User Pick: \" + userPick);\n    System.out.println(\"Computer Pick: \" + computerPick);\n    System.out.println(\"You \" + result);\n      \n    Scanner input = new Scanner(System.in);\n      \n    System.out.println(\"Do you want to play again? (y/n): \");\n      \n    String playAgain = input.nextLine();\n      \n    // if user enter any other character other than y, the game ends\n    if (!(playAgain.equals(\"y\"))) {\n        break;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, each time a game is completed, the user is asked whether they want to play the game again or not. If the user enters \"y\", the game will run again because of the infinite loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

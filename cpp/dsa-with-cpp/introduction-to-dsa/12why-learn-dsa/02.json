@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/why-dsa?page=3",
+  "title": "Optimized: Sum of Natural Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Optimized: Sum of Natural Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can find the sum of natural numbers using a simple formula:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum of natural numbers=n∗(n+1)2Sum\\ of\\ natural\\ numbers  = \\frac{n*(n+1)}{2}Sum of natural numbers=2n∗(n+1)​"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's use this formula to find the sum of natural numbers."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3using namespace std;\n4\n5int calculate_sum(int n) {\n6    return n*(n+1)/2;\n7}\n8\n9int main() {\n10    cout << calculate_sum(100) << '\\n';\n11    return 0;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This program runs in a fraction of a second, even for very large numbers. It's because we solved this problem with a single instruction, regardless of the size of the input."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

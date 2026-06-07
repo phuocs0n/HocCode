@@ -1,0 +1,139 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/html-input-types?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You need a form where users can choose all the hobbies they are interested in from a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which input type should you use?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<input type=\"radio\">"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Radio buttons are used when you want the user to select only one option from a group."
+    },
+    {
+      "type": "paragraph",
+      "content": "Radio buttons are used when you want the user to select only one option from a group."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<input type=\"checkbox\">"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Checkboxes allow users to select multiple options from a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Checkboxes allow users to select multiple options from a list."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<input type=\"password\">"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Password fields are used for entering sensitive information that needs to be masked."
+    },
+    {
+      "type": "paragraph",
+      "content": "Password fields are used for entering sensitive information that needs to be masked."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<input type=\"file\">"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "File input fields are used for uploading files. They are not suitable for selecting multiple hobbies from a list of options."
+    },
+    {
+      "type": "paragraph",
+      "content": "File input fields are used for uploading files. They are not suitable for selecting multiple hobbies from a list of options."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You need a form where users can choose all the hobbies they are interested in from a list.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<input type=\"radio\">",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<input type=\"radio\">",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<input type=\"checkbox\">",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<input type=\"checkbox\">",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:<input type=\"password\">",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "<input type=\"password\">",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<input type=\"file\">",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<input type=\"file\">",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

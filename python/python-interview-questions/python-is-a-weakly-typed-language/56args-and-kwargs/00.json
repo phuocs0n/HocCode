@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/args-kwargs?page=1",
+  "title": "What Are *args and **kwargs in Python?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Are *args and **kwargs in Python?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, we can take any number of parameters using *args and **kwargs in a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we use *args as a parameter when defining a function, we can pass any number of positional arguments. All the passed arguments are stored in args as a tuple."
+    },
+    {
+      "type": "paragraph",
+      "content": "This comes from the fact that starred expressions * are used for unpacking any iterable objects like lists and tuples. The name 'args' is arbitrary but is used as the standard convention."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def fun(*args):\n2    print(args)\n3\n4\n5fun(3, 2, 1)\n6\n7# Output: (3, 2, 1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, **kwargs is used to collect any number of keyword arguments and stored as a dictionary in the kwargs variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "It comes from the fact that ** is used to unpack the key and values of a dictionary. Again, 'kwargs' is an arbitrary name but is the standard convention."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def fun(**kwargs):\n2    print(kwargs)\n3\n4\n5fun(name='john', age=30)\n6\n7# Output: {'name': 'john', 'age': 30}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

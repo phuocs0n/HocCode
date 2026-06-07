@@ -1,0 +1,62 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/linear-search?page=5",
+  "title": "Worst Case",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Worst Case"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the worst-case scenario, the target value is either at the very end of the array or not present at all. In this case, the loop needs to iterate till the very end of the array. If an array has size n, the loop needs to iterate the maximum number of operations possible – n times."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Time complexity = O(n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "This means the time complexity linearly increases as the size of the array increases."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use any asymptotic notation to represent the worst case."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "O(n)",
+        "Ω(n)",
+        "Θ(n)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

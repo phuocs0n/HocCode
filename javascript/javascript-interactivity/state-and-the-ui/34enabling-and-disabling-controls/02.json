@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/enabling-disabling-controls?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Where is the best place to update the Prev and Next buttons disabled state so they stay correct after every slide change?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only in the Prev button click handler."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Updating only in Prev would miss slide changes from Next. The disabled state could get out of sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "Updating only in Prev would miss slide changes from Next. The disabled state could get out of sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only in the Next button click handler."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only updating in Next leaves Prev wrong when you go back. The disabled state could get out of sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only updating in Next leaves Prev wrong when you go back. The disabled state could get out of sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside showSlide()|single function that runs whenever the slide changes, so one place keeps state and button state in sync."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Whenever the slide changes, showSlide() runs. Set prevBtn.disabled and nextBtn.disabled there based on currentSlideIndex. One source of truth."
+    },
+    {
+      "type": "paragraph",
+      "content": "Whenever the slide changes, showSlide() runs. Set prevBtn.disabled and nextBtn.disabled there based on currentSlideIndex. One source of truth."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a separate function that runs once on page load."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "On load you start on the first slide, but the buttons must update again after every click. A one-time update will not stay correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "On load you start on the first slide, but the buttons must update again after every click. A one-time update will not stay correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Where is the best place to update the Prev and Next buttons disabled state so they stay correct after every slide change?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Only in the Prev button click handler.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Only in the Prev button click handler.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Only in the Next button click handler.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Only in the Next button click handler.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Inside showSlide()|single function that runs whenever the slide changes, so one place keeps state and button state in sync.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Inside showSlide()|single function that runs whenever the slide changes, so one place keeps state and button state in sync.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:In a separate function that runs once on page load.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "In a separate function that runs once on page load.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

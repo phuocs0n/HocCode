@@ -1,0 +1,135 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/circular-linked-list-operations?page=10",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How can you insert a node at the beginning of a circular linked list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Set the next pointer of the new node to point to the current first node and update the next pointer of the last node to point to the new node. Finally, update the head node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to insert a node at the beginning of a circular linked list, you'll need to ensure that the new node connects to the current first node while also updating the last node's next pointer to maintain the circular structure. Finally, you need to make the new node the head node."
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to insert a node at the beginning of a circular linked list, you'll need to ensure that the new node connects to the current first node while also updating the last node's next pointer to maintain the circular structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, you need to make the new node the head node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Set the next pointer of the new node to None and update the head to point to the new node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Making the new node as the head and setting the next pointer of the new node to None would disconnect the rest of the list. The resulting list will be a singly linked list containing only the new node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Making the new node as the head and setting the next pointer of the new node to None would disconnect the rest of the list. The resulting list will be a singly linked list containing only the new node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Set the next pointer of the new node to point to the current first node and update the next pointer of the last node to None. Finally, update the head node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You would be creating a singly linked list with the new node at the beginning and the last node at the end, not maintaining the circular structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "You would be creating a singly linked list with the new node at the beginning and the last node at the end, not maintaining the circular structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a new list with the new node as the only element and set its next pointer to point to the current first node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a new list with only the new node would not insert it at the beginning of the existing circular linked list. Instead, it would result in two separate linked lists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a new list with only the new node would not insert it at the beginning of the existing circular linked list. Instead, it would result in two separate linked lists."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How can you insert a node at the beginning of a circular linked list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Set the next pointer of the new node to point to the current first node and update the next pointer of the last node to point to the new node. Finally, update the head node.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Set the next pointer of the new node to point to the current first node and update the next pointer of the last node to point to the new node. Finally, update the head node.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Set the next pointer of the new node to None and update the head to point to the new node.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Set the next pointer of the new node to None and update the head to point to the new node.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Set the next pointer of the new node to point to the current first node and update the next pointer of the last node to None. Finally, update the head node.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Set the next pointer of the new node to point to the current first node and update the next pointer of the last node to None. Finally, update the head node.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Create a new list with the new node as the only element and set its next pointer to point to the current first node.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Create a new list with the new node as the only element and set its next pointer to point to the current first node.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

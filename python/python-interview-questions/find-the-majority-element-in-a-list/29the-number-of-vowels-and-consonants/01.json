@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/number-of-vowels-consonants?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To count the number of vowels and consonants, we need to define a function that takes a string as a parameter."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we need to define a variable named vowels with all possible vowel letters. Then, we need to initialize two counters:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "vowel_count - variable to count the number of vowels",
+        "consonant_count - variable to count the number of consonants"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we need to loop through each character in the string so that we can check each character individually."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the character is in the vowels string, we have to increment the vowel counter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since our sentence can also contain white spaces, we skip the iteration using continue if we encounter a white space."
+    },
+    {
+      "type": "paragraph",
+      "content": "If none of the above conditions are satisfied, we have to increment the consonant counter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we need to print vowel_count and consonant_count ."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

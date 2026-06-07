@@ -1,0 +1,75 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/abstract-method-class?page=1",
+  "title": "Abstract Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Abstract Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far we have been creating methods like this:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "void makeSound() {\n    System.out.println(\"Roar\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the code inside the curly braces { } is the body of the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, we can also create methods that don't have a body. These types of methods are known as abstract methods."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the abstract keyword to create abstract methods. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "abstract void makeSound();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, makeSound() is an abstract method. The body of an abstract method is replaced by ;."
+    },
+    {
+      "type": "paragraph",
+      "content": "You might be wondering what is the use of methods if they don't have any code inside them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Well, there are some uses of abstract methods in Java. Before learning about them, let's talk about abstract classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn about abstract classes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

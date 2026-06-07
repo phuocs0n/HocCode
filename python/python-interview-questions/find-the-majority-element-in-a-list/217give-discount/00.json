@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/give-discount?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a Python function that gives discounted prices."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function should accept two parameters:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "full price",
+        "discount percentage"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "After calculation, the function should print the price after subtracting the discount."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if the price is 50 and the discount percentage is 20, the function should print 40."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

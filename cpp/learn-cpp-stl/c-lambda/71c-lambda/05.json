@@ -1,0 +1,64 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-lambda?page=6",
+  "title": "Example: Lambda mutating captured variable",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Lambda mutating captured variable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\n\nusing namespace std;\n\nint main(){\n    int i = 5;\n    auto val = [=](int x, int y) -> int {\n        i = 78;\n        return i + x + y;\n    } (5,5);\n\n\n    cout << \"The sum is : \" << val;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here we are trying to modify the captured value i by assigning it to new value 78. But this is an error unless we use the mutable specification."
+    },
+    {
+      "type": "paragraph",
+      "content": "The correct way is to specify the mutable keyword."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3using namespace std;\n4\n5int main(){\n6    int i = 5;\n7    auto val = [=] (int x, int y) mutable -> int {\n8        i = 78;\n9        return i + x + y;\n10    } (5,5);\n11\n12\n13    cout << \"The sum is  \" << val;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The sum is 88"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,76 @@
+{
+  "index": 29,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/0-1-knapsack-problem?page=30",
+  "title": "Thought Process: DP Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: DP Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we are all set, let's implement our DP table logic in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Initialize the required variables."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we'll store our item weights and values in vectors and also define the capacity of the knapsack."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Initialize variables\nvector<int> w = {2, 3, 6};\nvector<int> v = {60, 100, 150};\nint capacity = 5;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, w is a vector of item weights and v is a vector of their corresponding values."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Initialize the DP table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we create a table with the following dimensions:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "(number of items + 1) x (capacity + 1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each cell in this table is initialized to 0."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<vector<int>> DP(w.size() + 1, vector<int>(capacity + 1, 0));"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

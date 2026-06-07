@@ -1,0 +1,131 @@
+{
+  "index": 15,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=16",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In this lesson, what does the cleanup function returned from useEffect() do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It prevents the effect from running more than once"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The dependency array controls when the effect runs. The cleanup only handles what happens when the effect stops."
+    },
+    {
+      "type": "paragraph",
+      "content": "The dependency array controls when the effect runs. The cleanup only handles what happens when the effect stops."
+    },
+    {
+      "type": "paragraph",
+      "content": "It resets the ref to null after the component renders"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React manages the ref lifecycle automatically. The cleanup is for the external event listener we added."
+    },
+    {
+      "type": "paragraph",
+      "content": "React manages the ref lifecycle automatically. The cleanup is for the external event listener we added."
+    },
+    {
+      "type": "paragraph",
+      "content": "It closes the drawer by setting selectedEntry to null"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The cleanup only manages the event listener. Closing the drawer is handled by calling onClose() inside the listener itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "The cleanup only manages the event listener. Closing the drawer is handled by calling onClose() inside the listener itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "It removes the mousedown listener from the document when the component unmounts or the effect re-runs"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Without cleanup, each render adds a new listener. The cleanup ensures only one is active at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Without cleanup, each render adds a new listener. The cleanup ensures only one is active at a time."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In this lesson, what does the cleanup function returned from useEffect() do?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It prevents the effect from running more than once",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It prevents the effect from running more than once",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It resets the ref to null after the component renders",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It resets the ref to null after the component renders",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It closes the drawer by setting selectedEntry to null",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It closes the drawer by setting selectedEntry to null",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It removes the mousedown listener from the document when the component unmounts or the effect re-runs",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It removes the mousedown listener from the document when the component unmounts or the effect re-runs",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

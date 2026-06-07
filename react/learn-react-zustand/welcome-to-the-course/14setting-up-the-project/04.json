@@ -1,0 +1,81 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/setting-up-project?page=4",
+  "title": "What the Starter Files Look Like",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What the Starter Files Look Like"
+    },
+    {
+      "type": "paragraph",
+      "content": "Go ahead and run the project."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { create } from 'zustand'\n2 \n3const useJournalStore = create(() => ({\n4  theme: 'light',\n5}))\n6 \n7export default useJournalStore"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import useJournalStore from './store/useJournalStore'\n2 \n3export default function App() {\n4  const theme = useJournalStore((state) => state.theme)\n5  return <div>My Daily Journal — Zustand is working!</div>\n6}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react'\n2import { createRoot } from 'react-dom/client'\n3import App from './App'\n4 \n5createRoot(document.getElementById('root')).render(\n6  <React.StrictMode>\n7    <App />\n8  </React.StrictMode>\n9)"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3  <title>My Daily Journal</title>\n4  <div id=\"root\"></div>\n5  <script type=\"module\" src=\"/src/index.jsx\"></script>\n6</html>"
+    },
+    {
+      "type": "paragraph",
+      "content": "You will see the heading My Daily Journal — Zustand is working! and nothing else. No entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "No form. No theme toggle. No search."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is expected. The components are empty shells. The store has some starter state but the components are not connected to it yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "Have a look through the files before moving on. Get a feel for where things live."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of Chapter 2 the store will be alive and journal entries will be showing on screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let us go build it. Click Next Chapter to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

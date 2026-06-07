@@ -1,0 +1,46 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/super-in-python?page=1",
+  "title": "What is super() in Python?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is super() in Python?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The super() method is used to call the parent class's properties from the child class. Using super(), we can invoke any method or constructor of the parent class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class Person:\n2    def __init__(self, name):\n3        self.name = name\n4\n5    def walk(self, to):\n6        print(self.name, 'is walking to', to)\n7\n8\n9class Student(Person):\n10    def __init__(self, name):\n11        super().__init__(name)\n12\n13    def go_school(self):\n14        super().walk(to='school')\n15\n16    def go_home(self):\n17        super().walk(to='home')\n18\n19\n20obj = Student('John')\n21obj.go_school()\n22obj.go_home()\n23\n24# Output:\n25# John is walking to school\n26# John is walking to home"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used super() to call the constructor and methods of the parent class (Person) from the child class (Student)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

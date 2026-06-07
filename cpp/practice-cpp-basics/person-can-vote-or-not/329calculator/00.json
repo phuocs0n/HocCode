@@ -1,0 +1,80 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/calculator?page=1",
+  "title": "Create a Calculator Using switch...case",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create a Calculator Using switch...case"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to that adds, subtracts, multiplies, or divides two variables based on the operator given by the user."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two double variables number1 and number2.",
+        "Assign the values 69.7 and 36.2436 to number1 and number2 respectively.",
+        "Get character input for the variable operation.",
+        "Using switch...case, perform the appropriate operations for the following operation values:",
+        "'+' - addition (number1 + number2)",
+        "'-' - subtraction",
+        "'*' - multiplication",
+        "'/' - division",
+        "Print \"Error!\" for any other input."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Use break; inside every case block except for the default block."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input+"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output105.944"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/cookie?page=2",
+  "title": "Setting a Cookie",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Setting a Cookie"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose your webpage has a toggle switch for light and dark themes."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2\n3    <div class=\"theme-switch\">\n4        <input type=\"checkbox\" id=\"theme-toggle\" onchange=\"toggleTheme()\">\n5        <label for=\"theme-toggle\" class=\"slider\"></label>\n6    </div>\n7</body>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2            padding: 20px;\n3            font-family: Arial, sans-serif;\n4            transition: background-color 0.3s, color 0.3s;\n5            display: flex;\n6            justify-content: center;\n7            align-items: center;\n8            height: 100vh;\n9            margin: 0;\n10            background-color: #f4f4f4; /* Light grey background */\n11            color: #333; /* Dark text */\n12        }\n13 \n14        .theme-switch {\n15            position: relative;\n16            width: 80px; /* Width of the switch */\n17            height: 40px; /* Height of the switch */\n18            margin-top: 20px;\n19        }\n20 \n21        .theme-switch input {\n22            opacity: 1;\n23            width: 0;\n24            height: 0;\n25        }\n26 \n27        .slider {\n28            position: absolute;\n29            cursor: pointer;\n30            top: 0;\n31            left: 0;\n32            right: 0;\n33            bottom: 0;\n34            background-color: #ccc;\n35            transition: .4s;\n36            border-radius: 25px;\n37        }\n38 \n39        .slider:before {\n40            position: absolute;\n41            content: \"\";\n42            height: 34px; /* Height of the slider circle */\n43            width: 34px; /* Width of the slider circle */\n44            left: 3px;\n45            bottom: 3px;\n46            background-color: white;\n47            transition: .4s;\n48            border-radius: 50%;\n49        }\n50 \n51        input:checked + .slider {\n52            background-color: #2196F3;\n53        }\n54 \n55        input:checked + .slider:before {\n56            transform: translateX(38px);\n57        }"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Set cookie to save dark theme preference until 31st dec, 2026\n2document.cookie = \"theme=dark; path=/; expires=Fri, 31 Dec 2026 23:59:59 UTC\";\n3\n4// Set cookie to save light theme preference until 31st dec, 2026\n5document.cookie = \"theme=light; path=/; expires=Fri, 31 Dec 2026 23:59:59 UTC\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code and click the slider."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the webpage theme changes, document.cookie updates to store the corresponding theme preference as a cookie. Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "theme=dark or theme=light: Stores the theme preference.",
+        "path=/: Makes the cookie available across the entire site.",
+        "expires=Fri, 31 Dec 2026 23:59:59 UTC: Ensures the cookie lasts until the specified date."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's test your understanding with a quick quiz before learning how to read the cookie you just set."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

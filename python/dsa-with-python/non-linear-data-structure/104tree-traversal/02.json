@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/tree-traversal?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In preorder traversal, after visiting the root of a subtree, which node is visited next?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The rightmost child."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal visits the rightmost child at last."
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal visits the rightmost child at last."
+    },
+    {
+      "type": "paragraph",
+      "content": "The leftmost child."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal moves in root-left-right order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal moves in root-left-right order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The parent of the root."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sibling of the root."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no siblings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no siblings."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal visits the rightmost child at last."
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal visits the rightmost child at last."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal moves in root-left-right order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Preorder traversal moves in root-left-right order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no parent."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no siblings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Root has no siblings."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In preorder traversal, after visiting the root of a subtree, which node is visited next?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The rightmost child.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The rightmost child.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The leftmost child.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The leftmost child.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The parent of the root.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The parent of the root.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The sibling of the root.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The sibling of the root.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

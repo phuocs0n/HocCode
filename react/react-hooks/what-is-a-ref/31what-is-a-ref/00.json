@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-ref?page=1",
+  "title": "The Problem: You Need to Talk to the DOM Directly",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: You Need to Talk to the DOM Directly"
+    },
+    {
+      "type": "paragraph",
+      "content": "The journal app fetches and displays entries. But there are some things the browser needs us to handle manually. For that, we need direct access to a DOM element."
+    },
+    {
+      "type": "paragraph",
+      "content": "As such, two features are coming in this chapter:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The search input should receive focus automatically when the page loads. There is no React prop for \"focus this input on mount,\" so we have to call the browser's .focus() method directly.",
+        "An entry detail drawer should close when the user clicks outside it. That requires checking whether a click landed inside or outside the drawer element."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Both require a reference to a real DOM node — not the React description of the element, but the actual browser element underneath it."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's what a ref gives us. Let's see what one actually is."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

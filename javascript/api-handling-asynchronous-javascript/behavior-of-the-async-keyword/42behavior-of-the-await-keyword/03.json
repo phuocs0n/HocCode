@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/behavior-of-await-keyword?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does await do when it encounters a promise?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It blocks all JavaScript execution until the promise resolves"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "await pauses the function, not all of JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "await pauses the function, not all of JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "It pauses the async function and waits for the promise to resolve"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function pauses, but the rest of JavaScript continues."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function pauses, but the rest of JavaScript continues."
+    },
+    {
+      "type": "paragraph",
+      "content": "It converts the promise into a synchronous operation"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The operation stays asynchronous, await just makes it look synchronous."
+    },
+    {
+      "type": "paragraph",
+      "content": "The operation stays asynchronous, await just makes it look synchronous."
+    },
+    {
+      "type": "paragraph",
+      "content": "It automatically handles errors in the promise"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "await doesn't handle errors automatically; you need try...catch to do that."
+    },
+    {
+      "type": "paragraph",
+      "content": "await doesn't handle errors automatically; you need try...catch to do that."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does await do when it encounters a promise?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It blocks all JavaScript execution until the promise resolves",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It blocks all JavaScript execution until the promise resolves",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It pauses the async function and waits for the promise to resolve",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It pauses the async function and waits for the promise to resolve",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It converts the promise into a synchronous operation",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It converts the promise into a synchronous operation",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It automatically handles errors in the promise",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It automatically handles errors in the promise",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/responsive-design/breakpoints-mobilefirst?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does mobile-first CSS mean?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Writing CSS only for mobile and ignoring desktop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using max-width media queries only."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using max-width media queries only."
+    },
+    {
+      "type": "paragraph",
+      "content": "Making the desktop layout look like mobile."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Base styles for the smallest screen, add layout for larger viewports with min-width media queries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Base styles for the smallest screen, add layout for larger viewports with min-width media queries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile-first absolutely supports desktop. It just reaches desktop through min-width layers rather than starting there. Base styles run on all viewports, only the additions are gated."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width is actually the desktop-first approach. You start wide and use max-width to narrow things back down. Mobile-first flips it, start narrow and add complexity upward with min-width."
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width is actually the desktop-first approach. You start wide and use max-width to narrow things back down. Mobile-first flips it, start narrow and add complexity upward with min-width."
+    },
+    {
+      "type": "paragraph",
+      "content": "That would just be a bad desktop experience. Mobile-first means you write for mobile first in the cascade, then add more layout as space allows."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile-first means base styles target the smallest viewport and you layer on larger layouts with min-width, not max-width."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile-first means base styles target the smallest viewport and you layer on larger layouts with min-width, not max-width."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does mobile-first CSS mean?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Writing CSS only for mobile and ignoring desktop.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Writing CSS only for mobile and ignoring desktop.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Making the desktop layout look like mobile.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Making the desktop layout look like mobile.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Mobile-first absolutely supports desktop. It just reaches desktop through min-width layers rather than starting there. Base styles run on all viewports, only the additions are gated.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Mobile-first absolutely supports desktop. It just reaches desktop through min-width layers rather than starting there. Base styles run on all viewports, only the additions are gated.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:That would just be a bad desktop experience. Mobile-first means you write for mobile first in the cascade, then add more layout as space allows.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "That would just be a bad desktop experience. Mobile-first means you write for mobile first in the cascade, then add more layout as space allows.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

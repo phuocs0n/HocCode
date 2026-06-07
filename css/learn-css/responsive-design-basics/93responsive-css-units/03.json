@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/responsive-css-units?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Given the following code snippet:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ":root {\n    font-size: 20px;\n}\n\n.container {\n    font-size: 10px;\n}\n\n.p1 {\n    font-size: 2em;\n}\n\n.p2 {\n    font-size: 3rem;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "What are the pixel values for the font sizes of p1 and p2 elements?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The font sizes of p1 and p2 are 40px and 30px, respectively."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider how em relates to its parent element's font size and how rem is based on the root font size."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider how em relates to its parent element's font size and how rem is based on the root font size."
+    },
+    {
+      "type": "paragraph",
+      "content": "The font sizes of p1 and p2 are both 32px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The root and parent elements have different font sizes, making it unlikely for em and rem units to yield the same pixel values."
+    },
+    {
+      "type": "paragraph",
+      "content": "The root and parent elements have different font sizes, making it unlikely for em and rem units to yield the same pixel values."
+    },
+    {
+      "type": "paragraph",
+      "content": "The font sizes of p1 and p2 are 2em and 3rem, respectively."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The answer must be in pixel values."
+    },
+    {
+      "type": "paragraph",
+      "content": "The answer must be in pixel values."
+    },
+    {
+      "type": "paragraph",
+      "content": "The font sizes of p1 and p2 are 20px and 60px, respectively."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The font size of p1 is 2em (2 x 10px) and p2 is 3rem (3 x 20px)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The font size of p1 is 2em (2 x 10px) and p2 is 3rem (3 x 20px)."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Given the following code snippet:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The font sizes of p1 and p2 are 40px and 30px, respectively.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The font sizes of p1 and p2 are 40px and 30px, respectively.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The font sizes of p1 and p2 are both 32px.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The font sizes of p1 and p2 are both 32px.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The font sizes of p1 and p2 are 2em and 3rem, respectively.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The font sizes of p1 and p2 are 2em and 3rem, respectively.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The font sizes of p1 and p2 are 20px and 60px, respectively.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The font sizes of p1 and p2 are 20px and 60px, respectively.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

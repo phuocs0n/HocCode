@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/example-binary-search-tree?page=1",
+  "title": "Introduction to Search Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Search Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "Search trees are tree data structures used for locating specific keys from within a set. They organize the keys in a manner that allows for efficient navigation."
+    },
+    {
+      "type": "paragraph",
+      "content": "The operations that can be performed in a search tree are:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Search: Finds a key within the tree.",
+        "Insertion: Adds a key to the tree.",
+        "Deletion: Removes a key from the tree."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To perform these operations, the nodes in the tree must be in a certain order. Let's discuss this."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

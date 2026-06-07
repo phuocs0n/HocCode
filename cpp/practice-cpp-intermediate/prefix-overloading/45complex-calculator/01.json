@@ -1,0 +1,143 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/complex-calculator?page=1",
+  "title": "Complex Calculator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Complex Calculator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to overload the +, -, *, and / operators to perform complex calculation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have two complex numbers a + bi and c + di. And suppose the result of the complex arithmetic is x + yi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, the formulae for complex arithmetic will be:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Complex Addition:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "x = a + c\ny = b + d"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Complex Subtraction:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "x = a - c\ny = b - d"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Complex Multiplication:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "x = ac - bd\ny = ad + bc"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Complex Division:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "x = (ac + bd) / (c2 + d2)\ny = (bc - ad) / (c2 + d2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Import the <cmath> header file.",
+        "Create a Complex class with double variables real and imag.",
+        "Initialize these variables using a constructor initializer list.",
+        "Then, overload the +, -, *, and / operators and perform the respective calculations inside."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: Make a temporary object result inside each operator() function to store the results of the calculation. Also, use the this pointer to distinguish the member variables of the calling object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Don't use exception handling when overloading the / operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), create complex1 object and pass 20.0 and 30.0 as arguments to its constructor.",
+        "Create complex2 object and pass 10.0 and 15.0 as constructor arguments.",
+        "Create result object and pass 0.0 and 0.0 as constructor arguments.",
+        "Get character input for op variable.",
+        "Using switch...case, perform the appropriate complex arithmetic based on the value of op.",
+        "If the value of op is invalid i.e. if it isn't '+', '-', '*', or '/' then print the message Invalid Operator! and exit the program using the code exit(0).",
+        "Outside the switch...case, print the result in the format real + imagi."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input+"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output30+45i"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

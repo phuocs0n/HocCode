@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/arrays?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to create an array in C++?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "int numbers[4] = {3, 4, 5, 6};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This creates an integer array named numbers with 4 elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This creates an integer array named numbers with 4 elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "int numbers[4] = [3, 4, 5, 6];"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the curly braces {} for array elements not square brackets."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the curly braces {} for array elements not square brackets."
+    },
+    {
+      "type": "paragraph",
+      "content": "int[4] numbers = {3, 4, 5, 6};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] is placed after the array name."
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] is placed after the array name."
+    },
+    {
+      "type": "paragraph",
+      "content": "int[4] numbers = [3, 4, 5, 6];"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] is placed after the array name and we use curly braces {} for array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] is placed after the array name and we use curly braces {} for array elements."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to create an array in C++?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:int numbers[4] = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "int numbers[4] = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:int numbers[4] = [3, 4, 5, 6];",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "int numbers[4] = [3, 4, 5, 6];",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:int[4] numbers = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "int[4] numbers = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:int[4] numbers = [3, 4, 5, 6];",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "int[4] numbers = [3, 4, 5, 6];",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

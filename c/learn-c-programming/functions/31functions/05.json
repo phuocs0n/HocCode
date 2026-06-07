@@ -1,0 +1,54 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/functions-in-c-programming?page=6",
+  "title": "Gọi một hàm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Gọi một hàm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Xác định một hàm thôi là chưa đủ, chúng ta phải gọi chúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy hiểu điều này có nghĩa là gì bằng cách sử dụng ví dụ sau."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Define a function named sayHello\n4void sayHello() {\n5\n6    // Print the text Hello\n7    printf(\"Hello\");\n8}\n9\n10int main() {\n11\n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu bạn chạy mã này, bạn sẽ không nhận được bất kỳ kết quả nào. Điều này là do bản thân định nghĩa hàm không làm gì cả; chúng ta cần gọi hàm bất cứ khi nào chúng ta cần chức năng của nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ học cách gọi một hàm."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

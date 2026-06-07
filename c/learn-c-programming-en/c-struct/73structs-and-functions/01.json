@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-functions?page=2",
+  "title": "Pass a Struct to a Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pass a Struct to a Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a struct like this:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "struct Student {\n  char name[50];\n  int age;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that a struct is a type in C just like int and double. And, we can also create variables of a struct just like creating regular variables"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// create struct variable\nstruct Student s1;\n\n// create int variable\nint a1;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since struct works like a data type, we can also pass struct variables to a function. For example,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// passing struct to function\nvoid display(struct Student s1) {\n  ...\n}\n\n// passing a regular variable to function\nvoid display(int a1) {\n  ...\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see a working example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

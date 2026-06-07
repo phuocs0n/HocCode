@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/handling-race-conditions?page=1",
+  "title": "What is a Race Condition?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is a Race Condition?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's something that can go wrong with optimistic updates that a lot of beginners miss."
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine the user changes a task status really quickly. They click open, then immediately click done, then immediately click in progress. Three mutations fire almost at the same time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each one is optimistically updating the cache. But the server might respond to them in a different order than they were sent. The cache ends up in a weird state that doesn't match what the user actually wanted."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's a race condition. Multiple things are happening at the same time and stepping on each other."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see how to handle it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

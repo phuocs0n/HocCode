@@ -1,0 +1,38 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/pointer-object?page=3",
+  "title": "Example: C++ Pointer to Object",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: C++ Pointer to Object"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Student {\n5    public:\n6        double marks;\n7};\n8\n9int main() {\n10\n11    Student student1;\n12\n13\n14    // create Student pointer\n15    // assign address of student1 object to it\n16    Student* ptr = &student1;\n17\n18\n19    // set marks of student1 to 66.6\n20    student1.marks = 66.6;\n21\n22\n23    // print marks using pointer\n24    cout << ptr->marks << endl;\n25   \n26\n27    return 0;\n28}\n29\n30// Output: 66.6"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/dijkstras-algorithm?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How does Dijkstra's algorithm ensure that the shortest path to a vertex is found first?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "By using depth-first search (DFS)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "DFS is a graph traversal method that explores as far as possible along a branch before backtracking. It does not inherently prioritize the shortest path."
+    },
+    {
+      "type": "paragraph",
+      "content": "DFS is a graph traversal method that explores as far as possible along a branch before backtracking. It does not inherently prioritize the shortest path."
+    },
+    {
+      "type": "paragraph",
+      "content": "By using a stack."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A stack is a data structure that operates on a last-in-first-out (LIFO) principle, and it does not inherently prioritize the shortest path."
+    },
+    {
+      "type": "paragraph",
+      "content": "A stack is a data structure that operates on a last-in-first-out (LIFO) principle, and it does not inherently prioritize the shortest path."
+    },
+    {
+      "type": "paragraph",
+      "content": "By always selecting the next vertex with the shortest known distance."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "At each step, the algorithm selects the next unvisited vertex with the shortest known distance from the source. This ensures that by the time a vertex is chosen, the shortest path to that vertex has already been found."
+    },
+    {
+      "type": "paragraph",
+      "content": "At each step, the algorithm selects the next unvisited vertex with the shortest known distance from the source. This ensures that by the time a vertex is chosen, the shortest path to that vertex has already been found."
+    },
+    {
+      "type": "paragraph",
+      "content": "By selecting vertices randomly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Random selection wouldn't ensure that the shortest path to a vertex is found first."
+    },
+    {
+      "type": "paragraph",
+      "content": "Random selection wouldn't ensure that the shortest path to a vertex is found first."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How does Dijkstra's algorithm ensure that the shortest path to a vertex is found first?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:By using depth-first search (DFS).",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By using depth-first search (DFS).",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:By using a stack.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "By using a stack.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:By always selecting the next vertex with the shortest known distance.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "By always selecting the next vertex with the shortest known distance.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:By selecting vertices randomly.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "By selecting vertices randomly.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,106 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/setting-up-routes?page=1",
+  "title": "The Problem: One URL, One Page",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: One URL, One Page"
+    },
+    {
+      "type": "paragraph",
+      "content": "Open the Daily Journal App right now."
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1// Click \"Run Code\" to view the full project"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Header({ query, onQueryChange }) {\n4  const searchRef = useRef(null);\n5\n6  useEffect(function () {\n7    searchRef.current.focus();\n8  }, []);\n9\n10  function handleChange(e) {\n11    onQueryChange(e.target.value);\n12  }\n13\n14  function handleClear() {\n15    onQueryChange(\"\");\n16    searchRef.current.focus();\n17  }\n18\n19  return (\n20    <header className=\"header\">\n21      <h2 className=\"title-primary\">My Daily Journal</h2>\n22      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n23      <div className=\"header-search\">\n24        <input\n25          ref={searchRef}\n26          className=\"search-input\"\n27          type=\"text\"\n28          placeholder=\"Search entries...\"\n29          value={query}\n30          onChange={handleChange}\n31        />\n32        {query && (\n33          <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n34        )}\n35      </div>\n36    </header>\n37  );\n38}\n39\n40export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Drawer({ entry, onClose }) {\n4  const drawerRef = useRef(null);\n5\n6  useEffect(function () {\n7    function handleMouseDown(event) {\n8      if (drawerRef.current && !drawerRef.current.contains(event.target)) {\n9        onClose();\n10      }\n11    }\n12\n13    document.addEventListener(\"mousedown\", handleMouseDown);\n14    return function () {\n15      document.removeEventListener(\"mousedown\", handleMouseDown);\n16    };\n17  }, [onClose]);\n18\n19  if (!entry) return null;\n20\n21  return (\n22    <div className=\"drawer-overlay\">\n23      <div className=\"drawer\" ref={drawerRef}>\n24        <button className=\"drawer-close\" onClick={onClose}>×</button>\n25        <h2>{entry.title}</h2>\n26        <p className=\"drawer-meta\">{entry.date} · {entry.author}</p>\n27        <p className=\"drawer-content\">{entry.content}</p>\n28      </div>\n29    </div>\n30  );\n31}\n32\n33export default Drawer;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content, onSelect }) {\n2  return (\n3    <div className=\"entry-card\" onClick={function () { onSelect({ id, title, date, author, content }); }}>\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useEffect } from \"react\";\n2\n3function useFetch(url) {\n4  const [data, setData] = useState(null);\n5  const [isLoading, setIsLoading] = useState(true);\n6  const [error, setError] = useState(null);\n7  const [refetchKey, setRefetchKey] = useState(0);\n8\n9  useEffect(function () {\n10    async function fetchData() {\n11      setIsLoading(true);\n12      setError(null);\n13      try {\n14        const res = await fetch(url);\n15        if (!res.ok) {\n16          throw new Error(\"Could not load data. Status: \" + res.status);\n17        }\n18        const json = await res.json();\n19        setData(json);\n20        setIsLoading(false);\n21      } catch (err) {\n22        setError(err.message);\n23        setIsLoading(false);\n24      }\n25    }\n26    fetchData();\n27  }, [url, refetchKey]);\n28\n29  function refetch() {\n30    setRefetchKey(function (k) { return k + 1; });\n31  }\n32\n33  return { data, isLoading, error, refetch };\n34}\n35\n36export default useFetch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function useSearch(entries) {\n4  const [query, setQuery] = useState(\"\");\n5\n6  const filteredEntries = useMemo(function () {\n7    if (!query.trim()) return entries;\n8    const lower = query.toLowerCase();\n9\n10    return entries.filter(function (entry) {\n11      return (\n12        entry.title.toLowerCase().includes(lower) ||\n13        entry.content.toLowerCase().includes(lower)\n14      );\n15    });\n16  }, [entries, query]);\n17\n18  return { query, setQuery, filteredEntries };\n19}\n20\n21export default useSearch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function usePagination(entries, pageSize) {\n4  const [currentPage, setCurrentPage] = useState(1);\n5\n6  const totalPages = useMemo(function () {\n7    return Math.ceil(entries.length / pageSize);\n8  }, [entries, pageSize]);\n9\n10  const pagedEntries = useMemo(function () {\n11    const start = (currentPage - 1) * pageSize;\n12    return entries.slice(start, start + pageSize);\n13  }, [entries, currentPage, pageSize]);\n14\n15  function handleNext() {\n16    setCurrentPage(function (p) { return Math.min(p + 1, totalPages); });\n17  }\n18\n19  function handlePrev() {\n20    setCurrentPage(function (p) { return Math.max(p - 1, 1); });\n21  }\n22\n23  function reset() {\n24    setCurrentPage(1);\n25  }\n26\n27  return { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset };\n28}\n29\n30export default usePagination;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at the URL in the address bar. It says something like this:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "http://localhost:3000/"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the only URL you'll see throughout the app — whether you're looking at the entry list or a single entry detail, the URL never changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's a problem for real apps:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You can't share a link to the journal page.",
+        "You can't bookmark your current view.",
+        "You can't press the browser's back button and expect to go back to where you were."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "From the browser's perspective, you've never left the one page. We're going to change that."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

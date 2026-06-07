@@ -1,0 +1,71 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/recap-array?page=1",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a summary of what we have learned so far in this chapter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating an Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "An array can only store data of similar types."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        // Create an array\n5        int[] primeNumbers = {2, 3, 5, 7};\n6        \n7        System.out.println(\"Prime Numbers:\");\n8        for(int index = 0; index < primeNumbers.length; ++index) {\n9            System.out.println(primeNumbers[index]);\n10        }\n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, primeNumbers.length returns the size of the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Getting Array Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the Scanner class to take input values for an array."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        Scanner input = new Scanner(System.in);\n7        \n8        // Create an array\n9        int[] primeNumbers = new int[4];\n10        \n11        System.out.println(\"Enter 4 prime numbers:\");\n12        for (int index = 0; index < primeNumbers.length; ++index) {\n13            primeNumbers[index] = input.nextInt();\n14        }\n15        \n16        System.out.println(\"Prime Numbers:\");\n17        for(int index = 0; index < primeNumbers.length; ++index) {\n18            System.out.println(primeNumbers[index]);\n19        }\n20\n21        input.close();\n22    }\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore more on what you learned on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

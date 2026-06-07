@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/flexbox-basics?page=2",
+  "title": "Example: Flexbox",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Flexbox"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can make any element a flexbox by applying display: flex; to it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"box box1\">First Item</div>\n3    <div class=\"box box2\">Second Item</div>\n4    <div class=\"box box3\">Third Item</div>\n5</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.container {\n2    display: flex;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, you won't notice much visual change yet. The real power of flexbox will now become clear as you start using its flex properties."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

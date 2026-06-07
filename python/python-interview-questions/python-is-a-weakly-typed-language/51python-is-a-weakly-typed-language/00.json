@@ -1,0 +1,59 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/python-is-weaklytyped-language?page=1",
+  "title": "Why is Python called a weakly-typed language?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why is Python called a weakly-typed language?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, we don't have to define data types for variables because Python automatically defines the data type and allocates memory for the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "And the same variable can store integer or string, or boolean data. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "a = 5\n\na = 'John'"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, when the value of a is changed to string, Python automatically converts the data type of a to str from int."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the reason Python is called a weakly-typed language."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1a = 5\n2print(a, type(a))\n3\n4a = 'John'\n5print(a, type(a))\n6\n7# Output:\n8# ------------\n9# 5 <class 'int'>\n10# John <class 'str'>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

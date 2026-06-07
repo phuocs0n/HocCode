@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-function?page=1",
+  "title": "Tóm tắt (tôi)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tóm tắt (tôi)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Chức năng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm là một khối mã được ghép lại với nhau để thực hiện một tác vụ cụ thể."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function to print hello\n4void sayHello() {\n5\n6  printf(\"hello\\n\");\n7}\n8\n9int main() {\n10\n11  return 0;\n12}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Gọi hàm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Xác định một chức năng sẽ không làm gì cả. Chúng ta cần gọi hàm để đưa nó vào hoạt động."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function to print hello\n4void sayHello() {\n5\n6  printf(\"hello\\n\");\n7}\n8\n9int main() {\n10\n11  // Function call\n12  sayHello();\n13\n14  return 0;\n15}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

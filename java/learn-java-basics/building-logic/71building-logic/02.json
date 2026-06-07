@@ -1,0 +1,90 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/building-logic?page=2",
+  "title": "Step 1: Check Prime Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Check Prime Number"
+    },
+    {
+      "type": "paragraph",
+      "content": "A prime number is only divisible by 1 and that number itself. For example, 17 is a prime number because it's only divisible by 1 and 17."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4\n5    public static void main(String[] args) {\n6\n7        Scanner input = new Scanner(System.in);\n8\n9        // Take input from the user\n10        System.out.println(\"Enter a number: \");\n11        int number = input.nextInt();\n12\n13        boolean isPrime = true;\n14\n15        // Iterate loop from 2 to number -1\n16        for (int i = 2; i < number; i++) {\n17\n18            if (number % i == 0) {\n19                isPrime = false;\n20                break;\n21            }\n22        }\n23\n24        if (isPrime) {\n25            System.out.println(number + \" is Prime\");\n26        }\n27\n28        else {\n29            System.out.println(number + \" is not Prime\");\n30        }\n31  \n32        input.close();\n33    }\n34}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: \n83\n83 is Prime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this program works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The initial value of isPrime is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "To check whether a number is prime or not, we have iterated a loop from i equal to 2 to number - 1."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (int i = 2; i <= number - 1; i++) {\n    ...\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In each iteration of the loop, we have checked if the number is divisible by i. If it's divisible by i, we know it's not a prime number."
+    },
+    {
+      "type": "paragraph",
+      "content": "In that case, we have changed isPrime to false and terminated the loop using the break statement."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (int i = 2; i <= number - 1; i++) {\n    if (number % i == 0) {\n        isPrime = false;\n        break;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, if isPrime is true, we know that number is not divisible by any number from 2 to number -1. This means, number is prime."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

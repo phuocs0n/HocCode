@@ -1,0 +1,64 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/advanced-interactivity?page=4",
+  "title": "Dark Mode with a Class Toggle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Dark Mode with a Class Toggle"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dark mode is just a theme."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of changing styles one-by-one in JavaScript, you flip the page into a different state using a single class."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Light theme is the default.",
+        "Dark theme is the same page, but with one extra class on the body."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why this feels so clean."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript only does one job: It toggles a class."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS does the real work: It defines what the dark theme looks like when that class exists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll see a runnable example where a button toggles a dark class on the page, and the colors change instantly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

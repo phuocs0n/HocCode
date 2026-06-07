@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-variables?page=1",
+  "title": "Track progress",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Track progress"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the quiz, we need to track two things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "how many questions the player got right (score)",
+        "how many questions there are in total (total)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We declare them, set their values, and use them when we show the result:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var score = 3;\n2var total = 5;\n3\n4console.log(\"Your score is \" + score + \"/\" + total);"
+    },
+    {
+      "type": "paragraph",
+      "content": "We're not using a loop or a list of questions yet - we're just storing two numbers and printing them. Later the game will fill the score and total based on real answers."
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, notice the pattern: progress in a game is usually just numbers stored in variables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

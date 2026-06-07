@@ -1,0 +1,94 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/revision-c-inheritance?page=1",
+  "title": "Revise Inheritance",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revise Inheritance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's revise what we have learned in this chapter."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. C++ Inheritance"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the : operator to inherit one class from another. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Person {\n    public:\n        void display() {\n            cout << \"I am a person\" << endl;\n        }\n};\n\nclass Student: public Person {};"
+    },
+    {
+      "type": "paragraph",
+      "content": "During inheritance, the child class inherits all the member variables and functions of the parent class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4class Person {\n5    public:\n6        void display() {\n7            cout << \"I am a person\" << endl;\n8        }\n9};\n10\n11class Student : public Person {};\n12\n13int main() {\n14    \n15    Student student1;\n16    student1.display();\n17    \n18    return 0;\n19}\n20\n21// Output: I am a person"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Function Overriding"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the same function is present in both the parent class and the child class, the function in the child class overrides the same function in the parent class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4class Person {\n5    public:\n6        void display() {\n7            cout << \"I am a person\" << endl;\n8        }\n9};\n10\n11class Student : public Person {\n12    public:\n13        void display() {\n14            cout << \"I am a student\" << endl;\n15        }\n16};\n17\n18int main() {\n19    \n20    Student student1;\n21    student1.display();\n22    \n23    return 0;\n24}\n25\n26// Output: I am a student"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. The :: Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use the :: operator to access the overridden function of the parent class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4class Person {\n5    public:\n6        void display() {\n7            cout << \"I am a person\" << endl;\n8        }\n9};\n10\n11class Student : public Person {\n12    public:\n13        void display() {\n14            cout << \"I am a student\" << endl;\n15            \n16            // access overridden function from inside the function\n17            Person::display();\n18        }\n19};\n20\n21int main() {\n22    \n23    Student student1;\n24    student1.display();\n25    \n26    // access overridden function using object\n27    student1.Person::display();\n28    \n29    return 0;\n30}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am a student\nI am a person\nI am a person"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

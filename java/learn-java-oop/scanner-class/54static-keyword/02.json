@@ -1,0 +1,152 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-oop/static-keyword?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to access the age variable?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Test {\n    static int age;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "obj.age = 31;"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(obj.age);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we don't have to use an object to modify and access it."
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we don't have to use an object to modify and access it."
+    },
+    {
+      "type": "paragraph",
+      "content": "obj.age = 31;"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(age);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we can directly assign value to it without using an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we can directly assign value to it without using an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "age = 31;"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(age);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we can both modify its value and access it without using an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we can both modify its value and access it without using an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "age = 31;"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(obj.age);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we don't have to use an object to access it."
+    },
+    {
+      "type": "paragraph",
+      "content": "age is a static variable, so we don't have to use an object to access it."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to access the age variable?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:obj.age = 31;System.out.println(obj.age);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "obj.age = 31;System.out.println(obj.age);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:obj.age = 31;System.out.println(age);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "obj.age = 31;System.out.println(age);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:age = 31;System.out.println(age);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "age = 31;System.out.println(age);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:age = 31;System.out.println(obj.age);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "age = 31;System.out.println(obj.age);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

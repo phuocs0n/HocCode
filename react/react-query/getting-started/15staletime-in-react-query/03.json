@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/staletime-in-react-query?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does staleTime: 0 mean?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Data is cached forever and never refetches"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "staleTime: 0 is the opposite — data goes stale immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "staleTime: 0 is the opposite — data goes stale immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "Queries are disabled and won't run"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "staleTime has nothing to do with disabling queries. Use enabled: false for that."
+    },
+    {
+      "type": "paragraph",
+      "content": "staleTime has nothing to do with disabling queries. Use enabled: false for that."
+    },
+    {
+      "type": "paragraph",
+      "content": "Data goes stale instantly and React Query refetches aggressively"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. With staleTime: 0 data is considered stale the moment it arrives so React Query refetches whenever it gets a chance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. With staleTime: 0 data is considered stale the moment it arrives so React Query refetches whenever it gets a chance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Data never refetches after the first load"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "staleTime: 0 actually causes more refetching not less."
+    },
+    {
+      "type": "paragraph",
+      "content": "staleTime: 0 actually causes more refetching not less."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does staleTime: 0 mean?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Data is cached forever and never refetches",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Data is cached forever and never refetches",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Queries are disabled and won't run",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Queries are disabled and won't run",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Data goes stale instantly and React Query refetches aggressively",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Data goes stale instantly and React Query refetches aggressively",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Data never refetches after the first load",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Data never refetches after the first load",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

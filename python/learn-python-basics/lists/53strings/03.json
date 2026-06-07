@@ -1,0 +1,54 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/strings?page=3",
+  "title": "Concatenate (Join) Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Concatenate (Join) Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can concatenate two strings using the + operator."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1first_name = \"Jack\"\n2last_name = \"Sparrow\"\n3\n4name = first_name + \" \" + last_name\n5print(name)   # Jack Sparrow"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above program, we used the + operator to concatenate three strings:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the value of first_name (which is \"Jack\")",
+        "a string containing a single space \" \" (serves as a separator between first_name and last_name)",
+        "the value of last_name (which is \"Sparrow\")"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

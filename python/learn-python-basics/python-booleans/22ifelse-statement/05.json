@@ -1,0 +1,135 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-python-basics/ifelse-statement?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a valid way to write an if statement.?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "age = 16\n\nif age < 18\n    print(\"You are less than 18 years old\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing a colon : after the boolean expression."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing a colon : after the boolean expression."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "age = 16\n\nif age < 18:\n    print(\"You are less than 18 years old\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement is valid because it has the proper colon : after the condition. The indented print() statement correctly belongs to the if block and will execute when the condition is True."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement is valid because it has the proper colon : after the condition. The indented print() statement correctly belongs to the if block and will execute when the condition is True."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "age = 16\n\nif:\n    print(\"You are less than 18 years old\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing a boolean expression after if."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing a boolean expression after if."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "age = 16\n\nif age < 18:\nprint(\"You are less than 18 years old\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing proper indentation after the colon :. The indentation indicates which statements are part of the if block."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing proper indentation after the colon :. The indentation indicates which statements are part of the if block."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a valid way to write an if statement.?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:age = 16\n\nif age < 18\n    print(\"You are less than 18 years old\")",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "age = 16\n\nif age < 18\n    print(\"You are less than 18 years old\")",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:age = 16\n\nif age < 18:\n    print(\"You are less than 18 years old\")",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "age = 16\n\nif age < 18:\n    print(\"You are less than 18 years old\")",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:age = 16\n\nif:\n    print(\"You are less than 18 years old\")",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "age = 16\n\nif:\n    print(\"You are less than 18 years old\")",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:age = 16\n\nif age < 18:\nprint(\"You are less than 18 years old\")",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "age = 16\n\nif age < 18:\nprint(\"You are less than 18 years old\")",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

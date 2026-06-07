@@ -1,0 +1,80 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/finding-nemo?page=1",
+  "title": "Finding nemo",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding nemo"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find nemo."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Import java.util.ArrayList;, java.util.Collections; and java.util.Scanner;.",
+        "Create a new String ArrayList called fish.",
+        "Take three string inputs from the user and store them in input1, input2, input3.",
+        "Add  input1, input2, input3 to fish using add().",
+        "Using the binarySearch() method of Collections, search element nemo in the fish arraylist.",
+        "Store returned integer in pos.",
+        "Check if nemo is present in fish arraylist. ( Hint: Check if the value of pos is greater or equal to 0.)",
+        "If so print pos.",
+        "Else print Not Found."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: We will assume that the user will always enter the input in alphabetical order."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputdory\ngill\nnemo"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output2"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,92 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/gameplay-analysis?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a table named Games with the columns player_id, device_id, event_date and games_played."
+    },
+    {
+      "type": "paragraph",
+      "content": "We now need to write an SQL query to retrieve the fraction of players that logged in again on the day after they first logged in, rounded to 2 decimal places."
+    },
+    {
+      "type": "paragraph",
+      "content": "This problem has a simple 3-step solution:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1 - Determine the first login date for each player"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first step is to identify the first login date for each player. This can be achieved using the MIN() function and the GROUP BY clause."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2 - Find the consecutive logins"
+    },
+    {
+      "type": "paragraph",
+      "content": "We now need to identify the players who had consecutive logins, i.e., players who logged in on the day after their previous login."
+    },
+    {
+      "type": "paragraph",
+      "content": "To do this, we can use the LEAD() function and a subquery to get the next login date and compare it with the current one."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 3 - Calculate the Login Fraction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we can calculate the login fraction by dividing the number of distinct player IDs with consecutive logins by the total number of distinct player IDs."
+    },
+    {
+      "type": "paragraph",
+      "content": "We also use the ROUND() function to round the result to 2 decimal places."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the player with player_id 1 is the only one who logged back in after the first day he had logged in, the answer is 1/3 = 0.33."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "login_fraction"
+        ],
+        [
+          "0.33"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

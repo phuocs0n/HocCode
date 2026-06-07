@@ -1,0 +1,48 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/links?page=2",
+  "title": "Important Note about CSS Order",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Important Note about CSS Order"
+    },
+    {
+      "type": "paragraph",
+      "content": "The order of CSS rules for link states matters. If you place :visited last, it will override any :hover or :active styles you set for links that have been visited, meaning :hover and :active effects won't show up on links you've clicked on before."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's an easy rule to follow:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Always write your CSS rules in this order for links: :link, :visited, :hover, :active.",
+        "This way, :hover and :active will work correctly for all links—even after they've been clicked on."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

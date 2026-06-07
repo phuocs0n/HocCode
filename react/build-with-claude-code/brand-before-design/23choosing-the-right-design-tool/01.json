@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/choosing-right-design-tool?page=2",
+  "title": "Working Within Framer's Free Plan",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Rapid Build With Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working Within Framer's Free Plan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Framer's free plan limits you to 2 published pages. For SpeedBlip, I needed designs for: a landing page, a dashboard page, a history page, and a settings page."
+    },
+    {
+      "type": "paragraph",
+      "content": "The workaround: I put everything on one Framer project as stacked sections, not separate pages. The landing page was one section, the dashboard was another, and so on. In Framer, I could scroll through all the designs in one view, and I used them purely as a visual reference - not as a handoff file."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is worth noting because it illustrates a mindset that matters for rapid building: you are not trying to produce a perfect design artifact. You are producing enough visual clarity to write a good Claude Code prompt. The wireframe's job is done the moment you have answered \"what does this screen look like and how does it behave?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Below is the prompt used to generate the initial layout reference."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "\"Design a modern light-theme web app called PingPulse — a real-time internet speed monitor for developers. Use soft white (#F8FAFC) as the background, green (#22C55E) as the primary accent color, and Inter as the font. All cards should use a glassmorphism style — semi-transparent white backgrounds, backdrop blur, subtle white borders, and soft shadows. The design has two pages. Page 1 is the landing page with: a hero section featuring a bold headline 'Know your speed. \nBefore it slows you down.', a subheadline, a green CTA button, and a preview of the speed gauge UI; a 3-step how it works section; a features section with 3 icon cards; a FAQ section; and a footer. Page 2 is the app page with three full-height sections using a sticky top navigation with anchor links: first section is the Dashboard with a circular animated speed gauge, three glassmorphism stat cards showing download speed, upload speed, and ping, and a small line chart; second section is History with a full-width line chart and date filter; third section is Settings with a bandwidth threshold input, test interval dropdown, and a push notification toggle. Make everything responsive across mobile, tablet, and desktop. Keep the design spacious, minimal, and premium.\""
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

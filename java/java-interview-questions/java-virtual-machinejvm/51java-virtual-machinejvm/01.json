@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/java-virtual-machinejvm?page=1",
+  "title": "What is JVM?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is JVM?"
+    },
+    {
+      "type": "paragraph",
+      "content": "JVM (Java Virtual Machine) is a virtual machine that enables your computer to run a Java program."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you write a Java program, the code is first converted into a special format called bytecode by the Java compiler."
+    },
+    {
+      "type": "paragraph",
+      "content": "The JVM then interprets this bytecode and converts it into machine-specific code that your computer can understand and execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can write Java code once and run it on any device or platform that has a JVM installed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

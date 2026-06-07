@@ -1,0 +1,66 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/what-makes-custom-hook?page=3",
+  "title": "Example: A Simple Custom Hook",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: A Simple Custom Hook"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a hook that tracks the browser window's width:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useState, useEffect } from \"react\";\n\n// Custom hook\nfunction useWindowWidth() {\n  const [width, setWidth] = useState(window.innerWidth);\n\n  useEffect(function () {\n    function handleResize() {\n      setWidth(window.innerWidth);\n    }\n\n    window.addEventListener(\"resize\", handleResize);\n\n    return function () {\n      window.removeEventListener(\"resize\", handleResize);\n    };\n  }, []);\n\n  return width;\n}\n\nexport default useWindowWidth;"
+    },
+    {
+      "type": "paragraph",
+      "content": "A component that calls it gets the current width in a single line:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const width = useWindowWidth();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice These Important Points:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The state and effect live in the hook.",
+        "The component calls one line and gets a value."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we build our own custom hooks, there are two rules every custom hook must follow."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

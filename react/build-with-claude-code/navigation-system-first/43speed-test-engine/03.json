@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/speed-test-engine?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens if SpeedBlip ran speed tests on the main JavaScript thread instead of a Web Worker?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The speed test results would be less accurate because the main thread is slower"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Thread choice does not affect measurement accuracy. The Cloudflare API response times are what matter for accuracy. The issue with main thread execution is UI blocking, not measurement quality."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thread choice does not affect measurement accuracy. The Cloudflare API response times are what matter for accuracy. The issue with main thread execution is UI blocking, not measurement quality."
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeScript would prevent HTTP requests from running on the main thread in strict mode"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeScript has no restriction on HTTP requests from the main thread. Fetch works anywhere. The Web Worker is an architectural choice for UI responsiveness."
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeScript has no restriction on HTTP requests from the main thread. Fetch works anywhere. The Web Worker is an architectural choice for UI responsiveness."
+    },
+    {
+      "type": "paragraph",
+      "content": "The UI would freeze or stutter during each speed test because the main thread handles both code execution and DOM rendering"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. JavaScript's main thread handles UI rendering, event handling, and code execution. A blocking HTTP request for a speed test would prevent any UI updates until it completes - causing visible freezing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. JavaScript's main thread handles UI rendering, event handling, and code execution. A blocking HTTP request for a speed test would prevent any UI updates until it completes - causing visible freezing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify would block the speed test requests as a cross-origin security measure"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify has no control over which thread a browser executes JavaScript on. Cross-origin restrictions relate to the destination server, not the execution thread."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify has no control over which thread a browser executes JavaScript on. Cross-origin restrictions relate to the destination server, not the execution thread."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens if SpeedBlip ran speed tests on the main JavaScript thread instead of a Web Worker?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The speed test results would be less accurate because the main thread is slower",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The speed test results would be less accurate because the main thread is slower",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:TypeScript would prevent HTTP requests from running on the main thread in strict mode",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "TypeScript would prevent HTTP requests from running on the main thread in strict mode",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The UI would freeze or stutter during each speed test because the main thread handles both code execution and DOM rendering",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The UI would freeze or stutter during each speed test because the main thread handles both code execution and DOM rendering",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Netlify would block the speed test requests as a cross-origin security measure",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Netlify would block the speed test requests as a cross-origin security measure",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

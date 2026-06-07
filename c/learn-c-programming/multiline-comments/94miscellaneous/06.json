@@ -1,0 +1,140 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-c-programming/miscellaneous?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n  int n = 10;\n  if (n == 10 && 100) {\n    printf(\"Hello\");\n  }\n\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "(Không có đầu ra)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, n == 0 && 100 đánh giá là đúng vì cả n == 10 và 100 đều đánh giá là đúng. Do đó, phần thân của câu lệnh if được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, n == 0 && 100 đánh giá là đúng vì cả n == 10 và 100 đều đánh giá là đúng. Do đó, phần thân của câu lệnh if được thực thi."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Mã lỗi)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chương trình này hợp lệ và sẽ không gây ra bất kỳ lỗi nào."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chương trình này hợp lệ và sẽ không gây ra bất kỳ lỗi nào."
+    },
+    {
+      "type": "paragraph",
+      "content": "Xin chào"
+    },
+    {
+      "type": "paragraph",
+      "content": "Xin chào"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta chỉ in Hello một lần nếu điều kiện kiểm tra là đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta chỉ in Hello một lần nếu điều kiện kiểm tra là đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Xin chào"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, n == 10 && 100 đánh giá là đúng vì cả n == 10 và 100 đều đánh giá là đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, n == 10 && 100 đánh giá là đúng vì cả n == 10 và 100 đều đánh giá là đúng."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Trắc nghiệm: Kết quả của đoạn mã sau sẽ là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:(Không có đầu ra)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "(Không có đầu ra)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Mã lỗi)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Mã lỗi)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Xin chàoXin chào",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Xin chàoXin chào",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Xin chào",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Xin chào",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

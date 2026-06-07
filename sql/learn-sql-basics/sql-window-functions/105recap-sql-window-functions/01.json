@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-8?page=2",
+  "title": "Questions to Answer",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Questions to Answer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your manager asks you:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "How can we rank sales representatives based on their total sales performance?",
+        "How can we calculate a running total of sales for each representative?",
+        "How do we get the first and last sales amounts for each representative within a specific period?",
+        "Can we calculate the moving average of sales over a set of transactions?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To answer these questions, you'll need to utilize SQL window functions, which allow you to perform calculations across a set of rows related to the current row."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with the solution to the first question."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

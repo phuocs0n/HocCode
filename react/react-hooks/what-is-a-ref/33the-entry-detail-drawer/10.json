@@ -1,0 +1,61 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=11",
+  "title": "The Click That Wouldn't Stop Firing",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Click That Wouldn't Stop Firing"
+    },
+    {
+      "type": "paragraph",
+      "content": "I once built a modal that closed on outside-click. It seemed to work — until I opened it a few times."
+    },
+    {
+      "type": "paragraph",
+      "content": "With each open/close cycle, the drawer became harder and harder to close."
+    },
+    {
+      "type": "paragraph",
+      "content": "Eventually, clicking anywhere — even inside the drawer — closed it instantly."
+    },
+    {
+      "type": "paragraph",
+      "content": "I opened the DevTools event listener panel: there were 14 mousedown listeners attached to the document 😮"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each time the drawer opened, useEffect() added a new listener. Each close removed none."
+    },
+    {
+      "type": "paragraph",
+      "content": "After four open/close cycles, four listeners were running simultaneously. Each one fired on every click, and one of them always decided the click was \"outside\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix was three lines of code. Let me explain what they are next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

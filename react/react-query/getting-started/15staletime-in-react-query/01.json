@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/staletime-in-react-query?page=2",
+  "title": "Putting It All Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Putting It All Together"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before updating the component, let's create a home for all your fetch functions. Open src/api.js and add this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const BASE = 'https://dummyjson.com/todos'\n \nexport function fetchTasks({ status } = {}) {\n  return fetch(`${BASE}?limit=10`)\n    .then(r => r.json())\n    .then(d => d.todos.map((t, i) => ({\n      id: t.id, title: t.todo,\n      status: t.completed ? 'done' : (i % 3 === 1 ? 'inProgress' : 'open')\n    })))\n    .then(tasks => status ? tasks.filter(t => t.status === status) : tasks)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "fetchTasks takes an optional status. If one is passed it filters the results. Keeping fetch functions in one file makes things a lot easier to manage as the app grows."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's wire this into TaskList.jsx."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

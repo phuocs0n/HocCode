@@ -1,0 +1,81 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/state-ui?page=3",
+  "title": "A Simple Counter",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Simple Counter"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before building a full slider, let's start small."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we keep track of a number. Every time you click the button, the number increases. That number is the state."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>State Example</title>\n6</head>\n7<body>\n8\n9  <p>Count: <span id=\"count\">0</span></p>\n10  <button id=\"increase\">Increase</button>\n11\n12  <script src=\"script.js\"></script>\n13</body>\n14</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6button {\n7  padding: 8px 12px;\n8  cursor: pointer;\n9}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var count = 0;\n2\n3var display = document.querySelector('#count');\n4var button = document.querySelector('#increase');\n5\n6if (button && display) {\n7  button.addEventListener('click', function () {\n8    count += 1;\n9    display.textContent = count;\n10  });\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Each click increases the number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice what is happening:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The variable count  stores the state",
+        "The page only shows whatever count is",
+        "We update the variable first.",
+        "Then we update the DOM"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable leads. The page follows."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see how state controls which section is visible."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

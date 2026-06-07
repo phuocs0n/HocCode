@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/callback-queue-event-loop?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the callback queue mainly used for?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To store variables"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables live in memory and scope, not in queues. The callback queue is unrelated to variable storage."
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables live in memory and scope, not in queues. The callback queue is unrelated to variable storage."
+    },
+    {
+      "type": "paragraph",
+      "content": "To execute functions immediately"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the call stack executes code. The callback queue never runs functions directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the call stack executes code. The callback queue never runs functions directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "To hold asynchronous callbacks waiting for the call stack to be empty."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Asynchronous callbacks wait here until JavaScript finishes the current work and the call stack becomes free."
+    },
+    {
+      "type": "paragraph",
+      "content": "Asynchronous callbacks wait here until JavaScript finishes the current work and the call stack becomes free."
+    },
+    {
+      "type": "paragraph",
+      "content": "To replace the callstack"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The call stack is always required. The callback queue works alongside it, not instead of it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The call stack is always required. The callback queue works alongside it, not instead of it."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the callback queue mainly used for?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To store variables",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To store variables",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To execute functions immediately",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To execute functions immediately",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To hold asynchronous callbacks waiting for the call stack to be empty.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To hold asynchronous callbacks waiting for the call stack to be empty.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To replace the callstack",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To replace the callstack",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,51 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/static-keyword?page=2",
+  "title": "Example: static Keyword",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: static Keyword"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Animal {\n2\n3    // method \n4    static void display() {\n5        System.out.println(\"I am an animal.\");\n6    }\n7    \n8    // main method\n9     public static void main(String[] args) {\n10         \n11         // access the method of Animal class\n12         display();\n13    }\n14}\n15\n16// Output: I am an animal."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you can see that we are able to directly access the method display() without using the object of the class. It's possible because we have created the method as static."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we can access the static fields of the class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Animal {\n2    \n3    static String type = \"Mammal\";\n4    \n5    // main method\n6     public static void main(String[] args) {\n7         \n8         // access the method of Animal class\n9         System.out.println(\"Animal Type: \" + type);\n10    }\n11}\n12\n13// Output: Animal Type: Mammal"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,76 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/take-input?page=3",
+  "title": "Hàm scanf()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hàm scanf()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem lại chương trình trước đó chúng tôi đã viết:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Create a variable\n6    int age;\n7\n8    // Store user input in the variable\n9    scanf(\"%d\", &age);\n10\n11    // Print the variable\n12    printf(\"Age is %d\", age);\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đã sử dụng câu lệnh scanf(\"%d\", &age); để lấy đầu vào cho biến tuổi. Lưu ý rằng chúng ta đã sử dụng &age thay vì age."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, giả sử chúng ta gõ 25 và nhấn phím Enter. Giá trị 25 sẽ được gán cho biến tuổi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu ra của chương trình này sẽ thay đổi dựa trên giá trị đầu vào."
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu ra mẫu 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "25\nAge is 25"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu ra mẫu 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "31\nAge is 31"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ tìm hiểu cách hoạt động của scanf()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

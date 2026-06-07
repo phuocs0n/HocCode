@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/hashset?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.util.HashSet;\n\nclass Main {\n    public static void main(String[] args) {\n        \n        HashSet<String> item = new HashSet<>();\n\n        item.add(\"Eva\");\n        item.add(\"Eva\");\n        item.add(\"Eva\");\n\n        System.out.println(item);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "[Eva, Eva, Eva]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "[]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements. However, it does store elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements. However, it does store elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "[Eva]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements, so the element will be stored only once."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements, so the element will be stored only once."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements. However, it does store elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements. However, it does store elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements, so the element will be stored only once."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashSet doesn't store duplicate elements, so the element will be stored only once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:[Eva, Eva, Eva]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "[Eva, Eva, Eva]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:[]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "[]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:[Eva]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "[Eva]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

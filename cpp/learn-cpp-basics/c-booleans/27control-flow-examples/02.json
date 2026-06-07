@@ -1,0 +1,73 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/control-flow-examples?page=3",
+  "title": "Print Multiplication Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Multiplication Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will create a multiplication table of a number (let's say 9) up to 5. Here's the output we are looking for."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "9 * 1 = 9\n9 * 2 = 18\n9 * 3 = 27\n9 * 4 = 36\n9 * 5 = 45"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this program, we need to iterate a loop five times from 1 to 5. And, in each iteration of the loop, we will compute the product."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number = 9;\n7    int product;\n8\n9    // iterate loop from 1 to 5\n10    for (int i = 1; i <= 5; ++i) {\n11\n12        // compute product in each iteration\n13        // product will be 9 * 1 in first iteration\n14        // 9 * 2 in second iteration and so on\n15        product = number * i;\n16\n17        cout << product << endl;\n18    }\n19\n20    return 0;\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "9\n18\n27\n36\n45"
+    },
+    {
+      "type": "paragraph",
+      "content": "The output we got is close to the desired output but not the same. Let's fix it."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number = 9;\n7    int product;\n8\n9    // iterate a loop from 1 to 5\n10    for (int i = 1; i <= 5; ++i) {\n11\n12        // compute the product in each iteration of the loop\n13        product = number * i;\n14        cout << number << \" * \" << i;\n15        cout << \" = \" << product << endl;\n16    }\n17\n18    return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we will get the desired output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

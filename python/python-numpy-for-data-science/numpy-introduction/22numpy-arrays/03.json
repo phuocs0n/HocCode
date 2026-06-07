@@ -1,0 +1,191 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-arrays?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct syntax for creating a NumPy array from a Python list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.array()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can create a NumPy array by passing the list variable to the np.array() method.However, this is not a dedicated syntax to create a NumPy array."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can create a NumPy array by passing the list variable to the np.array() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, this is not a dedicated syntax to create a NumPy array."
+    },
+    {
+      "type": "paragraph",
+      "content": "np.array([])"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The list elements go inside []."
+    },
+    {
+      "type": "paragraph",
+      "content": "The list elements go inside []."
+    },
+    {
+      "type": "paragraph",
+      "content": "np.create_array()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    },
+    {
+      "type": "paragraph",
+      "content": "np.create_array([])"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can create a NumPy array by passing the list variable to the np.array() method.However, this is not a dedicated syntax to create a NumPy array."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can create a NumPy array by passing the list variable to the np.array() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, this is not a dedicated syntax to create a NumPy array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The list elements go inside []."
+    },
+    {
+      "type": "paragraph",
+      "content": "The list elements go inside []."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such function called create_array() in NumPy."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct syntax for creating a NumPy array from a Python list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:np.array()",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "np.array()",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:np.array([])",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "np.array([])",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:np.create_array()",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "np.create_array()",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:np.create_array([])",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "np.create_array([])",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

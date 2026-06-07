@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-take-input?page=3",
+  "title": "Importing Scanner Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Importing Scanner Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "To take a user input, you must first import the Scanner class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.util.Scanner;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        System.out.println(\"Enter your age: \");\n7    }\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your age:"
+    },
+    {
+      "type": "paragraph",
+      "content": "As of now, the Scanner class contributes nothing to our code. This is because to use the properties within the class, we need to create an object first."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

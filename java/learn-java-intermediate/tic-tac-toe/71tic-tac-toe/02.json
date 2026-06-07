@@ -1,0 +1,80 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/tic-tac-toe?page=2",
+  "title": "Step 1: Creating the Board Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Creating the Board Class"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2\n3class Board {\n4\n5    // create an ArrayList \n6    ArrayList<String> board = new ArrayList<>();\n7\n8    // add elements to the board ArrayList\n9    void addElements() {\n10        board.add(\" \");\n11        board.add(\" \");\n12        board.add(\" \");\n13        board.add(\" \");\n14        board.add(\" \");\n15        board.add(\" \");\n16        board.add(\" \");\n17        board.add(\" \");\n18        board.add(\" \");\n19    }\n20\n21    // print elements of the board  \n22    void printBoard() {\n23\n24        System.out.println(\" \" + board.get(0) + \" | \" + board.get(1) + \" | \" + board.get(2));\n25        System.out.println(\"-----------\");\n26        System.out.println(\" \" + board.get(3) + \" | \" + board.get(4) + \" | \" + board.get(5));\n27        System.out.println(\"-----------\");\n28        System.out.println(\" \" + board.get(6) + \" | \" + board.get(7) + \" | \" + board.get(8));\n29\n30    }\n31}\n32\n33class Main {\n34    public static void main(String[] args) {\n35\n36        // create object of Board class \n37        Board b1 = new Board();\n38\n39        // call addElements method\n40        b1.addElements();\n41\n42        // call printBoard method\n43        b1.printBoard();\n44    }\n45}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "|   |  \n-----------\n   |   |  \n-----------\n   |   |"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, in the Board class, we have created a board to play tic-tac-toe."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have an arraylist board which can hold String data."
+    },
+    {
+      "type": "paragraph",
+      "content": "The addElements() method adds nine elements to the ArrayList."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "board.add(\" \");"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have used the add() method to add elements in the ArrayList. Initially, the value of each element is a space. We will update these elements with either X or O symbols once the players start choosing the position."
+    },
+    {
+      "type": "paragraph",
+      "content": "And, the printBoard() method prints the board in a visually intuitive manner."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have created an object of the Board class inside the Main class. Then, we have called the addElements() method to add elements in the ArrayList. Then, we have called the printBoard() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will add other methods to the Board class later. Next, we will create the Player class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/complex-number-calculator?page=6",
+  "title": "Step 3: Adding Functionality to display_result()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Adding Functionality to display_result()"
+    },
+    {
+      "type": "paragraph",
+      "content": "The display_result() method prints the result based on two things: the imaginary value of the result and the operation performed."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Parameters - A Complex object result and a char parameter op",
+        "Return Value - string in the format of real + imag i or result - imag i"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's complete this function inside the Complex class:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Complex {\npublic:\n\n    double real;\n    double imag;\n    \n    Complex() : real(0.0), imag(0.0) {}\n    \n    Complex(double real, double imag) {\n        this->real = real;\n        this->imag = imag;\n    }\n    \n    Complex operator + (Complex arg) {    \n        Complex complex_sum;\n        complex_sum.real = this->real + arg.real;\n        complex_sum.imag = this->imag + arg.imag;\n        return complex_sum;\n    }\n    \n    Complex operator - (Complex arg) {        \n        Complex complex_difference;\n        complex_difference.real = this->real - arg.real;\n        complex_difference.imag = this->imag - arg.imag;        \n        return complex_difference;\n    }\n    \n    Complex operator * (Complex arg) {        \n        Complex complex_product;\n        complex_product.real = (this->real * arg.real) - (this->imag * arg.imag);\n        complex_product.imag = (this->real * arg.imag) + (this->imag * arg.real);        \n        return complex_product;\n    }\n    \n    Complex operator / (Complex arg) {        \n        Complex complex_division;        \n        double denominator = pow(arg.real, 2) + pow(arg.imag, 2);\n        complex_division.real = ((this->real * arg.real) + (this->imag * arg.imag)) / denominator;\n        complex_division.imag = ((this->imag * arg.real) - (this->real * arg.imag)) / denominator;               \n        return complex_division;\n    }\n\n\n    // method to return the result\n    string get_result() {\n\n        // variable to store the result\n        string result;\n\n        // only return real if imaginary part is 0\n        if (imag == 0) {\n            result = to_string(real);\n        }\n\n\n        // return string \"real - imagi\" if imag is negative\n        else if (imag < 0) {\n            result = to_string(real) + \" - \" + to_string(abs(imag)) + \"i\";\n        }\n\n        // return string \"real + imagi\" if imag is positive\n        else {\n            result = to_string(real) + \" + \" + to_string(imag) + \"i\";\n        }\n        \n        return result;\n    }\n\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since display_result() returns a string, we have used the to_string() function to convert real and imag to string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have also used the abs() function to return the absolute value of imag when its value is negative. As a result, the - sign won't be repeated twice in the result."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

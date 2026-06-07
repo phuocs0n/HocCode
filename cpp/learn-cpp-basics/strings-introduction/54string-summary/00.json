@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/string-summary?page=1",
+  "title": "Summary (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now quickly revise what we have learned so far in this chapter:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, the syntax to create a string is similar to that of a variable."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "string text = \"Programiz\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Print a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the cout object to print a string."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    string text = \"Programiz\";\n7\n8    cout << text;    // Programiz\n9  \n10    return 0;\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Change a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can change the character of a string by assigning a new character at that position."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    string text = \"Car\";\n7\n8    // change value at position 2 to 't'\n9    text[2] = 't';\n10\n11    cout << text;    // Cat\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

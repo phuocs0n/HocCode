@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/building-pagination?page=4",
+  "title": "Resetting the Page on Search",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Resetting the Page on Search"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the user types a new query, currentPage should reset to 1. Otherwise, whatever page the user was on would carry over into the new search."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix is to wrap setQuery() in a handler that also resets currentPage. Here's the modification you need to make in App.jsx:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function handleQueryChange(newQuery) {\n  setQuery(newQuery);\n  setCurrentPage(1);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We pass handleQueryChange() to Header in place of the raw setQuery():"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<Header query={query} onQueryChange={handleQueryChange} />"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's add the controls for Previous and Next functions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

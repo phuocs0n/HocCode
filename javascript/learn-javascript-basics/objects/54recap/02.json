@@ -1,0 +1,65 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-objects?page=3",
+  "title": "Recap (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (III)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Deleting Properties"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can remove a property from an object using the delete operator when it's no longer needed."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const book = {\n2    title: \"The Hobbit\",\n3    author: \"J.R.R. Tolkien\",\n4    pages: 295,\n5    year: 1937\n6};\n7\n8// Delete a property\n9delete book.year;\n10\n11console.log(book.year);    // Output: undefined"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Object Methods"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also add functions as properties in objects, which are then referred to as methods."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const book = {\n2    title: \"The Hobbit\",\n3    author: \"J.R.R. Tolkien\",\n4    pages: 295,\n5    year: 1937,\n6\n7    // Add a method\n8    displayInfo: function () {\n9        console.log(\"This book is a classic!\");\n10    }\n11};\n12\n13// Call the method\n14book.displayInfo();    // Output: This book is a classic!"
+    },
+    {
+      "type": "paragraph",
+      "content": "To invoke a method, simply access the function as you would with any object property, followed by parentheses."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

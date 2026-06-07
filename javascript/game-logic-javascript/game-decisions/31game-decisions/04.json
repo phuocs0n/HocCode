@@ -1,0 +1,57 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-decisions?page=5",
+  "title": "If/Else in Our Game",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "If/Else in Our Game"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we'll use if and else the way our quiz game needs them: to decide whether the player passed or failed."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var passMark = 40;\n2var passMessage = \"You passed! Well done.\";\n3var failMessage = \"You didn't reach the pass mark. Try again.\";\n4\n5var score = 3;\n6var total = 5;\n7var percentage = (score / total) * 100;\n8\n9if (percentage >= passMark) {\n10  console.log(passMessage);\n11} else {\n12  console.log(failMessage);\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, percentage >= passMark is the condition."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If it's true, we print the pass message.",
+        "If it's false, we print the fail message."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is one of the main decisions in our game. Later, we'll calculate score and percentage from real answers — but the decision logic stays the same."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

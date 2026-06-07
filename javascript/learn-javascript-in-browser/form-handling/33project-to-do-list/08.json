@@ -1,0 +1,60 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/project-todo-list?page=9",
+  "title": "Wrapping Up",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Wrapping Up"
+    },
+    {
+      "type": "paragraph",
+      "content": "You have completed the to-do list project and mastered the foundational concepts of form handling, window, and much more."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the below code to see the complete to-do list app."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div id=\"container\">\n2    <h1 id=\"title\">To-do List</h1>\n3    ..."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    font-family: Arial, sans-serif;\n3..."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const addListBtn = document.querySelector(\"#add-list-btn\");\n2..."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the upcoming chapter, you'll explore more advanced concepts, such as storing user data in the browser, allowing you to save your to-do list even after a page refresh."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

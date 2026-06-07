@@ -1,0 +1,68 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-take-input?page=4",
+  "title": "Creating an object of Scanner Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating an object of Scanner Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Scanner class contains properties like nextInt() that allow us to ask the user for an integer input."
+    },
+    {
+      "type": "paragraph",
+      "content": "Naturally, to use these properties, you must first create a Scanner object as:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Scanner input = new Scanner(System.in);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        System.out.println(\"Enter your age: \");\n7        \n8        // Create a Scanner object\n9        Scanner input = new Scanner(System.in);\n10                \n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your age:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating the object alone makes no change to our output, but now we can use this to access the actual property within the class that allows us to take user input."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

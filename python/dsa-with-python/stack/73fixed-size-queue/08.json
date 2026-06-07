@@ -1,0 +1,64 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/dsa-with-python/fixedsize-queue?page=9",
+  "title": "Additional Checks to Avoid Error",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Additional Checks to Avoid Error"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our fixed-size queue works — but there are a couple of important edge cases we still need to handle."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Enqueuing a filled list."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we try to enqueue an element when the queue is already full, there's no space left to store the new item. This will lead to an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Dequeuing an empty list."
+    },
+    {
+      "type": "paragraph",
+      "content": "While dequeuing from an empty queue won't raise an error in Python, it will result in returning None or reading invalid data. This can lead to incorrect results in your program."
+    },
+    {
+      "type": "paragraph",
+      "content": "To handle this, we should"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check if the queue is full before enqueueing.",
+        "Check if the queue is empty before dequeuing."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

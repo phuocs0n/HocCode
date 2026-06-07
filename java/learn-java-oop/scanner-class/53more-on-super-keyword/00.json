@@ -1,0 +1,68 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/more-on-super-keyword?page=1",
+  "title": "Revise super",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revise super"
+    },
+    {
+      "type": "paragraph",
+      "content": "During method overriding, the super keyword allows us to access the method of the superclass from the subclass. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Person {\n2    \n3    void display() {\n4        System.out.println(\"I am a person\");\n5    }\n6}\n7\n8class Student extends Person {\n9    \n10    void display() {\n11        \n12        // call \n13        super.display();\n14        System.out.println(\"I am a student\");\n15    }\n16}\n17\n18class Main {\n19    public static void main(String[] args) {\n20\n21        Student s1 = new Student();\n22        s1.display();\n23    }\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am a person\nI am a student"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "super.display();"
+    },
+    {
+      "type": "paragraph",
+      "content": "calls the overridden method of the superclass."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use super with the constructor which we will see next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

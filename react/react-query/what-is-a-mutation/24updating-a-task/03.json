@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/updating-task?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we update the cache directly in onSuccess instead of calling invalidateQueries?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because invalidateQueries only works with useQuery not useMutation"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "invalidateQueries works fine with mutations. That's its most common use case."
+    },
+    {
+      "type": "paragraph",
+      "content": "invalidateQueries works fine with mutations. That's its most common use case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because DummyJSON doesn't actually persist changes so refetching returns the original data"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. DummyJSON pretends to accept changes but doesn't save them. Refetching would undo everything."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. DummyJSON pretends to accept changes but doesn't save them. Refetching would undo everything."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because setQueryData is always faster than invalidateQueries"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed isn't the reason here. It's about what data DummyJSON actually returns."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed isn't the reason here. It's about what data DummyJSON actually returns."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because onSuccess doesn't support invalidateQueries"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "onSuccess supports both. You can call invalidateQueries inside onSuccess just fine."
+    },
+    {
+      "type": "paragraph",
+      "content": "onSuccess supports both. You can call invalidateQueries inside onSuccess just fine."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we update the cache directly in onSuccess instead of calling invalidateQueries?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because invalidateQueries only works with useQuery not useMutation",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because invalidateQueries only works with useQuery not useMutation",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because DummyJSON doesn't actually persist changes so refetching returns the original data",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because DummyJSON doesn't actually persist changes so refetching returns the original data",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because setQueryData is always faster than invalidateQueries",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because setQueryData is always faster than invalidateQueries",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because onSuccess doesn't support invalidateQueries",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because onSuccess doesn't support invalidateQueries",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

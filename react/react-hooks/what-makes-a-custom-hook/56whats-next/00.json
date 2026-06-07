@@ -1,0 +1,59 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-hooks/whats-next?page=1",
+  "title": "Celebrate Your Success!",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Celebrate Your Success!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Congrats on completing our React Hooks course and enhancing your journal app 🥳 🎉"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what you've learned from the course:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "What side effects are and how useEffect() runs and cleans up after itself.",
+        "How the dependency array controls when an effect re-runs.",
+        "Fetching data from an API and reflecting the result in the UI.",
+        "Handling loading, error, and empty states as distinct UI conditions.",
+        "Accessing DOM elements with useRef() to autofocus inputs.",
+        "Closing a drawer on outside click or Escape using a ref and event listeners.",
+        "Deriving values with useMemo() to avoid redundant recalculations.",
+        "Stabilising function references with useCallback() to prevent unnecessary re-renders.",
+        "What custom hooks are, when to extract one, and how useFetch(), useSearch(), and usePagination() each encapsulate one concern."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "And you learned all that while enhancing your Journal app. Like I said in the previous courses, that's an achievement worth sharing!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

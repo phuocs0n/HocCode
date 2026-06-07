@@ -1,0 +1,59 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-rock-paper-scissors?page=5",
+  "title": "Generating 0, 1, and 2 Randomly",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Generating 0, 1, and 2 Randomly"
+    },
+    {
+      "type": "paragraph",
+      "content": "To get a number between 0 and 3, multiply the random number by 3:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let choice = Math.random() * 3;\n2console.log(choice);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run this code again, and you'll notice the output now ranges between 0 and 3 (not inclusive of 3)."
+    },
+    {
+      "type": "paragraph",
+      "content": "To get whole numbers (0, 1, or 2), use Math.floor(), which rounds a number down to the nearest integer:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let choice = Math.floor(Math.random() * 3);\n2console.log(choice);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the output will always be one of 0, 1, or 2. Now next, we'll assign these numbers to rock, paper, and scissors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

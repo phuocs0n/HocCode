@@ -1,0 +1,110 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/python-packages?page=3",
+  "title": "Adding Python Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding Python Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's add code inside our Python files."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside player.py:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def get_player_info():\n    print('I am the main player.')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside boss.py:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def get_boss_info():\n    print('I am the enemy player.')"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have added simple functions to illustrate Python packages. However, while developing large programs, these modules might contain classes and multiple functions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Importing Modules Inside a Package"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's access the modules inside the game package from the main.py file. This file exists outside of the game directory."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by accessing the player module first."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# importing the player module\nimport game.characters.player as p1\n\n# call get_player_info()\np1.get_player_info()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am the main player."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is how this code works:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. import game.characters.player as p1"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code imports the player module and renamed it to p1. Since this module lies inside packages, we also have to specify the path to the module."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. p1.get_player_info()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have called the get_player_info() function of the player module using this code."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can import the boss module in a similar way."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

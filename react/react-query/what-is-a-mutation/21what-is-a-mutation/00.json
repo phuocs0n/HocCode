@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/what-is-mutation?page=1",
+  "title": "So Far We've Only Been Reading Data",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "So Far We've Only Been Reading Data"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far in TaskFlow we've been fetching tasks. We ask the server for tasks and it sends them back."
+    },
+    {
+      "type": "paragraph",
+      "content": "But in a real app users don't just read data. They create new tasks, mark things as done, delete stuff. All of that means sending data to the server, not just receiving it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In React Query that's called a mutation. Any time you're changing data on the server, whether it's creating, updating, or deleting, you're doing a mutation."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the hook React Query gives us for this."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

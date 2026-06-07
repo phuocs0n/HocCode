@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-html/text-fundamentals?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following codes is valid HTML code?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "<p>Programiz<br></br>PRO<p>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "<br> is a self-closing tag that doesn't require an end tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "<br> is a self-closing tag that doesn't require an end tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "<p>Programiz<hr>PRO</p>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <hr> tag cannot be placed inside HTML tags such as <p>. We will discuss the reasons in detail when we learn about block and inline formatting."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <hr> tag cannot be placed inside HTML tags such as <p>. We will discuss the reasons in detail when we learn about block and inline formatting."
+    },
+    {
+      "type": "paragraph",
+      "content": "<p>Programiz</p><hr><p>PRO</p>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Valid, as this is the proper way to use <p> and <hr> tags, with the <hr> tag placed outside of the <p> tags."
+    },
+    {
+      "type": "paragraph",
+      "content": "Valid, as this is the proper way to use <p> and <hr> tags, with the <hr> tag placed outside of the <p> tags."
+    },
+    {
+      "type": "paragraph",
+      "content": "<p>Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <p> tag requires an end-tag </p>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <p> tag requires an end-tag </p>."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following codes is valid HTML code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<p>Programiz<br></br>PRO<p>",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<p>Programiz<br></br>PRO<p>",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<p>Programiz<hr>PRO</p>",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<p>Programiz<hr>PRO</p>",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:<p>Programiz</p><hr><p>PRO</p>",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "<p>Programiz</p><hr><p>PRO</p>",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<p>Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<p>Hello",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

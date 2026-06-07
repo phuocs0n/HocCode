@@ -1,0 +1,135 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-html/multimedia?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In HTML code, which tag is used to embed a media player that supports audio playback on a webpage?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<img>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <img> tag is used to insert an image, not to embed a media player that can play audio files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <img> tag is used to insert an image, not to embed a media player that can play audio files."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<audio>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <audio> tag, along with the source attribute, is used to embed a media player to play audio files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <audio> tag, along with the source attribute, is used to embed a media player to play audio files."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<video>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <video> tag is used to embed a media player that can play video files, not audio files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <video> tag is used to embed a media player that can play video files, not audio files."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<source>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <source> tag is used within <audio> or <video> tags to provide the source of the media content, not to embed the media player itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <source> tag is used within <audio> or <video> tags to provide the source of the media content, not to embed the media player itself."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In HTML code, which tag is used to embed a media player that supports audio playback on a webpage?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<img>",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<img>",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<audio>",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<audio>",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:<video>",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "<video>",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<source>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<source>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

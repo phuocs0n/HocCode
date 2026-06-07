@@ -1,0 +1,59 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/increase-values-in-dictionary?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a dictionary that contains the name and score of the players as a key-value pair, increment every player's score by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the dictionary contains,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "{'Cody': 50, 'Jack': 57, 'Seth': 59, 'Roman': 67}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Increment everyone's score by 1. That means, the dictionary after the update will be,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "{'Cody': 51, 'Jack': 58, 'Seth': 60, 'Roman': 68}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

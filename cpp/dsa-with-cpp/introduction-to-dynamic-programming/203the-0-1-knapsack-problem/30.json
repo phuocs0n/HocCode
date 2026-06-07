@@ -1,0 +1,57 @@
+{
+  "index": 30,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/0-1-knapsack-problem?page=31",
+  "title": "Thought Process: DP Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: DP Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Choose the item you want to include in the knapsack."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we'll use the formula we derived to fill each cell."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the current capacity (index) is greater than or equal to the item weight:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check whether including the item increases the profit.",
+        "Otherwise, exclude the item, copying the value from the previous row."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "if (index >= w[item_index]) {\n    DP[item_index + 1][index] = max(\n        DP[item_index][index], \n        DP[item_index][index - w[item_index]] + v[item_index]\n    );\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

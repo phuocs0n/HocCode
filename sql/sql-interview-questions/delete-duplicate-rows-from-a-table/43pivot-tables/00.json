@@ -1,0 +1,112 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/pivot-tables?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following two tables:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Initial Table - Students"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "student_id",
+          "subject",
+          "grade"
+        ],
+        [
+          "1",
+          "English",
+          "A+"
+        ],
+        [
+          "1",
+          "Math",
+          "C+"
+        ],
+        [
+          "1",
+          "Science",
+          "B"
+        ],
+        [
+          "2",
+          "English",
+          "B"
+        ],
+        [
+          "2",
+          "Math",
+          "C+"
+        ],
+        [
+          "2",
+          "Science",
+          "A+"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Output Table - Grades"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "student_id",
+          "english",
+          "math",
+          "science"
+        ],
+        [
+          "1",
+          "A+",
+          "C+",
+          "B"
+        ],
+        [
+          "2",
+          "B",
+          "C+",
+          "A+"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write an SQL query to pivot the Student table into the Grade table. The new table should have the columns: student_id, english, math, and science."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

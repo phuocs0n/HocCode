@@ -1,0 +1,76 @@
+{
+  "levels": [
+    {
+      "title": "Repositories and Version Control",
+      "lessons": [
+        {
+          "title": "1.1Repositories and Version Control",
+          "url": "https://app.programiz.pro/course/git/repositories-version-control"
+        }
+      ]
+    },
+    {
+      "title": "init, add, commit",
+      "lessons": [
+        {
+          "title": "2.1init, add, commit",
+          "url": "https://app.programiz.pro/course/git/init-add-commit"
+        }
+      ]
+    },
+    {
+      "title": "log, diff, restore",
+      "lessons": [
+        {
+          "title": "3.1log, diff, restore",
+          "url": "https://app.programiz.pro/course/git/log-diff-restore"
+        }
+      ]
+    },
+    {
+      "title": "Branches",
+      "lessons": [
+        {
+          "title": "4.1Branches",
+          "url": "https://app.programiz.pro/course/git/branches"
+        },
+        {
+          "title": "4.2Merging and Conflicts",
+          "url": "https://app.programiz.pro/course/git/merging-conflicts"
+        }
+      ]
+    },
+    {
+      "title": "remote, push, pull, clone",
+      "lessons": [
+        {
+          "title": "5.1remote, push, pull, clone",
+          "url": "https://app.programiz.pro/course/git/remote-push-pull-clone"
+        }
+      ]
+    },
+    {
+      "title": "Forks and Pull Requests",
+      "lessons": [
+        {
+          "title": "6.1Forks and Pull Requests",
+          "url": "https://app.programiz.pro/course/git/forks-pull-requests"
+        }
+      ]
+    },
+    {
+      "title": "The Complete Picture",
+      "lessons": [
+        {
+          "title": "7.1The Complete Picture",
+          "url": "https://app.programiz.pro/course/git/complete-picture"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 8,
+    "sections": 7,
+    "container": "main-content"
+  }
+}

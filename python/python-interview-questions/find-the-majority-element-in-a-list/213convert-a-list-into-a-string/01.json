@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/convert-list-into-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python provides an inbuilt method to convert a given list to a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, there is a string method join() that is used to join the list elements to the string. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "words = ['Hello', 'world', 'from', 'Python']\n\nsentence = ' '.join(words)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, ' ' before join() specifies the word separator. This means each element of the list is separated by a space."
+    },
+    {
+      "type": "paragraph",
+      "content": "And the iterable (list) is used as the parameter to the method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

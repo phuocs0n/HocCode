@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/selectors--subscribing-to-part-of-store?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of a selector function in Zustand?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It filters entries in the database"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A selector does not touch a database. It picks state from the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "A selector does not touch a database. It picks state from the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "It picks a specific piece of state from the store and can compute derived values from it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! A selector tells Zustand which piece of state a component needs. It can also compute derived values like filtered entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! A selector tells Zustand which piece of state a component needs. It can also compute derived values like filtered entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "It replaces the need for actions"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selectors and actions do different things. Selectors read state. Actions update it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selectors and actions do different things. Selectors read state. Actions update it."
+    },
+    {
+      "type": "paragraph",
+      "content": "It connects two stores together"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not connect stores with selectors. A selector just reads from one store."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not connect stores with selectors. A selector just reads from one store."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of a selector function in Zustand?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It filters entries in the database",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It filters entries in the database",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It picks a specific piece of state from the store and can compute derived values from it",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It picks a specific piece of state from the store and can compute derived values from it",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It replaces the need for actions",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It replaces the need for actions",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It connects two stores together",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It connects two stores together",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/file-handling?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How to declare a pointer to work with files in C?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "file* pointer;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "file is not a valid keyword in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "file is not a valid keyword in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "FILE* pointer;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the FILE type pointer to work with files."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the FILE type pointer to work with files."
+    },
+    {
+      "type": "paragraph",
+      "content": "int* pointer;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use the int type pointer to work with files."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use the int type pointer to work with files."
+    },
+    {
+      "type": "paragraph",
+      "content": "FILE pointer;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the pointer variable of FILE type not the regular variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the pointer variable of FILE type not the regular variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "file is not a valid keyword in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "file is not a valid keyword in C."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the FILE type pointer to work with files."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the FILE type pointer to work with files."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use the int type pointer to work with files."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use the int type pointer to work with files."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the pointer variable of FILE type not the regular variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the pointer variable of FILE type not the regular variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How to declare a pointer to work with files in C?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:file* pointer;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "file* pointer;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:FILE* pointer;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "FILE* pointer;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:int* pointer;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "int* pointer;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:FILE pointer;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "FILE pointer;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

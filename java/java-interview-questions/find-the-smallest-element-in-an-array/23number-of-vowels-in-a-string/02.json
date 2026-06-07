@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/java-interview-questions/number-of-vowels-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the total number of vowels in a non-empty string, we can iterate through the string and count the number of vowels present by checking if each character is a vowel or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to find the total number of vowels in the text string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Convert the given string to lowercase using toLowerCase(). This is to avoid checking vowels for both uppercase and lowercase characters.",
+        "Access each character of the converted string using a loop and charAt() method. For example, charAt(0) will give the first character of the string at index 0.",
+        "Compare each character to lowercase vowels.",
+        "Use a counter variable to record the number of vowels based on the above comparison."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,72 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/form-handling?page=3",
+  "title": "Accessing Form Values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Accessing Form Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how to access the values entered in the input fields."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<form id=\"signup-form\" action=\"/html-form-submit\" method=\"post\">\n2    <div class=\"form-group\">\n3        <label for=\"email\" class=\"signup-label\">Email:</label>\n4        <input type=\"email\" class=\"signup-input\" id=\"email-input\">\n5    </div>\n6\n7    <div class=\"form-group\">\n8        <label for=\"password\" class=\"signup-label\">Password:</label>\n9        <input type=\"password\" class=\"signup-input\" id=\"password-input\">\n10    </div>\n11\n12    <button type=\"submit\" id=\"submit-btn\">Sign-Up</button>\n13</form>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1#signup-form {\n2    background-color: #f9f9f9;\n3    color: #333;\n4    font-family: Arial, sans-serif;\n5    font-size: 14px;\n6    font-weight: bold;\n7\n8    width: clamp(250px, 30%, 400px);\n9    padding: 20px;\n10\n11    border: 1px solid #ddd;\n12    border-radius: 8px;\n13\n14    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n15}\n16\n17.form-group {\n18    margin-bottom: 10px;\n19}\n20\n21.signup-label {\n22    display: block;\n23    margin-bottom: 5px;\n24}\n25\n26.signup-input {\n27    box-sizing: border-box;\n28    width: 100%;\n29    padding: 10px;\n30    border: 1px solid #ccc;\n31    border-radius: 4px;\n32}\n33\n34#submit-btn {\n35    background-color: #007BFF;\n36    color: white;\n37    font-size: 16px;\n38\n39    width: 100%;\n40    padding: 10px 15px;\n41    border: none;\n42    border-radius: 4px;\n43\n44    cursor: pointer;\n45    transition: background-color 0.3s ease;\n46}\n47\n48#submit-btn:hover {\n49    background-color: #0056b3;\n50}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const signupForm = document.querySelector(\"#signup-form\");\n2\n3// Accessing input fields.\n4const emailInput = document.querySelector('#email-input');\n5const passwordInput = document.querySelector('#password-input');\n6\n7signupForm.addEventListener(\"submit\", (event) => {\n8    event.preventDefault();\n9\n10    // Accessing values from input fields.\n11    console.log(emailInput.value);\n12    console.log(passwordInput.value);\n13});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code, fill in the input fields, and click on the \"Sign-Up\" button."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you check the console, you can see the values you entered. You can get the values of input fields using the value property."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the form doesn't"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's enhance the user experience by making the form more interactive."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

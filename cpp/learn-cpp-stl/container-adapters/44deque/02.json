@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/deque?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is false?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can initialize a deque."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can insert and retrieve deque elements only from the front."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is false. We can insert and retrieve deque elements from both the front and the rear."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is false. We can insert and retrieve deque elements from both the front and the rear."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to import the deque header file to use a deque."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the deque keyword to create a deque."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is false?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:We can initialize a deque.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We can initialize a deque.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:We can insert and retrieve deque elements only from the front.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We can insert and retrieve deque elements only from the front.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:We need to import the deque header file to use a deque.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "We need to import the deque header file to use a deque.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:We use the deque keyword to create a deque.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "We use the deque keyword to create a deque.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

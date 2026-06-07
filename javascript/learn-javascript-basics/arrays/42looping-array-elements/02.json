@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/looping-array-elements?page=3",
+  "title": "Accessing Last Element",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Accessing Last Element"
+    },
+    {
+      "type": "paragraph",
+      "content": "The length property gives the total number of elements in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, since indexes start from 0, the last element's index is one less than the array length. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const scores = [40, 85, 60, 70, 30];\n2\n3// Find last element's index\n4let lastIndex = scores.length - 1;\n5\n6// Access last element\n7console.log(scores[lastIndex]);    // Output: 30"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, lastIndex stores the index of the last element (scores.length - 1), which is 4."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, scores[lastIndex] retrieves 30, the last element of the array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

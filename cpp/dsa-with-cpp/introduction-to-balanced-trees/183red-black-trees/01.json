@@ -1,0 +1,104 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/redblack-trees?page=2",
+  "title": "Properties of Red Black Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Properties of Red Black Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "Red-Black Trees (RBTs) are a type of self-balancing binary search tree with five key properties:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Leaf Property"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every leaf has invisible NIL node children, and is colored black. These NIL nodes signify the end of a path in the tree and help in maintaining balance."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Root Property"
+    },
+    {
+      "type": "paragraph",
+      "content": "The root is always black."
+    },
+    {
+      "type": "paragraph",
+      "content": "A black root ensures that any path from the root to a leaf has at least one black node. By keeping the root black, it assists in maintaining the next crucial property related to red nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Red Node Property"
+    },
+    {
+      "type": "paragraph",
+      "content": "Red nodes can't have red children. This rule aids in avoiding long chains of consecutive red nodes, which could lead to an imbalance in the tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "The absence of two consecutive red nodes results in consistent black height (number of black nodes from the root to a leaf)."
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Black Depth Property"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every path from root to NIL node has the same number of black nodes. This guarantees that no path is more than twice as long as any other, ensuring logarithmic height."
+    },
+    {
+      "type": "paragraph",
+      "content": "The above four properties must be satisfied at any given instance for a red-black tree to be balanced."
+    },
+    {
+      "type": "paragraph",
+      "content": "In case of insertion, however, one more property is added, which doesn't necessarily define balance but aids in the process."
+    },
+    {
+      "type": "paragraph",
+      "content": "5. New Insertions"
+    },
+    {
+      "type": "paragraph",
+      "content": "New insertions are always red."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If inserting a red node doesn't violate any properties, no further action is required.",
+        "If it violates a property (like causing two consecutive red nodes), rotations and/or color changes can be executed to restore balance."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see some examples of valid and invalid cases for red-black trees."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

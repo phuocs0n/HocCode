@@ -1,0 +1,81 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/build-game-flow?page=5",
+  "title": "Things to try",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Things to try"
+    },
+    {
+      "type": "paragraph",
+      "content": "Try any one of these, then run the game again:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Change passMark"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Set passMark from 40 to 60. Play a round and notice how the same score can now fail."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Change the messages"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Rewrite passMessage or failMessage in your own words. Finish a round and see your version appear."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add a question"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Add one more question object to the questions array. Keep the same shape (question, options, answer). The loop uses questions.length, so the new question gets picked up automatically."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Remove a question"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Delete one question object from the array and run again. Everything still works — the quiz just becomes shorter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Small edits like these are how you build confidence: you change one thing, run it, and you can predict what will happen next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

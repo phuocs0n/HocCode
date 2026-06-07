@@ -1,0 +1,51 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-css/font-family?page=1",
+  "title": "Font Family",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Font Family"
+    },
+    {
+      "type": "paragraph",
+      "content": "The font-family property is used to specify the font."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h2>Web development</h2>\n2\n3<p>Web development is fun!</p>\n4\n5<ul>\n6    <li>HTML for structure.</li>\n7    <li>CSS for styling.</li>\n8    <li>JavaScript for interactivity.</li>\n9</ul>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1ul {\n2    font-family: Arial;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code changes the font family of the unordered list to Arial."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

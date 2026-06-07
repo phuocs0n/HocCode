@@ -1,0 +1,60 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/logical-operators?page=4",
+  "title": "Example: Loan Eligibility",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Loan Eligibility"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// User input\n2let creditScore = parseInt(prompt(\"Credit score? \"));\n3let stableIncome = prompt(\"Stable income (yes/no)? \");\n4\n5// Check eligibility\n6if (creditScore >= 700 && stableIncome === \"yes\") {\n7    console.log(\"You are eligible for a loan.\");\n8} else {\n9    console.log(\"You are not eligible for a loan.\");\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Credit score? 750\nStable income (yes/no)? yes\nYou are eligible for a loan."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Credit score? 650\nStable income (yes/no)? yes\nYou are not eligible for a loan."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at another example of where && can be used to find the largest number among three."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,96 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/area-of-circle?page=1",
+  "title": "Compute the Area of Circle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute the Area of Circle"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to compute the area of a circle using a method."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to compute the area of a circle is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Area = 3.14 * radius * radius"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a method named computeArea() that accepts double parameters: radius and pi.",
+        "Inside the method, compute the area using the above formula.",
+        "Return the area."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside main(), get a double input value for the radius of the circle.",
+        "Create another double variable pi with value 3.14.",
+        "Call computeArea() with arguments radius and pi.",
+        "Print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input12.5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output490.625"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

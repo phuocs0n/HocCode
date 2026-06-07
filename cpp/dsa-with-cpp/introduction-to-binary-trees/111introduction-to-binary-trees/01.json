@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-binary-trees?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following accurately defines a binary tree?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tree data structure that can only have a maximum of two child nodes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A binary tree is defined as a tree data structure with a maximum of two children for each parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "A binary tree is defined as a tree data structure with a maximum of two children for each parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "A linear data structure where each element points to the next one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Binary trees are not a linear data structure; they are nonlinear."
+    },
+    {
+      "type": "paragraph",
+      "content": "Binary trees are not a linear data structure; they are nonlinear."
+    },
+    {
+      "type": "paragraph",
+      "content": "A data structure where each node has multiple parent nodes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a binary tree, each node has, at most, one parent and two child nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a binary tree, each node has, at most, one parent and two child nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "A tree where each node can have more than two children."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Binary trees restrict the number of children to a maximum of two per node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Binary trees restrict the number of children to a maximum of two per node."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following accurately defines a binary tree?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A tree data structure that can only have a maximum of two child nodes.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A tree data structure that can only have a maximum of two child nodes.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A linear data structure where each element points to the next one.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A linear data structure where each element points to the next one.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A data structure where each node has multiple parent nodes.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A data structure where each node has multiple parent nodes.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A tree where each node can have more than two children.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A tree where each node can have more than two children.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

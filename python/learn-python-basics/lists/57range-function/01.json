@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/range-function?page=2",
+  "title": "range() With One Argument",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "range() With One Argument"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we use the range() function with only one argument, it will return a sequence of numbers from 0 to that number. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# numbers from 0 to 4\n2numbers = range(5)\n3\n4# convert numbers to list for printing\n5numbers = list(numbers)\n6\n7print(numbers)\n8\n9# Output\n10# [0, 1, 2, 3, 4]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, range(5) returns a sequence of numbers from 0 to 4."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have to iterate a loop n number times. Here's the easiest way to do it:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1n = 3\n2\n3for i in range(n):\n4    print(\"Hello\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello\nHello\nHello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

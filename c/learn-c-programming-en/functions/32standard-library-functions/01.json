@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/standard-library-functions?page=2",
+  "title": "Library Function: printf()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Library Function: printf()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Throughout the course, we've been using the printf() function to print values and variables."
+    },
+    {
+      "type": "paragraph",
+      "content": "The following is the first C program we wrote."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  printf(\"Hello World\");\n6\n7  return 0;\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, printf() is a standard library function that prints the text on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "We haven't provided any definition for the printf(), but we are still able to use it in our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because the function definition of printf() is already defined inside the stdio.h file. That's why we have included it inside our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, the scanf() function that we use to take user input is also a standard library function defined inside the same stdio.h header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "After a quiz, we'll look into some commonly used mathematical functions provided by the C standard library."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

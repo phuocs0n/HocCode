@@ -1,0 +1,79 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-intermediate/use-of-super?page=1",
+  "title": "Use of super()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Use of super()"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program that calls a method of the base class from inside a method of a derived class using the super() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create classes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a base class named Animal. Inside the class, create a method named eat() that prints  'I can eat food'",
+        "Inherit a class named Dog from the Animal class.",
+        "Inside the Dog class, create a method named bark() that prints  'I can bark' and a method named eat() that calls the eat() method of the Animal class using super()."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside of classes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an object of the Dog class and call the eat() method using the object."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputI can eat food"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

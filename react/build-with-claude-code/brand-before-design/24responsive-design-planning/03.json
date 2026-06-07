@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/responsive-design-planning?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In SpeedBlip's responsive design plan, what renders on screens smaller than 768px instead of the sidebar?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A hamburger menu that opens a full-screen overlay navigation"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "SpeedBlip does not use a hamburger menu. A hamburger requires an extra tap to access navigation - the bottom nav provides always-visible navigation with no extra interaction."
+    },
+    {
+      "type": "paragraph",
+      "content": "SpeedBlip does not use a hamburger menu. A hamburger requires an extra tap to access navigation - the bottom nav provides always-visible navigation with no extra interaction."
+    },
+    {
+      "type": "paragraph",
+      "content": "A collapsible top navigation bar with icon-only labels"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The top navigation bar is for the landing page (LandingNavbar). The app layout uses a different navigation pattern for small screens."
+    },
+    {
+      "type": "paragraph",
+      "content": "The top navigation bar is for the landing page (LandingNavbar). The app layout uses a different navigation pattern for small screens."
+    },
+    {
+      "type": "paragraph",
+      "content": "A bottom navigation bar with icon and label pairs"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. SpeedBlip's BottomNav component renders at the bottom of the viewport on mobile screens, giving users always-visible access to all four app sections without any tap to open."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. SpeedBlip's BottomNav component renders at the bottom of the viewport on mobile screens, giving users always-visible access to all four app sections without any tap to open."
+    },
+    {
+      "type": "paragraph",
+      "content": "No navigation - users swipe between pages"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Swipe-based navigation would require gesture handling and provide no visible affordance for where users can go. SpeedBlip uses explicit navigation on all screen sizes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Swipe-based navigation would require gesture handling and provide no visible affordance for where users can go. SpeedBlip uses explicit navigation on all screen sizes."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In SpeedBlip's responsive design plan, what renders on screens smaller than 768px instead of the sidebar?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A hamburger menu that opens a full-screen overlay navigation",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A hamburger menu that opens a full-screen overlay navigation",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A collapsible top navigation bar with icon-only labels",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A collapsible top navigation bar with icon-only labels",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A bottom navigation bar with icon and label pairs",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A bottom navigation bar with icon and label pairs",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:No navigation - users swipe between pages",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "No navigation - users swipe between pages",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

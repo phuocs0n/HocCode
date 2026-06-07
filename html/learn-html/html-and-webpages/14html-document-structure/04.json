@@ -1,0 +1,72 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/html-document-structure?page=4",
+  "title": "Example: A valid HTML code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: A valid HTML code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code we previously wrote:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>This is a Heading</h1>\n2<p>This is a paragraph.</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you write the same code in a valid way."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2\n3<html>\n4    <head>\n5    </head>\n6\n7    <body>\n8        <h1>This is a Heading</h1>\n9        <p>This is a paragraph.</p>\n10    </body>\n11</html>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Takeaway:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A valid HTML document includes"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "<!DOCTYPE html> declaration.",
+        "<html> section.",
+        "<head> and <body> sections inside the <html> section."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You write your code inside either the <head> section or the <body> section."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

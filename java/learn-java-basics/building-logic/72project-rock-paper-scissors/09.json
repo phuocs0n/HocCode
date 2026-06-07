@@ -1,0 +1,93 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-java-basics/project-rock-paper-scissors?page=7",
+  "title": "Handling Wrong User Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handling Wrong User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our code doesn't work as expected if the user enters values other than \"rock\", \"paper\", or \"scissors\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "To handle this problem, we will ask for user input until the user enters either \"rock\", \"paper\", or \"scissors\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can solve this problem by changing this code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// Get users input\nString userInput = obj.getUserInput();"
+    },
+    {
+      "type": "paragraph",
+      "content": "to"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "String userInput;\n\n    // Get input until user enters \"rock\", \"paper\" or \"scissors\"\n    while (true) {\n        userInput = obj.getUserInput();\n        if (userInput.equals(\"rock\") || userInput.equals(\"paper\") || userInput.equals(\"scissors\")) {\n            break;\n        }\n    }"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now the user will provide input until userInput is either \"rock\" or \"paper\" or \"scissors\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: We have defined the userInput variable outside the loop. It's because just like local variables, variables declared inside the loop will be local to it, which we cannot access from outside the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "To avoid this, we have to declare the variable first outside the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the updated code:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4\n5    // Returns either \"rock\", \"paper\" or \"scissors\"\n6    String getComputerChoice() {\n7\n8        String computerChoice;\n9        int randomNumber = (int) (Math.random() * 3) + 1;\n10\n11        if (randomNumber == 1) {\n12            computerChoice = \"rock\";\n13        }\n14\n15        else if (randomNumber == 2) {\n16            computerChoice = \"paper\";\n17        }\n18\n19        else {\n20            computerChoice = \"scissors\";\n21        }\n22\n23        return computerChoice;\n24    }\n25\n26    // Returns user input\n27    String getUserInput() {\n28\n29        Scanner input = new Scanner(System.in);\n30\n31        System.out.println(\"Enter rock, paper or scissors:\");\n32        String userInput = input.nextLine();\n33\n34        userInput = userInput.toLowerCase();\n35\n36        return userInput;\n37    }\n38\n39    // Return either \"win\", \"lose\" or \"draw\"\n40    String getResult(String userInput, String computerChoice) {\n41\n42        // Condition for user to draw\n43        if (userInput.equals(computerChoice)) {\n44            return \"draw\";\n45        }\n46\n47        // Condition for user to win\n48        else if (userInput.equals(\"paper\") && computerChoice.equals(\"rock\")) {\n49            return \"win\";\n50        } \n51        \n52        else if (userInput.equals(\"rock\") && computerChoice.equals(\"scissors\")) {\n53            return \"win\";\n54        }\n55        \n56        else if (userInput.equals(\"scissors\") && computerChoice.equals(\"paper\")) {\n57            return \"win\";\n58        }\n59        \n60        // All other conditions result to loss\n61        else {\n62            return \"lose\";\n63        }\n64    }\n65\n66    public static void main(String[] args) {\n67\n68        // Creating object of Main class\n69        Main obj = new Main();\n70\n71        // Get user input\n72        String userInput;\n73        while(true) {\n74            userInput = obj.getUserInput();\n75\n76            if (userInput.equals(\"rock\") || userInput.equals(\"paper\") || userInput.equals(\"scissors\")) {\n77                break;\n78            }\n79        }\n80\n81        // Get computers choice\n82        String computerChoice = obj.getComputerChoice();\n83\n84        // Get results\n85        String result = obj.getResult(userInput, computerChoice);\n86\n87        System.out.println(\"User Input: \" + userInput);\n88        System.out.println(\"Computer Choice: \" + computerChoice);\n89        System.out.println(result);\n90    }\n91}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors:\nalbert\nEnter rock, paper or scissors:\nspiderman\nEnter rock, paper or scissors:\nrock\nUser Input: rock\nComputer Choice: rock\ndraw"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our project is complete."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

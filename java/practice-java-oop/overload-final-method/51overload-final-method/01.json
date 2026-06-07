@@ -1,0 +1,87 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-java-oop/overload-final-method?page=1",
+  "title": "Overload Final Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Overload Final Method"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to overload a final method."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the Main class, create a final method named setName() that prints Programiz.",
+        "Create another final method of the same name setName() with a string type parameter.",
+        "Print the parameter inside the method."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() method, create an object of the Main class.",
+        "Get a string input for the name variable.",
+        "Call the setName() method without any argument.",
+        "Again call setName() with name as the argument."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputPRO"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputProgramiz\nPRO"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

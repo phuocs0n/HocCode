@@ -1,0 +1,108 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/count-number-of-words-in-string-using-hashmap?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have to count the number of words in the following string."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = it was an amazing amazing amazing day"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will first split it into an array of words using split() method using a space as a delimiter."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "words = {\"it\" \"was\" \"an\" \"amazing\" \"amazing\" \"amazing\" \"day\"}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we will use HashMap to count the number of words in the string because it allows us to store each character as a key in the HashMap and its count as the corresponding value."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will loop through each string in the words array and check whether it exists in the HashMap. If it does, we would increment its value by 1. Otherwise, we would add it to the HashMap with a value of 1."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Charcter",
+          "Count"
+        ],
+        [
+          "it",
+          "1"
+        ],
+        [
+          "was",
+          "1"
+        ],
+        [
+          "an",
+          "1"
+        ],
+        [
+          "amazing",
+          "3"
+        ],
+        [
+          "day",
+          "1"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have the count each of word in the text string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how we can implement this logic in our program for text string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Split the text into an array of words using the split() method with space as the delimiter.",
+        "Create a new HashMap object to store the word count.",
+        "Loop through each word in the array using a for-each loop.",
+        "Check if the word already exists in the HashMap using the containsKey() method.",
+        "If the word exists, increment its count using the get() method and update it in the HashMap using the put() method.",
+        "If the word does not exist, add it to the HashMap with a count of 1 using the put() method.",
+        "After looping through all the words, print the final HashMap."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

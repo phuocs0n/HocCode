@@ -1,0 +1,76 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/suspense-fallbacks-loading-ux?page=10",
+  "title": "Suspense Doesn't Fetch!",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Suspense Doesn't Fetch!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There's a distinction developers often miss:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Suspense handles code loading, not data fetching."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fallback we built here is triggered by a lazy component chunk downloading. It covers JavaScript loading, not API calls."
+    },
+    {
+      "type": "paragraph",
+      "content": "A first-time visitor to /entries/7 experiences two loading phases in sequence:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The JS chunk for EntryDetailPage downloads. <Suspense> shows the skeleton.",
+        "The chunk resolves, React renders the component, and then useEffect() fires to fetch data. Your component's own loading state shows Loading entry...."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Both phases need to be handled:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "<Suspense> covers the first one automatically.",
+        "Your component's loading state covers the second."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "They are independent, and both matter. A page that handles only one of them will flash an empty or broken state during the other."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's test our understanding of how caching affects this behavior."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

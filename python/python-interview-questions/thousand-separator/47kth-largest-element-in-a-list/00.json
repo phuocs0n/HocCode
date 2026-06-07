@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/kth-largest-element-in-list?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a list of numbers of size N, find the kth largest element in the numbers list, where k is less than N."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you are given a list and a number as"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "numbers = [2, 3, 1, 5, 6, 4]\nk = 3"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, you need to find the 3rd largest element in the numbers list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the kth (3rd) largest element in the numbers list is 4."
+    },
+    {
+      "type": "paragraph",
+      "content": "Assumptions: We will assume that:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "All elements in numbers are distant from each other.",
+        "The given array is an unsorted array.",
+        "k < N"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

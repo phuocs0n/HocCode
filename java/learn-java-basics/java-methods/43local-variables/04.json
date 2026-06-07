@@ -1,0 +1,74 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/local-variables?page=4",
+  "title": "Why are Local Variables Important?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why are Local Variables Important?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local variables are important because they make methods independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "As we discussed earlier, it doesn't matter what's inside a method and what variables are used in it. We can use that method if we know two things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "arguments that the method takes",
+        "return value from the method"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    int addNumbers(int n1, int n2) {\n4        int result = n1 + n2;\n5        return result;\n6    }\n7\n8    public static void main(String[] args) {\n9\n10        Main obj = new Main();\n11        \n12        int n1 = 2;\n13        int n2 = 5;\n14\n15        int result = obj.addNumbers(2, 5);\n16        System.out.println(\"Sum: \" + result);\n17    }\n18}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, it's important to understand that n1, n2, and result variables inside the method are local to the addNumbers() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "They are different from n1, n2, and result variables that are outside of the method (even though names are the same)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

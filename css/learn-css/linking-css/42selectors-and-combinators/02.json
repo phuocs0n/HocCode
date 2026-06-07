@@ -1,0 +1,73 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/selectors-combinators?page=2",
+  "title": "Revision: Selectors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revision: Selectors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Element Selectors"
+    },
+    {
+      "type": "paragraph",
+      "content": "The element selector applies styles to all HTML elements of a given type (e.g., <h1>, <p>)."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, h1 { color: red; } will style all <h1> elements with red text."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class Selectors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Class selectors apply styles to elements with a specific class attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, .first-paragraph { background-color: orange; } will style all elements with the class first-paragraph."
+    },
+    {
+      "type": "paragraph",
+      "content": "Universal Selector"
+    },
+    {
+      "type": "paragraph",
+      "content": "The universal selector (*) targets all HTML elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, * { color: red; } applies the red text color to every element."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's mostly used to reset default styles, such as setting margin: 0 and padding: 0, to ensure consistency across browsers."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

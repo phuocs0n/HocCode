@@ -1,0 +1,50 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=8",
+  "title": "Implicit Type Conversion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implicit Type Conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript sometimes automatically (implicitly) converts data from one type to another. For example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let integerNumber = 123;\n2let floatNumber = 1.23;\n3\n4// Add an integer and a float\n5let result = integerNumber + floatNumber;\n6\n7console.log(result);    // Output: 124.23"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, JavaScript converts the integer (123) to a floating-point number (123.0) before performing the addition, resulting in a floating-point number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll practice type conversion with a simple exercise."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

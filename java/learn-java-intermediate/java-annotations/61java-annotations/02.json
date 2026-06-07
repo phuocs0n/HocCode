@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-annotations?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of using @Override annotation?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "@Override annotation overrides the method of the superclass."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "@Override makes sure that you are actually overriding the method from the superclass. It doesn't override the method from the superclass."
+    },
+    {
+      "type": "paragraph",
+      "content": "@Override makes sure that you are actually overriding the method from the superclass. It doesn't override the method from the superclass."
+    },
+    {
+      "type": "paragraph",
+      "content": "@Override annotation does nothing to the code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "@Override annotation makes sure that we are overriding the method of the superclass. If the method we are overriding is not correct, we get an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "@Override annotation makes sure that we are overriding the method of the superclass. If the method we are overriding is not correct, we get an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "@Override annotation makes sure that we are overriding the method of the superclass."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "True, @Override annotation makes sure that we are overriding the method of the superclass."
+    },
+    {
+      "type": "paragraph",
+      "content": "True, @Override annotation makes sure that we are overriding the method of the superclass."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above given answers is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above given answers is true."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of using @Override annotation?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:@Override annotation overrides the method of the superclass.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "@Override annotation overrides the method of the superclass.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:@Override annotation does nothing to the code.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "@Override annotation does nothing to the code.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:@Override annotation makes sure that we are overriding the method of the superclass.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "@Override annotation makes sure that we are overriding the method of the superclass.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

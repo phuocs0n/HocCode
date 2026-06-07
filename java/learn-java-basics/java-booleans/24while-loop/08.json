@@ -1,0 +1,124 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-java-basics/while-loop?page=9",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n    public static void main(String[] args) {\n\n        // Declare variable\n        int i = 1;\n        int n = 6;\n\n        // While loop\n        while (i < n) {\n            System.out.println(i);\n            // i increased by 2\n            i = i + 2; \n        }\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This would have been the answer if we had used i = i + 1 instead of i = i + 2 inside the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "This would have been the answer if we had used i = i + 1 instead of i = i + 2 inside the loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The initial value of i is 1. Then, its value is increased to 3, then to 5. When i becomes 7, the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "The initial value of i is 1. Then, its value is increased to 3, then to 5. When i becomes 7, the loop terminates."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop iterates 3 times before the i < n becomes false. Hence, the value of i is printed 3 times."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop iterates 3 times before the i < n becomes false. Hence, the value of i is printed 3 times."
+    },
+    {
+      "type": "paragraph",
+      "content": "13"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop iterates 3 times before the i < n becomes false. Hence, the value of i is printed 3 times."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop iterates 3 times before the i < n becomes false. Hence, the value of i is printed 3 times."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:12345",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "12345",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:135",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "135",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:1",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:13",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "13",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/objects?page=1",
+  "title": "Why objects",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why objects"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each question in the quiz has several related pieces:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the question text",
+        "the list of options",
+        "the correct answer"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We could store these in separate variables, but then we'd end up with question1Text, question1Options, question1Answer, and so on for every question."
+    },
+    {
+      "type": "paragraph",
+      "content": "An object groups related data under one name. One question becomes one object with properties like question, options, answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll put those objects inside the questions array so we have a list of question objects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

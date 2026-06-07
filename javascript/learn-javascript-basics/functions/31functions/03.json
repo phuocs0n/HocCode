@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-functions?page=4",
+  "title": "Calling a Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calling a Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a function only makes the code available for use whenever needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "To execute this function, you need to call (or invoke) it. Here's how:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function definition\n2function greet() {\n3    console.log(\"Hello\");\n4    console.log(\"How do you do?\");\n5}\n6\n7// Function call\n8greet();\n9\n10console.log(\"Next statement\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello\nHow do you do?\nNext statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we call the function using its name followed by parentheses: greet()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how this program works step-by-step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/example-huffman-coding?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In a Huffman tree, how are elements with the lowest frequencies arranged?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both elements are put on the left."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a Huffman tree, the elements are distributed in both the left and right nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a Huffman tree, the elements are distributed in both the left and right nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The element with the lower frequency is placed at the left and the one with the higher frequency is placed at the right."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This accurately represents the construction of a Huffman tree, where lower-frequency elements are placed to the left and higher-frequency elements are placed to the right."
+    },
+    {
+      "type": "paragraph",
+      "content": "This accurately represents the construction of a Huffman tree, where lower-frequency elements are placed to the left and higher-frequency elements are placed to the right."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both elements are put on the right."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a Huffman tree, the elements are distributed in both the left and right nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a Huffman tree, the elements are distributed in both the left and right nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The element with the higher frequency is placed on the left and the one with the lower frequency is placed on the right."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a Huffman tree, the elements with lower frequencies are typically placed on the left."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a Huffman tree, the elements with lower frequencies are typically placed on the left."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In a Huffman tree, how are elements with the lowest frequencies arranged?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Both elements are put on the left.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Both elements are put on the left.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The element with the lower frequency is placed at the left and the one with the higher frequency is placed at the right.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The element with the lower frequency is placed at the left and the one with the higher frequency is placed at the right.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Both elements are put on the right.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Both elements are put on the right.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The element with the higher frequency is placed on the left and the one with the lower frequency is placed on the right.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The element with the higher frequency is placed on the left and the one with the lower frequency is placed on the right.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

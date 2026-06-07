@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/anatomy-of-strong-prompt?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: A developer writes this Claude Code prompt: \"Build the dashboard page with charts and stats.\" What is the most critical problem with this prompt?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It does not specify which CSS framework to use for the dashboard"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While specifying the CSS framework is part of the tech stack section, the absence of CSS framework info is a smaller problem compared to the complete lack of behavioral specification."
+    },
+    {
+      "type": "paragraph",
+      "content": "While specifying the CSS framework is part of the tech stack section, the absence of CSS framework info is a smaller problem compared to the complete lack of behavioral specification."
+    },
+    {
+      "type": "paragraph",
+      "content": "It contains no context about the existing codebase, no file structure, and no behavior specification"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Without context, Claude Code does not know what already exists. Without a behavior spec, it will invent component behavior. Without file paths, it may create files in the wrong places. All three cause rework."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Without context, Claude Code does not know what already exists. Without a behavior spec, it will invent component behavior. Without file paths, it may create files in the wrong places. All three cause rework."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is too short to be processed by Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code processes prompts of any length. A short prompt is not a technical problem - it is a content problem. The issue is what is missing, not the character count."
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code processes prompts of any length. A short prompt is not a technical problem - it is a content problem. The issue is what is missing, not the character count."
+    },
+    {
+      "type": "paragraph",
+      "content": "It should be split into two separate chunks - one for charts and one for stats"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Charts and stats can reasonably be one chunk if they are on the same page. The problem is not the scope - it is the complete absence of context, file structure, and behavior specs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Charts and stats can reasonably be one chunk if they are on the same page. The problem is not the scope - it is the complete absence of context, file structure, and behavior specs."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: A developer writes this Claude Code prompt: \"Build the dashboard page with charts and stats.\" What is the most critical problem with this prompt?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It does not specify which CSS framework to use for the dashboard",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It does not specify which CSS framework to use for the dashboard",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It contains no context about the existing codebase, no file structure, and no behavior specification",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It contains no context about the existing codebase, no file structure, and no behavior specification",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It is too short to be processed by Claude Code",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It is too short to be processed by Claude Code",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It should be split into two separate chunks - one for charts and one for stats",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It should be split into two separate chunks - one for charts and one for stats",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,101 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=10",
+  "title": "Step 1.5: Modeling the Game Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1.5: Modeling the Game Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's create a class for handling the actual gameplay. It needs to perform the following functions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check if the entered character is valid.",
+        "Check if the guess is correct or not.",
+        "Check when the game ends.",
+        "Call methods from the Message class to display the game status and the final result."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Attributes"
+    },
+    {
+      "type": "paragraph",
+      "content": "The game class will have the following attributes:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "string word - stores the chosen word",
+        "string user_answer - stores the answer uncovered by the player",
+        "string incorrect - store the incorrect guesses made by the player",
+        "string entered_characters - stores all the alphabetic characters entered by the player",
+        "int misses - stores the number of incorrect guesses made by the player",
+        "Message message - a Message object to display appropriate messages inside the appropriate methods"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's create a method to initialize the attributes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The Game() Constructor"
+    },
+    {
+      "type": "paragraph",
+      "content": "This parameterized constructor initializes all the attributes of the game class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Game(string chosen_word) {\n    word = chosen_word;\n    incorrect = \"\";\n    entered_characters = \"\";\n    misses = 0;\n\n    // create a string of underscores\n    // having length equal to word.length()\n    for (int i = 0; i < word.length(); ++i) {\n        user_answer += \"_\";\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "word is initialized with chosen_word which is the word chosen by the computer for the game",
+        "user_answer is initialized with the number of dashes equal to the length of word",
+        "incorrect and entered_characters are initialized as empty strings",
+        "misses is initialized as 0"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's define the methods of the Game class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

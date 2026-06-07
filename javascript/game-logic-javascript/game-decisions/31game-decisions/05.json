@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-decisions?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the quiz game, what does the condition (percentage >= passMark) tell us?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "How many questions the player answered."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number of questions is in total. The condition checks whether the player reached the pass mark, not how many they answered."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number of questions is in total. The condition checks whether the player reached the pass mark, not how many they answered."
+    },
+    {
+      "type": "paragraph",
+      "content": "What the pass mark value is."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "passMark is already set (e.g. 40). The condition checks whether the percentage is at least that value - it doesn't set or change the pass mark."
+    },
+    {
+      "type": "paragraph",
+      "content": "passMark is already set (e.g. 40). The condition checks whether the percentage is at least that value - it doesn't set or change the pass mark."
+    },
+    {
+      "type": "paragraph",
+      "content": "Whether the game should stop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Stopping the game would be a different kind of decision (e.g. a loop condition). This condition only decides which message to show: pass or fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "Stopping the game would be a different kind of decision (e.g. a loop condition). This condition only decides which message to show: pass or fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "Whether the player's score is high enough to pass, so we can show the right message."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. We compare the player's percentage to the pass mark. If it's greater than or equal, we show the pass message; otherwise we show the fail message."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. We compare the player's percentage to the pass mark. If it's greater than or equal, we show the pass message; otherwise we show the fail message."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the quiz game, what does the condition (percentage >= passMark) tell us?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:How many questions the player answered.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "How many questions the player answered.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:What the pass mark value is.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "What the pass mark value is.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Whether the game should stop.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Whether the game should stop.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Whether the player's score is high enough to pass, so we can show the right message.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Whether the player's score is high enough to pass, so we can show the right message.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

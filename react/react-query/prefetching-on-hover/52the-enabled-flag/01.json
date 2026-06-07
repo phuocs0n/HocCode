@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/enabled-flag?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens when enabled is set to false on a useQuery call?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query runs once and then stops"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query doesn't run at all when enabled is false."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query doesn't run at all when enabled is false."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query throws an error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "No error is thrown. The query just sits idle."
+    },
+    {
+      "type": "paragraph",
+      "content": "No error is thrown. The query just sits idle."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query doesn't run until enabled becomes true"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. React Query watches the enabled value and fires the query the moment it becomes true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. React Query watches the enabled value and fires the query the moment it becomes true."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query runs but ignores the result"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query doesn't run at all. It's completely paused."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query doesn't run at all. It's completely paused."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens when enabled is set to false on a useQuery call?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The query runs once and then stops",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The query runs once and then stops",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The query throws an error",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The query throws an error",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The query doesn't run until enabled becomes true",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The query doesn't run until enabled becomes true",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The query runs but ignores the result",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The query runs but ignores the result",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

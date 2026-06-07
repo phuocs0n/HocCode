@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-hoisting?page=4",
+  "title": "Hoisting with var",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hoisting with var"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function printMessage(){\n2    \n3    // use the message variable before declaration\n4    console.log(message);\n5    \n6    // variable declaration using var keyword\n7    var message;\n8\n9}\n10\n11printMessage(); // Output: undefined\n12"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the message variable is hoisted with a default value of undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, the above program is equivalent to:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function printMessage(){\n2    \n3    var message;\n4    console.log(message);\n5\n6}\n7\n8printMessage();"
+    },
+    {
+      "type": "paragraph",
+      "content": "You might be confused when you see undefined. It is the default value when declaring a variable using var."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see what happens when we use variables before declaring using let and const."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

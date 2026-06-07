@@ -1,0 +1,139 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/order-by?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the alternative syntax for the following query?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT * FROM Employees\nORDER BY Country ASC;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT * FROM Employees\nORDER BY Country DESC;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query sorts the output in descending order by the Country column."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query sorts the output in descending order by the Country column."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT * FROM Employees\nORDER BY Country;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query sorts the output by the Country column in ascending order. It is because the ASC keyword is optional if we want to sort the output in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query sorts the output by the Country column in ascending order. It is because the ASC keyword is optional if we want to sort the output in ascending order."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT * FROM Employees;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query does not sort the output. The order of rows in the output will be the same as the order of rows in our table."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query does not sort the output. The order of rows in the output will be the same as the order of rows in our table."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the alternative syntax for the following query?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:SELECT * FROM Employees\nORDER BY Country DESC;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "SELECT * FROM Employees\nORDER BY Country DESC;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:SELECT * FROM Employees\nORDER BY Country;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "SELECT * FROM Employees\nORDER BY Country;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:SELECT * FROM Employees;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "SELECT * FROM Employees;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

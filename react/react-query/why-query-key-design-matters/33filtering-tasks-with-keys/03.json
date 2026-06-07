@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/filtering-tasks-with-keys?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: The user changes the status filter from open to done. What does React Query do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns the cached open tasks because nothing changed in the component"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The component re-rendered but React Query only cares about the key, not the component."
+    },
+    {
+      "type": "paragraph",
+      "content": "The component re-rendered but React Query only cares about the key, not the component."
+    },
+    {
+      "type": "paragraph",
+      "content": "It fetches fresh data because the query key changed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. taskKeys.list({ status: 'done' }) is a different key from taskKeys.list({ status: 'open' }) so React Query fetches new data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. taskKeys.list({ status: 'done' }) is a different key from taskKeys.list({ status: 'open' }) so React Query fetches new data."
+    },
+    {
+      "type": "paragraph",
+      "content": "It throws an error because two different keys can't share the same queryFn"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Different keys can absolutely share the same queryFn. The key and the function are independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Different keys can absolutely share the same queryFn. The key and the function are independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "It merges the open and done tasks into one list"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query never merges data from different keys. Each key has its own separate cache entry."
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query never merges data from different keys. Each key has its own separate cache entry."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: The user changes the status filter from open to done. What does React Query do?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It returns the cached open tasks because nothing changed in the component",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It returns the cached open tasks because nothing changed in the component",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It fetches fresh data because the query key changed",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It fetches fresh data because the query key changed",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It throws an error because two different keys can't share the same queryFn",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It throws an error because two different keys can't share the same queryFn",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It merges the open and done tasks into one list",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It merges the open and done tasks into one list",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

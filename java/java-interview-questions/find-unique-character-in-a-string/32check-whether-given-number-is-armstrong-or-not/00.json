@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-whether-given-number-is-armstrong-or-not?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Find whether a given positive integer is an armstrong number or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "A positive integer is called an Armstrong number if the sum of the digits raised to the power of the number of digits is equal to the original number. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 1634\noutput = Armstrong\nreason = 14 + 64 + 34 + 44 = 1634 \n(4 is the number of digits)"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 370\noutput = Armstrong\nreason = 33 + 73 + 03 = 370\n(3 is the number of digits)"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 9\noutput = Armstrong\nreason = 91 = 9\n(1 is the number of digit)"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 250\noutput = Not Armstrong \nreason 23 + 53 + 03 != 250\n(3 is the number of digits)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

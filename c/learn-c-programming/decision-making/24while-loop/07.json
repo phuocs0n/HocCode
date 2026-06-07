@@ -1,0 +1,54 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=8",
+  "title": "Ví dụ: In các số từ 1 đến 5 (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: In các số từ 1 đến 5 (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử bạn muốn in các số từ 1 đến 5 bằng vòng lặp while."
+    },
+    {
+      "type": "paragraph",
+      "content": "Để giải quyết vấn đề này, trước tiên hãy tạo một vòng lặp chạy 5 lần."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int count = 1;\n\nwhile (count <= 5) {\n\n  count = count + 1;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, vòng lặp chạy 5 lần từ số đếm bằng 1 đến 5. Sau đó, số đếm trở thành 6 và vòng lặp kết thúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy triển khai nó trong mã tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

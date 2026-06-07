@@ -1,0 +1,50 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-take-input?page=7",
+  "title": "Input Prompts",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Input Prompts"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first print statement isn't necessary when taking user input. However, without a prompt, users may not realize the program is waiting for input."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {        \n5        // Create a Scanner object\n6        Scanner input = new Scanner(System.in);\n7        \n8        // Take user input \n9        int age = input.nextInt();\n10        \n11        System.out.println(\"Age is \" + age);\n12\n13       // Close the Scanner\n14        input.close();\n15    }\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, the console is running, but there's no visual indication for the user to know what input is expected. To avoid confusion, it's good practice to include a prompt."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

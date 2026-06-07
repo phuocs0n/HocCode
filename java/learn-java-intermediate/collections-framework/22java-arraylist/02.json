@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-arraylist?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct way to create an ArrayList?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayList<> student = new ArrayList<>();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayList<String name> student = new ArrayList<>();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We only define the data type not variable while creating the arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "We only define the data type not variable while creating the arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayList<> student = new ArrayList;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the correct way to define an arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the correct way to define an arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayList<String> student = new ArrayList<>();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define an arraylist"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define an arraylist"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct way to create an ArrayList?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:ArrayList<> student = new ArrayList<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "ArrayList<> student = new ArrayList<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:ArrayList<String name> student = new ArrayList<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "ArrayList<String name> student = new ArrayList<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:ArrayList<> student = new ArrayList;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "ArrayList<> student = new ArrayList;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:ArrayList<String> student = new ArrayList<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "ArrayList<String> student = new ArrayList<>();",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

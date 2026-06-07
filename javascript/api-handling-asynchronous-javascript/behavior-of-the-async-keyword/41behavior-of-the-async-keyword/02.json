@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/behavior-of-async-keyword?page=3",
+  "title": "Example: Returning a Plain Value to async",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Returning a Plain Value to async"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a good look at this simple async function I've written:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1async function getNumber() {\n2    return 42;\n3}\n4\n5getNumber().then(num => console.log(num));\n6\n7// Output: 42"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, I've returned a plain integer (42) to this function. But since I've marked it as async, JavaScript actually returns Promise.resolve(42)."
+    },
+    {
+      "type": "paragraph",
+      "content": "This automatic wrapping is why async functions work seamlessly with .then() and other promise-based code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

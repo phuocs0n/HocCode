@@ -1,0 +1,57 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/editing-entry?page=10",
+  "title": "Why Use Draft State in the Card?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Use Draft State in the Card?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The edited title and content are only \"real\" after they're saved. Until then, they are a draft."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keeping draftTitle and draftContent in the card lets the user type without changing the parent's state on every keystroke."
+    },
+    {
+      "type": "paragraph",
+      "content": "When they click Save, you send the final values to the parent with onEdit(id, draftTitle, draftContent)."
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, you won't unintentionally change the original state if the user decides to click Cancel on the edits they've made."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you're still not convinced as to why this is important, perhaps my colleague's personal experience might help."
+    },
+    {
+      "type": "paragraph",
+      "content": "So click Next Lesson to read what happened when he neglected the value of drafts."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

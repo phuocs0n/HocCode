@@ -1,0 +1,41 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/touring-graph?page=8",
+  "title": "Hamilton Path and Cycle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hamilton Path and Cycle"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similar to an Euler trail, a path that visits every node in the graph exactly once is called a Hamilton path. The closed version of such a path is called a Hamilton cycle."
+    },
+    {
+      "type": "paragraph",
+      "content": "A Hamilton cycle exists if the minimum degree of a vertex in a graph with n vertices is greater than or equal to n/2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

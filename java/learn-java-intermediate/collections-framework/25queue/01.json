@@ -1,0 +1,96 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/queue?page=2",
+  "title": "LinkedList as Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "LinkedList as Queue"
+    },
+    {
+      "type": "paragraph",
+      "content": "LinkedList class in Java implements the Queue and the Deque interfaces. Hence, LinkedList can provide functionality queue and deque data structures as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this section, we will learn how we can use LinkedList as a Queue data structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "To use LinkedList as a queue, we use the following two methods:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "poll() - removes elements from the front",
+        "offer() - adds elements from the back"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.LinkedList;\n2\n3class Main {\n4    public static void main(String[] args) {\n5\n6        // create a LinkedList\n7        LinkedList<String> patient = new LinkedList<>();\n8\n9        // add elements\n10        patient.add(\"1st Patient\");\n11        patient.add(\"2nd Patient\");\n12        patient.add(\"3rd Patient\");\n13\n14        System.out.println(\"Original LinkedList: \" + patient);\n15\n16        // removes element from the front\n17        patient.poll();\n18        System.out.println(\"Queue after poll(): \" + patient);\n19\n20        // adds element at the back\n21        patient.offer(\"4th Patient\");\n22        System.out.println(\"Queue after offer(): \" + patient);\n23    }\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Original LinkedList: [1st Patient, 2nd Patient, 3rd Patient]\nQueue after poll(): [2nd Patient, 3rd Patient]\nQueue after offer(): [2nd Patient, 3rd Patient, 4th Patient]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have removed an element from the front of the LinkedList, using the poll() method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "patient.poll();"
+    },
+    {
+      "type": "paragraph",
+      "content": "It removes the first element from the LinkedList."
+    },
+    {
+      "type": "paragraph",
+      "content": "To add elements to the end, we used the offer() method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "patient.offer(\"4th Patient\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "It adds 4th Patient to the end of the patient linkedlist."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

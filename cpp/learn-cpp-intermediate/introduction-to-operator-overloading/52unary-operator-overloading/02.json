@@ -1,0 +1,72 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/unary-operator-overloading?page=3",
+  "title": "Unary Operator Overloading",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Unary Operator Overloading"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before overloading the unary operator let's look at it syntex:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "return_type operator operator_symbol(arguments) {\n    // your code\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "return_type can be void, built-in types (int, double, char, etc.), or custom types such as objects or struct variables.",
+        "operator is the name of the overloading function, and is used to denote that we are overloading an operator.",
+        "operator_symbol is the operator we want to overload, such as ++, --.",
+        "arguments are the arguments passed to the operator() function."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use the above syntax in the Person class we introduced in the previous page."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Person {\n    ... ... ...\n\n    void operator ++ () {\n        ++age;\n    }\n\n    ... ... ...\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code overloads the ++ operator inside the Person class. This overloaded operator increments the age variable of Person and doesn't return any value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will write a complete program to overload the ++ operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

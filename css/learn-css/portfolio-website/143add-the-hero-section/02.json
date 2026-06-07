@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/add-hero-section?page=3",
+  "title": "Style Heading and Subtitle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Style Heading and Subtitle"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section class=\"hero\" id=\"hero\">\n2    <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Profile Picture\" />\n3    <h1>Hi, I'm Jane Austen</h1>\n4    <p>Frontend Developer</p>\n5</section>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* ---------- Hero section ---------- */\n2section.hero {\n3    display: flex;\n4    flex-direction: column;\n5    align-items: center;\n6    justify-content: center;\n7    gap: 8px;\n8    min-height: 500px;\n9    text-align: center;\n10}\n11\n12section.hero img {\n13    width: 200px;\n14    height: 200px;\n15    border-radius: 50%;    /* Creates a circular image */\n16    object-fit: cover;    /* Ensures image covers the circle */\n17    margin-bottom: 20px;\n18    border: 2px solid white;    /* Adds a clean white border */\n19}\n20\n21section.hero h1 {\n22    font-size: 32px;\n23    font-weight: 600;\n24    color: #25265e;    /* Dark color for emphasis */\n25}\n26\n27section.hero p {\n28    font-size: 18px;\n29    letter-spacing: 1px;\n30    margin-bottom: 10px;\n31    font-weight: 400;\n32    color: #25265e;\n33    text-transform: uppercase;    /* Makes the subtitle all caps */\n34}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this code:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "align-items: center and justify-content: center center the child elements vertically and horizontally.",
+        "border-radius: 50% gives the profile picture a circular shape."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, the greeting and job title are styled to complement the overall aesthetic."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how the website looks with the Header and Hero section completed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

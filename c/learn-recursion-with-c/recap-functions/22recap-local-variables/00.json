@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-c/recap-local-variables?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of local variables is critical in recursion since each recursive call possesses a separate local variable. Let's revisit local variables."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any variable that is created inside a function is local to it. For example,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int add_numbers(int n1, int n2) {\n4    int result = n1 + n2;\n5}\n6\n7int main() {\n8\n9    // call the function\n10    add_numbers(2, 5); \n11\n12    // error code\n13    // attempt to print result variable \n14    printf(\"%d\", result); \n15\n16    return 0;\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, when the execution of the add_numbers() function ends, all the variables inside it (n1, n2, and result) are destroyed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The reason the above program throws an error is that the result variable is not defined in the scope where it is being accessed. In other words, the result variable doesn't exist inside the main() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see how we can fix it and use the value returned by the function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

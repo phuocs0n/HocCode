@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/constructors?page=1",
+  "title": "Java Constructors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Java Constructors"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, a constructor is similar to a method, but it doesn't have a return type and it has the same name as the class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Student {\n\n    // constructor\n    Student() {\n        ...\n    }\n\n    // method\n    void checkName() {\n        ...\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, Student() is a constructor and checkName() is a method. You can see that the constructor doesn't have a return type and it has the same name as the class (Student)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similar to methods, we need to call a constructor to execute code inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, when we create an object, the constructor is called automatically. Let's see an example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Student {\n2\n3    // constructor\n4    Student() {\n5        System.out.println(\"Calling Constructor\");\n6    }\n7}\n8\n9class Main {\n10    public static void main(String[] args) {\n11        \n12        // create an object of Student\n13        // this calls the constructor\n14        Student student1 = new Student();\n15        \n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Calling Constructor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the code Student student1 = new Student(); calls the constructor. That's why we get the output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

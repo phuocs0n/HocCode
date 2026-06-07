@@ -1,0 +1,73 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/add-blogs-section?page=3",
+  "title": "Code for Individual Card",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code for Individual Card"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the HTML for a single blog card:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"card\">\n2    <img src=\"/images/learn-css/flexbox.png\" alt=\"Understanding Flexbox in CSS\" />\n3    <h3>Understanding Flexbox in CSS</h3>\n4    <p>freeCodeCamp</p>\n5    <button>Read</button>\n6</div>"
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSS that styles the card:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"card\">\n2    <img src=\"/images/learn-css/flexbox.png\" alt=\"Understanding Flexbox in CSS\" />\n3    <h3>Understanding Flexbox in CSS</h3>\n4    <p>freeCodeCamp</p>\n5    <button>Read</button>\n6</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Blog card styling */\n2.card {\n3    background-color: white;\n4    border-radius: 8px;    /* Rounded corners */\n5    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);    /* Subtle shadow */\n6    width: 300px;    /* Fixed width */\n7    text-align: center;\n8    display: flex;\n9    flex-direction: column;    /* Stack content vertically */\n10    gap: 4px;    /* Small gap between content */\n11    align-items: center;\n12    padding: 24px 0;    /* Adds padding */\n13}\n14\n15/* Blog card image */\n16.card img {\n17    border-radius: 50%;    /* Circular image */\n18    width: 192px;\n19    height: 192px;\n20    object-fit: cover;    /* Ensures image fits the circle */\n21    margin-bottom: 16px;    /* Space below the image */\n22}\n23\n24/* Blog card title */\n25.card h3 {\n26    color: #25265e;\n27    font-weight: 700;\n28    font-size: max(1vw, 18px);\n29    text-decoration: none;\n30}\n31\n32/* Blog card source */\n33.card p {\n34    font-size: 1rem;\n35    color: #444576;\n36}\n37\n38/* Read button */\n39.card button {\n40    padding: 8px 30px;\n41    background-color: #0556f3;    /* Button background color */\n42    color: white;    /* Button text color */\n43    border: none;\n44    border-radius: 4px;\n45    cursor: pointer;\n46    margin-top: 24px;\n47}\n48\n49/* Button hover effect */\n50.card button:hover {\n51    background-color: #6c6ce5;    /* Button color on hover */\n52}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Card Container: The .card class provides structure and styling for each blog card, using a shadow for depth and rounded corners for a modern look.",
+        "Image: Circular styling (border-radius: 50%) and object-fit: cover ensures the image fits well within its frame.",
+        "Title and Source: The heading (h3) and source (p) text are styled with clear, contrasting colors for readability.",
+        "Read Button: Styled with a bold color, rounded corners, and hover effect for interaction."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "With these styles, each blog card will look neat and professional, effectively showcasing individual blog posts. Now, let's create the layout to display multiple cards."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

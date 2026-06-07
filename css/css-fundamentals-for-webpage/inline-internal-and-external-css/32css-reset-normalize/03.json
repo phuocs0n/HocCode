@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/css-reset--normalize?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You open a brand-new HTML page (no CSS file linked) and the heading still has space around it. Where is that spacing coming from?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML automatically adds margins and padding."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is wrong. HTML defines structure and meaning, not presentation rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is wrong. HTML defines structure and meaning, not presentation rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your CSS file is being loaded automatically by the browser."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. External CSS only applies if you link it with a <link> tag (or add styles another way)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. External CSS only applies if you link it with a <link> tag (or add styles another way)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser's default stylesheet (user agent styles) is applying built-in margins/padding."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Browsers include built-in styles so HTML looks readable by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Browsers include built-in styles so HTML looks readable by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "The spacing is only visible in DevTools, not on real webpages."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. DevTools can show the spacing clearly, but the spacing exists in normal page rendering too."
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. DevTools can show the spacing clearly, but the spacing exists in normal page rendering too."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You open a brand-new HTML page (no CSS file linked) and the heading still has space around it. Where is that spacing coming from?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:HTML automatically adds margins and padding.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "HTML automatically adds margins and padding.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Your CSS file is being loaded automatically by the browser.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Your CSS file is being loaded automatically by the browser.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The browser's default stylesheet (user agent styles) is applying built-in margins/padding.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The browser's default stylesheet (user agent styles) is applying built-in margins/padding.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The spacing is only visible in DevTools, not on real webpages.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The spacing is only visible in DevTools, not on real webpages.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

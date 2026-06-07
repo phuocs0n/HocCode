@@ -1,0 +1,83 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/miscellaneous?page=4",
+  "title": "Sự thật và giả dối",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sự thật và giả dối"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy lấy một ví dụ để hiểu khái niệm này:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int x = 8;\n6\n7  if (x) {\n8    printf(\"%d\", x); \n9  }\n10\n11  return 0;\n12}\n13\n14// Output: 8"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, đoạn mã bên trong câu lệnh if được thực thi. Đó là bởi vì 8 đánh giá là đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ hãy lấy một ví dụ khác,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int x = 0;\n6\n7  if (x) {\n8    printf(\"%d\", x); \n9  }\n10\n11  return 0;\n12}\n13\n14// No Output"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, chương trình không in bất kỳ kết quả nào. Đó là vì 0 đánh giá là sai."
+    },
+    {
+      "type": "paragraph",
+      "content": "Các giá trị đánh giá là đúng được gọi là giá trị trung thực. Tương tự, các giá trị được đánh giá là sai được gọi là giá trị giả."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C, những giá trị này được coi là giả."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "SAI",
+        "0",
+        "0,0"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Tất cả các giá trị khác được coi là trung thực."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ hiểu tại sao khái niệm này lại quan trọng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

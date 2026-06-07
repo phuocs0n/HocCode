@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/logical-operators?page=3",
+  "title": "&& (AND) Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "&& (AND) Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's an example showing the four cases for the AND operator:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int age = 22;\n6  double gpa = 3.6;\n7\n8  if ((age >= 18) && (gpa > 3.5)) {\n9      printf(\"%d %.2lf\", age, gpa);\n10  }\n11\n12   if ((age >= 18) && (gpa > 3.7)){\n13      printf(\"%d %.2lf\", age, gpa);\n14  }\n15\n16  if ((age >= 25) && (gpa > 3.5)){\n17      printf(\"%d %.2lf\", age, gpa);\n18  }\n19\n20   \n21  return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "22 3.60"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how the || (OR) operator works next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

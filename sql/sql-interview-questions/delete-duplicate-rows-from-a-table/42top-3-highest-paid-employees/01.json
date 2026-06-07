@@ -1,0 +1,83 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/top--highestpaid-employees?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given a table named Employees with columns emp_id, name, department, salary, type, and experience."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are required to retrieve the names of the top 3 highest-paid full-time employees in the Sales department with a salary greater than $5,000 and experience greater than or equal to 5 years."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we need to sort them by their salary in descending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "At first glance, the above problem might seem simple as we just need to use a bunch of conditions in the WHERE clause. However, there is one tricky part about the problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this problem, we need to use the LIMIT 3 statement to filter the top 3 results. LIMIT 3 means that we can filter a maximum of 3 rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "Our query needs to select the names of employees who belong to the Sales department with a salary exceeding 5000 and experience greater than or equal to 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then need to sort the results in descending order of salary and limit to only three results"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will result in the following table:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "name"
+        ],
+        [
+          "Paul"
+        ],
+        [
+          "Rey"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, our result only filters 2 names because they are the only employees who meet all the conditions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

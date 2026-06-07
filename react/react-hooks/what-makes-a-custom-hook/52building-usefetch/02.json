@@ -1,0 +1,83 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usefetch?page=3",
+  "title": "How App is Modified",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How App is Modified"
+    },
+    {
+      "type": "paragraph",
+      "content": "What Moved Out of App"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The useState() hook for\n\t\tentriesisLoadingerrorrefreshKey",
+        "entries",
+        "isLoading",
+        "error",
+        "refreshKey",
+        "The entire useEffect() block"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entries",
+        "isLoading",
+        "error",
+        "refreshKey"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "What Stays in App"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Mapping the raw response into entry objects (journal-specific)",
+        "Filtering, pagination, drawer state"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Key Things to Remember"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The useFetch() custom hook is generic. It works with any URL and knows nothing about journal entries, posts, or any specific data shape.",
+        "The component that calls useFetch() is responsible for transforming the raw response."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "With the hook extracted, we can update App.jsx to call it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

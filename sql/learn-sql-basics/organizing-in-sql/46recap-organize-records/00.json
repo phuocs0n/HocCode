@@ -1,0 +1,134 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2?page=1",
+  "title": "Recap",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap"
+    },
+    {
+      "type": "paragraph",
+      "content": "Congratulations on completing this chapter!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a moment to review what you've learned so far."
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you are a data analyst in a global company. You are assigned to find insights into the company's employees."
+    },
+    {
+      "type": "paragraph",
+      "content": "You're given the Employees table with the following data:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Employees"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "id",
+          "name",
+          "years_of_service",
+          "department",
+          "salary",
+          "country"
+        ],
+        [
+          "1",
+          "Peter",
+          "2",
+          "Operations",
+          "4900",
+          "USA"
+        ],
+        [
+          "2",
+          "Meghan",
+          "3",
+          "Sales",
+          "4200",
+          "Canada"
+        ],
+        [
+          "3",
+          "Jow",
+          "3",
+          "Tech",
+          "4800",
+          "Australia"
+        ],
+        [
+          "4",
+          "Mike",
+          "1",
+          "Sales",
+          "3600",
+          "UK"
+        ],
+        [
+          "5",
+          "Mary",
+          "4",
+          "Operations",
+          "3800",
+          "Germany"
+        ],
+        [
+          "7",
+          "Elon",
+          "5",
+          "Tech",
+          "5200",
+          "USA"
+        ],
+        [
+          "8",
+          "Samantha",
+          "6",
+          "Marketing",
+          "4000",
+          "Sweden"
+        ],
+        [
+          "9",
+          "John",
+          "5",
+          "Sales",
+          "4500",
+          "Canada"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how you can filter the data from the above table based on various requirements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

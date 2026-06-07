@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/revise-introduction?page=2",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Data types"
+    },
+    {
+      "type": "paragraph",
+      "content": "We started by learning different types of data:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Integers: 5, 100",
+        "Doubles: 123.4, 0.9",
+        "Characters: 'a', '+'",
+        "Strings: \"Hello\", \"123\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "To reuse these data later in the program, you can store them in variables. A variable will store data of a specific type."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3 \n4        int age= 19;\n5        double salary= 6300.0;\n6\n7        // Print the variables  \n8        System.out.println(age);         // Output: 19\n9        System.out.println(salary);    // Output: 6300.0 \n10\n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you need to perform calculations on the values or variables, use operators."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3 \n4        int divisor = 4;\n5        int dividend = 13;\n6\n7        int quotient = dividend / divisor;\n8        int remainder = dividend % divisor;\n9\n10        System.out.println(quotient);       // Output: 3\n11        System.out.println(remainder);   // Output: 1 \n12    }\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "More on what you learned on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

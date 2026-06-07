@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/logical-operators?page=4",
+  "title": "Example: Eligible for Loan",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Eligible for Loan"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll be using the results of the comparison to make decisions in the program using an if-else statement."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1public class Main {\n2    public static void main(String[] args) {\n3      \n4        int creditScore = 720; \n5        double annualSalary = 6500.00; \n6\n7        // Check if the person qualifies for the loan\n8        if (creditScore > 700 && annualSalary > 6000.00) {\n9            System.out.println(\"Congratulations! You qualify for the loan.\");\n10        } else {\n11            System.out.println(\"Sorry, you do not qualify for the loan.\");\n12        }\n13    }\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since our creditScore is 720 which is higher than 700, (creditScore > 700) evaluates to true. Likewise, (annualSalary > 6000.00) also evaluates to true as our annualSalary is 6500."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since both conditions are true , the condition (creditScore > 700) && (annualSalary > 6000.00) becomes true and prints the text inside the if block."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

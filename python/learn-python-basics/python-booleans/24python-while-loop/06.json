@@ -1,0 +1,188 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-python-basics/while-loop?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How many times is print() executed in the following program?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "number = 1\n\nwhile number <= 10:\n    print(f\"Number: {number}\")\n    number = number + 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop doesn't execute only once. It continues until the condition number <= 10 evaluates to False."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop doesn't execute only once. It continues until the condition number <= 10 evaluates to False."
+    },
+    {
+      "type": "paragraph",
+      "content": "10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not execute 10 times because we have incremented the value of number by 2 in each iteration, not 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not execute 10 times because we have incremented the value of number by 2 in each iteration, not 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Infinite times"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not run infinitely. It terminates when the value of number exceeds 10."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not run infinitely. It terminates when the value of number exceeds 10."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop runs five times.The value of number is 1 in the first iteration, 3 in the second, 5 in the third, 7 in the fourth, and 9 in the fifth.When number becomes 11, number <= 10 evaluates to False and the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop runs five times."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number is 1 in the first iteration, 3 in the second, 5 in the third, 7 in the fourth, and 9 in the fifth.When number becomes 11, number <= 10 evaluates to False and the loop terminates."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop doesn't execute only once. It continues until the condition number <= 10 evaluates to False."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop doesn't execute only once. It continues until the condition number <= 10 evaluates to False."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not execute 10 times because we have incremented the value of number by 2 in each iteration, not 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not execute 10 times because we have incremented the value of number by 2 in each iteration, not 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not run infinitely. It terminates when the value of number exceeds 10."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not run infinitely. It terminates when the value of number exceeds 10."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop runs five times.The value of number is 1 in the first iteration, 3 in the second, 5 in the third, 7 in the fourth, and 9 in the fifth.When number becomes 11, number <= 10 evaluates to False and the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop runs five times."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number is 1 in the first iteration, 3 in the second, 5 in the third, 7 in the fourth, and 9 in the fifth.When number becomes 11, number <= 10 evaluates to False and the loop terminates."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How many times is print() executed in the following program?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:10",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Infinite times",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Infinite times",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:5",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "5",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

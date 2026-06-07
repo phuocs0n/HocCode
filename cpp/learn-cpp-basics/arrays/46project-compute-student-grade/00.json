@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/project-compute-student-grade?page=1",
+  "title": "Project Description",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Project Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you are a teaching assistant in a University, and you need to assign grades to students based on their average scores."
+    },
+    {
+      "type": "paragraph",
+      "content": "The scores obtained by a student in various subjects are stored in an array like this:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "double scores[5] = {55, 64, 75, 80, 65};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your job is to first compute the average score first. And, based on the average score, you need to compute a student's grade."
+    },
+    {
+      "type": "paragraph",
+      "content": "The grading rule is like this:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Grade A if the average score is equal to or above 80",
+        "Grade B if the average score is equal to or above 60 and less than 80",
+        "Grade C if the average score is equal to or above 50 and less than 60",
+        "Grade F if the average score is less than 50"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

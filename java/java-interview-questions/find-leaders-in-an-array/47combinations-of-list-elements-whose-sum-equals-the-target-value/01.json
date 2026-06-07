@@ -1,0 +1,52 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/combinations-of-list-elements-whose-sum-equals-target-value?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you are given an array of numbers and a target value. Write a Java program to find all the combinations of list elements whose sum equals the target value. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers = [2, 7, 11, 15]\ntarget = 9\n\noutput: [2, 7]"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers = [2, 7, 11, 15]\ntarget = 22\n\noutput: [7, 15]"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers = {2, 3, 4, 5, 6}\ntarget = 9\n\noutput = [5, 4]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

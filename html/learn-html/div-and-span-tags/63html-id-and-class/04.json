@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/html-id-class?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is true for the HTML id attribute?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the id attribute to uniquely identify a group of HTML elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The id attribute uniquely identifies a single HTML element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The id attribute uniquely identifies a single HTML element."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the id attribute to uniquely identify a single HTML element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The id attribute uniquely identifies a single HTML element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The id attribute uniquely identifies a single HTML element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The id attribute doesn't specify an element's class. We use the class attribute for this, which we will learn next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding styling to a specific element is one of the uses of id."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding styling to a specific element is one of the uses of id."
+    },
+    {
+      "type": "paragraph",
+      "content": "To provide a descriptive name for an input field."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The id attribute's main purpose is not to provide a descriptive name for an input field, although it could be used in relation to label for that use."
+    },
+    {
+      "type": "paragraph",
+      "content": "The id attribute's main purpose is not to provide a descriptive name for an input field, although it could be used in relation to label for that use."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is true for the HTML id attribute?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:We use the id attribute to uniquely identify a group of HTML elements.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We use the id attribute to uniquely identify a group of HTML elements.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:We use the id attribute to uniquely identify a single HTML element.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We use the id attribute to uniquely identify a single HTML element.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The id attribute doesn't specify an element's class. We use the class attribute for this, which we will learn next.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The id attribute doesn't specify an element's class. We use the class attribute for this, which we will learn next.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To provide a descriptive name for an input field.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To provide a descriptive name for an input field.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

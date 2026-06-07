@@ -1,0 +1,98 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/top--highestpaid-employees?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Employees"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "emp_id",
+          "name",
+          "department",
+          "salary",
+          "type",
+          "experience"
+        ],
+        [
+          "1",
+          "Dave",
+          "Sales",
+          "3000",
+          "Full-Time",
+          "2"
+        ],
+        [
+          "2",
+          "Rey",
+          "Sales",
+          "6000",
+          "Full-Time",
+          "6"
+        ],
+        [
+          "3",
+          "Dwayne",
+          "Sales",
+          "6000",
+          "Freelance",
+          "8"
+        ],
+        [
+          "4",
+          "John",
+          "Development",
+          "6000",
+          "Part-Time",
+          "7"
+        ],
+        [
+          "5",
+          "Paul",
+          "Sales",
+          "7000",
+          "Full-Time",
+          "6"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write an SQL query to retrieve the names of the top 3 highest-paid full-time employees in the Sales department with a salary greater than $5,000 and experience greater than or equal to 5 years. Order the result by their salary in descending order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/inner-join?page=5",
+  "title": "Example 2: Orders by New York Customers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Orders by New York Customers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you've learned how to join tables and select specific columns, let's take it a step further."
+    },
+    {
+      "type": "paragraph",
+      "content": "What if you want to filter the results of your join? For example, instead of seeing all customers and their purchases, you only want to see customers from New York and the products they bought."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, you can use the WHERE clause after joining tables. For example,"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Join the Customers and Orders table\n2-- Return all the columns\n3-- Select rows if the customer is from New York\n4\n5SELECT Customers.customer_name, Customers.city, Orders.product_name\n6FROM Customers\n7INNER JOIN Orders\n8ON Customers.customer_id = Orders.customer_id\n9WHERE Customers.city = 'New York';"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see customers from New York and the products they purchase."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's reinforce what you've learned with a quiz and practice exercise."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

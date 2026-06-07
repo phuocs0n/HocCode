@@ -1,0 +1,55 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/turning-entry-card-into-component?page=9",
+  "title": "File Organization",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "File Organization"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what your src folder should look like now:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "src/\n\n├── App.jsx\n\n├── EntryCard.jsx\n\n├── index.jsx\n\n└── ..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Later, as you add more components, you might want to create a components folder:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "src/\n\n├── components/\n\n│   ├── EntryCard.jsx\n\n│   ├── JournalForm.jsx\n\n│   └── ...\n\n├── App.jsx\n\n└── index.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, keeping everything in src is fine. Don't over-organize early."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

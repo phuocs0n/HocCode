@@ -1,0 +1,135 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-html/html-title?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct way to write the title of a webpage?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<h1>Title Content</h1>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <h1> tag defines the heading 1 element of a webpage."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <h1> tag defines the heading 1 element of a webpage."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<head>Title Content</head>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <head> tag defines the head section of a page. We define the title element inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <head> tag defines the head section of a page. We define the title element inside it."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<title>Title Content</title>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <title> tag to define the title of a page."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <title> tag to define the title of a page."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<t1>Title Content</t1>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such tag as <t1> in HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such tag as <t1> in HTML."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct way to write the title of a webpage?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<h1>Title Content</h1>",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<h1>Title Content</h1>",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<head>Title Content</head>",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<head>Title Content</head>",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:<title>Title Content</title>",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "<title>Title Content</title>",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<t1>Title Content</t1>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<t1>Title Content</t1>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

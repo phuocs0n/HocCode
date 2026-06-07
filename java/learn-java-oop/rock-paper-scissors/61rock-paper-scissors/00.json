@@ -1,0 +1,89 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors?page=1",
+  "title": "Project Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Project Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this project, we will create a simple game called rock paper scissors by creating objects. So be sure to revise objects and classes before you proceed."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Working of the game"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you don't know, here's how the game works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "This game is played between two players.",
+        "Each player can choose either rock or paper or scissors.",
+        "If both players choose the same thing, it's a draw."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if the players choose different things, one will win and the other will lose. The rule is:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "rock - scissors: rock will win (rock crushes scissors)",
+        "rock - paper: paper will win (paper covers rock)",
+        "scissors - paper: scissors win (scissors cuts paper)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how our project works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "This game will be played between the computer and the user.",
+        "The computer will randomly pick either rock, paper, or scissors. The user will not know what the computer picks.",
+        "The user will be asked to choose either rock, paper, or scissors.",
+        "We will compare the computer's pick and the user's pick and decide whether the user won or lost or drew."
+      ]
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/portfolio-website?page=5",
+  "title": "Global Reset",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Global Reset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by resetting the browser's default styles."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you recall how to do this, feel free to apply your own code; otherwise, use the snippet below:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's import the fonts you'll use in this project and set up a basic image style to make it easier to deal with images."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

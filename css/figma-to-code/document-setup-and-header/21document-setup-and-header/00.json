@@ -1,0 +1,67 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/figma-to-code/document-setup-header?page=1",
+  "title": "Creating the Basic Document 🆕",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating the Basic Document 🆕"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every website starts with a basic HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's not exciting, but it matters more than people think. A clean document structure makes everything else predictable and easier to reason about as the project grows."
+    },
+    {
+      "type": "paragraph",
+      "content": "At this stage, we're not thinking about layout or styling. We're just setting up the foundation so the rest of the work has something solid to sit on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a new HTML file named index.html for this project."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Add a valid HTML5 document structure to index.html."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your file must include:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the <!DOCTYPE html> declaration",
+        "the <html> element with lang=\"en\"",
+        "a <head> section with a <title> set to My Portfolio.",
+        "a <body> section (can be empty for now)"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

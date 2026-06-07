@@ -1,0 +1,43 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/lives-reset?page=3",
+  "title": "Detect the Ball Falling Out ⬇️",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Detect the Ball Falling Out ⬇️"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add the out-of-bounds check so losing the ball actually has a consequence."
+    },
+    {
+      "type": "paragraph",
+      "content": "In game.js, add a checkBallOutOfBounds() method that calls this.loseLife() when this.ball.y - this.ball.radius > CANVAS_HEIGHT."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Call this.checkBallOutOfBounds() at the end of Game.update().",
+        "Add an empty loseLife() stub for now — it will be implemented in the next step."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "\"use strict\";"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

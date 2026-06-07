@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/rabinkarp-string-matching-algorithm?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the primary purpose of the rolling hash technique in the Rabin-Karp algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To compare every substring with the pattern."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The rolling hash technique is not designed for comparing every substring individually."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rolling hash technique is not designed for comparing every substring individually."
+    },
+    {
+      "type": "paragraph",
+      "content": "To eliminate the need for hashing."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The rolling hash technique does not aim to eliminate the role of hashing; it is a fundamental aspect of efficient hashing in Rabin-Karp."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rolling hash technique does not aim to eliminate the role of hashing; it is a fundamental aspect of efficient hashing in Rabin-Karp."
+    },
+    {
+      "type": "paragraph",
+      "content": "To introduce randomness into hash calculations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The rolling hash technique in Rabin-Karp is about systematic and efficient hash value recalculation rather than randomness."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rolling hash technique in Rabin-Karp is about systematic and efficient hash value recalculation rather than randomness."
+    },
+    {
+      "type": "paragraph",
+      "content": "To continuously recalculate hash values for substrings."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The central purpose of the rolling hash technique is to recalculate hash values for substrings efficiently."
+    },
+    {
+      "type": "paragraph",
+      "content": "The central purpose of the rolling hash technique is to recalculate hash values for substrings efficiently."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the primary purpose of the rolling hash technique in the Rabin-Karp algorithm?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To compare every substring with the pattern.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To compare every substring with the pattern.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To eliminate the need for hashing.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To eliminate the need for hashing.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To introduce randomness into hash calculations.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To introduce randomness into hash calculations.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To continuously recalculate hash values for substrings.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To continuously recalculate hash values for substrings.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

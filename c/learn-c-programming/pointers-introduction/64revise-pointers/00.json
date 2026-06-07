@@ -1,0 +1,89 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-pointers?page=1",
+  "title": "Tóm tắt con trỏ",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tóm tắt con trỏ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy ôn lại những gì chúng ta đã học trong chương này:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Địa chỉ bộ nhớ"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number cung cấp địa chỉ của biến số. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 32;\n6\n7  // use of %p to print the address\n8  printf(\"%p\", &number);\n9}\n10\n11// Output: 0x7ffe61e30e94"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Biến con trỏ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Biến con trỏ được sử dụng để lưu trữ địa chỉ bộ nhớ của biến. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 32;\n6  \n7  // pt is a pointer variable that stores\n8  // memory address of number\n9  int* pt = &number;\n10  printf(\"%p\", pt);\n11}\n12\n13// Output: 0x7ffce681f5ec"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Truy cập giá trị bằng con trỏ"
+    },
+    {
+      "type": "paragraph",
+      "content": "*pt truy cập giá trị được trỏ bởi địa chỉ được lưu trong con trỏ pt. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 32;\n6  \n7  // pt is a pointer variable that stores\n8  // memory address of number\n9  int* pt = &number;\n10  \n11  // value pointed by pt\n12  printf(\"%d\", *pt);\n13}\n14\n15// Output: 32"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta cũng có thể sử dụng con trỏ với mảng và hàm mà chúng ta sẽ sửa đổi bằng các ví dụ sau."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Thêm 10 vào mỗi phần tử của mảng",
+        "Thực hành: Nhân mỗi phần tử của mảng với N",
+        "Cộng hai số bằng hàm",
+        "Luyện tập: Chia hai số bằng hàm"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/behavior-of-await-keyword?page=3",
+  "title": "await vs .then()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "await vs .then()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Functionally, await and .then() do the exact same things. But the way they read is totally different."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can verify it by examining the two equivalent codes below:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Code 1: Asynchronous Code with .then()"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function to load user posts \n2function loadUserPosts(userId) {\n3  // Fetch user data\n4  return simulateFetchUser(`https://api.programiz.pro/demo/javascript/users/${userId}`)\n5    .then(user => {\n6      console.log(\"User name is:\", user.name);\n7      // Fetch posts data for the user\n8      return simulateFetchPosts(`https://api.programiz.pro/demo/javascript/posts?userId=${userId}`);\n9    })\n10    .then(posts => {\n11      console.log(\"The posts length is:\", posts.length);\n12      return posts;\n13    })\n14    .catch(error => {\n15      console.error(error);\n16    });\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Code 2: Asynchronous Code with async / await"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function to load user posts using async/await\n2async function loadUserPosts(userId) {\n3  try {\n4    // Fetch user data using await\n5    const user = await simulateFetchUser(`https://jsonplaceholder.typicode.com/users/${userId}`);\n6    console.log(\"User name is:\", user.name);\n7\n8    // Fetch posts data for the user using await\n9    const posts = await simulateFetchPosts(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`);\n10    console.log(\"The posts length is:\", posts.length);\n11\n12    return posts;\n13  }\n14  catch (error) {\n15    console.error(error);\n16  }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both fetch the user, display their name, fetch their posts, and display the count."
+    },
+    {
+      "type": "paragraph",
+      "content": "But the await version reads like a story: you see the sequence; you see the dependencies."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is why await exists: not for new functionality but for clarity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

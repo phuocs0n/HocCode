@@ -1,0 +1,51 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/control-flow-examples?page=6",
+  "title": "Print Multiplication Table (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Multiplication Table (II)"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 9;\n6\n7  // Iterate loop from 1 to 5\n8  for (int i = 1; i <= 5; ++i) {\n9\n10    // Compute product in each iteration\n11    // Product will be 9 * 1 in first iteration\n12    // 9 * 2 in second iteration and so on\n13    int product = number * i;\n14\n15    printf(\"%d\\n\", product);\n16  }\n17\n18return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "9\n18\n27\n36\n45"
+    },
+    {
+      "type": "paragraph",
+      "content": "The output we got is close to the desired output but not the same. Let's fix it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

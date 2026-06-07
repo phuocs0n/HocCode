@@ -1,0 +1,79 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/calculate-cost-price?page=1",
+  "title": "Calculate Cost Price",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculate Cost Price"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the cost price given selling price and profit percentage."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to calculate the cost price is"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "cost_price = (selling_price * 100.0) / (100 + profit_percent)"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take double inputs for the variables selling_price and profit_percent.",
+        "Use the formula to compute the cost price.",
+        "Print the cost price."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input2000\n5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1904.76"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

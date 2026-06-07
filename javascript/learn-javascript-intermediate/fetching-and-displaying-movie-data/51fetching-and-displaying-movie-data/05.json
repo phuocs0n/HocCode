@@ -1,0 +1,54 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/fetching-displaying-movie-data?page=6",
+  "title": "Step 4: Get High-rated Movies",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Get High-rated Movies"
+    },
+    {
+      "type": "paragraph",
+      "content": "To filter movies based on their rating, we implement the getHighRatedMovies() function."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "// function to get high-rated movie names\nfunction getHighRatedMovies(movies){\n     return movies\n        .filter(movie => movie.rating >= 9)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand how this function works."
+    },
+    {
+      "type": "paragraph",
+      "content": "This function takes data as an argument, which is JSON data containing the list of movie names and their ratings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we filter the array to include only movies with a rating of 9 or higher using filter method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

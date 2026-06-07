@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/passing-entry-data-with-props?page=3",
+  "title": "Pass Props to EntryCard",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pass Props to EntryCard"
+    },
+    {
+      "type": "paragraph",
+      "content": "In App.jsx, we'll pass title, date, and content to EntryCard:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import Header from \"./Header\";\nimport EntryCard from \"./EntryCard\";\n\nfunction App() {\n  return (\n    <div>\n      <Header />      \n\n      <EntryCard \n        title=\"First Day at the Job\"\n        date=\"February 10, 2026\"\n        content=\"Today was my first day at the new job. Everyone was welcoming and helpful.\"\n      />\n\n    </div>\n  );\n}\n\nexport default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "You're passing three props: title, date, and content. These are like function arguments, but written as attributes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

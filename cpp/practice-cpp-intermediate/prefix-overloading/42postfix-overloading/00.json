@@ -1,0 +1,90 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/postfix--overloading?page=1",
+  "title": "Postfix ++ Overloading",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Postfix ++ Overloading"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to overload the ++ operator as a postfix."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a Rectangle class with integer variables length and breadth.",
+        "Overload the ++ operator as a postfix using the operator() function. Make sure the function returns a Rectangle object.",
+        "Inside this function, create a Rectangle object temp.",
+        "Then, use the postfix ++ to increment the length and breadth variables.",
+        "Store the values in temp.length and temp.breadth, respectively.",
+        "Finally, return the temp object."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), create two Rectangle objects rect1 and rect2.",
+        "Get integer inputs for rect1.length and rect1.breadth.",
+        "Use the overloaded postfix ++ operator on rect1 and store its return value in the rect2 object.",
+        "Print the length and breadth variables of rect1 and rect2 in separate lines."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input6\n4"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output7\n5\n6\n4"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

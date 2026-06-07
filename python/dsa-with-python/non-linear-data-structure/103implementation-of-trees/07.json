@@ -1,0 +1,67 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-trees?page=8",
+  "title": "Source Code: Implementation of Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Implementation of Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try including a print statement for what happened in each constructor for every class."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# a class to create and add nodes\n2class TreeNode:\n3    def __init__(self, data):\n4        self.data = data\n5        self.children = []\n6        print(f'Node {self.data} was created')\n7\n8    def add_child(self, child):\n9        self.children.append(child)\n10        print(f'Node {child.data} was added as child to Node {self.data}')\n11\n12# a class to create tree and perform tree operations\n13class Tree:\n14    def __init__(self, root=None):\n15        self.root = root\n16        print(\"A tree was created\")\n17\n18# create the root node\n19root = TreeNode(\"Book\")\n20\n21# create children of root\n22child1 = TreeNode(1)\n23child2 = TreeNode(2)\n24child3 = TreeNode(3)\n25\n26# create leaf nodes\n27child1_1 = TreeNode(1.1)\n28child1_2 = TreeNode(1.2)\n29child1_3 = TreeNode(1.3)\n30child1_4 = TreeNode(1.4)\n31child2_1 = TreeNode(2.1)\n32child3_1 = TreeNode(3.1)\n33child3_2 = TreeNode(3.2)\n34child3_3 = TreeNode(3.3)\n35\n36# describe relationships between the nodes\n37# and add children to the root node\n38root.add_child(child1)\n39root.add_child(child2)\n40root.add_child(child3)\n41\n42# add children to child1\n43child1.add_child(child1_1)\n44child1.add_child(child1_2)\n45child1.add_child(child1_3)\n46child1.add_child(child1_4)\n47\n48# add children to child2\n49child2.add_child(child2_1)\n50\n51# add children to child3\n52child3.add_child(child3_1)\n53child3.add_child(child3_2)\n54child3.add_child(child3_3)\n55\n56# create the tree\n57general_tree = Tree(root)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Node Book was created\nNode 1 was created\nNode 2 was created\nNode 3 was created\nNode 1.1 was created\nNode 1.2 was created\nNode 1.3 was created\nNode 1.4 was created\nNode 2.1 was created\nNode 3.1 was created\nNode 3.2 was created\nNode 3.3 was created\nNode 1 was added as child to Node Book\nNode 2 was added as child to Node Book\nNode 3 was added as child to Node Book\nNode 1.1 was added as child to Node 1\nNode 1.2 was added as child to Node 1\nNode 1.3 was added as child to Node 1\nNode 1.4 was added as child to Node 1\nNode 2.1 was added as child to Node 2\nNode 3.1 was added as child to Node 3\nNode 3.2 was added as child to Node 3\nNode 3.3 was added as child to Node 3\nA tree was created"
+    },
+    {
+      "type": "paragraph",
+      "content": "From this output, it's clear that our tree was created and the child nodes were added confirming that our code is correct but incomplete."
+    },
+    {
+      "type": "paragraph",
+      "content": "To complete our code, we will need to incorporate methods for traversal like we did in previous data structures."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since non-linear data structures offer multiple traversal paths, let's first focus on performing basic operations on our tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "But before that, let's make sure you're comfortable with everything we've covered so far."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

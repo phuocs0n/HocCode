@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/array?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to create an array in Java?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "int[] numbers = {1, 2, 3, 4, 5};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This creates an integer array named numbers with 5 elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This creates an integer array named numbers with 5 elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "int numbers = {1, 2, 3, 4, 5};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the [] symbol while creating an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the [] symbol while creating an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "int[] numbers = [1, 2, 3, 4, 5];"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the curly braces for array elements, not square brackets."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the curly braces for array elements, not square brackets."
+    },
+    {
+      "type": "paragraph",
+      "content": "All of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is the correct answer."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to create an array in Java?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:int[] numbers = {1, 2, 3, 4, 5};",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "int[] numbers = {1, 2, 3, 4, 5};",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:int numbers = {1, 2, 3, 4, 5};",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "int numbers = {1, 2, 3, 4, 5};",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:int[] numbers = [1, 2, 3, 4, 5];",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "int[] numbers = [1, 2, 3, 4, 5];",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

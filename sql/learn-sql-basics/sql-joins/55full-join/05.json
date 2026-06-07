@@ -1,0 +1,50 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/full-join?page=6",
+  "title": "Example 2: Identifying Unmatched Customers and Purchases",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Identifying Unmatched Customers and Purchases"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find records where customers have no purchases or purchases have no customers, you need to combine all records from both tables and filter for unmatched entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, you can use a FULL JOIN and then check for NULL values in the relevant columns to identify the unmatched records."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Use FULL JOIN to find unmatched\n2-- customers or purchases\n3\n4SELECT Customers.customer_name, Orders.product_name\n5FROM Customers\n6FULL JOIN Orders \n7ON Customers.customer_id = Orders.customer_id\n8WHERE Customers.customer_id IS NULL OR Orders.product_name IS NULL;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you've explored LEFT JOIN, RIGHT JOIN, and FULL JOIN in detail, let's move forward with an example that demonstrates how a FULL JOIN effectively combines the results of both LEFT JOIN and RIGHT JOIN."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,184 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/arithmetic-operators?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n    public static void main(String[] args) {\n        int x = -1;\n        int y = 10;\n        System.out.println(y + x);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "11"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "10 - 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement first computes the sum of y and x and then prints the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement first computes the sum of y and x and then prints the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "-9"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not -9."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not -9."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement first computes the sum of y and x and then prints the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement first computes the sum of y and x and then prints the result."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not -9."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 10 and -1 is not -9."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:11",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:9",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:10 - 1",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "10 - 1",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:-9",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "-9",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

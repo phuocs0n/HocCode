@@ -1,0 +1,65 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction?page=5",
+  "title": "Simulating the Blog Page",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Simulating the Blog Page"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let me show you what happens when your code doesn't account for the waiting."
+    },
+    {
+      "type": "paragraph",
+      "content": "I'm going to simulate the process of fetching articles using a function that takes some time to complete. This represents what happens when you ask a server for data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a look at the code from our playground."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, https://programiz.pro/ide/html/LL1RWTJQVU"
+    },
+    {
+      "type": "paragraph",
+      "content": "It simulates how our blog might wait for articles to load."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now try to interact with the page while it's \"loading\". Try to click the button again. Try to select some text."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can't! The entire page is frozen for 3 seconds."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is extremely inconvenient for our users. But it's easy to see why this is happening once you understand what's happening behind the scenes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

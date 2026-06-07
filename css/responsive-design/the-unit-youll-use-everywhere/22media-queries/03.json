@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/responsive-design/media-queries?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: When does a CSS rule inside @media (max-width: 48rem) { ... } apply?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only on mobile devices."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width doesn't detect device type, it only measures viewport width. A desktop browser window resized to 300px would trigger it too."
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width doesn't detect device type, it only measures viewport width. A desktop browser window resized to 300px would trigger it too."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the viewport width is 48rem or narrower."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width means \"at this width or less\" so the rule applies when the viewport is 48rem or narrower."
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width means \"at this width or less\" so the rule applies when the viewport is 48rem or narrower."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the viewport is exactly 48rem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's not an exact match. max-width means \"this wide or narrower\" so anything up to and including 48rem triggers it."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's not an exact match. max-width means \"this wide or narrower\" so anything up to and including 48rem triggers it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only when the user has set a small font size."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Font size is a separate CSS concept. @media (max-width) reads the viewport's pixel width, it has nothing to do with what font the user has set."
+    },
+    {
+      "type": "paragraph",
+      "content": "Font size is a separate CSS concept. @media (max-width) reads the viewport's pixel width, it has nothing to do with what font the user has set."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: When does a CSS rule inside @media (max-width: 48rem) { ... } apply?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Only on mobile devices.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Only on mobile devices.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:When the viewport width is 48rem or narrower.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "When the viewport width is 48rem or narrower.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:When the viewport is exactly 48rem.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "When the viewport is exactly 48rem.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Only when the user has set a small font size.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Only when the user has set a small font size.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

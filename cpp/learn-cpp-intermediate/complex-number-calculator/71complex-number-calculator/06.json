@@ -1,0 +1,76 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/complex-number-calculator?page=7",
+  "title": "Step 4: Adding the main() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Adding the main() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's add the main() function and test our Complex class. In main(), we will:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two objects complex1 and complex2.",
+        "Add the two objects and display the result.",
+        "Then, multiply the two objects and display the result."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3#include <cmath>\n4\n5using namespace std;\n6\n7class Complex {\n8private:\n9\n10    // attributes\n11    double real;\n12    double imag;\n13\n14public:\n15    \n16    // constructor to initialize variables with default values\n17    Complex() : real(0.0), imag(0.0) {}\n18    \n19    // constructor to initialize variables with custom values\n20    Complex(double r, double i) : real(r), imag(i) {}\n21    \n22    // overload the + operator\n23    Complex operator + (Complex arg) {\n24        \n25        Complex complex_sum;\n26        \n27        // add the real and imaginary parts separately\n28        complex_sum.real = this->real + arg.real;\n29        complex_sum.imag = this->imag + arg.imag;\n30        \n31        return complex_sum;\n32    }\n33    \n34    // overload the - operator\n35    Complex operator - (Complex arg) {\n36        \n37        Complex complex_difference;\n38        \n39        // subtract the real and imaginary parts\n40        complex_difference.real = this->real - arg.real;\n41        complex_difference.imag = this->imag - arg.imag;\n42        \n43        return complex_difference;\n44    }\n45    \n46    // overload the * operator\n47    Complex operator * (Complex arg) {\n48        \n49        Complex complex_product;\n50        \n51        // use complex multiplication formula\n52        complex_product.real = (this->real * arg.real) - (this->imag * arg.imag);\n53        complex_product.imag = (this->real * arg.imag) + (this->imag * arg.real);\n54        \n55        return complex_product;\n56    }\n57    \n58    // overload the / operator\n59    Complex operator / (Complex arg) {\n60        \n61        Complex complex_division;\n62        double denominator = pow(arg.real, 2) + pow(arg.imag, 2);\n63            \n64        // use complex division formula\n65        complex_division.real = ((this->real * arg.real) + (this->imag * arg.imag)) / denominator;\n66        complex_division.imag = ((this->imag * arg.real) - (this->real * arg.imag)) / denominator;\n67        \n68        return complex_division;\n69    }\n70    \n71    // method to return the result\n72    string get_result() {\n73    \n74        string result;\n75       \n76        if (imag == 0) {\n77            result = to_string(real);\n78        }\n79        else if (imag < 0) {\n80            result = to_string(real) + \" - \" + to_string(abs(imag)) + \"i\";\n81        }\n82        else {\n83            result = to_string(real) + \" + \" + to_string(imag) + \"i\";\n84        }\n85        \n86        return result;\n87    }\n88};\n89\n90\n91int main() {\n92    \n93    Complex complex1(5, -10);\n94    Complex complex2(3, 6);\n95    \n96    // add complex1 and complex2\n97    Complex total = complex1 + complex2;\n98\n99    cout << \"Sum = \" << total.get_result() << endl;\n100    \n101    // multiply complex1 and complex2\n102    Complex product = complex1 * complex2;\n103\n104    cout << \"Product = \" << product.get_result() << endl;\n105    \n106    return 0;\n107}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum = 8.000000 - 4.000000i\nProduct = 75.000000"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used the overloaded + and * operators to add and multiply the complex1 and complex2 objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that our output consists of decimal numbers containing 6 digits after the decimal point. This is the default format in which the to_string() function converts double values."
+    },
+    {
+      "type": "paragraph",
+      "content": "While we can fix the format of this output, it is beyond the scope of this course. Instead, we will focus on handling an obvious exception that can occur during division."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

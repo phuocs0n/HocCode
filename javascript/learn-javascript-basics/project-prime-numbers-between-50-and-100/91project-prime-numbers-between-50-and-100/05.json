@@ -1,0 +1,55 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/building-logic?page=6",
+  "title": "Handling Remaining Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handling Remaining Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's handle the case for numbers less than or equal to 1. For these, we'll return false since numbers less than 1 are not prime."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "if (number <= 1) {\n    return false;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll use this logic inside the function to determine whether a number is prime. The complete function will include additional checks and will look like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const checkPrime = (number) => {\n    // If number is less than 2, it's not a prime number\n    if (number <= 1) {\n        return false;\n    }\n\n    if (number > 1) {\n        for (let i = 2; i < number; i++) {\n            if (number % i === 0) {\n                return false;\n            }\n        }\n        return true;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's use this function to check if a number entered by the user is prime or not."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/turning-entry-card-into-component?page=5",
+  "title": "How It Works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How It Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "When React sees <EntryCard />, it calls the EntryCard() function and renders whatever JSX it returns."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, EntryCard() always returns the same thing: \"Entry Title\", \"Date\", etc. That's not useful yet. You need to pass data to it. You'll do that with props in the next lesson."
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, focus on the structure:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "You create a function that returns JSX",
+        "You export it from the file",
+        "You import it in another file",
+        "You use it like an HTML tag"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's all a component is."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

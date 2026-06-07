@@ -1,0 +1,64 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/adding-new-entry?page=6",
+  "title": "Creating the handleSubmit() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating the handleSubmit() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before fully handling the form submission, we first need to code the foundations that'll deal with this task."
+    },
+    {
+      "type": "paragraph",
+      "content": "This \"foundation\" is a helper function we'll code inside the JournalForm() function. Let's name it handleSubmit():"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function handleSubmit(e) {\n  e.preventDefault();\n\n  if (title.trim() === \"\" || content.trim() === \"\") return;\n\n  onAddEntry(title, content);\n\n  setTitle(\"\");\n  setContent(\"\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "handleSubmit(e) is the function that runs when the user clicks Add Entry, and it receives the event object e as an argument.",
+        "This function is attached to the form via onSubmit={handleSubmit}.",
+        "Inside this function, e.preventDefault() stops the browser from reloading the page on submit.",
+        "We only add an entry if both title and content have some non-whitespace text.",
+        "After adding, we clear the form with setTitle(\"\") and setContent(\"\")."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "With the foundation now set, let's move on to fully processing the form submissions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

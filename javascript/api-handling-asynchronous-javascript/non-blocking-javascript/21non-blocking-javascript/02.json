@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/nonblocking-javascript?page=3",
+  "title": "The setTimout() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The setTimout() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "At first glance, setTimeout() looks like a JavaScript feature — it is not!"
+    },
+    {
+      "type": "paragraph",
+      "content": "setTimeout() is a Web API provided by the runtime environment (browser or Node.js), and is not part of the JavaScript language itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript only knows how to call it, so the waiting is handled outside JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "What is setTimeout()?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The setTimeout() function lets you execute a piece of code after the timer has expired. Basically, you tell it what to do and how long to wait before doing it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Its syntax is:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "setTimeout(function, milliseconds);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "function - The code you want to run. It's also known as the callback function.",
+        "milliseconds - The delay before the code runs (in milliseconds)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll see how setTimeout() works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors?page=6",
+  "title": "Step 5: Decide win, lose, and draw",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 5: Decide win, lose, and draw"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "added the getResult() method to store the result of the game"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.util.Scanner;\n\nclass Game {\n\n    String getComputerPick() {\n\n        String computerPick;\n        // get an integer from 1 to 3\n        int randomNumber = (int) (Math.random() * 3) + 1;\n\n        if (randomNumber == 1) {\n            computerPick = \"rock\";\n        }\n\n        else if (randomNumber == 2) {\n            computerPick = \"paper\";\n        }\n\n        else {\n            computerPick = \"scissors\";\n        }\n\n        return computerPick;\n    }\n\n    String getUserPick() {\n\n        Scanner input = new Scanner(System.in);\n\n        String userPick;\n\n        // get input until user enters \"rock\", \"paper\" or \"scissors\"\n        while (true) {\n            System.out.println(\"Enter rock, paper or scissors:\");\n            userPick = input.nextLine();\n            if (userPick.equals(\"rock\") || userPick.equals(\"paper\") || userPick.equals(\"scissors\")) {\n                break;\n            }\n        }\n\n        return userPick;\n    }\n\n    // return either \"win\", \"lose\" or \"draw\"\n    String getResult(String userPick, String computerPick) {\n\n        // condition for user to draw\n        if (userPick.equals(computerPick)) {\n            return \"draw\";\n        }\n\n        // condition for user to win\n        else if (userPick.equals(\"paper\") && computerPick.equals(\"rock\")) {\n            return \"win\";\n        }\n\n        else if (userPick.equals(\"rock\") && computerPick.equals(\"scissors\")) {\n            return \"win\";\n        }\n\n        else if (userPick.equals(\"scissors\") && computerPick.equals(\"paper\")) {\n            return \"win\";\n        }\n\n        // all conditions results to loss\n        else {\n            return \"lose\";\n        }\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the getResult() method compares the computerPick and userPick and returns"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\"draw\" if the computer pick and the user pick are the same",
+        "\"win\" if the user wins using the rule we described earlier",
+        "\"lose\" if neither condition for draw and win is met"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

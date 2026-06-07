@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/prime-number?page=1",
+  "title": "Check Prime Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Prime Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check whether a number is prime or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "A prime number is a number that is only divisible by either 1 or itself. For example, 7, 5, 19, etc."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the variable number.",
+        "Create a flag variable with initial value 0.",
+        "Run a loop from 2 to number - 1 and check if number is divisible by any number between 2 to  number - 1.",
+        "If the number is divisible, change the value of flag to 1 and break the loop.",
+        "Outside the loop, check if the value of flag is 1. If true, print Not a Prime Number. Otherwise, print Prime Number."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input7"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputPrime Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

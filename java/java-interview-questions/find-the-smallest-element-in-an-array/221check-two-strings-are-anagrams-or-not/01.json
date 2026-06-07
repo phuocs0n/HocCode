@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-two-strings-are-anagrams-or-not?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To check if a given string is an anagram, check if both strings have same set of characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "First convert the given two strings to char arrays using the toCharArray() method",
+        "Sort the char arrays using the Arrays.sort() method.",
+        "Check if the sorted char arrays are equal using the Arrays.equals() method."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If the two character arrays are equal, it means the two strings are anagrams, else they are not."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

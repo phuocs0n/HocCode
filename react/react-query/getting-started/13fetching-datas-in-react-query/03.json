@@ -1,0 +1,183 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/fetching-datas-in-react-query?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which value from useQuery tells you the fetch is still in progress?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "isError"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "isError tells you something went wrong, not that it's still loading."
+    },
+    {
+      "type": "paragraph",
+      "content": "isError tells you something went wrong, not that it's still loading."
+    },
+    {
+      "type": "paragraph",
+      "content": "isFetching"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Close, but isFetching covers background refetches too. isLoading is specifically for the very first fetch."
+    },
+    {
+      "type": "paragraph",
+      "content": "Close, but isFetching covers background refetches too. isLoading is specifically for the very first fetch."
+    },
+    {
+      "type": "paragraph",
+      "content": "isLoading"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "isLoading is true while queryFn is still running for the first time."
+    },
+    {
+      "type": "paragraph",
+      "content": "isLoading is true while queryFn is still running for the first time."
+    },
+    {
+      "type": "paragraph",
+      "content": "isPending"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "isPending is not a value returned by useQuery."
+    },
+    {
+      "type": "paragraph",
+      "content": "isPending is not a value returned by useQuery."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "isError tells you something went wrong, not that it's still loading."
+    },
+    {
+      "type": "paragraph",
+      "content": "isError tells you something went wrong, not that it's still loading."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Close, but isFetching covers background refetches too. isLoading is specifically for the very first fetch."
+    },
+    {
+      "type": "paragraph",
+      "content": "Close, but isFetching covers background refetches too. isLoading is specifically for the very first fetch."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "isLoading is true while queryFn is still running for the first time."
+    },
+    {
+      "type": "paragraph",
+      "content": "isLoading is true while queryFn is still running for the first time."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "isPending is not a value returned by useQuery."
+    },
+    {
+      "type": "paragraph",
+      "content": "isPending is not a value returned by useQuery."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which value from useQuery tells you the fetch is still in progress?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:isError",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "isError",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:isFetching",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "isFetching",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:isLoading",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "isLoading",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:isPending",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "isPending",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

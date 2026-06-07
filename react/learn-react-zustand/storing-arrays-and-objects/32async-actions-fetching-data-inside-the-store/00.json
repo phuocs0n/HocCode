@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/async-actions--fetching-data-inside-store?page=1",
+  "title": "Fetching Data the Old Way",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Fetching Data the Old Way"
+    },
+    {
+      "type": "paragraph",
+      "content": "You have used useEffect to fetch data before. It looked something like this."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(() => {\n  fetch('https://api.programiz.pro/api/Demo/v1/journal-entries')\n    .then((res) => res.json())\n    .then((data) => setEntries(data))\n}, [])"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works. But the fetch logic lives inside the component. The component is doing everything — loading the data, handling errors, updating state."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is a lot for one component. And if two components need the same data you have a problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a better way."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see how to move the fetch into the store. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

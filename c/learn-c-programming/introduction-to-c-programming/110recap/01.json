@@ -1,0 +1,90 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-introduction?page=2",
+  "title": "Tóm tắt (tôi)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tóm tắt (tôi)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Kiểu dữ liệu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi bắt đầu bằng cách tìm hiểu các loại dữ liệu khác nhau:"
+    },
+    {
+      "type": "paragraph",
+      "content": "int: 1, 500, -90"
+    },
+    {
+      "type": "paragraph",
+      "content": "phao: 0,5, 67,8"
+    },
+    {
+      "type": "paragraph",
+      "content": "gấp đôi: 0,4567, 0,9789"
+    },
+    {
+      "type": "paragraph",
+      "content": "ký tự: 'a', 'Z',"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Biến"
+    },
+    {
+      "type": "paragraph",
+      "content": "Để lưu trữ và sử dụng những dữ liệu này sau này trong chương trình, bạn có thể lưu trữ chúng trong các biến."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4    \n5    float totalDistance = 89.5;\n6\n7    printf(\"The distance is %.1f\", totalDistance);\n8\n9    return 0;\n10}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Toán tử"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong lập trình, bạn thường cần thực hiện các phép tính trên các giá trị và biến chứ không chỉ in chúng ra. Để xử lý các phép tính toán học, chúng tôi sử dụng các toán tử."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4    \n5    float totalDistance = 89.5;\n6    float distanceTravelled = 23.5;\n7\n8    float remainingDistance = totalDistance - distanceTravelled;\n9\n10    printf(\"The remaining distance is:  %.1f\\n\", remainingDistance);\n11\n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Thông tin thêm về những gì bạn đã học được ở trang tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

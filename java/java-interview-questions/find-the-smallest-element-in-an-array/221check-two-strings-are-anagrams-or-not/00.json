@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-two-strings-are-anagrams-or-not?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given two non-empty strings. Write a program to check whether the two strings are anagrams or not. If they are anagrams print \"Anagram\" else print \"Not Anagrams\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Anagrams are those strings that have the same characters occurring an equal number of times in both the strings. For example"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text1 = listen\ntext2 = silent\noutput = Anagram\nreason = both text same set of characters"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text1 = night\ntext2 = thing\noutput = Anagram\nreason = both text same set of characters"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text1 = rice\ntext2 = nice\noutput = Not Anagram\nreason = both text don't same set of characters"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

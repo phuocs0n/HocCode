@@ -1,0 +1,187 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/lists?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose you need a list to describe the steps for installing software."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which type of list should you use in this case?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unordered list (<ul>)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should not use an unordered list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should not use an unordered list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ordered list (<ol>)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should use an ordered list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should use an ordered list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Magic list (<ml>)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such list in HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such list in HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should not use an unordered list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should not use an unordered list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should use an ordered list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the order of items is important in this case, we should use an ordered list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such list in HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no such list in HTML."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose you need a list to describe the steps for installing software.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Unordered list (<ul>)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Unordered list (<ul>)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Ordered list (<ol>)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Ordered list (<ol>)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Magic list (<ml>)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Magic list (<ml>)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

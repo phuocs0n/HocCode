@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/python-booleans?page=2",
+  "title": "Booleans",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Booleans"
+    },
+    {
+      "type": "paragraph",
+      "content": "A boolean is a data type, like integers, floating-point numbers, and strings."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, unlike numbers and strings, which can represent many values, booleans can only have one of two possible values: True or False. Let's look at an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1result1 = True\n2result2 = False\n3\n4print(result1)\n5print(result2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "True\nFalse"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you're wondering why the above code runs without errors, the examples on the next page will clear your doubts."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

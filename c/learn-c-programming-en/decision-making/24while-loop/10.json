@@ -1,0 +1,85 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=11",
+  "title": "Example: Print Numbers From 1 to 5 (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Print Numbers From 1 to 5 (III)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the program runs in each iteration of the loop."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Variable",
+          "count <= 5",
+          "Body of loop"
+        ],
+        [
+          "count = 1",
+          "true",
+          "count is increased to 2.\nCount = 2 is printed."
+        ],
+        [
+          "count = 2",
+          "true",
+          "count is increased to 3.\nCount = 3 is printed."
+        ],
+        [
+          "count = 3",
+          "true",
+          "count is increased to 4.\nCount = 4 is printed."
+        ],
+        [
+          "count = 4",
+          "true",
+          "count is increased to 5.\nCount = 5 is printed."
+        ],
+        [
+          "count = 5",
+          "true",
+          "count is increased to 6.\nCount = 6 is printed."
+        ],
+        [
+          "count = 6",
+          "false",
+          "The loop terminates."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Tip: We highly recommend you compare this program with the program we wrote previously."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's test your understanding with a quiz and practice next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

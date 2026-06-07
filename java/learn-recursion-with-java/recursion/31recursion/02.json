@@ -1,0 +1,85 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/recursion?page=3",
+  "title": "Infinite Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Infinite Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a slight modification to the program we previously wrote:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static void printNumbers(int n) {\n4\n5        System.out.println(n);\n6        \n7        // Argument is decreased by 1 in each recursive call\n8        printNumbers(n - 1);\n9    }\n10\n11    public static void main(String[] args) {\n12\n13        // Initial method call\n14        printNumbers(100);\n15    }\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "100\n99\n98\n97\n96\n..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have initially called the printNumbers() method with 100 as an argument. The method prints the value and calls itself recursively with n - 1 (which is 99) as the argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's look at what happens during each recursive call."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. First Recursive Call"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 99, which is printed.",
+        "printNumbers(98) is called."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Second Recursive Call"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 98, which is printed.",
+        "printNumbers(97) is called."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Essentially, the value of the argument is reduced by one in each subsequent method call."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

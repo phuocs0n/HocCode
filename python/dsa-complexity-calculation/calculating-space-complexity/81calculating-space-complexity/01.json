@@ -1,0 +1,106 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/calculating-space-complexity?page=2",
+  "title": "Linear Space Complexity: O(n)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Linear Space Complexity: O(n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "An algorithm has linear space complexity if the amount of memory required to execute is linearly proportional to the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take an example:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def find_sum(numbers):\n2    total = 0\n3    for i in numbers:\n4        # add i to total\n5        total = total + i\n6    return total\n7\n8print(find_sum([1,2,3,4]))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "10"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's find the space complexity of the find_sum() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since space complexity is about memory usage in relation to the input size, we need to look at the input size to calculate space complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above program,"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Variables",
+          "Input Size"
+        ],
+        [
+          "numbers",
+          "n (as the list can hold n elements)"
+        ],
+        [
+          "sum",
+          "1 (sum can hold 1 element)"
+        ],
+        [
+          "i",
+          "1 (sum can hold 1 element)"
+        ]
+      ]
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Space Complexity of find_sum() = n + 1 + 1\n                               = n + 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "By frequency count method, we drop the constants and get:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Space complexity = O(n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "This means, if the input size increases, the space complexity also increases linearly—just like time complexity does."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/control-flow-examples?page=3",
+  "title": "Kiểm tra năm nhuận (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Kiểm tra năm nhuận (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy cùng khám phá một cách tiếp cận để thực hiện logic này."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int year = 2000;\n6\n7  // If divisible by 400, it's a leap year\n8  if (year % 400 == 0) {\n9    printf(\"Leap Year\");\n10  }\n11\n12  // At this point, we know it's not divisible by 400\n13  // If it's a century year, it's not a leap year\n14  else if (year % 100 == 0) {\n15    printf(\"Not a Leap Year\");\n16  }\n17  \n18  // At this point we know it's not a century year\n19  // If a non century year is divisible by 4,\n20  // It's a leap year\n21  else if (year % 4 == 0) {\n22    printf(\"Leap Year\");\n23  }\n24\n25  // All other remaining years are not a leap year\n26  else {\n27    printf(\"Not a Leap Year\");\n28  }\n29\n30return 0;\n31}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo chúng ta hãy khám phá một biến thể của chương trình này."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

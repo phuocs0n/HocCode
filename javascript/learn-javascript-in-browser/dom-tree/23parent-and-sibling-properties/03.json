@@ -1,0 +1,61 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/parent-sibling-properties?page=4",
+  "title": "Example: parentElement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: parentElement"
+    },
+    {
+      "type": "paragraph",
+      "content": "To achieve this, you can use the parentElement property:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2<h1>Price List</h1>\n3<ul id=\"price-list\">\n4    <li class=\"item\">Milk <span>$2.50</span> <button class=\"update\">Remove</button></li>\n5    <li class=\"item\">Bread <span>$1.50</span> <button class=\"update\">Remove</button></li>\n6    <li class=\"item\">Toothpaste <span>$3.00</span> <button class=\"update\">Remove</button></li>\n7</ul>\n8</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    padding: 0;\n4    box-sizing: border-box;\n5}\n6\n7body {\n8    font-family: Arial, sans-serif;\n9    display: flex;\n10    justify-content: center;\n11    background-color: #f5f5f5;\n12}\n13\n14.container {\n15    width: 100%;\n16    max-width: 400px;\n17}\n18\n19h1 {\n20    color: #1a237e;\n21    font-size: 24px;\n22    margin: 16px;\n23}\n24\n25#price-list {\n26    background-color: white;\n27    border: 1px solid #e0e0e0;\n28    border-radius: 8px;\n29}\n30\n31.item {\n32    padding: 12px;\n33    font-size: 18px;\n34    color: #1a237e;\n35    border-top: 1px solid #ddd;\n36    display: flex;\n37    justify-content: space-between;\n38    align-items: center;\n39}\n40\n41.item:first-child {\n42    border-top: none;\n43}\n44\n45\n46button {\n47    font-family: Arial, sans-serif;\n48    padding: 6px 12px;\n49    font-size: 14px;\n50    color: white;\n51    background-color: #f44336;\n52    border: none;\n53    border-radius: 4px;\n54    cursor: pointer;\n55    margin-left: 16px;\n56}\n57\n58span {\n59    margin-left: auto;\n60}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Get all remove buttons\n2const removeButtons = document.querySelectorAll('.update');\n3\n4// Add an event listener to each button\n5removeButtons.forEach(button => {\n6    button.addEventListener('click', () => {\n7    // Get the parent <li> element\n8    const item = button.parentElement; \n9    // Remove the <li> element\n10    item.remove(); \n11    });\n12});"
+    },
+    {
+      "type": "paragraph",
+      "content": "See how you accessed the parent of the button to remove the li item. This shows you can move up the DOM tree to reach any level."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

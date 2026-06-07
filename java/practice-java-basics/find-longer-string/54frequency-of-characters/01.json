@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-java-basics/frequency-of-characters?page=1",
+  "title": "Frequency of Characters in String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Frequency of Characters in String"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the total occurrence of the character 'a' in a string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a char variable with value 'a'.",
+        "Get string input for the text variable.",
+        "Create a count variable to store the occurrence of character.",
+        "Run a for loop to access each character of the string.",
+        "Inside the loop, access each string character using the charAt() method.",
+        "Compare the character with the given character.",
+        "If there is a match, increase the value of count by 1.",
+        "Finally print the count."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputJava"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output2"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

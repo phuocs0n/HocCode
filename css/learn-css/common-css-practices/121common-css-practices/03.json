@@ -1,0 +1,54 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/common-css-practices?page=4",
+  "title": "Reset Browser Defaults",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Reset Browser Defaults"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every browser applies its default CSS rules to webpages, which can lead to inconsistencies in how your webpage appears across different devices."
+    },
+    {
+      "type": "paragraph",
+      "content": "Resetting these default styles helps ensure your webpage looks consistent and displays as intended across various browsers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Browsers commonly have default styles for properties like margin, padding, and box-sizing. You can reset these using the following code:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This reset overrides the browser's default styles, giving your designs a clean slate."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

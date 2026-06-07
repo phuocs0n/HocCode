@@ -1,0 +1,51 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/example-decimal-to-binary-conversion?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function findBinary(decimal) {\n2    if (decimal === 0) {\n3        return \"\";\n4    }\n5\n6    // Recursively divide decimal by 2\n7    // and concatenate remainder to the result\n8    return findBinary(Math.floor(decimal / 2)) + (decimal % 2).toString();\n9}\n10\n11let binaryRepresentation = findBinary(6);\n12console.log(binaryRepresentation);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "110"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll look at a visual representation of how the program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/namespaces?page=3",
+  "title": "Example: C++ namespace",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: C++ namespace"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4\n5// create namespace with double variable var\n6namespace my_namespace {\n7    double var;\n8}\n9\n10\n11int main() {\n12\n13    // initialize var of main()\n14    int var = 5;\n15    cout << \"main() var = \" << var << endl;\n16\n17\n18    // initialize var of my_namespace\n19    my_namespace::var = 5.55;\n20\n21    // print var of my_namespace\n22    cout << \"my_namespace var = \" << my_namespace::var << endl;\n23\n24\n25    return 0;\n26}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "main() var = 5\nmy_namespace var = 5.55"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created a namespace my_namespace where we have defined a double variable var."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have defined another var of int type in main(). By using the code my_namespace::var, we can use the variable of my_namespace alongside the variable in main()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, we can see that using the my_namespace namespace has prevented a naming conflict from appearing in our program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

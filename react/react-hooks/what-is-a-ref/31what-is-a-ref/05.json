@@ -1,0 +1,67 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-ref?page=6",
+  "title": "Choosing Between State and Ref",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Choosing Between State and Ref"
+    },
+    {
+      "type": "paragraph",
+      "content": "When to use state?"
+    },
+    {
+      "type": "paragraph",
+      "content": "If a change should update the screen. For example:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Displaying a live character count below a text input",
+        "Toggling a dropdown open or closed",
+        "Showing or hiding an error message after form validation",
+        "Updating a list of items when the user adds or removes one"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When to use ref?"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you just need to remember a value or access a DOM element without affecting the render. For example:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Focusing an input field on page load",
+        "Storing a timer ID so you can clear it later",
+        "Keeping track of a previous scroll position",
+        "Holding a reference to a third-party library instance (like a chart or map)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

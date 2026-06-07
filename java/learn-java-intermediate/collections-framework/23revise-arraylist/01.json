@@ -1,0 +1,94 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/revise-arraylist?page=2",
+  "title": "Create an ArrayList from another Arraylist",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create an ArrayList from another Arraylist"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can create an ArrayList with elements from an existing ArrayList. We use addAll() method to add all the elements of an arraylist to another arraylist. Let's see an example:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2\n3class Main {\n4    public static void main(String[] args) {\n5\n6        // create an arraylist of asianCountries\n7        ArrayList<String> asianCountries = new ArrayList<>();\n8        asianCountries.add(\"Nepal\");\n9        asianCountries.add(\"China\");\n10        asianCountries.add(\"India\");\n11        System.out.println(\"Asian Countries: \" + asianCountries);\n12\n13        // create another arraylist of countries\n14        ArrayList<String> countries = new ArrayList<>();\n15\n16       // add all elements from asianCountries to countries\n17       countries.addAll(asianCountries);\n18\n19        System.out.println(\"Countries: \" + countries);\n20    }\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Asian Countries: [Nepal, China, India]\nCountries: [Nepal, China, India]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created an arraylist with elements Nepal, China, and India. Then we created another arraylist countries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the line,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "countries.addAll(asianCountries);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the addAll() method adds all the elements from asianCountries to countries arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see one more example:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2\n3class Main {\n4    public static void main(String[] args) {\n5\n6        // create an arraylist of asianCountries\n7        ArrayList<String> asianCountries = new ArrayList<>();\n8\n9        // add elements to asianCountries\n10        asianCountries.add(\"Nepal\");\n11        asianCountries.add(\"China\");\n12        asianCountries.add(\"India\");\n13        System.out.println(\"Asian Countries: \" + asianCountries);\n14\n15        // create another arraylist of countries\n16        ArrayList<String> countries = new ArrayList<>();\n17\n18        // add elements to countries\n19        countries.add(\"USA\");\n20        countries.add(\"Canada\");\n21\n22        // add all elements from asianCountries to countries\n23        countries.addAll(asianCountries);\n24\n25        System.out.println(\"Countries: \" + countries);\n26    }\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Asian Countries: [Nepal, China, India]\nCountries: [USA, Canada, Nepal, China, India]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above program, the arraylist countries has elements USA and Canada."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, the addAll() method adds all elements from the arraylist asianCountries at the end of the arraylist countries."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

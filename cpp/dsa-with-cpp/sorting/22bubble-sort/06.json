@@ -1,0 +1,47 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/bubble-sort?page=7",
+  "title": "Source Code: Bubble Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Bubble Sort"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Template to perform bubble sort on a vector\n2template<typename T>\n3void bubble_sort(vector<T>& arr) {\n4    \n5    // Flag to detect if any swapping happened in the current pass\n6    bool modified = false; \n7    \n8    for(int i = 0; i < arr.size() - 1; ++i) {\n9        // Reset modified to false at the start of each pass\n10        modified = false; \n11 \n12        // Stop at arr.size()-1-i to avoid checking sorted elements\n13        for(int j = 0; j < arr.size() - 1 - i; ++j) {\n14            // Swap adjacent elements if they are in the wrong order\n15            if(arr[j] > arr[j+1]) {\n16                swap(arr[j], arr[j+1]); \n17                // Set modified to true indicating a swap occurred\n18                modified = true; \n19            }\n20        }\n21        \n22        // If no elements were swapped, \n23        // the arr is sorted and we can break early\n24        if(!modified)\n25            break;\n26    }\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Unsorted Vector: 15 16 6 8 5\nSorted Vector: 5 6 8 15 16"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

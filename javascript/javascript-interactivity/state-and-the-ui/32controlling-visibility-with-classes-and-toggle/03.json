@@ -1,0 +1,70 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-visibility-with-classes-toggle?page=3",
+  "title": "Smooth Expand with CSS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Smooth Expand with CSS"
+    },
+    {
+      "type": "paragraph",
+      "content": "Toggling a class changes the state. But right now that change is instant"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's make that state change feel smooth."
+    },
+    {
+      "type": "paragraph",
+      "content": "For something like a \"Read more\" section, you don't need to animate anything in JavaScript. CSS can handle it entirely on its own."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": ".expand-wrap {\n  overflow: hidden;\n  max-height: 0;\n  transition: max-height 0.3s ease;\n}\n\n.expand-wrap.is-expanded {\n  max-height: 200px;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the class is-expanded is added, the element expands smoothly. When it is removed, it collapses back."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript only toggles the class. CSS handles the animation."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is the separation working exactly as it should. Your code stays simple. Your interface feels polished."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll see a runnable example that puts this pattern together."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

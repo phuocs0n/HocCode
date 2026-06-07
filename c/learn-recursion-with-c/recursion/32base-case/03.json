@@ -1,0 +1,55 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-c/base-case?page=4",
+  "title": "Example: Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's modify our previous program so that functions return a value this time."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3char* print_numbers(int n) {\n4\n5    // base case with return value\n6    if (n == 3) {\n7        return \"Done\";\n8    }\n9\n10    printf(\"%d\\n\", n);\n11\n12    return print_numbers(n + 1);\n13}\n14\n15int main() {\n16\n17    char* output = print_numbers(1);\n18    printf(\"%s\", output);\n19\n20    return 0;\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\nDone"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will explore how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

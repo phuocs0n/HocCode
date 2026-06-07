@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/git/merging-conflicts?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: After resolving a merge conflict in a file, what is the correct next step?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run git merge again to let Git automatically pick the winning version"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Running git merge again will not resolve the conflict — Git stopped because it cannot choose automatically. You must edit the file manually, then stage and commit it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Running git merge again will not resolve the conflict — Git stopped because it cannot choose automatically. You must edit the file manually, then stage and commit it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Delete the branch that caused the conflict to prevent it from happening again"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Conflicts are a normal part of parallel development. Deleting the branch does not fix the conflict — it removes the work. The right step is to edit, stage, and commit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Conflicts are a normal part of parallel development. Deleting the branch does not fix the conflict — it removes the work. The right step is to edit, stage, and commit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Stage the resolved file with git add and then run git commit to complete the merge"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Once you have edited the file to remove the conflict markers and kept the right content, stage it and commit. That commit completes the merge."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Once you have edited the file to remove the conflict markers and kept the right content, stage it and commit. That commit completes the merge."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run git restore on the file to reset it and start the merge over"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "git restore would throw away your resolution and put the conflict markers back. The right move after resolving is git add to stage the resolved file, then git commit."
+    },
+    {
+      "type": "paragraph",
+      "content": "git restore would throw away your resolution and put the conflict markers back. The right move after resolving is git add to stage the resolved file, then git commit."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: After resolving a merge conflict in a file, what is the correct next step?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Run git merge again to let Git automatically pick the winning version",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Run git merge again to let Git automatically pick the winning version",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Delete the branch that caused the conflict to prevent it from happening again",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Delete the branch that caused the conflict to prevent it from happening again",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Stage the resolved file with git add and then run git commit to complete the merge",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Stage the resolved file with git add and then run git commit to complete the merge",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Run git restore on the file to reset it and start the merge over",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Run git restore on the file to reset it and start the merge over",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

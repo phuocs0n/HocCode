@@ -1,0 +1,46 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/multiline-comments?page=2",
+  "title": "Example: Multi-line Comments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Multi-line Comments"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1/*\n2Program to take age input\n3from the user and print it\n4*/\n5\n6#include <iostream>\n7using namespace std;\n8\n9int main() {\n10\n11    int age;\n12\n13    cout << \"Enter your age: \";\n14    cin >> age;\n15\n16    cout << \"Age: \" << age;\n17\n18    return 0;\n19}\n20\n21/* Output:\n22Enter your age: 56\n23Age: 56\n24*/"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like single-line comments, multi-line comments are also ignored during the execution of the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Multi-line comments are generally used to write long-form instructions and documentation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,180 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/frequency-count-method?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How many units of time does this function take to run if n = 3?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_num(n):\n    if n > 1:\n        print(n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "n+1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement is not a loop. It only takes constant unit of time to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement is not a loop. It only takes constant unit of time to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "2n"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are no loops inside the code, so it takes a constant time to run regardless of the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are no loops inside the code, so it takes a constant time to run regardless of the input size."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the if condition evaluates to True, we must consider the time taken by print() inside its body as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the if condition evaluates to True, we must consider the time taken by print() inside its body as well."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The if condition evaluates to True, and both the if and print() statements each take a single unit of time to run. Thus, the total unit of time taken is 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if condition evaluates to True, and both the if and print() statements each take a single unit of time to run. Thus, the total unit of time taken is 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement is not a loop. It only takes constant unit of time to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement is not a loop. It only takes constant unit of time to execute."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are no loops inside the code, so it takes a constant time to run regardless of the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are no loops inside the code, so it takes a constant time to run regardless of the input size."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the if condition evaluates to True, we must consider the time taken by print() inside its body as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the if condition evaluates to True, we must consider the time taken by print() inside its body as well."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The if condition evaluates to True, and both the if and print() statements each take a single unit of time to run. Thus, the total unit of time taken is 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if condition evaluates to True, and both the if and print() statements each take a single unit of time to run. Thus, the total unit of time taken is 2."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How many units of time does this function take to run if n = 3?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:n+1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "n+1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:2n",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "2n",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:1",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:2",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "2",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

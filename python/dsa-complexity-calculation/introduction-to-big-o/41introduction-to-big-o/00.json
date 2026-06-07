@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/introduction-2?page=1",
+  "title": "Introduction to Big O",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Big O"
+    },
+    {
+      "type": "paragraph",
+      "content": "Big Oh (Big O) is a mathematical notation used to represent the time complexity of an algorithm. It helps us understand how the performance of an algorithm changes with the size of the input."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let us revisit our code from the previous chapter."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1total= 0 \n2n = 1000\n3\n4# iterate n times\n5for i in range(1, n + 1):\n6    total = total + i\n7\n8print(total) # Output: 500500"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code takes n steps to execute. Instead of using just plain n for time complexity, we use the O(n) notation—read as Big Oh of n—to represent it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a few examples of the Big O notation next to better understand how it works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

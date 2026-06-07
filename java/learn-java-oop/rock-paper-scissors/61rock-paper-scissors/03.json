@@ -1,0 +1,65 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors?page=4",
+  "title": "Step 3: Get the User's Pick",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Get the User's Pick"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "added the getUserPick() method"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.util.Scanner;\n\nclass Game {\n\n    String getComputerPick() {\n\n        String computerPick;\n        // get an integer from 1 to 3\n        int randomNumber = (int) (Math.random() * 3) + 1;\n\n        if (randomNumber == 1) {\n            computerPick = \"rock\";\n        }\n\n        else if (randomNumber == 2) {\n            computerPick = \"paper\";\n        }\n\n        else {\n            computerPick = \"scissors\";\n        }\n\n        return computerPick;\n    }\n\n    String getUserPick() {\n\n        Scanner input = new Scanner(System.in);\n\n        System.out.println(\"Enter rock, paper or scissors:\");\n\n        String userPick = input.nextLine();\n\n        return userPick;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the getUserPick() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "The user is asked to enter a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the user enters any other strings other than \"rock\", \"paper\", or \"scissors\", we cannot compare it with the computer's pick."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this issue, let's modify the getUserPick() method so that the user is asked to enter input again and again until the user enters a valid string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

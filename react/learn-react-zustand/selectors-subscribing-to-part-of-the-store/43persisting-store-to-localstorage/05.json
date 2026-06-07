@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/persisting-store-to-localstorage?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of the partialize option in Zustand persist middleware?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It splits the store into multiple files"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "partialize has nothing to do with files. It selects which state to save."
+    },
+    {
+      "type": "paragraph",
+      "content": "partialize has nothing to do with files. It selects which state to save."
+    },
+    {
+      "type": "paragraph",
+      "content": "It selects which parts of the store to save to localStorage"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! partialize lets you choose exactly which pieces of state get saved. You only persist what makes sense — like theme and searchQuery, not entries or loading state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! partialize lets you choose exactly which pieces of state get saved. You only persist what makes sense — like theme and searchQuery, not entries or loading state."
+    },
+    {
+      "type": "paragraph",
+      "content": "It compresses the stored data to save space"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "partialize does not compress data. It just filters which state gets saved."
+    },
+    {
+      "type": "paragraph",
+      "content": "partialize does not compress data. It just filters which state gets saved."
+    },
+    {
+      "type": "paragraph",
+      "content": "It prevents certain actions from running on page load"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "partialize does not affect actions. It only controls what state gets persisted."
+    },
+    {
+      "type": "paragraph",
+      "content": "partialize does not affect actions. It only controls what state gets persisted."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of the partialize option in Zustand persist middleware?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It splits the store into multiple files",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It splits the store into multiple files",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It selects which parts of the store to save to localStorage",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It selects which parts of the store to save to localStorage",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It compresses the stored data to save space",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It compresses the stored data to save space",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It prevents certain actions from running on page load",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It prevents certain actions from running on page load",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

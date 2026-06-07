@@ -1,0 +1,87 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/icyhot-temperature?page=1",
+  "title": "Check if the Temperature is IcyHot",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check if the Temperature is IcyHot"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check if the temperature is IcyHot."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Temperature with integer variables hot and cold to store temperatures.",
+        "Initialize the value of these variables using a constructor.",
+        "Create a function named check_icy_hot().",
+        "Inside the function, if hot is greater than 100 and cold is less than 0, print IcyHot."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), take integer input for variables hot and cold.",
+        "Create an object of the Temperature class with arguments hot and cold.",
+        "Call the check_icy_hot() function using the object."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input300\n-3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputIcyHot"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

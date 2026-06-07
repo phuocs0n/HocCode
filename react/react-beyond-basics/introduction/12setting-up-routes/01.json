@@ -1,0 +1,56 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/setting-up-routes?page=2",
+  "title": "How React Router Works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How React Router Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Router is the standard routing library for React. We'll use version 6 for this course."
+    },
+    {
+      "type": "paragraph",
+      "content": "The core idea is simple: the URL is the source of truth. Here's how it works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "When the URL is /, show the home page.",
+        "When the URL is /entries/7, show that entry's detail page."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "React Router reads the URL and decides which component to render — no page reload, no server round-trip."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's explore the various pieces of the router library that make all of this possible."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

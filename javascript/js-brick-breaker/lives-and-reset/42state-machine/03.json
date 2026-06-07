@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/state-machine?page=3",
+  "title": "Handle State Transitions 🔀",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handle State Transitions 🔀"
+    },
+    {
+      "type": "paragraph",
+      "content": "Implement the logic that drives players through the game flow: from menu to playing to game over and back."
+    },
+    {
+      "type": "paragraph",
+      "content": "Implement handleAdvance():"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If MENU, reset score/lives, call buildBricks(), resetRound(), updateHUD(), then set state to PLAYING.",
+        "If PLAYING, call this.ball.launch().",
+        "If GAME_OVER, set state back to MENU.",
+        "Add the state guard at the top of update(): if (this.state !== STATE.PLAYING) return.",
+        "Remove the manual this.ball.ballSpeedX/Y/isLaunched test values from the constructor — the state machine handles starting the ball now.",
+        "Move buildBricks() call out of the constructor — handleAdvance() calls it when starting a game."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "\"use strict\";"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-css/specificity?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In CSS, it's possible for multiple rules to apply to the same element."
+    },
+    {
+      "type": "paragraph",
+      "content": "When multiple CSS rules target the same element, the rule that gets applied is determined by its specificity. More specific rules override less specific ones."
+    },
+    {
+      "type": "paragraph",
+      "content": "The order of selectors from least to most specific is:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Element selectors",
+        "Class selectors",
+        "ID selectors"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at a few examples to demonstrate this better."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,42 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/logical-operators?page=5",
+  "title": "Working of the and Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of the and Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run this visualizer with different inputs to understand how this program works."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# User input\n2credit_score = int(input(\"Credit score? \"))\n3stable_income = input(\"Stable income (yes/no)? \")\n4\n5# Check eligibility\n6if (credit_score >= 700) and (stable_income == \"yes\"):\n7    print(\"You are eligible for a loan.\")\n8else:\n9    print(\"You are not eligible for a loan.\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,135 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-basics/logical-operators?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following options presents a candidate eligible for loan if the condition is:"
+    },
+    {
+      "type": "paragraph",
+      "content": "(creditScore > 700) && (annualSalary > 6000.00)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Credit score is 650 and annual salary is $6500."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This only satisfies the condition for the annual salary. Remember both cases must be true."
+    },
+    {
+      "type": "paragraph",
+      "content": "This only satisfies the condition for the annual salary. Remember both cases must be true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Credit score is 700 and annual salary is $6000."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, neither condition is satisfied as we are checking the condition using > operator not the >= operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, neither condition is satisfied as we are checking the condition using > operator not the >= operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Credit score is 750 and annual salary is $6500."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both of our conditions are satisfied. Hence the candidate is eligible for loan."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both of our conditions are satisfied. Hence the candidate is eligible for loan."
+    },
+    {
+      "type": "paragraph",
+      "content": "Credit score is 750 and annual salary is $6000."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This only satisfies the credit score as we are checking the annual salary using the > operator not the >= operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "This only satisfies the credit score as we are checking the annual salary using the > operator not the >= operator."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following options presents a candidate eligible for loan if the condition is:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Credit score is 650 and annual salary is $6500.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Credit score is 650 and annual salary is $6500.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Credit score is 700 and annual salary is $6000.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Credit score is 700 and annual salary is $6000.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Credit score is 750 and annual salary is $6500.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Credit score is 750 and annual salary is $6500.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Credit score is 750 and annual salary is $6000.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Credit score is 750 and annual salary is $6000.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

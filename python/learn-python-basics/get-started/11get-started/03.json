@@ -1,0 +1,135 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/get-started?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the valid way to display Welcome to Programiz on the screen?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "print(Welcome to Programiz)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(Welcome to Programiz) causes an error because we have not enclosed Welcome to Programiz inside double quotes \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(Welcome to Programiz) causes an error because we have not enclosed Welcome to Programiz inside double quotes \"\"."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "print\"Welcome to Programiz\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print\"Welcome to Programiz\" causes an error because we have not enclosed \"Welcome to Programiz\" inside parentheses ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "print\"Welcome to Programiz\" causes an error because we have not enclosed \"Welcome to Programiz\" inside parentheses ()."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "print(\"Welcome to Programiz\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(\"Welcome to Programiz\") displays Welcome to Programiz on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(\"Welcome to Programiz\") displays Welcome to Programiz on the screen."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Print(\"Welcome to Programiz\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python is a case-sensitive language. This code results in an error because Print and print are treated differently in Python."
+    },
+    {
+      "type": "paragraph",
+      "content": "Python is a case-sensitive language. This code results in an error because Print and print are treated differently in Python."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the valid way to display Welcome to Programiz on the screen?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:print(Welcome to Programiz)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "print(Welcome to Programiz)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:print\"Welcome to Programiz\"",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "print\"Welcome to Programiz\"",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:print(\"Welcome to Programiz\")",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "print(\"Welcome to Programiz\")",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Print(\"Welcome to Programiz\")",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Print(\"Welcome to Programiz\")",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

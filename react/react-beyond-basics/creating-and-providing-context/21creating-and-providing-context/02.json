@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/creating-providing-context?page=2",
+  "title": "Passing Theme as Props",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Passing Theme as Props"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the approach: App.jsx owns the theme state and passes it down to every component that needs it."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useState } from \"react\";\nimport { Routes, Route } from \"react-router-dom\";\nimport HomePage from \"./pages/HomePage\";\nimport EntryDetailPage from \"./pages/EntryDetailPage\";\nimport NotFoundPage from \"./pages/NotFoundPage\";\n\nfunction App() {\n  const [theme, setTheme] = useState(\"light\");\n    \n  function toggleTheme() {\n    setTheme(function (t) { return t === \"light\" ? \"dark\" : \"light\";          \n});\n  }\n\n  return (\n    <div className=\"main-container\">\n      <Routes>\n        <Route path=\"/\" element={<HomePage theme={theme} toggleTheme={toggleTheme} />} />\n        <Route path=\"/entries/:id\" element={<EntryDetailPage theme={theme} />} />\n        <Route path=\"*\" element={<NotFoundPage />} />\n      </Routes>\n    </div>\n  );\n}\n\nexport default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works, but it already feels heavy."
+    },
+    {
+      "type": "paragraph",
+      "content": "And we haven't even started passing theme deeper, from HomePage down to Header, or from EntryDetailPage down to whatever components live inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "This pattern has a name. Let's look at why it becomes a problem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/javascript-in-action?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we add the <script> tag just before the closing </body> tag?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "So the HTML elements are already created when the script runs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser reads the page from top to bottom. Placing the script at the end ensures the HTML exists before JavaScript runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser reads the page from top to bottom. Placing the script at the end ensures the HTML exists before JavaScript runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the page loads faster."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Page speed depends on many factors. Script placement is not mainly about speed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Page speed depends on many factors. Script placement is not mainly about speed."
+    },
+    {
+      "type": "paragraph",
+      "content": "So CSS loads before JavaScript."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS loading is separate from where the script tag is placed."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS loading is separate from where the script tag is placed."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the script runs only once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The script runs once either way. Placement changes when it runs, not how many times."
+    },
+    {
+      "type": "paragraph",
+      "content": "The script runs once either way. Placement changes when it runs, not how many times."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we add the <script> tag just before the closing </body> tag?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:So the HTML elements are already created when the script runs.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "So the HTML elements are already created when the script runs.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So the page loads faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So the page loads faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:So CSS loads before JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "So CSS loads before JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So the script runs only once.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So the script runs only once.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

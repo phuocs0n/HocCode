@@ -1,0 +1,67 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/recap-local-variables?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of local variables is critical in recursion since each recursive call possesses a separate local variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, we must revisit this topic here."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any variable that is created inside a method is local to it. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    // Method that doesn't return a value\n4    public static void addNumbers(int n1, int n2) {\n5        int result = n1 + n2;\n6    }\n7\n8    public static void main(String[] args) {\n9\n10        addNumbers(2, 5);\n11\n12        // Error: attempt to print result variable\n13        System.out.println(result);\n14    }\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n1, n2, and result are local variables that are defined within the scope of addNumbers(). When the execution of addNumbers() ends, all of these variables are destroyed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, the above program throws an error when we try to access these variables from the main() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's because the result variable only exists within addNumbers(); it doesn't exist inside main()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

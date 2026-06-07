@@ -1,0 +1,144 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/making-functions-dynamic?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What's the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function addFive(number) {\n    let result = number + 5;\n    console.log(result);\n}\n\naddFive(100);\naddFive(20);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "110"
+    },
+    {
+      "type": "paragraph",
+      "content": "30"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function adds 5 to the argument passed. Not 10."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function adds 5 to the argument passed. Not 10."
+    },
+    {
+      "type": "paragraph",
+      "content": "105"
+    },
+    {
+      "type": "paragraph",
+      "content": "25"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function adds 5 to the argument and prints it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function adds 5 to the argument and prints it."
+    },
+    {
+      "type": "paragraph",
+      "content": "ERROR!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code is logically correct and has no errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code is logically correct and has no errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "130"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We've called the function twice. So the function will print value twice."
+    },
+    {
+      "type": "paragraph",
+      "content": "We've called the function twice. So the function will print value twice."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What's the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:11030",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "11030",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:10525",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "10525",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:ERROR!",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "ERROR!",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:130",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "130",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,188 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/calculating-space-complexity?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the space complexity of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_sum(n1):\n    print(n1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes. Therefore, the space complexity is not linear."
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes. Therefore, the space complexity is not linear."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n1)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't represent space complexity with variable names."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't represent space complexity with variable names."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(1)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(logn)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even if the size of the input changes. Therefore, the space complexity is not logarithmic."
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even if the size of the input changes. Therefore, the space complexity is not logarithmic."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes. Therefore, the space complexity is not linear."
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes. Therefore, the space complexity is not linear."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't represent space complexity with variable names."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't represent space complexity with variable names."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even when the size of the input changes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even if the size of the input changes. Therefore, the space complexity is not logarithmic."
+    },
+    {
+      "type": "paragraph",
+      "content": "The space complexity remains constant even if the size of the input changes. Therefore, the space complexity is not logarithmic."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the space complexity of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:O(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:O(n1)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "O(n1)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:O(1)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "O(1)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:O(logn)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "O(logn)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

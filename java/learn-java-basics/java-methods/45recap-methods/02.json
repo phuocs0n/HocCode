@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/revise-method?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables defined inside a method are local to it. It doesn't exist outside the method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    // The method takes two arguments\n4    // Returns the sum of numbers\n5    void sayHello() {\n6        String greeting = \"Hello\";\n7    }\n8\n9    public static void main(String[] args) {\n10\n11        // Create object of Main class\n12        Main obj = new Main();\n13\n14        // Error!! greeting cannot be resolved to a variable\n15        System.out.println(greeting);\n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Standard Library Methods"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java provides various built-in methods that we can directly use in our program."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        double squareRoot = Math.sqrt(81);\n5        System.out.println(squareRoot);    // 9.0\n6    }\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reminder: Great job on completing this section! Now, practice what you've learned with the problems in Practice: Java Basics."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

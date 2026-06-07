@@ -1,0 +1,91 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/create-object-dynamically?page=1",
+  "title": "Create an Object Dynamically",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create an Object Dynamically"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to dynamically allocate memory to an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Cube with an integer variable side.",
+        "Create a constructor with an integer parameter side.",
+        "Initialize the member variable side inside the constructor using the this pointer.",
+        "Create a function calculate_volume() that returns the volume of the cube."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), get integer input for the side variable.",
+        "Dynamically create an object of Cube using the new operator.",
+        "Pass the side variable as argument to the constructor of this object.",
+        "Call the calculate_volume() function by using the -> operator.",
+        "Store the return value of the function in the volume variable.",
+        "Print volume.",
+        "Deallocate the memory using delete."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output27"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

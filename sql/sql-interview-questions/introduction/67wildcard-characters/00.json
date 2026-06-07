@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/wildcard-characters?page=1",
+  "title": "What will happen if we execute the following query?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What will happen if we execute the following query?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT name\n2FROM Customers\n3WHERE name LIKE '%_a_%';"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will return those customer names that have the letter a anywhere between the first and the last characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, if our table has names like Marcus, Harry, and Wayne, the above query will display them."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, it won't display names like Andrew, Mira, Roma, Alex, etc. because there is no instance of the letter a between the first and last characters."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

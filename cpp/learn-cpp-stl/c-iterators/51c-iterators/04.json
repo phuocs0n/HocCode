@@ -1,0 +1,156 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-iterators?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Our programmer, Stuti, wants to access the last element of the vector. But she couldn't correctly get the value. What should she do here?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int> number {5, 10, 15, 20, 25, 30, 35};\nauto iter = number.end();\n\ncout << \"The last element is \" << iter << endl;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "She should dereference the iter to get the value."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << \"The last element is \" << *iter << endl;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This change compiles but this doesn't print the last element of the vector because end() returns an iterator to the element one past the last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "This change compiles but this doesn't print the last element of the vector because end() returns an iterator to the element one past the last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "She should subtract one from the iterator returned by end()"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << \"The last element is \" << iter - 1 << endl;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This doesn't compile. Subtracting by one to get the last element is a good idea. But did you forget to dereference ?"
+    },
+    {
+      "type": "paragraph",
+      "content": "This doesn't compile. Subtracting by one to get the last element is a good idea. But did you forget to dereference ?"
+    },
+    {
+      "type": "paragraph",
+      "content": "She should subtract one from the iterator returned by end() and dereference the value."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << \"The last element is \" << *(iter - 1 ) << endl;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is correct, subtracting one from the iterator returned by end() points to the last element and dereferencing it prints the element at the last."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is correct, subtracting one from the iterator returned by end() points to the last element and dereferencing it prints the element at the last."
+    },
+    {
+      "type": "paragraph",
+      "content": "She should dereference the iterator returned by end() and then subtract one from it."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << \"The last element is \" << *iter - 1 << endl;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This subtracts one from the value pointed by end() which is not what we want."
+    },
+    {
+      "type": "paragraph",
+      "content": "This subtracts one from the value pointed by end() which is not what we want."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Our programmer, Stuti, wants to access the last element of the vector. But she couldn't correctly get the value. What should she do here?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:She should dereference the iter to get the value.cout << \"The last element is \" << *iter << endl;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "She should dereference the iter to get the value.cout << \"The last element is \" << *iter << endl;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:She should subtract one from the iterator returned by end()cout << \"The last element is \" << iter - 1 << endl;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "She should subtract one from the iterator returned by end()cout << \"The last element is \" << iter - 1 << endl;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:She should subtract one from the iterator returned by end() and dereference the value.cout << \"The last element is \" << *(iter - 1 ) << endl;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "She should subtract one from the iterator returned by end() and dereference the value.cout << \"The last element is \" << *(iter - 1 ) << endl;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:She should dereference the iterator returned by end() and then subtract one from it.cout << \"The last element is \" << *iter - 1 << endl;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "She should dereference the iterator returned by end() and then subtract one from it.cout << \"The last element is \" << *iter - 1 << endl;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

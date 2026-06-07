@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/fibonacci-series-using-dynamic-programming?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a Fibonacci series, each number is the sum of the previous two numbers. Also, the first two numbers are always 0 and 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Fibonacci series containing the first six terms is given below:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "0, 1, 1, 2, 3, 4"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mathematically,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Fibonacci(n) = Fibonacci(n - 1) + Fibonacci(n - 2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Additionally, Fibonacci(0) = 0 and Fibonacci(1) = 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how we can calculate the 5th term of the Fibonacci series using different methods."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

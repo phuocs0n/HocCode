@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/inheritance?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose a Student class is derived from a Person class. Then, which of the following statements is correct?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Student class inherits all the variables and functions of the Person class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the variables and functions of the base class (parent class)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the variables and functions of the base class (parent class)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both classes inherit each other's variables and functions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the derived class inherits the base class's variables and functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the derived class inherits the base class's variables and functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Person class inherits all the variables and functions of the Student class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the variables and functions of the base class (parent class), not the other way around."
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the variables and functions of the base class (parent class), not the other way around."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose a Student class is derived from a Person class. Then, which of the following statements is correct?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The Student class inherits all the variables and functions of the Person class.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The Student class inherits all the variables and functions of the Person class.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Both classes inherit each other's variables and functions.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Both classes inherit each other's variables and functions.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The Person class inherits all the variables and functions of the Student class.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The Person class inherits all the variables and functions of the Student class.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

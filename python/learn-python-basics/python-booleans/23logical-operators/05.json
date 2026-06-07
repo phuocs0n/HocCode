@@ -1,0 +1,65 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-python-basics/logical-operators?page=6",
+  "title": "Largest of Three Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Largest of Three Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will now build the logic to find the largest number among n1, n2, and n3."
+    },
+    {
+      "type": "paragraph",
+      "content": "We know n1 is the largest number if:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n1 is greater than n2, and",
+        "n1 is greater than n3"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we can check if n2 or n3 is largest using the same logic. To solve this problem, we can use the and operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the complete code:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# User input\n2n1 = int(input(\"Enter the first number: \"))\n3n2 = int(input(\"Enter the second number: \"))\n4n3 = int(input(\"Enter the third number: \"))\n5\n6# Check if n1 is the largest?\n7if (n1 >= n2) and (n1 >= n3):\n8    largest = n1\n9\n10# Check if n2 is the largest?\n11elif (n2 >= n1) and (n2 >= n3):\n12    largest = n2\n13else:\n14    largest = n3\n15\n16print(\"The largest number is:\", largest)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll see the flow of this program with the help of the visualizer."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

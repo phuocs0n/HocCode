@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/alphabets-digits-symbols-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, there are inbuilt string methods such as isdigit() and isalpha() that helps to check if the element is a digit or an alphabet."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can solve the problem by following these steps:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Create counters for alphabets, digits, and symbols.",
+        "Loop through each character in a string.",
+        "By using the isalpha() method, check if the character is the alphabet.",
+        "If the character is the alphabet, increment the alphabet counter by 1.",
+        "Again, by using the isdigit() method, check if the character is a digit.",
+        "If the character is a digit, increment the digit counter by 1.",
+        "If none of the above conditions satisfy, increment the symbol counter by 1.",
+        "Finally, print the results of all counters."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

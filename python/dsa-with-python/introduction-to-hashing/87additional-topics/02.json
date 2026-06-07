@@ -1,0 +1,41 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/additional-topics?page=3",
+  "title": "Hashing Passwords",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hashing Passwords"
+    },
+    {
+      "type": "paragraph",
+      "content": "When users create accounts on websites, it's important that their passwords are stored securely. This is where hashing algorithms come into play."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of storing the plain-text password, systems store the hash of the password to make it more secure. Some popular algorithms like MD5, SHA-1, SHA-2 use hash to secure your passwords."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

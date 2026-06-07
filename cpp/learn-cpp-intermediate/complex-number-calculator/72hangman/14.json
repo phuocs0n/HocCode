@@ -1,0 +1,70 @@
+{
+  "index": 14,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=14",
+  "title": "Step 1.9: Putting Everything Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1.9: Putting Everything Together"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's combine all the components and create a working game of hangman."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// max_misses always has a value of 6\n5const int max_misses = 6;\n6\n7class Message {\n8public:\n9\n10    // method to greet the player\n11    void greet() {\n12        cout << \"------------------------------\" << endl;\n13        cout << \"\\t\\tH A N G M A N\" << endl;\n14        cout << \"------------------------------\" << endl;\n15        cout << \"Guess the Word\" << endl << endl;\n16    }\n17\n18    // method to display the number of misses\n19    void display_misses(int misses) {\n20        cout << \"Remaining misses: \"<< max_misses - misses << endl << endl;\n21    }\n22\n23    // method to display the incorrect guesses\n24    void display_incorrect_guesses(string incorrect) {\n25        cout << \"Incorrect Guesses: \" << incorrect << endl;\n26    }\n27    \n28    // method to display the user answer\n29    void display_user_answer(string user_answer) {\n30        cout << \"Your Answer: \";\n31        for (char c: user_answer) {\n32            cout << c << \" \";\n33        }\n34\n35        cout << endl;\n36    }\n37\n38    // method to call when the user\n39    // enters non-alphabetic character\n40    void invalid_character_message() {\n41        cout << \"\\nInvalid character!\" << endl;\n42        cout << \"Input must be an alphabet!\" << endl;\n43    }\n44\n45    // method to call when the user enters a\n46    // character that has already been entered\n47    void already_entered_message() {\n48        cout << \"\\nYou have already entered this letter!\" << endl;\n49        cout << \"Enter another letter!\" << endl;\n50    }\n51\n52    void correct_message() {\n53        cout << \"\\nCorrect!\" << endl;\n54    }\n55\n56    void incorrect_message() {\n57        cout << \"\\nIncorrect!\" << endl;\n58    }\n59\n60    // print win or loss message\n61    void final_result(string user_answer, string word) {\n62        cout << \"Your Answer: \";\n63        for (char c: user_answer) {\n64            cout << c << \" \";\n65        }\n66\n67        cout << endl << endl;\n68\n69        // print win message\n70        if (user_answer == word) {\n71            cout << \"-----------------------------------------------\" << endl;\n72            cout << \"\\t\\t\\t\\tY O U  W I N\" << endl;\n73            cout << \"-----------------------------------------------\" << endl;\n74        }\n75\n76        // print loss message\n77        else {\n78            cout << \"The correct answer is: \" << word << endl << endl;\n79            cout << \"-----------------------------------------------\" << endl;\n80            cout << \"\\t\\t\\t\\tY O U  L O S E\" << endl;\n81            cout << \"-----------------------------------------------\" << endl;\n82        }\n83    }\n84};\n85\n86class Game {\n87private:\n88\n89    string word;\n90    string user_answer;\n91    string incorrect;\n92    string entered_characters;\n93    int misses;\n94    Message message;\n95\n96public:\n97\n98    // constructor to initialize attributes\n99    Game(string chosen_word) {\n100        word = chosen_word;\n101        incorrect = \"\";\n102        entered_characters = \"\";\n103        misses = 0;\n104\n105        for (int i = 0; i < word.length(); ++i) {\n106            user_answer += \"_\";\n107        }\n108    }\n109\n110    // method to ensure that user input is\n111    // an alphabet and not a previous input\n112    bool is_guess_valid(char letter) {\n113\n114        if (!isalpha(letter)) {\n115            message.invalid_character_message();\n116            return false;\n117        }\n118\n119        for (int i = 0; i < entered_characters.length(); ++i) {            \n120            if (letter == entered_characters[i]) {\n121                message.already_entered_message();\n122                return false;\n123            }\n124        }\n125\n126        return true;\n127    }\n128\n129    // method to check if guess is correct\n130    void is_guess_correct(char letter) {\n131\n132        bool guess = false;\n133\n134        for (int i = 0; i < word.length(); i++) {\n135            if (letter == word[i]) {\n136                user_answer[i] = letter;\n137                guess = true;\n138            }\n139        }\n140\n141        if (guess) {\n142            message.correct_message();\n143        }\n144        else {\n145            message.incorrect_message();\n146            incorrect += letter;\n147            incorrect += \", \";\n148            ++misses;\n149        }\n150\n151        entered_characters += letter;\n152    }\n153\n154    // method to check if the game is over\n155    bool is_game_over() {\n156        if (user_answer == word || misses >= max_misses) {\n157            return true;\n158        }\n159        return false;\n160    }\n161\n162    // method to display the game status\n163    void display_game_status() {\n164        message.display_incorrect_guesses(incorrect);\n165        message.display_user_answer(user_answer);\n166        message.display_misses(misses);\n167    }\n168\n169    // method to display the final result\n170    void display_final_result() {\n171        message.final_result(user_answer, word);\n172    }\n173};\n174\n175int main() {\n176\n177    // chose the mystery word\n178    string chosen_word = \"ALGORITHM\";\n179\n180    // variable to take user input\n181    char letter;\n182\n183    // create message object\n184    Message message;\n185\n186    // create Game object and\n187    // pass chosen_word to its constructor\n188    Game game(chosen_word);\n189\n190    // greet the player\n191    message.greet();\n192\n193    // play game till the game is over\n194    while (!game.is_game_over()) {\n195\n196        // display the game status\n197        game.display_game_status();\n198        \n199        cout << \"\\nPlease enter your guess: \";\n200\n201        // get user input\n202        cin >> letter;\n203    \n204        // convert letter to uppercase\n205        letter = toupper(letter);\n206\n207        // check if input is an alphabet\n208        if (game.is_guess_valid(letter)) {\n209\n210            // if input is valid, check if guess is correct\n211            game.is_guess_correct(letter);\n212        }\n213    }\n214\n215    game.display_final_result();\n216\n217    return 0;\n218}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Try running the game and see how it works. Make sure you test for:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "invalid and repeated character inputs",
+        "win condition",
+        "loss condition"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The output should display"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the number of misses (wrong guesses) you can safely make,",
+        "the incorrect guesses you've made so far, and",
+        "the current status of the game with the dashes and the correctly guessed characters."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This concludes our code for Stage 1 of the project. Now, let's move on to Stage 2 and add further features."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

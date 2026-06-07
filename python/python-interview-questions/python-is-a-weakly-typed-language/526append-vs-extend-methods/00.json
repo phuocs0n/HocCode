@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/append-vs-extend-methods?page=1",
+  "title": "Differentiate Between the append() Method and the extend() Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Differentiate Between the append() Method and the extend() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both methods are used with lists in Python. Both methods add elements at the end of a list."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "append() - is used to add an element at the end of the list.",
+        "extend() - is used to add elements at the end of the list from another list."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a look at an example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# original list\n2lst1 = [4, 3, 2, 5, 1, 6]\n3print(lst1)    # [4, 3, 2, 5, 1, 6]\n4\n5# append an element\n6lst1.append(9)\n7print(lst1)    # [4, 3, 2, 5, 1, 6, 9]\n8\n9# extend another list\n10lst2 = [0, 8, 7]\n11lst1.extend(lst2)\n12print(lst1)    # [4, 3, 2, 5, 1, 6, 9, 0, 8, 7]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

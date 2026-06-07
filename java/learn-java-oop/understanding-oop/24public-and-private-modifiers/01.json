@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/public-private-modifiers?page=1",
+  "title": "Access Modifiers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Access Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, we learned to create more than one class in our Java program. We also see that one class can access fields and methods of other classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there might be situations where we wouldn't want our field and methods to be accessed from another class. To solve this, we use access modifiers in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "Access modifiers are used to set the visibility of fields, methods, and even classes. For example, if we don't want our fields/methods to be accessed from other classes, we can mark the field as private using the private access modifier."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Student {\n\n    private int age;\n\n    private void displayName() {\n        ...   \n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we will learn about two major types of access modifiers in Java."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "public - allows access from other classes",
+        "private - prevents access from other classes"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's get started."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

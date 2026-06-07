@@ -1,0 +1,70 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/implementation-of-trees?page=10",
+  "title": "Source Code: Implementation of Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Implementation of Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we will print something in the following cases:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "When a node is created.",
+        "When a child node is added to a node."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3\n4using namespace std;\n5\n6// A class to create and add nodes\n7template <typename T>\n8class TreeNode {\n9public:\n10\n11    // Constructor prints each time a node is created\n12    TreeNode(T val): data(val) {\n13        cout << \"Node \" << data << \" was created\\n\";\n14    }\n15\n16    void add_child(vector<TreeNode<T>*> child_arr) {\n17        children = child_arr;\n18        cout << \"Nodes \";\n19\n20        // Print a message that lists the children that were added\n21        for(const auto& item: children) {\n22            cout << item->data << \" \";\n23        }\n24        cout << \"were added as children to Node \" << data << \"\\n\";\n25    }\n26\n27    T data;\n28    vector<TreeNode<T>*> children;\n29};\n30\n31// A class to create tree and perform tree operations\n32template <typename T>\n33class Tree {\n34public:\n35\n36    Tree(TreeNode<T>* root_node): root(root_node) {\n37        cout << \"A tree was created\\n\";\n38    };\n39\n40    TreeNode<T>* root {nullptr};\n41};\n42\n43int main() {\n44\n45    // Create the root node\n46    TreeNode<string>* root = new TreeNode<string>(\"Book\");\n47\n48    // Create children of root\n49    TreeNode<string>* child1 = new TreeNode<string>(\"1\");\n50    TreeNode<string>* child2 = new TreeNode<string>(\"2\");\n51    TreeNode<string>* child3 = new TreeNode<string>(\"3\");\n52\n53    // Create leaf nodes\n54    TreeNode<string>* child1_1 = new TreeNode<string>(\"1.1\");\n55    TreeNode<string>* child1_2 = new TreeNode<string>(\"1.2\");\n56    TreeNode<string>* child1_3 = new TreeNode<string>(\"1.3\");\n57    TreeNode<string>* child1_4 = new TreeNode<string>(\"1.4\");\n58    TreeNode<string>* child2_1 = new TreeNode<string>(\"2.1\");\n59    TreeNode<string>* child3_1 = new TreeNode<string>(\"3.1\");\n60    TreeNode<string>* child3_2 = new TreeNode<string>(\"3.2\");\n61    TreeNode<string>* child3_3 = new TreeNode<string>(\"3.3\");\n62\n63    // Describe relationships between the nodes\n64    // and add children to the root node\n65    root->add_child({child1, child2, child3});\n66\n67    // Add children to child1\n68    child1->add_child({child1_1, child1_2, child1_3, child1_4});\n69\n70    // Add children to child2\n71    child2->add_child({child2_1});\n72\n73    // Add children to child3\n74    child3->add_child({child3_1, child3_2, child3_3});\n75\n76    // Create the tree\n77    Tree<string> general_tree = Tree<string>(root);\n78\n79    return 0;\n80}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Node Book was created\nNode 1 was created\nNode 2 was created\nNode 3 was created\nNode 1.1 was created\nNode 1.2 was created\nNode 1.3 was created\nNode 1.4 was created\nNode 2.1 was created\nNode 3.1 was created\nNode 3.2 was created\nNode 3.3 was created\nNodes 1 2 3 were added as children to Node Book\nNodes 1.1 1.2 1.3 1.4 were added as children to Node 1\nNodes 2.1 were added as children to Node 2\nNodes 3.1 3.2 3.3 were added as children to Node 3\nA tree was created"
+    },
+    {
+      "type": "paragraph",
+      "content": "From this output, it's clear that our tree was created and the child nodes were added, thus confirming that our code is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the code is incomplete, we need to incorporate methods for traversal like we did in previous data structures."
+    },
+    {
+      "type": "paragraph",
+      "content": "But before that, let's make sure you're comfortable with everything we've covered so far."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

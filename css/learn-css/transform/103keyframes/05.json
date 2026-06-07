@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-css/keyframes?page=6",
+  "title": "Infinite Animation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Infinite Animation"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can make any animation run infinitely by adding the infinite value in the animation property."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"box\"></div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.box {\n2    /* Run animation infinitely */\n3    animation: box-animation 3s linear infinite;\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code to see the box element animate infinitely."
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, you've built a solid foundation in CSS animations and are ready to build the final project of this chapter—progress bar. But let's warm you up with a few quizzes first."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

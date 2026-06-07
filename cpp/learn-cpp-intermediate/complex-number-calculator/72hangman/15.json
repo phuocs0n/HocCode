@@ -1,0 +1,122 @@
+{
+  "index": 15,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=15",
+  "title": "Stage 2: Adding More Words",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Stage 2: Adding More Words"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this stage, we will choose a mystery word randomly from an array of words. To do that, we need the following things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "an array of words",
+        "an indexing variable",
+        "a mechanism to generate a random number"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Random Number Generation"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the srand() and rand() functions to generate random numbers. These functions are defined in the <ctime> header file."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3#include <ctime>\n4\n5\n6using namespace std;\n7\n8int main() {\n9\n10    // set the seed for the random number generator\n11    srand(time(0));\n12\n13    // generate a random number between 0 and 9\n14    int index = rand() % 10;\n15\n16    // print the random number\n17    cout << \"Random number: \" << index << endl;\n18\n19    return 0;\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have generated a random number between 0 and 9, stored it in the index variable and displayed it."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Random number: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Random number: 4"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The Library of Words"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's create a library of ten words and select a random word from the library."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <ctime>\n3\n4using namespace std;\n5\n6int main() {\n7\n8\n9    // create a word library\n10    string library[] = { \n11        \"ALGORITHM\", \n12        \"AUTOPSY\", \n13        \"DATABASE\", \n14        \"UBIQUITOUS\", \n15        \"TANTALIZING\", \n16        \"REVELATION\", \n17        \"SPORADIC\", \n18        \"DISCRETE\", \n19        \"ANALYSIS\", \n20        \"CALCULUS\" \n21    };\n22\n23    \n24    // generate a random number between 0 and 9\n25    srand(time(0));\n26    int index = rand() % 10;\n27    \n28\n29    // choose a random word and display it\n30    string chosen_word = library[index];\n31\n32\n33    cout << \"Random Word: \" << chosen_word;\n34\n35    return 0;\n36}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Random Word: ALGORITHM"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Random Word: DATABASE"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, different words are selected from the library in random order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

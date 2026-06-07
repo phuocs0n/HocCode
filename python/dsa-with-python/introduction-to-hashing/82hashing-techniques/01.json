@@ -1,0 +1,187 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/hashing-techniques?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we have a hash function, H(x) = x mod 12."
+    },
+    {
+      "type": "paragraph",
+      "content": "Considering x is a non-negative integer, what will be the range of hash values we get from this function?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1 to 12"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "0 to 12"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output cannot contain 12."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output cannot contain 12."
+    },
+    {
+      "type": "paragraph",
+      "content": "0 to 11"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain the values from 0-11."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain the values from 0-11."
+    },
+    {
+      "type": "paragraph",
+      "content": "0 to 10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 11."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 11."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 0."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output cannot contain 12."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output cannot contain 12."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain the values from 0-11."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain the values from 0-11."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 11."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are performing mod 12, the output can contain 11."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we have a hash function, H(x) = x mod 12.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:1 to 12",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "1 to 12",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:0 to 12",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0 to 12",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:0 to 11",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "0 to 11",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:0 to 10",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "0 to 10",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

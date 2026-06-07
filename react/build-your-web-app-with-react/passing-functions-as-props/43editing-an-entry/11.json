@@ -1,0 +1,131 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/editing-entry?page=11",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: When we update an entry, why do we use map and return a new object for the edited entry instead of changing the old entry in place?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React expects state updates to be immutable"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mutating state can cause bugs and missed updates. Replacing with a new array and new object lets React detect the change and re-render correctly"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mutating state can cause bugs and missed updates. Replacing with a new array and new object lets React detect the change and re-render correctly"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because map is faster than changing the old entry with a for loop"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The reason is immutability, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "The reason is immutability, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "So we can keep the old entry in memory"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not keeping the old entry; we are following React's rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not keeping the old entry; we are following React's rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "So that the entry's id does not change"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We keep the same id; the reason is immutable updates."
+    },
+    {
+      "type": "paragraph",
+      "content": "We keep the same id; the reason is immutable updates."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: When we update an entry, why do we use map and return a new object for the edited entry instead of changing the old entry in place?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React expects state updates to be immutable",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React expects state updates to be immutable",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because map is faster than changing the old entry with a for loop",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because map is faster than changing the old entry with a for loop",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:So we can keep the old entry in memory",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "So we can keep the old entry in memory",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So that the entry's id does not change",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So that the entry's id does not change",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/revise?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "When working with loops, you often need more control over how the loop runs. This is where the break and continue statements come in handy."
+    },
+    {
+      "type": "paragraph",
+      "content": "The break Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The break statement terminates the loop immediately when it is encountered."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Print numbers till sum is less than 50\n2let sum = 0;\n3\n4for (let i = 1; i <= 100; i++) {\n5\n6    sum += i;\n7\n8    // Terminate loop if sum is greater than 50\n9    if (sum >= 50) {\n10        break;\n11    }\n12\n13    console.log(i);\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The continue Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The continue statement skips the current iteration and moves directly to the next iteration of the loop."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Sum of odd numbers till 100\n2\n3let sum = 0;\n4\n5for (let i = 1; i <= 100; i++) {\n6\n7    // Skip even numbers\n8    if (i % 2 == 0) {\n9        continue;\n10    }\n11\n12    sum += i;\n13}\n14\n15console.log(`Sum of odd numbers till 100: ${sum}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "To understand looping better, visit this article."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

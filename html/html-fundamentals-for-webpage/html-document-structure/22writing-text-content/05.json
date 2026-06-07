@@ -1,0 +1,57 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/writing-text-content?page=6",
+  "title": "Emphasizing Important Ideas",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Emphasizing Important Ideas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes, parts of a sentence matter more. HTML provides meaning-based tags for this:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "<strong> - important information",
+        "<em> - emphasized ideas"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>\n2  HTML is the main <strong>foundation</strong> of the web and\n3  <em>every frontend developer</em> should understand it.\n4</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "These tags don't exist for styling; they exist to communicate importance and emphasis."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/python-closures?page=1",
+  "title": "What are Python Closures?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What are Python Closures?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The technique of binding data to a function is called Python Closures. We can achieve this by using nested functions. Let's try to understand by the example below,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_msg(msg):\n2    def printer():\n3        print(msg)\n4\n5    return printer\n6\n7\n8another = print_msg('Hello')\n9\n10another() # Hello"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've bound the msg parameter that is passed in the print_msg() function to the another function."
+    },
+    {
+      "type": "paragraph",
+      "content": "By creating the nested function, the printer() function can access variables in the parent function, i.e., print_msg() function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

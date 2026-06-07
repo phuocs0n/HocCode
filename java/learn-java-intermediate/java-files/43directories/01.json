@@ -1,0 +1,83 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/directories?page=2",
+  "title": "Create a New Directory",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create a New Directory"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can create a new directory using the mkdir() method of the File class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.io.File;\n\nclass Main {\n    public static void main(String[] args) {\n\n        // create object of File\n        File file = new File(\"movies\");\n\n        // try to create a new directory\n        boolean value = file.mkdir();\n        if (value) {\n            System.out.println(\"The new directory is created.\");\n        } \n        else {\n            System.out.println(\"The directory already exists.\");\n        }\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above program, we have created an object file of the File class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "File file = new File(\"movies\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, movies is the name of the directory (folder) we want to create."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have created the directory using the code:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "boolean value = file.mkdir();"
+    },
+    {
+      "type": "paragraph",
+      "content": "file.mkdir() creates a new directory named movies in the current directory."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, the mkdir() method returns"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "false if the directory is already present",
+        "true if the directory is not present"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, mkdir means make directory."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,62 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-c/example-decimal-to-binary-conversion?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Recursive Call"
+    },
+    {
+      "type": "paragraph",
+      "content": "To convert 6 to binary, let's first think what argument needs to be passed in each recursive call."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "At first, we will pass 6 as an argument to the function.",
+        "Then, we will perform integer division on it by 2 to get the quotient (3) and find the remainder as well.",
+        "We will then call the function again with the quotient (3) as the parameter.",
+        "Again, we will divide the function by 2 to get the quotient and the remainder."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Base Condition"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above process will go on recursively till the quotient becomes 0, which is our base condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "We get the result in binary by concatenating the remainder of each division from bottom to top (or from the last remainder obtained to the first)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

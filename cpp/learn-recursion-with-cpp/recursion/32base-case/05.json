@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-cpp/base-case?page=6",
+  "title": "Example 2: Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Recursion"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4string print_numbers(int n) {\n5\n6    if (n == 3) {\n7        return \"Done\";\n8    }\n9\n10    cout << n << endl;\n11\n12    // Before: return print_number(n + 1);\n13    // Now: add \" over\" to the return value\n14    return print_numbers(n + 1) + \" over\";\n15}\n16\n17int main() {\n18\n19    string output = print_numbers(1);\n20    cout << output;\n21\n22    return 0;\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\nDone over over"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you examine the output, you will notice \" over\" appears two times after \"Done\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you guess why?"
+    },
+    {
+      "type": "paragraph",
+      "content": "If not, the next image will help you understand."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

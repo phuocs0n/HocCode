@@ -1,0 +1,160 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/query-optimization?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In SQL, Query Optimization is a process of using SQL queries in the best possible way to get accurate and fast database results."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this problem, we must write an optimized query using CTE (Common Table Expressions) and Window Functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "A CTE is a temporary table created from a simple SELECT statement that can be used in a subsequent SELECT statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each SQL CTE is like a named query whose result is stored in a virtual table to be referenced later in the main query."
+    },
+    {
+      "type": "paragraph",
+      "content": "The problem requires us to write an optimized query to find the top 3 products (sales_id) with the highest total sales amount for each month, in descending order of the months."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, here's how we can approach the problem:"
+    },
+    {
+      "type": "paragraph",
+      "content": "CTE - 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "We first create a CTE (monthly_sales) to calculate the total sales amount for each sales_id in each month."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the strftime() function to extract the year and month from the sales_date column. This helps in grouping the sales data by month."
+    },
+    {
+      "type": "paragraph",
+      "content": "We also use the SUM() function to calculate the total sales amount for each combination of month and sales_id. The result is aliased into a total_sales_amount column."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result set includes the month, sales_id, and total_sales_amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "CTE - 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "The second CTE (ranked_sales) uses the monthly_sales CTE to assign a rank to each sales_id within each month based on the total sales amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to use the following code for this task:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "ROW_NUMBER() OVER (\n  PARTITION BY month\n  ORDER BY total_sales_amount DESC\n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code generates a rank for each sales_id within its corresponding month, ordering them based on the total sales amount in descending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result set includes the month, sales_id, total_sales_amount, and rank."
+    },
+    {
+      "type": "paragraph",
+      "content": "Main Query"
+    },
+    {
+      "type": "paragraph",
+      "content": "The main query selects the month, sales_id, and total_sales_amount from the ranked_sales CTE."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query retrieves the corresponding month and total sales amount for each sales_id."
+    },
+    {
+      "type": "paragraph",
+      "content": "It excludes any sales with a rank greater than 3, limiting the results to the top 3 sales for each month."
+    },
+    {
+      "type": "paragraph",
+      "content": "The final result set is ordered by the month column in descending order, followed by the total_sales_amount column in descending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "This ordering ensures that the results are sorted first by the most recent month and then by the highest total sales amount within each month."
+    },
+    {
+      "type": "paragraph",
+      "content": "The resulting table will be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "month",
+          "sales_id",
+          "total_sales_amount"
+        ],
+        [
+          "2023-06",
+          "3",
+          "100000"
+        ],
+        [
+          "2023-06",
+          "4",
+          "90000"
+        ],
+        [
+          "2023-06",
+          "2",
+          "80000"
+        ],
+        [
+          "2023-05",
+          "1",
+          "50000"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

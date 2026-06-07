@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/why-variables?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we use a variable like passMark instead of typing 40 everywhere in the code?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "So we can change the value in one place and keep the game consistent."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Storing the pass mark in a variable means we update it once and every place that uses passMark gets the new value. This keeps the game easy to maintain."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Storing the pass mark in a variable means we update it once and every place that uses passMark gets the new value. This keeps the game easy to maintain."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because JavaScript does not allow typing numbers in console.log()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript allows numbers and strings in console.log(). We use variables for clarity and to avoid repeating the same value in many places."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript allows numbers and strings in console.log(). We use variables for clarity and to avoid repeating the same value in many places."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because variables run faster than numbers."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables do not make the code faster. We use them so the code is easier to read and change, and we don't repeat the same value everywhere."
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables do not make the code faster. We use them so the code is easier to read and change, and we don't repeat the same value everywhere."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because the pass mark must be 40 and variables enforce that."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables don't enforce values - they just store them. We use passMark so we can change 40 in one place if we want a different pass mark later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables don't enforce values - they just store them. We use passMark so we can change 40 in one place if we want a different pass mark later."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we use a variable like passMark instead of typing 40 everywhere in the code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:So we can change the value in one place and keep the game consistent.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "So we can change the value in one place and keep the game consistent.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because JavaScript does not allow typing numbers in console.log().",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because JavaScript does not allow typing numbers in console.log().",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because variables run faster than numbers.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because variables run faster than numbers.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because the pass mark must be 40 and variables enforce that.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because the pass mark must be 40 and variables enforce that.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

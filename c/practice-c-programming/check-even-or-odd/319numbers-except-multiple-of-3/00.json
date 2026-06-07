@@ -1,0 +1,65 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/numbers-except-multiple-of?page=1",
+  "title": "Numbers Except Multiple of 3",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Numbers Except Multiple of 3"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to print all numbers from 1 to 10 except the multiples of 3."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Run a for loop from i = 1 to i <= 10.",
+        "Check if i is perfectly divisible by 3.",
+        "If i is divisible by 3, skip the loop and go to the next iteration. Otherwise, print the value of i."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1\n2\n4\n5\n7\n8\n10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

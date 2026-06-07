@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/pointers-functions?page=2",
+  "title": "Pointer as Function Argument",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pointer as Function Argument"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the example first."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// function that accepts address as parameter \n4void changeValue(int* n) {\n5\n6  // change value at address to 120\n7  *n = 120;\n8}\n9\n10int main() {\n11\n12  int number = 35;\n13\n14  printf(\"Number (before): %d\\n\", number);\n15\n16  // call function with address of number as argument\n17  changeValue(&number);\n18\n19  printf(\"Number (after): %d\", number);\n20\n21  return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Number (before): 35\nNumber (after): 120"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have passed the address of the number variable during the function call."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "changeValue(&number);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This address is now assigned to the n pointer (function parameter)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the function, we have assigned 120 to the address pointed by n"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "*n = 120;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the value of the number variable is also changed to 120 in the main() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because the address in the n pointer and that of the number variable are the same and we are changing the value at the same address."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

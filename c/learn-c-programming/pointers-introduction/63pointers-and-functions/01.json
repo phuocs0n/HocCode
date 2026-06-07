@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/pointers-functions?page=2",
+  "title": "Con trỏ làm đối số hàm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Con trỏ làm đối số hàm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem ví dụ đầu tiên."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// function that accepts address as parameter \n4void changeValue(int* n) {\n5\n6  // change value at address to 120\n7  *n = 120;\n8}\n9\n10int main() {\n11\n12  int number = 35;\n13\n14  printf(\"Number (before): %d\\n\", number);\n15\n16  // call function with address of number as argument\n17  changeValue(&number);\n18\n19  printf(\"Number (after): %d\", number);\n20\n21  return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Number (before): 35\nNumber (after): 120"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong ví dụ trên, chúng ta đã truyền địa chỉ của biến số trong quá trình gọi hàm."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "changeValue(&number);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Địa chỉ này hiện được gán cho con trỏ n (tham số hàm)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bên trong hàm, chúng ta đã gán 120 cho địa chỉ được trỏ bởi n"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "*n = 120;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, giá trị của biến số cũng được thay đổi thành 120 trong hàm main()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều này là do địa chỉ trong con trỏ n và địa chỉ của biến số giống nhau và chúng ta đang thay đổi giá trị tại cùng một địa chỉ."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

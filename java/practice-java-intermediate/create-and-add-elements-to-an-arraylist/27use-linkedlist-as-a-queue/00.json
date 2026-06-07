@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/use-linkedlist-as-queue?page=1",
+  "title": "Use LinkedList as a Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Use LinkedList as a Queue"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a Java program to implement queue data structure."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() method, declare a new integer LinkedList called numbersList.",
+        "Take three integer inputs from the user and store them in the input1, input2, input3 variables.",
+        "Add user inputs to the numbersList linked list using the add() function.",
+        "Print numbersList.",
+        "Use the poll() method to remove elements from the start.",
+        "Using the offer() method, add element 20 at the end.",
+        "Print numbersList again."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input1\n2\n3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output[1, 2, 3]\n[2, 3, 20]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

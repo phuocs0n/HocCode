@@ -1,0 +1,93 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/lcm-of-two-numbers?page=1",
+  "title": "LCM of Two Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "LCM of Two Numbers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find LCM of two numbers using a method."
+    },
+    {
+      "type": "paragraph",
+      "content": "LCM (Lowest Common Multiple) of two numbers, x and y is the smallest positive integer that is perfectly divisible by both x and y."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create the findLCM() method with parameters: num1 and num2.",
+        "Inside the method, set lcm equal to the largest value among num1 and num2.",
+        "Run an infinite while loop and increase the value of lcm by 1 in each iteration.",
+        "Inside the loop, check if lcm is perfectly divisible by num1 and num2.",
+        "If true, terminate the loop.",
+        "Return the value of lcm."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside main(), get integer input for number1 and number2.",
+        "Call findLCM() with parameters number1 and number2.",
+        "Print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input72\n120"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output360"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

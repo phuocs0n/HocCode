@@ -1,0 +1,48 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/whack-a-mole/setting-up-structure?page=3",
+  "title": "Create the HTML File 📄",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create the HTML File 📄"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now it's time to write some code."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll create an HTML file with a basic document structure and three empty div elements to represent the screens."
+    },
+    {
+      "type": "paragraph",
+      "content": "These divs are just containers. Think of them as empty rooms in a house. Later, you will fill them with content."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a new file named index.html in your File Explorer.",
+        "Add the HTML5 document structure with <!DOCTYPE html>, <html>, <head>, and <body> tags.",
+        "Inside the <body>, add three <div> elements with IDs: start-screen, play-screen, and end-screen.",
+        "Inside the play-screen div, add another div with an id game-board"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

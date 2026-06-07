@@ -1,0 +1,76 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/type-conversion?page=2",
+  "title": "Automatic Type Conversion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Automatic Type Conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, sometimes one data type is automatically converted to another type. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number = 18;\n7    double sum;\n8\n9    // convert number to double\n10    sum = number + 4.5;\n11\n12    cout << \"Sum: \" << sum;\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum: 22.5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this statement:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "sum = num + 4.5;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are adding an integer value (18) and a double value (4.5). In this case,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the integer value is first converted to a double value (18.0),",
+        "then, it is added to 4.5,",
+        "finally, we get 22.5 as output."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This type of conversion is known as implicit type conversion, where one data type is automatically converted to another data type."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

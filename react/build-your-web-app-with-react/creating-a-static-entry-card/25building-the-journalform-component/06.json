@@ -1,0 +1,78 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component?page=7",
+  "title": "Add JournalForm to App",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add JournalForm to App"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ok, it's now time to import and render JournalForm() inside your App.jsx. Here's the code:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import Header from \"./components/Header\";\n2import EntryCard from \"./components/EntryCard\";\n3import JournalForm from \"./components/JournalForm\";\n4\n5function App() {\n6  const entry = {\n7    title: \"First Day at the Job\",\n8    date: \"February 10, 2026\",\n9    content: \"Today was my first day at the new job. Everyone was welcoming and helpful.\"\n10  };\n11\n12  return (\n13    <div className=\"main-container\">\n14     <Header />\n15      <JournalForm />\n16      <EntryCard \n17        title={entry.title}\n18        date={entry.date}\n19        content={entry.content}\n20      />\n21    </div>\n22  );\n23}\n24\n25export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function Header() {\n2  return (\n3    <header className=\"header\">\n4      <h2 className=\"title-primary\">My Daily Journal</h2>\n5      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n6    </header>\n7  );\n8}\n9\n10export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ title, date, content }) {\n2  return (\n3    <div className=\"entry-item\">\n4    <div className=\"entry-date\">{date}</div>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-content\">{content}</p>\n7    </div>\n8  );\n9}\n10\n11export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function JournalForm() {\n2  return (\n3    <section className=\"card\">\n4      <form>\n5        <div className=\"form-group\">\n6          <input \n7            id=\"title\" \n8            type=\"text\" \n9            placeholder=\"Entry title\"\n10            className=\"input-field\"\n11          />\n12        </div>  \n13        <div className=\"form-group\">\n14          <textarea \n15            id=\"content\" \n16            placeholder=\"What's on your mind?\"\n17            className=\"textarea-field\"\n18            rows={4}\n19          />\n20        </div>\n21       <div className=\"btn-group\">\n22          <button className=\"btn btn-primary\">Add Entry</button>\n23        </div>\n24      </form>\n25    </section>\n26  );\n27}\n28\n29export default JournalForm;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1function JournalForm() {\n2  return (\n3    <section className=\"card\">\n4      <form>\n5          <input \n6            id=\"title\" \n7            type=\"text\" \n8            placeholder=\"Entry title\"\n9            className=\"input-field\"\n10          /> \n11          <textarea \n12            id=\"content\" \n13            placeholder=\"What's on your mind?\"\n14            className=\"textarea-field\"\n15            rows={4}\n16         />\n17        <button className=\"btn btn-primary\">Add Entry</button>\n18      </form>\n19    </section>\n20  );\n21}\n22\n23export default JournalForm;\n24:root {\n25  --primary: #2563eb;\n26  --primary-hover: #1d4ed8;\n27  --danger: #ef4444;\n28  --danger-hover: #dc2626;\n29  --background-light: #f8fafc;\n30  --surface: #ffffff;\n31  --text-main: #111827;\n32  --text-muted: #6b7280;\n33  --border: #e5e7eb;\n34  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n35  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);\n36  --radius-lg: 0.5rem;\n37  --radius-xl: 0.75rem;\n38\n39  min-height: 100vh;\n40  display: flex;\n41  flex-direction: column;\n42  align-items: center;\n43  padding: 3rem 1rem;\n44}\n45\n46* {\n47  box-sizing: border-box;\n48}\n49\n50.form-title {\n51  font-size: 1.25rem;\n52  font-weight: 600;\n53  color: #111827;\n54  margin: 0;\n55}\n56\n57body {\n58  margin: 0;\n59  font-family: 'Inter', sans-serif;\n60  background-color: var(--background-light);\n61  color: var(--text-main);\n62  line-height: 1.5;\n63  -webkit-font-smoothing: antialiased;\n64}\n65\n66.layout-root {\n67  min-height: 100vh;\n68  display: flex;\n69  flex-direction: column;\n70  align-items: center;\n71  padding: 3rem 1rem;\n72}\n73\n74.main-container {\n75  width: 100%;\n76  max-width: 48rem;\n77  display: flex;\n78  flex-direction: column;\n79  gap: 2.5rem;\n80}\n81\n82.header {\n83  text-align: center;\n84  display: flex;\n85  flex-direction: column;\n86  gap: 0.75rem;\n87}\n88\n89.title-primary {\n90  font-size: 2.5rem;\n91  font-weight: 700;\n92  letter-spacing: -0.025em;\n93  margin: 0;\n94}\n95\n96@media (min-width: 768px) {\n97  .title-primary {\n98    font-size: 3rem;\n99  }\n100}\n101\n102.entry-item {\n103  background-color: var(--surface);\n104  border-radius: var(--radius-xl);\n105  padding: 1.5rem;\n106  border: 1px solid var(--border);\n107  box-shadow: var(--shadow-sm);\n108  transition: all 0.2s;\n109}\n110\n111.entry-item:hover {\n112  box-shadow: var(--shadow-md);\n113}\n114\n115.entry-date {\n116  font-size: 0.75rem;\n117  font-weight: 600;\n118  letter-spacing: 0.05em;\n119  color: var(--text-muted);\n120  text-transform: uppercase;\n121}\n122\n123.entry-title {\n124  margin: 0.25rem 0 0 0;\n125  font-size: 1.25rem;\n126  font-weight: 700;\n127  color: var(--text-main);\n128}\n129\n130.entry-content {\n131  color: #4b5563;\n132  line-height: 1.625;\n133  margin-top: 1rem;\n134  white-space: pre-wrap;\n135  font-size: 0.9375rem;\n136}\n137\n138.subtitle {\n139  font-size: 1.125rem;\n140  color: var(--text-muted);\n141  font-weight: 300;\n142  margin: 0;\n143}\n144\n145.entries-list {\n146  display: flex;\n147  flex-direction: column;\n148  gap: 1.5rem;\n149}\n150\n151.entries-section {\n152  display: flex;\n153  flex-direction: column;\n154  gap: 1.5rem;\n155}\n156\n157.card {\n158  background-color: var(--surface);\n159  border: 1px solid var(--border);\n160  border-radius: var(--radius-xl);\n161  padding: 1.5rem;\n162  box-shadow: var(--shadow-md);\n163}\n164\n165.form-group {\n166  margin-bottom: 1.5rem;\n167}\n168\n169.input-field, .textarea-field {\n170  width: 100%;\n171  border-radius: var(--radius-lg);\n172  border: 1px solid #d1d5db;\n173  padding: 0.75rem 1rem;\n174  font-size: 0.875rem;\n175  box-shadow: var(--shadow-sm);\n176  transition: border-color 0.2s, ring 0.2s;\n177}\n178\n179.input-field:focus, .textarea-field:focus {\n180  outline: none;\n181  border-color: var(--primary);\n182  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);\n183}\n184\n185.textarea-field {\n186  resize: vertical;\n187}\n188\n189.btn {\n190  display: inline-flex;\n191  align-items: center;\n192  padding: 0.625rem 1.25rem;\n193  font-size: 0.875rem;\n194  font-weight: 500;\n195  border-radius: var(--radius-lg);\n196  cursor: pointer;\n197  transition: all 0.2s;\n198  border: none;\n199}\n200\n201.btn-primary {\n202  background-color: var(--primary);\n203  color: #ffffff;\n204  box-shadow: var(--shadow-sm);\n205}\n206\n207.btn-primary:hover {\n208  background-color: var(--primary-hover);\n209}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Clicking Run Code will show you the header, the form, and the entry card below it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Try typing in the input fields: you'll find that it works."
+    },
+    {
+      "type": "paragraph",
+      "content": "But clicking Add Entry doesn't do anything yet. You'll fix that in the next chapter, so don't concern yourself with it for the time being."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, let's shift our focus to something more pressing, which is adding an invisible wrapper to your HTML."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

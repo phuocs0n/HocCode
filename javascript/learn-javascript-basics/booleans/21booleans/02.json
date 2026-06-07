@@ -1,0 +1,79 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/boolean?page=3",
+  "title": "Understanding Booleans",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Booleans"
+    },
+    {
+      "type": "paragraph",
+      "content": "Boolean values, true and false, are fixed values similar to numbers like 25 or text like \"Hello\". Here's what you need to know:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Booleans aren't strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"true\" and \"false\" are strings, but true and false (without quotation marks) are boolean values."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Booleans aren't variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even though true and false might seem like variable names, they can't be used as variables. For example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let true = 25;\n2console.log(true);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "SyntaxError: Unexpected token 'true'"
+    },
+    {
+      "type": "paragraph",
+      "content": "This error indicates that you can't assign a value to true."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Used for decision-making"
+    },
+    {
+      "type": "paragraph",
+      "content": "Computers understand true as yes and false as no. So, programs can decide which action to take based on boolean values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

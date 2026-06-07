@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/conclusion?page=5",
+  "title": "The Big Picture",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Big Picture"
+    },
+    {
+      "type": "paragraph",
+      "content": "Everything in a React app can be reduced to one line:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "UI = components (state + hooks + render)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what each term maps to:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "State: Values that change over time, owned and managed by hooks",
+        "Hooks: Where logic lives: fetching, filtering, paginating, stabilising references",
+        "Render: The JSX a component returns, driven by the current state",
+        "Components: The wrappers that compose hooks and produce the render"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's the complete picture. Components don't manage logic directly; they delegate to hooks and describe what to show."
+    },
+    {
+      "type": "paragraph",
+      "content": "From here, the natural next step is to look beyond this app — at what comes next in the React ecosystem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

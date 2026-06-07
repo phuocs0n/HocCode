@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/limit?page=3",
+  "title": "More on LIMIT",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "More on LIMIT"
+    },
+    {
+      "type": "paragraph",
+      "content": "While LIMIT is widely supported, some databases use alternative syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "SQL Server: Uses the TOP keyword."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT TOP 3 *\nFROM Products;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Oracle: Uses FETCH FIRST or ROWNUM to achieve the same result."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you encounter an error while using LIMIT, we recommend reading the documentation of the database system you are using."
+    },
+    {
+      "type": "paragraph",
+      "content": "This marks the end of this chapter. Let's quickly revisit the filtering concepts you've learned with a short recap section."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

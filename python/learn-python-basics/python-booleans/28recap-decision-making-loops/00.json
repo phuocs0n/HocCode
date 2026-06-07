@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-python-basics/recap-decision-making--loops?page=1",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "This chapter focused on decision-making and loops, the foundation of programming logic. Let's recap what you learned in this chapter."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of simply executing code sequentially, you can use the if statement to perform different tasks based on specified conditions."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1car_color = \"black\"\n2\n3if car_color == \"white\":\n4    print(\"You have a white car.\")\n5else:\n6    print(\"You do not have a white car.\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "The while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use loops to execute code repeatedly. The while loop repeats a block of code as long as its condition evaluates to True."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Program to take input until user enters a positive integer\n2number = int(input(\"Enter an integer: \"))\n3\n4while number <= 0:\n5    number = int(input(\"Enter an integer: \"))\n6\n7print(f\"Positive number you entered: {number}\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "The for Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "The for loop is used to iterate over a sequence."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Loop through numbers from 1 to 3 (inclusive)\n2for i in range(1, 4):\n3    print(i)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

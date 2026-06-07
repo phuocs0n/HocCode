@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/profitloss-amount?page=1",
+  "title": "Calculate Profit/Loss Amount",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculate Profit/Loss Amount"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the profit/loss amount of a shop."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get two input integers cost_price and selling_price.",
+        "Calculate the profit or loss amount (i.e. selling_price - cost_price)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Negative means it's a loss."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input12\n5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output-7"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

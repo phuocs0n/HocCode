@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/like?page=1",
+  "title": "Introduction to LIKE",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to LIKE"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, you learned to filter data using IN and BETWEEN to match values or ranges."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, imagine you're analyzing customer data to find trends, such as customers from countries starting with 'U' or emails containing 'gmail'."
+    },
+    {
+      "type": "paragraph",
+      "content": "For such cases, SQL provides the LIKE operator, a powerful tool for pattern matching in text fields."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's dive in."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

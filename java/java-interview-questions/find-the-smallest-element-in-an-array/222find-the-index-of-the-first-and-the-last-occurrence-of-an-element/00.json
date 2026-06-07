@@ -1,0 +1,52 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-index-of-first-last-occurrence-of-element?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given an array of integers, find the index of the first occurrence and the last occurrence of an element inside the array. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "array =  {2, 3, 4, 5, 5, 3}\nelement = 5\noutput \nfirst occurrence = 3\nlast occurrence = 4"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "array =  {4, 3, 5, 5, 5 ,5}\nelement = 5\noutput \nfirst occurrence = 2\nlast occurrence = 5"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "array =  {1, 1, 1, 1, 1, 1}\nelement = 5\noutput \nfirst occurrence = \nlast occurrence ="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

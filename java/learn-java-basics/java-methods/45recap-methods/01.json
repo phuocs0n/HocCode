@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/revise-method?page=1",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "A method is a block of code put together that performs a specific task."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// Method to greet\nvoid greet() {\n    System.out.println(\"Hello\");\n    System.out.println(\"How are you?\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Calling a Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Defining a method won't do anything. We need to call the method to bring it into action. In Java, we use the object of the class to call a method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    // Method to greet\n4    void greet() {\n5        System.out.println(\"Hello\");\n6        System.out.println(\"How are you?\");\n7    }\n8\n9    public static void main(String[] args) {\n10\n11        // Create object of Main class\n12        Main obj = new Main();\n13    \n14        // Call greet method\n15        obj.greet();\n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arguments are the inputs to the method and return value is the output from the method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    // The method takes two arguments\n4    // Returns the sum of numbers\n5    int addNumbers(int n1, int n2) {\n6        int result = n1 + n2;\n7        return result;\n8    }\n9\n10    public static void main(String[] args) {\n11\n12        // Create object of Main class\n13        Main obj = new Main();\n14\n15        // Call method and print it\n16        int result = obj.addNumbers(20, 30);\n17        System.out.println(result);    // 50\n18    }\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore more on what you learned on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-window-functions?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous chapter, you learned about aggregate functions like AVG(). For example, to calculate the average salary of all employees, you would use:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT AVG(salary) FROM Employees;"
+    },
+    {
+      "type": "paragraph",
+      "content": "While this summarizes data, it has a limitation: it reduces results to a single row, losing individual details."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you need to compare each employee's salary to their department's average? This is where SQL window functions come in. They allow you to calculate each row without collapsing the data, keeping everything intact."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this chapter, you'll learn how SQL window functions let you perform complex calculations while preserving the original data."
+    },
+    {
+      "type": "paragraph",
+      "content": "To make things clearer, let's start with a real-world scenario."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

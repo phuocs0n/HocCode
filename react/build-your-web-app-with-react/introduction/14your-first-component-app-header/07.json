@@ -1,0 +1,58 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header?page=8",
+  "title": "Try It: Change the Text",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Try It: Change the Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "You now know the basic working principle of React. So let's look at another example where you'll change your React component."
+    },
+    {
+      "type": "paragraph",
+      "content": "Try modifying the text in your page. To do this, run this code first:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  return (\n3    <div>\n4      <h1>My Daily Journal</h1>\n5      <p>Track your thoughts and ideas</p>\n6    </div>\n7  );\n8}\n9\n10export default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, replace the header My Daily Journal with something else, maybe with My Thoughts or Daily Notes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, click the Run button on the editor. You'll see the changes immediately: \"My Daily Journal\" is now changed to the text you replaced it with."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is your app now. The header you see is the start of the journal app you'll build throughout this course."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

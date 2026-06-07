@@ -1,0 +1,50 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/suspense-fallbacks-loading-ux?page=8",
+  "title": "Add the Skeleton Styles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add the Skeleton Styles"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll add a shimmer animation that pulses the opacity gently. This is a common pattern that communicates activity without being visually aggressive."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add this to the existing styles in styles.css:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": ".skeleton-page {\n  padding: 20px;\n  max-width: 600px;\n  margin: 0 auto;\n}\n.skeleton-title {\n  background: #e0e0e0;\n  border-radius: 8px;\n  height: 32px;\n  width: 60%;\n  margin-bottom: 16px;\n  animation: shimmer 1.2s ease-in-out infinite;\n}\n.skeleton-line {\n  background: #e0e0e0;\n  border-radius: 4px;\n  height: 16px;\n  margin-bottom: 10px;\n  animation: shimmer 1.2s ease-in-out infinite;\n}\n.skeleton-line.short {\n  width: 40%;\n}\n@keyframes shimmer {\n  0%   { opacity: 1; }\n  50%  { opacity: 0.5; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The shimmer keyframe cycles through full and half opacity on a loop. Now let's wire SkeletonPage into our routes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

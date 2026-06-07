@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/saving-java-program?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the name of the following Java Program?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n  \n    public static void main(String[] args) {\n    \n        System.out.println(\"Hello World\");\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Main"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java programs must have a .java extension."
+    },
+    {
+      "type": "paragraph",
+      "content": "Java programs must have a .java extension."
+    },
+    {
+      "type": "paragraph",
+      "content": "HelloWorld.java"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of the Java Program must match its class name."
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of the Java Program must match its class name."
+    },
+    {
+      "type": "paragraph",
+      "content": "Main.java"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of java must be the same as its class name followed by the .java extension."
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of java must be the same as its class name followed by the .java extension."
+    },
+    {
+      "type": "paragraph",
+      "content": "main.java"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java is case sensitive"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java is case sensitive"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java programs must have a .java extension."
+    },
+    {
+      "type": "paragraph",
+      "content": "Java programs must have a .java extension."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of the Java Program must match its class name."
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of the Java Program must match its class name."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of java must be the same as its class name followed by the .java extension."
+    },
+    {
+      "type": "paragraph",
+      "content": "Name of java must be the same as its class name followed by the .java extension."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java is case sensitive"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java is case sensitive"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the name of the following Java Program?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Main",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Main",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:HelloWorld.java",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "HelloWorld.java",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Main.java",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Main.java",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:main.java",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "main.java",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,83 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/control-flow-examples?page=2",
+  "title": "Example: Categorize Integer",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Categorize Integer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's write a program to categorize an integer into one of the following categories:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Negative and odd",
+        "Negative and even",
+        "Positive and odd",
+        "Positive and even",
+        "Zero"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Input: Ask the user to enter an integer\n2let number = parseInt(prompt(\"Enter an integer: \"));\n3\n4// Check if the number is positive and even\n5if (number > 0 && number % 2 === 0) {\n6    console.log(\"Positive and even\");\n7}\n8// Check if the number is positive and odd\n9else if (number > 0 && number % 2 !== 0) {\n10    console.log(\"Positive and odd\");\n11}\n12// Check if the number is negative and even\n13else if (number < 0 && number % 2 === 0) {\n14    console.log(\"Negative and even\");\n15}\n16// Check if the number is negative and odd\n17else if (number < 0 && number % 2 !== 0) {\n18    console.log(\"Negative and odd\");\n19}\n20// If the number is zero\n21else {\n22    console.log(\"The number is zero\");\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter an integer: -23\nNegative and odd"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter an integer: 23\nPositive and odd"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter an integer: 0\nThe number is zero"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

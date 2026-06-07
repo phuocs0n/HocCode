@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/enabled-flag?page=1",
+  "title": "What is a Dependent Query?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is a Dependent Query?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes one query depends on the result of another. You can't fetch the second thing until the first one comes back."
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query handles this with a simple option called enabled. When enabled is false the query just sits and waits. When it becomes true the query fires."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's an example. We only want to search tasks when the user has typed at least 3 characters:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [search, setSearch] = useState('')\n \nconst { data } = useQuery({\n  queryKey: taskKeys.list({ search }),\n  queryFn: () => fetchTasks({ search }),\n  enabled: search.length > 2\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "No fetch happens until the user types 3 characters. No point hitting the server for every single keystroke."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

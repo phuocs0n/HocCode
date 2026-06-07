@@ -1,0 +1,60 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/tic-tac-toe-project?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "With everything you've learned so far, you're now ready to create the interactive visual components you see in websites. Let's create it for Tic-Tac-Toe."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3  …"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    …"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Final look of the Game (Phase I) \n2\n3const gameBoard = document.querySelector(\".game-board\");\n4…"
+    },
+    {
+      "type": "paragraph",
+      "content": "This will be the first phase of your project, focusing on building the interface and layout. Once the visual structure is complete, the game logic will be added in phase two."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's get started."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

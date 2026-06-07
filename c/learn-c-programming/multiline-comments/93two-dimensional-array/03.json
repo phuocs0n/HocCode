@@ -1,0 +1,180 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/two-dimensional-array?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Kích thước của mảng đã cho là bao nhiêu?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int arr[3][5];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "15"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mảng có thể lưu trữ 3 mảng một chiều có kích thước 5 nên tổng kích thước là 15 (3 * 5)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mảng có thể lưu trữ 3 mảng một chiều có kích thước 5 nên tổng kích thước là 15 (3 * 5)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "3 biểu thị số lượng mảng một chiều có trong mảng 2D này."
+    },
+    {
+      "type": "paragraph",
+      "content": "3 biểu thị số lượng mảng một chiều có trong mảng 2D này."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 là số phần tử có trong mảng một chiều bên trong."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 là số phần tử có trong mảng một chiều bên trong."
+    },
+    {
+      "type": "paragraph",
+      "content": "(không xác định)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kích thước của mảng 2D có thể được xác định bằng cách nhân các hàng và cột."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kích thước của mảng 2D có thể được xác định bằng cách nhân các hàng và cột."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mảng có thể lưu trữ 3 mảng một chiều có kích thước 5 nên tổng kích thước là 15 (3 * 5)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mảng có thể lưu trữ 3 mảng một chiều có kích thước 5 nên tổng kích thước là 15 (3 * 5)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "3 biểu thị số lượng mảng một chiều có trong mảng 2D này."
+    },
+    {
+      "type": "paragraph",
+      "content": "3 biểu thị số lượng mảng một chiều có trong mảng 2D này."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 là số phần tử có trong mảng một chiều bên trong."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 là số phần tử có trong mảng một chiều bên trong."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kích thước của mảng 2D có thể được xác định bằng cách nhân các hàng và cột."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kích thước của mảng 2D có thể được xác định bằng cách nhân các hàng và cột."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Kích thước của mảng đã cho là bao nhiêu?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:15",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:3",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:5",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(không xác định)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(không xác định)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,47 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/dsa-with-python/topological-sorting?page=9",
+  "title": "Source Code: Topological Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Topological Sort"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1vertices = ['A', 'B', 'C', 'D', 'E']  \n2adj_matrix = [\n3    [0, 0, 1, 1, 0],\n4    [0, 0, 1, 0, 1],\n5    [0, 0, 0, 1, 0],\n6    [0, 0, 0, 0, 0],\n7    [1, 0, 1, 0, 0]\n8]\n9\n10def topological_sort(graph, sorted_vertices=None):\n11\n12    if sorted_vertices is None:\n13        sorted_vertices = []\n14    \n15    # base case\n16    if len(sorted_vertices) == len(graph):\n17        return [vertices[i] for i in sorted_vertices]\n18    \n19    # find indegree of all vertices\n20    indegrees = [sum(col) for col in zip(*graph)]\n21\n22    # find the vertices with indegree zero\n23    zero_indegrees = [i for i, indegree in enumerate(indegrees) if indegree == 0]\n24    \n25    # append the zero indegree list to sorted\n26    sorted_vertices.extend([i for i in zero_indegrees if i not in sorted_vertices])\n27    \n28    # remove the zero indegree vertices\n29    # create a copy of the graph to avoid modifying the input\n30    new_graph = [row[:] for row in graph]\n31    # remove the zero indegree vertices\n32    for i in zero_indegrees:\n33        new_graph[i] = [0] * len(new_graph[i])\n34    \n35    # sort the new graph\n36    return topological_sort(new_graph, sorted_vertices)\n37\n38print(topological_sort(adj_matrix))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "['B', 'E', 'A', 'C', 'D']"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

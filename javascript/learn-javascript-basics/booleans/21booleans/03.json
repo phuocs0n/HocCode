@@ -1,0 +1,144 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/boolean?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following variables is assigned a boolean value in the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let var1 = \"true\";\nlet var2 = False;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both variables are assigned boolean values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "var1 holds a string because \"true\" is in quotes.var2 holds an undefined value because False is not a valid boolean in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "var1 holds a string because \"true\" is in quotes."
+    },
+    {
+      "type": "paragraph",
+      "content": "var2 holds an undefined value because False is not a valid boolean in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "var2"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "var2 doesn't store a boolean value because boolean values must be lowercase (true and false). JavaScript also fails to understand False, raising an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "var2 doesn't store a boolean value because boolean values must be lowercase (true and false). JavaScript also fails to understand False, raising an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "var1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "var1 doesn't store a boolean value because boolean values aren't enclosed within quotation marks. So, \"true\" is actually a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "var1 doesn't store a boolean value because boolean values aren't enclosed within quotation marks. So, \"true\" is actually a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "var1 contains a string since \"true\" is in quotes.var2 is assigned False, which is not a valid boolean in JavaScript (the correct values are true and false)."
+    },
+    {
+      "type": "paragraph",
+      "content": "var1 contains a string since \"true\" is in quotes."
+    },
+    {
+      "type": "paragraph",
+      "content": "var2 is assigned False, which is not a valid boolean in JavaScript (the correct values are true and false)."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following variables is assigned a boolean value in the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Both variables are assigned boolean values.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Both variables are assigned boolean values.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:var2",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "var2",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:var1",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "var1",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

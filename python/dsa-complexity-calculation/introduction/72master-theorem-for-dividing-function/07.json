@@ -1,0 +1,107 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-dividing-function?page=8",
+  "title": "Example 2",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we are given the following recurrence relation:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=4T(n2)+nT\\lparen n\\rparen = 4T \\left( \\cfrac{n}{2} \\right) +nT(n)=4T(2n​)+n"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's calculate its time complexity using the master theorem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1: Compare the recurrence relation with the general form."
+    },
+    {
+      "type": "paragraph",
+      "content": "The general form of T(n) is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=aT(nb)+Ө(nk(log⁡n)p)T\\lparen n\\rparen = aT \\left( \\cfrac{n}{b} \\right) + Ө(n^k \\lparen \\log n \\rparen ^p)T(n)=aT(bn​)+Ө(nk(logn)p)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2: Rewrite the recurrence relation to match the general form."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=4T(n2)+Ө(n1(log⁡n)0)T\\lparen n\\rparen = 4T \\left( \\cfrac{n}{2} \\right) + Ө(n^1 \\lparen \\log n \\rparen ^0)T(n)=4T(2n​)+Ө(n1(logn)0)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 3: Identify a, b, k and p and check the conditions for the master theorem."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "a = 4\nb = 2\nk = 1\np = 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since a≥1a \\geq 1a≥1, b > 1, k≥0k \\geq 0k≥0, and p is a real number, the master theorem is possible."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 4: Compare log⁡ba\\log_balogb​a and k and applying the matching rule."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "log⁡ba=log⁡24=2\\log_ba = \\log_24 = 2logb​a=log2​4=2k=1k = 1 k=1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡ba>k\\log_ba > klogb​a>k, let's apply the formula to find the time complexity for this scenario."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=Ө(nlog⁡ba)T\\lparen n \\rparen = Ө(n ^{\\log_ba})T(n)=Ө(nlogb​a)T(n)=Ө(n2)\\hphantom{T\\lparen n \\rparen } = Ө(n^2)T(n)=Ө(n2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's look at another example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

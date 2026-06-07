@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/figma-to-code/header-with-css?page=1",
+  "title": "Laying Out the Header with CSS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Figma to Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Laying Out the Header with CSS"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the last lesson, you built the header structure in HTML. Everything is in place, but it looks stacked and plain because the browser is applying its default styles."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we'll start shaping the layout with CSS. The goal here is simple:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "keep the header content centered",
+        "place the items on a single horizontal row",
+        "match the overall header layout from the Figma design"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You're not polishing yet. You're getting the layout right so the rest of the styling work feels easy instead of fragile."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

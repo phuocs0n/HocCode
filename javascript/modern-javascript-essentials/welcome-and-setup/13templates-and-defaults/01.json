@@ -1,0 +1,179 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/templates-defaults?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does ${2 + 3} evaluate to inside a template literal?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "${2 + 3}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Template literals evaluate expressions inside ${}. The text is not printed literally."
+    },
+    {
+      "type": "paragraph",
+      "content": "Template literals evaluate expressions inside ${}. The text is not printed literally."
+    },
+    {
+      "type": "paragraph",
+      "content": "23"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript evaluates the expression as math, not string concatenation. 2 + 3 performs addition."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript evaluates the expression as math, not string concatenation. 2 + 3 performs addition."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Any valid expression inside ${} is evaluated at runtime. 2 + 3 produces 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Any valid expression inside ${} is evaluated at runtime. 2 + 3 produces 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "undefined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The expression 2 + 3 is valid arithmetic. It returns 5, not undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "The expression 2 + 3 is valid arithmetic. It returns 5, not undefined."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Template literals evaluate expressions inside ${}. The text is not printed literally."
+    },
+    {
+      "type": "paragraph",
+      "content": "Template literals evaluate expressions inside ${}. The text is not printed literally."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript evaluates the expression as math, not string concatenation. 2 + 3 performs addition."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript evaluates the expression as math, not string concatenation. 2 + 3 performs addition."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Any valid expression inside ${} is evaluated at runtime. 2 + 3 produces 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Any valid expression inside ${} is evaluated at runtime. 2 + 3 produces 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The expression 2 + 3 is valid arithmetic. It returns 5, not undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "The expression 2 + 3 is valid arithmetic. It returns 5, not undefined."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does ${2 + 3} evaluate to inside a template literal?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:${2 + 3}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "${2 + 3}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:23",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "23",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:5",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "undefined",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=2",
+  "title": "Quá trình suy nghĩ",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Quá trình suy nghĩ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dự án có hai nhiệm vụ riêng biệt:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "tính điểm trung bình",
+        "tính điểm"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Để hoàn thành những nhiệm vụ này, chúng ta sẽ tạo hai hàm."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Hàm getAverageScore()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm này sẽ lấy một mảng làm đối số, tính điểm trung bình và trả về nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Hàm tínhGrade()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm này sẽ lấy điểm trung bình làm đối số, tính điểm và trả về."
+    },
+    {
+      "type": "paragraph",
+      "content": "Với những điều này, hãy tạo hàm đầu tiên của chúng ta."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

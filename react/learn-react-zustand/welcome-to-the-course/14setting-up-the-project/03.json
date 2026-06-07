@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/setting-up-project?page=3",
+  "title": "Zustand Is Already Installed",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Zustand Is Already Installed"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you use an external library in React, it needs to be listed in your project's dependencies. Think of dependencies as a list of all the extra tools your project uses."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this project you need one package: zustand."
+    },
+    {
+      "type": "paragraph",
+      "content": "In package.json it lives inside dependencies."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "{\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"zustand\": \"^5.0.0\"\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is already installed so you do not need to do anything here. Just good to know where it lives."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will take a look at the starter files. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

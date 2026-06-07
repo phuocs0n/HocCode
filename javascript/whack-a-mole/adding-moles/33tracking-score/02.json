@@ -1,0 +1,49 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/tracking-score?page=3",
+  "title": "Create Score Variable 🔢",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create Score Variable 🔢"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, you need a place to store the score. You'll create a variable at the top of your JavaScript file."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will be incrementing it every time a mole is hit."
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a variable called score using let and initialize it to 0."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This will store the player's current score."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

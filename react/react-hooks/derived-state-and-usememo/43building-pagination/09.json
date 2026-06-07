@@ -1,0 +1,131 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-hooks/building-pagination?page=10",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does pagedEntries have filteredEntries in its dependency array?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To ensure the page number resets to 1 when the search changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The page reset happens in handleQueryChange(). The dependency array only controls when useMemo() recomputes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The page reset happens in handleQueryChange(). The dependency array only controls when useMemo() recomputes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because pagedEntries is a slice of filteredEntries; if the filter result changes, the page slice must recompute"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "pagedEntries is derived from filteredEntries, so it must be a dependency."
+    },
+    {
+      "type": "paragraph",
+      "content": "pagedEntries is derived from filteredEntries, so it must be a dependency."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useMemo() always requires the previous useMemo() result as a dependency"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() dependencies are whatever values the function actually uses, not an automatic chain."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() dependencies are whatever values the function actually uses, not an automatic chain."
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent stale entries from appearing on the current page"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Preventing staleness is a side effect of listing the right dependencies, not the reason filteredEntries is listed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Preventing staleness is a side effect of listing the right dependencies, not the reason filteredEntries is listed."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does pagedEntries have filteredEntries in its dependency array?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To ensure the page number resets to 1 when the search changes",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To ensure the page number resets to 1 when the search changes",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because pagedEntries is a slice of filteredEntries; if the filter result changes, the page slice must recompute",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because pagedEntries is a slice of filteredEntries; if the filter result changes, the page slice must recompute",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because useMemo() always requires the previous useMemo() result as a dependency",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because useMemo() always requires the previous useMemo() result as a dependency",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To prevent stale entries from appearing on the current page",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To prevent stale entries from appearing on the current page",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

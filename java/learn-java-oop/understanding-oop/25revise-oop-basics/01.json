@@ -1,0 +1,90 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-basics?page=2",
+  "title": "Java Constructors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Java Constructors"
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor is similar to methods but doesn't have a return type. It has the same name as the class name."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Student {\n\n    Student() {\n        ...\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Student() is the constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. parameterized Constructor"
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor can also accept parameters. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Student {\n2    \n3    Student(String name) {\n4        System.out.println(\"Name: \" + name);\n5    }\n6    \n7    public static void main(String[] args) {\n8        \n9        Student student1 = new Student(\"Thomas\");\n10\n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Name: Thomas"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. this Keyword"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the this keyword to refer to the current object. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Student {\n2\n3    String name;\n4\n5    Student(String name) {\n6        // this.name refers to student1.name\n7        this.name = name;\n8    }\n9\n10    public static void main(String[] args) {\n11\n12        Student student1 = new Student(\"Thomas\");\n13\n14        System.out.println(\"Name: \" + student1.name);\n15\n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Name: Thomas"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

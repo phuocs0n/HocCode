@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-consolelog?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let favoriteActor = \"Andrew\";\nconsole.log(\"Favorite actor:\", favoriteActor);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Favorite actor:, Andrew"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The comma symbol separates items in console.log(). It is not displayed in the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "The comma symbol separates items in console.log(). It is not displayed in the output."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Favorite actor: favoriteActor"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "favoriteActor is a variable, so its value (Andrew) is displayed."
+    },
+    {
+      "type": "paragraph",
+      "content": "favoriteActor is a variable, so its value (Andrew) is displayed."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "\"Favorite actor:\" Andrew"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The quotation marks (\" \") used for strings inside the console.log() statement are not printed in the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "The quotation marks (\" \") used for strings inside the console.log() statement are not printed in the output."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Favorite actor: Andrew"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code outputs the \"Favorite actor\" string, followed by the value stored in the favoriteActor variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code outputs the \"Favorite actor\" string, followed by the value stored in the favoriteActor variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Favorite actor:, Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Favorite actor:, Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Favorite actor: favoriteActor",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Favorite actor: favoriteActor",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:\"Favorite actor:\" Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "\"Favorite actor:\" Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Favorite actor: Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Favorite actor: Andrew",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

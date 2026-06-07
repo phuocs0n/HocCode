@@ -1,0 +1,86 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-side-effect?page=2",
+  "title": "Attempting a Solution",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Attempting a Solution"
+    },
+    {
+      "type": "paragraph",
+      "content": "So your app needs to load data from an API the moment it opens. What should you do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "As a rookie developer, your first instinct might be to call fetch() directly inside the component function, just like any other JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's exactly what I did it when I first started out:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  const [entries, setEntries] = useState([]);\n3\n4  // Attempt: fetch here, inside the component body\n5  async function load() {\n6    const res = await fetch(\"https://api.programiz.pro/api/Demo/v1/journal-entries\");\n7    const data = await res.json();\n8    setEntries(data); // This causes a problem\n9  }\n10  \n11  load();\n12\n13  return (\n14    // Return code\n15  );\n16}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function Header() {\n2  return (\n3    <header className=\"header\">\n4      <h2 className=\"title-primary\">My Daily Journal</h2>\n5      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n6    </header>\n7  );\n8}\n9\n10export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState } from \"react\";\n2\n3function EntryCard({ id, title, date, content, author, onDelete, onEdit }) {\n4  const [isEditing, setIsEditing] = useState(false);\n5  const [draftTitle, setDraftTitle] = useState(title);\n6  const [draftContent, setDraftContent] = useState(content);\n7\n8  function handleStartEdit() {\n9    setIsEditing(true);\n10    setDraftTitle(title);\n11    setDraftContent(content);\n12  }\n13\n14  function handleSave() {\n15    onEdit(id, draftTitle, draftContent);\n16    setIsEditing(false);\n17  }\n18\n19  function handleCancel() {\n20    setIsEditing(false);\n21    setDraftTitle(title);\n22    setDraftContent(content);\n23  }\n24\n25  if (isEditing) {\n26    return (\n27      <div className=\"entry-item\">\n28        <div className=\"entry-date\">{date}</div>\n29        <input\n30          type=\"text\"\n31          value={draftTitle}\n32          onChange={(e) => setDraftTitle(e.target.value)}\n33          className=\"input-field\"\n34        />\n35\n36        <textarea\n37          value={draftContent}\n38          onChange={(e) => setDraftContent(e.target.value)}\n39          className=\"textarea-field\"\n40          rows={4}\n41        />\n42\n43        <div className=\"btn-group\">\n44          <button type=\"button\" className=\"btn btn-secondary\" onClick={handleCancel}>\n45            Cancel\n46          </button>\n47          <button type=\"button\" className=\"btn btn-primary\" onClick={handleSave}>\n48            Save\n49          </button>\n50\n51        </div>\n52      </div>\n53    );\n54  }\n55\n56  return (\n57\n58    <div className=\"entry-item\">\n59      <div className=\"entry-item-content\">\n60        <div className=\"entry-date\">{date}</div>\n61        <h4 className=\"entry-title\">{title}</h4>\n62        <p className=\"entry-content\">{content}</p>\n63        <p className=\"entry-author\">{author}</p>\n64        <div className=\"entry-actions\">\n65          <button \n66            type=\"button\"\n67            className=\"btn-icon btn-edit\"\n68            onClick={handleStartEdit}\n69          >\n70            Edit\n71          </button>\n72          <button\n73            type=\"button\"\n74            className=\"btn-icon btn-delete\"\n75            onClick={() => onDelete(id)}\n76          >\n77            Delete\n78          </button>\n79        </div>  \n80      </div>\n81    </div>\n82  );\n83}\n84\n85export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState } from \"react\";\n2\n3function JournalForm({onAddEntry}) {\n4  const [title, setTitle] = useState(\"\");\n5  const [content, setContent] = useState(\"\");\n6\n7  function handleSubmit(e) {\n8    e.preventDefault();\n9\n10    if (title.trim() === \"\" || content.trim() === \"\") return;\n11\n12    onAddEntry(title, content);\n13\n14    setTitle(\"\");\n15    setContent(\"\");\n16  }\n17\n18  return (\n19    <section className=\"card\">\n20      <div className=\"form-header\">\n21        <h2 className=\"form-title\">New Entry</h2>\n22      </div>\n23      <form onSubmit={handleSubmit}>\n24        <div className=\"form-group\">\n25          <label htmlFor=\"title\">Title</label>\n26          <input\n27            id=\"title\"\n28            type=\"text\"\n29            placeholder=\"Entry title\"\n30            className=\"input-field\"\n31            value={title}\n32            onChange={(e) => setTitle(e.target.value)}\n33          />\n34        </div>\n35        <div className=\"form-group\">\n36          <label htmlFor=\"content\">Content</label>\n37          <textarea\n38            id=\"content\"\n39            placeholder=\"What's on your mind?\"\n40            className=\"textarea-field\"\n41            rows={4}\n42            value={content}\n43            onChange={(e) => setContent(e.target.value)}\n44          />\n45        </div>\n46        <div className=\"btn-group\">\n47          <button type=\"button\" className=\"btn btn-secondary\">Clear</button>\n48          <button type=\"submit\" className=\"btn btn-primary\">Add Entry</button>\n49        </div>\n50      </form>\n51    </section>\n52  );\n53}\n54\n55export default JournalForm;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1:root {\n2  --primary: #2563eb;\n3  --primary-hover: #1d4ed8;\n4  --danger: #ef4444;\n5  --danger-hover: #dc2626;\n6  --background-light: #f8fafc;\n7  --surface: #ffffff;\n8  --text-main: #111827;\n9  --text-muted: #6b7280;\n10  --border: #e5e7eb;\n11  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n12  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);\n13  --radius-lg: 0.5rem;\n14  --radius-xl: 0.75rem;\n15\n16  min-height: 100vh;\n17  display: flex;\n18  flex-direction: column;\n19  align-items: center;\n20  padding: 3rem 1rem;\n21}\n22\n23* {\n24  box-sizing: border-box;\n25}\n26\n27.form-title {\n28  font-size: 1.25rem;\n29  font-weight: 600;\n30  color: #111827;\n31  margin: 0;\n32}\n33\n34body {\n35  margin: 0;\n36  font-family: 'Inter', sans-serif;\n37  background-color: var(--background-light);\n38  color: var(--text-main);\n39  line-height: 1.5;\n40  -webkit-font-smoothing: antialiased;\n41}\n42\n43.layout-root {\n44  min-height: 100vh;\n45  display: flex;\n46  flex-direction: column;\n47  align-items: center;\n48  padding: 3rem 1rem;\n49}\n50\n51.main-container {\n52  width: 100%;\n53  max-width: 48rem;\n54  display: flex;\n55  flex-direction: column;\n56  gap: 2.5rem;\n57}\n58\n59.header {\n60  text-align: center;\n61  display: flex;\n62  flex-direction: column;\n63  gap: 0.75rem;\n64}\n65\n66.title-primary {\n67  font-size: 2.5rem;\n68  font-weight: 700;\n69  letter-spacing: -0.025em;\n70  margin: 0;\n71}\n72\n73@media (min-width: 768px) {\n74  .title-primary {\n75    font-size: 3rem;\n76  }\n77}\n78\n79.entry-item {\n80  background-color: var(--surface);\n81  border-radius: var(--radius-xl);\n82  padding: 1.5rem;\n83  border: 1px solid var(--border);\n84  box-shadow: var(--shadow-sm);\n85  transition: all 0.2s;\n86}\n87\n88.entry-item:hover {\n89  box-shadow: var(--shadow-md);\n90}\n91\n92.entry-date {\n93  font-size: 0.75rem;\n94  font-weight: 600;\n95  letter-spacing: 0.05em;\n96  color: var(--text-muted);\n97  text-transform: uppercase;\n98}\n99\n100.entry-title {\n101  margin: 0.25rem 0 0 0;\n102  font-size: 1.25rem;\n103  font-weight: 700;\n104  color: var(--text-main);\n105}\n106\n107.entry-content {\n108  color: #4b5563;\n109  line-height: 1.625;\n110  margin-top: 1rem;\n111  white-space: pre-wrap;\n112  font-size: 0.9375rem;\n113}\n114\n115.subtitle {\n116  font-size: 1.125rem;\n117  color: var(--text-muted);\n118  font-weight: 300;\n119  margin: 0;\n120}\n121\n122.entries-list {\n123  display: flex;\n124  flex-direction: column;\n125  gap: 1.5rem;\n126}\n127\n128.entries-section {\n129  display: flex;\n130  flex-direction: column;\n131  gap: 1.5rem;\n132}\n133\n134.card {\n135  background-color: var(--surface);\n136  border: 1px solid var(--border);\n137  border-radius: var(--radius-xl);\n138  padding: 1.5rem;\n139  box-shadow: var(--shadow-md);\n140}\n141\n142@media (min-width: 768px) {\n143  .card {\n144    padding: 2rem;\n145  }\n146}\n147\n148.form-header {\n149  margin-bottom: 1.5rem;\n150  display: flex;\n151  align-items: center;\n152  justify-content: space-between;\n153  color: var(--primary);\n154}\n155\n156.flex-center {\n157  display: flex;\n158  align-items: center;\n159  gap: 0.5rem;\n160}\n161\n162.btn-refine {\n163  display: flex;\n164  align-items: center;\n165  gap: 0.25rem;\n166  font-size: 0.75rem;\n167  font-weight: 600;\n168  text-transform: uppercase;\n169  letter-spacing: 0.05em;\n170  background-color: #eff6ff;\n171  color: var(--primary);\n172  padding: 0.375rem 0.75rem;\n173  border-radius: 9999px;\n174  border: none;\n175  cursor: pointer;\n176  transition: all 0.2s;\n177}\n178\n179.btn-refine:hover:not(:disabled) {\n180  background-color: #dbeafe;\n181}\n182\n183.btn-refine:disabled {\n184  opacity: 0.5;\n185  cursor: not-allowed;\n186}\n187\n188.form-group {\n189  margin-bottom: 1.5rem;\n190}\n191\n192.form-group label {\n193  display: block;\n194  font-size: 0.875rem;\n195  font-weight: 500;\n196  color: #374151;\n197  margin-bottom: 0.5rem;\n198}\n199\n200.input-field, .textarea-field {\n201  width: 100%;\n202  border-radius: var(--radius-lg);\n203  border: 1px solid #d1d5db;\n204  padding: 0.75rem 1rem;\n205  font-size: 0.875rem;\n206  box-shadow: var(--shadow-sm);\n207  transition: border-color 0.2s, ring 0.2s;\n208}\n209\n210.input-field:focus, .textarea-field:focus {\n211  outline: none;\n212  border-color: var(--primary);\n213  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);\n214}\n215\n216.textarea-field {\n217  resize: vertical;\n218}\n219\n220.btn-group {\n221  display: flex;\n222  justify-content: flex-end;\n223  gap: 0.75rem;\n224  margin-top: 1.5rem;\n225}\n226\n227.btn {\n228  display: inline-flex;\n229  align-items: center;\n230  padding: 0.625rem 1.25rem;\n231  font-size: 0.875rem;\n232  font-weight: 500;\n233  border-radius: var(--radius-lg);\n234  cursor: pointer;\n235  transition: all 0.2s;\n236  border: none;\n237}\n238\n239.btn-secondary {\n240  background-color: #ffffff;\n241  border: 1px solid #d1d5db;\n242  color: #374151;\n243}\n244\n245.btn-secondary:hover {\n246  background-color: #f9fafb;\n247  color: var(--text-main);\n248}\n249\n250.btn-primary {\n251  background-color: var(--primary);\n252  color: #ffffff;\n253  box-shadow: var(--shadow-sm);\n254}\n255\n256.btn-primary:hover {\n257  background-color: var(--primary-hover);\n258}\n259\n260.entry-content {\n261  color: #4b5563;\n262  line-height: 1.625;\n263  margin-top: 1rem;\n264  white-space: pre-wrap;\n265  font-size: 0.9375rem;\n266}\n267\n268.entry-actions {\n269  display: flex;\n270  justify-content: flex-end;\n271  gap: 0.75rem;\n272  margin-top: 1rem;\n273  padding-top: 1rem;\n274  border-top: 1px solid #f3f4f6;\n275}\n276\n277.btn-icon {\n278  display: flex;\n279  align-items: center;\n280  padding: 0.375rem 0.75rem;\n281  font-size: 0.875rem;\n282  font-weight: 500;\n283  border-radius: 0.25rem;\n284  cursor: pointer;\n285  background: transparent;\n286  border: 1px solid transparent;\n287  transition: all 0.2s;\n288}\n289\n290.btn-edit {\n291  color: var(--primary);\n292}\n293\n294.btn-edit:hover {\n295  background-color: #eff6ff;\n296  border-color: #dbeafe;\n297}\n298\n299.btn-delete {\n300  color: var(--danger);\n301  border-color: rgba(239, 68, 68, 0.3);\n302}\n303\n304.btn-delete:hover {\n305  background-color: var(--danger);\n306  color: #ffffff;\n307}\n308\n309.entries-section-title {\n310  font-size: 1.125rem;\n311  font-weight: 500;\n312  margin: 0;\n313}\n314\n315.entry-list-header {\n316  display: flex;\n317  align-items: center;\n318  justify-content: space-between;\n319  padding-bottom: 0.5rem;\n320  border-bottom: 1px solid var(--border);\n321  margin-bottom: 1.5rem;\n322}\n323\n324.entry-count {\n325  font-family: monospace;\n326  font-size: 0.75rem;\n327  color: var(--text-muted);\n328  background-color: #f3f4f6;\n329  padding: 0.25rem 0.5rem;\n330  border-radius: 0.25rem;\n331}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This looks reasonable, but the browser tab froze almost instantly!"
+    },
+    {
+      "type": "paragraph",
+      "content": "I waited...still frozen. I force-refreshed — it froze again before I could see anything."
+    },
+    {
+      "type": "paragraph",
+      "content": "I opened the Task Manager and saw my CPU was at 100%. I had no idea where I went wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "What do you think was happening here? I'll answer that next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

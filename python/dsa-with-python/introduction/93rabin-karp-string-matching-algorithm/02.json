@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/rabinkarp-string-matching-algorithm?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How does the Rabin-Karp algorithm minimize redundant comparisons in string-matching?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "By comparing each letter of the text and the pattern."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Rabin-Karp approach, string comparison is done only if they have equal hash values, not letter by letter."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Rabin-Karp approach, string comparison is done only if they have equal hash values, not letter by letter."
+    },
+    {
+      "type": "paragraph",
+      "content": "By comparing hash values of the pattern and text's substring before a direct comparison."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Rabin-Karp approach, we compare the pattern with the subtext only if they have equal hash values."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Rabin-Karp approach, we compare the pattern with the subtext only if they have equal hash values."
+    },
+    {
+      "type": "paragraph",
+      "content": "By finding the length of the pattern and the text."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding the length of the pattern and the text doesn't directly minimize redundant comparisons."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding the length of the pattern and the text doesn't directly minimize redundant comparisons."
+    },
+    {
+      "type": "paragraph",
+      "content": "By sorting the text and pattern alphabetically prior to comparison."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Alphabetically sorting the text and pattern prior to comparison does not represent the Rabin-Karp algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Alphabetically sorting the text and pattern prior to comparison does not represent the Rabin-Karp algorithm."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How does the Rabin-Karp algorithm minimize redundant comparisons in string-matching?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:By comparing each letter of the text and the pattern.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By comparing each letter of the text and the pattern.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:By comparing hash values of the pattern and text's substring before a direct comparison.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "By comparing hash values of the pattern and text's substring before a direct comparison.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:By finding the length of the pattern and the text.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "By finding the length of the pattern and the text.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:By sorting the text and pattern alphabetically prior to comparison.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "By sorting the text and pattern alphabetically prior to comparison.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

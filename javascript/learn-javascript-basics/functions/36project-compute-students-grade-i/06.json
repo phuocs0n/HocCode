@@ -1,0 +1,55 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-students-grade?page=4",
+  "title": "Getting Average Score",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Getting Average Score"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Find the average score and return it\n2const getAverageScore = (s1, s2, s3, s4, s5) => {\n3    // Variable for storing total sum\n4    let total = s1 + s2 + s3 + s4 + s5;\n5    \n6    // Compute average score\n7    let averageScore = total / 5;\n8    \n9    return averageScore;\n10}\n11\n12// Call function and store result\n13let averageScore = getAverageScore(55, 64, 75, 80, 65);\n14\n15console.log(averageScore);    // Output: 67.8"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the getAverageScore() function"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Takes five arguments (s1, s2, s3, s4, and s5), which are the student's scores for five different subjects.",
+        "Calculates total by adding the marks together.",
+        "Calculated the averageScore by dividing the total marks by 5.",
+        "Return the averageScore."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use the average score to compute the student's grade."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

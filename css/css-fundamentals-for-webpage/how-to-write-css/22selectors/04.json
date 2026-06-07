@@ -1,0 +1,64 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/selectors?page=4",
+  "title": "Class Selector (For Reusable Styling)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Class Selector (For Reusable Styling)"
+    },
+    {
+      "type": "paragraph",
+      "content": "A class selector lets you style only the elements you choose."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p class=\"highlight\">This paragraph stands out.</p>\n2<p>But not this paragraph.</p>\n3<p class=\"highlight\">Another paragraph that stands out.</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.highlight {\n2  background-color: #fff3cd;\n3}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How developers think about classes:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "\"I might reuse this\"",
+        "\"This is a pattern, not a one-off\"",
+        "\"This feels like a component\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Classes are the most commonly used selector in real projects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

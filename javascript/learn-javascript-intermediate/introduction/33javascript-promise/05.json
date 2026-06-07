@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-promise?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the resolve function do in a Promise?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Rejects the Promise"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The resolve function is used to pass the result, not to reject the Promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "The resolve function is used to pass the result, not to reject the Promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "Passes the result to be handled."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The resolve function is used to pass the result to the next .then() handler."
+    },
+    {
+      "type": "paragraph",
+      "content": "The resolve function is used to pass the result to the next .then() handler."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creates a new Promise"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a Promise involves the new Promise, not the resolve function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a Promise involves the new Promise, not the resolve function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Prints an error message"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The resolve function does not handle errors; the reject function does that."
+    },
+    {
+      "type": "paragraph",
+      "content": "The resolve function does not handle errors; the reject function does that."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the resolve function do in a Promise?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Rejects the Promise",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Rejects the Promise",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Passes the result to be handled.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Passes the result to be handled.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Creates a new Promise",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Creates a new Promise",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Prints an error message",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Prints an error message",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

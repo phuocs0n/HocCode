@@ -1,0 +1,75 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=5",
+  "title": "Project: Compute a Student's Grade",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Project: Compute a Student's Grade"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Find the average score and return it\n4double getAverageScore(double scores[5]) {\n5\n6  double sum = 0;\n7\n8  // find the sum\n9  for (int i = 0; i < 5; ++i) {\n10    sum = sum + scores[i];\n11  }\n12\n13  double average = sum / 5;\n14\n15  return average;\n16}\n17\n18// Compute grade and return it\n19char computeGrade(double averageScore) {\n20\n21  char grade;\n22  \n23  if (averageScore >= 80.0) {\n24    grade = 'A';\n25  }\n26  else if (averageScore >= 60.0) {\n27    grade = 'B';\n28  }\n29  else if (averageScore >= 50.0) {\n30    grade = 'C';\n31  }\n32  else {\n33    grade = 'F';\n34  }\n35\n36  return grade;\n37}\n38\n39int main() {\n40\n41  // An array of scores\n42  double scores[5] = {55, 64, 75, 80, 65};\n43\n44  // Get average score\n45  double averageScore = getAverageScore(scores);\n46\n47  // Get grade\n48  char grade = computeGrade(averageScore);\n49\n50  printf(\"Average Score: %.2lf\\n\", averageScore);\n51  printf(\"Grade: %c\", grade);\n52\n53  return 0;\n54}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Average Score: 67.80\nGrade: B"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "We have used the getAverageScore() function to first calculate the average score.",
+        "Then, we passed the average score as an argument to the computeGrade() function to compute the grade."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we have provided student scores directly at the beginning."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can make this program dynamic by getting marks input from the user."
+    },
+    {
+      "type": "paragraph",
+      "content": "I suggest you try that on your own."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

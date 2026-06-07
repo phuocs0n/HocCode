@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/complete-app?page=2",
+  "title": "Keep Going",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Keep Going"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've finished TaskFlow. But this doesn't have to be the end."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are some ideas to keep building on your own:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add authentication and fetch only the logged in user's tasks",
+        "Add a search bar with the enabled flag so it only fetches after 3 characters",
+        "Add optimistic create so new tasks appear instantly without waiting for the server"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Each one of these will push you to use React Query in a slightly new way."
+    },
+    {
+      "type": "paragraph",
+      "content": "And you now have everything you need to figure them out."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

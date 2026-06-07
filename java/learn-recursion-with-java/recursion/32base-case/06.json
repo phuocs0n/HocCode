@@ -1,0 +1,59 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/base-case?page=6",
+  "title": "Example 2: Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Recursion"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static String printNumbers(int n) {\n4\n5        if (n == 3) {\n6            return \"Done\";\n7        }\n8\n9        System.out.println(n);\n10\n11        // Before: return print_number(n + 1)\n12        // Now: add \" over\" to the return value\n13        return printNumbers(n + 1) + \" over\";\n14    }\n15\n16    public static void main(String[] args) {\n17\n18        String output = printNumbers(1);\n19        System.out.println(output); \n20    }\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\nDone over over"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you examine the output, you will notice \" over\" appears two times after \"Done\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you guess why?"
+    },
+    {
+      "type": "paragraph",
+      "content": "If not, the next image will help you understand."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

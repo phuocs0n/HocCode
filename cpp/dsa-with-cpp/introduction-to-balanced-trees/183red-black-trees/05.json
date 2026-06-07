@@ -1,0 +1,48 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/redblack-trees?page=6",
+  "title": "Cases of Insertion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Cases of Insertion"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the insertion is into an existing red-black tree, we must consider the color of the uncle node."
+    },
+    {
+      "type": "paragraph",
+      "content": "An uncle in a tree is the sibling of your parent node. Depending on the status of the uncle node, we can have the following two cases:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The node has a red uncle.",
+        "The node has a black uncle."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

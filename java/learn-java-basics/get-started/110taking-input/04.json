@@ -1,0 +1,67 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-take-input?page=5",
+  "title": "Taking Input From the User",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Taking Input From the User"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now you can access the nextInt() property through the input object using the dot(.) operator. input.nextInt(). For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        System.out.println(\"Enter your age: \");\n7        \n8        // Create a Scanner object\n9        Scanner input = new Scanner(System.in);\n10        \n11        // Take user input \n12        int age = input.nextInt();\n13        \n14        System.out.println(\"Age is \" + age);\n15\n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the program prints Enter your age: and then waits for the user to enter data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let us type 25 and press the ENTER key."
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your age:\n25\nAge is 25"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, 25 is assigned to the age variable and printed on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Go ahead and try different input values and see the output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

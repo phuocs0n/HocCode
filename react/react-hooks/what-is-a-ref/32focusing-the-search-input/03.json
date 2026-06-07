@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/focusing-search-input?page=4",
+  "title": "The Input That Wouldn't Focus",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Input That Wouldn't Focus"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first time I needed to autofocus a search input, I did it the obvious way:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n  document.querySelector(\".search-input\").focus();\n}, []);"
+    },
+    {
+      "type": "paragraph",
+      "content": "It worked...sometimes 😢"
+    },
+    {
+      "type": "paragraph",
+      "content": "Half the time the element was there; half the time the query came back null and threw a TypeError."
+    },
+    {
+      "type": "paragraph",
+      "content": "I added a setTimeout to delay the focus call. That fixed the crash but felt wrong. Then the autofocus broke again after a refactor changed the class name."
+    },
+    {
+      "type": "paragraph",
+      "content": "What was happening? Let me explain that next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array-functions?page=2",
+  "title": "Array Element as Function Argument",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Element as Function Argument"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can pass individual array elements to a function the same way we pass variables/values to functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function to return the larger value\n4int findLarger(int age1, int age2) {\n5\n6  // Compare two ages and return the larger age\n7  if (age1 > age2) {\n8    return age1;\n9  }\n10  else {\n11    return age2;\n12  }\n13}\n14\n15int main() {\n16\n17  int ages[5] = {25, 31, 30, 17, 39};\n18\n19  // Call the function with second and fifth array element\n20  int result = findLarger(ages[1], ages[4]);\n21  printf(\"%d\", result);\n22 \n23  return 0;\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "39"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have passed two array elements to the findLarger() function."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "age1 argument takes the value ages[1] (31)",
+        "age2 parameter takes the value ages[4] (39)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The function then compares the two ages and returns the larger age. In our case, it's 39."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

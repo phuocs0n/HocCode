@@ -1,0 +1,61 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-hashing?page=5",
+  "title": "Why Hashing?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Hashing?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashing is utilized in computing for various applications. Two of the commonly used applications are:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Searching"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hashing is used to retrieve data efficiently. By using hashing, we can create a unique index for each value (key)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, if we have to search for a value, we can use this unique index instead of the value itself. This approach results in a constant time complexity, O(1)."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Security"
+    },
+    {
+      "type": "paragraph",
+      "content": "In general, passwords should not be stored in plain text because if the database is compromised, the password will be exposed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, passwords are hashed before being stored in a database. This way, even if the database is hacked, your password remains secure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

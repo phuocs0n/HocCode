@@ -1,0 +1,88 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/scroll-events-conditional-classes?page=3",
+  "title": "Make the Header Sticky",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Make the Header Sticky"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's put the same idea to work on something you will actually use."
+    },
+    {
+      "type": "paragraph",
+      "content": "A sticky header. The kind that follows the user as they scroll, appearing at just the right moment."
+    },
+    {
+      "type": "paragraph",
+      "content": "The logic stays simple:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Listen for scroll",
+        "Check how far the page has moved",
+        "Add or remove a class based on a threshold"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Sticky header</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <header class=\"site-header\">\n11    Header. Scroll down to stick.\n12  </header>\n13\n14  <main class=\"content\">\n15    Scroll to see the header stick.\n16  </main>\n17\n18  <script src=\"script.js\"></script>\n19</body>\n20</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  margin: 0;\n3  font-family: sans-serif;\n4}\n5\n6.site-header {\n7  padding: 16px 20px;\n8  background: #fff;\n9  border-bottom: 1px solid #E2E8F0;\n10  transition: box-shadow 0.2s;\n11}\n12\n13.site-header.sticky {\n14  position: fixed;\n15  top: 0;\n16  left: 0;\n17  right: 0;\n18  z-index: 100;\n19  box-shadow: 0 1px 3px rgba(0,0,0,0.08);\n20}\n21\n22.content {\n23  padding: 20px;\n24  min-height: 150vh;\n25}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var header = document.querySelector('.site-header');\n2var threshold = 50;\n3\n4if (header) {\n5  var headerHeight = header.offsetHeight;\n6\n7  window.addEventListener('scroll', function () {\n8    var isSticky = window.scrollY > threshold;\n9\n10    header.classList.toggle('sticky', isSticky);\n11\n12    document.body.style.paddingTop = isSticky ? headerHeight + 'px' : '';\n13  });\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Now scroll down a bit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once you pass 50 pixels, the header sticks."
+    },
+    {
+      "type": "paragraph",
+      "content": "Same event. Same threshold. Same toggle. Just applied to something real this time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll answer a quick quiz to lock in the idea."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

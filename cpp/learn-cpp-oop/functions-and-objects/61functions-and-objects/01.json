@@ -1,0 +1,71 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/functions-objects?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first revise the working of functions and objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Revise Function"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4\n5// function that adds two integers and returns the result\n6int add_numbers(int number1, int number2) {\n7    int sum = number1 + number2;\n8    return sum;\n9}\n10\n11\n12int main() {\n13    \n14\n15    // call the function\n16    int sum = add_numbers(42, 18);\n17\n18\n19    cout << \"Sum = \" << sum << endl;\n20    \n21    return 0;\n22}\n23\n24// Output: Sum = 60"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Revise Objects"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4\n5// create a class\n6class Addition {\n7    public:\n8        int add_numbers(int number1, int number2) {\n9            int sum = number1 + number2;\n10            return sum;\n11        }\n12};\n13\n14\n15int main() {\n16  \n17\n18    // create an object of Addition\n19    Addition addition;\n20    \n21    // access the function using an object\n22    int sum = addition.add_numbers(42, 18);\n23\n24\n25    cout << \"Sum = \" << sum << endl;\n26    \n27    return 0;\n28}\n29\n30// Output: Sum = 60"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Functions and Objects"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we can also use functions and objects together i.e. we can"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "pass objects as arguments to a function",
+        "return an object from the function."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

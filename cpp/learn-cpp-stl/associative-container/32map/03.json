@@ -1,0 +1,148 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/map?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: List the values contained in the map below."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "map<int, int> numbers = { {1, 11}, {2, 12}, {3, 14} };"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "{1, 11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "{2, 12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "{3, 14}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a list of the elements of the map i.e. key-value pairs."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a list of the elements of the map i.e. key-value pairs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a list of the keys present in the map."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a list of the keys present in the map."
+    },
+    {
+      "type": "paragraph",
+      "content": "11"
+    },
+    {
+      "type": "paragraph",
+      "content": "12"
+    },
+    {
+      "type": "paragraph",
+      "content": "14"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a list of the values present in the map."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a list of the values present in the map."
+    },
+    {
+      "type": "paragraph",
+      "content": "<int, int>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This specifies the data types for the key-value pair in the map."
+    },
+    {
+      "type": "paragraph",
+      "content": "This specifies the data types for the key-value pair in the map."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: List the values contained in the map below.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:{1, 11}{2, 12}{3, 14}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "{1, 11}{2, 12}{3, 14}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:123",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "123",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:111214",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "111214",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<int, int>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<int, int>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

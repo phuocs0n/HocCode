@@ -1,0 +1,60 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/building-job-search-app?page=5",
+  "title": "Step 3: Display the Data Neatly",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Display the Data Neatly"
+    },
+    {
+      "type": "paragraph",
+      "content": "Raw API data is not user-friendly. Job listings come as JavaScript objects with technical field names like candidate_required_location. Some fields might be missing entirely."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, our displayJobs() function will:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Handle the case when zero jobs are found",
+        "Limit output to five results so users are not overwhelmed",
+        "Provide fallback values when job fields are missing",
+        "Format the data in a readable way",
+        "Tell users how many additional results exist"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function displayJobs(jobs, keyword) { \n    if (jobs.length === 0) { \n        console.log(`\\nNo jobs found for \"${keyword}\".`); \n        return; \n    }\n\n    console.log(`\\n=== Found ${jobs.length} jobs for \"${keyword}\" ===\\n`);\n\n    const limit = Math.min(jobs.length, 5);\n\n    for (let i = 0; i < limit; i++) { \n        const job = jobs[i]; \n        \n        console.log(`${i + 1}. ${job.title || \"Untitled\"}`); \n        console.log(`Company: ${job.company || \"Unknown\"}`); \n        console.log(`Location: ${job.location || \"Not specified\"}`); \n        console.log(\"\"); \n    }\n\n    if (jobs.length > limit) { \n        console.log(`... and ${jobs.length - limit} more.`); \n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Good display code respects the user. It never shows \"undefined\" or crashes on missing data."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

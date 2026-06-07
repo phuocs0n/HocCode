@@ -1,0 +1,50 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=6",
+  "title": "Handling the Error",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handling the Error"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both the errors we previously discussed land in the same catch block. Therefore, try...catch is cleaner here than chaining .then() and .catch():"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Inside App()\n\nuseEffect(function () {\n  async function loadEntries() {\n\n    // Handle the error\n    try {\n      const res = await fetch(\"https://api.programiz.pro/api/Demo/v1/journal-entries\");\n      if (!res.ok) {\n        throw new Error(\"Could not load entries. Status: \" + res.status);\n      }\n      const data = await res.json();\n      const mapped = data.map((post) => ({ ... }));\n      setEntries(mapped);\n      setIsLoading(false);\n    }\n\n    catch (err) {\n      setError(err.message);\n      setIsLoading(false);\n    }\n  }\n\n  loadEntries();\n}, []);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that setIsLoading(false) appears in both the try and catch blocks. That's because loading always ends, whether the fetch succeeded or failed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's show the error in the UI."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,136 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/output?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "favorite_actor = \"Andrew\"\nprint(\"Favorite actor:\", favorite_actor)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Favorite actor:, Andrew"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The comma is used to separate items in print(). It is not displayed in the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "The comma is used to separate items in print(). It is not displayed in the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "Favorite actor: favorite_actor"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "favorite_actor is a variable, so its value (Andrew) is printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "favorite_actor is a variable, so its value (Andrew) is printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Favorite actor:\" Andrew"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The quotation marks \" inside the print() function are not displayed in the output. Only the string text and variable value are printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The quotation marks \" inside the print() function are not displayed in the output. Only the string text and variable value are printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Favorite actor: Andrew"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code outputs the \"Favorite actor\" string, followed by the value stored in the favorite_actor variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code outputs the \"Favorite actor\" string, followed by the value stored in the favorite_actor variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Favorite actor:, Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Favorite actor:, Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Favorite actor: favorite_actor",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Favorite actor: favorite_actor",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:\"Favorite actor:\" Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "\"Favorite actor:\" Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Favorite actor: Andrew",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Favorite actor: Andrew",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

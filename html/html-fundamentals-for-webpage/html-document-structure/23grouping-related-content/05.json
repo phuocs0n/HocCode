@@ -1,0 +1,54 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/grouping-related-content?page=5",
+  "title": "Using Grouping in Our Blog",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using Grouping in Our Blog"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's apply grouping to the Learning HTML blog."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section>\n2  <h2>Why Learn HTML?</h2>\n3  <p>\n4    HTML is the foundation of every webpage. Understanding it makes learning\n5    other technologies easier.\n6  </p>\n7</section>\n8\n9<section>\n10  <h2>Who This Blog Is For</h2>\n11  <p>\n12    This blog is for beginners who want to understand how the web works,\n13    step by step.\n14  </p>\n15</section>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, each section:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Covers one idea",
+        "Keeps content focused",
+        "Makes the page easier to scan"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

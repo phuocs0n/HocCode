@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/break-list-into-chunks?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To break the lists into chunks, we need to understand lists and slicing."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we need to create an empty list to store chunks. So, it'll be a list of lists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we need to start the loop from 0 to the length of the list, by stepping 3 elements at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, using slicing, we need to take 3 elements and store them in another list. Finally, we need to print the elements in the list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

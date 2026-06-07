@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/dynamic-object-creation?page=2",
+  "title": "Dynamic Object Creation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Dynamic Object Creation"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use the new keyword to dynamically create an object in C++. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Student {\n5    public:\n6        string name;\n7};\n8\n9int main() {\n10\n11\n12    // dynamically create Student object\n13    Student* ptr = new Student();\n14\n15    // initialize and print class variable\n16    ptr->name = \"Peter Parker\";\n17    cout << \"Name = \" << ptr->name << endl;\n18\n19    // ptr memory is released\n20    delete ptr;\n21\n22\n23    return 0;\n24}\n25\n26// Output: Name = Peter Parker"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have used the new keyword to create an object of the Student class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// dynamically declare Student object\nStudent* ptr = new Student();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, ptr is a pointer variable of Student type."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have then used the pointer to initialize and print the class variable."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// initialize and print class variable\nptr->name = \"Peter Parker\";\ncout << \"Name = \" << ptr->name;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember that the arrow operator -> is used to access class members using pointers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we use the delete ptr; code to dynamically remove the object from the computer memory."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

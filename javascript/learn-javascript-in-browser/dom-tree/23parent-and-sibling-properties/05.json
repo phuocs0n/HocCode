@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/parent-sibling-properties?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the parentElement property return?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "All ancestor elements of the current element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "parentElement does not traverse up the DOM tree beyond the immediate parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "parentElement does not traverse up the DOM tree beyond the immediate parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "The first child of the current element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The children property is used to access child elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "The children property is used to access child elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "All sibling elements of the current element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "parentElement does not deal with siblings."
+    },
+    {
+      "type": "paragraph",
+      "content": "parentElement does not deal with siblings."
+    },
+    {
+      "type": "paragraph",
+      "content": "The immediate parent element of the current element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "parentElement only returns the direct parent in the DOM tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "parentElement only returns the direct parent in the DOM tree."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the parentElement property return?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:All ancestor elements of the current element.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "All ancestor elements of the current element.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The first child of the current element.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The first child of the current element.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:All sibling elements of the current element.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "All sibling elements of the current element.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The immediate parent element of the current element.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The immediate parent element of the current element.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

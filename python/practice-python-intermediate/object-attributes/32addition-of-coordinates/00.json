@@ -1,0 +1,98 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-intermediate/addition-of-coordinates?page=1",
+  "title": "Addition of Coordinates",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Addition of Coordinates"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the sum of two coordinates by creating objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Coordinate with attributes x and y.",
+        "Use the __init__() method with two arguments to initialize these attributes.",
+        "The class must also have a method named add_coordinates() that adds x and y attributes of two objects, then creates a new Coordinate object with these values, and returns the new Coordinate object."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside the class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two coordinates (objects of the Coordinate class) named c1 and c2.",
+        "The x and y attributes of c1 should be 5 and 6 respectively.",
+        "The x and y attributes of c2 should be 7 and 9 respectively.",
+        "Call add_coordinates() using the c1 object with c2 as an argument, and store the result to the c3 variable.",
+        "Print the x attribute of c3.",
+        "Print the y attribute of c3."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The x and y attributes of c1 should be 5 and 6 respectively.",
+        "The x and y attributes of c2 should be 7 and 9 respectively.",
+        "Call add_coordinates() using the c1 object with c2 as an argument, and store the result to the c3 variable.",
+        "Print the x attribute of c3.",
+        "Print the y attribute of c3."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For hints, see the code outline."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output12\n15"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

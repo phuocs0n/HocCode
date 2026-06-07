@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/arithmetic-operators?page=3",
+  "title": "+ Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "+ Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The + (addition) operator is used to add two values. Let's take an example:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int number1 = 34;\n6    int number2 = 12;\n7\n8    // + adds values of two variables\n9    int sum = number1 + number2;\n10\n11    printf(\"Sum = %d\", sum);\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum = 46"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, int sum = number1 + number2; first adds the value of number1 and number2. Then, the result is assigned to the sum variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "After a quiz, we'll look into the - operator for performing subtractions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

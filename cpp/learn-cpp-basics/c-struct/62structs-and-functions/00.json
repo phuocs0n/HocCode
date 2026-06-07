@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/structs-functions?page=1",
+  "title": "Revise Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revise Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first revise the working of a function with an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// function to add two numbers\n5int add_numbers(int n1, int n2) {\n6    int sum = n1 + n2;\n7    return sum;\n8}\n9\n10int main() {\n11  \n12    int number1 = 32;\n13    int number2 = 44;\n14\n15    // function call\n16    int result = add_numbers(number1, number2);\n17    cout << \"Result: \" << result;\n18  \n19    return 0;\n20}\n21\n22// Output:\n23// Result: 76"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above program, we have created an add_numbers() function that"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "takes two parameters, n1 and n2 (input)",
+        "add n1 and n2",
+        "and return the sum (output)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Like regular variables (n1 and n2), we can also pass structs as arguments to functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we will learn to"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "create a function inside a struct",
+        "pass a struct to a function",
+        "return a struct from a function"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

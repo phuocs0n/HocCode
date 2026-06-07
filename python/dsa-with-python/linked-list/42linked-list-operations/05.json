@@ -1,0 +1,51 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-python/linked-list-operations?page=6",
+  "title": "Source Code: Append a Node",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Append a Node"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the method to append a node:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# method to append a node at the end\n2def append_node(self, data):\n3    new_node = Node(data)\n4    if not self.head:\n5        self.head = new_node\n6        return\n7\n8    current = self.head\n9    while current.next:\n10        current = current.next\n11    current.next = new_node"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Original Linked List:\n80->9->14->None\n\nAfter appending 20:\n80->9->14->20->None"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

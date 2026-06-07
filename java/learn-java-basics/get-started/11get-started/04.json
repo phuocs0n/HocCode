@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/get-started?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the valid way to display Welcome to Programiz on the screen?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(Welcome to Programiz);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(Welcome to Programiz); causes an error because we have not enclosed Welcome to Programiz inside double quotes \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(Welcome to Programiz); causes an error because we have not enclosed Welcome to Programiz inside double quotes \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println\"Welcome to Programiz\";"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println\"Welcome to Programiz\"; causes an error because we have not enclosed \"Welcome to Programiz\" inside parentheses ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println\"Welcome to Programiz\"; causes an error because we have not enclosed \"Welcome to Programiz\" inside parentheses ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(\"Welcome to Programiz\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(\"Welcome to Programiz\"); displays Welcome to Programiz on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(\"Welcome to Programiz\"); displays Welcome to Programiz on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(\"Welcome to Programiz\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(\"Welcome to Programiz\") results in an error because ; at the end is mandatory in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(\"Welcome to Programiz\") results in an error because ; at the end is mandatory in Java."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the valid way to display Welcome to Programiz on the screen?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:System.out.println(Welcome to Programiz);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "System.out.println(Welcome to Programiz);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:System.out.println\"Welcome to Programiz\";",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "System.out.println\"Welcome to Programiz\";",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:System.out.println(\"Welcome to Programiz\");",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "System.out.println(\"Welcome to Programiz\");",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:System.out.println(\"Welcome to Programiz\")",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "System.out.println(\"Welcome to Programiz\")",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

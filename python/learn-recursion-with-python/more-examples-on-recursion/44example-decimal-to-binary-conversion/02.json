@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/example-decimal-to-binary-conversion?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def find_binary(decimal):\n2    if decimal == 0:\n3        return \"\"\n4\n5    # recursively divide decimal by 2 \n6    # and concatenate remainder to the result\n7    return find_binary(decimal // 2) + str(decimal % 2)\n8\n9binary_representation = find_binary(12)\n10print(binary_representation)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1100"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll look at a visual representation of how the program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-css/portfolio-website?page=6",
+  "title": "Basic Setup",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Basic Setup"
+    },
+    {
+      "type": "paragraph",
+      "content": "For this project, the primary font is Euclid Circular A, with Galdeano as the secondary font. Here's the code to import these fonts:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "@import url(\"https://fonts.googleapis.com/css2?family=Euclid+Circular+A:wght@400;500&display=swap\");\n@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since images have inherent dimensions that might not align with their containers, the style below is an easy way to ensure they resize proportionally to fit within their containers:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "img {\n    max-width: 100%;\n    height: auto;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's write down the basic HTML structure for the portfolio website, along with the styles listed so far."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

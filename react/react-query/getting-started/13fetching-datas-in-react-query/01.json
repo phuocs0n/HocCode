@@ -1,0 +1,62 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/fetching-datas-in-react-query?page=2",
+  "title": "The React Query Way",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The React Query Way"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query gives you a single hook called useQuery. Pull it in like this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useQuery } from '@tanstack/react-query'"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now instead of all that setup, you call useQuery with two things:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const { data: tasks, isLoading, isError } = useQuery({\n  queryKey: ['tasks', { status }],\n  queryFn: () => fetchTasks({ status })\n})"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "queryKey is like a label on a jar. React Query uses it to store and find this data in the cache. queryFn is the function that actually goes and fetches the data.",
+        "Back you get three things. data holds the tasks, isLoading is true while they're coming in, and isError is true if something went wrong."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full component."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/behavior-of-async-keyword?page=2",
+  "title": "How async works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How async works"
+    },
+    {
+      "type": "paragraph",
+      "content": "When a function is marked as async, two rules apply:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The function always returns a promise",
+        "Any value returned becomes the resolved value of that promise"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "async function getMessage() {\n    return \"Hello\";\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code behaves the same as:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function getMessage() {\n    return Promise.resolve(\"Hello\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "An async function always returns a promise. Even if you return a plain value, JavaScript wraps it in a Promise for you."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at another example to further illuminate this point."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

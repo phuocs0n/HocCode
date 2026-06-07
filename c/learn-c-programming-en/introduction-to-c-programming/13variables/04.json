@@ -1,0 +1,135 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/variables?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How do you create a variable named value of the integer type?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "value;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to mention the data type while declaring a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to mention the data type while declaring a variable."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to mention the name of the variable while declaring a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to mention the name of the variable while declaring a variable."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int value;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A variable declaration consists of two parts – data type and the variable name."
+    },
+    {
+      "type": "paragraph",
+      "content": "A variable declaration consists of two parts – data type and the variable name."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "value int;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You must place the data type first and then the name of the variable while declaring a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "You must place the data type first and then the name of the variable while declaring a variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How do you create a variable named value of the integer type?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:value;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "value;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:int;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "int;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:int value;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "int value;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:value int;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "value int;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/kruskals-algorithm?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm is another greedy algorithm that is used to find minimum cost spanning trees in a weighted graph."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember, a minimum spanning tree is a subgraph that"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Touches all the vertices.",
+        "Doesn't form any cycles.",
+        "Has the least total edge weight."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, the algorithm helps to find the cheapest way to connect all the vertices in a graph without forming any cycles."
+    },
+    {
+      "type": "paragraph",
+      "content": "Real-Life Scenario"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you are in a telecommunications company that wants to set up a new network in a region with several towns."
+    },
+    {
+      "type": "paragraph",
+      "content": "You want to ensure that every town has access to the network, but laying down fiber optic cables is expensive. So, your goal is to connect all the towns with the least amount of cable to minimize costs."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an example of a minimum spanning tree. Here, we are connecting all the cities to the network without any redundant connections i.e. without any cycles."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, we can use Kruskal's algorithm to build the minimum spanning tree that constitutes the network model."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

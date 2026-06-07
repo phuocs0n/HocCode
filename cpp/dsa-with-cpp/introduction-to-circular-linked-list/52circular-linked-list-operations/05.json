@@ -1,0 +1,42 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/circular-linked-list-operations?page=5",
+  "title": "Code: Append Element",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code: Append Element"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our function to append an element to a linked list will look like the following:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Add node into an empty list.\nvoid append_into_empty(T data){\n    // Create a new node with given data\n    Node<T>* new_node = new Node<T>({data}); \n    // new node is the head\n    head = new_node;\n    // new node back to itself\n    new_node->next = head;\n}\n\n// Add node to the end of the list\nvoid append_node(T data){\n    // If list is empty\n    // call the helper to \n    // insert into empty list\n    if(head == nullptr) {\n        append_into_empty(data);\n        return;\n    }\n    // Initially we are at the head node\n    Node<T>* current = head;\n    // Loop until the next node is a head\n    while (current -> next != head){\n        // Move to the next node.\n        current = current->next;\n    }\n    // Create a new node with given data\n    Node<T>* new_node = new Node<T>({data});\n    // The next of the current node is new_node\n    current->next = new_node;\n    // new_node points to head\n    new_node->next = head;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

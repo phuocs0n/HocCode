@@ -1,0 +1,90 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-dsa?page=2",
+  "title": "Data Structures",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Data Structures"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first briefly understand data structures."
+    },
+    {
+      "type": "paragraph",
+      "content": "A data structure is a way of storing data in an organized manner so that it can be accessed efficiently. We can classify such structures into two types."
+    },
+    {
+      "type": "paragraph",
+      "content": "Fundamental Data Structures"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know about vectors, arrays, maps, sets, etc. They are built-in data structures in C++ provided by STL (Standard Template Library)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Such data structures are called fundamental data structures."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each of these data structures operates uniquely, and our choice among them depends on our specific requirements."
+    },
+    {
+      "type": "paragraph",
+      "content": "For instance, if we need to work with key-value pairs, it's better to use maps, even though we can perform the same task using a vector of pairs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom Data Structures"
+    },
+    {
+      "type": "paragraph",
+      "content": "Built-in data structures are not enough for writing complex programs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine working on a mapping service like Google Maps."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we rely solely on built-in data structures to create a mapping service, our program won't be efficient."
+    },
+    {
+      "type": "paragraph",
+      "content": "In such cases, we employ logic to develop custom data structures such as graphs, trees, etc."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "This course will cover all the major data structures, including various types of linked lists, heap, trees, and graphs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

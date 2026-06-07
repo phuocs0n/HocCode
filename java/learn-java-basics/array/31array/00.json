@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-basics/array?page=1",
+  "title": "Array Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, we have only used a variable to store a single data. As we begin writing more complex programs this becomes inefficient."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if you need to store the age of 100 people, you'd need a hundred variables— a lengthy and tedious task."
+    },
+    {
+      "type": "paragraph",
+      "content": "Arrays solve this problem by allowing you to store multiple values of the same type in a single variable. So, instead of creating a hundred variables, we can create a single array and store the age of a hundred people together."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn to:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an array",
+        "Access elements of an array.",
+        "Change the values of an array."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with creating an array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

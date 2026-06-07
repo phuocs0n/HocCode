@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-operations?page=4",
+  "title": "where() with Multiple Conditions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "where() with Multiple Conditions"
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition in a where() method may have multiple conditions."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the | operator to perform OR operation on multiple conditions",
+        "the & operator to perform AND operation on multiple conditions"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3array1 = np.array([1, 2, 3, 4, 5, 6, 7])\n4\n5\n6# if element is less than 2 or greater than 6, test condition is True\n7test_condition1 = (array1 < 2) | (array1 > 6)\n8\n9\n10# select element of x if test condition is True\n11# return 0 if test condition is False\n12result1 = np.where(test_condition1, array1, 0)\n13\n14print(result1)\n15\n16\n17# if element is  greater than 2 and less than 6, test condition is True\n18test_condition2 = (array1 > 2) & (array1 < 6)\n19\n20\n21# select element of x if test condition is True\n22# return 0 if test condition is False\n23\n24result2 = np.where(test_condition2, array1, 0)\n25\n26print(result2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[1 0 0 0 0 0 7]\n[0 0 3 4 5 0 0]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

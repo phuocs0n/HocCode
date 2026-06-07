@@ -1,0 +1,89 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/recursion?page=2",
+  "title": "Infinite Recursion With Arguments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Infinite Recursion With Arguments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is an example of infinite recursion with arguments."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function printNumbers(n) {\n2\n3    console.log(n);\n4\n5    // Recursive call\n6    printNumbers(n);\n7}\n8\n9// Initial function call\n10printNumbers(100);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "100\n100\n100\n100\n..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have called the printNumbers() function with 100 as an argument. The function prints the value and calls itself recursively with the same value n as argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's look at what happens during each recursive call."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. First Recursive Call"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 100, which is printed.",
+        "The printNumbers() function is called again with n (100) as an argument."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Second Recursive Call"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 100 again, which is printed.",
+        "The printNumbers() function is called again with n (100) as an argument."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Essentially, this program will run continuously with 100 as an argument in each function call."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's modify this program so the value of the argument is changed with each recursive call."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

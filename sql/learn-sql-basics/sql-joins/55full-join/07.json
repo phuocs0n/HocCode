@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/full-join?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In which of the following scenarios would a FULL JOIN be the most appropriate type of JOIN to use?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you want to return only unique rows from both tables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A FULL JOIN is not the right choice if you want to return only unique rows from both tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "A FULL JOIN is not the right choice if you want to return only unique rows from both tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you want to return all rows from both tables, whether there is a match in the other table or not."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A FULL JOIN is useful if we want to return all rows from both tables, whether there is a match in the other table or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "A FULL JOIN is useful if we want to return all rows from both tables, whether there is a match in the other table or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you want to return only matching rows from both tables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is better to use INNER JOIN if you want to return only matching rows from both tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is better to use INNER JOIN if you want to return only matching rows from both tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In which of the following scenarios would a FULL JOIN be the most appropriate type of JOIN to use?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:When you want to return only unique rows from both tables.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "When you want to return only unique rows from both tables.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:When you want to return all rows from both tables, whether there is a match in the other table or not.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "When you want to return all rows from both tables, whether there is a match in the other table or not.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:When you want to return only matching rows from both tables.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "When you want to return only matching rows from both tables.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

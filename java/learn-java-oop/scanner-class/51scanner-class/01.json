@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/scanner-class?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct syntax to create Scanner object?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Scanner input = new Scanner();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While creating an object of Scanner, we must provide a System.in parameter."
+    },
+    {
+      "type": "paragraph",
+      "content": "While creating an object of Scanner, we must provide a System.in parameter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Scanner input = new Scanner(System);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "System is not the valid parameter passed to the Scanner constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "System is not the valid parameter passed to the Scanner constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Scanner input = Scanner(System.in);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the new keyword along with the constructor while creating the object of Scanner."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the new keyword along with the constructor while creating the object of Scanner."
+    },
+    {
+      "type": "paragraph",
+      "content": "Scanner input = new Scanner(System.in);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The System.in parameter is used to take input from the standard input (keyword)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The System.in parameter is used to take input from the standard input (keyword)."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct syntax to create Scanner object?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Scanner input = new Scanner();",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Scanner input = new Scanner();",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Scanner input = new Scanner(System);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Scanner input = new Scanner(System);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Scanner input = Scanner(System.in);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Scanner input = Scanner(System.in);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Scanner input = new Scanner(System.in);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Scanner input = new Scanner(System.in);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

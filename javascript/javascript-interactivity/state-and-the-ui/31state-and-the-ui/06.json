@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/state-ui?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we keep a variable like currentSlideIndex for a slider, instead of only changing the DOM when the user clicks Next or Previous?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "So the browser can animate the transition between slides."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Animation comes from CSS or how we update the DOM. The variable just tracks which slide is active."
+    },
+    {
+      "type": "paragraph",
+      "content": "Animation comes from CSS or how we update the DOM. The variable just tracks which slide is active."
+    },
+    {
+      "type": "paragraph",
+      "content": "So we have one source of truth for which slide is visible, and we can update the variable and then update the DOM to match."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable stores the current slide, and the DOM is updated based on it. That keeps everything in sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable stores the current slide, and the DOM is updated based on it. That keeps everything in sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "So we can support more than two slides."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can support many slides either way. The variable helps you track which one is active."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can support many slides either way. The variable helps you track which one is active."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the user can use the keyboard to change slides."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Keyboard support is separate. The same variable helps, but it's not the main reason"
+    },
+    {
+      "type": "paragraph",
+      "content": "Keyboard support is separate. The same variable helps, but it's not the main reason"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we keep a variable like currentSlideIndex for a slider, instead of only changing the DOM when the user clicks Next or Previous?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:So the browser can animate the transition between slides.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "So the browser can animate the transition between slides.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So we have one source of truth for which slide is visible, and we can update the variable and then update the DOM to match.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So we have one source of truth for which slide is visible, and we can update the variable and then update the DOM to match.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:So we can support more than two slides.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "So we can support more than two slides.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So the user can use the keyboard to change slides.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So the user can use the keyboard to change slides.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

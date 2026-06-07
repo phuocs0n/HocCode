@@ -1,0 +1,78 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/recap-local-variables?page=3",
+  "title": "Why Are Local Variables Important?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Are Local Variables Important?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local variables are important because they make methods independent. Variables local to a method cannot be modified from outside, thus making methods self-contained."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, we don't need to know what's inside a method and what variables are used. We can simply use the method if we know two things:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Arguments that the method takes.",
+        "Return value from the method."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static int addNumbers(int n1, int n2) {\n4\n5        int result = n1 + n2;\n6        return result;\n7    }\n8\n9    public static void main(String[] args) {\n10\n11        int n1 = 2;\n12        int n2 = 5;\n13\n14        int result = addNumbers(n1, n2);\n15\n16        System.out.println(result);\n17    }\n18}\n19\n20// Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, it's essential to understand that the n1, n2, and result variables inside the method are local to the addNumbers() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "They are different from any n1, n2, and result variables that are outside of the method, even if their names and values are the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "These outside variables can also be written using different variable names. Thus, the above program is equivalent to the one below:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static int addNumbers(int n1, int n2) {\n4\n5        int result = n1 + n2;\n6        return result;\n7    }\n8\n9    public static void main(String[] args) {\n10\n11        int num1 = 2;\n12        int num2 = 5;\n13\n14        int result = addNumbers(num1, num2);\n15\n16        System.out.println(result);\n17    }\n18}\n19\n20// Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "This concludes our recap on methods. You'll now take a quiz and then dive straight into recursion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

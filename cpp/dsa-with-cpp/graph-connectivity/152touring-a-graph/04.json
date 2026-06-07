@@ -1,0 +1,56 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/touring-graph?page=5",
+  "title": "Euler Trail and Euler Circuit",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Euler Trail and Euler Circuit"
+    },
+    {
+      "type": "paragraph",
+      "content": "An Euler trail refers to a trail in a graph that visits every edge exactly once."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the Euler trail starts and ends with the same vertex, it is called an Euler circuit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Not all graphs have an Euler trail. For a graph to have an Euler trail, it must satisfy one of two conditions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "There are exactly two vertices of odd degrees.",
+        "Each vertex has an even degree."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's looks at these conditions in greater detail."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

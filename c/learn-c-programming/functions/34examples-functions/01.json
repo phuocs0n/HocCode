@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/think-functions?page=2",
+  "title": "Tổng các số tự nhiên từ 1 đến n",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tổng các số tự nhiên từ 1 đến n"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Tóm tắt chương trình"
+    },
+    {
+      "type": "paragraph",
+      "content": "Viết chương trình tính tổng của n số tự nhiên đầu tiên (trong đó n là số nguyên dương) bằng cách tạo hàm. Hàm sẽ hoạt động với mọi số nguyên dương."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "sum = 1 + 2 + 3 + ... + n"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Đối số"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ta cần tìm tổng các số từ 1 đến n. Vì vậy, hàm của chúng ta sẽ chỉ lấy một đối số, n."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Giá trị trả về"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm sẽ trả về tổng các số."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem mã nguồn tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

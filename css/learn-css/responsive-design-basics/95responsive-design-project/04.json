@@ -1,0 +1,43 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/responsive-design-project?page=5",
+  "title": "Finished Navbar",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finished Navbar"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2    <nav class=\"navbar\">\n3        <div class=\"logo\">MySite</div>\n4        <ul class=\"nav-links\">\n5            <li><a href=\"#\">Home</a></li>\n6            <li><a href=\"#\">About</a></li>\n7            <li><a href=\"#\">Services</a></li>\n8            <li><a href=\"#\">Contact</a></li>\n9        </ul>\n10        <div class=\"icon\">☰</div>\n11    </nav>\n12</body>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    padding: 0;\n4    box-sizing: border-box;\n5}\n6\n7body {\n8    font-family: Arial, sans-serif;\n9    color: #333;\n10}\n11\n12.navbar {\n13    display: flex;\n14    justify-content: space-between;\n15    padding: 1rem;\n16    background: black;\n17}\n18\n19.logo {\n20    font-size: 1.5rem;\n21    font-weight: bold;\n22    color: white;\n23}\n24\n25.nav-links {\n26    display: none;\n27}\n28\n29.icon {\n30    color: white;\n31    font-size: 1.5rem;\n32}\n33\n34/* For medium screen sizes */\n35@media (min-width: 601px) {\n36\n37    .navbar {\n38        flex-direction: row;\n39    }\n40\n41    .nav-links {\n42        display: flex;\n43        list-style: none;\n44        gap: 2rem;\n45    }\n46\n47    .nav-links a {\n48        color: white;\n49        text-decoration: none;\n50        font-size: 1rem;\n51    }\n52\n53    .icon {\n54        display: none;\n55    }\n56}\n57\n58/* For large screen sizes */\n59@media (min-width: 901px) {\n60    .navbar {\n61        justify-content: space-around;\n62    }\n63\n64    .nav-links {\n65        gap: 4rem;\n66    }\n67\n68    .nav-links a {\n69        font-size: 1.2rem;\n70    }\n71}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

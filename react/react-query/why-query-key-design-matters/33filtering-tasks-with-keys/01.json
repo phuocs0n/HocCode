@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/filtering-tasks-with-keys?page=2",
+  "title": "Adding a Detail Key",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding a Detail Key"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes we want to fetch a single task by id. We need a separate key for that. Open src/queryKeys.js and add one more line:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "export const taskKeys = {\n  all: ['tasks'],\n  lists: () => [...taskKeys.all, 'list'],\n  list: (filters) => [...taskKeys.lists(), { filters }],\n  detail: (id) => [...taskKeys.all, 'detail', id],\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "detail takes an id and returns ['tasks', 'detail', id]. This represents one specific task."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now if we ever fetch a single task we use taskKeys.detail(taskId) as the key. Clean and consistent."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the final queryKeys.js."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

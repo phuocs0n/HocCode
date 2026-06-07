@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/knapsack-problem?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the current MrBeast video example, were the results from the greedy approach optimal?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, because the solution picked the heaviest item first."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greediness, in this case, refers to the monetary value rather than the weight."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greediness, in this case, refers to the monetary value rather than the weight."
+    },
+    {
+      "type": "paragraph",
+      "content": "No, because the choice left some weight of the knapsack unused."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of filling up the knapsack completely, the greedy approach left some weight unused as no other item could fit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of filling up the knapsack completely, the greedy approach left some weight unused as no other item could fit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, because the solution picked the most expensive item first."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Although the greedy approach did pick the most expensive item first, it wasn't the most optimal solution since it didn't fully utilize the knapsack's capacity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Although the greedy approach did pick the most expensive item first, it wasn't the most optimal solution since it didn't fully utilize the knapsack's capacity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, because the greedy approach only focuses on the immediate best choice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "By focusing on the immediate best choice, greedy approaches may overlook better combinations of items that could yield a more optimal solution."
+    },
+    {
+      "type": "paragraph",
+      "content": "By focusing on the immediate best choice, greedy approaches may overlook better combinations of items that could yield a more optimal solution."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the current MrBeast video example, were the results from the greedy approach optimal?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Yes, because the solution picked the heaviest item first.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Yes, because the solution picked the heaviest item first.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:No, because the choice left some weight of the knapsack unused.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "No, because the choice left some weight of the knapsack unused.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Yes, because the solution picked the most expensive item first.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Yes, because the solution picked the most expensive item first.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Yes, because the greedy approach only focuses on the immediate best choice.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Yes, because the greedy approach only focuses on the immediate best choice.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/git/init-add-commit?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of git add before git commit?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It uploads files to GitHub so they are backed up before committing"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "git add works entirely on your local machine. Nothing goes to GitHub until you run git push. The add command is about selecting what goes into the next commit."
+    },
+    {
+      "type": "paragraph",
+      "content": "git add works entirely on your local machine. Nothing goes to GitHub until you run git push. The add command is about selecting what goes into the next commit."
+    },
+    {
+      "type": "paragraph",
+      "content": "It checks the files for syntax errors before they are saved"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Git has no built-in syntax checking. git add is purely a selection step — it moves files into the staging area so you can choose exactly what goes into the next commit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Git has no built-in syntax checking. git add is purely a selection step — it moves files into the staging area so you can choose exactly what goes into the next commit."
+    },
+    {
+      "type": "paragraph",
+      "content": "It selects which changes to include in the next commit by moving them to the staging area"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. git add moves changes into the staging area — the holding space for \"what will be in this save.\" The commit then captures everything in the staging area as a permanent snapshot."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. git add moves changes into the staging area — the holding space for \"what will be in this save.\" The commit then captures everything in the staging area as a permanent snapshot."
+    },
+    {
+      "type": "paragraph",
+      "content": "It creates a backup copy of the file in case the commit fails"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Git does not create backup copies with git add. The staging area is a selection mechanism, not a safety copy. Commits are what create the permanent history."
+    },
+    {
+      "type": "paragraph",
+      "content": "Git does not create backup copies with git add. The staging area is a selection mechanism, not a safety copy. Commits are what create the permanent history."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of git add before git commit?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It uploads files to GitHub so they are backed up before committing",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It uploads files to GitHub so they are backed up before committing",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It checks the files for syntax errors before they are saved",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It checks the files for syntax errors before they are saved",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It selects which changes to include in the next commit by moving them to the staging area",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It selects which changes to include in the next commit by moving them to the staging area",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It creates a backup copy of the file in case the commit fails",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It creates a backup copy of the file in case the commit fails",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

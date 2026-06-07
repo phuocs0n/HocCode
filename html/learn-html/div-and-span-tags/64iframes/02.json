@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-html/iframes?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of an iframe in HTML?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To create a new window inside an HTML document."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The iframe tag allows embedding another HTML document within the current HTML document. It doesn't create a new window."
+    },
+    {
+      "type": "paragraph",
+      "content": "The iframe tag allows embedding another HTML document within the current HTML document. It doesn't create a new window."
+    },
+    {
+      "type": "paragraph",
+      "content": "To embed another HTML document within the current document."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The iframe tag is used for embedding an HTML document within the current HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "The iframe tag is used for embedding an HTML document within the current HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "To insert an image in an HTML document."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The img tag is used for adding images, not the iframe tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "The img tag is used for adding images, not the iframe tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "To add CSS styles to an HTML document."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The iframe is used to embed a document, not to add CSS styles."
+    },
+    {
+      "type": "paragraph",
+      "content": "The iframe is used to embed a document, not to add CSS styles."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of an iframe in HTML?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To create a new window inside an HTML document.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To create a new window inside an HTML document.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To embed another HTML document within the current document.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To embed another HTML document within the current document.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To insert an image in an HTML document.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To insert an image in an HTML document.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To add CSS styles to an HTML document.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To add CSS styles to an HTML document.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/multiplication-table?page=1",
+  "title": "Print Multiplication Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Multiplication Table"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to print a multiplication table of a number."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input and store it in the number variable.",
+        "Run a while loop from 1 to 10.",
+        "Inside the loop, print the multiplication table in format: 8 * 1 = 8"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input9"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output9 * 1 = 9\n9 * 2 = 18\n9 * 3 = 27\n...\n9 * 10 = 90"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

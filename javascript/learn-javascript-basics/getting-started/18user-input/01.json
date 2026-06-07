@@ -1,0 +1,76 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-input-prompt?page=2",
+  "title": "Receiving User Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Receiving User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can ask the user for input and assign it to a variable using the prompt() function. Here's an example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let firstName = prompt(\"Enter your name: \");\n2console.log(\"Your name is \" + firstName);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what happens:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The program displays the text \"Enter your name:\".",
+        "It waits for the user to type something and press Enter.",
+        "The input is then assigned to the variable firstName."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your name: James\nYour name is James"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your name: Emily\nYour name is Emily"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see how you can take user input without displaying a prompt message."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

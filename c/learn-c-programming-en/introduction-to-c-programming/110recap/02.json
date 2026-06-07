@@ -1,0 +1,125 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-introduction?page=3",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Type Conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can convert one type of data to another; this is known as type conversion."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4    \n5    float totalDistance = 89.5;\n6    float distanceTravelled = 23.5;\n7\n8    float remainingDistance = totalDistance - distanceTravelled;\n9\n10    int approximateDistance = (int) remainingDistance;\n11\n12    printf(\"The approximate distance left is:  %d\\n\", approximateDistance);\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Taking User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can take input from the user and use this value during program execution by using the scanf() function."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    float distanceTravelled;\n6\n7    // Prompt the user to enter the travelled distance  \n8    printf(\"Enter the distance you travelled: \");\n9\n10    // Take the user input\n11    scanf(\"%f\", &distanceTravelled);\n12\n13    printf(\"You travelled : %f kilometers so far\", distanceTravelled);\n14\n15   return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "With these foundational concepts in place, you can advance to the next lesson."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Common questions people ask:"
+    },
+    {
+      "type": "image",
+      "alt": "SRISATVIK ",
+      "src": "data:image/jpeg;base64,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"
+    },
+    {
+      "type": "paragraph",
+      "content": "SRISATVIK"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "why should i keep int in brackets"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nisha Sharma from Programiz"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello there,"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you write (int), you’re telling the compiler to force a value into an integer. C won’t just assume it’s okay to turn a float into an int, because that means dropping the decimal part. So the brackets act like a clear signal:"
+    },
+    {
+      "type": "paragraph",
+      "content": "I know this is a float. I want it as an int. Do it exactly this way."
+    },
+    {
+      "type": "paragraph",
+      "content": "In your code:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int approximateDistance = (int) remainingDistance;"
+    },
+    {
+      "type": "paragraph",
+      "content": "You’re basically trimming off the decimal. Without the cast, the compiler will complain because it doesn’t want to guess your intention."
+    },
+    {
+      "type": "paragraph",
+      "content": "That’s all. It’s just you taking control instead of letting the compiler worry about it."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have more questions, feel free to reach out. Happy readings 🙂"
+    },
+    {
+      "type": "paragraph",
+      "content": "Was this answer helpful?"
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

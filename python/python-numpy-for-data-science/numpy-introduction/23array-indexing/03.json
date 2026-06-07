@@ -1,0 +1,191 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-indexing?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Given a 1D NumPy array-"
+    },
+    {
+      "type": "paragraph",
+      "content": "arr = np.array([11, 12, 13, 14, 15])"
+    },
+    {
+      "type": "paragraph",
+      "content": "How would you access element 13?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[2]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Array indices start from 0 and element 13 is located at index 2 of the array arr. So arr[2] is the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Array indices start from 0 and element 13 is located at index 2 of the array arr. So arr[2] is the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "array.at[2]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[3]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[3] accesses 14, not 13. Remember, array indices start from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[3] accesses 14, not 13. Remember, array indices start from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "array.at[3]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Array indices start from 0 and element 13 is located at index 2 of the array arr. So arr[2] is the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Array indices start from 0 and element 13 is located at index 2 of the array arr. So arr[2] is the right answer."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[3] accesses 14, not 13. Remember, array indices start from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "arr[3] accesses 14, not 13. Remember, array indices start from 0."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the right syntax to access array elements."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Given a 1D NumPy array-",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:arr[2]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "arr[2]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:array.at[2]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "array.at[2]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:arr[3]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "arr[3]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:array.at[3]",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "array.at[3]",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

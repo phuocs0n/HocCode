@@ -1,0 +1,54 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-students-grade?page=5",
+  "title": "Computing Student's Grade",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Computing Student's Grade"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code to calculate a student's grade based on their score."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const computeGrade = (averageScore) => {\n2    let grade;\n3\n4    if (averageScore >= 80) {\n5        grade = \"A\";\n6    } else if (averageScore >= 60) {\n7        grade = \"B\";\n8    } else if (averageScore >= 50) {\n9        grade = \"C\";\n10    } else {\n11        grade = \"F\";\n12    }\n13\n14    return grade;\n15}\n16\n17let averageScore = 67.8;\n18let grade = computeGrade(averageScore);\n19console.log(grade);    // Output: B"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the computeGrade() function computes the student's grade based on the average score."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, we've directly assigned a fixed average score to a variable. However, you want the average score to be computed based on the student's scores."
+    },
+    {
+      "type": "paragraph",
+      "content": "To fix this problem, you need to put the functions in a single program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

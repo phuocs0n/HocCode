@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-introduction?page=1",
+  "title": "What is Numpy?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is Numpy?"
+    },
+    {
+      "type": "paragraph",
+      "content": "As discussed earlier, Numpy is an open-source library desinged to handle multi-dimensional data with ease. It has a data structure called ndarray, which is the key to NumPy's efficiency."
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy comes with out-of-the-box functions for statistics and algebra, ideal for creating high-performance tools using multidimensional arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "These tools are very useful in computational scenarios that demand fast operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's dive into some reasons why NumPy is preferred over Python lists:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Faster Execution"
+    },
+    {
+      "type": "paragraph",
+      "content": "Operations that are challening and time-consuming can be done faster with NumPy. Simply switching from Python lists to NumPy arrays can result in a 100x performance improvement."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Integration with Various Libraries"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy is heavily used with various libraries like Pandas, SciPy, scikit-learn, etc."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Applied in Many Advnaced Fields"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy is used in high-level applications like Quantum Computing, Signal Processing, Bioinformatics, Machine Learning, and many more."
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Arrays are Homogeneous"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy arrays are homogeneous, meaning they can only store elements of the same data type, enabling efficient storage and computation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,86 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/strings-introduction?page=4",
+  "title": "Escape Sequences",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Escape Sequences"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we encountered an error when we tried to use the following string in our program:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// error\nstring text = \"Roose says, \"The Lannisters send their regards!\"\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since there are quotation marks in it, we have to use \\\" to indicate \". For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5    \n6    // notice the use of the escape sequence\n7    string text = \"Roose says, \\\"The Lannisters send their regards!\\\"\";\n8\n9    cout << text;\n10\n11    return 0;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Roose says, \"The Lannisters send their regards!\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, \\\" is called an escape sequence. It allows us to include special characters in strings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember \\n? It is also an escape sequence that we use for newline (next line)."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    string text = \"Hey\\nHello\\nHowdy?\";\n7    cout << text;\n8\n9    return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hey\nHello\nHowdy?"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, when \\n is encountered, it's treated as a newline."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

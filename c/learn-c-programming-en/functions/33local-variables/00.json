@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/local-variables?page=1",
+  "title": "Introduction to Local Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following program:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3void add (int num1, int num2) {\n4\n5    int result = num1 + num2;\n6}\n7\n8int main() {\n9\n10    printf(\"%d\", result);\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above program fails to run, stating result is undeclared. However, we have declared the result variable in the add function."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because of a concept known as variable scope. Next, we'll understand what it is."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

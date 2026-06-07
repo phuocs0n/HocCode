@@ -1,0 +1,51 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/styling-text?page=5",
+  "title": "Font Style",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Font Style"
+    },
+    {
+      "type": "paragraph",
+      "content": "The font-style property can be used to make the text appear in italics."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>The term <span>algorithm</span> refers to a set of instructions for solving a problem.</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1span {\n2    /* The default font-style value is normal. */\n3    font-style: italic;\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The span element is changed to italic in the code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

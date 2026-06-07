@@ -1,0 +1,88 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/while-loop?page=4",
+  "title": "while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the program from the last page:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1count = 1\n2\n3while count <= 3:\n4    print(\"I am inside a loop.\")\n5    print(\"Looping is interesting.\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the loop continues forever because the boolean expression, count <= 3, is never False. The value of count is always 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "To run this loop only a fixed number of times, we need to update the value of the count variable inside the loop so that count <= 3 eventually evaluates to False. Here's how:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1count = 1\n2\n3# Loop continues as long as count is 3 or less\n4while count <= 3:\n5    print(\"I am inside a loop.\")\n6    print(\"Looping is interesting.\")\n7\n8    # Increment count by 1 in each iteration\n9\n10    count = count + 1\n11\n12\n13print(\"OUTSIDE THE LOOP\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nOUTSIDE THE LOOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, we have added a statement, count = count + 1, to increase the value of count by 1 in each iteration of the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of count changes as follows:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 in the first iteration",
+        "2 in the second iteration",
+        "3 in the third iteration"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When count is updated to 4, the condition count <= 3 evaluates to False, and the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "After the loop terminates, the next statement, print(\"OUTSIDE THE LOOP\"), is executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

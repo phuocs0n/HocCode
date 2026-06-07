@@ -1,0 +1,183 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/instanceof-operator?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way of checking if obj1 is the instance of a Hello class?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "obj1.instanceof Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use . with instanceof."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use . with instanceof."
+    },
+    {
+      "type": "paragraph",
+      "content": "obj1 instanceof Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code checks if obj1 is the instance of Hello."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code checks if obj1 is the instance of Hello."
+    },
+    {
+      "type": "paragraph",
+      "content": "obj1 instanceof(Hello)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't keep the class name inside the bracket."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't keep the class name inside the bracket."
+    },
+    {
+      "type": "paragraph",
+      "content": "obj1 instanceOf Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax is incorrect. It is instanceof not instanceOf."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax is incorrect. It is instanceof not instanceOf."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use . with instanceof."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't use . with instanceof."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code checks if obj1 is the instance of Hello."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code checks if obj1 is the instance of Hello."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't keep the class name inside the bracket."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't keep the class name inside the bracket."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax is incorrect. It is instanceof not instanceOf."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax is incorrect. It is instanceof not instanceOf."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way of checking if obj1 is the instance of a Hello class?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A: obj1.instanceof Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "obj1.instanceof Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:obj1 instanceof Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "obj1 instanceof Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:obj1 instanceof(Hello)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "obj1 instanceof(Hello)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:obj1 instanceOf Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "obj1 instanceOf Hello",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

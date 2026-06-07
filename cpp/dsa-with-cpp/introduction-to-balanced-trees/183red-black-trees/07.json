@@ -1,0 +1,50 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/redblack-trees?page=8",
+  "title": "Case 2: Node Has a Black Uncle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Case 2: Node Has a Black Uncle"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the newly inserted node has a black uncle, we have four sub-cases:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "New node is the left child of the parent, and the parent is the left child of the grandparent.",
+        "New node is the right child of the parent, and the parent is the right child of the grandparent.",
+        "New node is the left child of the parent, and the parent is the right child of the grandparent.",
+        "New node is the right child of the parent, and the parent is the left child of the grandparent."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The first two cases (left-left case and right-right case) share a common solution. Similarly, the next two cases (left-right case and right-left case) share a common solution."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

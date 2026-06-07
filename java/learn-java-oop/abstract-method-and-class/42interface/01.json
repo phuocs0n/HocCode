@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/interface?page=2",
+  "title": "Implement an Interface",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implement an Interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like abstract classes, we cannot create objects of an interface. To use an interface, other classes must implement it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the implements keyword to implement an interface. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "interface Animal {\n\n    abstract public void play(); \n    abstract public void makeSound();\n}\n\nclass Dog implements Animal {\n\n    // implement play()\n    public void play() {\n        System.out.println(\"I play ball fetch\");\n    }\n\n    // implement makeSound()\n    public void makeSound() {\n        System.out.println(\"Woof Woof\");\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the Dog class implements the Animal interface. You can see the implementation of both the abstract methods play() and makeSound() are provided by the Dog class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can access these methods using objects of Dog."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1interface Animal {\n2\n3    abstract public void play(); \n4    abstract public void makeSound();\n5}\n6\n7class Dog implements Animal {\n8\n9    // implement play()\n10    public void play() {\n11        System.out.println(\"I play ball fetch\");\n12    }\n13\n14    // implement makeSound()\n15    public void makeSound() {\n16        System.out.println(\"Woof Woof\");\n17    }\n18}\n19\n20class Main {\n21    public static void main(String[] args) {\n22        \n23        // object of Dog\n24        Dog dog = new Dog();\n25        \n26        // access abstract methods\n27        dog.play();\n28        dog.makeSound();\n29    }\n30}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I play ball fetch\nWoof Woof"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see we have successfully accessed the abstract methods of the interface by implementing them in the subclass Dog."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

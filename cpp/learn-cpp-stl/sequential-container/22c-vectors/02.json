@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-vectors?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct way to create a vector?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "vector<> ages = {25, 36};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    },
+    {
+      "type": "paragraph",
+      "content": "vector<ages> int = {25, 36};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We define the data type inside <> while declaring the vector name outside of it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We define the data type inside <> while declaring the vector name outside of it."
+    },
+    {
+      "type": "paragraph",
+      "content": "vector<int> ages = {25, 36};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define a vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define a vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "vector ages = {25, 36};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We define the data type inside <> while declaring the vector name outside of it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We define the data type inside <> while declaring the vector name outside of it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define a vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define a vector."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must define the type of data we want to store in the vector inside <>."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct way to create a vector?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:vector<> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "vector<> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:vector<ages> int = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "vector<ages> int = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:vector<int> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "vector<int> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:vector ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "vector ages = {25, 36};",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

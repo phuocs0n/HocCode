@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header?page=1",
+  "title": "Open Your App",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Open Your App"
+    },
+    {
+      "type": "paragraph",
+      "content": "The editor and playground are already set up for you. You'll see some default code in the editor — a button and some text. That's not our journal app. Your job is to replace it with the code below and run it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the editor, replace the default code with this:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  return (\n3    <div>\n4      <h1>My Daily Journal</h1>\n5    </div>\n6  );\n7}\n8\n9export default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "In fact, just clicking the Run Code button will automatically replace the default code for you."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once you do that, our platform will run your app and you should see \"My Daily Journal\" as a heading on the page."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's it. You just wrote your first React component!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-if-given-string-is-palindrome?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "For the above problem, suppose we have the following text:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = A man, a plan, a canal, Panama!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to remove non-alphanumeric characters we use the replaceAll() method of the String class. Inside replaceAll(), we pass the regular expression [^a-z0-9] (indicates all the non-alphanumeric characters) and \"\"."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = AmanaplanacanalPanama"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, to use the toLowerCase() method to convert all the characters to lowercase. After that we will check if the string is palindrome or not."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = amanaplanacanalpanama"
+    },
+    {
+      "type": "paragraph",
+      "content": "After conversion, we check if a string is a string is palindrome or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how we can implement this logic in our program for text string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Replace all non-alphanumeric characters in text with an empty string using the replaceAll() method and a regular expression that matches all non-alphanumeric characters.",
+        "Convert text to lowercase using the toLowerCase() method.",
+        "Get the length of text using the length method and store it in a variable called length.",
+        "Loop through the characters of text from the beginning to half of the length of text using a for loop that starts from 0 and ends at length / 2.",
+        "For each character in the loop, compare the character at the current index with the character at the opposite index, which is length - i - 1, and if they are not equal, return false.",
+        "If the loop completes without returning false, return true."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

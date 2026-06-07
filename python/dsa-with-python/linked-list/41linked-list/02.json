@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/linked-list?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of these options best describes a linked list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A fixed-size list where each element is directly accessible."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Linked lists do not have a fixed size and do not allow direct access to elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Linked lists do not have a fixed size and do not allow direct access to elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "A dynamic data structure that grows and shrinks as needed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a general description that could apply to several data structures, including built-in data structures such as lists and dictionaries."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a general description that could apply to several data structures, including built-in data structures such as lists and dictionaries."
+    },
+    {
+      "type": "paragraph",
+      "content": "A series of connected nodes, where each node stores data and the address of the next node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the most accurate description of a linked list."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the most accurate description of a linked list."
+    },
+    {
+      "type": "paragraph",
+      "content": "A collection of data elements where the order is based on their values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This sounds more like a list, not necessarily a linked list."
+    },
+    {
+      "type": "paragraph",
+      "content": "This sounds more like a list, not necessarily a linked list."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of these options best describes a linked list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A fixed-size list where each element is directly accessible.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A fixed-size list where each element is directly accessible.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A dynamic data structure that grows and shrinks as needed.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A dynamic data structure that grows and shrinks as needed.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A series of connected nodes, where each node stores data and the address of the next node.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A series of connected nodes, where each node stores data and the address of the next node.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A collection of data elements where the order is based on their values.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A collection of data elements where the order is based on their values.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

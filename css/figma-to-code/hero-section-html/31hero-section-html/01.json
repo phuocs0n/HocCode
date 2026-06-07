@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/figma-to-code/hero-section-html?page=2",
+  "title": "Add the hero section wrapper",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add the hero section wrapper"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this step, you'll create the basic wrapper for the hero. You're not adding the hero content yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "You're just setting up the structure so everything stays organized."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add the hero section wrapper inside the main content area of the page."
+    },
+    {
+      "type": "paragraph",
+      "content": "In index.html:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add a main element after the header",
+        "Inside main, add a section with the class hero",
+        "Inside the hero section, add a div with the class container"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

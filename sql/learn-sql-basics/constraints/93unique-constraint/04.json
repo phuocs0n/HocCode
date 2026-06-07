@@ -1,0 +1,144 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/unique-constraint?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we used the following code to create a table."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "CREATE TABLE Customers (\n  id INT UNIQUE,\n  name VARCHAR(50),\n  email VARCHAR(50)\n);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Which of the following statements produces an error?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (name, email)\nVALUES ('Julie', 'julie@example.com');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement inserts a row successfully. While the id column has a UNIQUE constraint, it doesn't have a NOT NULL constraint, meaning NULL values are allowed and do not violate uniqueness rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement inserts a row successfully. While the id column has a UNIQUE constraint, it doesn't have a NOT NULL constraint, meaning NULL values are allowed and do not violate uniqueness rules."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (id, name, email)\nVALUES (1, 'Julie', 'julie@example.com'), \n(1, 'Namita', 'namita@example.com');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement produces an error because it attempts to insert the same value (1) into the id column twice, violating the UNIQUE constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement produces an error because it attempts to insert the same value (1) into the id column twice, violating the UNIQUE constraint."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (id, name, email)\nVALUES (1, 'Julie', 'julie@example.com');  \n\nINSERT INTO Customers (id, name, email)\nVALUES (2, 'Namita', 'namita@example.com');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement does not produce an error because both id values are unique (1 and 2), which satisfies the UNIQUE constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement does not produce an error because both id values are unique (1 and 2), which satisfies the UNIQUE constraint."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (id, name, email)\nVALUES (NULL, 'Julie', 'julie@example.com');\n\nINSERT INTO Customers (id, name, email)\nVALUES (NULL, 'Namita', 'namita@example.com');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement does not produce an error because the id column has a UNIQUE constraint, but NULL values are allowed."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement does not produce an error because the id column has a UNIQUE constraint, but NULL values are allowed."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we used the following code to create a table.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:INSERT INTO Customers (name, email)\nVALUES ('Julie', 'julie@example.com');",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "INSERT INTO Customers (name, email)\nVALUES ('Julie', 'julie@example.com');",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:INSERT INTO Customers (id, name, email)\nVALUES (1, 'Julie', 'julie@example.com'), \n(1, 'Namita', 'namita@example.com');",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "INSERT INTO Customers (id, name, email)\nVALUES (1, 'Julie', 'julie@example.com'), \n(1, 'Namita', 'namita@example.com');",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:INSERT INTO Customers (id, name, email)\nVALUES (1, 'Julie', 'julie@example.com');  \n\nINSERT INTO Customers (id, name, email)\nVALUES (2, 'Namita', 'namita@example.com');",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "INSERT INTO Customers (id, name, email)\nVALUES (1, 'Julie', 'julie@example.com');  \n\nINSERT INTO Customers (id, name, email)\nVALUES (2, 'Namita', 'namita@example.com');",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:INSERT INTO Customers (id, name, email)\nVALUES (NULL, 'Julie', 'julie@example.com');\n\nINSERT INTO Customers (id, name, email)\nVALUES (NULL, 'Namita', 'namita@example.com');",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "INSERT INTO Customers (id, name, email)\nVALUES (NULL, 'Julie', 'julie@example.com');\n\nINSERT INTO Customers (id, name, email)\nVALUES (NULL, 'Namita', 'namita@example.com');",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

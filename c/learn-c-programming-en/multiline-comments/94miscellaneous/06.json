@@ -1,0 +1,140 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-c-programming/miscellaneous?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n  int n = 10;\n  if (n == 10 && 100) {\n    printf(\"Hello\");\n  }\n\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "(No Output)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 0 && 100 evaluates to true because both n == 10 and 100 evaluate to true. Hence, the body of the if statement is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 0 && 100 evaluates to true because both n == 10 and 100 evaluate to true. Hence, the body of the if statement is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error Code)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed Hello only once if the test condition is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed Hello only once if the test condition is true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 10 && 100 evaluates to true because both n == 10 and 100 evaluate to true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 10 && 100 evaluates to true because both n == 10 and 100 evaluate to true."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:(No Output)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "(No Output)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Error Code)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Error Code)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:HelloHello",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "HelloHello",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Hello",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

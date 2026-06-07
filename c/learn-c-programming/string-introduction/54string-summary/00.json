@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-summary?page=1",
+  "title": "Tóm tắt (tôi)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tóm tắt (tôi)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ chúng ta hãy nhanh chóng xem lại những gì chúng ta đã học được trong chương này:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Tạo một chuỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C, cú pháp tạo chuỗi tương tự như mảng. Bởi vì chuỗi là một mảng các ký tự."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "char text[] = \"Programiz\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. In một chuỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng công cụ xác định định dạng %s để in một chuỗi."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char text[] = \"Programiz\";\n6\n7  printf(\"%s\", text);    // Programiz\n8  \n9  return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Thay đổi chuỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta có thể thay đổi ký tự của chuỗi bằng cách gán một ký tự mới tại vị trí đó."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char text[] = \"Car\";\n6\n7  // change value at position 2 to 't'\n8  text[2] = 't';\n9\n10  printf(\"%s\", text);    // Cat\n11\n12  return 0;\n13}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

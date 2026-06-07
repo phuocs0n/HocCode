@@ -1,0 +1,89 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/miscellaneous?page=2",
+  "title": "Bài tập số học",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Bài tập số học"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đã sử dụng toán tử = nhiều lần trong mã của mình. Nó được sử dụng để gán giá trị cho một biến."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// assign 3.1415 to the pi variable\ndouble pi = 3.1415;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ chúng ta hãy xem xét các toán tử gán khác."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Toán tử",
+          "Ví dụ",
+          "Tương đương với"
+        ],
+        [
+          "+=",
+          "x += 5",
+          "x = x + 5"
+        ],
+        [
+          "-=",
+          "x -= 5",
+          "x = x - 5"
+        ],
+        [
+          "*=",
+          "x *= 5",
+          "x = x * 5"
+        ],
+        [
+          "/=",
+          "x /= 5",
+          "x = x / 5"
+        ],
+        [
+          "%=",
+          "x %= 5",
+          "x = x% 5"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Các toán tử gán này thực hiện các phép toán số học và phép gán cùng một lúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ xem các ví dụ về toán tử gán số học."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/whack-a-mole/building-game-grid?page=1",
+  "title": "Planning the Layout 📐",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Planning the Layout 📐"
+    },
+    {
+      "type": "paragraph",
+      "content": "Awesome progress. You created one hole with JavaScript, but Whack a Mole needs 9 holes in a 3 by 3 grid."
+    },
+    {
+      "type": "paragraph",
+      "content": "You could copy-paste your code 9 times... but that's exactly what developers try to avoid. Repetitive code is hard to maintain and easy to mess up."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, you'll use a loop to create all 9 holes with just a few lines of code. This is what makes programming powerful—write once, repeat many times."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the plan:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use a loop to create 9 holes",
+        "Add each hole to the game board as it's created",
+        "Style the holes with CSS to look like a real game board",
+        "Arrange them in a 3x3 grid"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of this lesson, you'll have a complete game board that looks like the real thing!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's build it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

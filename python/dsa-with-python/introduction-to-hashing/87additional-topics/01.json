@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/additional-topics?page=2",
+  "title": "Python Dictionaries as Hash Tables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Python Dictionaries as Hash Tables"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, dictionaries are implemented as hash tables, which is why they have an average O(1) time complexity for lookup, insertion, and deletion."
+    },
+    {
+      "type": "paragraph",
+      "content": "To understand how Python dictionaries work as hash tables, let's delve into some of the fundamentals:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Hash Function: Python uses a specialized hash function called SipHash starting from Python 3.3.",
+        "Collisions: Python handles collisions using an open addressing scheme similar to quadratic probing.",
+        "Dynamic Resizing: As more items are added to a dictionary, the underlying hash table might become densely populated, leading to more collisions. To handle this, Python dictionaries are designed to resize dynamically.",
+        "Key Invariance: It's important to note that dictionary keys should be immutable. This is because if a key changes its value (and thus its hash) after it's been added to the dictionary, it would make the value associated with it unreachable."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at a simple example of using the Python dictionary."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1person = {\n2    \"name\": \"John\",\n3    \"age\": 30,\n4    \"city\": \"New York\"\n5}\n6\n7# access a value using a key\n8print(person[\"name\"])\n9\n10# insert a new key-value pair\n11person[\"job\"] = \"Engineer\"\n12\n13# remove a key-value pair\n14del person[\"age\"]\n15\n16# display person\n17print(person)\n18\n19# check if a key is in the dictionary\n20if \"city\" in person:\n21    print(\"City is:\", person[\"city\"])"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "John\n{'name': 'John', 'city': 'New York', 'job': 'Engineer'}\nCity is: New York"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

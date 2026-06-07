@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/destructuring-assignment?page=2",
+  "title": "Destructuring Assignment",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Destructuring Assignment"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const fruits = [\"apple\", \"banana\", \"kiwi\"];\n2\n3// Use destructuring assignment\n4let [fruit1, fruit2, fruit3] = fruits;\n5\n6console.log(fruit1);    // Output: apple\n7console.log(fruit2);    // Output: banana\n8console.log(fruit3);    // Output: kiwi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we used the destructuring assignment to extract values from the fruits array without manually accessing each index."
+    },
+    {
+      "type": "paragraph",
+      "content": "The destructuring assignment is useful for breaking down collections like arrays and objects into distinct variables."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll explore how destructuring works and where you can apply it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's get started!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

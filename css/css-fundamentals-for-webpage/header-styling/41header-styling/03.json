@@ -1,0 +1,60 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/header-styling?page=2",
+  "title": "Example CSS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example CSS"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header>\n2  <h1>Site Header</h1>\n3  <p>Welcome back! Here's what's new today.</p>\n4</header>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1header {\n2  background-color: #1f2933;\n3  color: #ffffff;\n4  padding: 24px;\n5}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What to Observe"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Text becomes readable against the background",
+        "Header feels like a defined section",
+        "Page starts to look intentional"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "No gradients. No images yet. Just clarity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

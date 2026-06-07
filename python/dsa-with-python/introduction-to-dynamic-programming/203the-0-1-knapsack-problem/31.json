@@ -1,0 +1,50 @@
+{
+  "index": 31,
+  "url": "https://app.programiz.pro/course/dsa-with-python/0-1-knapsack-problem?page=32",
+  "title": "Thought Process: DP Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: DP Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Apply the logic in Step 3 to all items and all possible capacities."
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we applied the DP table formula to decide whether to include an item in the knapsack."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we extend this logic to all items and possible knapsack capacities. So we'll encapsulate this logic inside two loops."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# Run the loop once for each item\nfor item_index, item_weight in enumerate(w):\n    # Compare and change values\n    for index, value in enumerate(DP[item_index]):\n        # You can only add an item  if the\n        # bag size is larger than the item weight\n        if index >= item_weight:\n            DP[item_index + 1][index] = max(DP[item_index][index], DP[item_index][index - item_weight] + v[item_index])\n        # Otherwise, just copy the profit from one row above\n        else:\n            DP[item_index + 1][index] = DP[item_index][index]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,92 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/python-exceptions?page=2",
+  "title": "Different Types of Exceptions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Different Types of Exceptions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a few different types of exceptions."
+    },
+    {
+      "type": "paragraph",
+      "content": "IndexError Exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "This exception occurs when the index we are using in a sequence (list, tuple, string, etc.) is out of range. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [2, 8, 5]\n2print(numbers[4])   # raises IndexError Exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the numbers list has three items. So we can use 0, 1 or 2 as an index. However, in our program we are using 4 as an index."
+    },
+    {
+      "type": "paragraph",
+      "content": "KeyError Exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "This exception occurs when a key is not found in a dictionary. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1person = {'name': 'Stuart', 'age': 30}\n2# raises KeyError Exception\n3print(person['profession'])"
+    },
+    {
+      "type": "paragraph",
+      "content": "The person dictionary doesn't have profession as a key."
+    },
+    {
+      "type": "paragraph",
+      "content": "ValueError Exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "This exception occurs if a function or an operation is applied to an incorrect type. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import math\n2\n3# raises TypeError Exception\n4result = math.sqrt('Hello')\n5print(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "math.sqrt() cannot take a string as an argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we know about exceptions, we will learn to handle exceptions in the next lesson."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

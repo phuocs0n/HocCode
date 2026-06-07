@@ -1,0 +1,80 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/introduction-1?page=1",
+  "title": "Introduction to Time Complexity",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Time Complexity"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time complexity is the measure of how an algorithm's runtime grows as the input size increases. It's one of the most important concepts in Data Structures and Algorithms (DSA)."
+    },
+    {
+      "type": "paragraph",
+      "content": "But how do we actually calculate the time complexity of an algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "At first, you might think we could just track the execution time. For example, if a program takes 16 minutes to run, does that mean its time complexity is 16 minutes?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Not quite! Execution time depends on factors like:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The device running the program,",
+        "The programming languages used,",
+        "Network speed, and more."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For this reason, execution time is not a reliable measure. Instead, we calculate time complexity based on the number of steps required for a given input. For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "If an algorithm has the time complexity of O(n),"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "It takes 5 steps for an input of 5",
+        "It takes 10 steps for an input of 10"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We will cover what O(n) means in detail later in this course, but for now, remember:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time complexity is about the number of steps required, and not execution time on a specific device!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

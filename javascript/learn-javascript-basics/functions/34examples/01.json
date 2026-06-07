@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/think-functions?page=2",
+  "title": "Example: Sum of Natural Numbers From 1 to n",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Sum of Natural Numbers From 1 to n"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we want to calculate the sum of the first n natural numbers. So, if we take n = 5, for example, the sum would be:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "total = 1 + 2 + 3 + 4 + 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's think about how we can do this. We'll need to pass in the number n to our function, which will calculate the sum. Once we get the result, we can return it for use elsewhere in the program."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Arguments and Return Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "Argument: The function will take one argument, n, which represents the number up to which we want to calculate the sum."
+    },
+    {
+      "type": "paragraph",
+      "content": "Return Value: The function will return the total sum of the numbers from 1 to n."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we have a clear idea, let's write the program:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function computeSum(n) {\n2    let total = 0;\n3\n4    // Loop from 1 to n\n5    for (let i = 1; i <= n; i++) {\n6        total += i;\n7    }\n8\n9    return total;\n10}\n11\n12// Example calls to the function\n13let sum1 = computeSum(10);\n14console.log(sum1);    // Output: 55\n15\n16let sum2 = computeSum(100);\n17console.log(sum2);    // Output: 5050"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

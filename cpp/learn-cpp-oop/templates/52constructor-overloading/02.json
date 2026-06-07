@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/constructor-overloading?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is an invalid way of creating a constructor for the Student class?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Student() {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor does not have a return type and must have the same name as the class. So this is a valid way of creating a constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor does not have a return type and must have the same name as the class. So this is a valid way of creating a constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Student(int num) {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor does not have a return type, must have the same name as the class, and can have a parameter. So this is a valid way of creating a constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor does not have a return type, must have the same name as the class, and can have a parameter. So this is a valid way of creating a constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Student(string text, char alpha) {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor does not have a return type, must have the same name as the class, and can have multiple parameters. So this is a valid way of creating a constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "A constructor does not have a return type, must have the same name as the class, and can have multiple parameters. So this is a valid way of creating a constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "All the above codes are valid ways of creating a Student() constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "All the above codes are valid ways of creating a Student() constructor."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is an invalid way of creating a constructor for the Student class?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Student() {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Student() {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Student(int num) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Student(int num) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Student(string text, char alpha) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Student(string text, char alpha) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

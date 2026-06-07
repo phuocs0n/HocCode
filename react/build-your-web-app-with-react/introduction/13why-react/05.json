@@ -1,0 +1,58 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/why-react?page=6",
+  "title": "Example: Shopping List with React",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Shopping List with React"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's continue where we left off, and build the same shopping list using React (you don't need to understand this code yet):"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react';\n2\n3function ShoppingList() {\n4  const [items, setItems] = React.useState([]);\n5  const [input, setInput] = React.useState(\"\");\n6  \n7  function addItem() {\n8    if (input === \"\") return;\n9    setItems([...items, input]);\n10    setInput(\"\");\n11  }\n12  \n13  return (\n14    <div>\n15      <h1>My Shopping List</h1>\n16      <input \n17        value={input} \n18        onChange={(e) => setInput(e.target.value)} \n19        placeholder=\"Add an item\"\n20      />\n21      <button onClick={addItem}>Add</button>\n22      <ul>\n23        {items.map((item, index) => (\n24          <li key={index}>{item}</li>\n25        ))}\n26      </ul>\n27    </div>\n28  );\n29}\n30export default ShoppingList;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a peek at the code, and you'll notice the following:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "There's no document.getElementById",
+        "No createElement or appendChild either",
+        "You write what the UI should show, not how to manipulate the DOM"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is React's core idea: UI is a function of state. When the state (your data) changes, React re-renders the UI automatically."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

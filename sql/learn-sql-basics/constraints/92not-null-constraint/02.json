@@ -1,0 +1,144 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/not-null-constraint?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we used the following code to create a table."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "CREATE TABLE Customers (\n  id INTEGER,\n  name VARCHAR(50) NOT NULL,\n  phone VARCHAR(50)\n);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Which of the following statements will insert a row into the Customers table?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (id, name, phone)\nVALUES (5, 'Julie');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even though the phone column does not have a NOT NULL constraint, you cannot specify it in the column list without providing a corresponding value. To omit it, you must leave it out of the column list entirely."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even though the phone column does not have a NOT NULL constraint, you cannot specify it in the column list without providing a corresponding value. To omit it, you must leave it out of the column list entirely."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (id, phone)\nVALUES (5, '98233593');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code results in an error because the name column has a NOT NULL constraint. Since it is missing from the column list, it will default to NULL, which is not allowed."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code results in an error because the name column has a NOT NULL constraint. Since it is missing from the column list, it will default to NULL, which is not allowed."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (id, name, phone)\nVALUES (5, NULL, '98233593');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code results in an error because it explicitly inserts NULL into the name column, which is not allowed due to the NOT NULL constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code results in an error because it explicitly inserts NULL into the name column, which is not allowed due to the NOT NULL constraint."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "INSERT INTO Customers (id, name, phone)\nVALUES (5, 'Julie', '98233593');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code successfully inserts a row into the table because all required columns are provided with valid values. The NOT NULL constraint on the name column is satisfied."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code successfully inserts a row into the table because all required columns are provided with valid values. The NOT NULL constraint on the name column is satisfied."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we used the following code to create a table.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:INSERT INTO Customers (id, name, phone)\nVALUES (5, 'Julie');",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "INSERT INTO Customers (id, name, phone)\nVALUES (5, 'Julie');",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:INSERT INTO Customers (id, phone)\nVALUES (5, '98233593');",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "INSERT INTO Customers (id, phone)\nVALUES (5, '98233593');",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:INSERT INTO Customers (id, name, phone)\nVALUES (5, NULL, '98233593');",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "INSERT INTO Customers (id, name, phone)\nVALUES (5, NULL, '98233593');",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:INSERT INTO Customers (id, name, phone)\nVALUES (5, 'Julie', '98233593');",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "INSERT INTO Customers (id, name, phone)\nVALUES (5, 'Julie', '98233593');",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,57 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions?page=6",
+  "title": "How a Reducer Processes Actions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How a Reducer Processes Actions"
+    },
+    {
+      "type": "paragraph",
+      "content": "The reducer reads the action type and decides what to do. Every possible state change is a case in one switch statement."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function journalReducer(state, action) {\n  switch (action.type) {\n    case 'SET_ENTRIES':\n      return action.payload\n    case 'BOOKMARK_ENTRY':\n      return state.map(function (entry) {\n        return entry.id === action.payload.id\n          ? { ...entry, bookmarked: !entry.bookmarked }\n          : entry\n      })\n    default:\n      return state\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Two Things to Notice"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "First, the reducer never modifies the state directly; it returns a new value.",
+        "Second, the default case returns state unchanged, so unknown actions are safely ignored."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's proceed to examine a reducer's full flow."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

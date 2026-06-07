@@ -1,0 +1,59 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=10",
+  "title": "Ví dụ: In các số từ 1 đến 5 (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: In các số từ 1 đến 5 (III)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là một sửa đổi nhỏ của chương trình mà chúng tôi đã viết trước đây."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int count = 1;\n6\n7    while (count <= 5) {\n8        count = count + 1;\n9\n10        printf(\"Count = %d\\n\", count);\n11    }\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Count = 2\nCount = 3\nCount = 4\nCount = 5\nCount = 6"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong chương trình, trước tiên chúng tôi tăng giá trị của count, sau đó chúng tôi in nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy cùng khám phá cách chương trình chạy trong mỗi lần lặp của vòng lặp."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

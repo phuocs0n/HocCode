@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/putting-all-together?page=1",
+  "title": "What We Built",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What We Built"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a step back and look at what we added in this chapter."
+    },
+    {
+      "type": "paragraph",
+      "content": "We added createTask, updateTask, and deleteTask to src/api.js. Each one does exactly one job."
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/TaskList.jsx we wired up three mutations with useMutation. Each one updates the cache directly in onSuccess so the UI responds instantly."
+    },
+    {
+      "type": "paragraph",
+      "content": "No page refresh. No extra logic. Just clean mutations and a cache that always reflects what the user just did."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

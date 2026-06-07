@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/c-exceptions?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which type of exception is caused by this code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int result = 45/0;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad allocation exception"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad allocation exception occurs when the size of the array we've created is too large for the computer to handle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad allocation exception occurs when the size of the array we've created is too large for the computer to handle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Floating point exception"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we try to divide a number by 0, Floating point exception occurs."
+    },
+    {
+      "type": "paragraph",
+      "content": "When we try to divide a number by 0, Floating point exception occurs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both A and B"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code causes only one exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code causes only one exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad allocation exception occurs when the size of the array we've created is too large for the computer to handle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad allocation exception occurs when the size of the array we've created is too large for the computer to handle."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we try to divide a number by 0, Floating point exception occurs."
+    },
+    {
+      "type": "paragraph",
+      "content": "When we try to divide a number by 0, Floating point exception occurs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code causes only one exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code causes only one exception."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which type of exception is caused by this code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Bad allocation exception",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Bad allocation exception",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Floating point exception",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Floating point exception",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Both A and B",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Both A and B",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-decisions?page=2",
+  "title": "How to decide",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How to decide"
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript we make those decisions with if and else. We check a condition, and based on whether it's true or false, the game runs different code."
+    },
+    {
+      "type": "paragraph",
+      "content": "No loops or lists yet - just one decision at a time, using the variables we already have: score, total, passMark, passMessage, and failMessage."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Mindset"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you build a game, treat every rule like a simple check."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Pass or fail becomes: is the score high enough?",
+        "Correct or wrong becomes: does the input match the answer?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Thinking this way helps you turn game rules into clear if/else logic without losing track of the design."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

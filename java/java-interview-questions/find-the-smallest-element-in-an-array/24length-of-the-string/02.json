@@ -1,0 +1,52 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/java-interview-questions/length-of-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the length of a string, we can iterate through the string and count the number of characters in it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to find the length text string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Assign 0 to the count variable, which counts the number of characters in the string.",
+        "Convert the string to a character array using the toCharArray() method to simplify iterating through characters.",
+        "Using a for loop, iterate through each character in the character array.",
+        "In each iteration of the loop, increase the counter variable by 1.",
+        "Finally, after the loop, the value of the counter variable will have the length of the string.",
+        "Print the value of the counter variable, which represents the length of the string."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

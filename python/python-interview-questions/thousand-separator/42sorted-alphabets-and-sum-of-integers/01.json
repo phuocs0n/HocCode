@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/sorted-alphabets-sum-of-integers?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are sure the string will only contain alphabets and numbers, we can loop through each character in the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the character is a number, we can append it to a numbers list, whereas if the character is an alphabet, we can append it to a new string."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, the is_digit() method is used to check whether the character is a number or not. If the character is a number, the function returns True."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, the steps we need to follow are:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Create a blank list to store numbers from the string.",
+        "Create an empty string to store alphabets from the string.",
+        "Loop through each character in the string.",
+        "By using the is_digit() method, check if the current character is a digit.",
+        "If the character is a digit, convert it to an integer and append it to the numbers list.",
+        "If the character is not a digit, concatenate it to new_string.",
+        "Now, sort new_string using the sorted() function, which returns a sorted list.",
+        "Then, join the list elements using the join() method, which creates a string.",
+        "Calculate the sum of elements in the numbers list using the sum() function.",
+        "Then, append the sum of numbers to the new string by converting the sum to string.",
+        "Finally, print the resulting string."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

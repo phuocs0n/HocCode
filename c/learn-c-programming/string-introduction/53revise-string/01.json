@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-string?page=2",
+  "title": "Tần số của một ký tự",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tần số của một ký tự"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Mô tả vấn đề"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta được cấp một chuỗi và một ký tự. Chúng ta cần tìm số lần ký tự này xuất hiện trong chuỗi."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Quá trình suy nghĩ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta cần truy cập từng ký tự của chuỗi bằng vòng lặp for. Sau đó, chúng ta cần so sánh các ký tự đó với ký tự đã cho bằng cách sử dụng if..else."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu có sự trùng khớp thì chúng ta cần ghi lại số lượng trùng khớp."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Mã nguồn"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2#include <string.h>\n3\n4int main() {\n5\n6  char text[] = \"C programming is interesting.\";\n7  char ch = 'e';\n8\n9  // variable to store the occurrence\n10  int frequency = 0;\n11\n12  // access each character \n13  for (int i = 0; i < strlen(text); ++i) {\n14\n15    // compare each character with the given character\n16    // if match found, increase frequency\n17    if (ch == text[i]) {\n18      ++frequency;\n19    }\n20  }\n21\n22  printf(\"%d\", frequency);    // 2\n23\n24  return 0;\n25}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,183 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-html/html-comments?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is an HTML comment?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "<-- This is a comment -->"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is missing an exclamation mark after the starting <. Therefore, it is not a comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is missing an exclamation mark after the starting <. Therefore, it is not a comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "<!-- This is a comment -->"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment starts with <!-- and ends with -->."
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment starts with <!-- and ends with -->."
+    },
+    {
+      "type": "paragraph",
+      "content": "// This is a comment"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment doesn't start with //."
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment doesn't start with //."
+    },
+    {
+      "type": "paragraph",
+      "content": "<p>This is a comment</p>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a paragraph, not a comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a paragraph, not a comment."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is missing an exclamation mark after the starting <. Therefore, it is not a comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is missing an exclamation mark after the starting <. Therefore, it is not a comment."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment starts with <!-- and ends with -->."
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment starts with <!-- and ends with -->."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment doesn't start with //."
+    },
+    {
+      "type": "paragraph",
+      "content": "An HTML comment doesn't start with //."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a paragraph, not a comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a paragraph, not a comment."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is an HTML comment?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<-- This is a comment -->",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<-- This is a comment -->",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<!-- This is a comment -->",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<!-- This is a comment -->",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:// This is a comment",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "// This is a comment",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<p>This is a comment</p>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<p>This is a comment</p>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

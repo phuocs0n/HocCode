@@ -1,0 +1,47 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/heap-as-priority-queue?page=5",
+  "title": "Source Code: Priority Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Priority Queue"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1class PriorityQueue : public MinHeap {\n2public:\n3    // Constructor\n4    PriorityQueue() : MinHeap() {}\n5\n6    // Insert into priority queue\n7    void insert(string task, int priority) {\n8        MinHeap::insert(make_pair(priority, task));\n9    }\n10\n11    // Extract min from priority queue\n12    pair<int, string> extract_min() {\n13        return MinHeap::extract_min();\n14    }\n15\n16    // Peek at the highest priority task\n17    pair<int, string> peek() {\n18        return MinHeap::peek();\n19    }\n20};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Insert tasks into priority queue\n[(5, Task5), (12, Task1), (25, Task3), (16, Task4), (15, Task2)]\n--------------\nTop priority task\n(5, Task5)\n-----------\nAfter removing top priority task\n[(12, Task1), (15, Task2), (25, Task3), (16, Task4)]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

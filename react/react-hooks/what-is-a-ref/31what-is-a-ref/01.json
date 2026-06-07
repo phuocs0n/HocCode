@@ -1,0 +1,71 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-ref?page=2",
+  "title": "What Is a Ref?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Is a Ref?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A ref is an object with a single property: current. It's React's way of giving you a stable handle to a DOM element."
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to use a ref, you first need to import it:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useRef } from \"react\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a ref"
+    },
+    {
+      "type": "paragraph",
+      "content": "You create a ref by calling useRef():"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const myRef = useRef(null); // { current: null }\n\n// After render: { current: <the actual DOM node> }"
+    },
+    {
+      "type": "paragraph",
+      "content": "The null is the starting value of current — it's null because no DOM element has been rendered yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once the component renders and React attaches the ref to an element, current automatically updates to point to that element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's look at how to attach a ref to a JSX element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

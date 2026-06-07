@@ -1,0 +1,118 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/revise-oop-advanced?page=4",
+  "title": "Compute the Area of Circle Using Encapsulation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute the Area of Circle Using Encapsulation"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will compute the area of a circle using the concepts of encapsulation. Here, we will use the following formula."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Area of a circle = 3.14 * radius * radius"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "From the formula, we know that we need the radius to calculate the area. Here, we will be using the private variable radius, so that it cannot be directly modified from outside of the class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Area {\n    private:\n        double radius;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will then use the setter and getter functions to modify and access the value of radius from outside."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "public:\n    // setter function\n    void set_radius(double rad) {\n        // function body    \n    }\n\n    double get_radius() {\n        // function body  \n    }"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, inside the setter function, we will use an if condition to prevent radius from being negative."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void set_radius(double rad) {\n\n    if (rad > 0) {\n        radius = rad;\n    }\n    else {\n        cout << \"Error! Radius is negative\" << endl;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, this code ensures that radius can't be negative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's complete this program."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Area {\n5    private:\n6        double radius;\n7        \n8    public:\n9\n10\n11        // setter function\n12        void set_radius(double rad) {\n13            \n14            if (rad > 0) {\n15                radius = rad;\n16            }\n17            else {\n18                cout << \"Error!! Radius is negative\" << endl;\n19            }\n20        }\n21    \n22        // getter function\n23        double get_radius() {\n24            return radius;\n25        }\n26\n27};\n28\n29int main() {\n30    \n31    // get input value for radius\n32    double radius;\n33    cout << \"Enter the value of radius: \";\n34    cin >> radius;\n35    \n36    Area area;\n37    \n38\n39    // set value of radius\n40    area.set_radius(radius);\n41    \n42    // access the value of radius and compute the area\n43    double circle_area = 3.14 * area.get_radius() * area.get_radius();\n44\n45\n46    cout << \"Area of circle: \" << circle_area << endl;\n47\n48    return 0;\n49}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the value of radius: 12\nArea of circle: 452.16"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the value of radius: -12\nError!! Radius is negative\nArea of circle: 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program only assigns the input value to radius if it is not negative. Otherwise, the default value of 0.0 will be assigned to radius."
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, we can control the program by not letting users enter negative values."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

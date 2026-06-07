@@ -1,0 +1,51 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/sum-of-odd-factors?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To add the odd factors only, we first need to find all factors of the given number. And from these factors, we can select the odd numbers and then calculate the sum."
+    },
+    {
+      "type": "paragraph",
+      "content": "Steps to solve the problem,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Initialize an empty list to store all factors of a number.",
+        "Start loop from 1 to the given number.",
+        "If the iteration number is divisible by the original number, that means the iteration number is a factor of the number.",
+        "Append the factor to the factors list.",
+        "Finally, calculate the sum of the odd elements in the factors list using a loop and an if statement."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

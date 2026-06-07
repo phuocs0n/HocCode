@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-throw-statement?page=3",
+  "title": "The throw Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The throw Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how throw was used to create a custom error in the previous example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "throw new Error(\"Cannot divide by zero\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "new Error() creates a custom error.",
+        "\"Cannot divide by zero\" is the message that's displayed when the error occurs.",
+        "throw generates the custom error."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Like other errors, you can also handle custom errors using try...catch. Let's explore it next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

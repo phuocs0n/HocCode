@@ -1,0 +1,98 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/tic-tac-toe?page=6",
+  "title": "Step 5: Adding Win and Draw Logic",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 5: Adding Win and Draw Logic"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Updated updateBoard() method.",
+        "Added the checkWinner() and checkDraw() methods inside the Board class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2import java.util.Scanner;\n3\n4class Board {\n5\n6\n7    // count variable\n8    int count = 0;\n9\n10\n11    // create an ArrayList\n12    ArrayList<String> board = new ArrayList<>();\n13\n14    // add elements to the board ArrayList\n15    void addElements() {\n16        board.add(\" \");\n17        board.add(\" \");\n18        board.add(\" \");\n19        board.add(\" \");\n20        board.add(\" \");\n21        board.add(\" \");\n22        board.add(\" \");\n23        board.add(\" \");\n24        board.add(\" \");\n25    }\n26\n27    // print elements of the board\n28    void printBoard() {\n29\n30        System.out.println(\" \" + board.get(0) + \" | \" + board.get(1) + \" | \" + board.get(2));\n31        System.out.println(\"-----------\");\n32        System.out.println(\" \" + board.get(3) + \" | \" + board.get(4) + \" | \" + board.get(5));\n33        System.out.println(\"-----------\");\n34        System.out.println(\" \" + board.get(6) + \" | \" + board.get(7) + \" | \" + board.get(8));\n35\n36    }\n37\n38    boolean updateBoard(int position, String type) {\n39\n40        boolean returnValue;\n41        // if a player selects position n, n-1 index should be updated\n42        // if the position is not already filled, update the board\n43        if (board.get(position - 1).equals(\" \")) {\n44            board.set(position - 1, type);\n45\n46\n47            // increase the value of count by 1\n48            count = count + 1;\n49\n50\n51            returnValue = true;\n52        }\n53\n54        // if the position is already filled, ask user to select another position\n55        else {\n56            System.out.println(\"Position already selected. Select another position.\");\n57            returnValue = false;\n58        }\n59        return returnValue;\n60    }\n61\n62\n63    // if all fields are selected and there is no winner, it's draw\n64    // returning true if it's draw\n65    boolean checkDraw() {\n66\n67        // check if count == 9\n68        if (count == 9) {\n69            return true;\n70        } else {\n71            return false;\n72        }\n73    }\n74    // if three symbols appears in a row, returning true\n75    boolean checkWinner(String type) {\n76        if ((board.get(0).equals(type) && board.get(1).equals(type) && board.get(2).equals(type))\n77                || (board.get(3).equals(type) && board.get(4).equals(type) && board.get(5).equals(type))\n78                || (board.get(6).equals(type) && board.get(7).equals(type) && board.get(8).equals(type))\n79                || (board.get(0).equals(type) && board.get(3).equals(type) && board.get(6).equals(type))\n80                || (board.get(1).equals(type) && board.get(4).equals(type) && board.get(7).equals(type))\n81                || (board.get(2).equals(type) && board.get(5).equals(type) && board.get(8).equals(type))\n82                || (board.get(0).equals(type) && board.get(4).equals(type) && board.get(8).equals(type))\n83                || (board.get(2).equals(type) && board.get(4).equals(type) && board.get(6).equals(type))) {\n84            return true;\n85        }\n86\n87        else {\n88            return false;\n89        }\n90\n91    }\n92\n93\n94}\n95\n96class Player {\n97\n98    String name;\n99    String type;\n100\n101    Player(String type) {\n102\n103        this.type = type;\n104        Scanner input = new Scanner(System.in);\n105        if (type == \"X\") {\n106            System.out.println(\"Player selecting X, enter your name: \");\n107            name = input.nextLine();\n108        } \n109        else {\n110            System.out.println(\"Player selecting O, enter your name: \");\n111            name = input.nextLine();\n112        }\n113    }\n114}\n115\n116class Game {\n117\n118    // create object of Board class\n119    Board b1 = new Board();\n120\n121    // create object of Player class\n122    Player player1 = new Player(\"X\");\n123    Player player2 = new Player(\"O\");\n124\n125    // set currentPlayer as player1\n126    Player currentPlayer = player1;\n127\n128    void play() {\n129\n130        // add elements to the board ArrayList\n131        b1.addElements();\n132        // using an infinite loop to run the game\n133        // we will later add conditions to terminate the loop\n134        String message = \"enter the position (1 - 9):\";\n135        while (true) {\n136\n137            message = \"enter the position (1 - 9):\";\n138            System.out.println(currentPlayer.name + \" \" + message);\n139            Scanner input = new Scanner(System.in);\n140            int position = input.nextInt();\n141\n142            // the updateBoard() method return true if\n143            // the user selected position is not already filled\n144            if (b1.updateBoard(position, currentPlayer.type)) {\n145\n146                b1.printBoard();\n147\n148                if (currentPlayer == player1) {\n149                    currentPlayer = player2;\n150                }\n151\n152                else {\n153                    currentPlayer = player1;\n154                }\n155            }\n156        }\n157    }\n158}\n159\n160class Main {\n161    public static void main(String[] args) {\n162\n163        // create object of Game method\n164        Game game = new Game();\n165        game.play();\n166\n167    }\n168}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The checkWinner() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method checks if three same symbols (type) appear in a row. If that's the case, the player with that symbol won the game. In that case, we have returned true else we have returned false."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will later call this method from inside the play() method of the Game class."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, the if condition inside the class is very large. That's why we have written it in multiple lines."
+    },
+    {
+      "type": "paragraph",
+      "content": "The checkDraw() method"
+    },
+    {
+      "type": "paragraph",
+      "content": "If all fields of the board are filled and still there is no winner, then it's a draw. To check if all the fields are filled, we have created a count variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the updateBoard() method, we are increasing the value of count by 1, everytime the board updates."
+    },
+    {
+      "type": "paragraph",
+      "content": "That means the value of count is 1 when one element of the board is filled. Similarly when all 9 elements of board are filled, the value of count will be 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which means the condition"
+    },
+    {
+      "type": "paragraph",
+      "content": "(count == 9)"
+    },
+    {
+      "type": "paragraph",
+      "content": "is met. So, the checkDraw() method will return true."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will later call this method from inside the play() method of the Game class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

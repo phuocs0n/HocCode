@@ -1,0 +1,64 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/incorrect-use-of-case?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT item,\n2  CASE quantity\n3    WHEN quantity < 10 THEN 'Low'\n4    WHEN quantity < 20 THEN 'Medium'\n5    ELSE 'High'\n6  END AS category\n7FROM Products;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code in the CASE statement has a syntax error."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can't write CASE quantity when the quantity column is already being compared in the WHEN condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "SQL programmers often overlook this aspect of CASE statements, leading to errors."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can fix the above code by removing quantity from the CASE quantity line."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT item,\n2  CASE \n3    WHEN quantity < 10 THEN 'Low'\n4    WHEN quantity < 20 THEN 'Medium'\n5    ELSE 'High'\n6  END AS category\n7FROM Products;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

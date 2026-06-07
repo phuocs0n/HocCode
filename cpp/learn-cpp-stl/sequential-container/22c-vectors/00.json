@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-vectors?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "A vector in C++ is similar to the generic arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the code for declaring an array."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int numbers[5] = {69, 59, 49, 39, 29};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created an integer array named numbers. The size of this array is 5 and it cannot be changed."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you don't know exactly how many elements you need in advance? This can be problematic because we need to know the size of an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's where vectors come in."
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike arrays, vectors in C++ allow you to create collections that can automatically resize as you add or remove elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "A vector can be considered as a dynamic array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you understand why you should use vectors instead of arrays, let's learn how to create them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

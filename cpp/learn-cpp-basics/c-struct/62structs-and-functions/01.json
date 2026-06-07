@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/structs-functions?page=2",
+  "title": "Create a Function Inside a Struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create a Function Inside a Struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can create a function inside a struct in the same way we create variables inside a struct. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "struct Student {\n    int marks_math;\n    int marks_science;\n\n    int total_marks() {\n        return marks_math + marks_science;\n    }\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created a function total_marks() inside the Student struct. Like with variables inside a struct, we can access this function using the dot operator .."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4struct Student {\n5    int marks_math;\n6    int marks_science;\n7\n8    int total_marks() {\n9        return marks_math + marks_science;\n10    }\n11} student1;\n12\n13int main() {\n14\n15    // initialize struct variables\n16    student1.marks_math = 79;\n17    student1.marks_science = 94;\n18\n19    // call struct function\n20    cout << \"Total Marks: \" << student1.total_marks();\n21\n22    return 0;\n23}\n24\n25// Output:\n26// Total Marks: 173"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, we have called the function inside the Student struct with the code:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "student1.total_marks()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

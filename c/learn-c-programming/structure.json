@@ -1,0 +1,313 @@
+{
+  "levels": [
+    {
+      "title": "Giới thiệu về lập trình C",
+      "lessons": [
+        {
+          "title": "1.1Giới thiệu về lập trình C",
+          "url": "https://app.programiz.pro/course/learn-c-programming/get-started",
+          "lessonFolder": "11introduction-to-c-programming"
+        },
+        {
+          "title": "1.2Bình luận",
+          "url": "https://app.programiz.pro/course/learn-c-programming/comments",
+          "lessonFolder": "12comments"
+        },
+        {
+          "title": "1.3Biến",
+          "url": "https://app.programiz.pro/course/learn-c-programming/variables",
+          "lessonFolder": "13variables"
+        },
+        {
+          "title": "1.4Các kiểu dữ liệu khác",
+          "url": "https://app.programiz.pro/course/learn-c-programming/other-data-types",
+          "lessonFolder": "14other-data-types"
+        },
+        {
+          "title": "1.5Chuyển đổi loại",
+          "url": "https://app.programiz.pro/course/learn-c-programming/type-conversion",
+          "lessonFolder": "15type-conversion"
+        },
+        {
+          "title": "1.6Thông tin thêm về kết quả in ấn",
+          "url": "https://app.programiz.pro/course/learn-c-programming/print-output",
+          "lessonFolder": "16more-on-printing-output"
+        },
+        {
+          "title": "1.7Toán tử",
+          "url": "https://app.programiz.pro/course/learn-c-programming/arithmetic-operators",
+          "lessonFolder": "17operators"
+        },
+        {
+          "title": "1.8Đầu vào của người dùng",
+          "url": "https://app.programiz.pro/course/learn-c-programming/take-input",
+          "lessonFolder": "18user-input"
+        },
+        {
+          "title": "1.9Giới thiệu Ví dụ",
+          "url": "https://app.programiz.pro/course/learn-c-programming/introduction-examples",
+          "lessonFolder": "19introduction-examples"
+        },
+        {
+          "title": "1.10Tóm tắt lại",
+          "url": "https://app.programiz.pro/course/learn-c-programming/revise-introduction",
+          "lessonFolder": "110recap"
+        }
+      ],
+      "chapterFolder": "introduction-to-c-programming"
+    },
+    {
+      "title": "Ra quyết định",
+      "lessons": [
+        {
+          "title": "2.1Ra quyết định",
+          "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans",
+          "lessonFolder": "21decision-making"
+        },
+        {
+          "title": "2.2câu lệnh if...else",
+          "url": "https://app.programiz.pro/course/learn-c-programming/ifelse-statement",
+          "lessonFolder": "22ifelse-statement"
+        },
+        {
+          "title": "2.3Toán tử logic",
+          "url": "https://app.programiz.pro/course/learn-c-programming/logical-operators",
+          "lessonFolder": "23logical-operators"
+        },
+        {
+          "title": "2.4vòng lặp while",
+          "url": "https://app.programiz.pro/course/learn-c-programming/while-loop",
+          "lessonFolder": "24while-loop"
+        },
+        {
+          "title": "2.5cho vòng lặp",
+          "url": "https://app.programiz.pro/course/learn-c-programming/for-loop",
+          "lessonFolder": "25for-loop"
+        },
+        {
+          "title": "2.6phá vỡ và tiếp tục",
+          "url": "https://app.programiz.pro/course/learn-c-programming/break-continue",
+          "lessonFolder": "26break-and-continue"
+        },
+        {
+          "title": "2.7chuyển đổi Tuyên bố",
+          "url": "https://app.programiz.pro/course/learn-c-programming/switch-statement",
+          "lessonFolder": "27switch-statement"
+        },
+        {
+          "title": "2.8Ví dụ về luồng điều khiển",
+          "url": "https://app.programiz.pro/course/learn-c-programming/control-flow-examples",
+          "lessonFolder": "28control-flow-examples"
+        },
+        {
+          "title": "2.9Tóm tắt: Ra quyết định và vòng lặp",
+          "url": "https://app.programiz.pro/course/learn-c-programming/revise-control-flow",
+          "lessonFolder": "29recap-decision-making-and-loops"
+        }
+      ],
+      "chapterFolder": "decision-making"
+    },
+    {
+      "title": "Chức năng",
+      "lessons": [
+        {
+          "title": "3.1Chức năng",
+          "url": "https://app.programiz.pro/course/learn-c-programming/functions-in-c-programming",
+          "lessonFolder": "31functions"
+        },
+        {
+          "title": "3.2Chức năng thư viện tiêu chuẩn",
+          "url": "https://app.programiz.pro/course/learn-c-programming/standard-library-functions",
+          "lessonFolder": "32standard-library-functions"
+        },
+        {
+          "title": "3.3Biến cục bộ",
+          "url": "https://app.programiz.pro/course/learn-c-programming/local-variables",
+          "lessonFolder": "33local-variables"
+        },
+        {
+          "title": "3.4Ví dụ: Hàm",
+          "url": "https://app.programiz.pro/course/learn-c-programming/think-functions",
+          "lessonFolder": "34examples-functions"
+        },
+        {
+          "title": "3.5Tóm tắt lại",
+          "url": "https://app.programiz.pro/course/learn-c-programming/revise-function",
+          "lessonFolder": "35recap"
+        }
+      ],
+      "chapterFolder": "functions"
+    },
+    {
+      "title": "Mảng",
+      "lessons": [
+        {
+          "title": "4.1Mảng",
+          "url": "https://app.programiz.pro/course/learn-c-programming/array",
+          "lessonFolder": "41arrays"
+        },
+        {
+          "title": "4.2Mảng và hàm",
+          "url": "https://app.programiz.pro/course/learn-c-programming/array-functions",
+          "lessonFolder": "42array-and-functions"
+        },
+        {
+          "title": "4.3Ví dụ về mảng",
+          "url": "https://app.programiz.pro/course/learn-c-programming/array-examples",
+          "lessonFolder": "43array-examples"
+        },
+        {
+          "title": "4.4Dự án: Tính điểm học sinh",
+          "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade",
+          "lessonFolder": "44project-compute-student-grade"
+        },
+        {
+          "title": "4.5Tóm tắt lại",
+          "url": "https://app.programiz.pro/course/learn-c-programming/revise-array",
+          "lessonFolder": "45recap"
+        }
+      ],
+      "chapterFolder": "arrays"
+    },
+    {
+      "title": "Giới thiệu chuỗi",
+      "lessons": [
+        {
+          "title": "5.1Giới thiệu chuỗi",
+          "url": "https://app.programiz.pro/course/learn-c-programming/string-introduction",
+          "lessonFolder": "51string-introduction"
+        },
+        {
+          "title": "5.2Hàm chuỗi",
+          "url": "https://app.programiz.pro/course/learn-c-programming/string-functions",
+          "lessonFolder": "52string-functions"
+        },
+        {
+          "title": "5.3Sửa lại chuỗi",
+          "url": "https://app.programiz.pro/course/learn-c-programming/revise-string",
+          "lessonFolder": "53revise-string"
+        },
+        {
+          "title": "5.4Tóm tắt chuỗi",
+          "url": "https://app.programiz.pro/course/learn-c-programming/string-summary",
+          "lessonFolder": "54string-summary"
+        }
+      ],
+      "chapterFolder": "string-introduction"
+    },
+    {
+      "title": "Giới thiệu con trỏ",
+      "lessons": [
+        {
+          "title": "6.1Giới thiệu con trỏ",
+          "url": "https://app.programiz.pro/course/learn-c-programming/pointers-introduction",
+          "lessonFolder": "61pointers-introduction"
+        },
+        {
+          "title": "6.2Con trỏ và mảng",
+          "url": "https://app.programiz.pro/course/learn-c-programming/pointers-arrays",
+          "lessonFolder": "62pointers-and-arrays"
+        },
+        {
+          "title": "6.3Con trỏ và hàm",
+          "url": "https://app.programiz.pro/course/learn-c-programming/pointers-functions",
+          "lessonFolder": "63pointers-and-functions"
+        },
+        {
+          "title": "6.4Sửa đổi con trỏ",
+          "url": "https://app.programiz.pro/course/learn-c-programming/revise-pointers",
+          "lessonFolder": "64revise-pointers"
+        }
+      ],
+      "chapterFolder": "pointers-introduction"
+    },
+    {
+      "title": "Cấu trúc C",
+      "lessons": [
+        {
+          "title": "7.1Cấu trúc C",
+          "url": "https://app.programiz.pro/course/learn-c-programming/c-struct",
+          "lessonFolder": "71c-struct"
+        },
+        {
+          "title": "7.2Cấu trúc và con trỏ",
+          "url": "https://app.programiz.pro/course/learn-c-programming/structs-pointers",
+          "lessonFolder": "72structs-and-pointers"
+        },
+        {
+          "title": "7.3Cấu trúc và chức năng",
+          "url": "https://app.programiz.pro/course/learn-c-programming/structs-functions",
+          "lessonFolder": "73structs-and-functions"
+        },
+        {
+          "title": "7.4Sửa lại cấu trúc",
+          "url": "https://app.programiz.pro/course/learn-c-programming/revise-struct",
+          "lessonFolder": "74revise-struct"
+        }
+      ],
+      "chapterFolder": "c-struct"
+    },
+    {
+      "title": "Xử lý tệp",
+      "lessons": [
+        {
+          "title": "8.1Xử lý tệp",
+          "url": "https://app.programiz.pro/course/learn-c-programming/file-handling",
+          "lessonFolder": "81file-handling"
+        },
+        {
+          "title": "8.2liệt kê",
+          "url": "https://app.programiz.pro/course/learn-c-programming/enumeration",
+          "lessonFolder": "82enumeration"
+        },
+        {
+          "title": "8.3Bộ tiền xử lý",
+          "url": "https://app.programiz.pro/course/learn-c-programming/preprocessor",
+          "lessonFolder": "83preprocessor"
+        },
+        {
+          "title": "8.4Phân bổ bộ nhớ động",
+          "url": "https://app.programiz.pro/course/learn-c-programming/dynamic-memory-allocation",
+          "lessonFolder": "84dynamic-memory-allocation"
+        }
+      ],
+      "chapterFolder": "file-handling"
+    },
+    {
+      "title": "Nhận xét nhiều dòng",
+      "lessons": [
+        {
+          "title": "9.1Nhận xét nhiều dòng",
+          "url": "https://app.programiz.pro/course/learn-c-programming/multiline-comments",
+          "lessonFolder": "91multiline-comments"
+        },
+        {
+          "title": "9.2Vòng lặp lồng nhau",
+          "url": "https://app.programiz.pro/course/learn-c-programming/nested-loop",
+          "lessonFolder": "92nested-loop"
+        },
+        {
+          "title": "9.3Mảng hai chiều",
+          "url": "https://app.programiz.pro/course/learn-c-programming/two-dimensional-array",
+          "lessonFolder": "93two-dimensional-array"
+        },
+        {
+          "title": "9.4Linh tinh",
+          "url": "https://app.programiz.pro/course/learn-c-programming/miscellaneous",
+          "lessonFolder": "94miscellaneous"
+        },
+        {
+          "title": "9.5Dự án Đá, Giấy, Kéo",
+          "url": "https://app.programiz.pro/course/learn-c-programming/rock-paper-scissors-project",
+          "lessonFolder": "95rock-paper-scissors-project"
+        }
+      ],
+      "chapterFolder": "multiline-comments"
+    }
+  ],
+  "_debug": {
+    "totalLinks": 50,
+    "sections": 9,
+    "container": "main-content"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-html/html-document-structure?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the <!DOCTYPE html> declaration in an HTML document signify?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It tells the browser the document is written in HTML."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "<!DOCTYPE html> is a declaration to the web browser that the given document is an HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "<!DOCTYPE html> is a declaration to the web browser that the given document is an HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "It instructs the browser to display web content."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While <!DOCTYPE html> is essential for browser interpretation, it does not instruct the browser to display content."
+    },
+    {
+      "type": "paragraph",
+      "content": "While <!DOCTYPE html> is essential for browser interpretation, it does not instruct the browser to display content."
+    },
+    {
+      "type": "paragraph",
+      "content": "It defines a portion of the webpage."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "<!DOCTYPE html> doesn't define any portion but rather declares the document version to the browser."
+    },
+    {
+      "type": "paragraph",
+      "content": "<!DOCTYPE html> doesn't define any portion but rather declares the document version to the browser."
+    },
+    {
+      "type": "paragraph",
+      "content": "It includes metadata for the webpage."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The metadata for a page is typically found in the <head> section, not in the doctype declaration."
+    },
+    {
+      "type": "paragraph",
+      "content": "The metadata for a page is typically found in the <head> section, not in the doctype declaration."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the <!DOCTYPE html> declaration in an HTML document signify?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It tells the browser the document is written in HTML.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It tells the browser the document is written in HTML.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It instructs the browser to display web content.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It instructs the browser to display web content.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It defines a portion of the webpage.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It defines a portion of the webpage.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It includes metadata for the webpage.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It includes metadata for the webpage.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

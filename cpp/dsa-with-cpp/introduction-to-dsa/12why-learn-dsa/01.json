@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/why-dsa?page=2",
+  "title": "Sum of Natural Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of Natural Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can create a program to find the sum of natural numbers using a for loop."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3using namespace std;\n4\n5int calculate_sum(int n) {\n6    int total = 0;\n7    for(int i = 1; i <= n; ++i) \n8        total += i;\n9    return total;\n10}\n11int main() {\n12    int result = calculate_sum(100);\n13    cout << \"Result: \" << result << '\\n';\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In most cases, this program won't cause any problems."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, what if we have to find the sum of natural numbers of an absurdly large number, let's say 10000000000?"
+    },
+    {
+      "type": "paragraph",
+      "content": "It will take a lot of time to find the sum for this number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will solve this problem in a more optimized manner."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

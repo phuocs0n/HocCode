@@ -1,0 +1,51 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/use-of-limit?page=1",
+  "title": "What will happen if we execute the following query?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What will happen if we execute the following query?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Employees\n3LIMIT -2;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will either throw an error or give an unexpected result because the LIMIT clause expects a positive integer value."
+    },
+    {
+      "type": "paragraph",
+      "content": "To retrieve the last 2 records, you can use a combination of ORDER BY and LIMIT as below:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Employees\n3ORDER BY emp_id DESC\n4LIMIT 2;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

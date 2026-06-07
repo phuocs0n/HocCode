@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/reverse-array-without-using-reverse-method?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To reverse an array without using the reverse() method, iterate over the array in reverse order, copy the elements from the original array to a new array in reverse order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a new empty array with the same length as the original array. This array will be used to store the elements in the reverse order of the original array.",
+        "Initialize a counter variable j to 0 that is used to keep track of the current index in the new array.",
+        "Using a for loop, iterate through the original array in reverse order, starting from the last element and ending at the first element.",
+        "Inside the loop, for each element in the original array, add it to the corresponding position in the new array."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

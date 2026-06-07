@@ -1,0 +1,188 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/constructors?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Find the constructor in this code."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Person {    \n    public:\n\n        string name = \"Marty McFly\";\n\n        Person() {\n            cout << name << endl;\n        }\n    \n        void display() {\n            cout << name << endl;\n        }      \n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Person"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Person is the name of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Person is the name of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "display()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a member function of the class, not its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a member function of the class, not its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "name"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "name is a member variable of the class, not its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "name is a member variable of the class, not its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Person()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by parentheses."
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by parentheses."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Person is the name of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Person is the name of the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a member function of the class, not its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a member function of the class, not its constructor."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "name is a member variable of the class, not its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "name is a member variable of the class, not its constructor."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by parentheses."
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by parentheses."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Find the constructor in this code.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Person",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Person",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:display()",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "display()",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:name",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "name",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Person()",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Person()",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/turning-entry-card-into-component?page=10",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why must component names start with a capital letter?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To make the code look more professional"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a technical requirement, not a style choice."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a technical requirement, not a style choice."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because JavaScript requires it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript doesn't care about capitalization for function names."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript doesn't care about capitalization for function names."
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent naming conflicts with CSS classes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS classes are unrelated to component names."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS classes are unrelated to component names."
+    },
+    {
+      "type": "paragraph",
+      "content": "So React can distinguish components from regular HTML tags"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React will interpret components beginning with lowercase as HTML tags. Think about <div> vs <EntryCard>."
+    },
+    {
+      "type": "paragraph",
+      "content": "React will interpret components beginning with lowercase as HTML tags. Think about <div> vs <EntryCard>."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why must component names start with a capital letter?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To make the code look more professional",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To make the code look more professional",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because JavaScript requires it",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because JavaScript requires it",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To prevent naming conflicts with CSS classes",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To prevent naming conflicts with CSS classes",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So React can distinguish components from regular HTML tags",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So React can distinguish components from regular HTML tags",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

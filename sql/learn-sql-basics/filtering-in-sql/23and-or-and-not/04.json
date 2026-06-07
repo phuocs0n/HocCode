@@ -1,0 +1,139 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/or-not?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: As a data analyst, you need to retrieve all customers' names and email addresses in California or Texas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Which of the following queries will return the correct result set?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFROM Customers\nWHERE state = 'California' OR state = 'Texas';"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query uses the OR operator correctly to include customers from California or Texas."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query uses the OR operator correctly to include customers from California or Texas."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFROM Customers\nWHERE state = 'California' OR 'Texas';"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The condition after the OR operator should be state = 'Texas' instead of just 'Texas'."
+    },
+    {
+      "type": "paragraph",
+      "content": "The condition after the OR operator should be state = 'Texas' instead of just 'Texas'."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFrom Customers\nWHERE state = California OR state = Texas;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since California and Texas are strings, they must be enclosed inside quotes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since California and Texas are strings, they must be enclosed inside quotes."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFrom Customers\nWHERE state = 'California' AND state = 'Texas';"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query uses AND, which would never be true, as a customer cannot live in California and Texas simultaneously."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query uses AND, which would never be true, as a customer cannot live in California and Texas simultaneously."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: As a data analyst, you need to retrieve all customers' names and email addresses in California or Texas.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:SELECT name, email\nFROM Customers\nWHERE state = 'California' OR state = 'Texas';",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "SELECT name, email\nFROM Customers\nWHERE state = 'California' OR state = 'Texas';",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:SELECT name, email\nFROM Customers\nWHERE state = 'California' OR 'Texas';",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "SELECT name, email\nFROM Customers\nWHERE state = 'California' OR 'Texas';",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:SELECT name, email\nFrom Customers\nWHERE state = California OR state = Texas;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "SELECT name, email\nFrom Customers\nWHERE state = California OR state = Texas;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:SELECT name, email\nFrom Customers\nWHERE state = 'California' AND state = 'Texas';",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "SELECT name, email\nFrom Customers\nWHERE state = 'California' AND state = 'Texas';",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

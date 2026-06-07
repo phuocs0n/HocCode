@@ -1,0 +1,68 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/complete-tictactoe?page=5",
+  "title": "Storing User Moves",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Storing User Moves"
+    },
+    {
+      "type": "paragraph",
+      "content": "To determine if a player won the game or if the game ended in a draw, you need to keep track of the player's moves."
+    },
+    {
+      "type": "paragraph",
+      "content": "An easy way to do this is by using an array to record the moves, as shown below."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3  <div id=\"leftScreen\">\n4    <h1>Tic Tac Toe</h1>\n5    <div id=\"turnInfo\">Player 1</div>\n6  </div>\n7\n8  <div id=\"rightScreen\">\n9    <div class=\"game-board\" id=\"gameBoard\">\n10      <div class=\"cell\" data-index=\"0\"></div>\n11      <div class=\"cell\" data-index=\"1\"></div>\n12      <div class=\"cell\" data-index=\"2\"></div>\n13      <div class=\"cell\" data-index=\"3\"></div>\n14      <div class=\"cell\" data-index=\"4\"></div>\n15      <div class=\"cell\" data-index=\"5\"></div>\n16      <div class=\"cell\" data-index=\"6\"></div>\n17      <div class=\"cell\" data-index=\"7\"></div>\n18      <div class=\"cell\" data-index=\"8\"></div>\n19    </div>\n20  </div>\n21</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    padding: 0;\n4    box-sizing: border-box;\n5}\n6\n7body {\n8    margin: 8px;\n9    font-family: 'Helvetica', 'Arial', sans-serif;\n10}\n11\n12h1 {\n13    font-size: 40px;\n14    color: #2a2a7b;\n15    font-weight: bold;\n16    margin: 20px;\n17}\n18\n19div {\n20    font-size: 24px;\n21    color: #2a2a7b;\n22    font-weight: bold;\n23}\n24\n25/* Game Screen Styles */\n26#gameScreen {\n27    display: flex;\n28    padding: 20px;\n29    justify-content: space-around;\n30}\n31\n32#turnInfo {\n33    font-size: 28px;\n34    font-weight: 500;\n35    color: #6b6b9f;\n36    margin-bottom: 40px;\n37    text-align: center;\n38}\n39\n40.game-board {\n41    display: grid;\n42    background: #40e7e7;\n43    grid-template-columns: repeat(3, 1fr);\n44    grid-template-rows: repeat(3, 100px);\n45    grid-gap: 4px;\n46    width: 320px;\n47}\n48\n49.cell {\n50    display: flex;\n51    align-items: center;\n52    justify-content: center;\n53    background-color: white;\n54    font-size: 36px;\n55    font-weight: bold;\n56    cursor: pointer;\n57}\n58\n59.cell:hover {\n60    background-color: #d5f7f7;\n61}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let attempts = ['', '', '', '', '', '', '', '', '']; \n2\n3const handlePlayerMove = (cell) => {\n4    …   \n5    // Store the move and log to screen\n6    attempts[cell.getAttribute('data-index')] = currentPlayer;\n7    console.log(attempts);   \n8    …\n9};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code and click the cells. You'll see that each player's move is tracked in the attempts array."
+    },
+    {
+      "type": "paragraph",
+      "content": "The cell selected by the players can be accessed through attempts[cell.getAttribute('data-index')]."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how you can use this array to check for winning condition."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

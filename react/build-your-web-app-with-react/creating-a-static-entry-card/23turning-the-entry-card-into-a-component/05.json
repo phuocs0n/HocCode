@@ -1,0 +1,49 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/turning-entry-card-into-component?page=6",
+  "title": "Component Naming Rules",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Component Naming Rules"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's some naming rules and conventions you should follow to ensure your components run smoothly:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Component names must start with a capital letter. For example, write EntryCard() instead of entryCard().",
+        "File names should match the component name: EntryCard.jsx for the EntryCard() component.",
+        "If the name starts with lowercase (such as <entryCard />), React thinks it's a regular HTML tag, not a component."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a React convention. Follow it, and your components will work as expected."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

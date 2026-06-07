@@ -1,0 +1,46 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary?page=7",
+  "title": "Combining All Filters",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Combining All Filters"
+    },
+    {
+      "type": "paragraph",
+      "content": "Combine all filters to get the final list of bonus-eligible employees:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Final query for bonus-eligible employees\n2\n3SELECT *\n4FROM Employees\n5WHERE department IN ('Sales', 'Finance')\n6AND age BETWEEN 23 AND 27;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query ensures you only retrieve employees who meet all the specified conditions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

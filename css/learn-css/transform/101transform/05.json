@@ -1,0 +1,136 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-css/transform?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the code below, where do you think the box element will move when we use translate: 50% 50%;?"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "<div class=\"parent\">\n    <div class=\"box\">I move with translate(50%, 50%)!</div>\n</div>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It moves 50% of the parent element's width and height."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The translate property does not calculate percentages based on the parent element. It only considers the size of the element being moved."
+    },
+    {
+      "type": "paragraph",
+      "content": "The translate property does not calculate percentages based on the parent element. It only considers the size of the element being moved."
+    },
+    {
+      "type": "paragraph",
+      "content": "It moves 50% of the screen's width and height."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The translate property does not use screen size when calculating percentages."
+    },
+    {
+      "type": "paragraph",
+      "content": "The translate property does not use screen size when calculating percentages."
+    },
+    {
+      "type": "paragraph",
+      "content": "It moves 50% of the box element's own width and height."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "translate(50%, 50%) moves the box element based on its own dimensions. So, it shifts by 50% of its width and 50% of its height."
+    },
+    {
+      "type": "paragraph",
+      "content": "translate(50%, 50%) moves the box element based on its own dimensions. So, it shifts by 50% of its width and 50% of its height."
+    },
+    {
+      "type": "paragraph",
+      "content": "It moves to the center of the parent element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This does not necessarily center the .box element inside the parent container, as the movement depends solely on the size of the .box element."
+    },
+    {
+      "type": "paragraph",
+      "content": "This does not necessarily center the .box element inside the parent container, as the movement depends solely on the size of the .box element."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the code below, where do you think the box element will move when we use translate: 50% 50%;?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It moves 50% of the parent element's width and height.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It moves 50% of the parent element's width and height.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It moves 50% of the screen's width and height.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It moves 50% of the screen's width and height.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It moves 50% of the box element's own width and height.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It moves 50% of the box element's own width and height.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It moves to the center of the parent element.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It moves to the center of the parent element.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

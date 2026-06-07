@@ -1,0 +1,131 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction?page=9",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does it mean when we say JavaScript is single-threaded?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript runs one task at a time"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one piece of code executes at any moment."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one piece of code executes at any moment."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript cannot handle asynchronous work"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Asynchronous work is handled via Web APIs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Asynchronous work is handled via Web APIs."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript can only open one file"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Files have nothing to do with threads."
+    },
+    {
+      "type": "paragraph",
+      "content": "Files have nothing to do with threads."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript always freezes the browser"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Async exists to avoid freezing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Async exists to avoid freezing."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does it mean when we say JavaScript is single-threaded?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:JavaScript runs one task at a time",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "JavaScript runs one task at a time",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:JavaScript cannot handle asynchronous work",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "JavaScript cannot handle asynchronous work",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:JavaScript can only open one file",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "JavaScript can only open one file",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:JavaScript always freezes the browser",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "JavaScript always freezes the browser",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

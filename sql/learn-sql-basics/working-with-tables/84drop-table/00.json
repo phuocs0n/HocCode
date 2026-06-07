@@ -1,0 +1,48 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/drop-table?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you maintain the database, you notice that some tables are no longer needed. For example:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A temporary table was created for testing but is no longer useful.",
+        "The information has already been moved to another table."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To keep the database organized, you decide to remove these unnecessary tables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

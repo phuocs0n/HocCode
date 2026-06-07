@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-oop/final-keyword?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to create constants in Java?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "const int identity = 34;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is nothing such as const keyword in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is nothing such as const keyword in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "public int identity = 34;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The public keyword makes the field public not constant."
+    },
+    {
+      "type": "paragraph",
+      "content": "The public keyword makes the field public not constant."
+    },
+    {
+      "type": "paragraph",
+      "content": "final int identity = 34;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the final keyword to create constants in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the final keyword to create constants in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "static int identity = 34;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The static keyword makes the field static not constant."
+    },
+    {
+      "type": "paragraph",
+      "content": "The static keyword makes the field static not constant."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is nothing such as const keyword in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is nothing such as const keyword in Java."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The public keyword makes the field public not constant."
+    },
+    {
+      "type": "paragraph",
+      "content": "The public keyword makes the field public not constant."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the final keyword to create constants in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the final keyword to create constants in Java."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The static keyword makes the field static not constant."
+    },
+    {
+      "type": "paragraph",
+      "content": "The static keyword makes the field static not constant."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to create constants in Java?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:const int identity = 34;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "const int identity = 34;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:public int identity = 34;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "public int identity = 34;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:final int identity = 34;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "final int identity = 34;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:static int identity = 34;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "static int identity = 34;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

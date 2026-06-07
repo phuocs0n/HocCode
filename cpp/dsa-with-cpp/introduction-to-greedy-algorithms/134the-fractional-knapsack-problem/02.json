@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/fractional-knapsack-problem?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the fractional knapsack problem, how does a greedy algorithm choose items to add to the knapsack?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items with the lowest weight."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items with the lowest weight may not optimize the total value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items with the lowest weight may not optimize the total value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items with the highest value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items with the highest value may not consider their weight."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items with the highest value may not consider their weight."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items based on their value-to-weight ratio."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedily choosing items with the highest value-to-weight ratio ensures that you maximize the total value inside the knapsack."
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedily choosing items with the highest value-to-weight ratio ensures that you maximize the total value inside the knapsack."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting items randomly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Random decisions aren't made in a greedy approach."
+    },
+    {
+      "type": "paragraph",
+      "content": "Random decisions aren't made in a greedy approach."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the fractional knapsack problem, how does a greedy algorithm choose items to add to the knapsack?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Selecting items with the lowest weight.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Selecting items with the lowest weight.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Selecting items with the highest value.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Selecting items with the highest value.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Selecting items based on their value-to-weight ratio.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Selecting items based on their value-to-weight ratio.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Selecting items randomly.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Selecting items randomly.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

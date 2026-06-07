@@ -1,0 +1,92 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-intermediate/compute-area-perimeter?page=1",
+  "title": "Compute Area and Perimeter",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute Area and Perimeter"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to compute the area and perimeter of a square using class. If you don't know, a square is a rectangle with equal sides."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Square that has an attribute named length.",
+        "Use __init__() to initialize the length attribute.",
+        "Create the compute_area() method to compute the area of a square and return it.",
+        "Create the compute_perimeter() method to compute the perimeter of a square and return it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside the class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take integer input from the user and store it in the length variable.",
+        "Create an object of the Square class by passing length as an argument.",
+        "Call the compute_area() method and print the area.",
+        "Call the compute_perimeter() method and print the perimeter."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, the area of a square is equal to length * length, and the perimeter of a square is equal to 4 * length."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output4\n8"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

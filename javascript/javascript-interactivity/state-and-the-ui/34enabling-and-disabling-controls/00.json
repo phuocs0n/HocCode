@@ -1,0 +1,91 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/enabling-disabling-controls?page=1",
+  "title": "Boundaries: When to Disable Buttons",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Boundaries: When to Disable Buttons"
+    },
+    {
+      "type": "paragraph",
+      "content": "The slider moves. The buttons respond. But right now nothing stops the user from clicking Prev on the first slide or Next on the last."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is an invalid state. And it needs to be handled."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "On the first slide, Prev should be disabled. There is nowhere to go back.",
+        "On the last slide, Next should be disabled. There is nowhere to go forward."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This prevents an invalid state and gives clear feedback."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use the current index (for example, currentSlideIndex) to decide:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If the index is 0, disable Prev",
+        "If the index is the last slide, disable Next",
+        "Otherwise, enable both buttons"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You can update the buttons in two ways:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Set button.disabled = true or false in JavaScript",
+        "Or toggle a class and style the disabled state in CSS"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Update this every time the slide changes, so the buttons always match the current position."
+    },
+    {
+      "type": "paragraph",
+      "content": "Developer Insight"
+    },
+    {
+      "type": "paragraph",
+      "content": "Update the disabled state inside showSlide(). That way, every change goes through one function, and the buttons never fall out of sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see a runnable example where the buttons disable automatically at the first and last slide."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

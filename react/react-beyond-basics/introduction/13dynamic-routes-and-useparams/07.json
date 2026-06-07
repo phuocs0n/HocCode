@@ -1,0 +1,49 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/dynamic-routes-useparams?page=7",
+  "title": "A Side-Note on EntryDetailPage",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Side-Note on EntryDetailPage"
+    },
+    {
+      "type": "paragraph",
+      "content": "So we just coded EntryDetailPage.jsx. But there's a cost worth noticing: HomePage also fetches the same entries list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every time a user opens a detail page, the entire list is fetched a second time — even though HomePage already loaded it."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's fine for now. In Chapter 3, we'll move the fetch into a shared context so entries are loaded once and both pages read from the same data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's move on to the next step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

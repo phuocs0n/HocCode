@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-functions?page=3",
+  "title": "Ví dụ: Đối số cấu trúc như hàm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Đối số cấu trúc như hàm"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3struct Student {\n4  char name[50];\n5  int age;\n6};\n7\n8// function definition\n9void display(struct Student s1) {\n10  printf(\"Name: %s\\n\", s1.name);\n11  printf(\"Age: %d\", s1.age);\n12}\n13\n14int main() {\n15\n16\n17  // create and initialize struct variable\n18  struct Student student1 = {.name = \"Adam\", .age = 25};\n19\n20  // function call\n21  display(student1);\n22\n23\n24  return 0;\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Name: Adam\nAge: 25"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong ví dụ này, chúng ta đã chuyển biến cấu trúc sinh viên1 cho hàm hiển thị. Bên trong hàm, chúng ta đã in tên và tuổi của sinh viên1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/binary-search?page=2",
+  "title": "Python Binary Search Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Python Binary Search Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is how we can implement binary search in Python:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def perform_binary_search(array, target, low, high):\n2\n3    # Repeat until low index and high index meet\n4    while low <= high:\n5        \n6        # logarithmically reduce operations \n7        mid = low + (high - low)//2\n8\n9        if array[mid] == target:\n10            return mid\n11        elif array[mid] < target:\n12            low = mid + 1\n13        else:\n14            high = mid - 1\n15            \n16    # return -1 if target not found\n17    return -1\n18\n19\n20array = [3, 4, 5, 6, 7, 8, 9]\n21target = 4\n22\n23low = 0\n24high = len(array) - 1\n25result = perform_binary_search(array, target, low, high)\n26\n27print(f\"The index of target is {result}\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The index of target is 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will analyze the time complexity of this program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

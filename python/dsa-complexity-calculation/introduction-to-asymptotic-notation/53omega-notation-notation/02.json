@@ -1,0 +1,57 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/omega-notation-notation?page=3",
+  "title": "Computer Science Interpretation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Computer Science Interpretation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's suppose our code has Ω(n) time complexity. This means, for a sufficiently large input,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "our code may complete execution with Ω(n) complexity, or",
+        "our code may complete execution with Ω(n2)Ω(n^2)Ω(n2) complexity,",
+        "however, it will never take Ω(log n) complexity (because the growth of log n is slower than that of n)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, Omega notation gives a lower bound on how much time an algorithm will take — it can't be faster than that bound, but it can be slower (take more time)."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if a program has Ω(log n) complexity, the running time will grow at least as fast as"
+    },
+    {
+      "type": "paragraph",
+      "content": "logn, meaning it won't be faster than logarithmic time."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

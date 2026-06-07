@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/self-in-python?page=1",
+  "title": "What is self in Python?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is self in Python?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, whenever we call methods by its object, that object is automatically passed as a parameter. So, the self variable represents the instance of the class (object)."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, self is not a keyword, but it is a convention since it makes sense. Let's look at an example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class Person:\n2    def __init__(self, age):\n3        self.age = age\n4\n5    def get_age(self):\n6        print(self.age)\n7\n8\n9p = Person(45)\n10p.get_age()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a look at the methods in the Person class above. Every method has the first parameter as self, in which the current instance of the class is passed."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, the object p itself is passed while calling the get_age() method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

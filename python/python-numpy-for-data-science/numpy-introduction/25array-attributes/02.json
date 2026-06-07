@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-attributes?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the shape of a 1D NumPy array with 20 elements?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "(20, 0)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 20 rows and 0 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 20 rows and 0 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "(1, 21)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 1 row and 21 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 1 row and 21 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "(20, )"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A 1D NumPy array with 20 elements has a shape of (20,)."
+    },
+    {
+      "type": "paragraph",
+      "content": "A 1D NumPy array with 20 elements has a shape of (20,)."
+    },
+    {
+      "type": "paragraph",
+      "content": "(19, )"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 1D array with 19 elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 1D array with 19 elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 20 rows and 0 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 20 rows and 0 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 1 row and 21 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 2D array with 1 row and 21 columns, which is not applicable for a 1D array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A 1D NumPy array with 20 elements has a shape of (20,)."
+    },
+    {
+      "type": "paragraph",
+      "content": "A 1D NumPy array with 20 elements has a shape of (20,)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 1D array with 19 elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "This shape indicates a 1D array with 19 elements."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the shape of a 1D NumPy array with 20 elements?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:(20, 0)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "(20, 0)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(1, 21)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(1, 21)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:(20, )",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "(20, )",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(19, )",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(19, )",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

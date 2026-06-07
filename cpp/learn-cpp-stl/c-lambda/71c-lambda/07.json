@@ -1,0 +1,116 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-lambda?page=8",
+  "title": "copy_if()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "copy_if()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we learned about the copy() function which copied a range of values to some destination."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if we wanted to copy only those elements of the container which satisfies certain conditions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's say we have a vector of integers,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int> numbers {1, 2, 3, 4, 5, 6, 7, 8, 9 , 10};"
+    },
+    {
+      "type": "paragraph",
+      "content": "What if we want to copy only the even numbers from the above vector into some other vector. This is where copy_if() comes into play."
+    },
+    {
+      "type": "paragraph",
+      "content": "The copy_if() function takes an additional parameter, a predicate - a lambda is a good example of a predicate. Let's see the function signature."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "copy_if(iterator first, iterator last, new_iterator d_first, predicate pred);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take it this way, the copy will take place only for those elements where the predicate returns true."
+    },
+    {
+      "type": "paragraph",
+      "content": "For the above problem of copying only even numbers we only have to write a lambda expression that returns true when its input parameter is even."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "auto find_even = [](int x ) -> bool {\n  \n    if (x % 2 == 0) return true;\n    else return false;\n\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now create a new vector of size 5."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int>(5) even_numbers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "To perform the copy operation,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "copy_if (numbers.begin(), numbers.end(), even_numbers.begin(), find_even);"
+    },
+    {
+      "type": "paragraph",
+      "content": "What happens here is, every element in the numbers vector is passed one by one to the lambda and only those elements are copied for which the lambda returns true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a complete example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3#include <algorithm>\n4\n5using namespace std;\n6\n7int main(){\n8\n9   vector<int> numbers {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};\n10\n11\n12   // A lambda expression that returns true for even numbers and odd otherwise\n13   auto find_even = [](int x) -> bool{\n14    if (x % 2 == 0) return true;\n15    else return false;\n16   };\n17\n18    // Vector of size 5\n19    vector<int> evens(5);\n20\n21\n22   // Copy only even elements from number vectors.\n23   copy_if(numbers.begin(), numbers.end(), evens.begin(), find_even);\n24\n25   // Print even numbers\n26   for(auto num : evens){\n27    cout << num << \" \";\n28   }\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "2 4 6 8 10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

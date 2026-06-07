@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-throw-statement?page=2",
+  "title": "Example: The throw Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: The throw Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The throw statement allows you to generate a custom error that crashes the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let numerator = 5; // Corrected from 'nominator'\n2let denominator = 0;\n3\n4// Check if denominator is 0\n5if (denominator === 0) {\n6    // Generate error\n7    throw new Error(\"Cannot divide by zero\");\n8}\n9\n10let result = numerator / denominator;\n11console.log(result);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "throw new Error(\"Cannot divide by zero\");\n    ^\nError: Cannot divide by zero"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've used the if block to conditionally throw the error only if denominator is 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, rather than getting Infinity as a result, we'll get a custom error with the message \"Cannot divide by zero\", which also halts the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's understand throw in more detail."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

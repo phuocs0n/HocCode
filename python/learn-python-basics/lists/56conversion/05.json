@@ -1,0 +1,188 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-python-basics/conversion?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "numbers = (1, 2, 3)\nnumbers = list(numbers)\n\nprint(numbers)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "(1, 2, 3)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "{1, 2, 3}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is not converted to a set. Instead, it's converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is not converted to a set. Instead, it's converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "[1, 2, 3]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is not converted to a set. Instead, it's converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is not converted to a set. Instead, it's converted to a list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, the (1, 2, 3) tuple is converted to a list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:(1, 2, 3)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "(1, 2, 3)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:{1, 2, 3}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "{1, 2, 3}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:[1, 2, 3]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "[1, 2, 3]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(Error)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

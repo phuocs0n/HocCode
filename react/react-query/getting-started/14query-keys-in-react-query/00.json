@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/query-keys-in-react-query?page=1",
+  "title": "What is a Query Key?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is a Query Key?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine React Query has a big storage room where it keeps all the data it fetches. Every piece of data in that room needs a label so React Query knows where to find it later. That label is the query key."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you write queryKey: ['tasks'], you're saying 'store this data under the name tasks.' Next time any component needs tasks, React Query checks that storage room first before touching the network. If it finds something fresh, it returns it instantly."
+    },
+    {
+      "type": "paragraph",
+      "content": "In TaskFlow you'll have different views of tasks. Each one needs its own key:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// All tasks\nqueryKey: ['tasks']\n \n// Just the open ones\nqueryKey: ['tasks', { status: 'open' }]\n \n// One specific task\nqueryKey: ['tasks', taskId]"
+    },
+    {
+      "type": "paragraph",
+      "content": "You just add more to the array to make it more specific. React Query knows these are all related to tasks but treats them as different pieces of data."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's look at the mistake almost everyone makes with query keys."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/fetch-api?page=5",
+  "title": "Step 3: Parsing the Data",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Parsing the Data"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1return response.json();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we're converting the response to JSON, which obviously takes some time. It thus follows that response.json() is also asynchronous, and so it returns another promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "By returning the promise, JavaScript automatically waits before moving to the next .then()."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is one of the biggest advantages of promises: you don't have to manage the timing by yourself."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/difference-between-interface-abstract-class?page=1",
+  "title": "What is the difference between an interface and an abstract class?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is the difference between an interface and an abstract class?"
+    },
+    {
+      "type": "paragraph",
+      "content": "An interface is a collection of abstract methods that defines a set of behaviors that a class can implement."
+    },
+    {
+      "type": "paragraph",
+      "content": "An abstract class is a class that contains one or more abstract methods, which are methods that do not have an implementation and must be implemented by a subclass."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are several key differences between interfaces and abstract classes in Java:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Interfaces cannot have any implementation code, while abstract classes can have both abstract and non-abstract methods with implementation code.",
+        "A class can implement multiple interfaces, but it can only extend one abstract class.",
+        "An interface has no constructor, while an abstract class can have a constructor.",
+        "Variables declared in an interface are automatically public, static, and final, while variables in an abstract class can have any access modifier."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

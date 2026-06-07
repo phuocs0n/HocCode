@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/string-summary?page=2",
+  "title": "Summary (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. String Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we need to take a single word as input, we can use the cin object."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    string text;\n7\n8    cout << \"Enter the string: \";\n9    cin >> text;\n10\n11    cout << text;\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Get Complete Line as Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also take the entire line as input using the getline() function."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    string text;\n7\n8    cout << \"Enter the string: \";\n9    getline(cin, text);\n10\n11    cout << text;\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

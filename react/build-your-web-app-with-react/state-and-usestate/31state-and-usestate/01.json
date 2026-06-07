@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/state-usestate?page=2",
+  "title": "Personal Story: The Variable That React Ignored",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Personal Story: The Variable That React Ignored"
+    },
+    {
+      "type": "paragraph",
+      "content": "My first attempt at a dynamic list looked like this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function App() {\n  let entries = [];\n\n  function handleAdd() {\n    entries.push({ title: \"New Entry\" });\n    console.log(entries); // [{ title: \"New Entry\" }] — it's there!\n  }\n\nreturn (\n    <>\n      <button onClick={handleAdd}>Add</button>\n      {entries.map(e => <p>{e.title}</p>)}\n    </>\n  );\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "I clicked the button. The console showed the entry was added but the screen showed nothing!"
+    },
+    {
+      "type": "paragraph",
+      "content": "I clicked again:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Console: two entries",
+        "Screen: blank"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "I had a variable that was being updated, a console that confirmed it, and a UI that simply did not care."
+    },
+    {
+      "type": "paragraph",
+      "content": "What was happening here? I'll explain this on the next page, so go there to find out more!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,116 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/complex-division?page=1",
+  "title": "Complex Division",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Complex Division"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to overload the / operator to divide two complex numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose the result of dividing the complex number a + bi by another complex number c + di is x + yi. Then, the formula for complex division will be:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "x = (ac + bd) / (c2 + d2)\ny = (bc - ad) / (c2 + d2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, c^2 + d^2 can be written as denominator. So, the formula now becomes:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "x = (ac + bd) / denominator\ny = (bc - ad) / denominator"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Import the <cmath> header file.",
+        "Create a Complex class with double variables real and imag.",
+        "Overload the / operator using an operator() function that takes a Complex object obj as its parameter.",
+        "Inside the function, create a Complex object result.",
+        "Then, create a double variable denominator with the value pow(obj.real, 2) + pow(obj.imag, 2).",
+        "In the try block, throw 0.0 if denominator is 0.",
+        "Otherwise, use the complex division formula given above and store the respective results in result.real and result.imag.",
+        "In the catch block, take double num as a parameter.",
+        "Then, assign the value of num to both result.real and result.imag.",
+        "Finally, return the result object outside the try...catch block."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), create Complex objects complex1 and complex2.",
+        "Get input for the real and imag variables of complex1 and complex2.",
+        "Divide complex1 by complex2 using the overloaded / operator and store the return value in the result object.",
+        "Print the result in the format real + imagi."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Tip: Use the this pointer to distinguish the members of the calling object from those of the function parameter obj."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input35\n40\n25\n20"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1.63415+0.292683i"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

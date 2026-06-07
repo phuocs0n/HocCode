@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/arithmetic-operators?page=3",
+  "title": "+ Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "+ Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we have seen from the last example, the + operator is used to add operands (values and variables)."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 10\n2y = 20\n3\n4# Use + to perform addition\n5total = x + y + 30\n6\n7print(total)    # Output: 60"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, total = x + y + 30 first computes the sum of x, y, and 30. Then, the result is assigned to the total variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the visualizer to see how variables are utilized in this program."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 10\n2y = 20\n3\n4# Use + to perform addition\n5total = x + y + 30\n6\n7\n8print(total)    # Output: 60"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

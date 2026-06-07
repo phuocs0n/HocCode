@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/creating-game-screens?page=2",
+  "title": "Planning Three Screens 📺",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Planning Three Screens 📺"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you code, let's think about what screens your game needs and what goes on each one."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Start Screen (what players see first)"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Game title",
+        "Instructions",
+        "\"Start Game\" button"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Play Screen (where the game happens)"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Game board with holes and moles",
+        "Score display",
+        "Timer countdown"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "3. End Screen (when time runs out)"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\"Game Over\" message",
+        "Final score",
+        "\"Play Again\" button"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "How screen switching works: You'll show one screen at a time by adding and removing CSS classes. When you want to show the play screen, you'll hide the start screen and show the play screen. It's like flipping between pages in a book—only one is visible at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, all three screen divs exist in your HTML, but they're empty. Let's fill them with content!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

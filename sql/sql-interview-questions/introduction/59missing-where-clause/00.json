@@ -1,0 +1,60 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/missing-where-clause?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1UPDATE Movies \n2SET title = 'Inception';"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code above updates the values of the title column to Inception for all rows in the Movies table. However, we usually only update the values of specific rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "To update specific values in the title column, we need a WHERE condition to specify the row to update. The above code has a missing WHERE clause, which gives undesirable results."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can fix the above code by adding a WHERE condition to the UPDATE statement."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1UPDATE Movies \n2SET title = 'Inception'\n3WHERE duration = 126;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

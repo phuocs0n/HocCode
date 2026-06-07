@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-array?page=2",
+  "title": "Tóm tắt (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tóm tắt (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Truyền mảng làm đối số hàm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta cũng có thể truyền một mảng cho hàm làm đối số."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function to find sum\n4int findSum(int numbers[5]) {\n5\n6  int sum = 0;\n7    \n8  for (int i = 0; i < 5; ++i) {\n9    sum = sum + numbers[i];\n10  }\n11    \n12  return sum;\n13}\n14\n15int main() {\n16\n17    int numbers[5] = {1, 2, 3, 4, 5};\n18  \n19    // Pass the array as function argument\n20    int result = findSum(numbers);\n21    printf(\"Sum: %d\", result);\n22\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhắc nhở: Bạn đã hoàn thành tốt phần này! Bây giờ, hãy thực hành những gì bạn đã học với các bài tập trong Thực hành: Lập trình C."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

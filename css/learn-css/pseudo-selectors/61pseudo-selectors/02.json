@@ -1,0 +1,136 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/pseudoselectors?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the effect of the CSS code below?"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "div:hover { \n    background-color: black; \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It changes the background color of the <div> element to black when the mouse pointer is over it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class applies a style when a user's mouse pointer hovers over an element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class applies a style when a user's mouse pointer hovers over an element."
+    },
+    {
+      "type": "paragraph",
+      "content": "It changes the color of the text in the <div> element to black."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This CSS rule deals with the background color of the <div>, not the color of the text inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "This CSS rule deals with the background color of the <div>, not the color of the text inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "It always sets the background color of the <div> element to black, regardless of any action by the user."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class applies a style only when a user's mouse pointer hovers over the specified element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class applies a style only when a user's mouse pointer hovers over the specified element."
+    },
+    {
+      "type": "paragraph",
+      "content": "It hides the <div> element when the mouse is not over it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class doesn't hide or show elements. It applies styles when the user's mouse pointer hovers over the specified element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :hover pseudo-class doesn't hide or show elements. It applies styles when the user's mouse pointer hovers over the specified element."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the effect of the CSS code below?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It changes the background color of the <div> element to black when the mouse pointer is over it.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It changes the background color of the <div> element to black when the mouse pointer is over it.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It changes the color of the text in the <div> element to black.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It changes the color of the text in the <div> element to black.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It always sets the background color of the <div> element to black, regardless of any action by the user.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It always sets the background color of the <div> element to black, regardless of any action by the user.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It hides the <div> element when the mouse is not over it.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It hides the <div> element when the mouse is not over it.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

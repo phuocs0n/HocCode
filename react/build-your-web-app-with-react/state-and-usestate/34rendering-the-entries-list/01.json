@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/rendering-entries-list?page=2",
+  "title": "Turning an Array into JSX with map",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Turning an Array into JSX with map"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript's array.map() returns a new array by calling a function on each item."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use it to turn each entry into a piece of JSX."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "entries.map((entry) => (\n  <EntryCard\n    key={entry.id}\n    title={entry.title}\n    date={entry.date}\n    content={entry.content}\n    author={entry.author}\n  />\n));"
+    },
+    {
+      "type": "paragraph",
+      "content": "This returns an array of EntryCard components. React can render arrays of elements, so you can put this inside your JSX."
+    },
+    {
+      "type": "paragraph",
+      "content": "You may have noticed the key prop; it's not a normal prop you define on EntryCard."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, it's something React requires whenever you render a list, and the next section explains why."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

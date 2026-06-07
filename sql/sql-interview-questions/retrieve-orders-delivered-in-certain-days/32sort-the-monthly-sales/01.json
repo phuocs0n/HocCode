@@ -1,0 +1,129 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/sort-monthly-sales?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given a Sales table with columns sales_id, sales_date, and sales_amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "And we need to find the monthly sales from the above table and sort them in descending order of sales_amount and sales_date."
+    },
+    {
+      "type": "paragraph",
+      "content": "The most challenging part about this particular question is that we need to extract the month from the exact date in the sales_date column."
+    },
+    {
+      "type": "paragraph",
+      "content": "Fortunately, we have the strftime() function in SQLite to convert the date to a particular format."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function has the following structure:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "strftime('%Y-%m-%d', column_name)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the function takes in two parameters:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "%Y-%m-%d acts as a placeholder for year-month-date format (YYYY-MM-DD)",
+        "column_name represents the column that contains the date value you want to format"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, strftime('%m', sales_date) will reduce the full date into its respective month, i.e., the %m wildcard stands for month (01 for January, 12 for December and so on)."
+    },
+    {
+      "type": "paragraph",
+      "content": "It will return the following table:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "sales_date"
+        ],
+        [
+          "05"
+        ],
+        [
+          "06"
+        ],
+        [
+          "06"
+        ],
+        [
+          "06"
+        ],
+        [
+          "06"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we use the SUM() function to calculate the total sales amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "After doing this, we simply need to group the results by the month column and then sort the resulting table's columns in descending order of sales_amount and sales_date."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what the output would be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "month",
+          "total_sales"
+        ],
+        [
+          "06",
+          "270800"
+        ],
+        [
+          "05",
+          "50000"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

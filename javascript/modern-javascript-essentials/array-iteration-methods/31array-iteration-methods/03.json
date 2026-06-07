@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/array-iteration-methods?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the map method return?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "undefined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what forEach returns. map always returns a new array."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what forEach returns. map always returns a new array."
+    },
+    {
+      "type": "paragraph",
+      "content": "The original array, modified in place"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "map never mutates the original. It creates and returns a brand-new array."
+    },
+    {
+      "type": "paragraph",
+      "content": "map never mutates the original. It creates and returns a brand-new array."
+    },
+    {
+      "type": "paragraph",
+      "content": "A new array with the results of calling the function on each element"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! map builds a new array by applying the callback to every element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! map builds a new array by applying the callback to every element."
+    },
+    {
+      "type": "paragraph",
+      "content": "A single value reduced from all elements"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That describes reduce. map returns an array, not a single value."
+    },
+    {
+      "type": "paragraph",
+      "content": "That describes reduce. map returns an array, not a single value."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the map method return?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The original array, modified in place",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The original array, modified in place",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A new array with the results of calling the function on each element",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A new array with the results of calling the function on each element",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A single value reduced from all elements",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A single value reduced from all elements",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

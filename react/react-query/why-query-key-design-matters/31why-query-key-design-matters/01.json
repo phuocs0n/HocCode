@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/why-query-key-design-matters?page=2",
+  "title": "The Problem With Scattered Keys",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem With Scattered Keys"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now in TaskFlow we have keys written directly inside the component. As the app grows it starts looking like this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// fetching all tasks\nuseQuery({ queryKey: ['tasks'] })\n \n// fetching filtered tasks\nuseQuery({ queryKey: ['tasks', { status }] })"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now when we want to update the cache after a mutation we have to remember every variation. If we typo even one of them, that query never updates."
+    },
+    {
+      "type": "paragraph",
+      "content": "There's a much cleaner way to handle this."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's build a query key factory."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

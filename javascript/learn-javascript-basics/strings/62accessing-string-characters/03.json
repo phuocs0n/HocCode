@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/accessing-string-characters?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're working on a login system for a website, and one of your tasks is to validate user email addresses."
+    },
+    {
+      "type": "paragraph",
+      "content": "You know that every valid email address must contain an @ symbol. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "john@programiz.com"
+    },
+    {
+      "type": "paragraph",
+      "content": "To check for this, you'll need to access individual characters in the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn how to retrieve specific characters from a string and loop through them efficiently."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by learning how to access string characters."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

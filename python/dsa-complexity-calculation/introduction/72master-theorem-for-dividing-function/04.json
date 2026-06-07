@@ -1,0 +1,45 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-dividing-function?page=5",
+  "title": "log⁡ba=k\\log_ba = klogb​a=k",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "log⁡ba=k\\log_ba = klogb​a=k"
+    },
+    {
+      "type": "paragraph",
+      "content": "If log⁡ba=k\\log_ba = klogb​a=k, then we should check values of p for three cases:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "if p > -1, then T(n)=Ө(nklog⁡p+1n)T\\lparen n\\rparen = Ө \\lparen n^k \\log^{p +1} n \\rparenT(n)=Ө(nklogp+1n)",
+        "if p = -1, then T(n)=Ө(nklog⁡log⁡n))T\\lparen n\\rparen = Ө \\lparen n^k \\log\\log n \\rparen)T(n)=Ө(nkloglogn))",
+        "if p < -1, then T(n)=Ө(nk)T\\lparen n\\rparen = Ө \\lparen n^k \\rparenT(n)=Ө(nk)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

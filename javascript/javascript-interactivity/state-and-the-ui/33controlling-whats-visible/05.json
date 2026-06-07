@@ -1,0 +1,72 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-whats-visible?page=5",
+  "title": "Interactive Slider Controls",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Interactive Slider Controls"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see it all come together."
+    },
+    {
+      "type": "paragraph",
+      "content": "This example connects the slider to the Prev and Next buttons."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Interactive Slider</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <div class=\"slider\">\n11    <div class=\"slider-track\">\n12      <div class=\"slide\">Slide 1</div>\n13      <div class=\"slide\">Slide 2</div>\n14      <div class=\"slide\">Slide 3</div>\n15    </div>\n16  </div>\n17\n18  <button id=\"prev\">Prev</button>\n19  <button id=\"next\">Next</button>\n20\n21  <script src=\"script.js\"></script>\n22</body>\n23</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  margin: 0;\n3  font-family: sans-serif;\n4  padding: 20px;\n5}\n6\n7.slider {\n8  overflow: hidden;\n9  width: 100%;\n10}\n11\n12.slider-track {\n13  display: flex;\n14  width: 300%;\n15  transition: margin-left 0.3s ease;\n16}\n17\n18.slide {\n19  flex: 0 0 33.333%;\n20  padding: 40px 20px;\n21  text-align: center;\n22  border: 1px solid #E2E8F0;\n23  box-sizing: border-box;\n24}\n25\n26button {\n27  margin-top: 12px;\n28  margin-right: 8px;\n29  padding: 8px 16px;\n30  cursor: pointer;\n31}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var currentSlideIndex = 0;\n2var track = document.querySelector('.slider-track');\n3var slides = document.querySelectorAll('.slide');\n4var prevBtn = document.querySelector('#prev');\n5var nextBtn = document.querySelector('#next');\n6\n7function showSlide(index) {\n8  if (!track) return;\n9\n10  currentSlideIndex = Math.max(0, Math.min(index, slides.length - 1));\n11  track.style.marginLeft = -(currentSlideIndex * 100) + '%';\n12}\n13\n14if (prevBtn) {\n15  prevBtn.addEventListener('click', function () {\n16    showSlide(currentSlideIndex - 1);\n17  });\n18}\n19\n20if (nextBtn) {\n21  nextBtn.addEventListener('click', function () {\n22    showSlide(currentSlideIndex + 1);\n23  });\n24}\n25\n26showSlide(0);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Click Prev and Next."
+    },
+    {
+      "type": "paragraph",
+      "content": "When a button is clicked, the index changes. When the index changes, the track moves. Only one slide remains visible at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "The buttons do not touch the track. They only change a number. showSlide() does the rest."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, each project card needs its own interaction."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

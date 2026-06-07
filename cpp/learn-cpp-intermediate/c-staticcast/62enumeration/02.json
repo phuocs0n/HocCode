@@ -1,0 +1,180 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/enumeration?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "enum names {Tim, Allen, Burton, Pool, Zahn} names1;\n\nint main() {\n\n    names1 = Pool;\n    cout << names1;\n \n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pool"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "enum variables store integer values. So printing them prints the stored integers."
+    },
+    {
+      "type": "paragraph",
+      "content": "enum variables store integer values. So printing them prints the stored integers."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code runs without any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code runs without any errors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "enum variables store integer values. So printing them prints the stored integers."
+    },
+    {
+      "type": "paragraph",
+      "content": "enum variables store integer values. So printing them prints the stored integers."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each enum element is assigned an integer value starting from 0 i.e. the first element is represented by 0, the second element is represented by 1, and so on."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code runs without any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code runs without any errors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Pool",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Pool",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:3",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:4",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Error",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Error",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

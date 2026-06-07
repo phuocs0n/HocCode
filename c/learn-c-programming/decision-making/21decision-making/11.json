@@ -1,0 +1,120 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=12",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: So sánh sau đây sẽ cho kết quả gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n\n  int number = 3;\n\n  printf(\"%d\\n\", number > 3);\n  printf(\"%d\", number >= 3);\n\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, number >= 3, số lớn hơn hoặc bằng 3 là 1 (true)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, number >= 3, số lớn hơn hoặc bằng 3 là 1 (true)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, số > 3, số lớn hơn 3 là 0 (sai)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, số > 3, số lớn hơn 3 là 0 (sai)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, số > 3, số lớn hơn 3 là 0 (sai). Tương tự, số >= 3, số lớn hơn hoặc bằng 3 trả về 1 (đúng)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, số > 3, số lớn hơn 3 là 0 (sai). Tương tự, số >= 3, số lớn hơn hoặc bằng 3 trả về 1 (đúng)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, số > 3, số lớn hơn 3 là 0 (sai). Tương tự, số >= 3, số lớn hơn hoặc bằng 3 là 1 (đúng)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giá trị của number là 3. Do đó, số > 3, số lớn hơn 3 là 0 (sai). Tương tự, số >= 3, số lớn hơn hoặc bằng 3 là 1 (đúng)."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: So sánh sau đây sẽ cho kết quả gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:00",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "00",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:11",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:10",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:01",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "01",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-while-loop?page=4",
+  "title": "Analyzing the While Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Analyzing the While Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the code from the previous page:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let count = 1;\n2\n3// Loop continues as long as count is 3 or less\n4while (count <= 3) {\n5    console.log(\"I am inside a loop.\");\n6    console.log(\"Looping is interesting.\");\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's analyze what this program is doing."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Initially, count is 1. The condition count <= 3 evaluates to true and the loop body is executed.",
+        "Again, count <= 3 is evaluated. As it's still true, the loop body is executed.",
+        "In this program, count <= 3 never becomes false, hence the loop runs forever."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is called an infinite loop as the condition is never false and the loop runs forever. It also means that the end of the program is never reached."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

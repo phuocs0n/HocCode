@@ -1,0 +1,106 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/calculating-space-complexity?page=3",
+  "title": "Quadratic Space Complexity: O(n2)O(n^2)O(n2)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Quadratic Space Complexity: O(n2)O(n^2)O(n2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "An algorithm has quadratic space complexity if the amount of memory it takes to execute is proportional to the square of the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "This means as the input size grows, the memory required to execute the program also grows quadratically (think of linear but squared)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_list_items(nested_list):\n2\n3    for single_list in nested_list:\n4        for item in single_list:\n5            print(item)\n6\n7print_list_items([[1, 2], [4, 5]])"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n4\n5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, nested_list is a square matrix. Since space complexity is about memory usage in relation to the input size, we need to look at the input size to calculate space complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above program,"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Variables",
+          "Input Size"
+        ],
+        [
+          "nested_list",
+          "n * n (square matrix)"
+        ],
+        [
+          "single_list",
+          "n"
+        ],
+        [
+          "item",
+          "1"
+        ]
+      ]
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Space Complexity=n∗n+1+1Space\\ Complexity = n * n + 1 + 1Space Complexity=n∗n+1+1Space Complexity=n2+2\\hphantom{Space\\ Complexity} = n^2 + 2Space Complexity=n2+2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence,"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Space complexity=O(n2) [by frequency count method]Space\\ complexity = O(n^2)\\ [by\\ frequency\\ count\\ method]Space complexity=O(n2) [by frequency count method]"
+    },
+    {
+      "type": "paragraph",
+      "content": "This means, as the input size grows, the space complexity also grows quadratically—just like time complexity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

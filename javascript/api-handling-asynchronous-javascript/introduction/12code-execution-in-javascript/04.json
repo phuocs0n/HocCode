@@ -1,0 +1,72 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/code-execution-in-javascript?page=5",
+  "title": "Example: The Call Stack",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: The Call Stack"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's analyze the call stack through the following example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function washHands() {\n2  dryHands();\n3}\n4\n5function dryHands() {\n6  console.log(\"Hands are dry\");\n7}\n8\n9washHands();\n10\n11// Output: Hands are dry"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the code executes:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "JavaScript starts running the program.",
+        "It reaches washHands() and JavaScript pushes it onto the call stack.",
+        "Inside washHands(), it sees a call to dryHands().",
+        "So, it pushes dryHands() to the top of the call stack.",
+        "Now, dryHands() runs console.log() and prints the message.",
+        "After dryHands() finishes, JavaScript pops it off from the call stack.",
+        "With dryHands() gone, washHands() is now at the top of the call stack.",
+        "But there is nothing inside washHands(), so JavaScript also pops it off the stack.",
+        "Now, the stack is empty, so the program ends."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's it. Sounds simple enough, doesn't it?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Of course, there's more to this process. But you'll learn about it in a future JavaScript course that deals with more advanced concepts."
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, this simple level of understanding is enough. So let's jump to a quiz, and then explore some limitations of the call stack."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

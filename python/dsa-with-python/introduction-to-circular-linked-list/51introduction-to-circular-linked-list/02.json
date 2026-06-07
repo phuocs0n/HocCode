@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-circular-linked-list?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is a circular linked list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A linked list where the last node is connected to the first node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a circular linked list, the last node of the list is connected to the first node, forming a loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a circular linked list, the last node of the list is connected to the first node, forming a loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "A linked list whose first node is connected to the last node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a circular linked list, the first node is connected to the second node, not the last node."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a circular linked list, the first node is connected to the second node, not the last node."
+    },
+    {
+      "type": "paragraph",
+      "content": "A linked list in which each node points to itself, forming a circular loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There would be no links if each node only pointed to itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "There would be no links if each node only pointed to itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "A linked list whose values can only be multiples of PI."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no restriction in values in a circular linked list."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no restriction in values in a circular linked list."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is a circular linked list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A linked list where the last node is connected to the first node.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A linked list where the last node is connected to the first node.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A linked list whose first node is connected to the last node.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A linked list whose first node is connected to the last node.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A linked list in which each node points to itself, forming a circular loop.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A linked list in which each node points to itself, forming a circular loop.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A linked list whose values can only be multiples of PI.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A linked list whose values can only be multiples of PI.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

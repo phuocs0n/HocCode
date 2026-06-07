@@ -1,0 +1,85 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/miscellaneous?page=5",
+  "title": "Truthy and Falsy",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Truthy and Falsy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take an example to understand this concept:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 5\n2\n3if x:\n4    print(x)   # 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the code inside the if statement is executed. It's because 5 evaluates to True."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's take another example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 0\n2\n3if x:\n4    print(x)\n5\n6# No output"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the program doesn't print any output. It's because 0 evaluates to False."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values that evaluate to True are known as truthy values. Similarly, values that evaluate to False are called falsy values."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python these values are considered falsy."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "None",
+        "False",
+        "0",
+        "0.0",
+        "empty strings, lists, dictionaries etc."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "All other values are considered truthy."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the next example, we will see why this concept is important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

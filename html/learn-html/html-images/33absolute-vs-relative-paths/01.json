@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-html/absolute-vs-relative-paths?page=2",
+  "title": "Absolute Path",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Absolute Path"
+    },
+    {
+      "type": "paragraph",
+      "content": "An absolute path provides the complete URL to a resource. For example,"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "https://programiz.pro/learn/master-python"
+    },
+    {
+      "type": "paragraph",
+      "content": "It includes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Protocol (http:// or https://)",
+        "Domain name (programiz.pro)",
+        "Directory path (learn/master-python)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example of using absolute path with the <a> tag."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<a href=\"https://programiz.pro/learn/master-python\" title=\"Python Course\" target=\"_blank\">Python Course</a>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

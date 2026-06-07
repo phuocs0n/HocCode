@@ -1,0 +1,60 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/0-1-knapsack-problem?page=2",
+  "title": "Recap: Greedy Solution",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap: Greedy Solution"
+    },
+    {
+      "type": "paragraph",
+      "content": "This was our greedy approach to the 0-1 Knapsack problem:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Pick the most expensive thing that will fit in your knapsack.",
+        "Pick the next most expensive thing that will fit in your knapsack. And so on."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This means we will start with the $3000 TV that weighs 30 units and will be left with 5 units in our knapsack."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since no other item will fit inside the knapsack, our solution brings us goods worth $3000."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, choosing the TV early on prevents you from fitting in multiple items with a slightly lower value-to-weight ratio but a higher combined value later (the laptop weighing 20 units and the mobile weighing 15 units, for a combined value of $3500)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how we can use dynamic programming to get the optimal solution to this problem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

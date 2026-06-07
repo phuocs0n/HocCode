@@ -1,0 +1,77 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/introduction?page=1",
+  "title": "Asynchronous JavaScript",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Asynchronous JavaScript"
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript, the code usually runs one line after the other. It waits for each step to finish before starting the next one. This is called synchronous execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, for tasks that require idle waiting, JavaScript runs them asynchronously. This means JavaScript doesn't wait for these tasks to finish. Instead, it moves on to the next operations. Once the other tasks are done, it returns back to the previous one."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand this asynchronous nature with a real life example. Suppose you have some tasks to do:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Bake a cake",
+        "Clean the kitchen",
+        "Set the table"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In a synchronous approach, you will perform each task one after another. You would first bake the cake. After the baking is complete, you'd clean the kitchen, and finally, set the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "But baking the cake requires waiting."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of waiting, you can clean the kitchen and set the table while the cake bakes in the oven."
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, you use your time more efficiently. Once the cake is done, everything else is already taken care of."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, rather than waiting for each task to finish before starting the next, you begin the next task while the previous one is still running."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is exactly how time-consuming tasks are handled in JavaScript, using asynchronous programming."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

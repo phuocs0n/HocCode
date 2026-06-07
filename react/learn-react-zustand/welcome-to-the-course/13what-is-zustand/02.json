@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/what-is-zustand?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is Zustand?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A built-in React hook"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand is not built into React. It's an external library you install and import."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand is not built into React. It's an external library you install and import."
+    },
+    {
+      "type": "paragraph",
+      "content": "A state management library that gives you a central store any component can read from or update"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand is a library you add to your project. It gives you a central store where state lives. Any component can read from it or update it directly, no prop drilling needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand is a library you add to your project. It gives you a central store where state lives. Any component can read from it or update it directly, no prop drilling needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "A replacement for React"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand works alongside React -- it enhances how you manage state, but it doesn't replace React itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand works alongside React -- it enhances how you manage state, but it doesn't replace React itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "A tool for styling React components"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand is for managing application state, not styles. For styling you'd use something like CSS modules, Tailwind, or styled-components."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand is for managing application state, not styles. For styling you'd use something like CSS modules, Tailwind, or styled-components."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is Zustand?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A built-in React hook",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A built-in React hook",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A state management library that gives you a central store any component can read from or update",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A state management library that gives you a central store any component can read from or update",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A replacement for React",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A replacement for React",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A tool for styling React components",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A tool for styling React components",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

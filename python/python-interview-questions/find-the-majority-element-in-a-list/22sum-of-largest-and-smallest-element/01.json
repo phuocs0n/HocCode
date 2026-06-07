@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/sum-of-largest-smallest-element?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this question, we first need to find the largest and the smallest numbers present in the list. We can do that by either using"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "min() and max() functions which return the minimum and maximum elements of a list, respectively.",
+        "or, sorting the list and accessing the first and last element"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, we will use the min() and max() functions. Now let's see how we can solve this problem."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "First, we will use the min() and max() functions to get the smallest and the largest list elements.",
+        "Then, we will find their sum and print the result."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/handling-exceptions?page=1",
+  "title": "Exception Handling",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Exception Handling"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we have seen in the previous lesson, when an exception occurs, our program ends abruptly with an error message."
+    },
+    {
+      "type": "paragraph",
+      "content": "Most of the time, rather than showing this default error message, we may want to show a custom message that's more helpful or run a different set of code. This is known as exception handling."
+    },
+    {
+      "type": "paragraph",
+      "content": "Exception handling is the process of responding to exceptions in a custom way during the execution of a program."
+    },
+    {
+      "type": "paragraph",
+      "content": "To use exception handling in Python, we use the try...except block. Its syntax is:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "try:\n    # code that may cause exception\nexcept:\n    # code to run when exception occurs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the try block, we put the code that may raise an exception. Now if an exception occurs, the program jumps immediately to the except block. However, if exceptions do not occur, the except block is skipped."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see a working example of exception handling."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

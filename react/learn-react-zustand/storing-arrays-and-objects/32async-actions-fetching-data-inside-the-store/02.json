@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/async-actions--fetching-data-inside-store?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the main advantage of putting fetchEntries inside the Zustand store instead of inside a component?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It makes the fetch run faster"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Where the fetch lives does not affect how fast it runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Where the fetch lives does not affect how fast it runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Any component can trigger the fetch and any component can read the result without prop drilling"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! When fetchEntries lives in the store, any component can call it and any component can read entries, isLoading, or error — all without passing props."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! When fetchEntries lives in the store, any component can call it and any component can read entries, isLoading, or error — all without passing props."
+    },
+    {
+      "type": "paragraph",
+      "content": "It removes the need for async/await"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You still use async/await inside the store action. The store does not change how async code works."
+    },
+    {
+      "type": "paragraph",
+      "content": "You still use async/await inside the store action. The store does not change how async code works."
+    },
+    {
+      "type": "paragraph",
+      "content": "It prevents the component from re-rendering during the fetch"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Components still re-render when store state changes. That is how they show the loading state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Components still re-render when store state changes. That is how they show the loading state."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the main advantage of putting fetchEntries inside the Zustand store instead of inside a component?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It makes the fetch run faster",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It makes the fetch run faster",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Any component can trigger the fetch and any component can read the result without prop drilling",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Any component can trigger the fetch and any component can read the result without prop drilling",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It removes the need for async/await",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It removes the need for async/await",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It prevents the component from re-rendering during the fetch",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It prevents the component from re-rendering during the fetch",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

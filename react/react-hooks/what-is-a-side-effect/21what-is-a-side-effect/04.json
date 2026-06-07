@@ -1,0 +1,53 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-side-effect?page=4",
+  "title": "Thinking About a Solution",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thinking About a Solution"
+    },
+    {
+      "type": "paragraph",
+      "content": "Obviously, we need a way to prevent the infinite loop caused by fetch(). But how might we do this?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix is not about what you fetch — it's about where you put it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, fetch() sits directly inside the component body, so React runs it on every render. Instead, it needs to live in a place where you can tell React exactly when to run it."
+    },
+    {
+      "type": "paragraph",
+      "content": "That raises a question: why does putting fetch() inside the component body cause problems at all?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The answer lies in understanding what side effects are when it comes to React."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

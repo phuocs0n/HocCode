@@ -1,0 +1,64 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/multiple-primary-keys?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Books (\n2    id INT PRIMARY KEY,\n3    title VARCHAR(50) PRIMARY KEY,\n4    category VARCHAR(100)\n5);\n6"
+    },
+    {
+      "type": "paragraph",
+      "content": "A primary key uniquely identifies each row in a table. So, having multiple primary keys in the same table is not allowed."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, the issue with the above code is that we have specified two primary keys in the Books table."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you want to create a table with multiple columns as a primary key, you can use a composite key."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's an updated version of the code that defines a composite key:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Books (\n2    id INT,\n3    title VARCHAR(50),\n4    category VARCHAR(100),\n5    PRIMARY KEY (id, title)\n6);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

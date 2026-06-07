@@ -1,0 +1,81 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=7",
+  "title": "Update App.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Update App.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our App component gains"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A refreshKey state",
+        "A Refresh button in the entry list header",
+        "[refreshKey] in the dependency array"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The error display also expands from a single paragraph to a two-line banner."
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  ... ... ...\n3\n4  // refreshKey state\n5  const [refreshKey, setRefreshKey] = useState(0);\n6\n7  // refreshKey is in the dependency array\n8  useEffect(function () {\n9    // Effect code\n10  }, [refreshKey]);\n11\n12  return (\n13\n14          ... ... ...\n15\n16          // Refresh button\n17          <button\n18            className=\"btn btn-secondary\"\n19            onClick={() => setRefreshKey((k) => k + 1)}\n20          >\n21            Refresh\n22          </button>\n23\n24        ... ... ...\n25\n26  );\n27}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function Header() {\n2  return (\n3    <header className=\"header\">\n4      <h2 className=\"title-primary\">My Daily Journal</h2>\n5      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n6    </header>\n7  );\n8}\n9\n10export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content }) {\n2  return (\n3    <div className=\"entry-card\">\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code to run the app. Click Refresh to trigger a new fetch. The list reloads."
+    },
+    {
+      "type": "paragraph",
+      "content": "To test the error state: temporarily change the fetch URL to something invalid, then click Refresh. You should see the error banner."
+    },
+    {
+      "type": "paragraph",
+      "content": "Change the URL back when done."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

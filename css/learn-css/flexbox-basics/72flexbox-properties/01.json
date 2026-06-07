@@ -1,0 +1,51 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/flexbox-properties?page=2",
+  "title": "The gap Property",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The gap Property"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can add space between all flex items at once using the gap property, which removes the need for individual margins."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"box box1\">First Item</div>\n3    <div class=\"box box2\">Second Item</div>\n4    <div class=\"box box3\">Third Item</div>\n5</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.container {\n2    display: flex;\n3    gap: 10px;\n4}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

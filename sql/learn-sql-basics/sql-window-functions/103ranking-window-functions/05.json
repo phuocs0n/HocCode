@@ -1,0 +1,63 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions?page=6",
+  "title": "Example: Ranking Movies by IMDb Rating",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Ranking Movies by IMDb Rating"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a Movies table that contains movies and their IMDb rating."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT * \n2FROM Movies"
+    },
+    {
+      "type": "paragraph",
+      "content": "To rank movies based on IMDb ratings:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *, \n2RANK() OVER (ORDER BY IMDb_rating DESC) AS rank \n3\n4FROM Movies;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you have ranked the movies based on IMDb rating."
+    },
+    {
+      "type": "paragraph",
+      "content": "RANK() returns the same rank for the entries with the same values and skips the next rank after the ties."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that the ranking for Dune: Part Two and Oppenheimer is 2. Also, the ranking of Inside Out 2 is 4 because RANK() skips the next rank after ties."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

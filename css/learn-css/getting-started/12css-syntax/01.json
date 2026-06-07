@@ -1,0 +1,135 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/css-syntax?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a valid CSS code?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "h1 {\n    color: blue\n    font-size: 24px;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A semicolon is missing after color: blue. Semicolons separate CSS properties."
+    },
+    {
+      "type": "paragraph",
+      "content": "A semicolon is missing after color: blue. Semicolons separate CSS properties."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "h1 {\n    color, font-size: blue, 24px;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the wrong syntax for CSS properties. Each property should be assigned a value after a colon (:)."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the wrong syntax for CSS properties. Each property should be assigned a value after a colon (:)."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "h1 {\n    color: blue;\n    font-size: 24px;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In CSS, multiple declarations are separated by semicolons. This rule correctly sets the color and font size for the <h1> element."
+    },
+    {
+      "type": "paragraph",
+      "content": "In CSS, multiple declarations are separated by semicolons. This rule correctly sets the color and font size for the <h1> element."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "h1\n    color: blue;\n    font-size: 24px;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The opening and closing curly braces are missing around the CSS properties."
+    },
+    {
+      "type": "paragraph",
+      "content": "The opening and closing curly braces are missing around the CSS properties."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a valid CSS code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:h1 {\n    color: blue\n    font-size: 24px;\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "h1 {\n    color: blue\n    font-size: 24px;\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:h1 {\n    color, font-size: blue, 24px;\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "h1 {\n    color, font-size: blue, 24px;\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:h1 {\n    color: blue;\n    font-size: 24px;\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "h1 {\n    color: blue;\n    font-size: 24px;\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:h1\n    color: blue;\n    font-size: 24px;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "h1\n    color: blue;\n    font-size: 24px;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

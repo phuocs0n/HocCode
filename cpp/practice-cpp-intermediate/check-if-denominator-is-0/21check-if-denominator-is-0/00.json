@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/check-if-denominator-is?page=1",
+  "title": "Check if Denominator is 0",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check if Denominator is 0"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to divide a number by another number. Use exception handling in case the denominator is 0."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get double inputs for the numerator and denominator variables.",
+        "In the try block, check if denominator is 0.",
+        "If it is, throw an exception with the error message Cannot divide by 0.",
+        "Otherwise, divide the two numbers and store the result in the double variable result.",
+        "Then, print result.",
+        "Catch the exception in the catch block with the parameter char const* msg.",
+        "Inside the catch block, print the thrown error message by printing the msg parameter."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n0"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputCannot divide by 0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

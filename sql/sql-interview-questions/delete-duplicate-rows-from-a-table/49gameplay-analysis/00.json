@@ -1,0 +1,90 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/gameplay-analysis?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Games"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "player_id",
+          "device_id",
+          "event_date",
+          "games_played"
+        ],
+        [
+          "1",
+          "2",
+          "2023-05-01",
+          "5"
+        ],
+        [
+          "1",
+          "2",
+          "2023-05-02",
+          "6"
+        ],
+        [
+          "2",
+          "3",
+          "2023-07-20",
+          "1"
+        ],
+        [
+          "3",
+          "1",
+          "2023-08-06",
+          "0"
+        ],
+        [
+          "3",
+          "4",
+          "2023-09-01",
+          "5"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write an SQL query to retrieve the fraction of players that logged in again on the day after they first logged in, rounded to 2 decimal places."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: You need to count the number of players logged in for at least two consecutive days starting from their first login date, then divide that number by the total number of players."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

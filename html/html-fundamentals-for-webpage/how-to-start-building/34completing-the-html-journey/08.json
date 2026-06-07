@@ -1,0 +1,131 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/completing-html-journey?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do developers finalize and validate HTML before starting CSS?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because validators improve page performance"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Validation is about the correctness of your code, not speed or performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Validation is about the correctness of your code, not speed or performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because HTML can't be changed later"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML can always be refactored."
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML can always be refactored."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because browsers require validation"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Browsers don't enforce validation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Browsers don't enforce validation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because clean structure prevents styling issues later"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Effective styling with CSS depends heavily on reliable HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "Effective styling with CSS depends heavily on reliable HTML."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do developers finalize and validate HTML before starting CSS?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because validators improve page performance",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because validators improve page performance",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because HTML can't be changed later",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because HTML can't be changed later",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because browsers require validation",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because browsers require validation",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because clean structure prevents styling issues later",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because clean structure prevents styling issues later",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

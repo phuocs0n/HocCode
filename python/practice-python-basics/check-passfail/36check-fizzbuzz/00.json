@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/check-fizzbuzz?page=1",
+  "title": "Check FizzBuzz",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check FizzBuzz"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to print FizzBuzz based on user input."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input from the user.",
+        "If the number is multiple of 3, print \"Fizz\".",
+        "If the number is multiple of 5, print \"Buzz\".",
+        "If the number is multiple of both 3 and 5, print \"FizzBuzz\".",
+        "Else print the original number."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input9"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputFizz"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

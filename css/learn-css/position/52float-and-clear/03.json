@@ -1,0 +1,55 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/float-clear?page=4",
+  "title": "Float Right",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Float Right"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, change the box class to float: right and observe the difference."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"box\"></div>\n2<p class=\"content\">This is some sample text.</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.box {\n2    height: 200px;\n3    width: 200px;\n4    border-radius: 20px;\n5    background: #ddd;\n6\n7    float: right;\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code and observe the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "By using float: right, the box is pushed to the right, and the text flows around it on the left. The content behaves similarly but adapts to the new float position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

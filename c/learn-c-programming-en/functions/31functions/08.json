@@ -1,0 +1,135 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-c-programming/functions-in-c-programming?page=9",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How'd you call a function named greet?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "greet;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "To call a function, we must use parentheses () after its name."
+    },
+    {
+      "type": "paragraph",
+      "content": "To call a function, we must use parentheses () after its name."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "To call a function, we use the function name followed by ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "To call a function, we use the function name followed by ()."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "greet();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C, a function is called by using its name followed by parentheses ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "In C, a function is called by using its name followed by parentheses ()."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "void greet();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When calling a function, we do not include its return type (void, int, etc.)—we only use its name followed by ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "When calling a function, we do not include its return type (void, int, etc.)—we only use its name followed by ()."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How'd you call a function named greet?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:greet;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "greet;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:greet();",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "greet();",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:void greet();",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "void greet();",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

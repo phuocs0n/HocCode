@@ -1,0 +1,77 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-list-elements?page=1",
+  "title": "Remove List Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Remove List Elements"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to remove the front and back elements of a list."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get four integer inputs from the users and store them in input1, input2, input3, and input4 variables.",
+        "Declare an integer list called numbers.",
+        "Add each input value to the back of the list.",
+        "Then, print the list.",
+        "Remove the front and back elements from the list.",
+        "Print the updated list in a separate line."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: Use pop_front() and pop_back() to remove the front and back elements from the list."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputinput1 = 1\ninput2 = 2\ninput3 = 3\ninput4 = 4"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1, 2, 3, 4,\n2, 3,"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

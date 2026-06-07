@@ -1,0 +1,131 @@
+{
+  "index": 12,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/suspense-fallbacks-loading-ux?page=11",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: A user visits /entries/1 for the first time and sees the skeleton. They navigate away and come back. What happens the second time?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The app throws an error because the chunk was already imported"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Importing a cached module is valid and happens transparently."
+    },
+    {
+      "type": "paragraph",
+      "content": "Importing a cached module is valid and happens transparently."
+    },
+    {
+      "type": "paragraph",
+      "content": "The skeleton shows again because lazy() always re-fetches"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "lazy() relies on the browser's module cache, not its own re-fetch logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "lazy() relies on the browser's module cache, not its own re-fetch logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "The skeleton shows for exactly 300ms as a minimum delay"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "<Suspense> has no built-in minimum delay. It resolves as soon as the chunk is ready."
+    },
+    {
+      "type": "paragraph",
+      "content": "<Suspense> has no built-in minimum delay. It resolves as soon as the chunk is ready."
+    },
+    {
+      "type": "paragraph",
+      "content": "The page renders immediately with no fallback because the chunk is cached"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser caches the chunk after the first download. So, subsequent renders are synchronous."
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser caches the chunk after the first download. So, subsequent renders are synchronous."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: A user visits /entries/1 for the first time and sees the skeleton. They navigate away and come back. What happens the second time?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The app throws an error because the chunk was already imported",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The app throws an error because the chunk was already imported",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The skeleton shows again because lazy() always re-fetches",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The skeleton shows again because lazy() always re-fetches",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The skeleton shows for exactly 300ms as a minimum delay",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The skeleton shows for exactly 300ms as a minimum delay",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The page renders immediately with no fallback because the chunk is cached",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The page renders immediately with no fallback because the chunk is cached",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,77 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/manually-find-length-of-string?page=1",
+  "title": "Manually Find the Length of a String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Manually Find the Length of a String"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get a string input for the variable named text using getline() function.",
+        "Create a count variable with initial value 0.",
+        "Use a for loop to loop through the whole string. (Hint: loop from i = 0 to text[i] != '\\0').",
+        "Inside the loop, increase the value of count by 1.",
+        "Print the count."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: The syntax of the getline() function is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "getline(cin, variable_name);"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputProgramming is fun"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output18"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

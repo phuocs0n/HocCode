@@ -1,0 +1,135 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-ifelse-statement?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a valid way to write an if statement?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "age < 18 {\n    console.log(\"You are less than 18 years old\");\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing the if keyword."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing the if keyword."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "if (age < 18) {\n    console.log(\"You are less than 18 years old\");\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid if statement. It begins with the if keyword followed by a valid boolean expression and the statements begin with curly braces."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid if statement. It begins with the if keyword followed by a valid boolean expression and the statements begin with curly braces."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "if {\n    console.log(\"You are less than 18 years old\");\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing a condition after if."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid since it's missing a condition after if."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "if {age < 18} (\n    console.log(\"You are less than 18 years old\");\n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid because it uses incorrect syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is not valid because it uses incorrect syntax."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a valid way to write an if statement?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:age < 18 {\n    console.log(\"You are less than 18 years old\");\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "age < 18 {\n    console.log(\"You are less than 18 years old\");\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:if (age < 18) {\n    console.log(\"You are less than 18 years old\");\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "if (age < 18) {\n    console.log(\"You are less than 18 years old\");\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:if {\n    console.log(\"You are less than 18 years old\");\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "if {\n    console.log(\"You are less than 18 years old\");\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:if {age < 18} (\n    console.log(\"You are less than 18 years old\");\n)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "if {age < 18} (\n    console.log(\"You are less than 18 years old\");\n)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

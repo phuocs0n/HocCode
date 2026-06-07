@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/palindrome-number?page=1",
+  "title": "Check Palindrome Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Palindrome Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a function to check if a number is palindrome or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "A number is palindrome if the reverse of that number is equal to the original number. For example, 1001, 343, etc."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Problem Description"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the number variable.",
+        "Call the findReverse() function with an argument number.",
+        "Inside findReverse(), find the reverse of the number.",
+        "Returned the reversed number to the function caller.",
+        "Compare if the reversed number is the same as the original number.",
+        "If true, print Palindrome Number. Otherwise, print Not a Palindrome Number"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input1001"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputPalindrome Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,87 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/keyframes?page=3",
+  "title": "Creating Animations",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Animations"
+    },
+    {
+      "type": "paragraph",
+      "content": "The @keyframes keyword allows you to define an animation and keyframes for the animation."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous example, we created an animation called box-animation, which looks like this:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "@keyframes box-animation {\n    0% {\n        translate: 0px 0px;\n    }\n\n    25% {\n        translate: 100px 0px;\n    }\n\n    50% {\n        translate: 100px 100px;\n    }\n\n    75% {\n        translate: 0px 100px;\n    }\n\n    100% {\n        translate: 0px 0px;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the percentages (0%, 25%, 50%, etc.) represent different points in the animation's timeline, each with its own style settings. Here's how it works:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Stage",
+          "Action"
+        ],
+        [
+          "0%",
+          "Element is at its original position."
+        ],
+        [
+          "25%",
+          "Element moves 100px to the right."
+        ],
+        [
+          "50%",
+          "Element moves 100px down while staying 100px to the right."
+        ],
+        [
+          "75%",
+          "Element moves 100px to the left while staying 100px down."
+        ],
+        [
+          "100%",
+          "Element returns to its starting position."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The keyframe percentages give you control over an animation's flow, letting you create complex movement or style changes at precise points."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's visualize this animation on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

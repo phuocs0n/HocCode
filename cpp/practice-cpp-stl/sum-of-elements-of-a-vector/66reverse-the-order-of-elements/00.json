@@ -1,0 +1,77 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/reverse-order-of-elements?page=1",
+  "title": "Reverse the Order of Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Reverse the Order of Elements"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to reverse the order of elements in a list."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get four string inputs from the user and store them in the input1, input2, input3, and input4 variables.",
+        "Initialize a string list called countries.",
+        "Add input1, input2, input3, and input4 to the back of the list.",
+        "Print the list.",
+        "Reverse the order of the list.",
+        "Then, print the updated list."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: Use the reverse() algorithm to reverse a list."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputinput1 = Nepal\ninput2 = Canada\ninput3 = Australia\ninput4 = India"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputNepal, Canada, Australia, India, \nIndia, Australia, Canada, Nepal,"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

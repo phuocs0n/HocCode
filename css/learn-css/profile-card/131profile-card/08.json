@@ -1,0 +1,65 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-css/profile-card?page=9",
+  "title": "Step 7: Content Styling",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 7: Content Styling"
+    },
+    {
+      "type": "paragraph",
+      "content": "Organize the content section using flexbox, and add padding for spacing."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.content {\n2    flex: 3 1 350px;\n3    display: flex;\n4    flex-direction: column;\n5    padding: 20px;\n6    text-align: center;\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Style the name, job title, and paragraphs with the appropriate font sizes and margins."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.content h2 {\n2    font-size: clamp(1rem, 1vw, 1.5rem);\n3    font-weight: 700;\n4    margin-bottom: clamp(0.35rem, 2vh, 0.55rem);\n5    color: #29283f;\n6}\n7\n8.content>p {\n9    font-size: clamp(1rem, 1.7vw, 1.1rem);\n10    font-weight: 500;\n11    margin: 6px 0;\n12}\n13\n14.content a {\n15    text-decoration: none;\n16    color: #7370f4;\n17    font-weight: 600;\n18}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code to see how the profile card looks with the styled content."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

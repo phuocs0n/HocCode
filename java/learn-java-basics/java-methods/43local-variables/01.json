@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/local-variables?page=1",
+  "title": "Variables Inside Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Variables Inside Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with an example."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you guess the output of this program?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    void addNumbers(int n1, int n2) {\n4        int result = n1 + n2;\n5        System.out.println(result);\n6    }\n7\n8    public static void main(String[] args) {\n9\n10        Main obj = new Main();\n11        obj.addNumbers(2, 5);\n12    }\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pretty simple, right? The output will be 7."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, instead of printing the result variable from inside the method, what will happen if we print the result after the method call?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

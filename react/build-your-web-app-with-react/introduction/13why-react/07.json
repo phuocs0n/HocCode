@@ -1,0 +1,70 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/why-react?page=8",
+  "title": "How React Compares to Plain JavaScript",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How React Compares to Plain JavaScript"
+    },
+    {
+      "type": "paragraph",
+      "content": "When I first started learning React, I kept asking myself, \"Why not just use plain JavaScript?\" Here's what I've learned after building real projects with both:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Plain JavaScript is great when you start small."
+    },
+    {
+      "type": "paragraph",
+      "content": "You write 20 lines, add a click handler, and show a message. That's all! No setup, no new syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "But when you add more features, you're updating multiple parts of the page every time the data changes:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Update the header\ndocument.getElementById(\"user-name\").textContent = user.name;\n\n// Update the count\ndocument.getElementById(\"task-count\").textContent = tasks.length;\n\n// Rebuild the list\nconst taskList = document.getElementById(\"task-list\");\ntaskList.innerHTML = \"\";\ntasks.forEach(task => {\n  const li = document.createElement(\"li\");\n  li.textContent = task.title;\n  taskList.appendChild(li);\n});"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you forget one spot, your entire UI is out of sync."
+    },
+    {
+      "type": "paragraph",
+      "content": "I've debugged this countless times myself. And trust me, each time it gave me a headache worse than the worst migraine I've ever suffered (figuratively speaking, of course)."
+    },
+    {
+      "type": "paragraph",
+      "content": "React gets rid of this absurdity!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of \"when X happens, update Y,\" you say \"here's what the UI should look like.\" and React updates the DOM for you."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

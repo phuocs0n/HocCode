@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/arithmetic-operators?page=1",
+  "title": "Introduction to Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "An operator is a symbol used to perform operations on values."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, the + symbol is used to add two numbers and is also an operator in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "In fact, we've already used one operator many times in our programs without realizing it—the = operator."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int age = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the = operator assigns the value on the right (25) to the variable on the left (age). This is known as an assignment operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we will focus on different arithmetic operators available in C. Let's get started."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

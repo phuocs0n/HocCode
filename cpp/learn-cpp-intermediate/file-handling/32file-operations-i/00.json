@@ -1,0 +1,104 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/file-operations-i?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous section, we learned how to open a file and read from it. We also learned how to check the file for errors and how to close the file."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we will learn to perform various file operations, such as:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Read from a File (different approach)",
+        "Write to a File",
+        "Append a File"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To perform these operations, we need to open the files in their respective modes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "File Opening Modes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are the different file open modes available in C++. We need to open files in the respective modes to perform the desired operations."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Mode",
+          "Meaning",
+          "Description"
+        ],
+        [
+          "ios::in",
+          "input",
+          "Open file for reading."
+        ],
+        [
+          "ios::out",
+          "output",
+          "Open file for writing."
+        ],
+        [
+          "ios::app",
+          "append",
+          "Open file for appending."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "fstream my_file;\n\n// open the file in write mode\nmy_file.open(\"sample.txt\", ios::out);\n\n// open file in read mode\nmy_file.open(\"sample.txt\", ios::in);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The in, out, and app objects are members of the ios class. Hence, we need to use the scope resolution operator :: when specifying the file open modes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn how to read a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

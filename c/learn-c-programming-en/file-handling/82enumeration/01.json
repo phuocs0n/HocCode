@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/enumeration?page=2",
+  "title": "Integral Constants",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Integral Constants"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C, enum constants are internally represented by integral constants. So, by default the value Sunday is 0, Monday is 1, Tuesday is 2 and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3enum Days {\n4  Sunday,\n5  Monday,\n6  Tuesday,\n7  Wednesday,\n8  Thursday,\n9  Friday,\n10  Saturday\n11};\n12\n13\n14int main() {\n15\n16  // create enum variable\n17  enum Days currentDay;\n18\n19  // assign value to enum variable\n20  currentDay = Friday;\n21\n22\n23  // print enum variable\n24  printf(\"%d\", currentDay);    // 5\n25\n26  \n27  return 0;\n28}"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, we get the integral constant 5 as output, which represents the enum constant Friday."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

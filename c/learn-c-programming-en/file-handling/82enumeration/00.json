@@ -1,0 +1,80 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/enumeration?page=1",
+  "title": "Enum Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Enum Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "An enum or enumeration is a type that has a fixed set of constant values. For example,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "enum Days {\n  Sunday,\n  Monday,\n  Tuesday,\n  Wednesday,\n  Thursday,\n  Friday,\n  Saturday\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used the enum keyword to create an enum named Days. It contains fixed values: Sunday, Monday, Tuesday, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create enum Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we declare an enum, we can create variables from it."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// create enum variable\nenum Days currentDay;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, currentDay is an enum type variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Assign Values to enum Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "An enum variable can only take one of the constants defined inside the enum. So, the currentDay variable can only store one of those 7 values."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// assign value to enum\ncurrentDay = Friday;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we will see a working example of enums."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

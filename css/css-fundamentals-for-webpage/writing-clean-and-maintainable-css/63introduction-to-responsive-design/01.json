@@ -1,0 +1,94 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/introduction-to-responsive-design?page=2",
+  "title": "Mobile First Design",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Mobile First Design"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What Mobile-First Means Practically"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Start with simple, stacked layouts",
+        "Avoid fixed widths",
+        "Let content flow naturally"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Your blog already does this by default — that's a good thing."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Insight"
+    },
+    {
+      "type": "paragraph",
+      "content": "Most real projects use:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "1–3 breakpoints",
+        "Not dozens"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If you need many breakpoints, your layout is probably too rigid."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before writing responsive CSS, developers make one mindset shift:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Design for small screens first."
+    },
+    {
+      "type": "paragraph",
+      "content": "Why?"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Mobile screens are the most constrained.",
+        "It forces clarity.",
+        "Desktop layouts are easier to scale up."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In modern frontend work, mobile is not an afterthought — it's the baseline."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

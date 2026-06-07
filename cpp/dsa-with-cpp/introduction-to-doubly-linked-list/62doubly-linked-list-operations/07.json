@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/doubly-linked-list-operations?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How do you delete the first node in a doubly linked list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Set the second node as the head node and update the prev pointer of the new head node to nullptr."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Deleting the first node in a doubly linked list involves updating the next pointer of the head node and the new head node's previous pointer to nullptr."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deleting the first node in a doubly linked list involves updating the next pointer of the head node and the new head node's previous pointer to nullptr."
+    },
+    {
+      "type": "paragraph",
+      "content": "Set the second node as the tail node to the and update the next pointer of the new tail node to nullptr."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This will delete all the nodes after the second node."
+    },
+    {
+      "type": "paragraph",
+      "content": "This will delete all the nodes after the second node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Traverse to the first node and set the next pointer to nullptr."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This does not accurately describe the process of deleting the first node in a doubly linked list. Without updating the head pointer, we'll have no way of accessing the remainder of the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "This does not accurately describe the process of deleting the first node in a doubly linked list. Without updating the head pointer, we'll have no way of accessing the remainder of the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Set the prev pointer of the second node to nullptr. Then, traverse to the last node and set its next pointer to nullptr."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike a circular linked list, the next pointer of the last node doesn't point to the head node. So, traversing to the last node will not help in deleting the first node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike a circular linked list, the next pointer of the last node doesn't point to the head node. So, traversing to the last node will not help in deleting the first node."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How do you delete the first node in a doubly linked list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Set the second node as the head node and update the prev pointer of the new head node to nullptr.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Set the second node as the head node and update the prev pointer of the new head node to nullptr.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Set the second node as the tail node to the and update the next pointer of the new tail node to nullptr.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Set the second node as the tail node to the and update the next pointer of the new tail node to nullptr.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Traverse to the first node and set the  next pointer to nullptr.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Traverse to the first node and set the  next pointer to nullptr.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Set the prev pointer of the second node to nullptr. Then, traverse to the last node and set its next pointer to nullptr.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Set the prev pointer of the second node to nullptr. Then, traverse to the last node and set its next pointer to nullptr.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

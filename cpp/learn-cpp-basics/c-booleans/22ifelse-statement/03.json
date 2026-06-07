@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/ifelse-statement?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\nusing namespace std;\n\nint main() {\n\n    int number = 0;\n\n    if (number < 0) {\n        cout << \"Number is negative.\" << endl;\n    }\n\n    cout << \"This is always executed.\";\n  \n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Number is negative."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is always executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Nothing will be printed)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a statement outside of the if statement. So that statement is printed no matter what."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a statement outside of the if statement. So that statement is printed no matter what."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is always executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Number is negative.This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Number is negative.This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Nothing will be printed)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Nothing will be printed)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(Error)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

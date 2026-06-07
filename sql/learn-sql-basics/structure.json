@@ -1,0 +1,272 @@
+{
+  "levels": [
+    {
+      "title": "Getting Started",
+      "lessons": [
+        {
+          "title": "1.1Getting Started",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/getting-started"
+        },
+        {
+          "title": "1.2SQL SELECT",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sql-select"
+        }
+      ]
+    },
+    {
+      "title": "Filtering in SQL",
+      "lessons": [
+        {
+          "title": "2.1Filtering in SQL",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/filtering-in-sql"
+        },
+        {
+          "title": "2.2SELECT WHERE",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/select-where"
+        },
+        {
+          "title": "2.3AND, OR, and NOT",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/or-not"
+        },
+        {
+          "title": "2.4IN and BETWEEN",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/in-between"
+        },
+        {
+          "title": "2.5LIKE",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/like"
+        },
+        {
+          "title": "2.6Wildcards",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/wildcards"
+        },
+        {
+          "title": "2.7LIMIT",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/limit"
+        },
+        {
+          "title": "2.8Recap: Filter Records",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary"
+        }
+      ]
+    },
+    {
+      "title": "SQL Aggregate Functions",
+      "lessons": [
+        {
+          "title": "3.1SQL Aggregate Functions",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sql-aggregate-functions"
+        },
+        {
+          "title": "3.2MIN() and MAX()",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/min-max"
+        },
+        {
+          "title": "3.3COUNT()",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/count"
+        },
+        {
+          "title": "3.4SUM() and AVG()",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sum-avg"
+        },
+        {
+          "title": "3.5Recap: SQL Aggregate Functions",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-1"
+        }
+      ]
+    },
+    {
+      "title": "Organizing in SQL",
+      "lessons": [
+        {
+          "title": "4.1Organizing in SQL",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/organizing-in-sql"
+        },
+        {
+          "title": "4.2ORDER BY",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/order-by"
+        },
+        {
+          "title": "4.3GROUP BY",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/group-by"
+        },
+        {
+          "title": "4.4HAVING",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/having"
+        },
+        {
+          "title": "4.5SQL CASE",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sql-case"
+        },
+        {
+          "title": "4.6Recap: Organize Records",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2"
+        }
+      ]
+    },
+    {
+      "title": "SQL JOINs",
+      "lessons": [
+        {
+          "title": "5.1SQL JOINs",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sql-joins"
+        },
+        {
+          "title": "5.2INNER JOIN",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/inner-join"
+        },
+        {
+          "title": "5.3LEFT JOIN",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/left-join"
+        },
+        {
+          "title": "5.4RIGHT JOIN",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/right-join"
+        },
+        {
+          "title": "5.5FULL JOIN",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/full-join"
+        },
+        {
+          "title": "5.6Recap: SQL JOINs",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-3"
+        }
+      ]
+    },
+    {
+      "title": "Subquery",
+      "lessons": [
+        {
+          "title": "6.1Subquery",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/subquery"
+        },
+        {
+          "title": "6.2Recap: SQL Subquery",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-4"
+        }
+      ]
+    },
+    {
+      "title": "INSERT INTO",
+      "lessons": [
+        {
+          "title": "7.1INSERT INTO",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/insert-into"
+        },
+        {
+          "title": "7.2UPDATE",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/update"
+        },
+        {
+          "title": "7.3DELETE FROM",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/delete-truncate"
+        },
+        {
+          "title": "7.4Recap: Insert, Update, and Delete",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-5"
+        }
+      ]
+    },
+    {
+      "title": "Working With Tables",
+      "lessons": [
+        {
+          "title": "8.1Working With Tables",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/data-types"
+        },
+        {
+          "title": "8.2CREATE TABLE",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/create-table"
+        },
+        {
+          "title": "8.3ALTER TABLE",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/alter-table"
+        },
+        {
+          "title": "8.4DROP TABLE",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/drop-table"
+        },
+        {
+          "title": "8.5Recap: Working With Tables",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-6"
+        }
+      ]
+    },
+    {
+      "title": "Constraints",
+      "lessons": [
+        {
+          "title": "9.1Constraints",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/constraints"
+        },
+        {
+          "title": "9.2NOT NULL Constraint",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/not-null-constraint"
+        },
+        {
+          "title": "9.3UNIQUE Constraint",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/unique-constraint"
+        },
+        {
+          "title": "9.4PRIMARY KEY",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/primary-key"
+        },
+        {
+          "title": "9.5FOREIGN KEY",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/foreign-key"
+        },
+        {
+          "title": "9.6Recap: Constraints",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-7"
+        }
+      ]
+    },
+    {
+      "title": "SQL Window Functions",
+      "lessons": [
+        {
+          "title": "10.1SQL Window Functions",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sql-window-functions"
+        },
+        {
+          "title": "10.2Aggregate Window Functions",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/aggregate-window-functions"
+        },
+        {
+          "title": "10.3Ranking Window Functions",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions"
+        },
+        {
+          "title": "10.4Analytic Window Functions",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/analytic-window-functions"
+        },
+        {
+          "title": "10.5Recap: SQL Window Functions",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-8"
+        }
+      ]
+    },
+    {
+      "title": "SQL Views",
+      "lessons": [
+        {
+          "title": "11.1SQL Views",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sql-views"
+        },
+        {
+          "title": "11.2SQL Commands",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/sql-commands"
+        },
+        {
+          "title": "11.3What's next?",
+          "url": "https://app.programiz.pro/course/learn-sql-basics/summary-9"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 52,
+    "sections": 11,
+    "container": "main-content"
+  }
+}

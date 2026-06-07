@@ -1,0 +1,135 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/stack?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following expressions is valid?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "stack<int> s = {1, 2, 3};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This syntax works for other containers like vector, but not for stack."
+    },
+    {
+      "type": "paragraph",
+      "content": "This syntax works for other containers like vector, but not for stack."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "stack<int> s({1, 2, 3});"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an incorrect syntax for initializing a stack. Stack doesn't directly accept an initializer list."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an incorrect syntax for initializing a stack. Stack doesn't directly accept an initializer list."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "stack<int> s;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! stack is initialized empty, and elements are added using push()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! stack is initialized empty, and elements are added using push()."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "stack<int> s = stack<int>({1, 2, 3});"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This might look correct, but stack doesn't accept initializer lists in this way."
+    },
+    {
+      "type": "paragraph",
+      "content": "This might look correct, but stack doesn't accept initializer lists in this way."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following expressions is valid?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:stack<int> s = {1, 2, 3};",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "stack<int> s = {1, 2, 3};",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:stack<int> s({1, 2, 3});",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "stack<int> s({1, 2, 3});",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:stack<int> s;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "stack<int> s;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:stack<int> s = stack<int>({1, 2, 3});",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "stack<int> s = stack<int>({1, 2, 3});",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

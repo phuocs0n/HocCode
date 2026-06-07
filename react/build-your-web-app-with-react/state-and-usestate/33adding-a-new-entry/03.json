@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/adding-new-entry?page=4",
+  "title": "Important: Update the State Immutably!",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Important: Update the State Immutably!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you add an entry, don't modify the existing array. Instead, replace the state value with a new array so React can detect the change and re-render."
+    },
+    {
+      "type": "paragraph",
+      "content": "Wrong Code:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "entries.push(newEntry)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Doing this mutates the array. Do not do that with state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct Code:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "setEntries([...entries, newEntry])"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, ...entries copies the old items, and you add newEntry to the end. You pass a new array to setEntries, so React sees a change and updates the UI."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

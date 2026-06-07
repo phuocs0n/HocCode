@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/introduction-examples?page=2",
+  "title": "Chuyển đổi khoảng cách từ km sang dặm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Chuyển đổi khoảng cách từ km sang dặm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Để chuyển đổi khoảng cách tính bằng km sang dặm, chúng ta cần nhân khoảng cách tính bằng km với giá trị 0,621. Điều này là do:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1 kilometer = 0.621 miles"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta hãy xem một chương trình hoàn chỉnh:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1// Program to convert distance in kilometer to miles\n2// The distance will be entered by the user\n3\n4#include <stdio.h>\n5\n6int main() {\n7\n8    double km;\n9    double miles;\n10\n11    // Conversion ratio\n12    double conversionRatio = 0.621;\n13  \n14    printf(\"Enter distance in km: \");\n15\n16    // Take distance input from the user\n17    scanf(\"%lf\", &km);\n18\n19    // Compute distance in miles\n20    miles = km * conversionRatio;\n21\n22    printf(\"Distance in miles: %lf\", miles);\n23\n24    return 0;\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter distance in km: 33\nDistance in miles: 20.493000"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là cách chương trình hoạt động:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "scanf(\"%lf\", &km); - lấy khoảng cách đầu vào tính bằng km từ người dùng và lưu nó vào biến km",
+        "dặm = km * tỷ lệ chuyển đổi; - tính toán khoảng cách tính bằng dặm bằng cách nhân khoảng cách tính bằng km với 0,621."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Lưu ý cách chúng tôi sử dụng kiểu dữ liệu double để biểu thị khoảng cách. Khoảng cách thường là số dấu phẩy động, chẳng hạn như 3,5 km."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, bạn sẽ sử dụng khái niệm tương tự để chuyển đổi nhiệt độ từ độ C sang độ F."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

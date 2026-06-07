@@ -1,0 +1,95 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-trees?page=2",
+  "title": "Thought Process: Implementation of Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Implementation of Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three steps involved in implementing a tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a class to handle nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "A node contains:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The value of the node.",
+        "Information of children derived from that node."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "class TreeNode:\n    def __init__(self, data):\n        self.data = data\n        self.children = []"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've created a TreeNode class to manage single node-related operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Within the initializer method, we store its data and maintain a list of its child node references."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Add a method to add children to a node."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we can create a node let's define a method to add children to it."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def add_child(self, child):\n    self.children.append(child)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The add_child method adds a child to a Node in a tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Create a class to handle nodes in a tree."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "class Tree:\n    def __init__(self, root = None):\n        self.root = root"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created a class Tree that will store information of all the nodes in a tree."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

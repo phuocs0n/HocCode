@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/override-function-in-multiple-classes?page=1",
+  "title": "Override Function in Multiple Classes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Override Function in Multiple Classes"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to override the same function in multiple classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Animal with a function named display().",
+        "Inside the function, print I am an animal.",
+        "Inherit two classes named Dog and Cat from the same Animal class.",
+        "Inside Dog, override display() to print I am a dog.",
+        "Inside Cat, override display() to print I am a cat."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main(), create objects of both Dog and Cat classes.",
+        "Call the display() function using the objects of both classes."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputI am a dog\nI am a cat"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

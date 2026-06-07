@@ -1,0 +1,85 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/spread-operator?page=4",
+  "title": "Example: Merging Arrays",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Merging Arrays"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you have three arrays:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const num1 = [20, 21, 22];\nconst num2 = [24, 25, 26];\nconst num3 = [28, 29, 30];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your task is to merge these arrays into a continuous sequence from 20 to 30. The arrays are missing 23 and 27, so you need to add them while merging."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using the spread operator, you can achieve this in a simple and efficient way:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const mergedNumbers = [...num1, 23, ...num2, 27, ...num3];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the spread operator (...) expands the elements of each array into the new array mergedNumbers. The number 23 is manually inserted between num1 and num2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, 27 is added between num2 and num3."
+    },
+    {
+      "type": "paragraph",
+      "content": "The complete program looks like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const num1 = [20, 21, 22];\n2const num2 = [24, 25, 26];\n3const num3 = [28, 29, 30];\n4\n5const mergedNumbers = [...num1, 23, ...num2, 27, ...num3];\n6\n7console.log(mergedNumbers);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[\n  20, 21, 22, 23, 24,\n  25, 26, 27, 28, 29,\n  30\n]"
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, the spread operator simplifies the process by eliminating the need for multiple method calls or loops."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

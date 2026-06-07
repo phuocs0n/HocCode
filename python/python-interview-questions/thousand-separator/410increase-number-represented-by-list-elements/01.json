@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/increase-number-represented-by-list-elements?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this problem, we are adding 1 to the last element of the list, so the first thing we need to do is access the last element (using negative indexing)."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then add 1 to the last element and replace the value of the last element with the new result. This approach works fine if the last element is below 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if the last element is 9, then adding 1 to it will result in 10 which will generate a carry 1. Now we need to add this carry to the second last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, if the second last element is also 9, it will also generate a carry 1, which we should add to the third-last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to repeat the same process for all the digits. In this case, we have to use a loop. By looping through each digit, we can check if there is a carry."
+    },
+    {
+      "type": "paragraph",
+      "content": "And if there is a carry, repeat the whole process. Here's how our program will work:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Access the last element of the list and add 1 to it.",
+        "To find the carry after addition, perform floor division on this sum by the number 10.",
+        "We will then find the remainder by dividing the sum by 10 and assigning it to the last element.",
+        "Now, loop through each digit from the second-last element to the first element and check if there is a carry.",
+        "If there is a carry, we need to repeat the same process until there is no carry left.",
+        "At last, even after adding all carries, if there is a digit remaining, we need to insert that digit at the beginning of the list.",
+        "Finally, return the list."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-array?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pass Array as Function Argument"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also pass an array to a function as the argument."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function to find sum\n4int findSum(int numbers[5]) {\n5\n6  int sum = 0;\n7    \n8  for (int i = 0; i < 5; ++i) {\n9    sum = sum + numbers[i];\n10  }\n11    \n12  return sum;\n13}\n14\n15int main() {\n16\n17    int numbers[5] = {1, 2, 3, 4, 5};\n18  \n19    // Pass the array as function argument\n20    int result = findSum(numbers);\n21    printf(\"Sum: %d\", result);\n22\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reminder: Great job on completing this section! Now, practice what you've learned with the problems in Practice: C Programming."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

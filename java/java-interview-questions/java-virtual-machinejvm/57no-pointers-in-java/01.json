@@ -1,0 +1,73 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/no-pointers-in-java?page=1",
+  "title": "Programming languages like C/C++ use pointers. Why does Java not make use of pointers?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Programming languages like C/C++ use pointers. Why does Java not make use of pointers?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java doesn't make use of pointer because of following reasons;"
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent direct memory manipulation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pointers are variables that hold memory addresses, and they can be used to directly manipulate memory."
+    },
+    {
+      "type": "paragraph",
+      "content": "One can access some arbitrary memory location and do read and write operations on it. This introduces bugs and security vulnerabilities into a program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Easy memory management"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pointers can be used to allocate and deallocate memory. However, it is tiresome for programmers to manage memory manually."
+    },
+    {
+      "type": "paragraph",
+      "content": "As java provides the automatic garbage collection feature so there is no need of pointers and it makes memory management easier."
+    },
+    {
+      "type": "paragraph",
+      "content": "Concept of reference"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java doesn't provide any explicit option to use pointers but they are used internally"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java has the concept of reference which is more simple and secure than pointer. Using Java reference you cannot directly access the memory address it points."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

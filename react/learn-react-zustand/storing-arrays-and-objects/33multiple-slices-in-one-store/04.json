@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/multiple-slices-in-one-store?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is a slice in the context of a Zustand store?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A separate store you create with a second call to create()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A slice lives inside the same store. You do not need a second create() call."
+    },
+    {
+      "type": "paragraph",
+      "content": "A slice lives inside the same store. You do not need a second create() call."
+    },
+    {
+      "type": "paragraph",
+      "content": "A group of related state and actions organized together inside one store"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! A slice is just a way of thinking about your store. You group related state and actions together — like entries state with entries actions — inside the same create() call."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! A slice is just a way of thinking about your store. You group related state and actions together — like entries state with entries actions — inside the same create() call."
+    },
+    {
+      "type": "paragraph",
+      "content": "A special Zustand API for splitting large stores"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand has no special slice API. It is just a mental model for organizing your state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand has no special slice API. It is just a mental model for organizing your state."
+    },
+    {
+      "type": "paragraph",
+      "content": "A read-only section of the store"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Slices are not read-only. They contain both state and the actions that update it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Slices are not read-only. They contain both state and the actions that update it."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is a slice in the context of a Zustand store?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A separate store you create with a second call to create()",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A separate store you create with a second call to create()",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A group of related state and actions organized together inside one store",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A group of related state and actions organized together inside one store",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A special Zustand API for splitting large stores",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A special Zustand API for splitting large stores",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A read-only section of the store",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A read-only section of the store",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

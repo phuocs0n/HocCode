@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-arithmetic-operators?page=3",
+  "title": "The + Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The + Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you saw in the last example, the + operator is used to add operands (values or variables)."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let x = 10;\n2let y = 20;\n3\n4// Perform addition\n5let total = x + y + 30;\n6\n7console.log(total);    // Output: 60"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, total = x + y + 30 computes the sum of x, y, and 30, then assigns the result to the total variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also perform addition directly without storing it in a variable:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let x = 12.5;\n2let y = 10;\n3\n4console.log(x + y);    // Output: 22.5"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the sum of x and y is computed and displayed directly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

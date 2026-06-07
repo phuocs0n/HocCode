@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=4",
+  "title": "Biểu thức Boolean (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Biểu thức Boolean (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy tưởng tượng bạn đang giúp một quán cà phê tự động hóa hệ thống thanh toán. Họ có ưu đãi đặc biệt: Chi hơn 100 đô la và nhận được một món tráng miệng miễn phí."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước đây, để xác định xem khách hàng có đủ điều kiện nhận món tráng miệng hay không, nhân viên thu ngân thường kiểm tra thủ công: \"Tổng số tiền có lớn hơn 100 USD không?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, hệ thống thanh toán phải xử lý việc ra quyết định này."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử tổng số tiền mà một khách hàng chi tiêu là 70 USD."
+    },
+    {
+      "type": "paragraph",
+      "content": "Để kiểm tra xem họ có đủ điều kiện nhận món tráng miệng hay không, chúng ta có thể biểu thị điều kiện này như sau:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "total > 100"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong trường hợp này, vì 70 USD không lớn hơn 100 USD nên điều kiện được đánh giá là sai, trong C được biểu thị bằng 0. Do đó, khách hàng không nhận được món tráng miệng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/parentheses-to-group-conditions?page=1",
+  "title": "What will happen if we execute the following query?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What will happen if we execute the following query?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT name\n2FROM Employees\n3WHERE salary > 2000 AND salary < 5000\n4  AND department = 'Sales' OR department = 'Development';"
+    },
+    {
+      "type": "paragraph",
+      "content": "At first glance, it might seem the above query has no flaws."
+    },
+    {
+      "type": "paragraph",
+      "content": "But this query doesn't return the desired output. It should retrieve employees with salaries in the range of 2000 - 5000 (exclusive) belonging to either Sales or Development."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the query applies the salary filter only to employees in the Sales department. As a result, John from Development is also selected even though his salary is 6000 i.e., out of the defined salary range."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, the problem lies in how the query is written. The industry standard urges us to group the conditions to make the results consistent."
+    },
+    {
+      "type": "paragraph",
+      "content": "To ensure correct grouping of conditions, parentheses should be used:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT name\n2FROM Employees\n3WHERE (salary > 2000 AND salary < 5000)\n4  AND (department = 'Sales' OR  department = 'Development');"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, our compiler interprets the first query (the one without any parentheses) in the following way:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT name\n2FROM Employees\n3WHERE (salary > 2000 AND salary < 5000 AND department = 'Sales')\n4  OR  department = 'Development';"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/responsive-design/why-responsive-matters?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is responsive design?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "One codebase that adapts its layout to different screen sizes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exactly. One codebase, one set of files, and the layout adjusts based on screen width. No separate mobile site needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Exactly. One codebase, one set of files, and the layout adjusts based on screen width. No separate mobile site needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "A separate website built only for mobile devices."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Teams used to do this, actually. They'd build a whole separate site at m.example.com just for mobile. Responsive design replaced that entirely."
+    },
+    {
+      "type": "paragraph",
+      "content": "Teams used to do this, actually. They'd build a whole separate site at m.example.com just for mobile. Responsive design replaced that entirely."
+    },
+    {
+      "type": "paragraph",
+      "content": "A design that only works on desktop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "If it only worked on desktop it wouldn't solve much, would it? The whole point is the same code works everywhere, it just looks different depending on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "If it only worked on desktop it wouldn't solve much, would it? The whole point is the same code works everywhere, it just looks different depending on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "A way to make images load faster."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Image performance is a real thing worth learning, but it's a separate topic. Responsive design is about how your layout adapts to different screen widths, not how files get downloaded."
+    },
+    {
+      "type": "paragraph",
+      "content": "Image performance is a real thing worth learning, but it's a separate topic. Responsive design is about how your layout adapts to different screen widths, not how files get downloaded."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is responsive design?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:One codebase that adapts its layout to different screen sizes.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "One codebase that adapts its layout to different screen sizes.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A separate website built only for mobile devices.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A separate website built only for mobile devices.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A design that only works on desktop.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A design that only works on desktop.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A way to make images load faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A way to make images load faster.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

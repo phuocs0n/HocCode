@@ -1,0 +1,80 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/events-toggling-with-classes?page=4",
+  "title": "Toggle Panel",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Toggle Panel"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's see class toggling in action."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, a panel will open and close when you click a button. The panel's appearance is controlled by CSS. JavaScript only toggles a class."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Toggle Panel</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <button id=\"toggle-panel\">Toggle panel</button>\n11\n12  <div class=\"panel\">\n13    Panel content. Click the button to show or hide.\n14  </div>\n15\n16  <script src=\"script.js\"></script>\n17</body>\n18</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6.panel {\n7  max-height: 0;\n8  overflow: hidden;\n9  transition: max-height 0.3s ease;\n10}\n11\n12.panel.is-open {\n13  max-height: 200px;\n14}\n15\n16button {\n17  padding: 10px 20px;\n18  cursor: pointer;\n19}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var btn = document.querySelector('#toggle-panel');\n2var panel = document.querySelector('.panel');\n3\n4if (btn && panel) {\n5  btn.addEventListener('click', function () {\n6    panel.classList.toggle('is-open');\n7  });\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code, then click the button and watch the panel open. Click again, and it closes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice what happened:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "We did not change styles directly.",
+        "We toggled a class.",
+        "CSS handled the animation and appearance."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript did one thing. CSS did the rest. That is the clean way to manage state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's test your understanding with a short quiz."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

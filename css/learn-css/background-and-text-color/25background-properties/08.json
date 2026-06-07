@@ -1,0 +1,75 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-css/background-properties?page=9",
+  "title": "Example: background-position",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: background-position"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Positioning the background image to the right edge of the container and centering it vertically."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div>\n2    <h1>Welcome to Programiz!</h1>\n3    <p>Dive into CSS and start turning boring web pages into something that actually looks good.</p>\n4    <h2>Why Learn with Us?</h2>\n5    <ul>\n6        <li>Code in Your Browser!</li>\n7        <li>Create real-world projects.</li>\n8        <li>Get Certified for on-demand skills.</li>\n9    </ul>\n10</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1div {\n2    background-image: url('/images/learn-css/bg1.png');\n3    background-repeat: no-repeat; \n4\n5    /* Sets the background image to align to the right and vertically center.  */\n6    background-position: right center;\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Positioning the background image to the left edge of the container and aligning it to the bottom."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div>\n2    <h1>Welcome to Programiz!</h1>\n3    <p>Dive into CSS and start turning boring web pages into something that actually looks good.</p>\n4    <h2>Why Learn with Us?</h2>\n5    <ul>\n6        <li>Code in Your Browser!</li>\n7        <li>Create real-world projects.</li>\n8        <li>Get Certified for on-demand skills.</li>\n9    </ul>\n10</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1div {\n2    background-image: url('/images/learn-css/bg1.png');\n3    background-repeat: no-repeat; \n4\n5    /* Sets the background image to align to the left and vertically bottom.  */\n6    background-position: left bottom;\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Positioning the background image to the center both horizontally and vertically."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div>\n2    <h1>Welcome to Programiz!</h1>\n3    <p>Dive into CSS and start turning boring web pages into something that actually looks good.</p>\n4    <h2>Why Learn with Us?</h2>\n5    <ul>\n6        <li>Code in Your Browser!</li>\n7        <li>Create real-world projects.</li>\n8        <li>Get Certified for on-demand skills.</li>\n9    </ul>\n10</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1div {\n2    background-image: url('/images/learn-css/bg.png');\n3\n4    background-repeat: no-repeat; \n5   /* Sets the background image to align horizontally and vertically center.  */\n6    background-position: center;\n7}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,51 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/linked-list-operations?page=8",
+  "title": "Source Code: Append a Node",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Append a Node"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the method to append a node:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Add a node to the end of the list\n2void append(T data) {\n3    Node<T>* new_node = new Node<T>({data});  // Create a new node\n4    \n5    // If list is empty, \n6    // new node is the head\n7    if (head == nullptr) {  \n8        head = new_node;\n9        return;\n10    }\n11    Node<T>* current = head;\n12    \n13    // Traverse to the end of the list\n14    while (current->next != nullptr) {\n15        current = current->next;\n16    }\n17    \n18    // Link the last node to the new node\n19    current->next = new_node;\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Initial list:\nnullptr\n\nAppending 5 into the list (inserting into an empty list):\n5->nullptr\n\nAppending elements 8, 3, 9, 7:\n5->8->3->9->7->nullptr"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

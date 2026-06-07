@@ -1,0 +1,82 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/print-output?page=2",
+  "title": "Print Strings and Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Strings and Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also print a string and a variable using a single print statement. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5    \n6    int age = 25;\n7    cout << \"Age: \" << age;\n8    \n9    return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Age: 25"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the line,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << \"Age: \" << age;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, cout first prints the string \"Age: \" and then it prints the value of the age variable, 25. Finally, the result Age: 25 is printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, we can also print multiple strings together separating them by <<. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5    \n6    cout << \"Hello, \" << \"How are you? \" << \"I love C++\";\n7    \n8    return 0;\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello, How are you? I love C++"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

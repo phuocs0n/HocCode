@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/conversion?page=3",
+  "title": "The tuple() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The tuple() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "The tuple() function converts an iterable (list, string, dict, or set) to a tuple. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# convert list to tuple\n2result = tuple([1, 2, 3])   # (1, 2, 3)\n3print(result)\n4\n5# convert string to tuple\n6result = tuple(\"Hello\")   # ('H', 'e', 'l', 'l', 'o')\n7print(result)\n8\n9# convert dictionary to tuple\n10# dictionary's keys will be tuple's items\n11result = tuple({2: 4, 10: 20})   # (2, 10)\n12print(result)\n13\n14# convert set to tuple\n15result = tuple({1, 2, 3})   # (1, 2, 3)\n16print(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will try the dict() function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

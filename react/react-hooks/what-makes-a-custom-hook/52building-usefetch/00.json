@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usefetch?page=1",
+  "title": "The Problem: Fetch Logic Copied Everywhere",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: Fetch Logic Copied Everywhere"
+    },
+    {
+      "type": "paragraph",
+      "content": "The fetch logic in App.jsx is tangled directly into the component:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A useEffect() with a loadEntries() inner function",
+        "Three state variables (isLoading, error, and entries)",
+        "A try...catch block."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Any other component that needs to fetch a different URL will have to duplicate all of it."
+    },
+    {
+      "type": "paragraph",
+      "content": "It'd be great if we could build a useFetch() hook that extracts this pattern into one reusable place. Every component that needs to fetch can call useFetch(url) and get back { data, isLoading, error }."
+    },
+    {
+      "type": "paragraph",
+      "content": "So let's start building it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

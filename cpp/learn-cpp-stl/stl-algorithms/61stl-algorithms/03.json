@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/stl-algorithms?page=4",
+  "title": "copy()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "copy()"
+    },
+    {
+      "type": "paragraph",
+      "content": "The copy() function copies a range of values to some new destination. Let's see the function signature first."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "iterator copy(iterator first, iterator last, new_iterator destination_first);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "first : Iterator to the first element of the range.",
+        "last : iterator to the last element of the range.",
+        "destination_first : iterator to the destination container."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This function returns an iterator to the element in the destination container which is one past the last element copied."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,38 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/circular-linked-list-operations?page=7",
+  "title": "Code: Insert at the Beginning",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code: Insert at the Beginning"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Insert node at the beginning of the list\nvoid insert_at_beginning(T data){\n    // If list is empty insert into empty list\n    if (head == nullptr) {\n        append_into_empty(data);\n        return;\n    }\n     Node<T>* current = head;\n\n     // Create a new node with given data.\n     Node<T>* new_node = new Node<T>({data});\n\n     // Loop until the next node is head\n     while(current->next != head){\n         current = current->next;\n     }\n\n     current->next = new_node;\n     new_node->next = head;\n\n     // new_node is the head\n     head = new_node;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

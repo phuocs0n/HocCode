@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/arithmetic-operators?page=4",
+  "title": "Perform Operation and Print",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Perform Operation and Print"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also perform addition directly without using the extra variable. Let's take an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 12.5\n2y = 10\n3\n4print(x + y)    # Output: 22.5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the line print(x + y) first computes the sum of x and y. Then, the result is directly printed on the screen."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

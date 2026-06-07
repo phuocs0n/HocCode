@@ -1,0 +1,100 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-python/array-representation-of-binary-tree?page=5",
+  "title": "Thought Process: Array Representation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Array Representation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how array representation is done."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Find the parent index."
+    },
+    {
+      "type": "paragraph",
+      "content": "For any node at index i in the array, the parent is located at index ((i - 1) // 2)."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# calculate the index of a node's parent\ndef parent(self, index):\n    return (index - 1) // 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Find the child index."
+    },
+    {
+      "type": "paragraph",
+      "content": "For any node at index i in the array:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The left child is located at index 2i + 1.",
+        "The right child is located at index 2i + 2."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# calculate the index of a node's left child\ndef left_child(self, index):\n    return 2 * index + 1\n\n# calculate the index of a node's right child\ndef right_child(self, index):\n    return 2 * index + 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Check if the parent exists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Given that our array starts at 0, we can say that the parent exists if the parent index is greater than or equal to 0."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# check if a node at a given index has a parent\ndef has_parent(self, index):\n    return self.parent(index) >= 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Check if a child exists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Assuming our binary tree is represented as an array, a child node is present only if the index of the child is within the bounds of the array's length."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# check if a node at a given index has a left child\ndef has_left_child(self, index):\n    return self.left_child(index) < len(self.array)\n\n# check if a node at a given index has a right child\ndef has_right_child(self, index):\n    return self.right_child(index) < len(self.array)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will look at the source code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

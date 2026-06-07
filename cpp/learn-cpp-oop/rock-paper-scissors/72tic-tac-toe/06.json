@@ -1,0 +1,111 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/tictactoe?page=7",
+  "title": "Step 4: Update the play() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Update the play() Function"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Update the play() function of the Game class.",
+        "Add the update_board() function to the Board class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4class Board {\n5    public:\n6\n7        char board[9] = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };\n8\n9        void print_board() {\n10            cout << \" \" << board[0] << \" | \" << board[1] << \" | \" << board[2] << endl;\n11            cout << \"-----------\" << endl;\n12            cout << \" \" << board[3] << \" | \" << board[4] << \" | \" << board[5] << endl;\n13            cout << \"-----------\" << endl;\n14            cout << \" \" << board[6] << \" | \" << board[7] << \" | \" << board[8] << endl;\n15        }\n16\n17\n18        bool update_board(int position, char type) {\n19\n20            // if a player selects position n, n-1 index should be updated\n21            // if the position is not already filled, update the board\n22            if (board[position - 1] == ' ') {\n23                board[position - 1] = type;\n24                return true;\n25            }\n26\n27            // if the position is already filled, ask user to select another position\n28            else {\n29                cout << \"Position already selected. Select another position.\";\n30                return false;\n31            }\n32        }\n33\n34};\n35\n36class Player {\n37    public:\n38\n39        string name;\n40        char type;\n41\n42        // function to select the player type and name\n43        void set_info(char type) {\n44\n45            // player type is 'X' if parameter is 'X' or 'x'            \n46            if (type == 'X' || type == 'x') {\n47\n48                // set member variable to 'X'\n49                this->type = 'X';\n50\n51                // get player name\n52                cout << \"Player selecting \" << this->type << \", enter your name: \";\n53                getline(cin, name);\n54            }\n55\n56            // player type is 'O' if parameter is any other character \n57            else {\n58                this->type = 'O';\n59                cout << \"Player selecting \" << this->type << \", enter your name: \";\n60                getline(cin, name);\n61            }\n62        }\n63};\n64\n65class Game {   \n66    public:\n67\n68        Board board;\n69\n70        Player player1;\n71        Player player2;\n72        Player* current_player;\n73        \n74        // constructor to set player data\n75        Game() {\n76            player1.set_info('X');\n77            player2.set_info('O');\n78            current_player = &player1;\n79        }\n80\n81\n82        void play() {\n83            \n84            int position;\n85\n86            // message to prompt player for their position\n87            string message = \"enter the position (1 - 9): \";\n88\n89            // using an infinite loop to run the game\n90            // we will later add conditions to terminate the loop\n91            while (true) {\n92\n93                cout << current_player->name << \" \" << message;\n94                cin >> position;\n95\n96                // the update_board() function returns true if\n97                // the user selected position is not already filled\n98                bool update = board.update_board(position, current_player->type);\n99\n100                // update the board if the selected position is not filled\n101                if (update) {\n102\n103                    board.print_board();\n104\n105                    // change current player when board is updated\n106                    if (current_player == &player1) {\n107                        current_player = &player2;\n108                    }\n109\n110                    else {\n111                        current_player = &player1;\n112                    }\n113                }\n114            }\n115        }\n116\n117};\n118\n119int main() {\n120\n121    Game game;\n122    game.play();\n123\n124    return 0;\n125}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: Lily\nPlayer selecting O, enter your name: Robin\nLily enter the position (1 - 9): 2\n   | X |  \n-----------\n   |   |  \n-----------\n   |   |  \nRobin enter the position (1 - 9): 4\n   | X |  \n-----------\n O |   |  \n-----------\n   |   |  \nLily enter the position (1 - 9):"
+    },
+    {
+      "type": "paragraph",
+      "content": "The update_board() function"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function takes two arguments:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "position - the position selected by the user (an integer).",
+        "type - if the current player is player1, it will be 'X'; otherwise it will be 'O'."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This function checks if the position is already filled or not. If it's not filled, we will update the board, and true is returned. However, if the position is already filled, a message is shown, and false is returned."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, we have used board[position - 1] to update the board. It's because if a player selects position 2, we have to update index 1 of the list. Remember that the array index starts from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "The play() function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the function, we have a while loop to run the game continuously; we will add logic to terminate the loop later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the loop, we ask the user to enter a position between 1 and 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we call the update_board() function of the Board class. To call this function, we have used the following code:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "bool update = board.update_board(position, current_player->type);"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have called the update_board() function with parameters position and the current player type."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the position passed to update_board() is not already selected, true is returned. In that case, the current_player is changed to the next player."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

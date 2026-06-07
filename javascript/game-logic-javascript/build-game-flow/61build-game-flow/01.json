@@ -1,0 +1,84 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/build-game-flow?page=2",
+  "title": "The Game Flow",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Game Flow"
+    },
+    {
+      "type": "paragraph",
+      "content": "The quiz runs like this:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Start a round (reset score, wrongAnswers, and i)",
+        "Loop through all questions (while (i < questions.length))",
+        "For each question:\n\t\tshow the question + optionsask for inputkeep asking until the input is A/B/Cupdate score (or store it as wrong)",
+        "show the question + options",
+        "ask for input",
+        "keep asking until the input is A/B/C",
+        "update score (or store it as wrong)"
+      ]
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "show the question + options",
+        "ask for input",
+        "keep asking until the input is A/B/C",
+        "update score (or store it as wrong)"
+      ]
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "After the loop:",
+        "calculate pass/fail",
+        "show score + message",
+        "Ask to replay. If the answer isn't yes/y, end the game."
+      ]
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "calculate pass/fail",
+        "show score + message"
+      ]
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Ask to replay. If the answer isn't yes/y, end the game."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's the whole game. Now let's write it in one clean loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

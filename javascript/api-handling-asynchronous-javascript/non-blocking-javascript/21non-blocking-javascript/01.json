@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/nonblocking-javascript?page=2",
+  "title": "Web APIs",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Web APIs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Web APIs are features provided by the browser (or runtime) that handle tasks JavaScript is bad at. Examples include:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Timers (such as setTimeout())",
+        "Network requests (such as fetch())",
+        "DOM events (clicks, scrolls)",
+        "Browser storage",
+        "Media access"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These are not parts of the JavaScript language itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript hands over the responsibilities to the environment that runs the script. Meanwhile, it keeps running other codes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Below are the main JavaScript runtime environments, explained from a developer's perspective:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Browser Runtime Environment",
+        "Nodejs Environment"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You don't need to learn about these environments right now (our coming soon Advance JavaScript course will handle that)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, we'll now shift our focus to an important Web API, which is setTimeout()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

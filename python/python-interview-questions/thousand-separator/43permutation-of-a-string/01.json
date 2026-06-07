@@ -1,0 +1,51 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/permutation-of-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "The permutation of a string is the possible combination of letters in a string. We can swap and shift letters within a string from the given string."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we will use recursion. Here's how this program will work:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Initially, we will create a recursive function that accepts a string and integer (with default value 0) parameters.",
+        "We will then compare the integer parameter with the length of the string parameter. If they are equal, we will print the string. It will act as a termination condition which will end our recursive function.",
+        "Run a for loop that starts from the integer parameter to the length of the string.",
+        "Inside the loop, we will create a list containing each character of the string.",
+        "We will then swap each character of the string with one another for multiple permutations and make the recursive call to the function."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

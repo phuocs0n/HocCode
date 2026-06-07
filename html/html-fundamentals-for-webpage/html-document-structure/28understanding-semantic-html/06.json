@@ -1,0 +1,75 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/understanding-semantic-html?page=5",
+  "title": "Semantic vs Non-Semantic: A Simple Comparison",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Semantic vs Non-Semantic: A Simple Comparison"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's proceed by comparing semantic and non-semantic HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both of the codes below render content, but only one explains it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example: Non-Semantic HTML"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div>\n2  <h2>Why Learn HTML?</h2>\n3  <p>HTML is the foundation of the web.</p>\n4</div>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example: Semantic HTML"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section>\n2  <h2>Why Learn HTML?</h2>\n3  <p>HTML is the foundation of the web.</p>\n4</section>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run both codes and compare them. They're visually similar, but different when it comes to the meanings they convey."
+    },
+    {
+      "type": "paragraph",
+      "content": "Developers choose the second code when the content represents a real section of the page. So, ask yourself this question when writing HTML:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"If another developer opened this file, would they understand the structure and meaning without reading every line?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "If the answer is yes, you're using Semantic HTML well."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

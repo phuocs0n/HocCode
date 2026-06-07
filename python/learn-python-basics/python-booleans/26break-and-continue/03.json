@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/break-continue?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How many times is the print statement executed in the following program?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "for i in range(1, 11):\n    print(\"Hello\")\n\n    if i == 5:\n        break"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "10 times"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 times"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to i = 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to i = 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "4 times"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "(error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to i = 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to i = 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "The print statement executes five times from i = 1 to 5. Only then the break statement is encountered, which ends the loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How many times is the print statement executed in the following program?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:10 times",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "10 times",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:5 times",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "5 times",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:4 times",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "4 times",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(error)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(error)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

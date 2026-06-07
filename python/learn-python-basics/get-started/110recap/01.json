@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/recap?page=2",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Data Types"
+    },
+    {
+      "type": "paragraph",
+      "content": "We started by learning different types of data:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "String: \"Hello\", '123a'",
+        "Floating-point Numbers: 124.3, 12.0",
+        "Integers: 23, 42"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "To store and use these data later in the program, you can store them in variables."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 5\n2y = x\n3\n4print(f\"y = x = {x}\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "In programming, you often need to perform calculations on values and variables, not just print them. To handle mathematical calculations, we use operators."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = 7\n2y = 3\n3\n4remainder = x % y\n5power = x ** y\n6\n7print(f\"Remainder: {remainder}\")\n8print(f\"Power: {power}\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "More on what you learned on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

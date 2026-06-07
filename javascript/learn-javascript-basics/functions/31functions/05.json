@@ -1,0 +1,192 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-functions?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function addNumbers() {\n    console.log(5 + 3);\n}\n\naddNumbers();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "5 + 3"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function performs a calculation, so the result should be the outcome of the calculation."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function performs a calculation, so the result should be the outcome of the calculation."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "8"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When addNumbers() is called, console.log(5 + 3) is executed, displaying 8 on the console."
+    },
+    {
+      "type": "paragraph",
+      "content": "When addNumbers() is called, console.log(5 + 3) is executed, displaying 8 on the console."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "addNumbers"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function does not print the function name. The function prints the sum of 5 and 3."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function does not print the function name. The function prints the sum of 5 and 3."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "console.log"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The console.log() method displays the content that's inside ( ) not its own name."
+    },
+    {
+      "type": "paragraph",
+      "content": "The console.log() method displays the content that's inside ( ) not its own name."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function performs a calculation, so the result should be the outcome of the calculation."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function performs a calculation, so the result should be the outcome of the calculation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When addNumbers() is called, console.log(5 + 3) is executed, displaying 8 on the console."
+    },
+    {
+      "type": "paragraph",
+      "content": "When addNumbers() is called, console.log(5 + 3) is executed, displaying 8 on the console."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function does not print the function name. The function prints the sum of 5 and 3."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function does not print the function name. The function prints the sum of 5 and 3."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The console.log() method displays the content that's inside ( ) not its own name."
+    },
+    {
+      "type": "paragraph",
+      "content": "The console.log() method displays the content that's inside ( ) not its own name."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:5 + 3",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "5 + 3",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:8",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:addNumbers",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "addNumbers",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:console.log",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "console.log",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

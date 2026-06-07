@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/why-variables?page=2",
+  "title": "First Variable",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "First Variable"
+    },
+    {
+      "type": "paragraph",
+      "content": "We create a variable with var, then the name, then =, then the value."
+    },
+    {
+      "type": "paragraph",
+      "content": "For the quiz, we need a pass mark. We store it once and use it whenever we need it:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var passMark = 40;\n2console.log(\"The passing mark is \" + passMark);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, passMark holds the number 40. We use it inside console.log() so the player sees the rule."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

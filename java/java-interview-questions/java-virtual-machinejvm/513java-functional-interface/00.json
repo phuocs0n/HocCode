@@ -1,0 +1,59 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/java-functional-interface?page=1",
+  "title": "Can you explain the concept of a Java functional interface?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Can you explain the concept of a Java functional interface?"
+    },
+    {
+      "type": "paragraph",
+      "content": "If a Java interface contains one and only one abstract method (method without a body) then it is a functional interface."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "interface AddNumber{  \n  \n    void add();\n  \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the interface AddNumber has only one abstract method add(). Hence, it is a functional interface."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use @FunctionalInterface annotation to indicate an interface as a functional interface."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "@FunctionalInterface  \ninterface AddNumber{  \n \n    void add(); \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "@FunctionalInterface annotation allows only one abstract method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

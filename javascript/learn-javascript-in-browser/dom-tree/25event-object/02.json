@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/event-object?page=2",
+  "title": "Event Object",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Event Object"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object contains important information about the event, like the type of event, which element triggered the event, and even the position of the mouse when the event happened."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's print it out to explore its contents:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>Click the Button to Log Event</h1>\n2<button id=\"logButton\">Click Me</button>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    font-family: Arial, sans-serif;\n3    text-align: center;\n4    margin-top: 50px;\n5}\n6\n7button {\n8    font-family: Arial, sans-serif;\n9    padding: 16px 32px;\n10    background-color: #0556F3;\n11    color: white;\n12    border: none;\n13    border-radius: 5px;\n14    cursor: pointer;\n15}\n16\n17button:hover {\n18    background-color: #024cdb;\n19}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const button = document.querySelector(\"#logButton\");\n2\n3button.addEventListener(\"click\", function(event) {\n4    // Log the event object to the console\n5    console.log(event);\n6});"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you click the button, you'll see the Event Object logged to the console."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore what all we can do with it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

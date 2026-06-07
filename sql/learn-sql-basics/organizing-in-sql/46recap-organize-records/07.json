@@ -1,0 +1,63 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2?page=8",
+  "title": "Finding Employees Eligible for Promotion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding Employees Eligible for Promotion"
+    },
+    {
+      "type": "paragraph",
+      "content": "The company is preparing to promote its employees based on their years of service. Consequently, your manager asks you to categorize employees accordingly."
+    },
+    {
+      "type": "paragraph",
+      "content": "The idea behind this is:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Years of Service >= 10: Eligible for an Executive Role",
+        "Years of Service >= 5: Eligible for Senior-Level Promotion",
+        "Years of Service >= 3: Eligible for Mid-Level Promotion",
+        "Years of Service < 3: Not Eligible for Promotion"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To do this, use SQL CASE as follows:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Identify employees eligible for Promotion\n2\n3SELECT \n4    id,\n5    name,\n6    years_of_service,\n7    CASE \n8        WHEN years_of_service >= 10 THEN 'Eligible for Executive Role'\n9        WHEN years_of_service >= 5 THEN 'Eligible for Senior-Level Promotion'\n10        WHEN years_of_service >= 3 THEN 'Eligible for Mid-Level Promotion'\n11        ELSE 'Not Eligible for Promotion'\n12    END AS promotion_eligibility\n13FROM Employees;"
+    },
+    {
+      "type": "paragraph",
+      "content": "These data can help the company build a strong leadership pipeline and maintain a future-ready workforce."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

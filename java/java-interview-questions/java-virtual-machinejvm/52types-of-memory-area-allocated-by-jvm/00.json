@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/types-of-memory-area-allocated-by-jvm?page=1",
+  "title": "How many types of memory areas are allocated by JVM?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How many types of memory areas are allocated by JVM?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Java Virtual Machine (JVM) allocates several types of memory when it runs a Java program. Some of them are:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Method Area: When you compile a Java class, it gets converted into bytecode and stored in the method area. This bytecode includes information about the class's methods and fields as well as the constant pool which contains constants used by the class (such as string literals or constant values)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Heap Memory: Whenever you create an object using the new keyword, Java allocates memory for it on the heap. This is where all the objects are stored. So, if you have a Person object called p, it will be stored in the heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Stack Memory: Whenever a Java method is called, Java creates a new stack frame on the stack to store all the method's local variables and method parameters. The stack memory is used for temporary storage, and once the method finishes executing, the stack frame is removed. Think of it like a stack of plates where you keep adding and removing plates as you eat."
+    },
+    {
+      "type": "paragraph",
+      "content": "PC Registers: The program counter (PC) register is a small area of memory that keeps track of the current instruction being executed by the Java Virtual Machine (JVM). For example, if you have a loop that iterates over an array, the PC register will keep track of the current index being accessed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Native Area: This is the memory area where Java stores data and objects that are not managed by the JVM. For example, if you're calling a C library using JNI, any memory allocated by the C library will be stored in the native area. The native area is like a separate room in your house where you keep things that are not related to your daily activities."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

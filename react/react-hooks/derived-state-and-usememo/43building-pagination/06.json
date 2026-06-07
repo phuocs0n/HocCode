@@ -1,0 +1,46 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/building-pagination?page=7",
+  "title": "Adding the Previous and Next Buttons",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding the Previous and Next Buttons"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll add the buttons below the entry list in App.jsx. These buttons/controls only appear when there is more than one page of results."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "{!isLoading && !error && filteredEntries.length > ENTRIES_PER_PAGE && (\n  <div className=\"pagination\">\n\n    <button\n      className=\"btn btn-secondary\"\n      onClick={handlePrev}\n      disabled={currentPage === 1}\n    >\n      Previous\n    </button>\n\n    <button\n      className=\"btn btn-secondary\"\n      onClick={handleNext}\n      disabled={currentPage === Math.ceil(filteredEntries.length / ENTRIES_PER_PAGE)}\n    >\n      Next\n    </button>\n\n  </div>\n)}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's put it all together in the updated App.jsx."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

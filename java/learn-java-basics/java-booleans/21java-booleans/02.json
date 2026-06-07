@@ -1,0 +1,75 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-booleans?page=3",
+  "title": "Understanding Booleans",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Booleans"
+    },
+    {
+      "type": "paragraph",
+      "content": "The boolean values, true and false, are fixed values, similar to numbers like 15, 2.5 or text like \"Hello\". This means:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Booleans aren't strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"true\" is a string (text). However, when you use true without quotation marks, it's a boolean value."
+    },
+    {
+      "type": "paragraph",
+      "content": "The boolean value true generally means yes and false means no. This property makes booleans essential for creating programs that make decisions."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Booleans aren't variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even though true and false might seem like variable names, they can't be used as variables because they are fixed values, like numbers and strings. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        boolean true = 25; \n4        System.out.println(true);\n5    }\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Main.java:3: error: not a statement\n        boolean true = 25; \nMain.java:3: error: ';' expected\n        ^\n        boolean true = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This error indicates that you can't assign a value to true. However, you can use True (uppercase) and False (uppercase) as variable names."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,42 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/tuples?page=3",
+  "title": "Tuple Length",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tuple Length"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the same len() function to get the number of items a tuple has. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# tuple containing 3 items\n2languages = ('Python', 'JavaScript', 'C++')\n3\n4length = len(languages)\n5print(length)    # Output: 3\n6\n7# empty tuple\n8animals = ()\n9\n10length = len(animals)\n11print(length)   # Output: 0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

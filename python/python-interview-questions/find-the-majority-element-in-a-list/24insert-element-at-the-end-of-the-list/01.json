@@ -1,0 +1,46 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/insert-element-at-end-of-list?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python provides a built-in method append() that allows us to add an element to the end of the list. Here's how we will use the method:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "num_list.append(9)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The append() method will insert the element 9 to the end of the list named num_list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

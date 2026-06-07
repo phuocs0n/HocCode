@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-html/text-fundamentals?page=4",
+  "title": "Self-Closing Tags",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Self-Closing Tags"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML self-closing tags do not require an end tag. For example, the <br> tag we just used."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two ways to write self-closing tags."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can either use <br> or <br /> to create a line break."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>Address</p>\n2<br />\n3<p>Contact us at:<br />\n4123 Main Street<br />\n5Cityville, State 12345<br />\n6Phone: (123) 456-7890</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a matter of preference which one you choose to use."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, don't use self-closing tags like this: <br></br>, as it's not correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rewrite the above code on the html editor to your right replacing <br /> with <br> and see the output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

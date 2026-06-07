@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/foreign-key?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is true about foreign keys?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A foreign key is a column in a table that uniquely identifies each row in that table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A PRIMARY KEY uniquely identifies each row in a table."
+    },
+    {
+      "type": "paragraph",
+      "content": "A PRIMARY KEY uniquely identifies each row in a table."
+    },
+    {
+      "type": "paragraph",
+      "content": "A foreign key is a column in a table that references a column in another table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Foreign keys establish a link between two tables to prevent data inconsistencies."
+    },
+    {
+      "type": "paragraph",
+      "content": "Foreign keys establish a link between two tables to prevent data inconsistencies."
+    },
+    {
+      "type": "paragraph",
+      "content": "A foreign key is a column in a table that allows null values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we do not add any constraints to a column, the column allows null values by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we do not add any constraints to a column, the column allows null values by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "A foreign key is a column not used to establish relationships between tables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Foreign keys are used to establish relationships between tables to prevent data inconsistencies."
+    },
+    {
+      "type": "paragraph",
+      "content": "Foreign keys are used to establish relationships between tables to prevent data inconsistencies."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is true about foreign keys?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A foreign key is a column in a table that uniquely identifies each row in that table.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A foreign key is a column in a table that uniquely identifies each row in that table.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A foreign key is a column in a table that references a column in another table.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A foreign key is a column in a table that references a column in another table.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A foreign key is a column in a table that allows null values.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A foreign key is a column in a table that allows null values.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A foreign key is a column not used to establish relationships between tables.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A foreign key is a column not used to establish relationships between tables.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

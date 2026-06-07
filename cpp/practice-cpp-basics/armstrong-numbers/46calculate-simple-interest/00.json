@@ -1,0 +1,94 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/calculate-simple-interest?page=1",
+  "title": "Calculate Simple Interest",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculate Simple Interest"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate simple interest using a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to calculate simple interest is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Simple Interest = (principal * time * rate) / 100"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function simple_interest() that accepts three double arguments: principal, time and rate.",
+        "Inside the function, compute simple interest and return it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside main(), get three double inputs: principal, time and rate.",
+        "Call simple_interest() with 3 parameters.",
+        "Print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input15000\n2\n15"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output4500"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/fetch-api?page=7",
+  "title": "Step 5: Handling Errors in One Place",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 5: Handling Errors in One Place"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1.catch(error => {\n2    console.error(\"Could not load movie details:\", error.message);\n3});"
+    },
+    {
+      "type": "paragraph",
+      "content": "The execution jumps straight to .catch() if anything goes wrong at any step. These mishaps can include:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Network failure",
+        "HTTP error",
+        "JSON parsing error"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of asking \"Where might this fail?\", you always know: \"If it fails, it'll end up here.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "That predictability is one of the main reasons promises are preferred over deeply nested callbacks."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

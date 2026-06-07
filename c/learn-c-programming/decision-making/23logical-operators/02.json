@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/logical-operators?page=3",
+  "title": "&& (AND) Toán tử",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "&& (AND) Toán tử"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dưới đây là ví dụ hiển thị bốn trường hợp cho toán tử AND:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int age = 22;\n6  double gpa = 3.6;\n7\n8  if ((age >= 18) && (gpa > 3.5)) {\n9      printf(\"%d %.2lf\", age, gpa);\n10  }\n11\n12   if ((age >= 18) && (gpa > 3.7)){\n13      printf(\"%d %.2lf\", age, gpa);\n14  }\n15\n16  if ((age >= 25) && (gpa > 3.5)){\n17      printf(\"%d %.2lf\", age, gpa);\n18  }\n19\n20   \n21  return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu ra mẫu"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "22 3.60"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy cùng xem || Toán tử (OR) hoạt động tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

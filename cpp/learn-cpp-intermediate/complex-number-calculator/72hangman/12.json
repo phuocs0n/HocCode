@@ -1,0 +1,46 @@
+{
+  "index": 12,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=12",
+  "title": "Step 1.7: Assembling the Game Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1.7: Assembling the Game Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, let's see how our Game class looks."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Game {\nprivate:\n\n    string word;\n    string user_answer;\n    string incorrect;\n    string entered_characters;\n    int misses;\n    Message message;\n\npublic:\n\n    // constructor to initialize attributes\n    Game(string chosen_word) {\n        word = chosen_word;\n        incorrect = \"\";\n        entered_characters = \"\";\n        misses = 0;\n\n        for (int i = 0; i < word.length(); ++i) {\n            user_answer += \"_\";\n        }\n    }\n\n    // method to ensure that user input is\n    // an alphabet and not a previous input\n    bool is_guess_valid(char letter) {\n\n        if (!isalpha(letter)) {\n            message.invalid_character_message();\n            return false;\n        }\n\n        for (int i = 0; i < entered_characters.length(); ++i) {            \n            if (letter == entered_characters[i]) {\n                message.already_entered_message();\n                return false;\n            }\n        }\n\n        return true;\n    }\n\n    // method to check if guess is correct\n    void is_guess_correct(char letter) {\n\n        bool guess = false;\n\n        for (int i = 0; i < word.length(); i++) {\n            if (letter == word[i]) {\n                user_answer[i] = letter;\n                guess = true;\n            }\n        }\n\n        if (guess) {\n            message.correct_message();\n        }\n        else {\n            message.incorrect_message();\n            incorrect += letter;\n            incorrect += \", \";\n            ++misses;\n        }\n\n        entered_characters += letter;\n    }\n\n    // method to check if the game is over\n    bool is_game_over() {\n        if (user_answer == word || misses >= max_misses) {\n            return true;\n        }\n        return false;\n    }\n\n    // method to display the game status\n    void display_game_status() {\n        message.display_incorrect_guesses(incorrect);\n        message.display_user_answer(user_answer);\n        message.display_misses(misses);\n    }\n\n    // method to display the final result\n    void display_final_result() {\n        message.final_result(user_answer, word);\n    }\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our Game class is now complete. Now, let's add the main() function so that we can create objects of the Message and Game classes and add further programming logic."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

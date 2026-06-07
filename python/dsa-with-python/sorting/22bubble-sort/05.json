@@ -1,0 +1,42 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-python/bubble-sort?page=6",
+  "title": "Visualize Bubble Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Visualize Bubble Sort"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click on the \"Visualize this code\" button below to see bubble sort in action."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def bubble_sort(lst):\n2\n3    size = len(lst)\n4\n5    # outer loop to access each list element\n6    for i in range(size):\n7\n8        # inner loop to compare list elements\n9        for j in range(size - 1):\n10\n11            # swap elements if necessary\n12            if lst[j] > lst[j + 1]:\n13                lst[j], lst[j + 1] = lst[j + 1], lst[j]\n14\n15    return lst       \n16\n17data_list = [15, 16, 6, 8, 5]\n18print(f\"Unsorted List: {data_list}\")\n19\n20sorted_list = bubble_sort(data_list)\n21\n22print(f\"Sorted List: {sorted_list}\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

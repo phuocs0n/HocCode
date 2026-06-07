@@ -1,0 +1,156 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-lambda?page=5",
+  "title": "Complete Syntax: C++ Lambda",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Complete Syntax: C++ Lambda"
+    },
+    {
+      "type": "paragraph",
+      "content": "A complete syntax for a lambda expression looks like:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[] () mutable throw() -> int {\n // lambda body\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at each part one by one."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. [] (Capture Clause)"
+    },
+    {
+      "type": "paragraph",
+      "content": "A capture clause in a lambda expression is used to capture values from the surrounding scope. There are various ways to capture values however we'll look into two ways:"
+    },
+    {
+      "type": "paragraph",
+      "content": "a. Capture by Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "To capture variables by value, we add the symbol = inside the capture clause, i.e., [=] as:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[=] {\n  cout << \"Capturing surrounding variables by value\"\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "b. Capture by Reference"
+    },
+    {
+      "type": "paragraph",
+      "content": "To capture variables by reference, we add the symbol & inside the capture clause, i.e., [&] as:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[&] {\n  cout << \"Capturing surrounding variables by reference\"\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. () (Parameter List)"
+    },
+    {
+      "type": "paragraph",
+      "content": "A parameter list is optional and is similar to a function's parameter list."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[=] (int x, int y) {\n  // lambda body\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This lambda expression expects two function parameters, x and y both of type int."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Mutable Specification"
+    },
+    {
+      "type": "paragraph",
+      "content": "A mutable specification is optional and if added allows the lambda expression to mutate (change) the variables captured by value within the lambda expression."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[=] mutable {\n  // variables can be changed here \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Exception Specification"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exception specification allows us to indicate whether the lambda expression throws an exception or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is also optional."
+    },
+    {
+      "type": "paragraph",
+      "content": "To indicate no exception is thrown,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[] () noexcept{\n  // don't throw exception\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here we used the noexcept keyword to indicate that the lambda doesn't throw an exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Trailing Return Type"
+    },
+    {
+      "type": "paragraph",
+      "content": "A trailing return type is used to indicate the return type of the lambda expression. This is also optional."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[] (int x, int y) -> int {\n  return x + y;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, -> int indicates that the return value is of type int."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll look into complete examples using the concept we learnt here."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

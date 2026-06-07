@@ -1,0 +1,64 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/get-even-numbers-from-array?page=1",
+  "title": "Get Even Numbers From an Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Get Even Numbers From an Array"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an integer array of size 10 with initial values: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "Create another array of the same size.",
+        "Run a for loop to access each element of the first array.",
+        "Inside the loop, check if each element of the first array is divisible by 2 (even element).",
+        "If true, assign the even element to the second array and track the position of the second array.",
+        "Print the second array."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output2\n4\n6\n8\n10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

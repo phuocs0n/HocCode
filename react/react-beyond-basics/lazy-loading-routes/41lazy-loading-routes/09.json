@@ -1,0 +1,113 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/lazy-loading-routes?page=9",
+  "title": "Update App.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Update App.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the complete updated App.jsx with all three pages lazy-loaded and a Suspense boundary wrapping the routes."
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { lazy, Suspense } from 'react'\n2import { Routes, Route } from 'react-router-dom'\n3import HomePage from './pages/HomePage'\n4\n5const EntryDetailPage = lazy(() => import('./pages/EntryDetailPage'))\n6const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))\n7\n8function App() {\n9  return (\n10    <div className=\"main-container\">\n11      <Suspense fallback={<p className=\"loading-state\">Loading...</p>}>\n12        <Routes>\n13          <Route path=\"/\" element={<HomePage />} />\n14          <Route path=\"/entries/:id\" element={<EntryDetailPage />} />\n15          <Route path=\"*\" element={<NotFoundPage />} />\n16        </Routes>\n17      </Suspense>\n18    </div>\n19  )\n20}\n21\n22export default App"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2import { useTheme } from '../context/ThemeContext'\n3\n4function Header({ query, onQueryChange }) {\n5  const { theme, toggleTheme } = useTheme()\n6\n7  const searchRef = useRef(null);\n8\n9  useEffect(function () {\n10    searchRef.current.focus();\n11  }, []);\n12\n13  function handleChange(e) {\n14    onQueryChange(e.target.value);\n15  }\n16\n17  function handleClear() {\n18    onQueryChange(\"\");\n19    searchRef.current.focus();\n20  }\n21\n22  return (\n23    <header className=\"header\">\n24      <button className=\"btn btn-secondary theme-toggle\" onClick={toggleTheme}>\n25        {theme === 'light' ? 'Dark mode' : 'Light mode'}\n26      </button>\n27      <h2 className=\"title-primary\">My Daily Journal</h2>\n28      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n29      <div className=\"header-search\">\n30        <input\n31          ref={searchRef}\n32          className=\"search-input\"\n33          type=\"text\"\n34          placeholder=\"Search entries...\"\n35          value={query}\n36          onChange={handleChange}\n37        />\n38        {query && (\n39          <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n40        )}\n41      </div>\n42    </header>\n43  );\n44}\n45\n46export default Header"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { Link } from 'react-router-dom'\n2\n3function EntryCard({ id, title, date, author, content, bookmarked, onBookmark }) {\n4  return (\n5    <div className={'entry-card' + (bookmarked ? ' bookmarked' : '')}>\n6      <Link to={`/entries/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>\n7        <p className=\"entry-date\">{date}</p>\n8        <h2 className=\"entry-title\">{title}</h2>\n9        <p className=\"entry-author\">by {author}</p>\n10        <p className=\"entry-content\">{content}</p>\n11      </Link>\n12      <button\n13        className=\"btn btn-secondary\"\n14        onClick={function (e) { e.preventDefault(); onBookmark() }}\n15      >\n16        {bookmarked ? '★ Bookmarked' : '☆ Bookmark'}\n17      </button>\n18    </div>\n19  )\n20}\n21\n22export default EntryCard"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useEffect } from \"react\";\n2\n3function useFetch(url) {\n4  const [data, setData] = useState(null);\n5  const [isLoading, setIsLoading] = useState(true);\n6  const [error, setError] = useState(null);\n7  const [refetchKey, setRefetchKey] = useState(0);\n8\n9  useEffect(function () {\n10    async function fetchData() {\n11      setIsLoading(true);\n12      setError(null);\n13      try {\n14        const res = await fetch(url);\n15        \n16        if (!res.ok) {\n17          throw new Error(\"Could not load data. Status: \" + res.status);\n18        }\n19        const json = await res.json();\n20        setData(json);\n21        setIsLoading(false);\n22      } catch (err) {\n23        setError(err.message);\n24        setIsLoading(false);\n25      }\n26    }\n27    fetchData();\n28  }, [url, refetchKey]);\n29\n30  function refetch() {\n31    setRefetchKey(function (k) { return k + 1; });\n32  }\n33\n34  return { data, isLoading, error, refetch };\n35}\n36\n37export default useFetch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function useSearch(entries) {\n4  const [query, setQuery] = useState(\"\");\n5\n6  const filteredEntries = useMemo(function () {\n7    if (!query.trim()) return entries;\n8    const lower = query.toLowerCase();\n9    return entries.filter(function (entry) {\n10      return (\n11        entry.title.toLowerCase().includes(lower) ||\n12        entry.content.toLowerCase().includes(lower)\n13      );\n14    });\n15  }, [entries, query]);\n16\n17  return { query, setQuery, filteredEntries };\n18}\n19\n20export default useSearch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function usePagination(entries, pageSize) {\n4  const [currentPage, setCurrentPage] = useState(1);\n5\n6  const totalPages = useMemo(function () {\n7    return Math.ceil(entries.length / pageSize);\n8  }, [entries, pageSize]);\n9\n10  const pagedEntries = useMemo(function () {\n11    const start = (currentPage - 1) * pageSize;\n12    return entries.slice(start, start + pageSize);\n13  }, [entries, currentPage, pageSize]);\n14\n15  function handleNext() {\n16    setCurrentPage(function (p) { return Math.min(p + 1, totalPages); });\n17  }\n18\n19  function handlePrev() {\n20    setCurrentPage(function (p) { return Math.max(p - 1, 1); });\n21  }\n22\n23  function reset() {\n24    setCurrentPage(1);\n25  }\n26\n27  return { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset };\n28}\n29\n30export default usePagination"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useJournal } from '../context/JournalContext'\n2import Header from '../components/Header'\n3import EntryCard from '../components/EntryCard'\n4import usePagination from '../hooks/usePagination'\n5import useSearch from '../hooks/useSearch'\n6\n7const ENTRIES_PER_PAGE = 5\n8\n9function HomePage() {\n10    const { entries, dispatch, isLoading,refetch, error } = useJournal()\n11    const { query, setQuery, filteredEntries } = useSearch(entries)\n12\n13    const { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset } = usePagination(\n14        filteredEntries,\n15        ENTRIES_PER_PAGE );\n16\n17  function handleQueryChange(newQuery) {\n18    setQuery(newQuery)\n19    reset()\n20  }\n21\n22  return (\n23    <>\n24    <Header query={query} onQueryChange={handleQueryChange} />\n25    <section className=\"entries-section\">\n26      <div className=\"entry-list-header\">\n27        <h3>Recent Entries</h3>\n28        <span className=\"entry-count\">{filteredEntries.length}</span>\n29        {query && <span className=\"entry-count\">{'of ' + entries.length}</span>}\n30        <button className=\"btn btn-secondary\" onClick={refetch}>Refresh</button>\n31      </div>\n32      {isLoading ? (\n33        <p className=\"loading-state\">Loading entries...</p>\n34      ) : error ? (\n35        <div className=\"error-banner\">\n36          <p className=\"error-label\">Something went wrong.</p>\n37          <p className=\"error-detail\">{error}</p>\n38        </div>\n39      ) : pagedEntries.length === 0 ? (\n40        <p className=\"empty-state\">No entries found.</p>\n41      ) : (\n42        pagedEntries.map(function (entry) {\n43          return (\n44             <EntryCard\n45              key={entry.id}\n46              id={entry.id}\n47              title={entry.title}\n48              date={entry.date}\n49              content={entry.content}\n50              author={entry.author}\n51              bookmarked={entry.bookmarked}\n52              onBookmark={function () { dispatch({ type: 'BOOKMARK_ENTRY', payload: { id: entry.id } }) }}\n53            />\n54          )\n55        })\n56      )}\n57      {!isLoading && !error && totalPages > 1 && (\n58        <div className=\"pagination\">\n59          <button className=\"btn btn-secondary\" onClick={handlePrev} disabled={currentPage === 1}>Previous</button>\n60          <span className=\"pagination-info\">Page {currentPage} of {totalPages}</span>\n61          <button className=\"btn btn-secondary\" onClick={handleNext} disabled={currentPage === totalPages}>Next</button>\n62        </div>\n63      )}\n64    </section>\n65    </>\n66  )\n67}\n68\n69export default HomePage;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useParams, Link, useNavigate } from 'react-router-dom'\n2import { useJournal } from '../context/JournalContext'\n3\n4function EntryDetailPage() {\n5  const { id } = useParams()\n6  const navigate = useNavigate()\n7  const { entries, dispatch, isLoading } = useJournal()\n8\n9  const entry = entries.find(function (e) { return String(e.id) === id })\n10\n11  if (isLoading) return <p className=\"loading-state\">Loading entry...</p>\n12  if (!entry) return (\n13    <div className=\"not-found\">\n14      <h2>Entry not found</h2>\n15      <Link className=\"btn btn-primary\" to=\"/\">Back to Journal</Link>\n16    </div>\n17  )\n18\n19  return (\n20    <article className=\"entry-detail\">\n21      <div className=\"entry-detail-nav\">\n22        <button className=\"btn btn-secondary\" onClick={function () { navigate('/') }}>Back to Journal</button>\n23        <button\n24          className=\"btn btn-secondary\"\n25          onClick={function () { dispatch({ type: 'BOOKMARK_ENTRY', payload: { id: entry.id } }) }}\n26        >\n27          {entry.bookmarked ? '★ Bookmarked' : '☆ Bookmark'}\n28        </button>\n29      </div>\n30      <p className=\"entry-date\">{entry.date}</p>\n31      <h2 className=\"entry-title\">{entry.title}</h2>\n32      <p className=\"entry-detail-meta\">by {entry.author}</p>\n33      <p className=\"entry-detail-content\">{entry.content}</p>\n34    </article>\n35  )\n36}\n37\n38export default EntryDetailPage"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { createRoot } from \"react-dom/client\"\n2import { BrowserRouter } from \"react-router-dom\"\n3import { ThemeProvider } from \"./context/ThemeContext\"\n4import { JournalProvider } from \"./context/JournalContext\"\n5import App from \"./App.jsx\"\n6import './style.css'\n7\n8createRoot(document.getElementById(\"root\")).render(\n9  <BrowserRouter>\n10    <ThemeProvider>\n11      <JournalProvider>\n12        <App />\n13      </JournalProvider>\n14    </ThemeProvider>\n15  </BrowserRouter>\n16);"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { createContext, useContext, useState, useEffect } from 'react'\n2\n3const ThemeContext = createContext(null)\n4\n5export function ThemeProvider({ children }) {\n6  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light')\n7\n8  useEffect(function () {\n9    document.documentElement.setAttribute('data-theme', theme)\n10    localStorage.setItem('theme', theme)\n11  }, [theme])\n12\n13  function toggleTheme() {\n14    setTheme(function (t) { return t === 'light' ? 'dark' : 'light' })\n15  }\n16\n17  return (\n18    <ThemeContext.Provider value={{ theme, toggleTheme }}>\n19      {children}\n20    </ThemeContext.Provider>\n21  )\n22}\n23\n24export function useTheme() {\n25  return useContext(ThemeContext)\n26}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { createContext, useReducer, useState, useContext, useEffect } from 'react'\n2\n3const JournalContext = createContext(null)\n4const API_URL = 'https://dev.api.programiz.pro/api/Demo/v1/journal-entries'\n5\n6function journalReducer(state, action) {\n7  switch (action.type) {\n8    case 'SET_ENTRIES':\n9      return action.payload\n10    case 'BOOKMARK_ENTRY':\n11      return state.map(function (entry) {\n12        return entry.id === action.payload.id\n13          ? { ...entry, bookmarked: !entry.bookmarked }\n14          : entry\n15      })\n16    default:\n17      return state\n18  }\n19}\n20\n21function JournalProvider({ children }) {\n22  const [entries, dispatch] = useReducer(journalReducer, [])\n23  const [isLoading, setIsLoading] = useState(true)\n24  const [error, setError] = useState(null)\n25  const [refetchKey, setRefetchKey] = useState(0)\n26\n27  useEffect(function () {\n28    async function loadEntries() {\n29      setIsLoading(true)\n30      setError(null)\n31      try {\n32        const res = await fetch(API_URL)\n33        if (!res.ok) throw new Error('Could not load data. Status: ' + res.status)\n34        const data = await res.json()\n35        const formatted = data.map(function (entry) {\n36          return {\n37            ...entry,\n38            bookmarked: false,\n39            date: new Date(entry.date).toLocaleDateString('en-US', {\n40              year: 'numeric', month: 'short', day: 'numeric'\n41            }).toUpperCase()\n42          }\n43        })\n44        dispatch({ type: 'SET_ENTRIES', payload: formatted })\n45      } catch (err) {\n46        setError(err.message)\n47      } finally {\n48        setIsLoading(false)\n49      }\n50    }\n51    loadEntries()\n52  }, [refetchKey])\n53\n54  function refetch() {\n55    setRefetchKey(function (k) { return k + 1 })\n56  }\n57\n58  return (\n59    <JournalContext.Provider value={{ entries, dispatch, isLoading, error, refetch }}>\n60      {children}\n61    </JournalContext.Provider>\n62  )\n63}\n64\n65function useJournal() {\n66  return useContext(JournalContext)\n67}\n68\n69export { JournalProvider, useJournal }"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what changed:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The static imports are gone. Each page is now a lazy constant.",
+        "Suspense wraps the entire <Routes> block, so it catches any lazy component that suspends inside it.",
+        "lazy() and Suspense are imported as named exports from react."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's the full setup. But before moving on, let's clear up a common misconception about what lazy() is actually doing here."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

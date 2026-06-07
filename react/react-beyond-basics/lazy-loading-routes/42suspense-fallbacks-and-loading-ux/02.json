@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/suspense-fallbacks-loading-ux?page=1",
+  "title": "Where to Put the Suspense Boundary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Where to Put the Suspense Boundary"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the last lesson, we wrapped the entire <Routes> block in a single <Suspense>."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<Suspense fallback={<p>Loading...</p>}>\n  <Routes>\n    <Route path=\"/\" element={<HomePage />} />\n    <Route path=\"/entries/:id\" element={<EntryDetailPage />} />\n    <Route path=\"*\" element={<NotFoundPage />} />\n  </Routes>\n</Suspense>"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works, but it means every route uses the same fallback. Whether HomePage or EntryDetailPage is loading, the user always sees the same Loading... text."
+    },
+    {
+      "type": "paragraph",
+      "content": "The experience is generic, and we can obviously do better! And that's by using boundaries."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,73 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/numbers-text?page=2",
+  "title": "Numbers and Texts",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Numbers and Texts"
+    },
+    {
+      "type": "paragraph",
+      "content": "In programming, we can directly use some fixed values in our program. These fixed values are called literals."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a look at some commonly used literals in C++."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "1. Integers (int)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Integers are numbers without decimal parts. For example: 5, -11, 0, 12, etc. For now, let's refer to integers as simply int."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2. Floating-point Numbers (double)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Floating-point numbers contain decimal parts. For example: 2.5, 6.76, 0.0, -9.45, etc. For now, let's refer to floating-point numbers as double."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3. Strings (string)"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, texts wrapped inside double quotation marks are called strings."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "\"This is a string.\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

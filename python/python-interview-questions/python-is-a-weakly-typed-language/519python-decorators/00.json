@@ -1,0 +1,98 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/python-decorators?page=1",
+  "title": "What are Python Decorators?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What are Python Decorators?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python has an interesting feature called decorators to add functionality to an existing code. It simply takes in a function, adds some functionality, and returns it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can create decorators in Python by creating a nested function. Let's try to understand this by example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def liner(func):\n    def inner():\n        print('----------')\n        func()\n        print('----------')\n\n    return inner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the above codee is our decorator. A liner() function takes another function as a parameter. Inside the liner() function, we have defined the inner() function, which simply prints the line before and after executing the passed function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we returned the inner() function from the liner() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use this decorator."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def normal():\n    print('normal')\n\n\ndecorated = liner(normal)\ndecorated()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we defined another function that needs to be decorated. We called the liner() function with the normal() function as a parameter. Also, we stored the returned function from the liner() in the decorated variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, when we call the decorated() function, we'll get this as output."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "----------\nnormal\n----------"
+    },
+    {
+      "type": "paragraph",
+      "content": "There's also another way to decorate the function by using the @ symbol. Here's how,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "@liner\ndef decorated():\n    print('decorated')\n\n\ndecorated()"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works the same way as before."
+    },
+    {
+      "type": "paragraph",
+      "content": "Putting everything together,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def liner(func):\n2    def inner():\n3        print('----------')\n4        func()\n5        print('----------')\n6\n7    return inner\n8\n9\n10# Method 1\n11def normal():\n12    print('normal')\n13\n14\n15decorated = liner(normal)\n16decorated()\n17\n18# Method 2\n19@liner\n20def decorated():\n21    print('decorated')\n22\n23\n24decorated()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/suspense-fallbacks-loading-ux?page=7",
+  "title": "Create the SkeletonPage Component",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create the SkeletonPage Component"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need a simple component that renders placeholder blocks matching our page layout."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function SkeletonPage() {\n  return (\n    <div className=\"skeleton-page\">\n      <div className=\"skeleton-title\" />\n      <div className=\"skeleton-line\" />\n      <div className=\"skeleton-line short\" />\n      <div className=\"skeleton-line\" />\n      <div className=\"skeleton-line short\" />\n    </div>\n  );\n}\n\nexport default SkeletonPage;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Five placeholder blocks: one title bar and four content lines. No text, no data. Just shape."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we need CSS to style these blocks and give them a subtle loading animation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

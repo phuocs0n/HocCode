@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/multiple-slices-in-one-store?page=1",
+  "title": "Your Store is Growing",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your Store is Growing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at what is in your store now."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "entries: [],\nisLoading: false,\nerror: null,\ntheme: 'light',"
+    },
+    {
+      "type": "paragraph",
+      "content": "State for entries. State for loading. State for errors. State for the theme. Different concerns living in the same place."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is fine for now. But as the store grows it helps to think of it in groups — or slices. A slice is just a section of your store that belongs to one feature. No special Zustand API needed. You just organize your state and actions by feature."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see how to think about slices in your journal store. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,68 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-students-grade?page=3",
+  "title": "Project Breakdown",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Project Breakdown"
+    },
+    {
+      "type": "paragraph",
+      "content": "This project has two distinct tasks:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Calculating the average marks",
+        "Calculating the grade"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To accomplish these tasks, we'll create the following functions:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. The getAverageScore() function"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function takes the student's scores as arguments, computes the average score, and returns it."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. The computeGrade() function"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function takes the average score as an argument, computes the grade, and returns it."
+    },
+    {
+      "type": "paragraph",
+      "content": "With these things in mind, let's create our first function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-error?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The try...catch Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The try...catch block allows you to handle exceptions gracefully. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1try {\n2    console.log(address);\n3} catch (error) {\n4    console.log(`Error caught: ${error.message}`);\n5}\n6\n7// Output: Error caught: address is not defined"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The error Object"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exceptions caught in the catch block contain useful information. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1try {\n2    // y is not defined\n3    let x = y;\n4} catch (error) {\n5    // Display error name\n6    console.log(error.name);    // Output: ReferenceError\n7\n8    // Display error message\n9    console.log(error.message);    // Output: y is not defined\n10}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

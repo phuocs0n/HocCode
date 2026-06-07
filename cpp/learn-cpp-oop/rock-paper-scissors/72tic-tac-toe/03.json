@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/tictactoe?page=4",
+  "title": "Step 1: Create the Board Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Create the Board Class"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4\n5class Board {\n6\n7    public:\n8        string board[9] = { \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \" };\n9\n10        void print_board() {\n11            cout << \" \" << board[0] << \" | \" << board[1] << \" | \" << board[2] << endl;\n12            cout << \"-----------\" << endl;\n13            cout << \" \" << board[3] << \" | \" << board[4] << \" | \" << board[5] << endl;\n14            cout << \"-----------\" << endl;\n15            cout << \" \" << board[6] << \" | \" << board[7] << \" | \" << board[8] << endl;\n16        }\n17};\n18\n19\n20\n21int main() {\n22\n23    Board b1;\n24    b1.print_board();\n25\n26    return 0; \n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "|   |  \n-----------\n   |   |  \n-----------\n   |   |"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the Board class has a member named board which is an array of nine elements. Initially, the value of each element is an empty space. We will update these elements with either X or O symbols once the players start choosing the position."
+    },
+    {
+      "type": "paragraph",
+      "content": "And the print_board() function prints the board in a visually intuitive manner."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have created an object of the Board class inside the main() function. Then, we called the print_board() function using the object of the Board class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will add other functions to the Board class later. Next, we will create the Player class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

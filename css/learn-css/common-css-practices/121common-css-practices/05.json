@@ -1,0 +1,66 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-css/common-css-practices?page=6",
+  "title": "Use Consistent Naming Conventions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Use Consistent Naming Conventions"
+    },
+    {
+      "type": "paragraph",
+      "content": "You should follow the practices below to maintain a good and consistent naming convention:"
+    },
+    {
+      "type": "paragraph",
+      "content": "i. Choose Clear, Descriptive Names"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pick names for classes and IDs that describe the purpose or appearance of the element. This makes your code intuitive, even at a glance."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Good Name",
+          "Bad Name"
+        ],
+        [
+          "primary-button",
+          "btn1"
+        ],
+        [
+          "error-message",
+          "error"
+        ],
+        [
+          "header-container",
+          "hc"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

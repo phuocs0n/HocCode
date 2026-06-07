@@ -1,0 +1,73 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/project-todo-list?page=6",
+  "title": "Completing and Removing Tasks",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Completing and Removing Tasks"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's add the functionalities for completing and removing tasks."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div id=\"container\">\n2    <h1 id=\"title\">To-do List</h1>\n3    <button id=\"add-list-btn\">List Item</button>\n4    <div id=\"todo-lists\"></div>\n5</div>\n6<button id=\"clear-all-btn\">Clear All</button>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.completed {\n2    text-decoration: line-through;\n3}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1addListBtn.addEventListener(\"click\", () => {\n2    ...\n3\n4    // Add the class completed when checkbox is checked.\n5    checkbox.addEventListener(\"change\", () => {\n6        inputField.classList.toggle(\"completed\");\n7    });\n8\n9    // Set new placeholder value using user's value.\n10    inputField.addEventListener(\"keydown\", (e) => {\n11        if (e.key === \"Enter\") {\n12            inputField.setAttribute(\"readonly\", true);\n13            inputField.blur();\n14        }\n15    });\n16\n17    // Delete list when delete button is clicked.\n18    deleteBtn.addEventListener(\"click\", () => {\n19        todoListsContainer.removeChild(todoItem);\n20    });\n21\n22    todoItem.append(checkbox, inputField, deleteBtn);\n23\n24    todoListsContainer.appendChild(todoItem);\n25});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code, click the \"+ List Item\" button, and fill in the text field."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice how clicking the checkbox crosses out the task, marking it as complete. Clicking the delete (X) button removes the task from the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the to-do list currently allows adding new tasks without checking if the existing text fields are empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's fix that on the next page."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

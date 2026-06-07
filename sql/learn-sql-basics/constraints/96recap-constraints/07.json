@@ -1,0 +1,55 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-7?page=7",
+  "title": "The Final Outcome",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Final Outcome"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you've fulfilled all four of the manager's requirements let's take a look at how the database is structured:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Concerts (\n2    performer_name VARCHAR(255) NOT NULL,\n3    concert_datetime DATETIME UNIQUE,\n4    concert_id INTEGER PRIMARY KEY AUTOINCREMENT,\n5    genre_id INTEGER,\n6    FOREIGN KEY (genre_id) REFERENCES Genres(id)\n7);\n8\n9CREATE TABLE Genres (\n10    id INTEGER PRIMARY KEY AUTOINCREMENT,\n11    genre_name VARCHAR(255) NOT NULL\n12);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Concerts table includes:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A non-nullable performer_name,",
+        "A unique concert_datetime,",
+        "A unique identifier (concert_id), and",
+        "A foreign key (genre_id) that links each concert to its corresponding genre in the Genres table."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

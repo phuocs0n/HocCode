@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/aggregate-window-functions?page=2",
+  "title": "MIN() and MAX()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "MIN() and MAX()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider a table Employees with following data:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT * \n2FROM Employees"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's calculate the minimum and maximum salary of each department. You can use the MAX() and MIN() window functions to do this."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *,\n2MIN(salary) OVER (PARTITION BY department) AS min_salary,\n3MAX(salary) OVER (PARTITION BY department) AS max_salary\n4FROM Employees;"
+    },
+    {
+      "type": "paragraph",
+      "content": "With this query, you get the minimum and maximum salaries for each department, alongside the salary of each individual employee."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/editing-entry?page=1",
+  "title": "The Problem: A Saved Entry Can't Be Edited",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: A Saved Entry Can't Be Edited"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now users can add and delete entries. But they cannot fix a typo or update what they wrote."
+    },
+    {
+      "type": "paragraph",
+      "content": "So adding an Edit button is a no-brainer. The whole process may look something like this:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "You click Edit on a card.",
+        "Then, you change the title or content.",
+        "Finally, you click Save.",
+        "The updated text must then replace the old entry in the state."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's get an overview of how you'll edit your entry."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

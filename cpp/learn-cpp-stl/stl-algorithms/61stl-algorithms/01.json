@@ -1,0 +1,62 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/stl-algorithms?page=2",
+  "title": "accumulate()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "accumulate()"
+    },
+    {
+      "type": "paragraph",
+      "content": "The accumulate() function computes the sum of all the elements in the given range along with a given initial value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at the function signature first,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Type accumulate(iterator first, iterator last, Type init_val);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "first : Iterator to the first element of the range.",
+        "last : iterator to the last element of the range.",
+        "init_val : the initial value that is added to the sum."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This function returns the sum of the elements in the given range including the given initial value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

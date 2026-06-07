@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-oop/method-overriding?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the condition of method overriding?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "One class should inherit another class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "For method overriding, there should exist inheritance between classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "For method overriding, there should exist inheritance between classes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The same method should be present in both the parent class and the child class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The name, return type and parameters should be the same in both the parent and child class."
+    },
+    {
+      "type": "paragraph",
+      "content": "The name, return type and parameters should be the same in both the parent and child class."
+    },
+    {
+      "type": "paragraph",
+      "content": "All of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both the options are the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both the options are the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is the correct answer."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the condition of method overriding?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:One class should inherit another class.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "One class should inherit another class.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The same method should be present in both the parent class and the child class.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The same method should be present in both the parent class and the child class.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:All of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "All of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

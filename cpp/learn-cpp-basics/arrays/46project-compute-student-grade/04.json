@@ -1,0 +1,78 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/project-compute-student-grade?page=5",
+  "title": "Project: Compute a Student's Grade",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Project: Compute a Student's Grade"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// find the average score and return it\n5double get_average_score(double scores[5]) {\n6\n7    double sum = 0.0;\n8\n9    // find the sum\n10    for (int i = 0; i < 5; ++i) {\n11        sum = sum + scores[i];\n12    }\n13\n14    double average = sum / 5.0;\n15\n16    return average;\n17}\n18\n19// compute grade and return it\n20char compute_grade(double average_score) {\n21\n22    char grade;\n23  \n24    if (average_score >= 80.0) {\n25        grade = 'A';\n26    }\n27    else if (average_score >= 60.0) {\n28        grade = 'B';\n29    }\n30    else if (average_score >= 50.0) {\n31        grade = 'C';\n32    }\n33    else {\n34        grade = 'F';\n35    }\n36\n37    return grade;\n38}\n39\n40int main() {\n41\n42    // an array of scores\n43    double scores[5] = {55, 64, 75, 80, 65};\n44\n45    // get average score\n46    double average_score = get_average_score(scores);\n47\n48    // get grade\n49    char grade = compute_grade(average_score);\n50\n51    cout << \"Average Score: \" << average_score << endl;\n52    cout << \"Grade: \" << grade;\n53\n54    return 0;\n55}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Average Score: 67.8\nGrade: B"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "We have used the get_average_score() function to first calculate the average score.",
+        "Then, we passed the average score as an argument to the compute_grade() function to compute the grade."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we have provided student scores directly at the beginning."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can make this program dynamic by getting marks input from the user."
+    },
+    {
+      "type": "paragraph",
+      "content": "I suggest you try that on your own."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tip: Use a for loop and cin to get input scores and based on the input find the average score and grade."
+    },
+    {
+      "type": "paragraph",
+      "content": "Reminder: Great job on completing this section! Now, practice what you've learned with the problems in Practice: C++ Basics."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

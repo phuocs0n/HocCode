@@ -1,0 +1,124 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-c-programming/nested-loop?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n  for (int i = 0; i < 2; ++i) {\n    for (int j = 0; j < 1; ++j) {\n      printf(\"*\\n\");\n    }\n  }\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    },
+    {
+      "type": "paragraph",
+      "content": "(No Output)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer loop iterates two times from i equals 0 to 1. In each iteration of the outer loop, the inner loop iterates once and prints *."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:**",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "**",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:*",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "*",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:****",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "****",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(No Output)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(No Output)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/combining-usereducer-usecontext?page=11",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we export a useJournal() hook from JournalContext.jsx instead of just exporting JournalContext directly?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It memoizes the context value to prevent re-renders"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useJournal() is a plain useContext() call with no memoization logic. Entries and dispatch() still trigger re-renders when updated."
+    },
+    {
+      "type": "paragraph",
+      "content": "useJournal() is a plain useContext() call with no memoization logic. Entries and dispatch() still trigger re-renders when updated."
+    },
+    {
+      "type": "paragraph",
+      "content": "useContext() can only be called inside a custom hook"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useContext() can be called directly in any function component. There's no such restriction."
+    },
+    {
+      "type": "paragraph",
+      "content": "useContext() can be called directly in any function component. There's no such restriction."
+    },
+    {
+      "type": "paragraph",
+      "content": "It creates a separate context copy for each component"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks don't create separate context instances. All consumers share the same provider value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks don't create separate context instances. All consumers share the same provider value."
+    },
+    {
+      "type": "paragraph",
+      "content": "It avoids repeating useContext(JournalContext) in every component"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consumers import one thing instead of two. It also lets us add error checking (e.g. null context guard) in one place."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consumers import one thing instead of two. It also lets us add error checking (e.g. null context guard) in one place."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we export a useJournal() hook from JournalContext.jsx instead of just exporting JournalContext directly?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It memoizes the context value to prevent re-renders",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It memoizes the context value to prevent re-renders",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:useContext() can only be called inside a custom hook",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "useContext() can only be called inside a custom hook",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It creates a separate context copy for each component",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It creates a separate context copy for each component",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It avoids repeating useContext(JournalContext) in every component",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It avoids repeating useContext(JournalContext) in every component",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

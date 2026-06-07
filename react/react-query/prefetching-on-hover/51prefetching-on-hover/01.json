@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/prefetching-on-hover?page=2",
+  "title": "Using prefetchQuery on Hover",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using prefetchQuery on Hover"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query gives us a method called prefetchQuery on the queryClient. We call it on mouse enter to start fetching before the user clicks."
+    },
+    {
+      "type": "paragraph",
+      "content": "First we need a function in src/api.js to fetch a single task:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "export function fetchTask(id) {\n  return fetch(`https://dummyjson.com/todos/${id}`)\n    .then(res => res.json())\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then in src/TaskList.jsx we add a prefetch on each task:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function handleMouseEnter(taskId) {\n  queryClient.prefetchQuery({\n    queryKey: taskKeys.detail(taskId),\n    queryFn: () => fetchTask(taskId),\n  })\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "And on each list item:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<li\n  key={task.id}\n  onMouseEnter={() => handleMouseEnter(task.id)}\n>"
+    },
+    {
+      "type": "paragraph",
+      "content": "React Query checks if the data is already fresh in the cache. If it is it does nothing. If it isn't it quietly fetches it in the background."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full files at this point."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

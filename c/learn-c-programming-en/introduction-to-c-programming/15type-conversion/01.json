@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/type-conversion?page=2",
+  "title": "Implicit Type Conversion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implicit Type Conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "In implicit type conversion, the type changes automatically. There is no special syntax for this type of conversion."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example to understand it better."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Initialize a double variable\n6    double doubleValue = 45.4567;\n7    \n8    // Assign double to an int \n9    int intValue = doubleValue;\n10\n11    // Print the int variable\n12    printf(\"%d\", intValue);\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "45"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two key takeaways from the output:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "We can assign one type of variable to another.",
+        "We may encounter data loss. For example: we lost the remaining 0.4567 in the above example."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the double value 45.4567 was automatically converted to an int value 45. This automatic conversion between data types is known as implicit type conversion."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the next lesson, we'll learn how to control type conversion explicitly to make conversions more intentional."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,65 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/local-variables?page=3",
+  "title": "Why Are Local Variables Important?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Are Local Variables Important?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local variables are important because they make functions self-contained, independent, and versatile."
+    },
+    {
+      "type": "paragraph",
+      "content": "As we discussed earlier, the inner workings of a function and the variables it uses don't matter as long as we understand two key aspects:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Arguments that the function takes.",
+        "Return value from the function."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def add_numbers(n1, n2):\n2    result = n1 + n2\n3    return result\n4\n5n1 = 2\n6n2 = 5\n7result = add_numbers(n1, n2)\n8print(result)    # Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, it's important to understand that n1, n2, and result variables inside the function are local to the add_numbers() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "They are different from n1, n2, and result variables that are outside of the function (even though their names are identical)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

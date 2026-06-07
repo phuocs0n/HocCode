@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/rendering-entries-list?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we pass key={entry.id} instead of key={index} when rendering the list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using index would make the list render in reverse order"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Index does not reverse the order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Index does not reverse the order."
+    },
+    {
+      "type": "paragraph",
+      "content": "React requires keys to be numbers"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Keys can be strings or numbers; the important thing is uniqueness and stability."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keys can be strings or numbers; the important thing is uniqueness and stability."
+    },
+    {
+      "type": "paragraph",
+      "content": "A unique id stays the same for that entry even if the list is reordered or items are removed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Index changes when the list changes, but a unique id is stable per entry."
+    },
+    {
+      "type": "paragraph",
+      "content": "Index changes when the list changes, but a unique id is stable per entry."
+    },
+    {
+      "type": "paragraph",
+      "content": "entry.id is required by EntryCard"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The array key is used internally by React; it's not for the component's props."
+    },
+    {
+      "type": "paragraph",
+      "content": "The array key is used internally by React; it's not for the component's props."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we pass key={entry.id} instead of key={index} when rendering the list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Using index would make the list render in reverse order",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Using index would make the list render in reverse order",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:React requires keys to be numbers",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "React requires keys to be numbers",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A unique id stays the same for that entry even if the list is reordered or items are removed",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A unique id stays the same for that entry even if the list is reordered or items are removed",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:entry.id is required by EntryCard",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "entry.id is required by EntryCard",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

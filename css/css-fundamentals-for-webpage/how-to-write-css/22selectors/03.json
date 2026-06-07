@@ -1,0 +1,49 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/selectors?page=3",
+  "title": "Why Element Selectors Aren't Always Enough",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Element Selectors Aren't Always Enough"
+    },
+    {
+      "type": "paragraph",
+      "content": "As your page grows, not all paragraphs should look the same. For example,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "A paragraph in the introduction",
+        "A paragraph inside a highlighted section",
+        "A paragraph inside a footer"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "They may all be <p> tags, but they don't serve the same purpose. That's where class selectors come in."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

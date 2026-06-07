@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/touring-graph?page=4",
+  "title": "Summary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary"
+    },
+    {
+      "type": "paragraph",
+      "content": "We learned some pretty similar concepts in this lesson, and it's easy to confuse them with one another. So, you can review this summarized version to avoid possible confusion:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Walk: Vertices may repeat. Edges may repeat.",
+        "Trail: Vertices may repeat. Edges cannot be repeated.",
+        "Circuit: A closed trail. Starts and ends with the same vertex.",
+        "Path: Vertices cannot repeat. Edges cannot be repeated.",
+        "Cycle: A closed path. Starts and ends with the same vertex."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

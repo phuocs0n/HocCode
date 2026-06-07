@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/eitheror-but-not-both?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We're given an Employees table with columns emp_id, name, department, and salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to check two conditions here: either the employees belong to the Sales department, or they have a salary greater than 50000."
+    },
+    {
+      "type": "paragraph",
+      "content": "Furthermore, the Sales employees cannot have salaries greater than 50000. We must use a WHERE clause in our SQL query to check for these conditions."
+    },
+    {
+      "type": "paragraph",
+      "content": "For the first condition, we will check if the employee's department is Sales and their salary is less than or equal to 50,000."
+    },
+    {
+      "type": "paragraph",
+      "content": "For the second condition, we will check for employees that don't belong to the Sales department with a salary greater than 50,000."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must use the logical OR operator to combine these conditions, as only one must be true for selecting an employee."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

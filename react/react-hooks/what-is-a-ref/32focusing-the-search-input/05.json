@@ -1,0 +1,65 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-hooks/focusing-search-input?page=6",
+  "title": "Summary: Misconceptions and Best Practices",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary: Misconceptions and Best Practices"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what that experience taught me:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "document.querySelector() is fine for accessing elements in a React app."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "document.querySelector() can fail if the element is not yet mounted, and it breaks when class names change."
+    },
+    {
+      "type": "paragraph",
+      "content": "Refs give React-managed, always-accurate access to the DOM node."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "Never use document.querySelector() to access elements that React controls. Attach a ref in JSX and read ref.current instead."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

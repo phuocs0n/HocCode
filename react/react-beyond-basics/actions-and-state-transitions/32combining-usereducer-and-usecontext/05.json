@@ -1,0 +1,50 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/combining-usereducer-usecontext?page=5",
+  "title": "Add JournalProvider to the Entry Point",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add JournalProvider to the Entry Point"
+    },
+    {
+      "type": "paragraph",
+      "content": "JournalProvider goes in index.jsx alongside ThemeProvider and BrowserRouter. All global wrappers live in one place."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { createRoot } from \"react-dom/client\"\nimport { BrowserRouter } from \"react-router-dom\"\nimport { ThemeProvider } from \"./context/ThemeContext\"\nimport { JournalProvider } from \"./context/JournalContext\"\nimport App from \"./App.jsx\"\n\ncreateRoot(document.getElementById(\"root\")).render(\n  <BrowserRouter>\n    <ThemeProvider>\n      <JournalProvider>\n        <App />\n      </JournalProvider>\n    </ThemeProvider>\n  </BrowserRouter>\n  )"
+    },
+    {
+      "type": "paragraph",
+      "content": "JournalProvider wraps App so the reducer state persists across route changes. Navigating from / to /entries/7 no longer destroys the entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's talk about why we keep ThemeProvider and JournalProvider as separate contexts."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

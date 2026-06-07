@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-oop/multiple-classes-inherits-class?page=1",
+  "title": "Multiple Classes Inherits a Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Multiple Classes Inherits a Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program where two classes inherit from a single class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Polygon with the display() method.",
+        "Inside the method, print A Polygon is created.",
+        "Inherit two classes named Rectangle and Triangle from the same Polygon class."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create the main() method inside a Main class.",
+        "Inside the method, create objects of both the Rectangle and Triangle class.",
+        "Call the display() method of Polygon using the objects of Rectangle and Triangle."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputA Polygon is created\nA Polygon is created"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

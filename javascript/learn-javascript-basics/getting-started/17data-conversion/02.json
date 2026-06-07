@@ -1,0 +1,69 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=3",
+  "title": "Converting to Integer",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Converting to Integer"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Convert Float to Integer"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have a floating-point number and need to turn it into an integer, you can use the parseInt() function. Here's an example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let floatNumber = 15.0;\n2\n3// Convert float to integer\n4let integerNumber = parseInt(floatNumber);\n5\n6console.log(integerNumber);    // Output: 15"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Convert String to Integer"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also convert strings to integers using parseInt():"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let stringNumber = \"15\";\n2\n3// Convert string to integer\n4let integerNumber = parseInt(stringNumber);\n5\n6console.log(integerNumber);    // Output: 15"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pretty simple, right?"
+    },
+    {
+      "type": "paragraph",
+      "content": "But be careful—not all strings can be converted to integers. Let's check out a case where things don't work as expected."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

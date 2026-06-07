@@ -1,0 +1,53 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-errors?page=6",
+  "title": "Syntax vs Runtime Errors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Syntax vs Runtime Errors"
+    },
+    {
+      "type": "paragraph",
+      "content": "The difference between syntax and runtime errors is:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Syntax errors can't be handled."
+    },
+    {
+      "type": "paragraph",
+      "content": "The only way to fix a syntax error is to correct the mistake before running the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Runtime errors can be handled."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can prevent your program from crashing when a runtime error occurs by using error-handling techniques, which allow the program to continue running despite the error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

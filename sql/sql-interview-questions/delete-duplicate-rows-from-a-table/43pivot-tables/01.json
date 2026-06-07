@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/pivot-tables?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have been provided with the Students table containing the columns: student_id, subject, and grade."
+    },
+    {
+      "type": "paragraph",
+      "content": "Our goal is to create a new table where each student has their own row, and the grades for each subject are placed in separate columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, we need to create the Grades table containing the columns: student_id, english, math, and science."
+    },
+    {
+      "type": "paragraph",
+      "content": "To achieve this, we can utilize the concept of conditional aggregation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Conditional aggregation in SQL allows you to use aggregate functions, such as SUM(), COUNT(), AVG(), etc., based on specific conditions."
+    },
+    {
+      "type": "paragraph",
+      "content": "It allows you to include or exclude certain rows from the calculation based on the specified condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this problem, we use the CASE statement within the SELECT clause to conditionally check the subject of each row and extract the corresponding grade."
+    },
+    {
+      "type": "paragraph",
+      "content": "We do this for each subject column we want to create."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then select the student_id and the pivoted columns (i.e., english, math, and science) using the MAX() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The MAX() function is used here as a simple way to retrieve the grade for each subject."
+    },
+    {
+      "type": "paragraph",
+      "content": "It effectively extracts the grade since there is only one grade per subject per student i.e., the function can be used to conditionally aggregate rows into columns (with an alias)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we want one row per student, we must group the data based on the student_id column. This allows us to put the grades for each subject under the appropriate student."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

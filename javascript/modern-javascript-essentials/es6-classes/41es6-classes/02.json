@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/es-classes?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What keyword creates a new instance of a class?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "create"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no create keyword in JavaScript for classes. Instances are created with new."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no create keyword in JavaScript for classes. Instances are created with new."
+    },
+    {
+      "type": "paragraph",
+      "content": "this"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "this refers to the current instance inside a class. It does not create new instances."
+    },
+    {
+      "type": "paragraph",
+      "content": "this refers to the current instance inside a class. It does not create new instances."
+    },
+    {
+      "type": "paragraph",
+      "content": "new"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! new ClassName() calls the constructor and returns a fresh instance of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! new ClassName() calls the constructor and returns a fresh instance of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "static"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "static defines methods on the class itself, not on instances. Use new to create instances."
+    },
+    {
+      "type": "paragraph",
+      "content": "static defines methods on the class itself, not on instances. Use new to create instances."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no create keyword in JavaScript for classes. Instances are created with new."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no create keyword in JavaScript for classes. Instances are created with new."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "this refers to the current instance inside a class. It does not create new instances."
+    },
+    {
+      "type": "paragraph",
+      "content": "this refers to the current instance inside a class. It does not create new instances."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! new ClassName() calls the constructor and returns a fresh instance of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! new ClassName() calls the constructor and returns a fresh instance of the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "static defines methods on the class itself, not on instances. Use new to create instances."
+    },
+    {
+      "type": "paragraph",
+      "content": "static defines methods on the class itself, not on instances. Use new to create instances."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What keyword creates a new instance of a class?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:create",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "create",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:this",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "this",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:new",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "new",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:static",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "static",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

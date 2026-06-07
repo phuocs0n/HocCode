@@ -1,0 +1,51 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/queue?page=4",
+  "title": "Source Code: Create a Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Create a Queue"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Create a class to represent a queue\n2class Queue:\n3    def __init__(self):\n4        self.queue = []\n5\n6    # Add an item to the queue (enqueue)\n7    def enqueue(self, item):\n8        self.queue.append(item)\n9\n10    # Remove the front item from the queue (dequeue)\n11    def dequeue(self):\n12        return self.queue.pop(0)\n13\n14    # Print the current state of the queue with a message\n15    def print_queue(self, message):\n16        print(f\"{message}: {self.queue}\")\n17\n18# Initialize the queue\n19queue1 = Queue()\n20\n21# Add elements to the queue\n22queue1.enqueue(5)\n23queue1.enqueue(10)\n24queue1.enqueue(100)\n25\n26# Print the queue\n27queue1.print_queue(\"Queue after adding 3 elements\")\n28\n29# Remove one item\n30print(f\"Dequeued Element: {queue1.dequeue()}\")\n31queue1.print_queue(\"After removing one item\")\n32\n33# Remove another item\n34print(f\"Dequeued Element: {queue1.dequeue()}\")\n35queue1.print_queue(\"After removing another item\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Queue after adding 3 elements: [5, 10, 100]\nDequeued Element: 5\nAfter removing one item: [10, 100]\nDequeued Element: 10\nAfter removing another item: [100]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll practice building your own queue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

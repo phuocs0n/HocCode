@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array-functions?page=2",
+  "title": "Phần tử mảng làm đối số hàm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Phần tử mảng làm đối số hàm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta có thể truyền các phần tử mảng riêng lẻ cho một hàm giống như cách chúng ta truyền các biến/giá trị cho hàm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem một ví dụ:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function to return the larger value\n4int findLarger(int age1, int age2) {\n5\n6  // Compare two ages and return the larger age\n7  if (age1 > age2) {\n8    return age1;\n9  }\n10  else {\n11    return age2;\n12  }\n13}\n14\n15int main() {\n16\n17  int ages[5] = {25, 31, 30, 17, 39};\n18\n19  // Call the function with second and fifth array element\n20  int result = findLarger(ages[1], ages[4]);\n21  printf(\"%d\", result);\n22 \n23  return 0;\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "39"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, chúng ta đã chuyển hai phần tử mảng vào hàm findLager()."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Đối số age1 nhận giá trị age[1] (31)",
+        "Tham số age2 lấy giá trị age[4] (39)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Sau đó, hàm sẽ so sánh hai độ tuổi và trả về độ tuổi lớn hơn. Trong trường hợp của chúng tôi, đó là 39."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

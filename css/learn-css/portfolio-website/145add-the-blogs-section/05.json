@@ -1,0 +1,55 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-css/add-blogs-section?page=6",
+  "title": "Add CSS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add CSS"
+    },
+    {
+      "type": "paragraph",
+      "content": "This CSS styles the card layout you created previously."
+    },
+    {
+      "type": "paragraph",
+      "content": "The heading style applies to all <h2> elements, and the overall layout of the Blog section is consistent with other sections on the site."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section class=\"blogs\" id=\"blogs\">\n2    <h2>Blogs</h2>\n3\n4    <div class=\"card-row\">\n5        <div class=\"card\">\n6            <img src=\"/images/learn-css/flexbox.png\" alt=\"Understanding Flexbox in CSS\" />\n7            <h3>Understanding Flexbox in CSS</h3>\n8            <p>freeCodeCamp</p>\n9            <button>Read</button>\n10        </div>\n11\n12        <div class=\"card\">\n13            <img src=\"/images/learn-css/responsive-design.png\" alt=\"Mastering Responsive Design\" />\n14            <h3>Mastering Responsive Design</h3>\n15            <p>Medium</p>\n16            <button>Read</button>\n17        </div>\n18\n19        <div class=\"card\">\n20            <img src=\"/images/learn-css/advanced-grid.png\" alt=\"Advanced CSS Grid Techniques\" />\n21            <h3>Advanced CSS Grid Techniques</h3>\n22            <p>Programiz Blogs</p>\n23            <button>Read</button>\n24        </div>\n25    </div>\n26</section>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Blog Section Styling - Same as Hero */\n2.blogs {\n3    display: flex;\n4    flex-direction: column;\n5    align-items: center;\n6    justify-content: center;\n7    gap: 32px;\n8    padding: 80px;\n9    text-align: center;\n10    background-color: #d1c4e9;    /* Same background color as Hero section */\n11}\n12\n13/* Card Container */\n14.card-row {\n15    display: flex;\n16    flex-wrap: wrap;    /* Allow the cards to wrap on smaller screens */\n17    justify-content: center;    /* Center the cards horizontally */\n18    gap: 20px;    /* Space between the cards */\n19    margin: 40px auto;    /* Center the container */\n20    padding: 0 20px;    /* Padding on the sides */\n21    max-width: 1200px;    /* Ensure it doesn't stretch too wide */\n22}\n23\n24/* Blog card styling */\n25.card {\n26    background-color: white;\n27    border-radius: 8px;    /* Rounded corners */\n28    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);    /* Subtle shadow */\n29    width: 300px;    /* Fixed width */\n30    text-align: center;\n31    display: flex;\n32    flex-direction: column;    /* Stack content vertically */\n33    gap: 4px;    /* Small gap between content */\n34    align-items: center;\n35    padding: 24px 0;    /* Adds padding */\n36}\n37\n38/* Blog card image */\n39.card img {\n40    border-radius: 50%;    /* Circular image */\n41    width: 192px;\n42    height: 192px;\n43    object-fit: cover;    /* Ensures image fits the circle */\n44    margin-bottom: 16px;    /* Space below the image */\n45}\n46\n47/* Blog card title */\n48.card h3 {\n49    color: #25265e;\n50    font-weight: 700;\n51    font-size: max(1vw, 18px);\n52    text-decoration: none;\n53}\n54\n55/* Blog card source */\n56.card p {\n57    font-size: 1rem;\n58    color: #444576;\n59}\n60\n61/* Read button */\n62.card button {\n63    padding: 8px 30px;\n64    background-color: #0556f3;    /* Button background color */\n65    color: white;    /* Button text color */\n66    border: none;\n67    border-radius: 4px;\n68    cursor: pointer;\n69    margin-top: 24px;\n70}\n71\n72/* Button hover effect */\n73.card button:hover {\n74    background-color: #6c6ce5;    /* Button color on hover */\n75}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move on to the Projects section."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

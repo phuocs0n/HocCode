@@ -1,0 +1,83 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/example-huffman-coding?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Huffman coding is an algorithm designed for data compression. This technique uses binary trees to reduce the size of data."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's the underlying mechanism in popular compression formats like GZIP and BZIP2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Why is compression necessary?"
+    },
+    {
+      "type": "paragraph",
+      "content": "When transmitting or storing large files, the absence of compression can lead to high costs and inefficiencies."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a string with some repeated characters."
+    },
+    {
+      "type": "image",
+      "alt": "String WIth Repeated Characters",
+      "src": "data:image/png;base64,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"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each character in the string occupies 8 bits of space."
+    },
+    {
+      "type": "paragraph",
+      "content": "For 15 characters, that's 120 bits total, which is a lot of space."
+    },
+    {
+      "type": "paragraph",
+      "content": "As there are recurring characters in the string, we can reduce the size based on the frequency of each character. This can be accomplished using Huffman coding."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, this same string can be converted to 1000111110110110100110110110, which is just 28 bits of data."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will implement Huffman coding to compress a string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

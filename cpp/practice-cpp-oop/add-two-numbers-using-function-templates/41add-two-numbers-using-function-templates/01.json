@@ -1,0 +1,87 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/add-two-numbers-using-function-templates?page=1",
+  "title": "Add Two Numbers Using Function Templates",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Two Numbers Using Function Templates"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to add two numbers using function templates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function template add_numbers() with return type T and parameters num1 and num2 of T type.",
+        "Inside the template, return the sum of num1 and num2."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() function, create two integer variables n1 and n2, along with two double variables n3 and n4.",
+        "Get inputs for the n1, n2, n3, and n4.",
+        "Call the add_numbers() function for integer type by passing n1 and n2 as arguments. Store the return value in the sum_integer variable.",
+        "Then, call the add_numbers() function for double type by passing n3 and n4 as arguments. Store the return value in the sum_double variable.",
+        "Print sum_integer and sum_double."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n6\n5.5\n6.6"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output11\n12.1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

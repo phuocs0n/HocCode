@@ -1,0 +1,78 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-case?page=3",
+  "title": "Example: SQL CASE With Multiple WHEN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: SQL CASE With Multiple WHEN"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the last example, we used a single WHEN clause in a CASE statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, you can include multiple WHEN clauses to apply different conditions."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, to categorize customers based on their purchase amount:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "'Low Spender' for purchases below 2000,",
+        "'Target Customer' for purchases between 2000 and 4999,",
+        "'High Spender' for purchases between 5000 and 5999."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you can implement this in SQL:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *,\n2    CASE \n3        WHEN purchase_amount < 2000 THEN 'Low Spender'\n4        WHEN purchase_amount >= 2000 AND purchase_amount < 5000 THEN 'Target Customer'\n5        WHEN purchase_amount >= 5000 AND purchase_amount < 6000 THEN 'High Spender'\n6    END AS purchase_group\n7FROM Customers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects all the columns from the Customers table and adds a new column named purchase_group, which categorizes customers based on their purchase amount:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "'Low Spender' if purchase_amount is less than 2000,",
+        "'Target Customer' if purchase_amount is between 2000 and 4999,",
+        "'High Spender' if purchase_amount is between 5000 and 5999."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If purchase_group is 6000 or more, the purchase_group column remains empty (NULL)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

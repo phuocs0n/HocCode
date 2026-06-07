@@ -1,0 +1,69 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/building-job-search-app?page=7",
+  "title": "Putting It All Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Putting It All Together"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we understand each component, here is the complete application. Every function we examined works together as a single system."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// ============ Main ============\n2async function main() {\n3    let rawKeyword = prompt(\"> What job are you looking for?\");\n4\n5    const validation = validateKeyword(rawKeyword); \n6    if (!validation.valid) { \n7        console.log(\"Error:\", validation.error); \n8        return; \n9    }\n10\n11    console.log(\"Searching...\");\n12\n13    try { \n14        const jobs = await fetchJobs(validation.keyword); \n15        displayJobs(jobs, validation.keyword); \n16    } \n17    catch (error) { \n18        console.log(\"Error:\", error.message); \n19    }\n20}\n21\n22main();"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you run this code:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "main() is called.",
+        "The user is prompted for a search term.",
+        "validateKeyword() checks the input.",
+        "If valid, fetchJobs() contacts the API.",
+        "If successful, displayJobs() shows the results.",
+        "Any errors along the way are caught and displayed."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Each function has a single job. Each edge case has a handler. The code is readable, maintainable, and robust."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is how professional applications are built!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, how about trying your hand at building something similar?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/value-exist-in-dictionary?page=1",
+  "title": "Value Exist in a Dictionary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Value Exist in a Dictionary"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program that checks if a value (entered by the user) is in a dictionary or not."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a dictionary named my_dict with keys and values {\"a\": \"juice\", \"b\": \"grill\", \"c\": \"corn\"}.",
+        "Take a string user input for the data variable.",
+        "Create a flag variable and set it to False.",
+        "Use a for loop to iterate through my_dict.",
+        "Inside the loop, check if the value entered by the user is in the dictionary or not.",
+        "If yes, set flag to True and terminate the loop.",
+        "Outside the loop, if flag is equal to True, print \"Value found\" else print \"Value not found\"."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputcorn"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputValue found"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/responsive-design/breakpoints-mobilefirst?page=2",
+  "title": "Breakpoints in rem",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Breakpoints in rem"
+    },
+    {
+      "type": "paragraph",
+      "content": "You already know why we use rem for font sizes and spacing. The same reason applies to breakpoints."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "/* Fixed. Ignores the user's font size setting */\n@media (min-width: 768px) { ... }\n\n/* Scales with the user */\n@media (min-width: 48rem) { ... }"
+    },
+    {
+      "type": "paragraph",
+      "content": "At the default 16px root they look identical. But if a user bumps their browser font size to 20px, the rem breakpoint shifts naturally to keep the layout comfortable. The px breakpoint stays locked at 768px and may switch too early."
+    },
+    {
+      "type": "paragraph",
+      "content": "For your portfolio we'll use two breakpoints throughout this course. 48rem for tablet and up, and 64rem for desktop and up. Notice that 64rem is 1024px, the same width your container maxes out at. The layout was designed for that width so it's a natural fit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Try it in the editor. Resize the window and watch the layout switch at each breakpoint. Single column below 48rem, a row at 48rem, green columns at 64rem.The runnable below uses a much smaller breakpoint — 20rem (320px) — so you can see the layout change without needing a wide browser window. The concept is identical: pick the rem value where your content needs to change, and write the @media (min-width: ...) block there."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1/* At 20rem (320px): side by side */\n2@media (min-width: 20rem) {\n3  .layout {\n4    flex-direction: row;\n5  }\n6\n7  .col {\n8    flex: 1;\n9  }\n10}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  margin: 0;\n4  padding: 1rem;\n5}\n6\n7/* Base: stacked (mobile) */\n8.layout {\n9  display: flex;\n10  flex-direction: column;\n11  gap: 0.5rem;\n12}\n13\n14.col {\n15  padding: 2rem 1rem;\n16  background: #f0f0f0;\n17  border-radius: 4px;\n18  text-align: center;\n19}\n20\n21/* At 20rem (320px): side by side */\n22@media (min-width: 20rem) {\n23  .layout {\n24    flex-direction: row;\n25  }\n26\n27  .col {\n28    flex: 1;\n29  }\n30}\n31\n32/* At 32rem (512px): wider layout with more breathing room */\n33@media (min-width: 32rem) {\n34  .col {\n35    padding: 2rem;\n36    background: #d1fae5;\n37  }\n38}"
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, let's talk about the right way to structure all of this."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/multiple-slices-in-one-store?page=2",
+  "title": "Thinking in Slices",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thinking in Slices"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your journal store has two natural groups."
+    },
+    {
+      "type": "paragraph",
+      "content": "The entries slice handles everything about journal entries."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "entries: [],\nisLoading: false,\nerror: null,\nfetchEntries: async () => { ... },\naddEntry: (title, content) => { ... },\neditEntry: (id, title, content) => { ... },\ndeleteEntry: (id) => { ... },"
+    },
+    {
+      "type": "paragraph",
+      "content": "The UI slice handles everything about the interface."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "theme: 'light',\nsearchQuery: '',\ntoggleTheme: () => { ... },\nsetSearchQuery: (query) => { ... },"
+    },
+    {
+      "type": "paragraph",
+      "content": "Same store. Same create() call. Just organized so you can see what belongs together."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will add the UI slice to the store. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

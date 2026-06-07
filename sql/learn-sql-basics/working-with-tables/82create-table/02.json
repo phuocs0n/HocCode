@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/create-table?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of the CREATE TABLE statement in SQL?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To insert data into an existing table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The CREATE TABLE statement only defines the structure of a table. To insert data, you must use the INSERT INTO statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "The CREATE TABLE statement only defines the structure of a table. To insert data, you must use the INSERT INTO statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "To retrieve specific records from a table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "CREATE TABLE does not fetch records. It is used to create a new table, while the SELECT statement is used to retrieve data from an existing table."
+    },
+    {
+      "type": "paragraph",
+      "content": "CREATE TABLE does not fetch records. It is used to create a new table, while the SELECT statement is used to retrieve data from an existing table."
+    },
+    {
+      "type": "paragraph",
+      "content": "To define a new table and specify its structure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The CREATE TABLE statement is used to define a new table by specifying its columns and data types. This step is required before inserting or retrieving data."
+    },
+    {
+      "type": "paragraph",
+      "content": "The CREATE TABLE statement is used to define a new table by specifying its columns and data types. This step is required before inserting or retrieving data."
+    },
+    {
+      "type": "paragraph",
+      "content": "To update records in an existing table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The UPDATE statement is used to modify existing records in a table. However, a table must already exist before any data can be updated."
+    },
+    {
+      "type": "paragraph",
+      "content": "The UPDATE statement is used to modify existing records in a table. However, a table must already exist before any data can be updated."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of the CREATE TABLE statement in SQL?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To insert data into an existing table.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To insert data into an existing table.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To retrieve specific records from a table.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To retrieve specific records from a table.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To define a new table and specify its structure.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To define a new table and specify its structure.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To update records in an existing table.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To update records in an existing table.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

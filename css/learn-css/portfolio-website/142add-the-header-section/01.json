@@ -1,0 +1,51 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/add-header-section?page=2",
+  "title": "Insert Header HTML",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Insert Header HTML"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's insert the header section's HTML in the overall structure of the portfolio website."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header class=\"header\">\n2    <div class=\"logo\">Jane</div>\n3    <nav class=\"nav\">\n4        <a href=\"#projects\">Projects</a>\n5        <a href=\"#contact\">Contact</a>\n6    </nav>\n7</header>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Import font */\n2@import url(\"https://fonts.googleapis.com/css2?family=Euclid+Circular+A:wght@400;500&display=swap\");\n3@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');\n4\n5/* Reset browser defaults */\n6* {\n7    padding: 0;\n8    margin: 0;\n9    box-sizing: border-box;\n10    font-family: 'Euclid Circular A', sans-serif;\n11}\n12\n13/* Contain image */\n14img {\n15    max-width: 100%;\n16    height: auto;\n17}\n18\n19/* Style header and footer */\n20.header,\n21.footer {\n22    background-color: #2c2e48;\n23    color: white;\n24    min-height: 50px;\n25    display: flex;\n26    justify-content: center;\n27    align-items: center;\n28}\n29\n30/* Style sections */\n31.main>section {\n32    display: flex;\n33    flex-direction: column;\n34    align-items: center;\n35    justify-content: center;\n36    min-height: 300px;\n37    padding: 80px;\n38    gap: 32px;\n39}\n40\n41/* Add background colors to alternate sections */\n42.main section:nth-child(odd) {\n43    background-color: #c6b6d7;\n44}\n45\n46.main section:nth-child(even) {\n47    background-color: #efefef;\n48}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's style each element to align with the design."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

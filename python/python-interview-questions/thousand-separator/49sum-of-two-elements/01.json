@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/sum-of-two-elements?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that if adding two elements, a and b, gives the result t, then subtracting one element from the result gives another element. That is,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "a + b == t\nt - a == b\nt - b == a"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will use the same logic to find the combinations of numbers whose sum results in the target value."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can loop through each element in the list and subtract it from the target value. If the difference is also in the list, that means the current element and the difference value can make a sum."
+    },
+    {
+      "type": "paragraph",
+      "content": "But there is still a problem left: the same combination will be scanned twice and will be printed twice as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we can create a temporary list to append the value once it is scanned. Then we will print the combination only if target - current element is in the temporary list. This way, there will be no repeating of elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are the steps to solve this problem:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Initialize the temporary list.",
+        "Loop through each element in the original list.",
+        "If the difference between the target number and the current element is in the temporary list, print both elements.",
+        "Also, add the current element to the temporary list.",
+        "Do the same for all other elements in the original list."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

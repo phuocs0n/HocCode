@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/example-binary-search-tree?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a property of an ordered tree?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every non-root node has a parent."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true for all trees."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true for all trees."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a unique path from the root to every other node."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true for all trees and not just ordered trees.."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is true for all trees and not just ordered trees.."
+    },
+    {
+      "type": "paragraph",
+      "content": "The order of siblings matters."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Order of siblings does matter in ordered trees."
+    },
+    {
+      "type": "paragraph",
+      "content": "Order of siblings does matter in ordered trees."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ordered trees will always be in ascending order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ordered trees preserve the order of children nodes irrespective of their data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ordered trees preserve the order of children nodes irrespective of their data."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a property of an ordered tree?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Every non-root node has a parent.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Every non-root node has a parent.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:There is a unique path from the root to every other node.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "There is a unique path from the root to every other node.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The order of siblings matters.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The order of siblings matters.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Ordered trees will always be in ascending order.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Ordered trees will always be in ascending order.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

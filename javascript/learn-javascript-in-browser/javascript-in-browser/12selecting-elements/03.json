@@ -1,0 +1,72 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/selecting-elements?page=4",
+  "title": "Selecting Element",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Selecting Element"
+    },
+    {
+      "type": "paragraph",
+      "content": "In addition to id, you can also use other selectors like tag and class to select elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header id=\"header\">\n2    <div id=\"logo\">E-Commerce</div>\n3    <nav>\n4        <ul class=\"nav-links\">\n5            <li><a href=\"#home\">Home</a></li>\n6            <li><a href=\"#products\">Products</a></li>\n7            <li><a href=\"#contact\">Contact</a></li>\n8        </ul>\n9    </nav>\n10</header>\n11\n12<div class=\"hero\">\n13    <h1>Welcome to our store</h1>\n14    <p>Discover the best deals on your favorite products.</p>\n15    <button class=\"button\">Shop Now</button>\n16</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    margin: 0;\n3    font-family: Arial, sans-serif;\n4    background-color: #f9f9f9;\n5}\n6\n7#header {\n8    background-color: #1e67f4;\n9    color: white;\n10    display: flex;\n11    align-items: center;\n12    justify-content: space-between;\n13    padding: 16px 20px;\n14}\n15\n16#logo {\n17    font-weight: bold;\n18}\n19\n20.nav-links {\n21    list-style-type: none;\n22    padding: 0;\n23    margin: 0;\n24    display: inline-flex;\n25    gap: 20px;\n26}\n27\n28a {\n29    text-decoration: none;\n30    color: white;\n31}\n32\n33.hero {\n34    text-align: center;\n35    padding: 50px 20px;\n36    background-color: #ffffff;\n37    color: #343a40;\n38    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n39}\n40\n41.hero h1 {\n42    color: #25265e;\n43    font-size: 2.5em;\n44    margin-bottom: 10px;\n45}\n46\n47.hero p {\n48    color: #414273;\n49    font-size: 1.2em;\n50    margin-bottom: 20px;\n51}\n52\n53.button {\n54    padding: 10px 20px;\n55    font-size: 1em;\n56    background-color: #0556F3;\n57    color: white;\n58    border: none;\n59    border-radius: 5px;\n60    cursor: pointer;\n61}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const listItem = document.querySelector(\"li\");\n2\n3console.log(listItem);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, querySelector(\"li\") selects the element with the first li tag (Home)."
+    },
+    {
+      "type": "paragraph",
+      "content": "This happens because querySelector() selects only the first element that matches the specified selector."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's reinforce your understanding with a quick quiz."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,66 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/usecallback-when-functions-change-too-often?page=2",
+  "title": "When a Function is a useEffect() Dependency",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "When a Function is a useEffect() Dependency"
+    },
+    {
+      "type": "paragraph",
+      "content": "We just revisited the useEffect() inside Drawer and saw that it has onClose() in the dependency array."
+    },
+    {
+      "type": "paragraph",
+      "content": "In App, we pass this onClose() as an inline arrow:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<Drawer entry={selectedEntry} onClose={() => setSelectedEntry(null)} />"
+    },
+    {
+      "type": "paragraph",
+      "content": "That inline arrow is a new function on every render of App. Every time App re-renders, the Drawer's useEffect()"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "sees a changed onClose(),",
+        "removes the old listener,",
+        "and adds a new one."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The effect runs on every keystroke."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need a way to keep onClose() stable across renders. That's where useCallback() comes in."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,42 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-python/circular-linked-list-operations?page=5",
+  "title": "Code: Append Element",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code: Append Element"
+    },
+    {
+      "type": "paragraph",
+      "content": "So, our helper function to append an element to a linked list will look like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def append_into_empty(self, data):\n    new_node = Node(data)\n    self.head = new_node\n    new_node.next = self.head\n\ndef append_node (self, data):\n    # create a new node\n    new_node = Node(data)\n\n    # traverse to the end of the list\n    current = self.head\n    while current.next != self.head:\n        current = current.next\n\n    # adjust the next pointers\n    current.next = new_node\n    new_node.next = self.head"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

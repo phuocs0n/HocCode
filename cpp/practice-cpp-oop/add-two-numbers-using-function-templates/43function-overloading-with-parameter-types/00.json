@@ -1,0 +1,87 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/function-overloading-with-parameter-types?page=1",
+  "title": "Function Overloading With Parameter Types",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Function Overloading With Parameter Types"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to overload a function with different types of parameters."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two functions having the same name add().",
+        "The first add() function will take two integer parameters, perform addition and print the result.",
+        "The second add() function will take two string parameters, join them and print the result."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() function, get integer inputs for variables number1 and number2.",
+        "Also, get string input for variables first and second.",
+        "Call the add() function with arguments number1 and number2.",
+        "Again call add() with arguments first and second."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n8\nC++\noop"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output13\nC++oop"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

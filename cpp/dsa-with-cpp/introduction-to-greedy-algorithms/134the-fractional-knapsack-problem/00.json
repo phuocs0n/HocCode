@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/fractional-knapsack-problem?page=1",
+  "title": "Problem Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Problem Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you're in a MrBeast video, and he offers to pay for all the items you can fit into a knapsack. Here are the items you can choose from:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Gold: They have gold bars, and we can take any fraction of a bar.",
+        "Wheat: They have bags of wheat, and we can take any fraction of a bag.",
+        "Oil: They have containers of oil, and we can take any fraction of a container."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Upon inspection, we find that the total quantity and worth of the contents are:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Items",
+          "Available Weight",
+          "Total Value"
+        ],
+        [
+          "Gold",
+          "10 units",
+          "$5000"
+        ],
+        [
+          "Wheat",
+          "20 units",
+          "$1000"
+        ],
+        [
+          "Oil",
+          "14 units",
+          "$1400"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Naturally, you would like to claim the entire loot. However, you can only take what you can fit in your knapsack (it can only hold 25 units)."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, how do we select our loot so that the 25 units of content of the knapsack have the optimal value?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

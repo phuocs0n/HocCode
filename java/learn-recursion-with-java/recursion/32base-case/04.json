@@ -1,0 +1,64 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/base-case?page=4",
+  "title": "Example 1: Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 1: Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's modify our previous program so that the recursive methods return a value."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static String printNumbers(int n) {\n4\n5        // Base case with return value\n6        if (n == 3) {\n7            return \"Done\";\n8        }\n9\n10        System.out.println(n); \n11\n12        return printNumbers(n + 1);\n13    }\n14\n15\n16    public static void main(String[] args) {\n17\n18        String output = printNumbers(1);  \n19        System.out.println(output); \n20    }\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\nDone"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used a recursive call as a return statement:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "return printNumbers(n + 1);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

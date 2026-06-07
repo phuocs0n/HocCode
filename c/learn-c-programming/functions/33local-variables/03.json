@@ -1,0 +1,74 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/local-variables?page=4",
+  "title": "Tại sao các biến cục bộ lại quan trọng?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tại sao các biến cục bộ lại quan trọng?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Các biến cục bộ rất quan trọng vì chúng làm cho các hàm trở nên độc lập."
+    },
+    {
+      "type": "paragraph",
+      "content": "Như chúng ta đã thảo luận trước đó, bất kể bên trong hàm có gì và biến nào được sử dụng trong đó, chúng ta có thể sử dụng hàm đó nếu biết hai điều:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "các đối số mà hàm lấy",
+        "giá trị trả về từ hàm"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Mã nguồn"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int addNumbers(int n1, int n2) {\n4\n5  int result = n1 + n2;\n6  return result;\n7}\n8\n9int main() {\n10\n11  int n1, n2;\n12  printf(\"Enter two values: \");\n13  scanf(\"%d %d\", &n1, &n2);\n14\n15  int result = addNumbers(n1, n2);\n16  printf(\"Sum: %d\", result);\n17  \n18  return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter two value: 9\n3\nSum: 12"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong chương trình, điều quan trọng là phải hiểu rằng các biến n1, n2 và kết quả bên trong hàm là cục bộ của hàm addNumbers()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng khác với các biến n1, n2 và kết quả nằm ngoài hàm (mặc dù tên giống nhau)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

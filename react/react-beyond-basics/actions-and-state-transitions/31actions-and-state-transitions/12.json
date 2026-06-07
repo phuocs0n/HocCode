@@ -1,0 +1,73 @@
+{
+  "index": 12,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions?page=13",
+  "title": "What useReducer() Actually Solves",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What useReducer() Actually Solves"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "useReducer() is just a more complicated useState()."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"I can do the same thing with setEntries(), why bother with all this extra boilerplate?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "useReducer() isn't about being more powerful than useState(). It's about making state changes explicit and named."
+    },
+    {
+      "type": "paragraph",
+      "content": "When entries can change in two distinct ways, two separate useState() handlers make those changes invisible."
+    },
+    {
+      "type": "paragraph",
+      "content": "A reducer makes them a named, enumerated list. Every change to entries is a case in one place."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reach for useReducer() when a piece of state can change in more than two distinct ways."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you find yourself writing multiple handler functions that all call setState() on the same value, a reducer will make that logic clearer and easier to maintain."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

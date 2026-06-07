@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/building-blog-content?page=2",
+  "title": "Section 1: What You'll Learn",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Section 1: What You'll Learn"
+    },
+    {
+      "type": "paragraph",
+      "content": "This section of the blog is designed to teach how lists are created in HTML. The section itself is about what your blog readers will learn."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have chosen lists to make such content clearer than long paragraphs."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section>\n2  <h2>What You'll Learn</h2>\n3  <ul>\n4    <li>How HTML structures content</li>\n5    <li>How to group related elements</li>\n6    <li>How to build readable webpages</li>\n7  </ul>\n8</section>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Why this works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "<section> - tackles only one idea, i.e., what readers will learn in the blog",
+        "<h2> - specifies the topic of the section",
+        "<ul> - groups the related points, i.e., the individual topics readers will learn"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Website headers are a perfect place to use lists. Real-world navigation menus are almost always built using lists. Let's replace our simple header with a more realistic page header structure."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Press the Run Code button and view nav links as list in header -->"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

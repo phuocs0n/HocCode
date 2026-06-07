@@ -1,0 +1,72 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/overlay-modal-opening-closing?page=5",
+  "title": "Modal Open and Close",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Modal Open and Close"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see all three closing paths working together."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Modal Open and Close</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <button id=\"open-modal\">Open modal</button>\n11\n12  <div id=\"modal-overlay\" class=\"overlay\">\n13    <div class=\"modal\">\n14      <p>Click outside or press Escape to close.</p>\n15      <button class=\"modal-close\">Close</button>\n16    </div>\n17  </div>\n18\n19  <script src=\"script.js\"></script>\n20</body>\n21</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6.overlay {\n7  position: fixed;\n8  inset: 0;\n9  background: rgba(0,0,0,0.5);\n10  display: flex;\n11  align-items: center;\n12  justify-content: center;\n13  opacity: 0;\n14  visibility: hidden;\n15  transition: opacity 0.2s, visibility 0.2s;\n16}\n17\n18.overlay.modal-open {\n19  opacity: 1;\n20  visibility: visible;\n21}\n22\n23.modal {\n24  background: #fff;\n25  padding: 24px;\n26  border-radius: 8px;\n27}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var overlay = document.getElementById('modal-overlay');\n2var modalBox = overlay ? overlay.querySelector('.modal') : null;\n3var openBtn = document.getElementById('open-modal');\n4var closeBtn = overlay ? overlay.querySelector('.modal-close') : null;\n5\n6var escapeHandler = null;\n7\n8function closeModal() {\n9  if (!overlay) return;\n10\n11  overlay.classList.remove('modal-open');\n12\n13  if (escapeHandler) {\n14    document.removeEventListener('keydown', escapeHandler);\n15    escapeHandler = null;\n16  }\n17}\n18\n19function openModal() {\n20  if (!overlay) return;\n21\n22  overlay.classList.add('modal-open');\n23\n24  escapeHandler = function (e) {\n25    if (e.key === 'Escape') {\n26      closeModal();\n27    }\n28  };\n29\n30  document.addEventListener('keydown', escapeHandler);\n31}\n32\n33if (openBtn) {\n34  openBtn.addEventListener('click', openModal);\n35}\n36\n37if (closeBtn) {\n38  closeBtn.addEventListener('click', closeModal);\n39}\n40\n41if (overlay) {\n42  overlay.addEventListener('click', function (e) {\n43    if (e.target === overlay) {\n44      closeModal();\n45    }\n46  });\n47}\n48\n49if (modalBox) {\n50  modalBox.addEventListener('click', function (e) {\n51    e.stopPropagation();\n52  });\n53}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Open the modal and try all three ways to close it."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Click the close button",
+        "Click outside the modal",
+        "Press Escape"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Every path calls the same closeModal() function. One function. Three triggers. Nothing duplicated."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will practice wiring this up yourself."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

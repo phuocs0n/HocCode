@@ -1,0 +1,147 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-select?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose you have a table named Employees with the following fields: id, name, email, and city."
+    },
+    {
+      "type": "paragraph",
+      "content": "How can you select the name and email of all the employees from the Employees table?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name and email\nFROM Employees;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "SQL doesn't use \"and\" to select multiple columns; it uses commas."
+    },
+    {
+      "type": "paragraph",
+      "content": "SQL doesn't use \"and\" to select multiple columns; it uses commas."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT email, name\nFROM Employees;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This selects the correct columns but in the wrong order. The order of the columns matters."
+    },
+    {
+      "type": "paragraph",
+      "content": "This selects the correct columns but in the wrong order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The order of the columns matters."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFROM Employee;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This selects name and email from the Employee table, not the Employees table. Using the wrong table name is a common mistake."
+    },
+    {
+      "type": "paragraph",
+      "content": "This selects name and email from the Employee table, not the Employees table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using the wrong table name is a common mistake."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name, email\nFROM Employees;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This correctly selects the name and email columns from the Employees table."
+    },
+    {
+      "type": "paragraph",
+      "content": "This correctly selects the name and email columns from the Employees table."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose you have a table named Employees with the following fields: id, name, email, and city.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:SELECT name and email\nFROM Employees;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "SELECT name and email\nFROM Employees;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:SELECT email, name\nFROM Employees;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "SELECT email, name\nFROM Employees;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:SELECT name, email\nFROM Employee;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "SELECT name, email\nFROM Employee;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:SELECT name, email\nFROM Employees;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "SELECT name, email\nFROM Employees;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

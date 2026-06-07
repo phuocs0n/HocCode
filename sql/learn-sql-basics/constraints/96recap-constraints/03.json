@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-7?page=3",
+  "title": "Concert must have performer's name: NOT NULL Constraint",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Concert must have performer's name: NOT NULL Constraint"
+    },
+    {
+      "type": "paragraph",
+      "content": "To meet the requirement that the concert must have the performer's name, you can use the NOT NULL constraint in the performer_name column."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Concerts (\n2    performer_name VARCHAR(255) NOT NULL\n3);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Applying the NOT NULL constraint to the performer_name column prevents the scheduling of concerts without a specified performer, thus ensuring all events are clearly defined."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,184 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-basics/local-variables?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n\n    void getNumber() {\n        int number = 1;\n    }\n  \n    public static void main(String[] args) {\n\n        Main obj = new Main();\n        System.out.println(number);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable inside the System.out.println() method is not defined. Remember, the int number = 1; is local to the getNumber() method only. It doesn't exist outside."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable inside the System.out.println() method is not defined. Remember, the int number = 1; is local to the getNumber() method only. It doesn't exist outside."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable is not defined. It only exists inside of the getNumber() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable is not defined. It only exists inside of the getNumber() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the number variable not the 'number' string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the number variable not the 'number' string."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable inside the System.out.println() method is not defined. Remember, the int number = 1; is local to the getNumber() method only. It doesn't exist outside."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable inside the System.out.println() method is not defined. Remember, the int number = 1; is local to the getNumber() method only. It doesn't exist outside."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable is not defined. It only exists inside of the getNumber() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number variable is not defined. It only exists inside of the getNumber() method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the number variable not the 'number' string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the number variable not the 'number' string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:number",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "number",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

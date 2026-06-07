@@ -1,0 +1,78 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/public-private-modifiers?page=1",
+  "title": "Access Modifiers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Access Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far in our example, we have been using the public keyword along with our member variables and functions within the class."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Car {\n    public:\n        // code\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, public means these data members and functions can be accessed from anywhere in the program. Hence, we were able to access them from the main() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there might be situations where we wouldn't want our data members and functions to be accessed from outside. For this, we use access modifiers in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "Access modifiers are used to set the visibility of data members, functions, and even classes. For example, if we don't want our class members to be accessed from outside, we can mark them as private using the private access modifier."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Car {\n    private:\n        // code\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we will learn about two major types of access modifiers in C++."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "public - allows access from outside",
+        "private - prevents access from outside"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "There's also a third access modifier - protected. But we'll learn about it in a later chapter."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, let's get started with the public modifier."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

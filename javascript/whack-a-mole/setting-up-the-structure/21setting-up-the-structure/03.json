@@ -1,0 +1,61 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/whack-a-mole/setting-up-structure?page=2",
+  "title": "The Three Screens 🎮",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Three Screens 🎮"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you start coding, let's visualize what you're building."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your Whack-a-Mole game has three main parts:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Start Screen: This is the first thing the player sees. It welcomes them and includes a Start Game button."
+    },
+    {
+      "type": "paragraph",
+      "content": "Play Screen: This is where the game runs. It holds the holes, the moles, the score counter, and the timer."
+    },
+    {
+      "type": "paragraph",
+      "content": "End Screen: This screen shows the final score and gives the player a way to play again (and optionally exit)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The flow is simple: Start → Play → End."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, you'll only create empty containers for these screens. They won't look like much yet, and that's expected. Right now, you're focused on structure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

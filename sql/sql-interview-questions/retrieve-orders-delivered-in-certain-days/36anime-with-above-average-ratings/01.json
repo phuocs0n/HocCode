@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/anime-with-above-average-ratings?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Anime table in our problem has the columns id, title, rating, and seasons."
+    },
+    {
+      "type": "paragraph",
+      "content": "The problem statement requires us to retrieve the names of all anime titles with seasons not equal to 20 and ratings higher than the average rating of the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, to solve this problem, we need to check for two things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Seasons that are not equal to 20 using the not equal to <> operator.",
+        "Rating greater than the average rating of the table with the AVG() function."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "It may seem easy to solve, but the caveat is using the AVG() function correctly."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must structure this query as a subquery and use the AVG() function inside the nested query."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what the resulting table will look like:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "title"
+        ],
+        [
+          "One Piece"
+        ],
+        [
+          "Death Note"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

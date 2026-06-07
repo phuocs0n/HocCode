@@ -1,0 +1,54 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-side-effect?page=11",
+  "title": "Constraint: The Effect Function Cannot Be async",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Constraint: The Effect Function Cannot Be async"
+    },
+    {
+      "type": "paragraph",
+      "content": "As a rookie, you might often be tempted to try this with useEffect():"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Do NOT do this\nuseEffect(async function () {\n  const res = await fetch(\"https://api.programiz.pro/api/Demo/v1/journal-entries\");\n  const data = await res.json();\n  setEntries(data);\n}, []);"
+    },
+    {
+      "type": "paragraph",
+      "content": "React will not throw an error, but this silently breaks the code because an async function always returns a Promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "But React expects the effect function to return either nothing or a cleanup function, not a Promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the fetch will still run, but React loses control over the effect lifecycle. Next, we'll see how to correct this issue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

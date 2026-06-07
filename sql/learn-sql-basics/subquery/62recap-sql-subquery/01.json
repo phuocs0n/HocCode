@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-4?page=2",
+  "title": "Tracking Enrollments in Elective Courses",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tracking Enrollments in Elective Courses"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's answer the question posed by your team. Your goal is to identify the elective courses with at least one student enrolled using the Courses and Enrollments tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "To achieve this, you can:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use a subquery to identify course IDs from the Enrollments table where students are actively enrolled.",
+        "Utilize this information in the main query to filter and list elective courses from the Courses table with enrollments."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's execute with the following query:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT course_id, course_name\n2FROM Courses\n3WHERE course_type = 'Elective'\n4AND course_id IN (\n5    SELECT course_id\n6    FROM Enrollments\n7    WHERE student_id IS NOT NULL\n8);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

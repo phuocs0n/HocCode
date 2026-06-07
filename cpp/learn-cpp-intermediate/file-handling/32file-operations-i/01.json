@@ -1,0 +1,73 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/file-operations-i?page=2",
+  "title": "Read From a File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Read From a File"
+    },
+    {
+      "type": "paragraph",
+      "content": "We already learned how to read a file in the previous lesson:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "string content;\n\n// create fstream object\nfstream my_file;\n\n// open file in read mode\nmy_file.open(\"message.txt\");\n\n// read until the End of File\nwhile (!my_file.eof()) {\n    getline(my_file, content);\n    cout << content << endl;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "But starting from now, we will always open the file explicitly in read mode/input mode to perform the read operation."
+    },
+    {
+      "type": "paragraph",
+      "content": "To open a file in read mode, we need to supply ios::in as the second argument to the open() function."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// create fstream object\nfstream my_file;\n\n// open file in input mode\nmy_file.open(\"message.txt\", ios::in);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's rewrite the previous program by specifying the read mode."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\n#include <fstream>\nusing namespace std;\n\nint main() {\n\n    string content;\n\n    // create fstream object\n    fstream my_file;\n\n\n    // open file in read mode\n    my_file.open(\"message.txt\", ios::in);\n\n\n    // check if the file has opened properly\n    if (my_file.fail()) {\n\n        // print error message\n        cout << \"File failed to load!\";\n\n        // exit the program\n        exit(0);\n    }\n    else {\n\n        // print success message\n        cout << \"File loaded successfully!\" << endl;\n    }\n\n    // read until the End of File\n    while (!my_file.eof()) {\n        getline(my_file, content);\n        cout << content << endl;\n    }\n\n    // close the file\n    my_file.close();\n\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "File loaded successfully!\nI love programming.\nI love Programiz."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

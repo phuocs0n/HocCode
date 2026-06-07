@@ -1,0 +1,72 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/linear-search?page=3",
+  "title": "Thought Process to Implement Linear Search",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process to Implement Linear Search"
+    },
+    {
+      "type": "paragraph",
+      "content": "To implement linear search, we follow these steps:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Use a loop to traverse (access elements one-by-one) along with its corresponding index."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "for index, element in enumerate(lst):\n    pass"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Compare each element with the target value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Within the loop, we will compare list elements to the target value. If a match is found, we use the corresponding index of that value."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "for index, element in enumerate(lst):\n   if element == target:\n        result = index"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. If the element is not found in the list, set the result to None."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "for index, element in enumerate(lst):\n   if element == target:\n        result = index\n\nresult = None"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will create a working program of linear search."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

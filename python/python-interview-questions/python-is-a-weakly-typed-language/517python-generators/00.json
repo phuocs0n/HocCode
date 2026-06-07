@@ -1,0 +1,69 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/python-generators?page=1",
+  "title": "What are Python Generators?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What are Python Generators?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python generators are a simple way of creating iterators. All the work we mentioned above is automatically handled by generators in Python."
+    },
+    {
+      "type": "paragraph",
+      "content": "To build an iterator in Python manually, we need to"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "write the __iter__() and __next__() method to keep track of internal states,",
+        "and raise StopIteration when there are no values to be returned."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is both lengthy and counterintuitive. The generator comes to the rescue in such situations."
+    },
+    {
+      "type": "paragraph",
+      "content": "To create generators, we use the yield keyword instead of the return keyword. We can have as many yield statements as we want and each yield is returned in the next iteration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a look at an example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def my_gen():\n2    n = 1\n3    yield n\n4\n5    n += 1\n6    yield n\n7\n8    n += 1\n9    yield n\n10\n11\n12for item in my_gen():\n13    print(item)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've created a function that yields multiple values and each yield value is returned in the next iteration serially."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

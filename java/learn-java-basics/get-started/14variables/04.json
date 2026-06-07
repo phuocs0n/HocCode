@@ -1,0 +1,184 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/variables?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What's the variable in the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "int score = 35;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "int"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "int specifies the data type of the variable but is not a variable in itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "int specifies the data type of the variable but is not a variable in itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "35"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "35 is the integer value stored in the variable, not the variable itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "35 is the integer value stored in the variable, not the variable itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "score"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, the value to the right of the = symbol is a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, the value to the right of the = symbol is a variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "int specifies the data type of the variable but is not a variable in itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "int specifies the data type of the variable but is not a variable in itself."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "35 is the integer value stored in the variable, not the variable itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "35 is the integer value stored in the variable, not the variable itself."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, the value to the right of the = symbol is a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, the value to the right of the = symbol is a variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The = sign is the assignment operator, not a variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What's the variable in the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:int",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "int",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:35",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "35",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:score",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "score",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:=",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "=",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

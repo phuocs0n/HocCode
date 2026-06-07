@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/usecallback-when-functions-change-too-often?page=3",
+  "title": "Introducing useCallback()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introducing useCallback()"
+    },
+    {
+      "type": "paragraph",
+      "content": "useCallback() wraps a function and returns a stable reference that only changes when its dependencies change:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useState, useEffect, useMemo, useCallback } from \"react\";\n\nconst handleCloseDrawer = useCallback(function () {\n  setSelectedEntry(null);\n}, []);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the const assignment: useCallback() is a hook that returns a value, so we assign it to a variable rather than using a function declaration."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function passed inside still uses the function keyword; only the outer form changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "With an empty dependency array, handleCloseDrawer() is created once and stays the same reference across all renders. The Drawer's useEffect() no longer sees a changed onClose() — it stops re-running."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's pass it in place of the inline arrow:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<Drawer entry={selectedEntry} onClose={handleCloseDrawer} />"
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, handleCloseDrawer() solves the Drawer problem. But it isn't the only function in App that could cause the same issue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

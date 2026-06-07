@@ -1,0 +1,51 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-python/array-representation-of-binary-tree?page=6",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class BinaryTree:\n2    def __init__(self):\n3        self.array = []\n4\n5    # calculate the index of a node's parent\n6    def parent(self, index):\n7        return (index - 1) // 2\n8\n9    # calculate the index of a node's left child\n10    def left_child(self, index):\n11        return 2 * index + 1\n12\n13    # calculate the index of a node's right child\n14    def right_child(self, index):\n15        return 2 * index + 2\n16\n17    # check if a node at a given index has a parent\n18    def has_parent(self, index):\n19        return self.parent(index) >= 0\n20\n21    # check if a node at a given index has a left child\n22    def has_left_child(self, index):\n23        return self.left_child(index) < len(self.array)\n24\n25    # check if a node at a given index has a right child\n26    def has_right_child(self, index):\n27        return self.right_child(index) < len(self.array)\n28\n29    # add a new element to the binary tree \n30    # for demonstration purposes\n31    def insert(self, value):\n32        self.array.append(value)\n33\n34    # print the tree contents (for demonstration)\n35    def print_tree(self):\n36        print(self.array)\n37\n38\n39bt = BinaryTree()\n40\n41# insert elements into the binary tree\n42for i in range(10):\n43        bt.insert(i)\n44\n45# display binary tree\n46bt.print_tree()\n47print()\n48\n49# check some relationships\n50index = 3\n51if bt.has_parent(index):\n52    print(f\"Parent of node at index {index}: {bt.array[bt.parent(index)]}\")\n53    \n54if bt.has_left_child(index):\n55    print(f\"Left child of node at index {index}: {bt.array[bt.left_child(index)]}\")\n56    \n57if bt.has_right_child(index):\n58        print(f\"Right child of node at index {index}: {bt.array[bt.right_child(index)]}\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n\nParent of node at index 3: 1\nLeft child of node at index 3: 7\nRight child of node at index 3: 8"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we added the insert() method to add elements to the array for demonstration purposes only."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

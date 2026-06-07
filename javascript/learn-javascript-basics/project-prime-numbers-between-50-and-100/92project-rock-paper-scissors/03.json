@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-rock-paper-scissors?page=4",
+  "title": "Step 1: Making Computer Randomly Choose a Value",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Making Computer Randomly Choose a Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the first step, we'll make the computer randomly choose between either rock, paper or scissors."
+    },
+    {
+      "type": "paragraph",
+      "content": "To make the computer choose, let's first generate a random number between 0 and 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "0 represents rock",
+        "1 represents paper",
+        "2 represents scissors"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To generate random numbers, you can use the Math.random() function, which gives a number between 0 and 1:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let choice = Math.random();\n2console.log(choice);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run this code a few times. You'll see a different result each time. Next, let's make this code so that it only generates 0, 1, 2 randomly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

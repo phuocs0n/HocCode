@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/library-management-system?page=4",
+  "title": "Step 3: Creating the Issue Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Creating the Issue Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Removed the Book object from Main class (we will add it inside the Issue class).",
+        "Created the Issue class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.HashMap;\n2import java.util.Scanner;\n3\n4class Student {\n5\n6    HashMap<Integer, String> student = new HashMap<>();\n7    Scanner input = new Scanner(System.in);\n8\n9    // add students\n10    void add() {\n11        student.put(101, \"Niall\");\n12        student.put(102, \"Anna\");\n13    }\n14\n15    // register student\n16    void addStudent() {\n17\n18        System.out.println(\"Enter your name: \");\n19        String name = input.next();\n20        System.out.println(\"Enter your id: \");\n21        int id = input.nextInt();\n22        student.put(id, name);\n23    }\n24\n25}\n26\n27class Book {\n28\n29    HashMap<Integer, String> book = new HashMap<>();\n30\n31    // add books\n32    void add() {\n33        book.put(11, \"The Fault in our Stars\");\n34        book.put(22, \"A Good Book\");\n35    }\n36\n37}\n38\n39class Issue {\n40\n41    // store book issued by student\n42    HashMap<String, String> issue = new HashMap<>();\n43\n44\n45    Book b1 = new Book();\n46\n47    public Issue() {\n48        b1.add();\n49    }\n50\n51}\n52\n53class Main {\n54\n55\n56    public static void main(String[] args) {\n57\n58        Issue i1 = new Issue();\n59\n60    }\n61\n62\n63}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the Issue class, we have created the object of Book class. Then, we created a constructor of the Issue class which we have called the add() method of the Book class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, whenever we create an object of the Issue class, the add() method of the Book class is called. So, the books are added to book HashMap when the object of the Issue class is created."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will add more functionality to the Issue class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

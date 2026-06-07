@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/building-job-search-app?page=2",
+  "title": "Step 1: Validation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Validation"
+    },
+    {
+      "type": "paragraph",
+      "content": "User input cannot be trusted. Someone might submit an empty form; type a single character; or paste some random text."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we send bad input to an API, we're wasting a network request and might get useless results in return."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we'll write a validateKeyword() function that:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Trims whitespace from the input",
+        "Rejects empty strings",
+        "Requires a minimum length",
+        "Returns both a status and the cleaned data"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function validateKeyword(keyword) {\n    const trimmed = keyword.trim();\n\n    if (trimmed === \"\") {\n        return { valid: false, error: \"Please enter a search term.\" };\n    }\n\n    if (trimmed.length < 2) {\n        return { valid: false, error: \"Search term must be at least 2 characters.\" };\n    }\n\n    return { valid: true, keyword: trimmed };\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This pattern of validating before processing is something you'll use in every application you build."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/stdarray?page=2",
+  "title": "Create a std::array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create a std::array"
+    },
+    {
+      "type": "paragraph",
+      "content": "std::array is defined in the <array> header so we must include this header before we can use std::array."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <array>\n\n// Declaration of std::array \nstd::array<int, 5> numbers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we declared a std::array of size 5 that stores a list of numbers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Example: C++ std::array"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// C++ program to demonstrate the usage of std::arrays\n2\n3#include <iostream>\n4#include <array>\n5\n6using namespace std;\n7\n8int main(){\n9    // Uniform initialization\n10    array <int , 5> numbers {1, 2, 3, 4, 5};\n11\n12    cout << \"The elements are: \" << endl;\n13\n14    // Use a ranged for loop print the elements\n15    for(const int num: numbers){\n16        cout << num << \" \";\n17    }\n18}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The elements are: \n1 2 3 4 5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

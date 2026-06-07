@@ -1,0 +1,55 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/alter-table?page=1",
+  "title": "The ALTER TABLE Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The ALTER TABLE Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "In response to the manager's request for a more flexible system to store customer details, you may need to modify the existing table to accommodate additional information."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, you can:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add a new column (e.g., to store customer city)",
+        "Modify a column (e.g., to increase the name length)",
+        "Rename a column (e.g., to rename id to customer_id)",
+        "Delete a column (e.g., to remove the last_name)",
+        "Rename a table (e.g., to rename Customers table to Users)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To make these changes, SQL provides the ALTER TABLE statement. In the next section, we'll learn how to use this to modify tables in SQL."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

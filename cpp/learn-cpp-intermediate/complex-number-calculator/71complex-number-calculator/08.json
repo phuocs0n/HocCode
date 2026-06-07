@@ -1,0 +1,67 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/complex-number-calculator?page=9",
+  "title": "Step 6: Completing the Program",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 6: Completing the Program"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's complete this program by combining all the components we've developed so far."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <cmath>\n3using namespace std;\n4\n5class Complex {\n6private:\n7\n8    // attributes\n9    double real;\n10    double imag;\n11\n12public:\n13    \n14    // constructor to initialize variables with default values\n15    Complex() : real(0.0), imag(0.0) {}\n16    \n17    // constructor to initialize variables with custom values\n18    Complex(double r, double i) : real(r), imag(i) {}\n19    \n20    // overload the + operator\n21    Complex operator + (Complex arg) {\n22        \n23        Complex complex_sum;\n24        \n25        // add the real and imaginary parts separately\n26        complex_sum.real = this->real + arg.real;\n27        complex_sum.imag = this->imag + arg.imag;\n28        \n29        return complex_sum;\n30    }\n31    \n32    // overload the - operator\n33    Complex operator - (Complex arg) {\n34        \n35        Complex complex_difference;\n36        \n37        // subtract the real and imaginary parts\n38        complex_difference.real = this->real - arg.real;\n39        complex_difference.imag = this->imag - arg.imag;\n40        \n41        return complex_difference;\n42    }\n43    \n44    // overload the * operator\n45    Complex operator * (Complex arg) {\n46        \n47        Complex complex_product;\n48        \n49        // use complex multiplication formula\n50        complex_product.real = (this->real * arg.real) - (this->imag * arg.imag);\n51        complex_product.imag = (this->real * arg.imag) + (this->imag * arg.real);\n52        \n53        return complex_product;\n54    }\n55    \n56\n57    // overload the / operator\n58    Complex operator / (Complex arg) {\n59\n60        Complex complex_division;\n61\n62        try {\n63\n64            double denominator = pow(arg.real, 2) + pow(arg.imag, 2);\n65        \n66            // throw an exception if denominator is 0    \n67            if (denominator == 0)\n68                throw 0;\n69\n70            // use complex division formula\n71            complex_division.real = ((this->real * arg.real) + (this->imag * arg.imag)) / denominator;\n72            complex_division.imag = ((this->imag * arg.real) - (this->real * arg.imag)) / denominator;\n73        }\n74\n75        catch (int num) {\n76\n77            // print the error message and exit the program\n78            cout << \"Error! Cannot divide by \" << num << endl;\n79            exit(0);\n80        }\n81        \n82        return complex_division;\n83    }\n84\n85    \n86    // method to return the result\n87    string get_result() {\n88    \n89        string result;\n90       \n91        if (imag == 0) {\n92            result = to_string(real);\n93        }\n94        else if (imag < 0) {\n95            result = to_string(real) + \" - \" + to_string(abs(imag)) + \"i\";\n96        }\n97        else {\n98            result = to_string(real) + \" + \" + to_string(imag) + \"i\";\n99        }\n100        \n101        return result;\n102    }\n103};\n104\n105int main() {\n106    \n107    Complex complex1(5, -10);\n108    Complex complex2(0, 0);\n109    \n110\n111    // divide complex1 by complex2\n112    Complex division = complex1 / complex2;\n113\n114    cout << \"Division = \" << division.get_result() << endl;\n115\n116    \n117    // subtract complex2 from complex1\n118    Complex difference = complex1 - complex2;\n119\n120    cout << \"Difference = \" << difference.get_result() << endl;\n121\n122    return 0;\n123}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Error! Cannot divide by 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Congratulations! You've completed the basic program for complex calculation!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, we first performed a complex number division by 0, followed by complex subtraction."
+    },
+    {
+      "type": "paragraph",
+      "content": "But thanks to our exception handling, the program prints and error message and exits the program the moment it encounters the illegal division."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can add further features to our calculator to make it more useful and versatile."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

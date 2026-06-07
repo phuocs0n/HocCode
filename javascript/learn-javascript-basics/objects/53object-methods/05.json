@@ -1,0 +1,136 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/object-manipulation?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the given code snippet?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let person = {\n    name: \"Alice\",\n    age: 30,\n    occupation: \"Engineer\"\n};\n\nconst personKeys = Object.keys(person);\n\nconsole.log(personKeys);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "[ 'name', 'age', 'occupation' ]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the list of keys of the person object."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the list of keys of the person object."
+    },
+    {
+      "type": "paragraph",
+      "content": "[ 'Alice', 30, 'Engineer' ]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an array of values of the person object instead of keys."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an array of values of the person object instead of keys."
+    },
+    {
+      "type": "paragraph",
+      "content": "[ 'name': 'Alice', 'age': 30, 'occupation': 'Engineer' ]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a mix of keys with values which is not how Object.keys() works."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a mix of keys with values which is not how Object.keys() works."
+    },
+    {
+      "type": "paragraph",
+      "content": "[ 'name', 'age' ]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This omits the occupation key from the person object."
+    },
+    {
+      "type": "paragraph",
+      "content": "This omits the occupation key from the person object."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the given code snippet?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:[ 'name', 'age', 'occupation' ]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "[ 'name', 'age', 'occupation' ]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:[ 'Alice', 30, 'Engineer' ]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "[ 'Alice', 30, 'Engineer' ]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:[ 'name': 'Alice', 'age': 30, 'occupation': 'Engineer' ]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "[ 'name': 'Alice', 'age': 30, 'occupation': 'Engineer' ]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:[ 'name', 'age' ]",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "[ 'name', 'age' ]",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

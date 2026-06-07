@@ -1,0 +1,136 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/set?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the contents of the following set?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "set<double> num = {9.56, -23.5, 89.28, 56.75, 89.28, 12.36, -23.5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "{9.56, -23.5, 89.28, 56.75, 89.28, 12.36, -23.5}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "{9.56, -23.5, 89.28, 56.75, 12.36}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "{-23.5, -23.5, 9.56, 12.36, 56.75, 89.28, 89.28}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "{-23.5, 9.56, 12.36, 56.75, 89.28}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set doesn't have any duplicate key and is sorted in ascending order by default."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the contents of the following set?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:{9.56, -23.5, 89.28, 56.75, 89.28, 12.36, -23.5}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "{9.56, -23.5, 89.28, 56.75, 89.28, 12.36, -23.5}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:{9.56, -23.5, 89.28, 56.75, 12.36}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "{9.56, -23.5, 89.28, 56.75, 12.36}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:{-23.5, -23.5, 9.56, 12.36, 56.75, 89.28, 89.28}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "{-23.5, -23.5, 9.56, 12.36, 56.75, 89.28, 89.28}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:{-23.5, 9.56, 12.36, 56.75, 89.28}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "{-23.5, 9.56, 12.36, 56.75, 89.28}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

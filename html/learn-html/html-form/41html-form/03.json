@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-html/html-form?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is true regarding the processing of user inputs in HTML forms?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML alone can process user inputs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML can only create the form structure; it cannot process user inputs."
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML can only create the form structure; it cannot process user inputs."
+    },
+    {
+      "type": "paragraph",
+      "content": "To process form inputs, we must use a programming language."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML forms can collect user inputs, but to process these inputs (e.g., validate and store them in a database), we need to use programming logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML forms can collect user inputs, but to process these inputs (e.g., validate and store them in a database), we need to use programming logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS can process user inputs"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS is used to style webpages and cannot process user inputs."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS is used to style webpages and cannot process user inputs."
+    },
+    {
+      "type": "paragraph",
+      "content": "User inputs do not need processing."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "User inputs usually need to be processed for validation, storage, and various other functionalities."
+    },
+    {
+      "type": "paragraph",
+      "content": "User inputs usually need to be processed for validation, storage, and various other functionalities."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is true regarding the processing of user inputs in HTML forms?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:HTML alone can process user inputs.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "HTML alone can process user inputs.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To process form inputs, we must use a programming language.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To process form inputs, we must use a programming language.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:CSS can process user inputs",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "CSS can process user inputs",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:User inputs do not need processing.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "User inputs do not need processing.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

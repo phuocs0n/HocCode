@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/specificity?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens when two rules have the same specificity in CSS?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both rules are applied."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one rule can apply to an element. If two rules target the same property, the latest one takes precedence."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one rule can apply to an element. If two rules target the same property, the latest one takes precedence."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rule that is written first in the CSS file is applied."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The rule that comes later in the CSS file is applied when two rules have the same specificity."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rule that comes later in the CSS file is applied when two rules have the same specificity."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rule that comes later in the CSS file is applied."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS follows a last-rule-wins approach. When several conflicting rules could apply to the same element, the one that comes last in the source code is applied."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS follows a last-rule-wins approach. When several conflicting rules could apply to the same element, the one that comes last in the source code is applied."
+    },
+    {
+      "type": "paragraph",
+      "content": "An external rule is applied."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "An external rule being applied depends solely on its specificity, not on its external nature."
+    },
+    {
+      "type": "paragraph",
+      "content": "An external rule being applied depends solely on its specificity, not on its external nature."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens when two rules have the same specificity in CSS?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Both rules are applied.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Both rules are applied.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The rule that is written first in the CSS file is applied.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The rule that is written first in the CSS file is applied.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The rule that comes later in the CSS file is applied.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The rule that comes later in the CSS file is applied.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:An external rule is applied.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "An external rule is applied.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

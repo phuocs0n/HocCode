@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/dom-tree?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the DOM tree, what is the parent of the <ul> element in the following structure?"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "<div>\n  <ul>\n    <li>Item 1</li>\n  </ul>\n</div>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <html> element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <html> is the root element and not the immediate parent of <ul>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <html> is the root element and not the immediate parent of <ul>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <body> element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <body> is higher up in the DOM hierarchy."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <body> is higher up in the DOM hierarchy."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <li> element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <li> is a child of the <ul>, not its parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <li> is a child of the <ul>, not its parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <div> element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <div> directly contains the <ul>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <div> directly contains the <ul>."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <html> is the root element and not the immediate parent of <ul>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <html> is the root element and not the immediate parent of <ul>."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <body> is higher up in the DOM hierarchy."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <body> is higher up in the DOM hierarchy."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <li> is a child of the <ul>, not its parent."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <li> is a child of the <ul>, not its parent."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <div> directly contains the <ul>."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <div> directly contains the <ul>."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the DOM tree, what is the parent of the <ul> element in the following structure?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The <html> element.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The <html> element.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The <body> element.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The <body> element.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The <li> element.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The <li> element.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The <div> element.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The <div> element.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

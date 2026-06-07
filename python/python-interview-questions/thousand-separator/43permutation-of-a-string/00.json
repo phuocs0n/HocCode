@@ -1,0 +1,55 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/permutation-of-string?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a non-empty string, print all the permutations of that string. But before that, let's define permutation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Permutation refers to the different ways elements from a set can be arranged. For example, given a string pan, the total permutations are:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "pan\nnap\nnpa\napn \npna\nanp"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, for an input string pro, the total permutations are:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "pro\npor\nrpo\nrop\nopr\norp"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

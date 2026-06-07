@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/building-search-feature?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why is query moved from Header to App in this lesson?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because header components are not allowed to hold state"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Header can hold state, but in this case the query needs to be visible in App, which is higher up."
+    },
+    {
+      "type": "paragraph",
+      "content": "Header can hold state, but in this case the query needs to be visible in App, which is higher up."
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent the input from re-rendering when the user types"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Moving state up doesn't prevent re-renders. It makes the value available where it's needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Moving state up doesn't prevent re-renders. It makes the value available where it's needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useMemo() only works at the top level of App"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() works in any component. The location change is about data flow, not hook rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() works in any component. The location change is about data flow, not hook rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because App needs to use query to filter entries"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "State must live in the component that uses it. App owns entries and does the filtering, and it needs to see query to do that."
+    },
+    {
+      "type": "paragraph",
+      "content": "State must live in the component that uses it. App owns entries and does the filtering, and it needs to see query to do that."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why is query moved from Header to App in this lesson?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because header components are not allowed to hold state",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because header components are not allowed to hold state",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To prevent the input from re-rendering when the user types",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To prevent the input from re-rendering when the user types",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because useMemo() only works at the top level of App",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because useMemo() only works at the top level of App",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because App needs to use query to filter entries",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because App needs to use query to filter entries",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

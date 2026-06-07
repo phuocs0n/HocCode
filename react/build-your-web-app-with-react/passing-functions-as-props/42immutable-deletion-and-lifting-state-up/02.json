@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/immutable-deletion-lifting-state-up?page=2",
+  "title": "Removing an Item Immutably with filter",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Removing an Item Immutably with filter"
+    },
+    {
+      "type": "paragraph",
+      "content": "You already know that you mustn't mutate the existing array when removing an entry. That means you're not allowed to use splice or change entries in place."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, React expects the state to be updated with a new value so it can detect the change."
+    },
+    {
+      "type": "paragraph",
+      "content": "filter returns a new array with only the items that pass a test. In our case, the test for being included in the new array is"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "All entries whose id isn't the one we're deleting"
+    },
+    {
+      "type": "paragraph",
+      "content": "Translating to React, the code is:r"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "entries.filter((entry) => entry.id !== id)"
+    },
+    {
+      "type": "paragraph",
+      "content": "You pass the generated array to setEntries, and React re-renders. The deleted entry is no longer in the array, so it no longer appears in the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, filter is essential for fulfilling React's expectations of immutability."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll see how all of this connects to what we call \"lifting state up\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

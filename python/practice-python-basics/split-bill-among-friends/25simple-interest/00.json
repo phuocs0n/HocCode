@@ -1,0 +1,84 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/simple-interest?page=1",
+  "title": "Simple Interest",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Simple Interest"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the simple interest and the final amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use the following formula to calculate the interest and final amount:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Simple Interest = P * R * T * .01\nFinal Amount = P + Simple Interest"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, P is the principal amount, R is the rate of interest and T is the time in years."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take float input for principal, rate and time, respectively.",
+        "Calculate the simple interest using the formula and store the result in interest.",
+        "Calculate the final amount using the formula and store it in total_sum.",
+        "Print interest and total_sum in separate lines."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input7500\n7.6\n4"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output2280.0\n9780.0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

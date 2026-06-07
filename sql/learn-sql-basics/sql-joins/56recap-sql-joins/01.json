@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-3?page=2",
+  "title": "Questions to Answer",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Questions to Answer"
+    },
+    {
+      "type": "paragraph",
+      "content": "The dean assigns you an important task: \"I need a report on student enrollment. Can you find answers to these questions?"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Which students are enrolled in courses?",
+        "Who hasn't enrolled in any course?",
+        "Are there any courses without students?",
+        "How can we see all students and all courses, even if they're not directly related?\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use SQL JOINs to tackle these questions effectively. Let's explore how."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

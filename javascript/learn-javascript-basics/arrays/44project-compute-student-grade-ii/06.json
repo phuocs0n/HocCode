@@ -1,0 +1,50 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-student-grade-ii?page=4",
+  "title": "Implementing reduce()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implementing reduce()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the updated code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function to add scores\n2const addScore = (sum, score) => {\n3    return sum + score;\n4};\n5\n6// Find the average score and return it\n7const getAverageScore = (scores) => {\n8\n9    // Calculate total score\n10    let total = scores.reduce(addScore, 0);\n11    \n12    // Compute average score\n13    let averageScore = total / scores.length;\n14    \n15    return averageScore;\n16}\n17\n18const scores = [55, 64, 75, 80, 65];\n19\n20let averageScore = getAverageScore(scores);\n21\n22console.log(averageScore);    // Output: 67.8"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've placed the addScore() function outside getAverageScore(). While the position of the function doesn't matter, what's important is that it is called correctly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also, now that getAverageScore() works with arrays of any size, let's test it using an array of a different size with the final version of the code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

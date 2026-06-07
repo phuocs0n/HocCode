@@ -1,0 +1,53 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/fibonacci-series-using-dynamic-programming?page=3",
+  "title": "Fibonacci Series Using Memoization",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Fibonacci Series Using Memoization"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming solves the redundancy issue by storing results of previously computed subproblems."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how it works:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Store Previous Results: Use a map to store Fibonacci numbers that have already been computed.",
+        "Check Before Computing: Before performing any calculation, check if the result is already available in the storage.",
+        "Compute Only Once: If the result isn't available, compute it and store it for future use."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This approach ensures each subproblem is solved only once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

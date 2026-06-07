@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/foreign-key?page=2",
+  "title": "FOREIGN KEY",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "FOREIGN KEY"
+    },
+    {
+      "type": "paragraph",
+      "content": "A foreign key is a column or set of columns in one table referencing the primary key in another table."
+    },
+    {
+      "type": "paragraph",
+      "content": "The FOREIGN KEY constraint establishes a relationship between the two tables, ensuring that data in one table (e.g., Books) is consistent with the data in another table (e.g., Authors)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you can implement the constraint:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Authors (\n2    id INTEGER PRIMARY KEY,\n3    author_name VARCHAR(100) NOT NULL\n4);\n5\n6CREATE TABLE Books (\n7    id INTEGER PRIMARY KEY,\n8    title VARCHAR(100) NOT NULL,\n9    book_code VARCHAR(20) UNIQUE,\n10    publisher VARCHAR(100),\n11    author_id INT,\n12    FOREIGN KEY (author_id) REFERENCES Authors(id)\n13);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the following statement in the code above:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "FOREIGN KEY (author_id) REFERENCES Authors(id)"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Makes author_id in the Books table a FOREIGN KEY",
+        "References the id column of the Authors table"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see what happens when you try to insert a book into the Books table with an author_id that does not exist in the Authors table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

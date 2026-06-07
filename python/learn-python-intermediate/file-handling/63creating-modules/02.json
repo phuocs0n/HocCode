@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/creating-modules?page=3",
+  "title": "Example: Calculator Using Custom Modules",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Calculator Using Custom Modules"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first create a file named calculator.py with these function:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def add(a, b):\n    return a + b\n    \ndef subtract(a, b):\n    return a - b\n\ndef multiply(a, b):\n    return a * b\n    \ndef divide(a, b):\n    return a / b"
+    },
+    {
+      "type": "paragraph",
+      "content": "This calculator.py file itself is a module. Now, let's import this file from another file named main.py."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import calculator\n\nresult1 = calculator.add(2, 3)\nprint(result1)   # 5\n\nresult3 = calculator.multiply(10, 3)\nprint(result3)   # 30"
+    },
+    {
+      "type": "paragraph",
+      "content": "After we use this statement import calculator, we can use all the functions and statements defined inside the calculator module."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have used the add() function of the calculator.py file using calculator.add()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we have used the multiply() function of the calculator.py file using calculator.multiply()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

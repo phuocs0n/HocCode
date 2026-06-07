@@ -1,0 +1,135 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/python-functions?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is correct?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unless we call a function, the code inside its function definition will not be executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to call a function using the function name in order to execute the code defined inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to call a function using the function name in order to execute the code defined inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can call a function only once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can invoke (call) a function as many times as we want."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can invoke (call) a function as many times as we want."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program terminates once a function is called and executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When a function is called, the program's control jumps to the function's definition.Once all the statements are executed, the control of the program returns to where the function was called. Then, the program continues executing the next statement outside the function."
+    },
+    {
+      "type": "paragraph",
+      "content": "When a function is called, the program's control jumps to the function's definition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once all the statements are executed, the control of the program returns to where the function was called. Then, the program continues executing the next statement outside the function."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can define a function using the function keyword."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the def keyword to define a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the def keyword to define a function."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is correct?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Unless we call a function, the code inside its function definition will not be executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Unless we call a function, the code inside its function definition will not be executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:We can call a function only once.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We can call a function only once.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The program terminates once a function is called and executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The program terminates once a function is called and executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:We can define a function using the function keyword.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "We can define a function using the function keyword.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

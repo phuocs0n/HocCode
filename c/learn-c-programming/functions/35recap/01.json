@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-function?page=2",
+  "title": "Tóm tắt (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tóm tắt (II)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Đối số và giá trị trả về"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đối số là đầu vào của hàm và giá trị trả về là đầu ra của hàm."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Function takes two arguments\n4// returns the sum of numbers\n5int addNumbers(int n1, int n2) {\n6\n7  int result = n1 + n2;\n8\n9  return result;\n10}\n11\n12int main() {\n13\n14  // Function call\n15  int total = addNumbers(12, 36);\n16  printf(\"%d\\n\", total);    // 48\n17\n18  total = addNumbers(10, 20);\n19  printf(\"%d\", total);    // 30\n20\n21  return 0;\n22}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Nguyên mẫu chức năng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nguyên mẫu hàm cho phép chúng ta gọi hàm trước khi định nghĩa chúng."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int addNumbers(int, int);\n4\n5int main() {\n6\n7  // Function call\n8  int result = addNumbers(12, 36);\n9  printf(\"%d\", result);    // 48\n10\n11  return 0;\n12}\n13\n14// Function definition\n15int addNumbers(int n1, int n2) {\n16\n17  int sum = n1 + n2;\n18\n19  return sum;\n20}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

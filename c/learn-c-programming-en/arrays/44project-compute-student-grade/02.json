@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=3",
+  "title": "Get Average Score",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Get Average Score"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Find the average score and return it\n4double getAverageScore(double scores[5]) {\n5\n6    double sum = 0;\n7\n8    // Find the sum\n9    for (int i = 0; i < 5; ++i) {\n10        sum = sum + scores[i];\n11     }\n12\n13     // Calculate the average\n14    double average = sum / 5;\n15\n16    return average;\n17}\n18\n19int main() {\n20\n21    // An array of scores\n22    double scores[5] = {55, 64, 75, 80, 65};\n23\n24    double averageScore = getAverageScore(scores);\n25    printf(\"%.2lf\", averageScore);\n26\n27    return 0;\n28}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "67.80"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the getAverageScore() function takes an array as an argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside this function, we have used a for loop to find the sum of all scores."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have computed the average by dividing the sum by 5 (number of array elements)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will use the average score to compute the student's grade."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

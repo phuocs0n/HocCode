@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/local-storage?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: If the object user = { name: \"John\", role: \"admin\" } is stored as a string using JSON.stringify, how do you retrieve it in its original object form?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "localStorage.getItem('user');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This retrieves the value as a string but does not convert it back into an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "This retrieves the value as a string but does not convert it back into an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "localStorage.getObject('user');"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "localStorage has no getObject() method; you must manually parse the stored string using JSON.parse."
+    },
+    {
+      "type": "paragraph",
+      "content": "localStorage has no getObject() method; you must manually parse the stored string using JSON.parse."
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON.parse(localStorage.getItem('user'));"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON.parse converts the JSON string back into the original object format."
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON.parse converts the JSON string back into the original object format."
+    },
+    {
+      "type": "paragraph",
+      "content": "JSON.stringify(localStorage.getItem('user'));"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This re-encodes the string as JSON instead of converting it back into an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "This re-encodes the string as JSON instead of converting it back into an object."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: If the object user = { name: \"John\", role: \"admin\" } is stored as a string using JSON.stringify, how do you retrieve it in its original object form?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:localStorage.getItem('user');",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "localStorage.getItem('user');",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:localStorage.getObject('user');",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "localStorage.getObject('user');",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:JSON.parse(localStorage.getItem('user'));",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "JSON.parse(localStorage.getItem('user'));",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:JSON.stringify(localStorage.getItem('user'));",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "JSON.stringify(localStorage.getItem('user'));",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

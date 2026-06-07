@@ -1,0 +1,64 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-rock-paper-scissors?page=9",
+  "title": "Putting All Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Putting All Together"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const getComputerChoice = () => {\n2    const options = [\"rock\", \"paper\", \"scissors\"];\n3    let choice = Math.floor(Math.random() * 3);\n4    return options[choice];\n5};\n6\n7const getUserChoice = () => {\n8    let choice = prompt(\"Enter your choice: \");\n9    choice = choice.toLowerCase();\n10    return choice;\n11};\n12\n13const determineOutcome = (computerChoice, userChoice) => {\n14    // If both the computer and user choose the same option, it's a draw\n15    if (computerChoice === userChoice) {\n16        return \"Draw\";\n17    }\n18\n19    // User wins if they choose paper against rock\n20    else if (computerChoice === \"rock\" && userChoice === \"paper\") {\n21        return \"Win\";\n22    }\n23    // User wins if they choose scissors against paper\n24    else if (computerChoice === \"paper\" && userChoice === \"scissors\") {\n25        return \"Win\";\n26    }\n27    // User wins if they choose rock against scissors\n28    else if (computerChoice === \"scissors\" && userChoice === \"rock\") {\n29        return \"Win\";\n30    }\n31\n32    // If none of the above conditions are met, the user loses\n33    else {\n34        return \"Lose\";\n35    }\n36};\n37\n38// Game Execution\n39let computerChoice = getComputerChoice();\n40let userChoice = getUserChoice();\n41let result = determineOutcome(computerChoice, userChoice);\n42\n43console.log(`Computer's pick: ${computerChoice}`);\n44console.log(result);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your choice: Paper\nComputer's pick: paper\nDraw"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your choice: rock\nComputer's pick: rock\nDraw"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the complete code. However, there is an issue with this code."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you figure out what it is? Let's explore it on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

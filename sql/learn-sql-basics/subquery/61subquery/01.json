@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/subquery?page=2",
+  "title": "Identifying Students Above Average",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Identifying Students Above Average"
+    },
+    {
+      "type": "paragraph",
+      "content": "To answer the question \"How can you identify the students whose GPA are above average?\" using your existing SQL skills, you can break it down into two queries."
+    },
+    {
+      "type": "paragraph",
+      "content": "First step: Find the average GPA:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT AVG(GPA) AS average_gpa\n2FROM Students;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This gives you an average of 3.7."
+    },
+    {
+      "type": "paragraph",
+      "content": "Second Step: Filter the student list:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT id, name, GPA\n2FROM Students \n3WHERE GPA > 3.7;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that you have to manually insert the average GPA (3.7) into the second query. This isn't efficient if the data changes and the average needs recalculating."
+    },
+    {
+      "type": "paragraph",
+      "content": "On the next page, let's combine these two queries into one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-error?page=1",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Errors prevent code from executing properly. Types of errors:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Syntax error: Occurs when the code violates JavaScript's syntax rules.",
+        "Runtime error (exceptions): Occurs when the code follows JavaScript's syntax rules but fails during execution."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Syntax error\n2// \"Log\" is incorrect\n3console.Log(\"Hello\");"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Runtime error\n2// y is not defined\n3let x = y;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

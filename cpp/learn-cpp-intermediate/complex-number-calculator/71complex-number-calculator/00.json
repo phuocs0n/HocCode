@@ -1,0 +1,87 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/complex-number-calculator?page=1",
+  "title": "Project Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Project Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this project, you will build a calculator for complex numbers using Operator Overloading and Exception Handling."
+    },
+    {
+      "type": "paragraph",
+      "content": "Other necessary topics include:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Object Oriented Programming",
+        "Conditional Statements",
+        "Loops",
+        "Functions"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If you're not confident in some of the topics listed above, then you should revise those lessons before proceeding."
+    },
+    {
+      "type": "paragraph",
+      "content": "But if you are confident, let's set the stage for our project with a short revision of Complex Numbers."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Revision: Complex Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that complex numbers are composed of two parts: a real part consisting of a real number and an imaginary part consisting of an imaginary number. For example, consider the complex number given below:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "5 + 7i"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "5 is the real part",
+        "7i is the imaginary part, where i = √-1"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move on to performing arithmetic operations on complex numbers."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,73 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/break-continue?page=3",
+  "title": "Break with if...else Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Break with if...else Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this scenario where you have a list of integers (both positive and negative). Your task is to display the numbers until the first negative integer is found."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first write code to loop through each item of the list."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "numbers = [10, 15, 20, -5, 30, -40]\nfor number in numbers:\n    print(number)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since you need to display numbers only until the first negative integer is found, you can add a condition to check if the number is negative. If it is, use the break statement to exit the loop."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [10, 15, 20, -5, 30, -40]\n2for number in numbers:\n3\n4    # Exit loop is negative number is found\n5    if number < 0:\n6        break\n7\n8    # Print the number because it's not negative\n9    print(number)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "10\n15\n20"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the visualizer to understand how this program works."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [10, 15, 20, -5, 30, -40]\n2for number in numbers:\n3\n4    if number < 0:\n5        break\n6\n7    print(number)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

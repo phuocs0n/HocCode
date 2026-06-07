@@ -1,0 +1,56 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/directories?page=6",
+  "title": "Renaming a Directory or a File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Renaming a Directory or a File"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can rename any directory or file using the rename() method of the os module. Its syntax is:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "os.rename(old_name, new_name)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\n\n# rename directory\nos.rename('test', 'new')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, this code changes the name of the test directory we previously created to new."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

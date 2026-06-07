@@ -1,0 +1,72 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/building-job-search-app?page=4",
+  "title": "Step 2a: Building the URL Safely",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2a: Building the URL Safely"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first thing our API function does is construct the request URL."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const url = `https://api.programiz.pro/api/demo/javascript/jobs?title=${encodeURIComponent(keyword)}`;"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use a template literal to build the URL dynamically. The encodeURIComponent() function is critical here."
+    },
+    {
+      "type": "paragraph",
+      "content": "For instance, if someone searches for \"C++ developer\", the + and space characters need special encoding to work in a URL."
+    },
+    {
+      "type": "paragraph",
+      "content": "Without encoding:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "https://api.programiz.pro/api/demo/javascript/jobs?title=C++ developer"
+    },
+    {
+      "type": "paragraph",
+      "content": "With encoding:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "https://api.programiz.pro/api/demo/javascript/jobs?title=C%2B%2B%20developer"
+    },
+    {
+      "type": "paragraph",
+      "content": "The second URL is valid. The first would break. encodeURIComponent() ensures we get the second URL."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

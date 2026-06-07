@@ -1,0 +1,64 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/naming-conflict?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Employees (\n2  id INT PRIMARY KEY,\n3  name VARCHAR(50),\n4  name VARCHAR(50)\n5);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code above is syntactically correct, but it defines the name column twice, causing a naming conflict."
+    },
+    {
+      "type": "paragraph",
+      "content": "Naming conflicts can lead to confusion, errors, and unexpected behavior when executing SQL queries."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, it is essential to understand and resolve naming conflicts and ensure the accuracy and reliability of database operations."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to use unique names for each column to fix this issue. Here's the corrected code:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Employees (\n2  id INT PRIMARY KEY,\n3  first_name VARCHAR(50),\n4  last_name VARCHAR(50)\n5);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

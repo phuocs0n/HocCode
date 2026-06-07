@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-variables?page=2",
+  "title": "Pass fail variable",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pass fail variable"
+    },
+    {
+      "type": "paragraph",
+      "content": "The quiz has fixed rules: a pass mark (40) and two messages - one for pass, one for fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "We put these at the top of the game so the rules are easy to see and easy to change:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var passMark = 40;\n2var passMessage = \"You passed! Well done.\";\n3var failMessage = \"You didn't reach the pass mark. Try again.\";\n4\n5console.log(\"Pass mark: \" + passMark);\n6console.log(\"If you pass: \" + passMessage);\n7console.log(\"If you fail: \" + failMessage);"
+    },
+    {
+      "type": "paragraph",
+      "content": "We're not deciding pass or fail here yet — we'll need conditionals for that. Right now we're just storing the rules so we can use them later."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Mindset"
+    },
+    {
+      "type": "paragraph",
+      "content": "I keep game rules like the pass mark and messages at the top, in variables, so they're easy to see and easy to change."
+    },
+    {
+      "type": "paragraph",
+      "content": "That way the rest of the code uses passMark, passMessage, and failMessage instead of hard-coded numbers or strings scattered everywhere. If the pass mark or the wording changes later, I update it in one place."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/control-flow-examples?page=2",
+  "title": "Kiểm tra năm nhuận (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Kiểm tra năm nhuận (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mỗi năm nhuận đều tuân theo một quy luật nhất định."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Năm nhuận chia hết cho 4 trừ năm thế kỷ (năm tận cùng bằng 00)",
+        "Năm thế kỷ chỉ là năm nhuận nếu nó chia hết cho 400."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "2017 - Not a leap year. Not divisible by 4. \n2000 - Leap year. Century year that is divisible by 400.\n1900 - Not a leap year. Century year but not divisible by 400.\n2012 - Leap year. Divisible by 4 and not a century year."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy thử triển khai logic này trong chương trình của chúng ta."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

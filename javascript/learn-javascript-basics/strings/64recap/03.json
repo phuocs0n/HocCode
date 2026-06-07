@@ -1,0 +1,69 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-strings?page=3",
+  "title": "Recap (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (III)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Accessing String Characters"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can access characters in a string using bracket notation ([ ]) along with their index. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let word = \"Hello\";\n2\n3console.log(word[0]);    // Output: H\n4\n5console.log(word[10]);    // Output: undefined"
+    },
+    {
+      "type": "paragraph",
+      "content": "When using [ ], if the character doesn't exist, the output is undefined."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The charAt() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also access characters in a string using the charAt() method. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let word = \"Hello\";\n2\n3console.log(word.charAt(1));    // Output: e\n4\n5console.log(word[10]);    // Output:"
+    },
+    {
+      "type": "paragraph",
+      "content": "When using charAt(), if the character doesn't exist, the output is an empty string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

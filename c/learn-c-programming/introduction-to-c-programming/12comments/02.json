@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/comments?page=2",
+  "title": "Nhận xét một dòng",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Nhận xét một dòng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C, chúng ta có thể sử dụng // (hai dấu gạch chéo lên) để bắt đầu nhận xét một dòng. Ví dụ:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4  \n5    // Print Hello World\n6    printf(\"Hello World\");\n7 \n8    return 0;\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, // Print Hello World là một bình luận. Nó bị trình biên dịch bỏ qua vì nó bắt đầu bằng dấu gạch chéo kép //."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, hãy chuyển sang phần bình luận nhiều dòng."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

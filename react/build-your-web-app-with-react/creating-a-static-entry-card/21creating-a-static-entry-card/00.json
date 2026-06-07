@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/creating-static-entry-card?page=1",
+  "title": "What You're Building",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What You're Building"
+    },
+    {
+      "type": "paragraph",
+      "content": "You now have a header for your journal app."
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  return (\n3   <div>\n4     <header>\n5       <h2>My Daily Journal</h2>\n6       <p>Capture your thoughts, one entry at a time</p>\n7     </header>\n8   </div>\n9  );\n10}\n11\n12export default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now you need a way to display journal entries. Each entry will have:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A title",
+        "The entry content",
+        "A date"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll build the card that displays a single entry. Right now, it'll be static, i.e., hardcoded data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Later, you'll make it dynamic by enabling the user to enter the data themselves."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, let's get started with our static entry card!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

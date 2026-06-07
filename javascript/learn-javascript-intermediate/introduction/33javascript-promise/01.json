@@ -1,0 +1,86 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-promise?page=2",
+  "title": "Why JavaScript Promises",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why JavaScript Promises"
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, consider a function getUsers() that returns a list of user objects:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function getUsers() {\n  return [\n    { username: 'john', email: 'john@test.com' },\n    { username: 'jane', email: 'jane@test.com' },\n  ];\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find a user from the list returned by the getUsers() function, you can use the findUser() function as follows:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function getUsers() {\n2  return [\n3    { username: 'john', email: 'john@test.com' },\n4    { username: 'jane', email: 'jane@test.com' },\n5  ];\n6}\n7function findUser(username) {\n8  const users = getUsers();\n9  const user = users.find((user) => user.username === username);\n10  return user;\n11}\n12\n13console.log(findUser('john'));"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "{ username: 'john', email: 'john@test.com' }"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, in practice, the getUsers() function may access a database or call an API to get the user list. This introducing a delay when accessing data in real life."
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, to simulate the delay, you can use the setTimeout() function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function getUsers() {\n2  let users = [];\n3\n4  setTimeout(() => {\n5    users = [\n6      { username: 'john', email: 'john@test.com' },\n7      { username: 'jane', email: 'jane@test.com' },\n8    ];\n9  }, 1000);\n10\n11  return users;\n12}\n13function findUser(username) {\n14  const users = getUsers();\n15  const user = users.find((user) => user.username === username);\n16  return user;\n17}\n18\n19console.log(findUser('john'));"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "undefined"
+    },
+    {
+      "type": "paragraph",
+      "content": "The getUsers() function won't work properly and always returns an empty array. To handle this, we can use Promises."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

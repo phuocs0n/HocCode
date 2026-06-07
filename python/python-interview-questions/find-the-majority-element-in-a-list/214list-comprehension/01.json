@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/list-comprehension?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the given list contains strings as elements. We can use list comprehension to create another list by filtering the strings that start with a vowel letter."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can do this through the following steps:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Loop through each element in the first list.",
+        "Take an element for each element in the list only if the first letter of the element is not in the 'aeiouAEIOU' string.",
+        "Store the result in another variable."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

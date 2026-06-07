@@ -1,0 +1,148 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/pointer-object?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Laptop {\n    public:\n        string brand;\n};\n\nint main() {\n\n    Laptop laptop1;\n    Laptop* ptr = &laptop1;\n    laptop1.brand = \"HP\";\n    cout << laptop1.brand << endl;\n\n    ptr.brand = \"Lenovo\";\n    cout << ptr.brand;\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "HP"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lenovo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "HP"
+    },
+    {
+      "type": "paragraph",
+      "content": "HP"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "HP"
+    },
+    {
+      "type": "paragraph",
+      "content": "0x7ffd37c6e3a0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code ptr.brand causes an error because we must use the -> operator with pointers to access class objects."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:HPLenovo",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "HPLenovo",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:HPHP",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "HPHP",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:HP0x7ffd37c6e3a0",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "HP0x7ffd37c6e3a0",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Error",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Error",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

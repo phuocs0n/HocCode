@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/recap-local-variables?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of local variables is critical in recursion since each recursive call possesses a separate local variable. Thus, we must revisit this topic here."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any variable that is created inside a function is local to it. For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function addNumbers(n1, n2) {\n2    let result = n1 + n2;\n3}\n4\n5// Call the function\n6addNumbers(2, 5);\n7\n8// Error code\n9// Attempt to print result variable\n10console.log(result);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n1, n2, and result are local variables that are defined within the scope of addNumbers(). When the execution of addNumbers() ends, all of these variables are destroyed."
+    },
+    {
+      "type": "paragraph",
+      "content": "As a result, the above program throws an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's because the result variable is defined within addNumbers(), and we are trying to access it from the global scope. In other words, the result variable is local to addNumbers() and doesn't exist outside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, we can only access a local variable indirectly by returning its value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

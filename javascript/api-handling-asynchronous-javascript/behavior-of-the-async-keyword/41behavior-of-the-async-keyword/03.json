@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/behavior-of-async-keyword?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does an async function always return?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value you explicitly return"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Async functions wrap return values automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "Async functions wrap return values automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "A promise"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even plain values get wrapped in Promise.resolve()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even plain values get wrapped in Promise.resolve()."
+    },
+    {
+      "type": "paragraph",
+      "content": "undefined if you don't return anything"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even undefined gets wrapped in a Promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even undefined gets wrapped in a Promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "An async object"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no \"async object\" type in JavaScript"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no \"async object\" type in JavaScript"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does an async function always return?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The value you explicitly return",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The value you explicitly return",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A promise",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A promise",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:undefined if you don't return anything",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "undefined if you don't return anything",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:An async object",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "An async object",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

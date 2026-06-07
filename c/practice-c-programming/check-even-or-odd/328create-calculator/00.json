@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/create-calculator?page=1",
+  "title": "Create Calculator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create Calculator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to create a calculator using switch...case."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two double variables named first and second and a character variable named op.",
+        "Get input values for all variables.",
+        "The input for the operator can only be one of the four values: '+', '-', '*' or '/'.",
+        "Based on the input value of the op, perform specific operations using the switch...case statement and print the result.",
+        "If op is +, perform addition between first and second; if it is -, perform subtraction and so on.",
+        "If op is neither of those 4 values, print Invalid Operator."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input+\n6\n2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output8.0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

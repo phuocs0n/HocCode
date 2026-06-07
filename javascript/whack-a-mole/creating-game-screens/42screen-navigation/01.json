@@ -1,0 +1,60 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/screen-navigation?page=2",
+  "title": "Understanding Screen Switching 🔄",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Screen Switching 🔄"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you code, let's understand how screen switching works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept: You have three screens, but only one should be visible at a time. To switch screens, you:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Add the hidden class to the current screen (hide it)",
+        "Remove the hidden class from the new screen (show it)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Why this works: Remember, the hidden class sets display: none, which completely hides an element. When you remove that class, the element becomes visible again."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of it like a slideshow: you're just showing one slide at a time by hiding the others."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll write a function that handles this screen switching automatically!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,111 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/universal-functions-vectorized-operations?page=3",
+  "title": "Examples of Universal Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Examples of Universal Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are some examples of NumPy Universal Functions:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arithmetic Operations:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3array1 = np.array([1, 2, 3, 4])\n4array2 = np.array([5, 6, 7, 8])\n5\n6# addition\n7result1 = np.add(array1, array2)\n8\n9# multiplication\n10result2 = np.multiply(array1, array2)\n11\n12print(\"Addition:\", result1)\n13print(\"Multiplication\", result2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Addition: [ 6  8 10 12]\nMultiplication [ 5 12 21 32]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we used the universal function add() and multiply() on two arrays, array1 and array2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trigonometric Functions:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# array of angles in radians\n4angles = np.array([0, 1])\n5print(\"Angles:\", angles)\n6\n7# compute the sine of the angles\n8sine_values = np.sin(angles)\n9print(\"Sine values:\", sine_values)\n10\n11# compute the inverse sine of the angles\n12inverse_sine = np.arcsin(angles)\n13print(\"Inverse Sine values:\", inverse_sine)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Angles: [0 1]\nSine values: [0.         0.84147098]\nInverse Sine values: [0.         1.57079633]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we have used universal functions sin() and arcsin() to compute the sine and inverse sine values respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "When we perform the sin() function to the array angles, an element-wise operation is performed to entire elements of the array. This is called vectorization."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aggregation Functions:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3array1 = np.array([1, 2, 3, 4, 5])\n4\n5# calculate the median\n6median = np.median(array1)\n7print(\"Median is:\",median)\n8\n9# find the largest element\n10result = np.min(array1)\n11print(\"Smallest element is\", result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Median is: 3.0\nSmallest element is 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used the universal functions median() and min() to find the median and smallest element of array1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we have learned about universal functions ufunc. Now let's learn how we can speed up our code using ufunc."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

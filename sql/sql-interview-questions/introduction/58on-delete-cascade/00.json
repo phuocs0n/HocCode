@@ -1,0 +1,98 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/on-delete-cascade?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "CREATE TABLE Orders (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  FOREIGN KEY (customer_id) REFERENCES Customers(customer_id) ON DELETE CASCADE\n);"
+    },
+    {
+      "type": "paragraph",
+      "content": "There's nothing wrong with the code above. However, you may want to make sure that the ON DELETE CASCADE constraint is appropriate for this table. This constraint may or may not be necessary depending on your personal or organizational needs."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, suppose the Orders table we've created has the following data:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "order_id",
+          "customer_id"
+        ],
+        [
+          "1",
+          "100"
+        ],
+        [
+          "2",
+          "101"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, if we want to delete the row with customer_id = 100, we will use the following query:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "DELETE FROM Customers WHERE customer_id = 100;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code attempts to delete the row with customer_id = 100 from the Customers table. But the Orders table may have a corresponding row with customer_id = 100."
+    },
+    {
+      "type": "paragraph",
+      "content": "The FOREIGN KEY constraint is specified with ON DELETE CASCADE during table creation. So, it will cause the deletion to propagate throughout the Orders table, resulting in the deletion of the corresponding rows from the Orders table as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, instead of just deleting the row in Customers, the code will delete the corresponding row in the Orders table as well."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "To fix this issue, we need to remove the ON DELETE CASCADE command from the code:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Orders (\n2  id INT PRIMARY KEY,\n3  customer_id INT,\n4  FOREIGN KEY (customer_id) REFERENCES Customers(customer_id) \n5);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

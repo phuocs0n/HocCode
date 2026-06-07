@@ -1,0 +1,120 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/range-function?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "for number in range(3):\n    print(number)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "range(3) returns a sequence of numbers from 0 to 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "range(3) returns a sequence of numbers from 0 to 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "range(n) returns a sequence from 0 to n-1. Hence, range(3) returns a sequence of numbers from 0 to 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "range(n) returns a sequence from 0 to n-1. Hence, range(3) returns a sequence of numbers from 0 to 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "range(3) returns a sequence of numbers from 0 to 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "range(3) returns a sequence of numbers from 0 to 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "range(3) returns a sequence of numbers from 0 to 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "range(3) returns a sequence of numbers from 0 to 2."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:123",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "123",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:0123",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0123",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:012",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "012",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:2",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "2",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

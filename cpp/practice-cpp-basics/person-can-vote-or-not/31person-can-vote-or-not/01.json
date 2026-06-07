@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/person-can-vote-or-not?page=1",
+  "title": "Person Can Vote or Not",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Person Can Vote or Not"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check if a person can vote or not based on their age."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get user input and store it in the int variable age.",
+        "If age is greater than or equal to 18, he/she can vote.",
+        "If the person can vote, print Can Vote. Otherwise, print Cannot Vote."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input35"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputCan Vote"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

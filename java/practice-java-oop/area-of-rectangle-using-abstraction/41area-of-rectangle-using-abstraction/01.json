@@ -1,0 +1,89 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-java-oop/area-of-rectangle-using-abstraction?page=1",
+  "title": "Area of Rectangle using Abstraction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Area of Rectangle using Abstraction"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the area of a rectangle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an abstract class named Polygon with an abstract method calculateArea().",
+        "Create another class named Rectangle that inherits from the Polygon class.",
+        "Inside the class, create two fields length and breadth.",
+        "Use a parameterized constructor with parameters length and breadth to initialize the fields.",
+        "Also, provide the implementation of the calculateArea() method to compute the area of the rectangle and print it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create the main() method inside a Main class.",
+        "Get integer inputs for the length and breadth variables.",
+        "Create an object of the Rectangle class with arguments length and breadth.",
+        "Call the calculateArea() method using the object."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n9"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output45"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,51 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/array-representation-of-binary-tree?page=6",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3\n4using namespace std;\n5\n6class BinaryTree {\n7public:\n8    BinaryTree() {}\n9\n10    // Calculate the index of a node's parent\n11    int parent(int index) {\n12        return (index - 1) / 2;\n13    }\n14\n15    // Calculate the index of a node's left child\n16    int left_child(int index) {\n17        return 2 * index + 1;\n18    }\n19\n20    // Calculate the index of a node's right child\n21    int right_child(int index) {\n22        return 2 * index + 2;\n23    }\n24\n25    // Check if a node at a given index has a parent\n26    bool has_parent(int index) {\n27        return parent(index) >= 0;\n28    }\n29\n30    // Check if a node at a given index has a left child\n31    bool has_left_child(int index) {\n32        return left_child(index) < arr.size();\n33    }\n34\n35    // Check if a node at a given index has a right child\n36    bool has_right_child(int index) {\n37        return right_child(index) < arr.size();\n38    }\n39\n40    // Add a new element to the binary tree \n41    void insert(int value) {\n42        arr.push_back(value);\n43    }\n44\n45    // Print the tree contents\n46    void print_tree() {\n47        for (int value : arr) {\n48            cout << value << \" \";\n49        }\n50        cout << endl;\n51    }\n52\n53    // Access an element at a specific index\n54    int get_value_at(int index) {\n55        return arr[index];\n56    }\n57\n58private:\n59    vector<int> arr;\n60};\n61\n62int main() {\n63\n64    BinaryTree bt;\n65\n66    // Insert elements into the binary tree\n67    for (int i = 0; i < 10; i++) {\n68        bt.insert(i);\n69    }\n70\n71    // Display binary tree\n72    bt.print_tree();\n73    cout << endl;\n74\n75    // Check some relationships\n76    int index = 3;\n77    if (bt.has_parent(index)) {\n78        cout << \"Parent of node at index \" << index << \": \" << bt.get_value_at(bt.parent(index)) << endl;\n79    }\n80\n81    if (bt.has_left_child(index)) {\n82        cout << \"Left child of node at index \" << index << \": \" << bt.get_value_at(bt.left_child(index)) << endl;\n83    }\n84\n85    if (bt.has_right_child(index)) {\n86        cout << \"Right child of node at index \" << index << \": \" << bt.get_value_at(bt.right_child(index)) << endl;\n87    }\n88\n89    return 0;\n90}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "0 1 2 3 4 5 6 7 8 9 \n\nParent of node at index 3: 1\nLeft child of node at index 3: 7\nRight child of node at index 3: 8"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we added the insert() method to add elements to the array for demonstration purposes only."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

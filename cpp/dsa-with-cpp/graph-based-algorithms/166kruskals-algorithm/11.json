@@ -1,0 +1,131 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/kruskals-algorithm?page=12",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the primary goal of Kruskal's algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding the shortest path between two vertices."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm isn't designed to find the shortest path between two specific vertices."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm isn't designed to find the shortest path between two specific vertices."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding a minimum spanning tree of a graph."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm seeks to find a subgraph that touches all the vertices without forming any cycles and does so with the least total edge weight."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm seeks to find a subgraph that touches all the vertices without forming any cycles and does so with the least total edge weight."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding strongly connected components in a directed graph."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm isn't designed to find the strongly connected components in a graph."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm isn't designed to find the strongly connected components in a graph."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding the maximum flow in a network."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm isn't designed to find the maximum flow in a network."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kruskal's algorithm isn't designed to find the maximum flow in a network."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the primary goal of Kruskal's algorithm?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Finding the shortest path between two vertices.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Finding the shortest path between two vertices.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Finding a minimum spanning tree of a graph.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Finding a minimum spanning tree of a graph.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Finding strongly connected components in a directed graph.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Finding strongly connected components in a directed graph.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Finding the maximum flow in a network.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Finding the maximum flow in a network.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

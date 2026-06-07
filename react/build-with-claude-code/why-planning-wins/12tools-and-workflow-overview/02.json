@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/tools-workflow-overview?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What makes the Rapid Building methodology tool-agnostic?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It uses only open-source tools that are freely available"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tool availability is not what makes the methodology transferable. The thinking pattern is the transferable part."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tool availability is not what makes the methodology transferable. The thinking pattern is the transferable part."
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code works with all major frameworks and languages"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Framework compatibility is a Claude Code feature, not what makes the methodology work across different tools."
+    },
+    {
+      "type": "paragraph",
+      "content": "Framework compatibility is a Claude Code feature, not what makes the methodology work across different tools."
+    },
+    {
+      "type": "paragraph",
+      "content": "The structure - product decisions, design, chunk prompts, commits - lives in the process, not the tool"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Because planning, design, and prompt architecture are done before touching any tool, the methodology works regardless of which AI coding tool you use."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Because planning, design, and prompt architecture are done before touching any tool, the methodology works regardless of which AI coding tool you use."
+    },
+    {
+      "type": "paragraph",
+      "content": "All AI coding tools generate identical output for the same prompt"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Different AI tools produce different results. The methodology's value is in how you prepare and structure the work, not in the output being identical."
+    },
+    {
+      "type": "paragraph",
+      "content": "Different AI tools produce different results. The methodology's value is in how you prepare and structure the work, not in the output being identical."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What makes the Rapid Building methodology tool-agnostic?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It uses only open-source tools that are freely available",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It uses only open-source tools that are freely available",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Claude Code works with all major frameworks and languages",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Claude Code works with all major frameworks and languages",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The structure - product decisions, design, chunk prompts, commits - lives in the process, not the tool",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The structure - product decisions, design, chunk prompts, commits - lives in the process, not the tool",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All AI coding tools generate identical output for the same prompt",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All AI coding tools generate identical output for the same prompt",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

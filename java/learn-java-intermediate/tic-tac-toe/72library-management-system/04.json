@@ -1,0 +1,64 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/library-management-system?page=5",
+  "title": "Step 4: Create the issueBook() Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Create the issueBook() Method"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "The issueBook() method is created inside the Issue class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.HashMap;\n2import java.util.Scanner;\n3\n4class Student {\n5\n6    HashMap<Integer, String> student = new HashMap<>();\n7    Scanner input = new Scanner(System.in);\n8\n9    // add students\n10    void add() {\n11        student.put(101, \"Niall\");\n12        student.put(102, \"Anna\");\n13    }\n14\n15    // register student\n16    void addStudent() {\n17\n18        System.out.println(\"Enter your name: \");\n19        String name = input.next();\n20        System.out.println(\"Enter your id: \");\n21        int id = input.nextInt();\n22        student.put(id, name);\n23    }\n24}\n25\n26class Book {\n27\n28    HashMap<Integer, String> book = new HashMap<>();\n29\n30    // add books\n31    void add() {\n32        book.put(11, \"The Fault in our Stars\");\n33        book.put(22, \"A Good Book\");\n34    }\n35}\n36\n37class Issue {\n38\n39    // store book issued by student\n40    HashMap<Integer, String> issue = new HashMap<>();\n41\n42    Scanner input = new Scanner(System.in);\n43\n44    Book b1 = new Book();\n45    Student s1 = new Student();\n46\n47    public Issue() {\n48\n49        // add elements to student HashMap\n50        s1.add();\n51\n52        // add elements to book HashMap\n53        b1.add();\n54    }\n55\n56\n57    // method to issue book\n58    void issueBook(int id) {\n59\n60        System.out.println(\"enter a book\");\n61        String bookName = input.nextLine();\n62    }\n63\n64}\n65\n66class Main {\n67\n68    public static void main(String[] args) {\n69\n70        Issue i1 = new Issue();\n71\n72\n73        // get id\n74        Scanner input = new Scanner(System.in);\n75        System.out.println(\"Enter your id:\");\n76        int id = input.nextInt();\n77\n78        i1.issueBook(id);\n79\n80    }\n81}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your id:\n101\nenter a book\nA Good book"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have called the issueBook() method and passed student id to it. The method only asks the user to enter the book."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will add more functionality to the issueBook() method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

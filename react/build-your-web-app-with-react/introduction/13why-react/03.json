@@ -1,0 +1,72 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/why-react?page=4",
+  "title": "The Problem: Building a List in Plain JavaScript",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: Building a List in Plain JavaScript"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's say you want to build a simple shopping list. You want users to type an item and add it to the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you'd do it in plain JavaScript:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\">\n5  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n6  <title>Shopping List</title>\n7</head>\n8<body>\n9  <h1>My Shopping List</h1>\n10  <input type=\"text\" id=\"item-input\" placeholder=\"Add an item\">\n11  <button id=\"add-button\">Add</button>\n12  <ul id=\"item-list\"></ul>\n13  \n14  <script src=\"script.js\"></script>\n15</body>\n16</html>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const input = document.getElementById(\"item-input\");\n2const button = document.getElementById(\"add-button\");\n3const list = document.getElementById(\"item-list\");\n4\n5button.addEventListener(\"click\", function() {\n6  const itemText = input.value;\n7  \n8  if (itemText === \"\") return;\n9  \n10  const li = document.createElement(\"li\");\n11  li.textContent = itemText;\n12  list.appendChild(li);\n13  \n14  input.value = \"\";\n15});"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works. But what if you want to delete an item? Or edit one? Or mark it as bought? Each feature means more code that does some of the following:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Find the element",
+        "Create new elements",
+        "Append or remove from the DOM",
+        "Keep track of what's on screen vs what's in your data"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The result is that you end up managing everything manually. The more features you add, the more fragile it gets."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's a huge weakness of vanilla JavaScript."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

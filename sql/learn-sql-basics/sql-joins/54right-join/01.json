@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/right-join?page=2",
+  "title": "SQL RIGHT JOIN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "SQL RIGHT JOIN"
+    },
+    {
+      "type": "paragraph",
+      "content": "A RIGHT JOIN is similar to a LEFT JOIN, except it selects all the rows from the right table and any matching rows from the left table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how we can use a RIGHT JOIN to combine data from the Customers and Orders tables."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Right join the Customers and Orders tables\n2-- and select all the columns from these tables\n3\n4SELECT *\n5FROM Customers\n6RIGHT JOIN Orders\n7ON Customers.customer_id = Orders.customer_id;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, RIGHT JOIN ensures that all rows from the Orders table are included. If there is no matching customer_id in Customers, the result shows NULL for the Customers' columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the working of the RIGHT JOIN on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-introduction?page=2",
+  "title": "Your First NumPy Program",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your First NumPy Program"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's dive into writing your first NumPy program to get a feel for how NumPy works."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start with a simple program that displays array items on the screen."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# numpy array of integers\n4array1 = np.array([1, 2, 3])\n5\n6print(array1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created a NumPy array called array1."
+    },
+    {
+      "type": "paragraph",
+      "content": "To run this program, press the \"Run Code\" button."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's okay if you don't fully understand the above code right now. For now, just note that NumPy code is essentially Python code with the NumPy library added into it. More explanations will follow as we progress."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

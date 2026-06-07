@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-summary?page=1",
+  "title": "Summary (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now quickly revise what we have learned so far in this chapter:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C, the syntax to create a string is similar to that of an array. It is because string is an array of characters."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "char text[] = \"Programiz\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Print a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the %s format specifier to print a string."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char text[] = \"Programiz\";\n6\n7  printf(\"%s\", text);    // Programiz\n8  \n9  return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Change a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can change the character of a string by assigning a new character at that position."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  char text[] = \"Car\";\n6\n7  // change value at position 2 to 't'\n8  text[2] = 't';\n9\n10  printf(\"%s\", text);    // Cat\n11\n12  return 0;\n13}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

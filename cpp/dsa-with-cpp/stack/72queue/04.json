@@ -1,0 +1,47 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/queue?page=4",
+  "title": "Source Code: Queue Implementation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Queue Implementation"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3using namespace std;\n4\n5// Template structure for a Node in a linked list\n6template <typename T>\n7struct Node {\n8    T data;                   // Data value of the node\n9    Node<T>* next = nullptr;  // Pointer to the next node in the list\n10};\n11\n12// Template class for handling a linked list\n13template <typename T>\n14class LinkedList {\n15  public:\n16    // Constructor initializes the linked list as empty\n17    LinkedList() = default;\n18\n19    // Destructor deallocates all nodes to prevent memory leaks\n20    ~LinkedList() {\n21        Node<T>* current = head;\n22        while (current) {\n23            Node<T>* next = current->next;  // Save next node\n24            delete current;                 // Delete the current node\n25            current = next;                 // Move to next node\n26        }\n27        // Ensure the head is nullptr after destruction\n28        head = nullptr;  \n29        count = 0;\n30    }\n31\n32    // Deletes the first node of the list\n33    void delete_first_node() {\n34        Node<T>* node_to_delete = head;  \n35        // Head is moved to the second node\n36        head = head->next;\n37        // Delete the former head node\n38        delete node_to_delete;  \n39        // Decrement the count of nodes\n40        --count;\n41    }\n42\n43     // Returns the first element of the linked list\n44     T get_first_element() {\n45        return head->data;\n46     }\n47\n48    // Add a node to the end of the list\n49    void insert_node_at_end(T data) {\n50        Node<T>* new_node = new Node<T>({data});  // Create a new node\n51        \n52        // If list is empty, \n53        // new node is the head\n54        if (head == nullptr) {  \n55            head = new_node;\n56            tail = new_node;\n57            ++count;\n58            return;\n59        }\n60        \n61        // Link the last node to the new node\n62        tail->next = new_node;\n63        \n64        // Update the tail node with the new node\n65        tail = tail->next;\n66\n67        // Increment the count of nodes\n68        ++count;\n69    }\n70\n71\n72      // Returns the count of nodes in the linked list\n73      int count_elements() {\n74        return count;\n75     }\n76\n77    // Displays the data in the list\n78    void display() {\n79        Node<T>* current = head;\n80        // Traverse the list and print each node's data\n81        while (current != nullptr) {\n82            cout << current->data << \" \";\n83            current = current->next;\n84        }\n85        cout << \"\\n\";  // End the line\n86    }\n87\n88  private:\n89    Node<T>* head {nullptr}; // Pointer to the head node\n90    Node<T>* tail {nullptr}; // Pointer to the tail node\n91    int count {0}; // Count of the number of nodes\n92};\n93\n94template< typename T>\n95class Queue {\n96  public:\n97    Queue() = default; // Defaulted constructor\n98    ~Queue() = default; // Defaulted destructor\n99\n100    // Check if the queue is empty\n101    bool is_empty() {\n102        return (linked_list.count_elements() == 0);\n103    }\n104\n105    // Enqueue an element to the queue\n106    void enqueue(T item) {\n107        linked_list.insert_node_at_end(item);\n108    }\n109\n110    // Dequeue an element from the queue     \n111    void dequeue() {\n112        if(!is_empty())\n113            linked_list.delete_first_node();\n114    }\n115  \n116    // Get the first element of the queue\n117    T peek() {\n118        return linked_list.get_first_element();\n119    }\n120\n121    // Display all elements in the queue\n122    void print_queue() {\n123        linked_list.display();\n124    }\n125  private:\n126    LinkedList<T> linked_list; // Underlying linked list to store queue elements\n127};\n128\n129int main() {\n130    Queue <int> queue1;\n131    \n132    // Enqueue elements to queue\n133    queue1.enqueue(5);\n134    queue1.enqueue(10);\n135    queue1.enqueue(100);\n136    \n137    // Display all the elements in the queue\n138    cout << \"Queue after adding three elements: \";\n139    queue1.print_queue();\n140    \n141    // Dequeue one element from the queue\n142    queue1.dequeue();\n143\n144    // Display all the elements in the queue\n145    cout << \"Queue after removing one element: \";\n146    queue1.print_queue();\n147\n148    // Peek the first element of the queue\n149    cout << \"Peek the queue: \" << queue1.peek() << '\\n';\n150\n151// Display all the elements in the queue\n152    cout << \"Queue after peek operation: \";\n153    queue1.print_queue();\n154\n155    return 0;\n156}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Queue after adding three elements: 5 10 100\nQueue after removing one element: 10 100\nPeek the queue: 10\nQueue after peek operation: 10 100"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

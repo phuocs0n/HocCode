@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=4",
+  "title": "Error Converting String to Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Error Converting String to Number"
+    },
+    {
+      "type": "paragraph",
+      "content": "Not all strings can be converted to integers. For example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let stringNumber = \"Howdy!\";\n2\n3// Try to convert string to integer\n4let integerNumber = parseInt(stringNumber);\n5\n6console.log(integerNumber);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "NaN"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, JavaScript gives you NaN (short for \"Not a Number\") because \"Howdy!\" is a string, which can't be converted into an integer."
+    },
+    {
+      "type": "paragraph",
+      "content": "To learn more about NaN, you can read this article."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

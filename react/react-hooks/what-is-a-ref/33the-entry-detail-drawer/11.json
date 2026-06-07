@@ -1,0 +1,61 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=12",
+  "title": "The Cleanup Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Cleanup Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "useEffect() lets us return a function. That returned function is called the cleanup function."
+    },
+    {
+      "type": "paragraph",
+      "content": "React calls it in two situations:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "When the component unmounts from the DOM.",
+        "Just before the effect re-runs."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the syntax:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n\n  // Setup — runs after render\n\n  return function () {\n    // Cleanup (runs before next effect or on unmount)\n  };\n}, [dependency_array]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's implement this on our drawer."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

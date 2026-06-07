@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/area-of-circle?page=1",
+  "title": "Area of a Circle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Area of a Circle"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to compute the area of a circle using a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the formula to compute the area of a circle."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Area = 3.14 * radius * radius"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create the compute_area() function that accepts float parameters radius and pi.",
+        "Inside the function, compute the area of the circle and return it.",
+        "Outside the function, get a float input value for the radius of the circle.",
+        "Create a float variable named pi with value 3.14.",
+        "Call compute_area() with arguments radius and pi.",
+        "Print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input16.8"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output886.2336"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

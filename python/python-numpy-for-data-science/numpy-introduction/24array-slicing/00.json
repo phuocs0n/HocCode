@@ -1,0 +1,78 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-slicing?page=1",
+  "title": "Array Slicing",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Slicing"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy array slicing works similar to Python's list slicing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Array slicing allows us to access a subset of elements of a Numpy array. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a numpy array\n4numbers = np.array([2, 4, 6, 8, 10])\n5\n6# access the first 3 elements of the array\n7sliced_numbers = numbers[:3]\n8print(sliced_numbers)\n9\n10# Output: [2 4 6]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, numbers[:3] selects the elements at indices 0, 1, and 2 of the array. Here, 3 is the stop parameter that specifies the last index where slicing ends."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also include the start parameter to specify the first index from where we want to start your slicing."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a numpy array\n4numbers = np.array([2, 4, 6, 8, 10])\n5\n6# access elements from index 1 up to 4\n7sliced_numbers = numbers[1:4]\n8print(sliced_numbers)\n9\n10# Output: [4 6 8]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, numbers[1:4] sliced the elements from index 1 up to the index 4 (not including the element at index 4)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: If we omit the"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "start parameter- slicing starts from the first element",
+        "stop parameter - slicing continues up to the last element"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

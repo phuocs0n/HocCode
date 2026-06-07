@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/multiline-comments?page=2",
+  "title": "Example: Multiline Comments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Multiline Comments"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1/*\n2Program to take age input\n3from the user and print it\n4*/\n5\n6#include <stdio.h>\n7\n8int main() {\n9  int age;\n10\n11  printf(\"Enter your age: \");\n12  scanf(\"%d\", &age);\n13\n14  printf(\"Age: %d\", age);\n15  return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like single line comments, multi-line comments are also ignored during the execution of the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Multi-line comments are generally used to write long-form instructions and documentation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

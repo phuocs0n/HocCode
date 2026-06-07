@@ -1,0 +1,111 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/while-loop?page=4",
+  "title": "while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the program from the last page:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int count = 1;\n7\n8    while (count <= 3) {\n9\n10        // code inside the loop\n11        cout << \"I am inside a loop.\" << endl;\n12        cout << \"Looping is interesting.\" << endl;\n13    }\n14  \n15    return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the loop continues forever because the boolean expression, count <= 3, is never false because the value of count is always 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "To run this loop only for a fixed number of times, we must increase the value of count inside the loop so that count <= 3 eventually becomes false. Here's how:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int count = 1;\n7\n8    while (count <= 3) {\n9\n10        // code inside the loop\n11        cout << \"I am inside a loop.\" << endl;\n12        cout << \"Looping is interesting.\" << endl;\n13\n14\n15        // increase count by 1\n16        count = count + 1;\n17\n18    }\n19\n20    // code outside loop\n21    cout << \"OUTSIDE THE LOOP\";\n22  \n23    return 0;\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nOUTSIDE THE LOOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, we have added the statement count = count + 1; to increase the value of count by 1 in each iteration of the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Iteration",
+          "Variable",
+          "count <= 3",
+          "Body of loop"
+        ],
+        [
+          "1st",
+          "count = 1",
+          "true",
+          "Print statements are executed.\ncount is increased to 2."
+        ],
+        [
+          "2nd",
+          "count = 2",
+          "true",
+          "Print statements are executed.\ncount is increased to 3."
+        ],
+        [
+          "3rd",
+          "count = 3",
+          "true",
+          "Print statements are executed.\ncount is increased to 4."
+        ],
+        [
+          "4th",
+          "count = 4",
+          "false",
+          "The loop terminates."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "After the loop ends, cout << \"OUTSIDE THE LOOP\"; is executed once because it's outside of the loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

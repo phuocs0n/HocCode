@@ -1,0 +1,111 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/styling-blog-layout?page=2",
+  "title": "Position Property – static, relative, absolute, fixed",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Position Property – static, relative, absolute, fixed"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once layout starts, developers eventually ask: Can I move this element slightly?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's where position comes in."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The Default"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"wrapper\">\n2  <div class=\"element\">I am positioned statically (default).</div>\n3</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.element {\n2  position: static;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This means:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The element follows normal flow",
+        "You cannot move it manually"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Relative Positioning"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<article>\n2  <h2>Article Title</h2>\n3\n4  <div class=\"article-meta\">\n5    <span>By Alex</span> • <span>Jan 20, 2026</span> • <span>5 min read</span>\n6  </div>\n7\n8  <p>\n9    This is the article content. The meta section above is nudged down by 8px\n10    using relative positioning.\n11  </p>\n12</article>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.article-meta {\n2  position: relative;\n3  top: 8px;\n4}"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Moves element relative to itself",
+        "Does not break layout"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fixed Positioning (Preview)"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"page\">\n2  <h1>Fixed Notice Example</h1>\n3  <p>Scroll the page to see the notice stay in the bottom-right corner.</p>\n4\n5  <div class=\"spacer\"></div>\n6\n7  <div class=\"notice\">🔔 This is a fixed notice</div>\n8</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.notice {\n2  position: fixed;\n3  bottom: 16px;\n4  right: 16px;\n5}\n6\n7.spacer {\n8  height: 140vh;\n9}"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Stays in place on scroll",
+        "Used sparingly"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

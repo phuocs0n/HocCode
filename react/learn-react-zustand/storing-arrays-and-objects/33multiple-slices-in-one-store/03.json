@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/multiple-slices-in-one-store?page=3",
+  "title": "Adding the UI Slice",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding the UI Slice"
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/store/useJournalStore.js you add searchQuery, toggleTheme and setSearchQuery alongside your entries state."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "theme: 'light',\nsearchQuery: '',\n\ntoggleTheme: () => set((state) => ({\n  theme: state.theme === 'light' ? 'dark' : 'light'\n})),\n\nsetSearchQuery: (query) => set({ searchQuery: query }),"
+    },
+    {
+      "type": "paragraph",
+      "content": "toggleTheme checks the current theme and switches it. setSearchQuery just updates the search string in the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will wire these up in the components and see it all working together. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

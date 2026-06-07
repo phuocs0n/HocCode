@@ -1,0 +1,69 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/events-toggling-with-classes?page=3",
+  "title": "Adding/Removing Classes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding/Removing Classes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you understand state, let's see how we move between them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of changing styles directly in JavaScript, we add or remove a class. CSS handles how it looks. JavaScript decides which class is active."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three main methods:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "classList.add('className') adds a class",
+        "classList.remove('className') removes a class",
+        "classList.toggle('className') switches it on or off"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "toggle is the one you'll use most."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the class exists, it removes it. If it doesn't exist, it adds it. One click changes the state.The next click switches it back."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's exactly what we need for menus and panels."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see a visual example where a panel opens and closes using class toggling."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

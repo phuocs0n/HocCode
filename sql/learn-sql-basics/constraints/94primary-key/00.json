@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/primary-key?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's focus on the third requirement: Each book must have a unique identifier."
+    },
+    {
+      "type": "paragraph",
+      "content": "To meet this requirement, you can set up an id column with the PRIMARY KEY constraint when creating the Books table."
+    },
+    {
+      "type": "paragraph",
+      "content": "A primary key is a column or a set of columns uniquely identifying each row in a table. This constraint enforces both the NOT NULL and UNIQUE constraints."
+    },
+    {
+      "type": "paragraph",
+      "content": "The id column with a primary key constraint means:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "No two rows can have the same value in the id column.",
+        "The id column cannot contain null values."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you can implement this using SQL:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Books (\n2    id INTEGER PRIMARY KEY,\n3    title VARCHAR(100) NOT NULL,\n4    book_code VARCHAR(20) UNIQUE,\n5    publisher VARCHAR(100)\n6);"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you run the above query, a table with the id column with the PRIMARY KEY constraint is created."
+    },
+    {
+      "type": "paragraph",
+      "content": "What happens when you try to insert duplicate or NULL values into the id column? Let's find out next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

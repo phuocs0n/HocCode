@@ -1,0 +1,180 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/enumeration?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nenum Weekends {\n  Saturday, Sunday\n};\n\nint main() {\n\n  enum Weekends day = Sunday;\n  printf(\"%d\", day);\n\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sunday"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Enum constants are by default integral."
+    },
+    {
+      "type": "paragraph",
+      "content": "Enum constants are by default integral."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0 not 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0 not 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Code runs without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "Code runs without any error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Enum constants are by default integral."
+    },
+    {
+      "type": "paragraph",
+      "content": "Enum constants are by default integral."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0 not 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0 not 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "Integral values of enum constants start from 0."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Code runs without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "Code runs without any error."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Sunday",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Sunday",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:2",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:1",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Error",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Error",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

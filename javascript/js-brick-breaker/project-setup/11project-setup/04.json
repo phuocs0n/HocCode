@@ -1,0 +1,42 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/project-setup?page=5",
+  "title": "Create the HTML File 📄",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create the HTML File 📄"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to lay down the structure. We will create a single index.html file that contains the HUD and the canvas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by creating the basic structure of the game."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a file named index.html."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add a HUD container div with id hud and three spans: hud-score, hud-level, and hud-lives.",
+        "Add a <canvas> with id gameCanvas and set its width to 500 and height to 360."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

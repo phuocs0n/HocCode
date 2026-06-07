@@ -1,0 +1,119 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/areas-of-triangle-rectangle-using-friend-class?page=1",
+  "title": "Areas of Triangle and Rectangle Using Friend Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Areas of Triangle and Rectangle Using Friend Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the areas of a triangle and a rectangle using a friend class. The formulas to calculate the areas are:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Area of Triangle = 0.5 * base * height\nArea of Rectangle = length * breadth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Triangle with two double variables base and height.",
+        "Initialize these variables with a constructor initializer list.",
+        "Finally, declare a friend class named Area."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Rectangle with two double variables length and breadth.",
+        "Initialize these variables with a constructor initializer list.",
+        "Finally, declare a friend class named Area."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 3"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Area.",
+        "Inside the class, create a function named get_triangle_area() that takes a Triangle object and returns the area of the triangle.",
+        "Create another function named get_rectangle_area() that takes a Rectangle object and returns the area of the rectangle."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 4"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), get double inputs for base, height, length, and breadth.",
+        "Create an object of Triangle and pass base and height to its constructor.",
+        "Create an object of Rectangle and pass length and breadth to its constructor.",
+        "Then, create an object of the Area class called area.",
+        "Call the get_triangle_area() function of area by passing the Triangle object as its argument.",
+        "Call the get_rectangle_area() function of area by passing the Rectangle object as its argument.",
+        "Print both areas."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n2\n6\n3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output5\n18"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

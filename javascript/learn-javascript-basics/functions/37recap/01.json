@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/revisit-function?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Arguments and Return Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "Functions can take arguments (inputs) and return values (outputs). These allow functions to be dynamic and reusable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Using Arguments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arguments are the values you pass into the function when calling it. For example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function addNumbers(n1, n2) {\n2    console.log(n1 + n2);\n3}\n4\n5addNumbers(10, 20);    // Output: 30"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n1 and n2 are the arguments. The function uses these to calculate the sum."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Returning Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function returns a value using the return statement. You can store this value in a variable for further use."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function addNumbers(n1, n2) {\n2    return n1 + n2;\n3}\n4\n5let result = addNumbers(10, 20);\n6\n7console.log(result);    // Output: 30"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the value 30 is returned from the addNumbers() function and stored in the result variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

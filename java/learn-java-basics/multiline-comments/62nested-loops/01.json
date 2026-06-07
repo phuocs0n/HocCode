@@ -1,0 +1,117 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/nested-loops?page=1",
+  "title": "Nested Loops",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Nested Loops"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is possible to put a loop inside another loop. This is known as a nested loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a nested loop, the inner loop is executed for each iteration of the outer loop. Let's try to understand it with the help of an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        String[] features = {\"Electric\", \"Fast\"};\n5        String[] cars = {\"Tesla\", \"Porsche\", \"Mercedes\"};\n6\n7        // Outer loop\n8        for (int i = 0; i < features.length; ++i) {\n9\n10            // Inner loop\n11            for (int j = 0; j < cars.length; ++j) {\n12                System.out.println(features[i] + \" \" + cars[j]);\n13            }\n14        }\n15    }\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Electric Tesla\nElectric Porsche\nElectric Mercedes\nFast Tesla\nFast Porsche\nFast Mercedes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the inner loop is iterated once for each item of the features array. Here's how this code works."
+    },
+    {
+      "type": "paragraph",
+      "content": "First iteration of the Outer Loop"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Inner Loop Iteration",
+          "feature",
+          "car"
+        ],
+        [
+          "1",
+          "'Electric'",
+          "'Tesla'"
+        ],
+        [
+          "2",
+          "'Electric'",
+          "'Porsche'"
+        ],
+        [
+          "3",
+          "'Electric'",
+          "'Mercedes'"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Second iteration of the Outer Loop"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Inner Loop Iteration",
+          "feature",
+          "car"
+        ],
+        [
+          "1",
+          "'Fast'",
+          "'Tesla'"
+        ],
+        [
+          "2",
+          "'Fast'",
+          "'Porsche'"
+        ],
+        [
+          "3",
+          "'Fast'",
+          "'Mercedes'"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

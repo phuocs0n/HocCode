@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/git/init-add-commit?page=1",
+  "title": "Install Git",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practical Git and GitHub"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Install Git"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you begin, make sure Git is installed on your system. Open your terminal and run:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "git --version"
+    },
+    {
+      "type": "paragraph",
+      "content": "If Git is installed, you will see a version number. If not, download and install it from the official website:"
+    },
+    {
+      "type": "paragraph",
+      "content": "https://git-scm.com"
+    },
+    {
+      "type": "paragraph",
+      "content": "After installing, run the command again to confirm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once this works, you're ready to continue."
+    },
+    {
+      "type": "paragraph",
+      "content": "👉 Click Next Lesson to create your first repository."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

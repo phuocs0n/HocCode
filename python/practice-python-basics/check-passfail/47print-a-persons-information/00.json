@@ -1,0 +1,93 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/print-persons-information?page=1",
+  "title": "Print a Person's Information",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print a Person's Information"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to print a person's information."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function named display_info().",
+        "This function must accept two arguments: name and location.",
+        "Print name and location in two separate lines."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside of the function:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get string input from the user and assign it to the country variable.",
+        "Call the display_info() with arguments: the \"Magnus\" string and the country variable, respectively."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For more hints, see the code outline."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputUSA"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputMagnus\nUSA"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

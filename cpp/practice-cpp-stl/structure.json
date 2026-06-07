@@ -1,0 +1,232 @@
+{
+  "levels": [
+    {
+      "title": "Introduction",
+      "lessons": [
+        {
+          "title": "1.1Introduction",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/introduction"
+        }
+      ]
+    },
+    {
+      "title": "Initialize a Vector",
+      "lessons": [
+        {
+          "title": "2.1Initialize a Vector",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/initialize-vector"
+        },
+        {
+          "title": "2.2Add Elements to a Vector",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/add-elements-to-vector"
+        },
+        {
+          "title": "2.3Modify Elements of a Vector",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/modify-elements-of-vector"
+        },
+        {
+          "title": "2.4Remove a Specific Element From Vector",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-specific-element-from-vector"
+        },
+        {
+          "title": "2.5Add Elements to a List",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/add-elements-to-list"
+        },
+        {
+          "title": "2.6Access Elements of a List",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/access-elements-of-list"
+        },
+        {
+          "title": "2.7Modify Elements of a List",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/modify-elements-of-list"
+        },
+        {
+          "title": "2.8Remove List Elements",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-list-elements"
+        },
+        {
+          "title": "2.9Add Elements to a std::array",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/add-elements-to-stdarray"
+        },
+        {
+          "title": "2.10Modify Elements of a std::array",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/modify-elements-of-stdarray"
+        }
+      ]
+    },
+    {
+      "title": "Store Book ID and Name as Key-Value Pairs",
+      "lessons": [
+        {
+          "title": "3.1Store Book ID and Name as Key-Value Pairs",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/store-book-id-name-as-keyvalue-pairs"
+        },
+        {
+          "title": "3.2Add Key-Value Pairs to a Map",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/add-keyvalue-pairs-to-map"
+        },
+        {
+          "title": "3.3Access Elements of a Map",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/access-elements-of-map"
+        },
+        {
+          "title": "3.4Change Elements of a Map",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/change-elements-of-map"
+        },
+        {
+          "title": "3.5Remove Elements of a Map",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-elements-of-map"
+        },
+        {
+          "title": "3.6Initialize a Set",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/initialize-set"
+        },
+        {
+          "title": "3.7Add Keys to a Set",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/add-keys-to-set"
+        },
+        {
+          "title": "3.8Remove Elements From a Set",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-elements-from-set"
+        },
+        {
+          "title": "3.9Check if a Key Exists in a Set",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/check-if-key-exists-in-set"
+        },
+        {
+          "title": "3.10Sort a Set in Descending Order",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/sort-set-in-descending-order"
+        }
+      ]
+    },
+    {
+      "title": "Access Stack Element",
+      "lessons": [
+        {
+          "title": "4.1Access Stack Element",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/access-stack-element"
+        },
+        {
+          "title": "4.2Remove Stack Elements",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-stack-elements"
+        },
+        {
+          "title": "4.3Iterate Through a Stack",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/iterate-through-stack"
+        },
+        {
+          "title": "4.4Access Queue Elements",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/access-queue-elements"
+        },
+        {
+          "title": "4.5Remove Queue Elements",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-queue-elements"
+        },
+        {
+          "title": "4.6Iterate Through a Queue",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/iterate-through-queue"
+        },
+        {
+          "title": "4.7Initialize a Deque",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/initialize-deque"
+        },
+        {
+          "title": "4.8Access the Front and Back Elements of a Deque",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/access-front-back-elements-of-deque"
+        },
+        {
+          "title": "4.9Add Elements to a Deque",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/add-elements-to-deque"
+        },
+        {
+          "title": "4.10Modify Elements of a Deque",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/modify-elements-of-deque"
+        },
+        {
+          "title": "4.11Remove Elements From a Deque",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-elements-from-deque"
+        }
+      ]
+    },
+    {
+      "title": "Random Access Iterator Using begin()",
+      "lessons": [
+        {
+          "title": "5.1Random Access Iterator Using begin()",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/random-access-iterator-using-begin"
+        },
+        {
+          "title": "5.2Random Access Iterator Using end()",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/random-access-iterator-using-end"
+        },
+        {
+          "title": "5.3Bidirectional Iterator Using begin()",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/bidirectional-iterator-using-begin"
+        },
+        {
+          "title": "5.4Bidirectional Iterator Using end()",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/bidirectional-iterator-using-end"
+        },
+        {
+          "title": "5.5Iterate Through a Container",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/iterate-through-container"
+        }
+      ]
+    },
+    {
+      "title": "Sum of elements of a vector",
+      "lessons": [
+        {
+          "title": "6.1Sum of elements of a vector",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/sum-of-elements-of-vector"
+        },
+        {
+          "title": "6.2Sort Age of Players in Ascending Order",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/sort-age-of-players-in-ascending-order"
+        },
+        {
+          "title": "6.3Sort Elements in a Given Range",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/sort-elements-in-given-range"
+        },
+        {
+          "title": "6.4Minimum and Maximum Marks of a Student",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/minimum-maximum-marks-of-student"
+        },
+        {
+          "title": "6.5Minimum and Maximum Elements in a Range",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/minimum-maximum-elements-in-range"
+        },
+        {
+          "title": "6.6Reverse the Order of Elements",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/reverse-order-of-elements"
+        },
+        {
+          "title": "6.7Reverse the Order For a Specific Range of Elements",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/reverse-order-for-specific-range-of-elements"
+        },
+        {
+          "title": "6.8Finding Nemo",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/finding-nemo"
+        }
+      ]
+    },
+    {
+      "title": "Copy odd numbers from a vector",
+      "lessons": [
+        {
+          "title": "7.1Copy odd numbers from a vector",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/copy-odd-numbers-from-vector"
+        },
+        {
+          "title": "7.2Count the occurrence of even numbers",
+          "url": "https://app.programiz.pro/course/practice-cpp-stl/count-occurrence-of-even-numbers"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 47,
+    "sections": 7,
+    "container": "main-content"
+  }
+}

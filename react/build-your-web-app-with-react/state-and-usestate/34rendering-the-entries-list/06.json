@@ -1,0 +1,46 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/rendering-entries-list?page=7",
+  "title": "What map Returns",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What map Returns"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a look at the previous program again, and notice the code entries.map((entry) => (...)) in App.jsx. This code returns an array that looks something like this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "[\n  <EntryCard key={1} title=\"...\" ... />,\n  <EntryCard key={2} title=\"...\" ... />,\n  ...\n]"
+    },
+    {
+      "type": "paragraph",
+      "content": "React renders this array as a list of siblings inside the parent. The key is not passed as a prop to your component; it is only used by React internally."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/comments?page=2",
+  "title": "Comments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript, you can use the // symbol to create comments. For example:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Display Hello\n2console.log(\"Hello\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, // Display Hello is a comment. JavaScript completely ignores this line while running the program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, the above program is equivalent to:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"Hello\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

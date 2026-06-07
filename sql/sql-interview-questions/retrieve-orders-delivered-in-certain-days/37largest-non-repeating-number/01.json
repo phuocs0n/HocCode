@@ -1,0 +1,99 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/largest-nonrepeating-number?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a table named Numbers with a column number that contains a bunch of random numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "From this table, we need to fetch the largest non-repeating number. If there are no such numbers, we return NULL."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, to solve this problem, we have to figure out two things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Eliminate all the repeating numbers in the Numbers table.",
+        "Find the maximum number from the rest of the entries in the Numbers table."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To eliminate all the repeating numbers, we must group the number column by those numbers with a count of 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "This will give us the following table:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "number"
+        ],
+        [
+          "1"
+        ],
+        [
+          "4"
+        ],
+        [
+          "5"
+        ],
+        [
+          "6"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We can now use the MAX() function to filter out the largest number in this sub-table, i.e., 6."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, our result will be"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "largest_single_number"
+        ],
+        [
+          "6"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,51 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/nested-loop?page=3",
+  "title": "Example: Nested Loops",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Nested Loops"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  // outer loop iterates from i = 0 to 2\n6  for (int i = 0; i <= 2; ++i) {\n7    // inner loop iterates from j = 0 to 1\n8    for (int j = 0; j <= 1; ++j) {\n9      printf(\"i = %d, j = %d\\n\", i, j);\n10    }\n11  }\n12\n13  return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "i = 0, j = 0\ni = 0, j = 1\ni = 1, j = 0\ni = 1, j = 1\ni = 2, j = 0\ni = 2, j = 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, the outer loop iterates from i equals 0 to 2. In each iteration of the outer loop, the inner loop iterates from j equals 0 to 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

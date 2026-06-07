@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/games-need-array?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the quiz we have"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "while (i < questions.length) { \nvar q = questions[i]; \n... \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "What do questions[i] give us for each value of i?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The player's answer for question i."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The player's answer comes from prompt() and is stored in userAnswer. questions[i] is the data for the question; we compare userAnswer to q.answer from that object."
+    },
+    {
+      "type": "paragraph",
+      "content": "The player's answer comes from prompt() and is stored in userAnswer. questions[i] is the data for the question; we compare userAnswer to q.answer from that object."
+    },
+    {
+      "type": "paragraph",
+      "content": "The score after question i."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The score is stored in the variable score and we update it with score++. questions[i] is the current question data (text, options, correct answer), not the score."
+    },
+    {
+      "type": "paragraph",
+      "content": "The score is stored in the variable score and we update it with score++. questions[i] is the current question data (text, options, correct answer), not the score."
+    },
+    {
+      "type": "paragraph",
+      "content": "The question object for the current round - the one with .question, .options, and .answer for that question."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. questions[i] is the element at position i in the questions array. Each element is an object with question text, options array, and correct answer - exactly what we need to show the question and check the player's answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. questions[i] is the element at position i in the questions array. Each element is an object with question text, options array, and correct answer - exactly what we need to show the question and check the player's answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "The total number of questions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number of questions is questions.length. questions[i] is one single question object at index i, not the count."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number of questions is questions.length. questions[i] is one single question object at index i, not the count."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the quiz we have",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The player's answer for question i.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The player's answer for question i.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The score after question i.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The score after question i.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The question object for the current round - the one with .question, .options, and .answer for that question.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The question object for the current round - the one with .question, .options, and .answer for that question.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The total number of questions.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The total number of questions.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

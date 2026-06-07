@@ -1,0 +1,79 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/header-menu?page=3",
+  "title": "Why the Header Is a Perfect Example",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why the Header Is a Perfect Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Headers often contain:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "A title",
+        "Navigation",
+        "Lists that should not look like normal content lists"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "So instead of asking:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"How do I style <li>?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Developers ask:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"How do I style the list items inside the header?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "That question leads directly to practical selectors."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Typical Header Menu Structure (Conceptual)"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header>\n2  <h1>Learning HTML & CSS</h1>\n3  <nav>\n4    <ul>\n5      <li>Home</li>\n6      <li>Lessons</li>\n7      <li>Resources</li>\n8    </ul>\n9  </nav>\n10</header>"
+    },
+    {
+      "type": "paragraph",
+      "content": "We won't change this HTML. All control comes from selectors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-functions?page=3",
+  "title": "Example: Struct as Function Argument",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Struct as Function Argument"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3struct Student {\n4  char name[50];\n5  int age;\n6};\n7\n8// function definition\n9void display(struct Student s1) {\n10  printf(\"Name: %s\\n\", s1.name);\n11  printf(\"Age: %d\", s1.age);\n12}\n13\n14int main() {\n15\n16\n17  // create and initialize struct variable\n18  struct Student student1 = {.name = \"Adam\", .age = 25};\n19\n20  // function call\n21  display(student1);\n22\n23\n24  return 0;\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Name: Adam\nAge: 25"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we have passed the struct variable student1 to the display function. Inside the function, we have printed the name and age of student1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

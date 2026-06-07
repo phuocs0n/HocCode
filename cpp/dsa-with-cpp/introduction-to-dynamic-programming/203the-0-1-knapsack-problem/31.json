@@ -1,0 +1,50 @@
+{
+  "index": 31,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/0-1-knapsack-problem?page=32",
+  "title": "Thought Process: DP Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: DP Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Apply the logic in Step 3 to all items and all possible capacities."
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we applied the DP table formula to decide whether to include an item in the knapsack."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we extend this logic to all items and possible knapsack capacities. So we'll encapsulate this logic inside two loops."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Run the loop once for each item\nfor (size_t item_index = 0; item_index < w.size(); ++item_index) {\n    // Compare and change values\n    for (int index = 0; index <= capacity; ++index) {\n        // You can only add an item if the bag size\n        // is larger than the item weight\n        if (index >= w[item_index]) {\n            DP[item_index + 1][index] = max(\n                DP[item_index][index], \n                DP[item_index][index - w[item_index]] + v[item_index]\n            );\n        } \n        // Otherwise, just copy the profit from one row above\n        else {\n            DP[item_index + 1][index] = DP[item_index][index];\n        }\n    }\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/arithmetic-operators?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the value of the sum variable in the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int a = 33;\nint b = -45;\n\nint sum = a + b;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "78"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is not 78."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is not 78."
+    },
+    {
+      "type": "paragraph",
+      "content": "33"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "33 is the value of a. Here, the sum variable contains the value after addition of a and b."
+    },
+    {
+      "type": "paragraph",
+      "content": "33 is the value of a. Here, the sum variable contains the value after addition of a and b."
+    },
+    {
+      "type": "paragraph",
+      "content": "-12"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is -12."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is -12."
+    },
+    {
+      "type": "paragraph",
+      "content": "-45"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 is the value of b. Here, the sum variable contains the value after addition of a and b."
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 is the value of b. Here, the sum variable contains the value after addition of a and b."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is not 78."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is not 78."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "33 is the value of a. Here, the sum variable contains the value after addition of a and b."
+    },
+    {
+      "type": "paragraph",
+      "content": "33 is the value of a. Here, the sum variable contains the value after addition of a and b."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is -12."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of 33 and -45 is -12."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 is the value of b. Here, the sum variable contains the value after addition of a and b."
+    },
+    {
+      "type": "paragraph",
+      "content": "-45 is the value of b. Here, the sum variable contains the value after addition of a and b."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the value of the sum variable in the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:78",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "78",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:33",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "33",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:-12",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "-12",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:-45",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "-45",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,96 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/tictactoe?page=6",
+  "title": "Step 3: Create the Game Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Create the Game Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Remove the Player objects from the main() function (we will add it inside the Game class).",
+        "Create the Game class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4class Board {\n5    public:\n6\n7        string board[9] = { \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \" };\n8\n9        void print_board() {\n10            cout << \" \" << board[0] << \" | \" << board[1] << \" | \" << board[2] << endl;\n11            cout << \"-----------\" << endl;\n12            cout << \" \" << board[3] << \" | \" << board[4] << \" | \" << board[5] << endl;\n13            cout << \"-----------\" << endl;\n14            cout << \" \" << board[6] << \" | \" << board[7] << \" | \" << board[8] << endl;\n15        }\n16};\n17\n18class Player {\n19    public:\n20\n21        string name;\n22        char type;\n23\n24        // function to select the player type and name\n25        void set_info(char type) {\n26\n27            // player type is 'X' if parameter is 'X' or 'x'            \n28            if (type == 'X' || type == 'x') {\n29\n30                // set member variable to 'X'\n31                this->type = 'X';\n32\n33                // get player name\n34                cout << \"Player selecting \" << this->type << \", enter your name: \";\n35                getline(cin, name);\n36            }\n37\n38            // player type is 'O' if parameter is any other character \n39            else {\n40                this->type = 'O';\n41                cout << \"Player selecting \" << this->type << \", enter your name: \";\n42                getline(cin, name);\n43            }\n44        }\n45};\n46\n47\n48class Game {   \n49    public:\n50\n51        Board board;\n52\n53        Player player1;\n54        Player player2;\n55\n56        // pointer to point to address of the\n57        // current player (either player1 or player2)\n58        Player* current_player;\n59        \n60        // constructor to set player data\n61        Game() {\n62            player1.set_info('X');\n63            player2.set_info('O');\n64            current_player = &player1;\n65        }\n66        \n67        // this function will be later used to play the game\n68        void play() {\n69            // empty for now\n70        }\n71};\n72\n73\n74int main() {\n75\n76    Game game;\n77    game.play();\n78    return 0;\n79}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: Robin\nPlayer selecting O, enter your name: Lily"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the Game class:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Object",
+          "Description"
+        ],
+        [
+          "board",
+          "Object of the Board class."
+        ],
+        [
+          "player1",
+          "Object of the Player class for the first player."
+        ],
+        [
+          "player2",
+          "Object of the Player class for the second player."
+        ],
+        [
+          "current_player",
+          "Pointer of Player class to identify the turn of either player.\n\nIn the beginning, it's the turn of the first player, so we have assigned the address of player1 to it."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The play() function will be used to write our game logic, which is empty for now."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will update the play() function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

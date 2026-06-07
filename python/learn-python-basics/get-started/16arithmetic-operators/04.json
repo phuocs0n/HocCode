@@ -1,0 +1,184 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/arithmetic-operators?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "x = -1\ny = 10\n\nprint(y + x)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "11"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "paragraph",
+      "content": "10-1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 10-1."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 10-1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "-9"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not -9."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not -9."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 11."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 10-1."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not 10-1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is 9."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not -9."
+    },
+    {
+      "type": "paragraph",
+      "content": "print(y + x) prints the sum of y and x. The sum of 10 and -1 is not -9."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:11",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:10-1",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "10-1",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:9",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:-9",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "-9",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

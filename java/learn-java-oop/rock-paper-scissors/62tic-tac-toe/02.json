@@ -1,0 +1,49 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-oop/tictactoe?page=3",
+  "title": "Implementing Tic-tac-toe in Java",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implementing Tic-tac-toe in Java"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will use object-oriented programming to create this game. Our game will have three classes:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Board - to handle the tic-tac-toe board and handle winning/draw logic",
+        "Player - to handle the name of players and symbols they are using",
+        "Game - to handle the game logic"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We have learned a lot of things in this tutorial. We will use some of them to build our game."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

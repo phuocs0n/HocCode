@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-html/preformatted-text?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a good situation to use the <pre> tag?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To emphasize important phrases within a paragraph."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <em> for this."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <em> for this."
+    },
+    {
+      "type": "paragraph",
+      "content": "To display a block of Python code where whitespaces are important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since whitespaces are crucial in Python code, using the <pre> tag is ideal in this situation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since whitespaces are crucial in Python code, using the <pre> tag is ideal in this situation."
+    },
+    {
+      "type": "paragraph",
+      "content": "To create a list of items."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use either <ul> or <ol> tags to create a list of items."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use either <ul> or <ol> tags to create a list of items."
+    },
+    {
+      "type": "paragraph",
+      "content": "To display prices neatly in a table format."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use HTML tables for it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use HTML tables for it."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a good situation to use the <pre> tag?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To emphasize important phrases within a paragraph.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To emphasize important phrases within a paragraph.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To display a block of Python code where whitespaces are important.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To display a block of Python code where whitespaces are important.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To create a list of items.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To create a list of items.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To display prices neatly in a table format.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To display prices neatly in a table format.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

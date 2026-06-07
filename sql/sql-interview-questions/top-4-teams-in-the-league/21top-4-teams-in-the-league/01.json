@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/top--teams-in-league?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve any SQL query, it's essential to first understand what the question is asking."
+    },
+    {
+      "type": "paragraph",
+      "content": "Understanding the problem allows us to approach the problem correctly and figure out an efficient solution."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can tell, we are given a table named EPL with columns for position, team, goals, and points."
+    },
+    {
+      "type": "paragraph",
+      "content": "Our task involves writing an SQL query to retrieve the teams in the top 4 positions with more than 65 points and more than 50 goals from the EPL table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move on to how to approach this question."
+    },
+    {
+      "type": "paragraph",
+      "content": "Start by selecting the team column from the EPL table. Then, filter the teams based on the following conditions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Choose teams within the top 4 positions.",
+        "Ensure that these teams have achieved more than 65 points.",
+        "Confirm that they have scored more than 50 goals."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

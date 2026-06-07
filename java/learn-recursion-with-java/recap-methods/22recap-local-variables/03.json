@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/recap-local-variables?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n\n    public static void greet() {\n        String greeting = \"Hello\";\n    }\n\n    public static void main(String[] args) {\n        System.out.println(greeting);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() method. So, it doesn't exist outside that method."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() method. So, it doesn't exist outside that method."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() method. So, printing it outside will result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() method. So, printing it outside will result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "greeting"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Nothing is printed)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the void function returns nothing, the program either has an output or throws an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the void function returns nothing, the program either has an output or throws an error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() method. So, it doesn't exist outside that method."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() method. So, it doesn't exist outside that method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() method. So, printing it outside will result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() method. So, printing it outside will result in an error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the void function returns nothing, the program either has an output or throws an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the void function returns nothing, the program either has an output or throws an error."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:greeting",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "greeting",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(Nothing is printed)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(Nothing is printed)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/drop-table?page=3",
+  "title": "DROP TABLE IF EXISTS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "DROP TABLE IF EXISTS"
+    },
+    {
+      "type": "paragraph",
+      "content": "While cleaning up old tables, you may accidentally try to delete a table that doesn't exist in the database. Normally, the database would return an error like \"table does not exist.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if your database only has the Products table, but you mistakenly try to delete Customers table:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Delete the table\n2\n3DROP TABLE Customers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the Customers table does not exist, this will result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "To fix this error, you can add the IF EXISTS clause with the DROP TABLE statement."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- delete the table if it exists \n2\n3DROP TABLE IF EXISTS Customers;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This ensures that the table is only deleted if it exists, preventing unnecessary errors."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

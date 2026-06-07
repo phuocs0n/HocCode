@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-3?page=5",
+  "title": "Finding Courses Without Students: RIGHT JOIN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding Courses Without Students: RIGHT JOIN"
+    },
+    {
+      "type": "paragraph",
+      "content": "To answer the dean's question, \"Are there courses that don't have any students?\" you can check the Courses table and match it with the Enrollments table to identify courses without any student enrollments."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, a RIGHT JOIN is ideal, as it includes all rows from the right table (Courses) and fills unmatched rows from the left table (Enrollments) with NULL."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Join the enrollments table with the\n2-- students table, including all courses and\n3-- showing NULL for courses without\n4-- students.\n5\n6SELECT Courses.id, Courses.course_name\n7FROM Enrollments\n8RIGHT JOIN Courses\n9ON Enrollments.course_id = Courses.id\n10WHERE Enrollments.course_id IS NULL;"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, courses like Python Programming(C104) will appear with NULL values in the Enrollments table, indicating no students are enrolled."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

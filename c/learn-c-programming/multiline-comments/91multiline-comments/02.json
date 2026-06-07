@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/multiline-comments?page=2",
+  "title": "Ví dụ: Bình luận nhiều dòng",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Bình luận nhiều dòng"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1/*\n2Program to take age input\n3from the user and print it\n4*/\n5\n6#include <stdio.h>\n7\n8int main() {\n9  int age;\n10\n11  printf(\"Enter your age: \");\n12  scanf(\"%d\", &age);\n13\n14  printf(\"Age: %d\", age);\n15  return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cũng giống như chú thích một dòng, chú thích nhiều dòng cũng bị bỏ qua trong quá trình thực thi chương trình."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhận xét nhiều dòng thường được sử dụng để viết hướng dẫn và tài liệu dài."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

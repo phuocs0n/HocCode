@@ -1,0 +1,83 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/dynamic-memory-allocation?page=2",
+  "title": "Dynamic Memory Allocation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Dynamic Memory Allocation"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Revision: Pointer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's first revise the concept of pointers with the help of this example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // create a variable\n7    int number = 36;\n8\n9\n10    // create a pointer variable and\n11    // assign the address of number to it\n12    int* ptr = &number;\n13\n14    // print value of number using ptr\n15    cout << *ptr;    // 36\n16\n17\n18    return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "&number - memory address of number",
+        "int* ptr - pointer variable",
+        "*ptr - gives the value pointed by the ptr pointer"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's get back to dynamic memory allocation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Dynamic Memory Allocation"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++ dynamic memory allocation, we use the following operators alongside a pointer:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "new - dynamically allocates memory during run-time",
+        "delete - clears the dynamically allocated memory after it is of no use to us"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's learn about these operators in greater detail."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

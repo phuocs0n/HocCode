@@ -1,0 +1,176 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-break-continue?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How many times is the text \"Hello\" displayed in the following program?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "for (let i = 1; i <= 10; i++) {\n    console.log(\"Hello\");\n\n    if (i == 5) {\n        break;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "10"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Hello\" is displayed 5 times as the loop iterates from i = 1 to i = 5. However, when i = 5, the condition in the if statement evaluates to true, causing the break statement to execute and terminating the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Hello\" is displayed 5 times as the loop iterates from i = 1 to i = 5. However, when i = 5, the condition in the if statement evaluates to true, causing the break statement to execute and terminating the loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before the condition in the if statement evaluates to true, causing the break statement to execute, the loop executes 5 times."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before the condition in the if statement evaluates to true, causing the break statement to execute, the loop executes 5 times."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even if the break statement executes in the first iteration, \"Hello\" is displayed at least 1 time as console.log() executes before the if statement in each iteration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even if the break statement executes in the first iteration, \"Hello\" is displayed at least 1 time as console.log() executes before the if statement in each iteration."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop does not complete all 10 iterations. The loop ends due to the break statement when i is 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Hello\" is displayed 5 times as the loop iterates from i = 1 to i = 5. However, when i = 5, the condition in the if statement evaluates to true, causing the break statement to execute and terminating the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Hello\" is displayed 5 times as the loop iterates from i = 1 to i = 5. However, when i = 5, the condition in the if statement evaluates to true, causing the break statement to execute and terminating the loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before the condition in the if statement evaluates to true, causing the break statement to execute, the loop executes 5 times."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before the condition in the if statement evaluates to true, causing the break statement to execute, the loop executes 5 times."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even if the break statement executes in the first iteration, \"Hello\" is displayed at least 1 time as console.log() executes before the if statement in each iteration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even if the break statement executes in the first iteration, \"Hello\" is displayed at least 1 time as console.log() executes before the if statement in each iteration."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How many times is the text \"Hello\" displayed in the following program?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:10",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:4",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:0",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "0",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

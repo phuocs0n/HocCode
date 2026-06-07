@@ -1,0 +1,75 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-while-loop?page=6",
+  "title": "Terminating The while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Terminating The while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "To run the loop only a fixed number of times, you need to update the value of the count variable inside the loop so that count <= 3 eventually evaluates to false. Here's how:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let count = 1;\n2\n3// Loop continues as long as count is 3 or less\n4while (count <= 3) {\n5    console.log(\"I am inside a loop.\");\n6    console.log(\"Looping is interesting.\");\n7\n8    // Increment count by 1 in each iteration\n9    // Equivalent to: count = count + 1\n10    count += 1;\n11}\n12\n13console.log(\"OUTSIDE THE LOOP\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nOUTSIDE THE LOOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, count = count + 1 increases the value of count by 1 in each iteration of the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of count changes as follows:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 in the first iteration",
+        "2 in the second iteration",
+        "3 in the third iteration"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When count is updated to 4, the condition count <= 3 evaluates to false, and the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "After the loop terminates, the code outside the while loop runs normally."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

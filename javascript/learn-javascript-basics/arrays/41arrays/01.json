@@ -1,0 +1,71 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/arrays?page=2",
+  "title": "Creating an Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating an Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "An array is a data type that can store multiple values in a single variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's an example of an array of fruits:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Create array storing list of fruits\n2const fruits = [\"Apple\", \"Banana\", \"Orange\"];\n3\n4// Display array\n5console.log(fruits);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[ 'Apple', 'Banana', 'Orange' ]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "fruits is the array's name.",
+        "[] defines the array and encloses its elements.",
+        "\"Apple\", \"Banana\", and \"Orange\" are elements of the array, which are separated by commas (,)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the fruits array stores only strings. Next, let's see how to store numbers in an array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

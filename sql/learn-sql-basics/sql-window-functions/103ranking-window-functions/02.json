@@ -1,0 +1,45 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions?page=3",
+  "title": "ROW_NUMBER()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "ROW_NUMBER()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your manager wants to analyze product sales and asks:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Can you show me a ranked list of our best-selling products? I need to see which products are performing well.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "To generate this ranking, you can use the ROW_NUMBER() function. This function assigns a unique number to each row based on sales performance, ensuring each product is ranked individually."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

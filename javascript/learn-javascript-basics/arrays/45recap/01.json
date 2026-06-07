@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/recap-arrays?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Looping Through Arrays"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Using for loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use a for loop to iterate through each element in an array"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const fruits = [\"Apple\", \"Banana\", \"Orange\"];\n2\n3for (let i = 0; i < fruits.length; i++) {\n4    console.log(fruits[i]);\n5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The length property determines how many elements the array has, and you use it as the stopping condition for the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Using for...of loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "The for...of loop simplifies iterating through arrays by directly accessing each element."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const fruits = [\"Apple\", \"Banana\", \"Orange\"];\n2\n3for (let fruit of fruits) {\n4    console.log(fruit);\n5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the fruit variable represents each element of the array during each iteration, making the code cleaner and easier to read."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

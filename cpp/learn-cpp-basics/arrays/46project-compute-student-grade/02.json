@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/project-compute-student-grade?page=3",
+  "title": "Get Average Score",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Get Average Score"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// find the average score and return it\n5double get_average_score(double scores[5]) {\n6\n7    double sum = 0.0;\n8\n9    // find the sum\n10    for (int i = 0; i < 5; ++i) {\n11        sum = sum + scores[i];\n12    }\n13\n14\n15    double average = sum / 5.0;\n16\n17\n18    return average;\n19}\n20\n21int main() {\n22\n23    // an array of scores\n24    double scores[5] = {55, 64, 75, 80, 65};\n25\n26\n27    double average_score = get_average_score(scores);\n28\n29    cout << average_score;\n30\n31    return 0;\n32}\n33\n34// Output: 67.8"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the get_average_score() function takes an array as an argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside this function, we have used a for loop to find the sum of all scores."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have computed the average by dividing the sum by 5.0 (number of array elements)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will use the average score to compute the student's grade."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

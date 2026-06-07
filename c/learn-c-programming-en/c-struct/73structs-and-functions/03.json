@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-functions?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we have a struct variable struct Student student1;. What is the correct way to call a function with this variable as an argument?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(Student);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Student is the name of the struct, not the struct variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Student is the name of the struct, not the struct variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "func(struct);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The struct keyword is used to create a struct."
+    },
+    {
+      "type": "paragraph",
+      "content": "The struct keyword is used to create a struct."
+    },
+    {
+      "type": "paragraph",
+      "content": "func(student1);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "student1 is the struct variable that is passed as an argument to a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "student1 is the struct variable that is passed as an argument to a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "func(struct Student student1);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "struct Student student1 is used to declare a struct variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "struct Student student1 is used to declare a struct variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we have a struct variable struct Student student1;. What is the correct way to call a function with this variable as an argument?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:func(Student);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "func(Student);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:func(struct);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "func(struct);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:func(student1);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "func(student1);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:func(struct Student student1);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "func(struct Student student1);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

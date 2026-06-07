@@ -1,0 +1,57 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/drawing-on-canvas?page=3",
+  "title": "Create the Ball Class 🏗️",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create the Ball Class 🏗️"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we write the class, some variables that the project would require will look like these. We define all game constants here in one place so they are easy to find and change."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ball constants are used right away. The paddle and brick constants will not be used until later chapters. You can ignore them for now but define these on top of your script file before you start writing the class for easier reference."
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "\"use strict\";\n\n// Canvas dimensions\nconst CANVAS_WIDTH = 500, CANVAS_HEIGHT = 360;\n\n// Ball\nconst BALL_RADIUS = 9, BALL_BASE_SPEED = 4.5, BALL_MAX_SPEED = 9;\n\n// Paddle\nconst PADDLE_WIDTH = 110, PADDLE_HEIGHT = 14, PADDLE_Y = CANVAS_HEIGHT - 40, PADDLE_KEYBOARD_SPEED = 6;\n\n// Bricks\nconst BRICK_COLS = 6, BRICK_ROWS = 4, BRICK_WIDTH = 70, BRICK_HEIGHT = 22, BRICK_GAP = 6;\nconst BRICK_OFFSET_LEFT = 25, BRICK_OFFSET_TOP = 50;\nconst BRICK_ROW_COLORS = [\"#E57373\", \"#F4A261\", \"#FFD166\", \"#95C77B\"];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to write the first entity. The Ball class will live in entities.js and hold its position, size, and drawing logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "Open entities.js and add all the game constants at the top."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a Ball class with a constructor that sets radius, speed values, and isLaunched, then calls this.reset().",
+        "Add a reset() method that sets x to CANVAS_WIDTH / 2 and y to PADDLE_Y - BALL_RADIUS.",
+        "Add a draw(ctx) method that draws a filled dark circle using ctx.beginPath(), ctx.arc(), set fillStyle to \"#444\", and ctx.fill()."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "\"use strict\";"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

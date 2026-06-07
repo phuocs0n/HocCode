@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/selection-sort?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we are sorting elements in ascending order using selection sort. After sorting the smallest element, what is the next action in selection sort?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Re-sort the entire list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is inefficient and not how selection sort works."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is inefficient and not how selection sort works."
+    },
+    {
+      "type": "paragraph",
+      "content": "Find the second-smallest element and swap it with the element at the first position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The second-smallest element should be swapped with the element in the second position."
+    },
+    {
+      "type": "paragraph",
+      "content": "The second-smallest element should be swapped with the element in the second position."
+    },
+    {
+      "type": "paragraph",
+      "content": "Find the smallest element and swap it with the element at the second position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "After placing the smallest element in the first position, it's unnecessary to find that smallest element again to place in the second position for sorting."
+    },
+    {
+      "type": "paragraph",
+      "content": "After placing the smallest element in the first position, it's unnecessary to find that smallest element again to place in the second position for sorting."
+    },
+    {
+      "type": "paragraph",
+      "content": "Find the second-smallest element and swap it with the element at the second position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The second-smallest element should be swapped with the element in the second position."
+    },
+    {
+      "type": "paragraph",
+      "content": "The second-smallest element should be swapped with the element in the second position."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we are sorting elements in ascending order using selection sort. After sorting the smallest element, what is the next action in selection sort?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Re-sort the entire list.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Re-sort the entire list.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Find the second-smallest element and swap it with the element at the first position.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Find the second-smallest element and swap it with the element at the first position.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Find the smallest element and swap it with the element at the second position.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Find the smallest element and swap it with the element at the second position.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Find the second-smallest element and swap it with the element at the second position.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Find the second-smallest element and swap it with the element at the second position.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

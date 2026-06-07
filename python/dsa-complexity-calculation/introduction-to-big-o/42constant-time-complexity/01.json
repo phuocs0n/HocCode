@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/constant-time-complexity?page=2",
+  "title": "Example: Constant Time Complexity",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Constant Time Complexity"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at the following function:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def get_squares_sum(number1, number2):\n2    \n3    # square the numbers\n4    number1 = number1**2\n5    number2 = number2**2\n6    \n7    # get the sum of squares\n8    result = number1 + number2\n9\n10    return result\n11\n12# example \n13square_sum = get_squares_sum(5, 15)\n14print(square_sum)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "250"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program above, the get_squares_sum() function takes 4 steps to execute regardless of the input size. The number of steps remains 4 regardless of the values you input for number 1 and number 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, the time complexity of the above program is O(1)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

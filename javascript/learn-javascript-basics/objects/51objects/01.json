@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/objects?page=2",
+  "title": "Creating Objects",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Objects"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of an object looks like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const objectName = {\n    key1: value1,\n    key2: value2,\n    ...\n    keyN: valueN\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each key along with its associated value form a \"key-value pair\" or \"property\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, key1: value1, key2: value2, and so on are the key-value pairs. Key-value pairs are separated by commas (,), and the entire object is enclosed in curly braces { }."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you understand the syntax, let's look at the example from the previous page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

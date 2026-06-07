@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/rowspan-colspan?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following codes is used to create a table where a cell spans across four rows?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "<td colspan=\"4\">...</td>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "<td colspan=\"4\">...</td> makes a cell span across four columns, not rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "<td colspan=\"4\">...</td> makes a cell span across four columns, not rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "<td rowspan=\"4\">...</td>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The rowspan attribute makes a cell span across four rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rowspan attribute makes a cell span across four rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "<table colspan=\"4\">...</table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The colspan attribute is not used with tables, rather, it is used with a data cell element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The colspan attribute is not used with tables, rather, it is used with a data cell element."
+    },
+    {
+      "type": "paragraph",
+      "content": "<table rows=\"4\">...</table>"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The rowspan attribute is not used with tables, rather, it is used with a data cell element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The rowspan attribute is not used with tables, rather, it is used with a data cell element."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following codes is used to create a table where a cell spans across four rows?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:<td colspan=\"4\">...</td>",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "<td colspan=\"4\">...</td>",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:<td rowspan=\"4\">...</td>",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "<td rowspan=\"4\">...</td>",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:<table colspan=\"4\">...</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "<table colspan=\"4\">...</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:<table rows=\"4\">...</table>",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "<table rows=\"4\">...</table>",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

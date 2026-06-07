@@ -1,0 +1,136 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/looping-object-elements?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the given code snippet, what does item represent when looping through the person object?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "for (let item in person) {\n    console.log(item);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the values of the object properties."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the property names (keys), not the values. To access the values, you would use person[item]."
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the property names (keys), not the values. To access the values, you would use person[item]."
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the property names of the object."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the for...in loop, item refers to the names of the properties (like \"name\", \"age\", and \"city\")."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the for...in loop, item refers to the names of the properties (like \"name\", \"age\", and \"city\")."
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the index of the object properties."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike arrays, objects don't have indices. The for...in loop iterates through the property names (keys), not indices."
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike arrays, objects don't have indices. The for...in loop iterates through the property names (keys), not indices."
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the number of properties in the object."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the property names (keys), not the number of properties."
+    },
+    {
+      "type": "paragraph",
+      "content": "item represents the property names (keys), not the number of properties."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the given code snippet, what does item represent when looping through the person object?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:item represents the values of the object properties.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "item represents the values of the object properties.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:item represents the property names of the object.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "item represents the property names of the object.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:item represents the index of the object properties.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "item represents the index of the object properties.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:item represents the number of properties in the object.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "item represents the number of properties in the object.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

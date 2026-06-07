@@ -1,0 +1,86 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/setting-up?page=4",
+  "title": "The Full index.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Full index.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "The project has five files and here is what each one does:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "src/index.jsx — entry point of your app, this is where we wired up React Query",
+        "src/App.jsx — renders TaskList",
+        "src/TaskList.jsx — where you'll build everything throughout the course",
+        "package.json — lists your project dependencies"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react'\n2import { createRoot } from 'react-dom/client'\n3import { QueryClient, QueryClientProvider } from '@tanstack/react-query'\n4import { ReactQueryDevtools } from '@tanstack/react-query-devtools'\n5import App from './App'\n6\n7const queryClient = new QueryClient({\n8  defaultOptions: { queries: { staleTime: 1000 * 60 } }\n9})\n10\n11createRoot(document.getElementById('root')).render(\n12  <QueryClientProvider client={queryClient}>\n13    <App />\n14    <ReactQueryDevtools />\n15  </QueryClientProvider>\n16)"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import TaskList from './TaskList'\n2\n3export default function App() {\n4  return <TaskList />\n5}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1export default function TaskList() {\n2  return <div>TaskFlow</div>\n3}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1{\n2  \"dependencies\": {\n3    \"react\": \"^18.2.0\",\n4    \"react-dom\": \"^18.2.0\",\n5    \"@tanstack/react-query\": \"^5.0.0\",\n6    \"@tanstack/react-query-devtools\": \"^5.0.0\"\n7  }\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In index.jsx we added three things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "QueryClient — creates the cache where React Query stores all your data",
+        "QueryClientProvider — wraps your whole app so every component can use that cache",
+        "ReactQueryDevtools — adds a floating panel in the corner so you can see what is cached and when things are refetching"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "From this point on, every component in your app can talk to React Query."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next you'll write your very first query."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

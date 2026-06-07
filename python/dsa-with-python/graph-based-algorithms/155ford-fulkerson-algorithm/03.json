@@ -1,0 +1,183 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/ford-fulkerson-algorithm?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the primary application of the Ford-Fulkerson algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding the shortest path."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm isn't primarily designed for finding the shortest path in a graph."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm isn't primarily designed for finding the shortest path in a graph."
+    },
+    {
+      "type": "paragraph",
+      "content": "Maximum flow problem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The primary purpose of the Ford-Fulkerson algorithm is to compute the maximum flow in a flow network."
+    },
+    {
+      "type": "paragraph",
+      "content": "The primary purpose of the Ford-Fulkerson algorithm is to compute the maximum flow in a flow network."
+    },
+    {
+      "type": "paragraph",
+      "content": "Minimum spanning tree."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The minimum spanning tree problem is about finding a tree that spans all the vertices in a connected graph while minimizing the total edge weight. The Ford-Fulkerson algorithm does not address this problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "The minimum spanning tree problem is about finding a tree that spans all the vertices in a connected graph while minimizing the total edge weight. The Ford-Fulkerson algorithm does not address this problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Graph traversal."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm might utilize traversal methods like DFS or BFS to find augmenting paths, but the primary goal is not just traversal but finding the maximum flow."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm might utilize traversal methods like DFS or BFS to find augmenting paths, but the primary goal is not just traversal but finding the maximum flow."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm isn't primarily designed for finding the shortest path in a graph."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm isn't primarily designed for finding the shortest path in a graph."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The primary purpose of the Ford-Fulkerson algorithm is to compute the maximum flow in a flow network."
+    },
+    {
+      "type": "paragraph",
+      "content": "The primary purpose of the Ford-Fulkerson algorithm is to compute the maximum flow in a flow network."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The minimum spanning tree problem is about finding a tree that spans all the vertices in a connected graph while minimizing the total edge weight. The Ford-Fulkerson algorithm does not address this problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "The minimum spanning tree problem is about finding a tree that spans all the vertices in a connected graph while minimizing the total edge weight. The Ford-Fulkerson algorithm does not address this problem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm might utilize traversal methods like DFS or BFS to find augmenting paths, but the primary goal is not just traversal but finding the maximum flow."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Ford-Fulkerson algorithm might utilize traversal methods like DFS or BFS to find augmenting paths, but the primary goal is not just traversal but finding the maximum flow."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the primary application of the Ford-Fulkerson algorithm?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Finding the shortest path.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Finding the shortest path.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Maximum flow problem.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Maximum flow problem.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Minimum spanning tree.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Minimum spanning tree.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Graph traversal.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Graph traversal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

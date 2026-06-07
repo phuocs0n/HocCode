@@ -1,0 +1,135 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/other-data-types?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu đố: Giả sử chúng ta có một biến kép có tên là lương. Làm thế nào chúng ta có thể in nó?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Để in một biến, chúng ta cần sử dụng bộ xác định định dạng thích hợp được đặt trong dấu ngoặc kép \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Để in một biến, chúng ta cần sử dụng bộ xác định định dạng thích hợp được đặt trong dấu ngoặc kép \"\"."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%d\", salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng công cụ xác định định dạng %d với các biến int, không phải với biến double."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng công cụ xác định định dạng %d với các biến int, không phải với biến double."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(%lf, salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta phải đặt bộ xác định định dạng trong dấu ngoặc kép \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta phải đặt bộ xác định định dạng trong dấu ngoặc kép \"\"."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%lf\", salary);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng công cụ xác định định dạng %lf để in biến kép. Bộ xác định định dạng %lf phải được đặt trong dấu ngoặc kép \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng công cụ xác định định dạng %lf để in biến kép. Bộ xác định định dạng %lf phải được đặt trong dấu ngoặc kép \"\"."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu đố: Giả sử chúng ta có một biến kép có tên là lương. Làm thế nào chúng ta có thể in nó?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:printf(lương);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "printf(lương);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:printf(\"%d\", lương);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "printf(\"%d\", lương);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:printf(%lf, lương);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "printf(%lf, lương);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:printf(\"%lf\", lương);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "printf(\"%lf\", lương);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

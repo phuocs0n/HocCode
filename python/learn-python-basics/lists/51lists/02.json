@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/lists?page=3",
+  "title": "Creating Lists",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Lists"
+    },
+    {
+      "type": "paragraph",
+      "content": "A list can store any number of items. And these items may be of different types (int, float, str, etc.). For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# empty list\n2list1 = []\n3print(list1)   # Output: []\n4\n5# list of integers\n6numbers = [1, 2, 3]\n7print(numbers)   # Output: [1, 2, 3]\n8\n9# list with mixed data types\n10mixed_list = [1, \"Hello\", 3.4]\n11print(mixed_list)   # Output: [1, 'Hello', 3.4]\n12\n13# list with duplicate items\n14list2 = [1, 2, 3, 1, 3]\n15print(list2)   # Output: [1, 2, 3, 1, 3]"
+    },
+    {
+      "type": "paragraph",
+      "content": "A list can also contain another list as an item. This is called a nested list."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# nested list\n2list1 = ['mouse', [1, 2, 3], [4]]\n3print(list1)   # Output: ['mouse', [1, 2, 3], [4]]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

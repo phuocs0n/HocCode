@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/deleting-task?page=2",
+  "title": "Wiring Up the Delete Mutation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Wiring Up the Delete Mutation"
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/TaskList.jsx we add the delete mutation:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const deleteMutation = useMutation({\n  mutationFn: deleteTask,\n  onSuccess: (_, id) => {\n    queryClient.setQueryData(taskKeys.list({ status }), (old) =>\n      old.filter(task => task.id !== id)\n    )\n  }\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "In onSuccess we filter that task out of the cache directly so it disappears from the screen immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "And for each task we add a Delete button:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<button onClick={() => deleteMutation.mutate(task.id)}>\n  Delete\n</button>"
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full files at this point."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

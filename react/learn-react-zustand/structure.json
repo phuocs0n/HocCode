@@ -1,0 +1,94 @@
+{
+  "levels": [
+    {
+      "title": "Welcome to the Course",
+      "lessons": [
+        {
+          "title": "1.1Welcome to the Course",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/welcome-to"
+        },
+        {
+          "title": "1.2What is Global State?",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/what-is-global-state"
+        },
+        {
+          "title": "1.3What is Zustand?",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/what-is-zustand"
+        },
+        {
+          "title": "1.4Setting Up the Project",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/setting-up-project"
+        }
+      ]
+    },
+    {
+      "title": "Creating a Store with create()",
+      "lessons": [
+        {
+          "title": "2.1Creating a Store with create()",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/creating-store-with-create"
+        },
+        {
+          "title": "2.2Reading State in Components",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/reading-state-in-components"
+        },
+        {
+          "title": "2.3Updating State with Actions",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/updating-state-with-actions"
+        }
+      ]
+    },
+    {
+      "title": "Storing Arrays and Objects",
+      "lessons": [
+        {
+          "title": "3.1Storing Arrays and Objects",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/storing-arrays-objects"
+        },
+        {
+          "title": "3.2Async Actions — Fetching Data Inside the Store",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/async-actions--fetching-data-inside-store"
+        },
+        {
+          "title": "3.3Multiple Slices in One Store",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/multiple-slices-in-one-store"
+        }
+      ]
+    },
+    {
+      "title": "Selectors — Subscribing to Part of the Store",
+      "lessons": [
+        {
+          "title": "4.1Selectors — Subscribing to Part of the Store",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/selectors--subscribing-to-part-of-store"
+        },
+        {
+          "title": "4.2Resetting Store State",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/resetting-store-state"
+        },
+        {
+          "title": "4.3Persisting Store to localStorage",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/persisting-store-to-localstorage"
+        }
+      ]
+    },
+    {
+      "title": "What You Learned",
+      "lessons": [
+        {
+          "title": "5.1What You Learned",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/what-you-learned"
+        },
+        {
+          "title": "5.2What's Next?",
+          "url": "https://app.programiz.pro/course/learn-react-zustand/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 15,
+    "sections": 5,
+    "container": "main-content"
+  }
+}

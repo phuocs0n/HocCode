@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/ifelse-statement?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n\n  int number = 0;\n\n  if (number < 0) {\n    printf(\"Number is negative\");\n  }\n\n  printf(\"This is always executed\");\n  \n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Number is negative."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is always executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement will not be executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement will not be executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "(No Output)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a statement outside of if. So that statement is printed no matter what."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a statement outside of if. So that statement is printed no matter what."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is always executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The test condition of the if statement is false. Hence, the body of the if statement is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error Code)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Number is negative.This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Number is negative.This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(No Output)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(No Output)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "This is always executed.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(Error Code)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(Error Code)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

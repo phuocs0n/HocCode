@@ -1,0 +1,88 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/css-reset--normalize?page=2",
+  "title": "Why Developers Care About This",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Developers Care About This"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you start building layouts, these default styles cause confusion:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "\"Why is there space here?\"",
+        "\"Why won't this align properly?\"",
+        "\"Why does this look different in another browser?\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's when developers realize:"
+    },
+    {
+      "type": "paragraph",
+      "content": "I'm fighting the browser instead of styling my page."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the first step is simple:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reset or normalize browser styles."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's do an observation task (Very Important, No Code Yet)"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Open your blog without writing any CSS",
+        "Look carefully at:\n\t\tSpace around headingsIndentation of listsDefault font sizes",
+        "Space around headings",
+        "Indentation of lists",
+        "Default font sizes",
+        "Ask yourself: \"Did I add this styling?\""
+      ]
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Space around headings",
+        "Indentation of lists",
+        "Default font sizes"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If the answer is no — that's the browser."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

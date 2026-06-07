@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/omega-notation-notation?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: If a program has Ω(n) time complexity, it means the program may execute with ___ complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ω(n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a correct answer. But it's not the only correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a correct answer. But it's not the only correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ω(n2)Ω(n^2)Ω(n2)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Omega is lower bound. Meaning a program with Ω(n) complexity can take Ω(n) or more time to execute like Ω(n2)Ω(n^2)Ω(n2)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Omega is lower bound. Meaning a program with Ω(n) complexity can take Ω(n) or more time to execute like Ω(n2)Ω(n^2)Ω(n2)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ω(logn)Ω(logn)Ω(logn)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Omega is lower bound. Meaning a program with Ω(n) complexity cannot take less than Ω(n) time to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Omega is lower bound. Meaning a program with Ω(n) complexity cannot take less than Ω(n) time to execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both first and second options."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A program with Ω(n) time complexity may take more time than it to execute (lower bound)."
+    },
+    {
+      "type": "paragraph",
+      "content": "A program with Ω(n) time complexity may take more time than it to execute (lower bound)."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: If a program has Ω(n) time complexity, it means the program may execute with ___ complexity.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Ω(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Ω(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Ω(n2)Ω(n^2)Ω(n2)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Ω(n2)Ω(n^2)Ω(n2)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Ω(logn)Ω(logn)Ω(logn)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Ω(logn)Ω(logn)Ω(logn)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Both first and second options.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Both first and second options.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

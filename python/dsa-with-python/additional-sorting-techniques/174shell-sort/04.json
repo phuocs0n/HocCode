@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-python/shell-sort?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How does shell sort improve over Insertion Sort?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort sorts the entire list at once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort does not sort the entire list at one go; it sorts sublists with a decreasing interval."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort does not sort the entire list at one go; it sorts sublists with a decreasing interval."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort is faster for small lists."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While shell sort can be efficient, its strength lies in handling larger lists by initially sorting elements far apart."
+    },
+    {
+      "type": "paragraph",
+      "content": "While shell sort can be efficient, its strength lies in handling larger lists by initially sorting elements far apart."
+    },
+    {
+      "type": "paragraph",
+      "content": "In shell sort, elements far apart are initially sorted, thus reducing the gap gradually."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Shell sort enhances insertion sort by initially sorting elements far apart and gradually reducing this gap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Shell sort enhances insertion sort by initially sorting elements far apart and gradually reducing this gap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort only works on sorted lists."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort is designed to sort unsorted lists; it is not just meant for already sorted lists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shell sort is designed to sort unsorted lists; it is not just meant for already sorted lists."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How does shell sort improve over Insertion Sort?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Shell sort sorts the entire list at once.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Shell sort sorts the entire list at once.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Shell sort is faster for small lists.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Shell sort is faster for small lists.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:In shell sort, elements far apart are initially sorted, thus reducing the gap gradually.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "In shell sort, elements far apart are initially sorted, thus reducing the gap gradually.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Shell sort only works on sorted lists.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Shell sort only works on sorted lists.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

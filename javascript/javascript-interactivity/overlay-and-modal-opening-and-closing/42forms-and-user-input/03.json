@@ -1,0 +1,89 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/forms-user-input?page=4",
+  "title": "Example Validation and Feedback",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example Validation and Feedback"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the full flow in action."
+    },
+    {
+      "type": "paragraph",
+      "content": "This example validates one required field."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If the field is empty, it shows an error message.",
+        "If the field is valid, it disables the button briefly and then shows a success message."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Validation and Feedback</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <form id=\"contact-form\">\n11    <label for=\"name\">Name</label>\n12    <input type=\"text\" id=\"name\" name=\"name\" />\n13    <span id=\"error-name\" class=\"error\"></span>\n14\n15    <button type=\"submit\" id=\"submit-btn\">Send</button>\n16  </form>\n17\n18  <p id=\"success\" class=\"success\"></p>\n19\n20  <script src=\"script.js\"></script>\n21</body>\n22</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6.error {\n7  display: block;\n8  color: #dc2626;\n9  font-size: 12px;\n10  margin-bottom: 8px;\n11}\n12\n13.success {\n14  margin-top: 12px;\n15  color: #14B8A5;\n16}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var form = document.querySelector('#contact-form');\n2var nameInput = document.querySelector('#name');\n3var errorEl = document.querySelector('#error-name');\n4var submitBtn = document.querySelector('#submit-btn');\n5var successEl = document.querySelector('#success');\n6\n7if (form) {\n8  form.addEventListener('submit', function (e) {\n9    e.preventDefault();\n10\n11    if (errorEl) errorEl.textContent = '';\n12    if (successEl) successEl.textContent = '';\n13\n14    var name = nameInput ? nameInput.value.trim() : '';\n15    var valid = true;\n16\n17    if (!name) {\n18      if (errorEl) errorEl.textContent = 'Name is required.';\n19      valid = false;\n20    }\n21\n22    if (!valid) return;\n23\n24    if (submitBtn) submitBtn.disabled = true;\n25\n26    setTimeout(function () {\n27      if (submitBtn) submitBtn.disabled = false;\n28      if (successEl) successEl.textContent = 'Thanks. Message sent.';\n29      form.reset();\n30    }, 1000);\n31  });\n32}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Try submitting with an empty field. Then fill it in and submit again."
+    },
+    {
+      "type": "paragraph",
+      "content": "Watch what happens at each step. The error appears when something is missing. The button disables while sending. The success message appears, and the form resets."
+    },
+    {
+      "type": "paragraph",
+      "content": "This example shows the full flow:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Prevent reload",
+        "Validate",
+        "Show error or success",
+        "Disable button during loading",
+        "Reset the form"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will answer a short quiz about why preventDefault() is required."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

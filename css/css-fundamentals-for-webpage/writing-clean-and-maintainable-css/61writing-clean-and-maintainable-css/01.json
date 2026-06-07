@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/writing-clean-maintainable-css?page=2",
+  "title": "Using Layout System in HTML",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using Layout System in HTML"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of styling each section separately, add .container class on each section for the same layout throughout."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "<header>\n  <div class=\"container\">\n    <h1>Learning HTML Blog</h1>\n  </div>\n</header>\n\n<main class=\"container\">\n  ...\n</main>\n\n<section class=\"form-wrapper\">\n  <div class=\"container\">\n    ...\n  </div>\n</section>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lets also add a card layout system to our project."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "<main class=\"container\">\n  ...\n</main>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "layout rules live in one place",
+        "spacing feels consistent",
+        "changes are easy and safe"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is CSS as a system, not stitched parts."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

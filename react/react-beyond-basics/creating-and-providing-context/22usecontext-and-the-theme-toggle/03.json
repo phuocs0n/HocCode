@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/usecontext-theme-toggle?page=4",
+  "title": "Applying the Theme with CSS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Applying the Theme with CSS"
+    },
+    {
+      "type": "paragraph",
+      "content": "Toggling the theme changes the theme state in ThemeContext, but no element in the DOM is actually responding to it yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "The standard approach is to set a data-theme attribute on document.documentElement (the <html> element)."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <html> element because CSS variables cascade down from it to every element on the page, including things outside the React tree like browser scrollbars."
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting it on a specific <div> would limit the theme to only elements inside that <div>."
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS can then target the attribute globally."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "[data-theme=\"dark\"] {\n  background: #1a1a1a;\n  color: #eee;\n}\n\n[data-theme=\"light\"] {\n  background: #ffffff;\n  color: #111;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we need a place to set this attribute whenever the theme changes. So let's update the Provider."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

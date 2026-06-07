@@ -1,0 +1,45 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions?page=5",
+  "title": "RANK()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "RANK()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your company runs a streaming platform, and your manager wants insights into user preferences. He comes to you and asks:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Can you rank movies based on their IMDb ratings? If multiple movies have the same rating, they should share the same rank.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "To achieve this, you can use the RANK() function, which assigns the same rank to tied values but skips the next rank in sequence."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

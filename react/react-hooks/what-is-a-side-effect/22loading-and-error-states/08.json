@@ -1,0 +1,61 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=9",
+  "title": "Why fetch() Doesn't Throw for 404 and 500",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why fetch() Doesn't Throw for 404 and 500"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a tale of sorrows from my early days:"
+    },
+    {
+      "type": "paragraph",
+      "content": "I was building a dashboard that fetched data from a staging API. The server was up, the network was fine."
+    },
+    {
+      "type": "paragraph",
+      "content": "But one afternoon the data just disappeared. The app showed \"No entries found.\" and I assumed the API had returned an empty list."
+    },
+    {
+      "type": "paragraph",
+      "content": "I spent thirty minutes checking my mapping logic, my state updates, everything."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then I opened the Network tab in DevTools. Every request was returning 404 Not Found."
+    },
+    {
+      "type": "paragraph",
+      "content": "The staging URL had changed, but the app's UI was completely calm — no error banner, no warning, just silence."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you guess what happened? If you can't, the next page will spill it out."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,136 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/type-conversion?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Biến x sau câu lệnh sau có giá trị bao nhiêu:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int x = 57.47;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là lỗi, chúng tôi không thể gán giá trị dấu phẩy động cho int."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây không phải là một lỗi. Có thể do chuyển đổi loại ngầm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây không phải là một lỗi. Có thể do chuyển đổi loại ngầm."
+    },
+    {
+      "type": "paragraph",
+      "content": "57"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trình biên dịch C ngầm chuyển đổi giá trị dấu phẩy động thành giá trị int. Vậy x giữ 57."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trình biên dịch C ngầm chuyển đổi giá trị dấu phẩy động thành giá trị int. Vậy x giữ 57."
+    },
+    {
+      "type": "paragraph",
+      "content": "57,47"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Một số nguyên chỉ có thể biểu thị các số không có dấu thập phân, vì vậy các giá trị sau dấu thập phân sẽ bị bỏ qua."
+    },
+    {
+      "type": "paragraph",
+      "content": "Một số nguyên chỉ có thể biểu thị các số không có dấu thập phân, vì vậy các giá trị sau dấu thập phân sẽ bị bỏ qua."
+    },
+    {
+      "type": "paragraph",
+      "content": "5747"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi không chỉ định giá trị 5747 nên không có cách nào x giữ giá trị này."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi không chỉ định giá trị 5747 nên không có cách nào x giữ giá trị này."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Biến x sau câu lệnh sau có giá trị bao nhiêu:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Đây là lỗi, chúng tôi không thể gán giá trị dấu phẩy động cho int.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Đây là lỗi, chúng tôi không thể gán giá trị dấu phẩy động cho int.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:57",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "57",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:57,47",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "57,47",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:5747",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "5747",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

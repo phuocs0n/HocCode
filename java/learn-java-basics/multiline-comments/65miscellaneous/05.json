@@ -1,0 +1,77 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-basics/miscellaneous?page=3",
+  "title": "Example: Arithmetic Assignment Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Arithmetic Assignment Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 1"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        int total = 100;\n5        \n6        total += 10;  // total = total + 10\n7        System.out.println(total);\n8    }\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "110"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, total += 10 adds 10 to the total variable and assigns the result back to the total variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 2"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        int x = 100;\n5        \n6        x %= 9;  // x = x % 9\n7        System.out.println(x);\n8    }\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, x %= 9 computes the remainder when x is divided by 9 and assigns the result back to x."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

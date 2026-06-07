@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/looping-array-elements?page=2",
+  "title": "Finding Array Length",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding Array Length"
+    },
+    {
+      "type": "paragraph",
+      "content": "To loop through an array, you must know the positions of the first and last elements."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The first element is always at index 0.",
+        "The last element's index depends on the array's size."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To determine an array's size, you can use the length property."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const scores = [40, 85, 60, 70, 30];\n2\n3// Display array length\n4console.log(scores.length);    // Output: 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the scores array contains five elements. Thus, scores.length returns 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how you can access the last element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

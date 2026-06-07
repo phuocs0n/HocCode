@@ -1,0 +1,81 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/adding-images-links?page=2",
+  "title": "Adding Images with the img Tag",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding Images with the img Tag"
+    },
+    {
+      "type": "paragraph",
+      "content": "Images are added using the <img> tag (called the image tag)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Key things to know:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "<img> does not have a closing tag",
+        "It displays an image file on the page"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<img src=\"https://programiz-pro-spaces.sfo3.digitaloceanspaces.com/course-images/html-fundamentals/html-structure.png\" />"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works, but it's incomplete."
+    },
+    {
+      "type": "paragraph",
+      "content": "Developers always include these attributes inside the <img> tag:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "src - the address of the image",
+        "alt - text that describes what the image represents"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<img src=\"https://programiz-pro-spaces.sfo3.digitaloceanspaces.com/course-images/html-fundamentals/html-structure.png\"\n2          alt=\"Diagram showing how HTML elements form a webpage structure\"\n3        />"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

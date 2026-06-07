@@ -1,0 +1,45 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/global-variables?page=1",
+  "title": "Does Java support global variables? Why/Why not?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Does Java support global variables? Why/Why not?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java does not have the concept of global variables in the way that some other programming languages do."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, all variables must be declared within a class, and they are only accessible within the method in which they are declared or within methods defined in the same class. This is because Java follows Encapsulation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Overall, the lack of global variables in Java is a design feature that helps to promote good programming practices and makes it easier to write robust and maintainable code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

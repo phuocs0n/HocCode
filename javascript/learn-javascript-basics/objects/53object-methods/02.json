@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/object-manipulation?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the library help desk example from the previous lesson?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, as a library help desk assistant, you often need to check what information is available for each book in the library."
+    },
+    {
+      "type": "paragraph",
+      "content": "One way to do this is by using a for...in loop to list all the properties in the student object:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "for (let key in book) {\n    console.log(key);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "title\nauthor\npages\nyear"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works, but what if you need to check many books? Manually looping through each one can be time-consuming."
+    },
+    {
+      "type": "paragraph",
+      "content": "Wouldn't it be better if there was a quick and easy built-in way to retrieve all the keys at once?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Good news—JavaScript provides the Object.keys() method, which exactly does this. Let's explore it on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

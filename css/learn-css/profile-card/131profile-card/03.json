@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/profile-card?page=4",
+  "title": "Step 2: Assign Classes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Assign Classes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's assign classes to each HTML tag to make it easier to target them with CSS styles."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the updated HTML with classes added:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's reset the browser's default styles to create a clean foundation for our CSS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

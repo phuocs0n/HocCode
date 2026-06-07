@@ -1,0 +1,52 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/introduction-4?page=1",
+  "title": "Introduction to Master Theorem",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Master Theorem"
+    },
+    {
+      "type": "paragraph",
+      "content": "The master theorem is used to find the time complexity of recursive functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you aren't exactly familiar with recursive functions, we recommend you take the Python Recursion course before you proceed."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use the master theorem for primarily two types of recursive functions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Dividing Function",
+        "Decreasing Function"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

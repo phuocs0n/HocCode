@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/find-length-of-string-without-len-function?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "The length of a string is the number of characters present in the string. In Python, we can find this using the len() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, to find the length of a string without using the len() function, we need to loop through each character in the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "To do this, we first need to initialize the counter variable with 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, for each character, we need to increment the length counter by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, our length counter will hold the total number of characters in a string, which is the length of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Print the length counter."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

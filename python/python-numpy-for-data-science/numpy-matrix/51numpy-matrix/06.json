@@ -1,0 +1,178 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-matrix?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which methods are used for the following matrix operations?"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "dot product between two matrices",
+        "transpose of a matrix",
+        "create identity matrix"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.dot()"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.transpose()"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.identity()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the methods to create an identity matrix."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the methods to create an identity matrix."
+    },
+    {
+      "type": "paragraph",
+      "content": "np.dot()"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.transpose()"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.eye()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the methods to create an identity matrix."
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the methods to create an identity matrix."
+    },
+    {
+      "type": "paragraph",
+      "content": "np.transpose()"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.identity()"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.dot()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.transpose() doesn't find the dot product, identity() doesn't find the transpose and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "np.transpose() doesn't find the dot product, identity() doesn't find the transpose and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both A and B"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "np.dot() and np.transpose() finds the dot product and transpose of the matrix. To create an identity matrix, we can use both np.identity() and np.eye()."
+    },
+    {
+      "type": "paragraph",
+      "content": "np.dot() and np.transpose() finds the dot product and transpose of the matrix. To create an identity matrix, we can use both np.identity() and np.eye()."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which methods are used for the following matrix operations?",
+    "options": [
+      {
+        "index": 0,
+        "text": "dot product between two matrices",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "transpose of a matrix",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "create identity matrix",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A:np.dot()np.transpose()np.identity()",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "np.dot()np.transpose()np.identity()",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "B:np.dot()np.transpose()np.eye()",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "np.dot()np.transpose()np.eye()",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "C:np.transpose()np.identity()np.dot()",
+        "isCorrect": false
+      },
+      {
+        "index": 8,
+        "text": "np.transpose()np.identity()np.dot()",
+        "isCorrect": false
+      },
+      {
+        "index": 9,
+        "text": "D:Both A and B",
+        "isCorrect": false
+      },
+      {
+        "index": 10,
+        "text": "Both A and B",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

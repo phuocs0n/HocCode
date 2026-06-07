@@ -1,0 +1,64 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/why-react?page=9",
+  "title": "The Trade-Off to React",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Trade-Off to React"
+    },
+    {
+      "type": "paragraph",
+      "content": "Naturally, the enormous power of React comes with a cost: it has a moderately challenging learning curve!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to master stuff like JSX, components, state, props, and more. But once you learn it, you stop thinking about the DOM and focus on your data."
+    },
+    {
+      "type": "paragraph",
+      "content": "And trust me, the effort required to master React is totally worth it!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's my honest advice:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You just want a simple modal or dropdown? Plain JavaScript is faster.",
+        "You need a dashboard with live updates and multiple views? React keeps you sane."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "React isn't faster to learn; it's just faster to maintain."
+    },
+    {
+      "type": "paragraph",
+      "content": "And at its core, it's still plain ol' JavaScript: the loops, conditionals, and functions you know all work the same way."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

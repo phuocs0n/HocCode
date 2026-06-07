@@ -1,0 +1,58 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/fetching-displaying-movie-data?page=9",
+  "title": "Add Error Handling",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Error Handling"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code is a complete code. However, while working with fetch(), the data might not necessarily be what you want. Therefore, it is important to add various error handling in our code."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a look at our code after adding error handling parts."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// function to fetch movie data from the given url\n2function fetchMovieData(url) {\n3    return fetch(url)\n4        .then(response => {\n5            return response.json();\n6        })\n7        .catch(error => {\n8            throw new Error(\"there was a problem with the fetch operation: \" );\n9        });\n10}\n11\n12// function to get names of high-rated movies (rating >= 9)\n13function getHighRatedMovies(movies) {\n14    // check if movies is an array\n15    if (!Array.isArray(movies)) {\n16        throw new Error(\"invalid data format: movies should be an array.\");\n17    }\n18    return movies\n19        .filter(movie => movie.rating >= 9)\n20        .map(movie => movie.name);\n21}\n22\n23// main function to fetch, display, and get high-rated movie names\n24async function main() {\n25    const URL = \"https://api.programiz.pro/api/Demo/javascript/movies\";\n26    try {\n27        const movieData = await fetchMovieData(URL);\n28\n29        // check if movieData is null\n30        if (!movieData) {\n31            throw new Error(\"failed to fetch movie data.\");\n32        }\n33\n34        // check if movieData.movies is valid\n35        if (!Array.isArray(movieData.movies)) {\n36            throw new Error(\"invalid movie data format.\");\n37        }\n38\n39        console.log(movieData);\n40\n41        console.log(\"\\nmovies rated 9 or above:\");\n42        const highRatedMovies = getHighRatedMovies(movieData.movies);\n43        console.log(highRatedMovies);\n44    } catch (error) {\n45        // log any errors that occur in the main function\n46        console.error(\"An error occurred\");\n47    }\n48}\n49\n50main();"
+    },
+    {
+      "type": "paragraph",
+      "content": "We've used try block in the main function to handle any error that might occur during execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "Any errors during the process are caught in catch block. We print an error message indicating where the error happened."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is our final code for the project."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

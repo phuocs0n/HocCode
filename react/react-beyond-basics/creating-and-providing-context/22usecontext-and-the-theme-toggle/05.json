@@ -1,0 +1,61 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/usecontext-theme-toggle?page=6",
+  "title": "Where Theme Logic Really Belongs",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Where Theme Logic Really Belongs"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"I just need the toggle to work in the Header. I'll apply data-theme in each page individually.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Per-page application works, but it creates duplication. Every new page needs the same boilerplate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting data-theme on document.documentElement inside ThemeProvider's useEffect() puts the logic in exactly one place, and all pages get the theme for free."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "Logic that affects the entire page, like a theme attribute on <html>, belongs in the Provider's side effect, not scattered across individual components."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

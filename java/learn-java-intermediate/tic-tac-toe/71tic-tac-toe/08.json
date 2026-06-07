@@ -1,0 +1,69 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/tic-tac-toe?page=8",
+  "title": "Step 7: Completing the Game",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 7: Completing the Game"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Added try catch block inside the play() method.",
+        "Added try catch block inside the updateBoard() method."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two places in our code that may raise an exception."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If a user enters an invalid position (like strings). So we need to wrap that code inside try catch.",
+        "If the position - 1 (position is selected by the user) by the user is not in the ArrayList. For example, our board ArrayList has 9 elements. If the user selects 100 as a position, we cannot fill this position in the list and results in an exception."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's handle these situations:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2import java.util.Scanner;\n3\n4class Board {\n5\n6    // count variable\n7    int count = 0;\n8\n9    ArrayList<String> board = new ArrayList<>();\n10    // board.add(\"\");\n11\n12    void addElements() {\n13        board.add(\" \");\n14        board.add(\" \");\n15        board.add(\" \");\n16        board.add(\" \");\n17        board.add(\" \");\n18        board.add(\" \");\n19        board.add(\" \");\n20        board.add(\" \");\n21        board.add(\" \");\n22    }\n23\n24    void printBoard() {\n25\n26        System.out.println(\" \" + board.get(0) + \" | \" + board.get(1) + \" | \" + board.get(2));\n27        System.out.println(\"-----------\");\n28        System.out.println(\" \" + board.get(3) + \" | \" + board.get(4) + \" | \" + board.get(5));\n29        System.out.println(\"-----------\");\n30        System.out.println(\" \" + board.get(6) + \" | \" + board.get(7) + \" | \" + board.get(8));\n31\n32    }\n33\n34    boolean updateBoard(int position, String type) {\n35\n36        boolean returnValue = false;\n37\n38        try {\n39            // if a player selects position n, n-1 index should be updated\n40            // if the position is not already filled, update the board\n41            if (board.get(position - 1) == (\" \")) {\n42                board.set(position - 1, type);\n43                // increase the value of count by 1\n44                count = count + 1;\n45\n46                returnValue = true;\n47            }\n48\n49            // if the position is already filled, ask user to select another position\n50            else {\n51                System.out.println(\"Position already selected. Select another position.\");\n52                returnValue = false;\n53            }\n54\n55        }\n56        catch (Exception e) {\n57            System.out.println(\"Invalid position! Select another position.\");\n58        }\n59        return returnValue;\n60    }\n61\n62\n63    // if all fields are selected and there is no winner, it's draw\n64    // returning true if it's draw\n65    boolean checkDraw() {\n66\n67        // check if count == 9\n68        if (count == 9) {\n69            return true;\n70        }\n71        else {\n72            return false;\n73        }\n74    }\n75\n76    // if three symbols appears in a row, returning true\n77    boolean checkWinner(String type) {\n78        if ((board.get(0).equals(type) && board.get(1).equals(type) && board.get(2).equals(type))\n79                || (board.get(3).equals(type) && board.get(4).equals(type) && board.get(5).equals(type))\n80                || (board.get(6).equals(type) && board.get(7).equals(type) && board.get(8).equals(type))\n81                || (board.get(0).equals(type) && board.get(3).equals(type) && board.get(6).equals(type))\n82                || (board.get(1).equals(type) && board.get(4).equals(type) && board.get(7).equals(type))\n83                || (board.get(2).equals(type) && board.get(5).equals(type) && board.get(8).equals(type))\n84                || (board.get(0).equals(type) && board.get(4).equals(type) && board.get(8).equals(type))\n85                || (board.get(2).equals(type) && board.get(4).equals(type) && board.get(6).equals(type))) {\n86            return true;\n87        }\n88\n89        else {\n90            return false;\n91        }\n92\n93    }\n94\n95}\n96\n97class Player {\n98\n99    String name;\n100\n101    String type;\n102\n103    Player(String type) {\n104\n105        this.type = type;\n106        Scanner input = new Scanner(System.in);\n107        if (type == \"X\") {\n108            System.out.println(\"Player selecting X, enter your name: \");\n109            name = input.nextLine();\n110        }\n111        else {\n112            System.out.println(\"Player selecting O, enter your name: \");\n113            name = input.nextLine();\n114        }\n115    }\n116}\n117\n118class Game {\n119\n120    Board b1 = new Board();\n121\n122    Player player1 = new Player(\"X\");\n123    Player player2 = new Player(\"O\");\n124    Player currentPlayer = player1;\n125\n126    // this method will be later used to play the game\n127    void play() {\n128\n129        b1.addElements();\n130        // using an infinite loop to run the game\n131        // we will later add conditions to terminate the loop\n132        String message = \"enter the position (1 - 9):\";\n133\n134        while (true) {\n135            try {\n136                message = \"enter the position (1 - 9):\";\n137                System.out.println(currentPlayer.name + \" \" + message);\n138                Scanner input = new Scanner(System.in);\n139                int position = input.nextInt();\n140\n141                // the updateBoard() method return true if\n142                // the user selected position is not already filled\n143                if (b1.updateBoard(position, currentPlayer.type)) {\n144\n145                    b1.printBoard();\n146\n147                    // checking winner each time after updating the board\n148                    if (b1.checkWinner(currentPlayer.type)) {\n149                        System.out.println(currentPlayer.name + \" wins!\");\n150                        break;\n151                    }\n152\n153                    // checking draw each time after updating the board\n154                    else if (b1.checkDraw()) {\n155                        System.out.println(\"Game is a draw!\");\n156                        break;\n157                    }\n158\n159                    // changing current player when board is updated\n160                    else {\n161                        if (currentPlayer == (player1)) {\n162                            currentPlayer = player2;\n163                        }\n164\n165                        else {\n166                            currentPlayer = player1;\n167\n168                        }\n169                    }\n170\n171                }\n172\n173            }\n174            catch (Exception e) {\n175                System.out.println(\"Invalid input! Enter a number between 1 and 9.\");\n176            }\n177        }\n178\n179    }\n180}\n181\n182class Main {\n183    public static void main(String[] args) {\n184\n185        Game game = new Game();\n186        game.play();\n187    }\n188}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our game is complete. Run this code and see for yourself how this code works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/in-between?page=1",
+  "title": "Introduction to IN and BETWEEN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to IN and BETWEEN"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, you learned how to filter data using logical operators like AND, OR, and NOT to refine your queries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Building on that, what if you need to filter data based on multiple specific values or within a range? For example:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Finding customers from the USA, Canada, or UK.",
+        "Identifying customers aged between 20 and 30."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To handle such cases, SQL provides two powerful operators:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "IN and",
+        "BETWEEN"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's begin with the IN operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-take-input?page=6",
+  "title": "Closing the Scanner",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Closing the Scanner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we have completed the process of taking input, we close it using"
+    },
+    {
+      "type": "paragraph",
+      "content": "input.close()"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not mandatory, but it is a good practice to make your code more readable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's combine all the steps."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        System.out.println(\"Enter your age: \");\n7        \n8        // Create a Scanner object\n9        Scanner input = new Scanner(System.in);\n10        \n11        // Take user input \n12        int age = input.nextInt();\n13        \n14        System.out.println(\"Age is \" + age);\n15\n16       // Close the Scanner\n17        input.close();\n18    }\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your age:\n25\nAge is 25"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

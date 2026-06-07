@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/common-tools?page=3",
+  "title": "How to Use It?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How to Use It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The following steps will guide you on how to check if a CSS property is compatible across different browsers:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Visit the Website"
+    },
+    {
+      "type": "paragraph",
+      "content": "Go to caniuse.com."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Search for a Property"
+    },
+    {
+      "type": "paragraph",
+      "content": "Type the CSS property name you want to check (e.g., grid, flexbox, clamp(), etc.)."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Review the Results"
+    },
+    {
+      "type": "paragraph",
+      "content": "The tool displays a chart showing browser support for the property and some additional information."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you want to use the clamp() function in your design, which is a relatively newer CSS feature."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before using it, search for clamp() on \"Can I Use?\" to check if your audience's browsers support it."
+    },
+    {
+      "type": "paragraph",
+      "content": "This will tell you which browsers and versions support clamp(), helping you decide whether to use it in your design."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

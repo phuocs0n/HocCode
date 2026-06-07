@@ -1,0 +1,139 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/miscellaneous?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is an invalid way of opening a file in read mode?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "fstream my_file;"
+    },
+    {
+      "type": "paragraph",
+      "content": "my_file.open(\"sample.txt\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid C++ code that opens a file in read mode."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid C++ code that opens a file in read mode."
+    },
+    {
+      "type": "paragraph",
+      "content": "fstream my_file(\"sample.txt\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid C++ code that opens a file in read mode."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid C++ code that opens a file in read mode."
+    },
+    {
+      "type": "paragraph",
+      "content": "ifstream my_file(\"sample.txt\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid C++ code that opens a file in read mode."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a valid C++ code that opens a file in read mode."
+    },
+    {
+      "type": "paragraph",
+      "content": "fstream my_file;"
+    },
+    {
+      "type": "paragraph",
+      "content": "my_file(\"sample.txt\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to avoid using the open() function, the file must be opened during the object declaration itself, and not after creating the object."
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to avoid using the open() function, the file must be opened during the object declaration itself, and not after creating the object."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is an invalid way of opening a file in read mode?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:fstream my_file;my_file.open(\"sample.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "fstream my_file;my_file.open(\"sample.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:fstream my_file(\"sample.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "fstream my_file(\"sample.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:ifstream my_file(\"sample.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "ifstream my_file(\"sample.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:fstream my_file;my_file(\"sample.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "fstream my_file;my_file(\"sample.txt\");",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,88 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/library-management-system?page=3",
+  "title": "Step 2: Creating the Book Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Creating the Book Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Object of the Student class is removed from the Main class.",
+        "Created the Book class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.HashMap;\n2import java.util.Scanner;\n3\n4class Student {\n5\n6    HashMap<Integer, String> student = new HashMap<>();\n7    Scanner input = new Scanner(System.in);\n8\n9    // add students\n10    void add() {\n11        student.put(101, \"Niall\");\n12        student.put(102, \"Anna\");\n13    }\n14\n15    // register student\n16    void addStudent() {\n17\n18        System.out.println(\"Enter your name: \");\n19        String name = input.next();\n20        System.out.println(\"Enter your id: \");\n21        int id = input.nextInt();\n22        student.put(id, name);\n23    }\n24\n25}\n26\n27\n28class Book {\n29\n30    HashMap<Integer, String> book = new HashMap<>();\n31\n32    // add books\n33    void add() {\n34        book.put(11, \"The Fault in our Stars\");\n35        book.put(22, \"A Good Book\");\n36    }\n37\n38}\n39\n40\n41class Main {\n42\n43    public static void main(String[] args) {\n44\n45\n46        Book b1 = new Book();\n47        b1.add();\n48\n49        System.out.println(b1.book);\n50\n51    }\n52}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "{22=A Good Book, 11=The Fault in our Stars}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we have added the Book class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, in the Book class, we have created a HashMap named book."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "HashMap<Integer, String> book = new HashMap<>();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we will store the id and name of the book."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have created an add() method to add books to the book HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have created an object of the Book class inside the Main class. Then, we have called the add() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will create Issue class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

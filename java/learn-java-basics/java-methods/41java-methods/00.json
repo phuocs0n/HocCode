@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-methods?page=1",
+  "title": "Methods Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Methods Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this chapter, you'll learn to organize your code using methods."
+    },
+    {
+      "type": "paragraph",
+      "content": "As the complexity of the program increases, huge portions of the code becomes repetitive making the code messy and hard to understand."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code that calculates the discount for a customer."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3public class Main {\n4    public static void main(String[] args) {\n5        Scanner scanner = new Scanner(System.in);\n6\n7        System.out.print(\"Total? \");\n8        double total = scanner.nextDouble();\n9        double discountPercent = 10.0;\n10\n11        if (total > 100) {\n12            double excess = total - 100;\n13            double discount = (discountPercent / 100) * excess;\n14            total = total - discount;\n15        }\n16\n17        System.out.printf(\"The final amount to pay is: $%.2f\\n\", total);\n18    }\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have multiple customers, you'd need to repeat the same code for each one. This would make your program long and difficult to manage."
+    },
+    {
+      "type": "paragraph",
+      "content": "In such cases, you can wrap the repetitive code inside a method and use it when needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's learn how to create methods next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

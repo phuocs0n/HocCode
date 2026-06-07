@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/numbers-strings?page=2",
+  "title": "Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "So now you know — anything inside quotes is a string in Python. Like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "\"This is a string.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "But guess what? You can also use single quotes:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "'This is also a string.'"
+    },
+    {
+      "type": "paragraph",
+      "content": "To show them on the screen, just wrap them inside the print() function, like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(\"This is a string.\")\n2print('This is also a string.')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Go ahead — click the Run Code button to see the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use single or double quotes — just try to be consistent so your code stays nice and tidy."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you don't use quotes at all?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's find out in the next lesson."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

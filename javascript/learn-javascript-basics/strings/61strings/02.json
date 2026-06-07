@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/strings?page=2",
+  "title": "Creating Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've defined string in two ways:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Using single quotes ('):"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let message = 'Hi John, you are invited to our weekly team meeting on Thursday at 10 AM.';"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Using double quotes (\"):"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let message = \"Hi John, you are invited to our weekly team meeting on Thursday at 10 AM.\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both methods work, but these strings are static—they always display the same text."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how you might make these strings dynamic on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

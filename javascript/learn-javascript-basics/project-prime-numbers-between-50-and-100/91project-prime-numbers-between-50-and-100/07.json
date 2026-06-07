@@ -1,0 +1,50 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/building-logic?page=8",
+  "title": "Step 3: Prime Numbers Between 50 to 100",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Prime Numbers Between 50 to 100"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find prime numbers between 50 and 100, we'll use a loop that iterates through each number in this range. For each number, we'll check if it's prime using the checkPrime() function."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "for (let i = 50; i <= 100; i++) {\n    let isPrime = checkPrime(i);\n    if (isPrime) {\n        console.log(`${i} is prime`);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In each iteration, the loop calls the checkPrime() function to determine if i is prime. If it is, the number is printed to the console."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's look at the complete program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

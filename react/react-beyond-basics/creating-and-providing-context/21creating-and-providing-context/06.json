@@ -1,0 +1,58 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/creating-providing-context?page=6",
+  "title": "Creating the Context File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating the Context File"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start by creating a new file at /context/ThemeContext.jsx."
+    },
+    {
+      "type": "paragraph",
+      "content": "This file will:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "hold the context object,",
+        "a Provider component,",
+        "and a custom hook for reading the value."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { createContext, useContext, useState } from \"react\";\n\nconst ThemeContext = createContext(null);\n\nexport function ThemeProvider({ children }) {\n  const [theme, setTheme] = useState(\"light\");\n  function toggleTheme() {\n    setTheme(function (t) { return t === \"light\" ? \"dark\" : \"light\"; });\n  }\n\n  return (\n    <ThemeContext.Provider value={{ theme, toggleTheme }}>\n      {children}\n    </ThemeContext.Provider>\n  );\n}\n\nexport function useTheme() {\n  return useContext(ThemeContext);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are a few things worth understanding here. Let's walk through them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

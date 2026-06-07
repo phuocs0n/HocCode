@@ -1,0 +1,55 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/spread-destructuring?page=1",
+  "title": "Spread with Arrays",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Spread with Arrays"
+    },
+    {
+      "type": "paragraph",
+      "content": "The spread operator (...) expands an array into individual elements. It is one of the most versatile additions from ES6. You can use it to merge arrays or pass array elements as function arguments - all without mutating the original."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const frontend = [\"HTML\", \"CSS\", \"JavaScript\"]; \n2const backend = [\"Node\", \"Express\"];\n3\n4const fullStack = [...frontend, ...backend]; \n5console.log(fullStack);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, ...frontend unpacks each element from the first array, and ...backend does the same for the second. The result is a single flat array combining both."
+    },
+    {
+      "type": "image",
+      "alt": "Spread Operator with Arrays",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDAwNDNiMjc1MzdlMzk1ZWEwLTAwNmExN2NmNDItYjA3NDYzYjItc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmIwNzQ2M2IyLXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

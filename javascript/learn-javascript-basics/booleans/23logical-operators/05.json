@@ -1,0 +1,192 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/logical-operators?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Given the following code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let eligible = (age >= 18) && (gpa >= 3.5);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Which scenario makes eligible evaluate to true?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Age is 18, GPA is 3.4"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the age >= 18 condition is satisfied, remember both conditions must be true. The condition gpa >= 3.5 is not satisfied."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the age >= 18 condition is satisfied, remember both conditions must be true. The condition gpa >= 3.5 is not satisfied."
+    },
+    {
+      "type": "paragraph",
+      "content": "Age is 17, GPA is 3.5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy age >= 1. If either condition fails, the entire expression is false."
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy age >= 1. If either condition fails, the entire expression is false."
+    },
+    {
+      "type": "paragraph",
+      "content": "Age is 22, GPA is 3.5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both conditions, age >= 18 and gpa >= 3.5, are both satisfied for this scenario."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both conditions, age >= 18 and gpa >= 3.5, are both satisfied for this scenario."
+    },
+    {
+      "type": "paragraph",
+      "content": "Age is 16, GPA is 3.6"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy the age >= 18 condition. If one condition fails, the result of and will always be false."
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy the age >= 18 condition. If one condition fails, the result of and will always be false."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the age >= 18 condition is satisfied, remember both conditions must be true. The condition gpa >= 3.5 is not satisfied."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the age >= 18 condition is satisfied, remember both conditions must be true. The condition gpa >= 3.5 is not satisfied."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy age >= 1. If either condition fails, the entire expression is false."
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy age >= 1. If either condition fails, the entire expression is false."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both conditions, age >= 18 and gpa >= 3.5, are both satisfied for this scenario."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both conditions, age >= 18 and gpa >= 3.5, are both satisfied for this scenario."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy the age >= 18 condition. If one condition fails, the result of and will always be false."
+    },
+    {
+      "type": "paragraph",
+      "content": "The GPA satisfies gpa >= 3.5, but doesn't satisfy the age >= 18 condition. If one condition fails, the result of and will always be false."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Given the following code:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Age is 18, GPA is 3.4",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Age is 18, GPA is 3.4",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Age is 17, GPA is 3.5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Age is 17, GPA is 3.5",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Age is 22, GPA is 3.5",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Age is 22, GPA is 3.5",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Age is 16, GPA is 3.6",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Age is 16, GPA is 3.6",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

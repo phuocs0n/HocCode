@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/win-stability?page=2",
+  "title": "Speed Clamping ⚡",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Brick Breaker with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Speed Clamping ⚡"
+    },
+    {
+      "type": "paragraph",
+      "content": "The game is nearly complete. There is one small thing that can go wrong over a long session."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each paddle bounce recalculates the ball's velocity from scratch using trigonometry. In theory the speed should stay constant. In practice, floating point arithmetic accumulates tiny errors across many bounces and the speed can drift upward without you noticing."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix is simple. After each frame, check if the ball is moving faster than it should be. If it is, scale it back down."
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "clampSpeed() {\n  const s = Math.hypot(this.ballSpeedX, this.ballSpeedY);\n\n  if (s > BALL_MAX_SPEED) {\n    const k = BALL_MAX_SPEED / s;\n\n    this.ballSpeedX *= k;\n    this.ballSpeedY *= k;\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Math.hypot gives you the true speed magnitude. Multiplying both components by k scales the velocity down while keeping the direction exactly the same. The ball slows down but does not change course."
+    },
+    {
+      "type": "paragraph",
+      "content": "Without this, a ball moving too fast can tunnel through walls or bricks entirely, passing through them in a single frame before the collision check runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will add this to the Ball class and the game will be complete."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

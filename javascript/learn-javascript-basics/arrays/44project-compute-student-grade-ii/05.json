@@ -1,0 +1,70 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-student-grade-ii?page=3",
+  "title": "Calculating Total Score",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculating Total Score"
+    },
+    {
+      "type": "paragraph",
+      "content": "To calculate the total score, we'll use the reduce() method. This approach is concise, efficient, and a great practice."
+    },
+    {
+      "type": "paragraph",
+      "content": "To calculate the total score using reduce(), we'll define a function to add scores:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const addScore = (sum, score) => {\n    return sum + score;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "sum: Keeps track of the total score so far.",
+        "score: Represents the current element in the array."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we use this function with reduce() and store the result:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let total = scores.reduce(addScore, 0);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now implement this logic in the code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

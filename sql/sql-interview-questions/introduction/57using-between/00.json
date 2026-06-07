@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/using--between?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Employees\n3WHERE salary BETWEEN 30000 AND 90000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "While nothing is wrong with the above code, the BETWEEN operator can result in wrong outputs."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, the above code fails if you only want to retrieve employees with salaries greater than 30000 and less than 90000."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the BETWEEN operator includes the upper and lower bounds, the salary filtering will be inclusive, meaning the SQL query will also retrieve employees with salaries of 30000 and 90000."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can replace the BETWEEN operator with the greater than (>) and less than (<) operators if you don't want to include employees with salaries of 30000 and 90000 in your result set:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Employees\n3WHERE salary > 30000 AND salary < 90000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you do want to include those salaries, then you can use the original code with the BETWEEN operator. Or better yet, you can use the >= and <= operators to remove any ambiguity:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT * \n2FROM Employees \n3WHERE salary >= 30000 AND salary <= 90000;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

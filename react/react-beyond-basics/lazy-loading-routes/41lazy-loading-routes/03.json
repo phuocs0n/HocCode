@@ -1,0 +1,83 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/lazy-loading-routes?page=3",
+  "title": "How lazy() Works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How lazy() Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you know, lazy() loads a component only when it's needed. It takes one argument: a callback that returns a dynamic import()."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const EntryDetailPage = lazy(() => import(\"./pages/EntryDetailPage\"));"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three parts to notice here:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. The lazy() Wrapper"
+    },
+    {
+      "type": "paragraph",
+      "content": "lazy() wraps the import() and tells React to treat this component as lazily loaded."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. The Dynamic Import"
+    },
+    {
+      "type": "paragraph",
+      "content": "() => import() is the dynamic import syntax. Unlike a static import at the top of a file, a dynamic import is a function call."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns a Promise that resolves to the module. The bundler sees this and automatically splits the file into its own chunk."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. The Result"
+    },
+    {
+      "type": "paragraph",
+      "content": "The result is assigned to EntryDetailPage exactly like any other component. We use it in JSX the same way."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<Route path=\"/entries/:id\" element={<EntryDetailPage />} />"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nothing changes in the route definition. React handles the rest. Let's see what this looks like in practice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

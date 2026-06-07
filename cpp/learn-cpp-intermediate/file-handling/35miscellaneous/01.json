@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/miscellaneous?page=2",
+  "title": "Open a File Without Using open()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Open a File Without Using open()"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we can directly open a file during object creation. This is because the fstream, ifstream, and ofstream classes contain constructors that allow us to open a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "In such cases, we don't need to use the open() function. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// open file in read mode during object declaration\nfstream f_file(\"cpp.txt\", ios::in);\n\n// open file in read mode during object declaration\nifstream if_file(\"cpp.txt\");\n\n// open file in write mode during object declaration\nfstream f_file(\"cpp.txt\", ios::out);\n\n// open file in write mode during object declaration\nofstream of_file(\"cpp.txt\");\n\n// open file in append mode during object declaration\nfstream f_file(\"cpp.txt\", ios::app);\n\n// open file in append mode during object declaration\nofstream of_file(\"cpp.txt\", ios::app);"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can try this yourself by rewriting the previous programs without the open() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: You can only use this method during object declaration. Otherwise, you must use the open() function if you want to open the file after creating the object. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// create fstream object\nfstream my_file;\n\n// invalid code\nmy_file(\"cpp.txt\", ios::out);\n\n// valid code\nmy_file.open(\"cpp.txt\", ios::out);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,91 @@
+{
+  "levels": [
+    {
+      "title": "Project Setup",
+      "lessons": [
+        {
+          "title": "1.1Project Setup",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/project-setup"
+        },
+        {
+          "title": "1.2Drawing on Canvas",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/drawing-on-canvas"
+        }
+      ]
+    },
+    {
+      "title": "Animation Loop",
+      "lessons": [
+        {
+          "title": "2.1Animation Loop",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/animation-loop"
+        },
+        {
+          "title": "2.2Paddle Control",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/paddle-control"
+        }
+      ]
+    },
+    {
+      "title": "Paddle Collision",
+      "lessons": [
+        {
+          "title": "3.1Paddle Collision",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/paddle-collision"
+        },
+        {
+          "title": "3.2Bricks and Score",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/bricks-score"
+        }
+      ]
+    },
+    {
+      "title": "Lives and Reset",
+      "lessons": [
+        {
+          "title": "4.1Lives and Reset",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/lives-reset"
+        },
+        {
+          "title": "4.2State Machine",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/state-machine"
+        }
+      ]
+    },
+    {
+      "title": "Overlay Screens",
+      "lessons": [
+        {
+          "title": "5.1Overlay Screens",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/overlay-screens"
+        },
+        {
+          "title": "5.2Win and Stability",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/win-stability"
+        }
+      ]
+    },
+    {
+      "title": "What You Built",
+      "lessons": [
+        {
+          "title": "6.1What You Built",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/what-you-built"
+        },
+        {
+          "title": "6.2What You Learned",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/what-you-learned"
+        },
+        {
+          "title": "6.3What's Next",
+          "url": "https://app.programiz.pro/course/js-brick-breaker/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 13,
+    "sections": 6,
+    "container": "main-content"
+  }
+}

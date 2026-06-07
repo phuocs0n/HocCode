@@ -1,0 +1,67 @@
+{
+  "index": 27,
+  "url": "https://app.programiz.pro/course/dsa-with-python/0-1-knapsack-problem?page=28",
+  "title": "The DP Table Formula",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The DP Table Formula"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by reviewing the formula for filling the cell DP[i, w]:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "max( DP[i-1, w], ( DP[i-1, w - w(i)] + P(i) ) )"
+    },
+    {
+      "type": "paragraph",
+      "content": "This formula chooses the max value among two components:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Component",
+          "Description"
+        ],
+        [
+          "DP[i-1, w]",
+          "The profit when the current item is not included in the knapsack., i.e., when we simply copy the value from the row above."
+        ],
+        [
+          "DP[i-1, w - w(i)] + P(i)",
+          "The sum of DP[i-1, w - w(i)] and P(i).\n\nHere, P(i) is the value of the current item.\n\nAnd, DP[i-1, w - w(i)] is the optimum value from the first i-1 items (i.e., the previous items) that fits in the space left after adding the current item (i.e., item i)."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Just reading the descriptions of these components might not be sufficient to understand the formula. So, let's locate them in our DP table next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

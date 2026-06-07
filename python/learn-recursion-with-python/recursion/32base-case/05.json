@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/base-case?page=6",
+  "title": "Example 2: Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Recursion"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_numbers(n):\n2\n3    if n == 4:\n4        return \"Done\"   \n5\n6    print(n)\n7    \n8    # Before: return print_number(n + 1)\n9    # Now: add \" over\" to the return value\n10    return print_numbers(n + 1) + \" over\"\n11\n12output = print_numbers(1)\n13print(output)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n3\nDone over over over"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you examine the output, you will notice \" over\" appears three times after \"Done\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you guess why?"
+    },
+    {
+      "type": "paragraph",
+      "content": "This next image will help you understand if you need help guessing."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

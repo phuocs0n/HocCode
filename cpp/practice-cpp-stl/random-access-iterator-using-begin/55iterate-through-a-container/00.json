@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/iterate-through-container?page=1",
+  "title": "Iterate Through a Container",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Iterate Through a Container"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to iterate through a vector using loops."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Initialize an integer vector called num with the elements 1, 2, 3, and 4.",
+        "Create a vector iterator itr.",
+        "Using a for loop, iterate from itr = num.begin() to itr = num.end() - 1.",
+        "Inside the loop, print the vector element by dereferencing itr.",
+        "Outside the loop, assign num.end() - 1 to itr.",
+        "Iterate the vector in reverse order.",
+        "Inside the loop, print the vector element by dereferencing itr, then decrement itr by 1."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: It is preferable to use the rbegin() and rend() functions to iterate through a container in reverse order."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1, 2, 3, 4, \n4, 3, 2, 1,"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

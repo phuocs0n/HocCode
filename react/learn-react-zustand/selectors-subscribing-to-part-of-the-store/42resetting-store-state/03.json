@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/resetting-store-state?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the best approach for resetting a Zustand store to its initial values?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Call create() again to make a new store"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Calling create() again would make a completely separate store. That is not a reset."
+    },
+    {
+      "type": "paragraph",
+      "content": "Calling create() again would make a completely separate store. That is not a reset."
+    },
+    {
+      "type": "paragraph",
+      "content": "Define the initial state as a separate object and use it in a reset action"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Defining initialState separately means you can spread it into create() and use it in a reset action. One source of truth for your defaults."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Defining initialState separately means you can spread it into create() and use it in a reset action. One source of truth for your defaults."
+    },
+    {
+      "type": "paragraph",
+      "content": "Reload the page"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reloading the page is not a controlled reset. It also loses any data the user has not saved."
+    },
+    {
+      "type": "paragraph",
+      "content": "Reloading the page is not a controlled reset. It also loses any data the user has not saved."
+    },
+    {
+      "type": "paragraph",
+      "content": "Set each piece of state back to its default value one by one inside the component"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting state one by one is error-prone and puts store logic inside a component where it does not belong."
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting state one by one is error-prone and puts store logic inside a component where it does not belong."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the best approach for resetting a Zustand store to its initial values?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Call create() again to make a new store",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Call create() again to make a new store",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Define the initial state as a separate object and use it in a reset action",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Define the initial state as a separate object and use it in a reset action",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Reload the page",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Reload the page",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Set each piece of state back to its default value one by one inside the component",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Set each piece of state back to its default value one by one inside the component",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,73 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/dynamic-routes-useparams?page=4",
+  "title": "💡Developer's Insight: Comparing IDs Safely",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "💡Developer's Insight: Comparing IDs Safely"
+    },
+    {
+      "type": "paragraph",
+      "content": "Never forget that useParams() always returns strings, but your API data might return IDs as numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "This means a strict equality check like entry.id === id will silently fail. For instance, 42 === \"42\" is false in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are two ways you can account for this problem and compare ids safely:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Convert the param to a number\nentries.find(e => e.id === Number(id));\n\n// Convert the entry ID to a string\nentries.find(e => String(e.id) === id);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pick one and stay consistent!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this course, we use String(e.id) === id because it avoids NaN issues if the param ever contains non-numeric characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the URL is /entries/abc:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Number(\"abc\") is NaN and every comparison fails silently.",
+        "String(e.id) === \"abc\" just returns no match, which is easier to debug."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's use what we've learned to build the entry detail page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,47 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-linked-list?page=6",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Member function to check if the linked list is sorted in non-decreasing order\n2bool is_sorted(){\n3    // An empty linked list is considered sorted\n4    if (head == nullptr) return true;\n5    \n6    // Start from the head of the list\n7    Node<T>* current = head;\n8    \n9    // Continue to traverse as long as there is a next node\n10    while(current->next != nullptr){\n11        // If the current node's data is greater than the next node's,\n12        // the list is not sorted\n13        if (current->data > current->next->data) return false;\n14        \n15        // Move to the next node in the list\n16        current = current->next;\n17    }\n18    // If no unsorted pairs found, the list is sorted\n19    return true;\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Current Linked List:\n3->5->2->12->16->nullptr\nIs sorted ?false"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

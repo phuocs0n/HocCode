@@ -1,0 +1,71 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions?page=8",
+  "title": "The useReducer() Hook",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The useReducer() Hook"
+    },
+    {
+      "type": "paragraph",
+      "content": "useReducer() is the React hook that connects a reducer to a component."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [state, dispatch] = useReducer(reducer, initialState);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, state is the current state value, exactly like what useState() returns."
+    },
+    {
+      "type": "paragraph",
+      "content": "And dispatch() is a function you call to send an action to the reducer:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "dispatch({ type: \"SET_ENTRIES\", payload: data });"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what happens when you call dispatch():"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "React passes the current state and your action object to the reducer.",
+        "The reducer returns a new state.",
+        "React re-renders the component."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll look at a minimal example to make the pattern concrete."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

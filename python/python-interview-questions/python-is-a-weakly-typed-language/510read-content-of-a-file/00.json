@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/read-content-of-file?page=1",
+  "title": "How Can You Read the Content of a File in Python?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How Can You Read the Content of a File in Python?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, the open() function returns a file object. Using open(), we can pass the filename as an argument and mode as an optional argument. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "file = open('file.txt')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are opening the file.txt file with our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "The default mode to open a file is read-only. We can pass r to read, w to write, x to create, and a to append."
+    },
+    {
+      "type": "paragraph",
+      "content": "To read a file, we can use the read() method in the file object. Here's how,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "file = open('requirements.txt')\ncontent = file.read()\nprint(content)\nfile.close()"
+    },
+    {
+      "type": "paragraph",
+      "content": "This will display the contents of requirements.txt on the terminal."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

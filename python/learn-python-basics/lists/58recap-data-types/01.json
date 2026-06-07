@@ -1,0 +1,126 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/recap-data-types?page=2",
+  "title": "Example: Get the Largest Item",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Get the Largest Item"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will print the largest item of the list."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [10, 45, 61, -6]\n2\n3# assign the first value to the largest variable\n4# we will update the largest variable inside the loop\n5largest = numbers[0]\n6\n7# loop iterates from 0 to last item of numbers\n8for number in numbers:\n9    if largest < number:\n10        largest =  number\n11\n12print(f\"largest: {largest}\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "largest: 61"
+    },
+    {
+      "type": "paragraph",
+      "content": "Initially, the first number is assigned to the largest variable."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "largest = numbers[0]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we used a for loop to iterate from the first item to the last item."
+    },
+    {
+      "type": "paragraph",
+      "content": "In each iteration, if the number variable (the current item of the list) is larger than the largest variable, we assign number to the largest variable."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# inside the loop\nif largest < number:\n    largest = number"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Iteration",
+          "number",
+          "largest < number",
+          "largest"
+        ],
+        [
+          "1st",
+          "10",
+          "False",
+          "10"
+        ],
+        [
+          "2nd",
+          "45",
+          "True",
+          "45"
+        ],
+        [
+          "3rd",
+          "61",
+          "True",
+          "61"
+        ],
+        [
+          "4th",
+          "-6",
+          "False",
+          "61"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The max() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "There's an easier way to accomplish the same task using the built-in max() function, which returns the largest item of an iterable (lists, tuples etc.)."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [10, 45, 61, -6]\n2\n3# get the largest number\n4largest = max(numbers)\n5\n6print(f\"largest: {largest}\")\n7\n8# Output\n9# largest: 61"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

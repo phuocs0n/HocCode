@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-asyncawait?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the async keyword do when placed before a function?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Makes the function return a Promise."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword ensures that the function returns a Promise, allowing asynchronous operations inside it using await."
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword ensures that the function returns a Promise, allowing asynchronous operations inside it using await."
+    },
+    {
+      "type": "paragraph",
+      "content": "Converts the function into a synchronous function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword does not convert a function into a synchronous function. It allows asynchronous operations to be handled within a synchronous-looking structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword does not convert a function into a synchronous function. It allows asynchronous operations to be handled within a synchronous-looking structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Automatically resolves the function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword does not automatically resolve a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword does not automatically resolve a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Makes the function run faster."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword does not affect the speed of function execution. It manages asynchronous operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "The async keyword does not affect the speed of function execution. It manages asynchronous operations."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the async keyword do when placed before a function?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Makes the function return a Promise.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Makes the function return a Promise.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Converts the function into a synchronous function.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Converts the function into a synchronous function.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Automatically resolves the function.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Automatically resolves the function.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Makes the function run faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Makes the function run faster.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

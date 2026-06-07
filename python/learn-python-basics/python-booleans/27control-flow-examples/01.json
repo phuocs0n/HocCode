@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/control-flow-examples?page=2",
+  "title": "Categorize a Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Categorize a Number"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we'll categorize an integer into one of the following:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Negative and odd",
+        "Negative and even",
+        "Positive and odd",
+        "Positive and even"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the source code:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Input: Ask the user to enter an integer\n2number = int(input(\"Enter an integer: \"))\n3\n4# Check if the number is positive and even\n5if number > 0 and number % 2 == 0:\n6    print(\"Positive and even\")\n7\n8# Check if the number is positive and odd\n9elif number > 0 and number % 2 != 0:\n10    print(\"Positive and odd\")\n11\n12# Check if the number is negative and even\n13elif number < 0 and number % 2 == 0:\n14    print(\"Negative and even\")\n15\n16# Check if the number is negative and odd\n17elif number < 0 and number % 2 != 0:\n18    print(\"Negative and odd\")\n19\n20# If the number is zero\n21else:\n22    print(\"The number is zero\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter an integer: -23\nNegative and odd"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

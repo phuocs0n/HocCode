@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/pwa-page-transitions?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What two things does the vite-plugin-pwa add to a Vite project to make it installable?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A TypeScript declaration file and a Netlify redirect rule"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeScript declarations and Netlify config are unrelated to PWA installability. The browser needs specific PWA artifacts to offer an install prompt."
+    },
+    {
+      "type": "paragraph",
+      "content": "TypeScript declarations and Netlify config are unrelated to PWA installability. The browser needs specific PWA artifacts to offer an install prompt."
+    },
+    {
+      "type": "paragraph",
+      "content": "A web app manifest and a Service Worker"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. The web app manifest tells the browser the app's name, icons, and theme color. The Service Worker enables offline caching and background notifications. Together, they satisfy the browser's PWA installability criteria."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. The web app manifest tells the browser the app's name, icons, and theme color. The Service Worker enables offline caching and background notifications. Together, they satisfy the browser's PWA installability criteria."
+    },
+    {
+      "type": "paragraph",
+      "content": "An App Store submission file and a native bridge configuration"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "PWAs are installed directly from the browser - they do not require App Store submission. The installation mechanism is built into the browser using standard web APIs."
+    },
+    {
+      "type": "paragraph",
+      "content": "PWAs are installed directly from the browser - they do not require App Store submission. The installation mechanism is built into the browser using standard web APIs."
+    },
+    {
+      "type": "paragraph",
+      "content": "A robots.txt file and a sitemap.xml for app store indexing"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "SEO files like robots.txt and sitemap.xml are unrelated to PWA installability. The browser's install prompt is triggered by a valid manifest and Service Worker, not search engine metadata."
+    },
+    {
+      "type": "paragraph",
+      "content": "SEO files like robots.txt and sitemap.xml are unrelated to PWA installability. The browser's install prompt is triggered by a valid manifest and Service Worker, not search engine metadata."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What two things does the vite-plugin-pwa add to a Vite project to make it installable?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A TypeScript declaration file and a Netlify redirect rule",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A TypeScript declaration file and a Netlify redirect rule",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A web app manifest and a Service Worker",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A web app manifest and a Service Worker",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:An App Store submission file and a native bridge configuration",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "An App Store submission file and a native bridge configuration",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A robots.txt file and a sitemap.xml for app store indexing",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A robots.txt file and a sitemap.xml for app store indexing",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

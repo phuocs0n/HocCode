@@ -1,0 +1,84 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/iterator-listiterator?page=1",
+  "title": "What is the difference between an Iterator and a ListIterator?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is the difference between an Iterator and a ListIterator?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Iterator is used to to traverse any type of collection. Whereas ListIterator is used to traverse only list collections. The major difference between an Iterator and a ListIterator are:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Traverse Direction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Iterator can only traverse in forward direction whereas ListIterator can traverse in both forward and backward directions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have the following list."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "List<String> list = new ArrayList<>();\nlist.add(\"apple\");\nlist.add(\"banana\");\nlist.add(\"orange\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let use try to traverse in both forward and backwards in the list using ListIterator."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// traverse forwards\nListIterator<String> listIterator = list.listIterator();\nwhile (listIterator.hasNext()) {\n    String element = listIterator.next();\n    System.out.println(element);\n}\n\n// traverse backwards\nwhile (listIterator.hasPrevious()) {\n    String element = listIterator.previous();\n    System.out.println(element);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code block will run without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's try to traverse in both direction using Iterator."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Iterator<String> iterator = list.iterator();\nwhile (iterator.hasNext()) {\n    String element = iterator.next();\n    System.out.println(element);\n}\n  \n// will throw an error      \nwhile (iterator.hasNext()) {\n    String element = iterator.pervious();\n    System.out.println(element);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code block throws an error as the Iterator cannot traverse backward."
+    },
+    {
+      "type": "paragraph",
+      "content": "Furthermore, Listiterator supports CRUD operations, whereas Iterator only supports read and delete operations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

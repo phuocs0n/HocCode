@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/grade-students?page=1",
+  "title": "Compute Grade of Students",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute Grade of Students"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the grade of a student based on the marks."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get a double input from the user and assign it to the marks variable.",
+        "Check the value of marks and assign grades based on that.",
+        "If marks is greater than or equal to 90, print A.",
+        "If marks is greater than or equal to 80, print B.",
+        "If marks is greater than or equal to 70, print C.",
+        "Otherwise, print D."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input82"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputB"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

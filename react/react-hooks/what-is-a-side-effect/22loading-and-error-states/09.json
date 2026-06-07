@@ -1,0 +1,53 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=10",
+  "title": "The Reason Behind the Silence",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Reason Behind the Silence"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what was happening in my dashboard:"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the browser reaches the server and the server sends back a response (\"Data not found\" response included), fetch() considers that a success."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Promise resolves, and your try block keeps running."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() only rejects when the network itself fails: no connection, DNS error, request timeout. Any HTTP response — 200, 404, or 500 — resolves the Promise."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see what we can learn from this fiasco."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

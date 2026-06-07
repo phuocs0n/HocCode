@@ -1,0 +1,73 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/editing-entry?page=4",
+  "title": "Updating A Single Object",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Updating A Single Object"
+    },
+    {
+      "type": "paragraph",
+      "content": "Entries are an array of objects. To \"edit\" one entry you replace it with a new object that has the updated fields. You do not change the old object in place."
+    },
+    {
+      "type": "paragraph",
+      "content": "So here's what you'll do: modify setEntries() by building a new array with map. If an entry:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Matches the id - Return a new object with the updated title and content.",
+        "Doesn't match the id - Return the same entry."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "setEntries(\n  entries.map((entry) =>\n\n    entry.id === id\n      ? { ...entry, title: newTitle, content: newContent }\n      : entry\n  )\n);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the code works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "...entry copies all properties (id, date, author, etc.).",
+        "You override title and content with the new values.",
+        "For other ids, you return the same entry unchanged."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The result is a new array, so React re-renders regardless."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's write the function to handle the edit."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

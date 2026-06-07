@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/conclusion?page=2",
+  "title": "The Final File Structure",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Final File Structure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the full file structure of the app at the end of the course."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Daily-Journal-App/\n  |-- index.html\n  |-- package.json\n  |\n  |-- src/ \n    |-- index.jsx\n    |-- App.jsx\n    |-- styles.css\n    |\n    |-- context/\n    |  |-- ThemeContext.jsx\n    |  |-- JournalContext.jsx\n    |\n    |-- components/\n    |  |-- Header.jsx\n    |  |-- EntryCard.jsx\n    |  |-- SkeletonPage.jsx\n    |\n    |-- pages/\n    |  |-- HomePage.jsx\n    |  |-- EntryDetailPage.jsx\n    |  |-- NotFoundPage.jsx\n    |\n    |-- hooks/\n      |-- useFetch.js\n      |-- useSearch.js\n      |-- usePagination.js"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is a real-world React project structure. Context, pages, components, hooks — each in their own folder, each with a clear responsibility."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every file in that tree exists because of one of the four patterns we learned:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "React Router",
+        "Context",
+        "useReducer()",
+        "lazy() + Suspense"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's step back and see how they fit together."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

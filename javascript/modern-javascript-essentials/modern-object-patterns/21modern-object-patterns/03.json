@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/modern-object-patterns?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does Object.assign({}, defaults, custom) return when both defaults and custom have a speed property?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "An object with the speed value from defaults"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Later source objects overwrite earlier ones. custom comes after defaults, so its speed wins."
+    },
+    {
+      "type": "paragraph",
+      "content": "Later source objects overwrite earlier ones. custom comes after defaults, so its speed wins."
+    },
+    {
+      "type": "paragraph",
+      "content": "An object with the speed value from custom"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Properties from later sources overwrite earlier ones, so custom.speed replaces defaults.speed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Properties from later sources overwrite earlier ones, so custom.speed replaces defaults.speed."
+    },
+    {
+      "type": "paragraph",
+      "content": "An object with both speed values stored in an array"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Object.assign overwrites properties with the same key. It does not merge them into arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Object.assign overwrites properties with the same key. It does not merge them into arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "A TypeError because of duplicate property names"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Duplicate keys are expected. Object.assign simply overwrites earlier values with later ones."
+    },
+    {
+      "type": "paragraph",
+      "content": "Duplicate keys are expected. Object.assign simply overwrites earlier values with later ones."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does Object.assign({}, defaults, custom) return when both defaults and custom have a speed property?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:An object with the speed value from defaults",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "An object with the speed value from defaults",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:An object with the speed value from custom",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "An object with the speed value from custom",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:An object with both speed values stored in an array",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "An object with both speed values stored in an array",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A TypeError because of duplicate property names",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A TypeError because of duplicate property names",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

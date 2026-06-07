@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/laptop-vs-mobile-viewership?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given the table Viewership with columns user_id, device_type, and view_time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Our task is to retrieve the total views for laptops and mobile devices (categorized as laptop_views and mobile_views, respectively). Obviously, we will use the SUM() function for this task."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the caveat is that we must check whether the device_type is a laptop (for laptop_views) or a phone or tablet (for mobile_views)."
+    },
+    {
+      "type": "paragraph",
+      "content": "To check the device type for laptop_views, we can use the CASE statement and assign a flag of 1 if the device_type is laptop and 0 if it's not."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can do the same for mobile_views."
+    },
+    {
+      "type": "paragraph",
+      "content": "But since both the phone and tablet views fall under the mobile_views category, we use the IN statement to check if the device_type is a tablet or a phone."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can then use CASE statements within the SUM() function to calculate the total count of laptop and phone views."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

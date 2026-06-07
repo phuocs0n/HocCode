@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/recap-local-variables?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def greet():\n    greeting = \"Hello\"\n\nprint(greeting)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() function. So, it doesn't exist outside that function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() function. So, it doesn't exist outside that function."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() function. So, printing it outside will result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() function. So, printing it outside will result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "greeting"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "None"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the function returns None, we haven't printed its return value."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the function returns None, we haven't printed its return value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() function. So, it doesn't exist outside that function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is local to the greet() function. So, it doesn't exist outside that function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() function. So, printing it outside will result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined outside the greet() function. So, printing it outside will result in an error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the function returns None, we haven't printed its return value."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the function returns None, we haven't printed its return value."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:greeting",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "greeting",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

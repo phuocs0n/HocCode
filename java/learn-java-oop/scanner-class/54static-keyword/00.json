@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/static-keyword?page=1",
+  "title": "static Keyword",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "static Keyword"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far we have been using the object of the class to access fields and methods of a class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Animal {\n2\n3    // method \n4    void display() {\n5        System.out.println(\"I am an animal.\");\n6    }\n7    \n8    // main method\n9     public static void main(String[] args) {\n10        \n11         // object of Animal class\n12         Animal obj = new Animal();\n13         \n14         // access the method of Animal class\n15         obj.display();\n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am an animal."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used the object obj of the Animal class to access the method display() of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there might be situations where we want to access fields and methods without creating the object. For this, we can use the static keyword."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

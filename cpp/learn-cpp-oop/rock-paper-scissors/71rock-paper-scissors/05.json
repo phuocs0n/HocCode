@@ -1,0 +1,83 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors?page=6",
+  "title": "Step 4: Make User Input a Valid String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Make User Input a Valid String"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "change the get_user_pick() function to take valid input"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Function Objectives"
+    },
+    {
+      "type": "paragraph",
+      "content": "The purpose of this function is to run an infinite loop that breaks only when the user provides a valid input."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "string get_user_pick() {\n\n    char user_input;\n\n\n    // get input until user enters 'r', 'p', or 's'\n    while (1) {\n\n        cout << \"Enter Your Choice (r for rock, p for paper, s for scissors): \";\n        cin >> user_input;\n\n        // convert user_pick to lowercase\n        user_input = tolower(user_input);\n\n        // assign appropriate string to user_pick\n        if (user_input == 'r') {\n            user_pick = \"rock\";\n\n            // terminate while loop\n            break;\n        }\n        else if (user_input == 'p') {\n            user_pick = \"paper\";\n\n            // terminate while loop\n            break;\n        }\n        else if (user_input == 's') {\n            user_pick = \"scissors\";\n\n            // terminate while loop\n            break;\n        }\n    }\n\n\n    return user_pick;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the get_user_pick() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have created an infinite while loop inside this function. Inside the loop, we have asked for user input."
+    },
+    {
+      "type": "paragraph",
+      "content": "After the user enters their choice, we have converted the input character to lowercase so that both uppercase and lowercase inputs are valid."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "user_input = tolower(user_input);"
+    },
+    {
+      "type": "paragraph",
+      "content": "If this converted value is either 'r' or 'p' or 's', we assign the appropriate string to the user_pick variable. This action is followed by a break statement, which terminates the infinite while loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if the user input is invalid, the loop is continued and the user is asked for the input again."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

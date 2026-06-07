@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/c-static-keyword?page=2",
+  "title": "Example: static Keyword",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: static Keyword"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Animal {\n5    public:\n6    \n7\n8        // static function\n9        static void display() {\n10            cout << \"I am an animal.\" << endl;\n11        }\n12\n13};\n14\n15int main() {\n16    \n17\n18    // access the function using class\n19    Animal::display();\n20\n21\n22    return 0;\n23}\n24\n25// Output: I am an animal."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you can see that we are able to directly access the display() function using the class name with the scope resolution operator ::."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Animal::display();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that we haven't created an object for this purpose. This is possible because we have declared the function as static."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

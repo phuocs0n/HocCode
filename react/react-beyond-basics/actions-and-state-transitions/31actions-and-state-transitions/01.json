@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions?page=2",
+  "title": "Why useState() Doesn't Scale",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why useState() Doesn't Scale"
+    },
+    {
+      "type": "paragraph",
+      "content": "With two actions that each modify entries differently, the natural useState() approach is to write a separate handler for each case."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [entries, setEntries] = useState([]);\n\n// Modifies entries by replacing\n// its value with 'data'\nfunction handleSetEntries(data) {\n  setEntries(data);\n}\n\n// Also modifies entries\n// by adding bookmark\nfunction handleBookmark(id) {\n  setEntries(prev =>\n    prev.map(entry =>\n      entry.id === id ? { ...entry, bookmarked: !entry.bookmarked } : entry\n    )\n  );\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This compiles and works. But notice something: the logic for how state changes is now scattered across separate functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "That might seem fine with two handlers, but it doesn't stay fine for long."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

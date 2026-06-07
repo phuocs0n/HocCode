@@ -1,0 +1,70 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=5",
+  "title": "Adding an Error State",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding an Error State"
+    },
+    {
+      "type": "paragraph",
+      "content": "In App.jsx, we need one more piece of state — error — to hold the message if something goes wrong. It starts as null, meaning no error yet."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [error, setError] = useState(null);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Two things can go wrong inside loadEntries():"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. A Bad HTTP Status"
+    },
+    {
+      "type": "paragraph",
+      "content": "The request completed, but the server returned an error code (404, 500, etc.)."
+    },
+    {
+      "type": "paragraph",
+      "content": "fetch() does not throw errors for these. Instead, we have to check res.ok ourselves and throw the error manually."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. A Network Failure"
+    },
+    {
+      "type": "paragraph",
+      "content": "The request never completed at all. This throws automatically, so the catch block handles it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore how to deal with these errors next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

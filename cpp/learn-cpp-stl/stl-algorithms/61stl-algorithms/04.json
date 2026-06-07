@@ -1,0 +1,78 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/stl-algorithms?page=5",
+  "title": "Example: copy()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: copy()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider, we have a vector of string ,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<string> names {\"James\", \"Paul\", \"Maya\", \"Stuti\"};"
+    },
+    {
+      "type": "paragraph",
+      "content": "To copy the first two elements of the names vector into another vector,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// A new destination vector with the size same as the names vector\nvector<string> male_names(names.size());"
+    },
+    {
+      "type": "paragraph",
+      "content": "we do"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "copy(names.begin(), names.begin() + 2, male_names.begin());"
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the first two elements of the names vector into male_names vector. Let's see a full example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3\n4using namespace std;\n5\n6int main(){\n7\n8    vector<string> names{\"James\", \"Paul\", \"Maya\", \"Stuti\"};\n9\n10    // A new destination vector with the size same as the names vector\n11    vector<string> male_names(names.size());\n12    // Copy the first two elements of the vector to new male_names vector\n13    copy(names.begin(), names.begin() + 2, male_names.begin());\n14\n15    // Print the male_names vector:\n16    for(auto name : male_names){\n17       cout << name << \" \";\n18    }\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "James Paul"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

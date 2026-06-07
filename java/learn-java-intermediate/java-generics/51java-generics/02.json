@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-generics?page=3",
+  "title": "Example: Generics Class (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Generics Class (I)"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1// create a generics class\n2class MyClass<T> {\n3\n4    public MyClass(T data) {\n5        System.out.println(\"Data: \" + data);\n6    }\n7}\n8\n9class Main {\n10    public static void main(String[] args) {\n11\n12        // MyClass object with Integer data\n13        MyClass<Integer> intObj = new MyClass<>(8);\n14\n15    }\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Data: 8"
+    },
+    {
+      "type": "paragraph",
+      "content": "The T type parameter is Integer. So, we can only work with Integer data with intObj object."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

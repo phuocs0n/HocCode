@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-interview-questions/permutation-of-string?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# define a function to find the permutation of a string\n2def get_permutation(string, i=0):\n3\n4    # if i is the length of the string, print the string\n5    if i == len(string):\n6        print(''.join(string))\n7\n8    # otherwise, for each character in the string,\n9    # swap it with the character at index i and recurse\n10    for j in range(i, len(string)):\n11\n12        words = [c for c in string]\n13        # swap\n14        words[i], words[j] = words[j], words[i]\n15\n16        # function recursion\n17        get_permutation(words, i + 1)\n18\n19# call the function\n20get_permutation('pan')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "pan\npna\napn\nanp\nnap\nnpa"
+    },
+    {
+      "type": "paragraph",
+      "content": "Recursion is a complex programming concept. It takes a bit more study and practice to understand recursion."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you can't understand what's happening in the above code, we highly recommend you explore our Recursion with Python course."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

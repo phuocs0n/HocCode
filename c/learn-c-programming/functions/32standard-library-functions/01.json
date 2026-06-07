@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/standard-library-functions?page=2",
+  "title": "Hàm thư viện: printf()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hàm thư viện: printf()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong suốt khóa học, chúng ta đã sử dụng hàm printf() để in các giá trị và biến."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sau đây là chương trình C đầu tiên chúng tôi viết."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  printf(\"Hello World\");\n6\n7  return 0;\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, printf() là một hàm thư viện chuẩn để in văn bản lên màn hình."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi chưa cung cấp bất kỳ định nghĩa nào cho printf(), nhưng chúng tôi vẫn có thể sử dụng nó trong chương trình của mình."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều này là do định nghĩa hàm của printf() đã được xác định bên trong tệp stdio.h. Đó là lý do tại sao chúng tôi đã đưa nó vào chương trình của mình."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tương tự, hàm scanf() mà chúng tôi sử dụng để lấy dữ liệu đầu vào của người dùng cũng là một hàm thư viện tiêu chuẩn được xác định bên trong cùng một tệp tiêu đề stdio.h."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sau bài kiểm tra, chúng ta sẽ xem xét một số hàm toán học thường được sử dụng do thư viện chuẩn C cung cấp."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

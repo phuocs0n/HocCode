@@ -1,0 +1,87 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/set-get-salary-of-employee?page=1",
+  "title": "Set And Get Salary Of An Employee",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Set And Get Salary Of An Employee"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to access and modify the salary of an employee using encapsulation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Employee with a private variable salary.",
+        "Create a public setter function to set the salary of the employee.",
+        "Create a public getter function to get the salary of the employee."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), get a double input for the salary variable.",
+        "Create an object of the Employee class.",
+        "Call the setter function with the salary argument.",
+        "Call the getter function and print the result."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input145323.9"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output145323.9"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

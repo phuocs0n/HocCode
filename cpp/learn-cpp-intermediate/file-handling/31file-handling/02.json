@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/file-handling?page=3",
+  "title": "Example: Opening a File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Opening a File"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see an example of opening a file."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\n#include <fstream>\n\nusing namespace std;\n\nint main() {\n\n    // create fstream object\n    fstream my_file;\n\n    // open file in read mode\n    my_file.open(\"message.txt\");\n\n    // check if file opening is unsuccessful\n    if (!my_file) {\n        cout << \"File opening is unsuccessful\";\n        return 1;\n    }\n\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "While opening a file in read mode, we need to make sure that the file exists in the specified location. Otherwise, the open() function will return a NULL value."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we didn't have any file named message.txt, we will get the following output."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "File opening is unsuccessful"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

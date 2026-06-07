@@ -1,0 +1,99 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/figma-to-code/header-with-css?page=2",
+  "title": "Linking Fonts and Stylesheet",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Linking Fonts and Stylesheet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you can style anything, you need a CSS file and you need to connect it to your HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once the link is in place, any CSS you write will immediately affect the page."
+    },
+    {
+      "type": "paragraph",
+      "content": "In your project"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a new file named style.css"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In index.html, inside the head"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Link the style.css file"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Fonts carry a lot of the design, so we'll load them early."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you skip this step, your spacing and typography will feel slightly off the whole time. Then you'll waste effort tweaking CSS to fix something that isn't a CSS problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Load the fonts first. That way, everything you build after this matches the design from the start. To know which fonts to load, inspect the design texts and see which fonts are used."
+    },
+    {
+      "type": "paragraph",
+      "content": "In index.html, inside the head"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add the Google Fonts links for the Inter and Crimson Pro fonts"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Use following links inside head tag:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "<link\n  href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap\"\n  rel=\"stylesheet\"\n/>\n\n<link\n  href=\"https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap\"\n  rel=\"stylesheet\"\n/>"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

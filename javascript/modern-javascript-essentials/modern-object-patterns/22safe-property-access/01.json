@@ -1,0 +1,183 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/safe-property-access?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does player.stats?.highScore return when a player has no stats property?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It throws a TypeError"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what happens without ?.. Optional chaining prevents the error by short-circuiting."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what happens without ?.. Optional chaining prevents the error by short-circuiting."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns null"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Optional chaining returns undefined, not null, when a link in the chain is missing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Optional chaining returns undefined, not null, when a link in the chain is missing."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns undefined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! ?. short-circuits to undefined when the property before it does not exist."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! ?. short-circuits to undefined when the property before it does not exist."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns 0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "?. does not substitute a default value. It returns undefined when the chain breaks. Use ?? for a fallback."
+    },
+    {
+      "type": "paragraph",
+      "content": "?. does not substitute a default value. It returns undefined when the chain breaks. Use ?? for a fallback."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what happens without ?.. Optional chaining prevents the error by short-circuiting."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what happens without ?.. Optional chaining prevents the error by short-circuiting."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Optional chaining returns undefined, not null, when a link in the chain is missing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Optional chaining returns undefined, not null, when a link in the chain is missing."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! ?. short-circuits to undefined when the property before it does not exist."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! ?. short-circuits to undefined when the property before it does not exist."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "?. does not substitute a default value. It returns undefined when the chain breaks. Use ?? for a fallback."
+    },
+    {
+      "type": "paragraph",
+      "content": "?. does not substitute a default value. It returns undefined when the chain breaks. Use ?? for a fallback."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does player.stats?.highScore return when a player has no stats property?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It throws a TypeError",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It throws a TypeError",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It returns null",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It returns null",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It returns undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It returns undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It returns 0",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It returns 0",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

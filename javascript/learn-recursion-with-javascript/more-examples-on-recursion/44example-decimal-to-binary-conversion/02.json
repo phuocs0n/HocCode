@@ -1,0 +1,89 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/example-decimal-to-binary-conversion?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Recursive Call"
+    },
+    {
+      "type": "paragraph",
+      "content": "To convert 6 to binary, let's first think what argument needs to be passed in each recursive call."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "At first, we will pass 6 as an argument to the function.",
+        "Then, we will perform integer division on it by 2 to get the quotient (3) and find the remainder as well.",
+        "We will then call the function again with the quotient (3) as the parameter.",
+        "Again, we will divide the 3 by 2 to get the quotient and the remainder."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In each call, we are dividing the number by 2 to get the quotient, so our recursive argument will be decimal / 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "We get the result in binary by concatenating the remainder of each division from bottom to top (or from the last remainder obtained to the first)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, we need to join the remainder to the return value of the next recursive call. Therefore, the final return statement will be"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "return find_binary(decimal / 2) + to_string(decimal % 2);"
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Base Condition"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above process will go on recursively till the quotient becomes 0, which is our base condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the result will be in string format, we will return an empty string when the base condition is reached. It's because we no longer need to perform any mathematical operation when the quotient is 0."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "if (decimal == 0) {\n    return \"\";\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-struct?page=1",
+  "title": "Cấu trúc tóm tắt",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Cấu trúc tóm tắt"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Xác định cấu trúc"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta sử dụng từ khóa struct để định nghĩa một cấu trúc. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "struct Rectangle {\n  int length;\n  int breadth;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Tạo biến cấu trúc"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cú pháp tạo biến cấu trúc tương tự như cú pháp tạo biến thông thường. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// create struct variable\nstruct Rectangle rect1;\n\n// create integer variable\nint age;"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Truy cập các thành viên struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi tạo một biến cấu trúc, chúng ta có thể sử dụng biến đó để truy cập vào thành viên của cấu trúc. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// assign value to the length and breadth\nrect1.length = 12;\nrect1.breadth = 8;\n\n// print length and breadth\nprintf(\"%d\\n\", rect1.length);\nprintf(\"%d\", rect1.breadth);"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ví dụ"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// create a struct\n4struct Rectangle {\n5  int length;\n6  int breadth;\n7};\n8\n9int main() {\n10\n11  struct Rectangle rect1;\n12\n13  rect1.length = 12;\n14  rect1.breadth = 8;\n15\n16  printf(\"%d\\n\", rect1.length);    // 12\n17  printf(\"%d\\n\", rect1.breadth);   // 8\n18\n19  // find area\n20  int area = rect1.length * rect1.breadth;\n21  printf(\"%d\", area);        // 96\n22\n23  return 0;\n24}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

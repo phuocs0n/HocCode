@@ -1,0 +1,85 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction-to-promises?page=3",
+  "title": "Promise as a Real World Object",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Promise as a Real World Object"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're in a coffee shop during the morning rush and you're there for that bitter (yet refreshing) liquid the shop serves. Just one cup is enough to make your day."
+    },
+    {
+      "type": "paragraph",
+      "content": "So you get in line and it's finally your turn to order. Here's what happens:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You order your coffee.",
+        "But you don't get the coffee immediately.",
+        "Instead, what you get is a receipt."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That receipt:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Exists immediately",
+        "Represents your future coffee",
+        "Lets you track your order"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You don't wait doing nothing: you keep the receipt and decide what to do when the coffee arrives."
+    },
+    {
+      "type": "paragraph",
+      "content": "A promise is that receipt, and it works the same way."
+    },
+    {
+      "type": "paragraph",
+      "content": "When an async operation starts:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The work begins",
+        "You don't get the result immediately",
+        "You get a promise instead."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That promise represents a future result."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-student-grade-ii?page=2",
+  "title": "Using Array to Store Scores",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using Array to Store Scores"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of passing five separate numbers as arguments, you can simplify the function by passing an array directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this is the input array:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const scores = [55, 64, 75, 80, 65];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you can modify the function to accept the array and calculate the average score:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "// Find the average score and return it\nconst getAverageScore = (scores) => {\n\n    // Calculate total score\n\n    // Compute average score\n    let averageScore = total / scores.length;\n    \n    return averageScore;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that we've used scores.length to ensure the function works for arrays of any size, not just five elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now implement the code to calculate the total score."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

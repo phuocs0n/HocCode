@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/additional-topic-revise?page=3",
+  "title": "Lambda Expressions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Lambda Expressions"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use lambda expression to implement the method of functional interface."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1@FunctionalInterface\n2interface Greetings {\n3\n4    public void printGreeting();\n5}\n6\n7class Main {\n8\n9    public static void main(String[] args) {\n10\n11        // lambda expression\n12        Greetings ref = () -> System.out.println(\"Hey there! \");\n13\n14        ref.printGreeting();\n15    }\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hey there!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

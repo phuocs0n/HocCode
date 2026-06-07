@@ -1,0 +1,117 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-case?page=1",
+  "title": "SQL CASE",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "SQL CASE"
+    },
+    {
+      "type": "paragraph",
+      "content": "In SQL, the CASE statement allows us to perform different actions based on specific conditions."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, to categorize customers, you can create a new column, purchase_group, that labels customers as 'Target Customer' if their purchase amount falls between 2000 and 4999."
+    },
+    {
+      "type": "paragraph",
+      "content": "Expected Output"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "id",
+          "name",
+          "country",
+          "purchase_amount",
+          "purchase_group"
+        ],
+        [
+          "1",
+          "Charlie Brown",
+          "USA",
+          "1000",
+          ""
+        ],
+        [
+          "2",
+          "Bob Anderson",
+          "Canada",
+          "6000",
+          ""
+        ],
+        [
+          "3",
+          "Edward Johnson",
+          "USA",
+          "5000",
+          ""
+        ],
+        [
+          "5",
+          "Diana Smith",
+          "UK",
+          "2000",
+          "Target Customer"
+        ],
+        [
+          "6",
+          "Grace Taylor",
+          "UK",
+          "3000",
+          "Target Customer"
+        ],
+        [
+          "8",
+          "Fiona White",
+          "Canada",
+          "1500",
+          ""
+        ],
+        [
+          "9",
+          "Alice King",
+          "USA",
+          "6000",
+          ""
+        ],
+        [
+          "10",
+          "Henry Adams",
+          "USA",
+          "5000",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You can perform this task using the CASE statement, which we will see next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

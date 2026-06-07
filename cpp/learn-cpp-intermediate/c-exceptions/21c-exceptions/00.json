@@ -1,0 +1,97 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/c-exceptions?page=1",
+  "title": "Errors and Exceptions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Errors and Exceptions"
+    },
+    {
+      "type": "paragraph",
+      "content": "You might have run into errors numerous times while programming. These errors are of two types:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Syntax errors"
+    },
+    {
+      "type": "paragraph",
+      "content": "These errors are caused because of improper use of the C++ syntax, such as missing semicolons, wrong spelling, etc. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    cout << \"Hey\"\n7\n8    return 0;\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "ERROR!    6 |     cout << \"Hey\"\n      |                  ^\n      |                  ;\n    7 | \n    8 |     return 0;\n      |     ~~~~~~"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are getting an error because we missed a semicolon after cout << \"Hey\". We can easily solve these errors by fixing the syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Exceptions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even if our code is syntactically correct, we may still get an error every now and then. These errors are called exceptions. For example, we will get an error if we divide a number by 0."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int result = 5 / 0;\n7    cout << result;\n8\n9    return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Floating point exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the syntax of our code is correct. However, we are not allowed to divide a number by 0 in C++. This is what we call an exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, we are getting the Floating point exception."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn a few different types of exceptions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

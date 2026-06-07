@@ -1,0 +1,188 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/pointers-introduction?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Trắc nghiệm: Kết quả của đoạn mã sau có thể là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nint main() {\n  int number = 24;\n  printf(\"%p\", &number);\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "24"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number không trả về giá trị của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "&number không trả về giá trị của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "0x7ffce674ed24"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number trả về địa chỉ bộ nhớ của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "&number trả về địa chỉ bộ nhớ của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "%P"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "%p là công cụ xác định định dạng để in địa chỉ bộ nhớ."
+    },
+    {
+      "type": "paragraph",
+      "content": "%p là công cụ xác định định dạng để in địa chỉ bộ nhớ."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lỗi"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đoạn mã trên chạy không có lỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đoạn mã trên chạy không có lỗi"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number không trả về giá trị của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "&number không trả về giá trị của biến số."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number trả về địa chỉ bộ nhớ của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "&number trả về địa chỉ bộ nhớ của biến số."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "%p là công cụ xác định định dạng để in địa chỉ bộ nhớ."
+    },
+    {
+      "type": "paragraph",
+      "content": "%p là công cụ xác định định dạng để in địa chỉ bộ nhớ."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đoạn mã trên chạy không có lỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đoạn mã trên chạy không có lỗi"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Trắc nghiệm: Kết quả của đoạn mã sau có thể là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:24",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "24",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:0x7ffce674ed24",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0x7ffce674ed24",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:%P",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "%P",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Lỗi",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Lỗi",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

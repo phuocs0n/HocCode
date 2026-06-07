@@ -1,0 +1,49 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/analytic-window-functions?page=1",
+  "title": "Analytic Window Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Analytic Window Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your manager is reviewing sales data and asks:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Can we see how each product's sales compare to the previous month? I want to identify trends and spot any sudden increases or drops.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Looking at total sales alone won't provide the full picture—you need a way to compare each month's sales with past and future months without modifying the dataset."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is where analytic window functions come in. They help track trends by referencing other rows while preserving the original structure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

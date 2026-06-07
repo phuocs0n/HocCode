@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-errors?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements about syntax and runtime errors is false?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Syntax errors must be fixed before the program can run."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Syntax errors prevent execution until they are fixed. The program won't run with incorrect syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "Syntax errors prevent execution until they are fixed. The program won't run with incorrect syntax."
+    },
+    {
+      "type": "paragraph",
+      "content": "Runtime errors can occur even if the syntax is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Runtime errors occur while the program is running, even if the syntax is valid (e.g., accessing an undefined variable)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Runtime errors occur while the program is running, even if the syntax is valid (e.g., accessing an undefined variable)."
+    },
+    {
+      "type": "paragraph",
+      "content": "A missing semicolon is an example of a runtime error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A missing semicolon can cause a syntax error, not a runtime error. Syntax errors must be fixed before execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "A missing semicolon can cause a syntax error, not a runtime error. Syntax errors must be fixed before execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "Runtime errors can be handled."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Runtime errors can be handled to prevent crashes and allow smooth execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "Runtime errors can be handled to prevent crashes and allow smooth execution."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements about syntax and runtime errors is false?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Syntax errors must be fixed before the program can run.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Syntax errors must be fixed before the program can run.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Runtime errors can occur even if the syntax is correct.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Runtime errors can occur even if the syntax is correct.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A missing semicolon is an example of a runtime error.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A missing semicolon is an example of a runtime error.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Runtime errors can be handled.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Runtime errors can be handled.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

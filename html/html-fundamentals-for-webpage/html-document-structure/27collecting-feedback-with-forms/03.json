@@ -1,0 +1,60 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/collecting-feedback-with-forms?page=3",
+  "title": "Example: A Simple Blog Feedback Form",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: A Simple Blog Feedback Form"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a basic feedback form for our Learning HTML blog:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<form>\n2  <label>\n3    Your Name:\n4    <input type=\"text\">\n5  </label>\n6\n7  <label>\n8    Your Feedback:\n9    <textarea></textarea>\n10  </label>\n11\n12  <button type=\"submit\">Send Feedback</button>\n13</form>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what's happening:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "<form> groups everything",
+        "<label> explains each input",
+        "<input> collects short text",
+        "<textarea> collects longer messages",
+        "<button> submits the form"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This already works — even without styling."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,74 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-java-basics/project-rock-paper-scissors?page=5",
+  "title": "Step 4: Decide Win, Lose, or Draw",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Decide Win, Lose, or Draw"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's create a method to decide whether the user won, lost or drew. This method will:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "take two arguments (the user input and computer's pick)",
+        "return a string: either \"win\", \"lose\", or \"draw\""
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// Return either \"win\", \"lose\" or \"draw\"\nString getResult(String userInput, String computerChoice) {\n\n    // Condition for user to draw\n    if (userInput.equals(computerChoice)) {\n        return \"draw\";\n    }\n\n    // Condition for user to win\n    else if (userInput.equals(\"paper\") && computerChoice.equals(\"rock\")) {\n        return \"win\";\n    }\n    else if (userInput.equals(\"rock\") && computerChoice.equals(\"scissors\")) {\n        return \"win\";\n    }\n    else if (userInput.equals(\"scissors\") && computerChoice.equals(\"paper\")) {\n      return \"win\";\n    }\n    \n    // All other conditions result in the user losing\n    else {\n        return \"lose\";\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Basically, this method returns"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\"draw\" if the computer's pick and the user's pick are the same",
+        "\"win\" if the user wins using the rules we described earlier",
+        "\"lose\" if none of the conditions for draw or win are met"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that we are using the equals() method to compare the string variable with the strings directly."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "userInput.equals(\"rock\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will combine all three methods in our code and see if it works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

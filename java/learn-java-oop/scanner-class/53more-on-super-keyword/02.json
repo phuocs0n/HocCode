@@ -1,0 +1,140 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-oop/more-on-super-keyword?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to call the constructor of the Animal class from the constructor of Dog?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Animal {\n    Animal() {\n    }\n}\n\nclass Dog extends Animal {\n    Dog() {\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Animal obj = new Animal();"
+    },
+    {
+      "type": "paragraph",
+      "content": "obj.super();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't need to create an object of the Animal class to call its constructor from the constructor of its child class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't need to create an object of the Animal class to call its constructor from the constructor of its child class."
+    },
+    {
+      "type": "paragraph",
+      "content": "super.Animal();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't need to specify the name of the parent class to call its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't need to specify the name of the parent class to call its constructor."
+    },
+    {
+      "type": "paragraph",
+      "content": "super();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "super() calls the constructor of the Animal class from the constructor of the Dog class."
+    },
+    {
+      "type": "paragraph",
+      "content": "super() calls the constructor of the Animal class from the constructor of the Dog class."
+    },
+    {
+      "type": "paragraph",
+      "content": "All of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the above options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to call the constructor of the Animal class from the constructor of Dog?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Animal obj = new Animal();obj.super();",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Animal obj = new Animal();obj.super();",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:super.Animal();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "super.Animal();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:super();",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "super();",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

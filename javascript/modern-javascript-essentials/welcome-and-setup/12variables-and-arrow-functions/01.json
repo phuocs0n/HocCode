@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/variables-arrow-functions?page=1",
+  "title": "const and let",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "const and let"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before ES6, JavaScript only had var for declaring variables. It worked, but var has quirks around scope and reassignment that cause subtle bugs as projects grow. Modern JavaScript gives us two better tools: const and let."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use const when a value should not be reassigned. Use let when you expect the value to change. This simple distinction tells anyone reading the code exactly what you intended."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const courseName = \"Modern JavaScript\"; \n2let score = 0;\n3\n4console.log(courseName); \n5console.log(score);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, courseName is declared with const because the course name never changes. score uses let because it will update as the program runs. It is good practice to default to const everywhere and only switch to let when reassignment is genuinely needed. This one habit prevents accidental overwrites and makes code easier to reason about."
+    },
+    {
+      "type": "image",
+      "alt": "const vs let vs var",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDA2NTQ2NmUyMGQwYjgyNzA0LTAwNmExN2NmNDItYjA0ZGQ4NDctc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmIwNGRkODQ3LXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

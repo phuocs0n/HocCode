@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/passing-entry-data-with-props?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: When a component receives props, how are they structured inside the component?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "As separate variables automatically created for each attribute"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not automatically create individual variables. All attributes are grouped together."
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not automatically create individual variables. All attributes are grouped together."
+    },
+    {
+      "type": "paragraph",
+      "content": "As a single object containing key–value pairs"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React collects all passed attributes into one object, where each attribute name becomes a key and its value becomes the corresponding value."
+    },
+    {
+      "type": "paragraph",
+      "content": "React collects all passed attributes into one object, where each attribute name becomes a key and its value becomes the corresponding value."
+    },
+    {
+      "type": "paragraph",
+      "content": "As an array of values in the order they were written"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Props are accessed by name (keys), not by position, so they are not stored in an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Props are accessed by name (keys), not by position, so they are not stored in an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "As a string that must be parsed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Props are passed as structured data, not as a raw string that needs manual parsing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Props are passed as structured data, not as a raw string that needs manual parsing."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: When a component receives props, how are they structured inside the component?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:As separate variables automatically created for each attribute",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "As separate variables automatically created for each attribute",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:As a single object containing key–value pairs",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "As a single object containing key–value pairs",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:As an array of values in the order they were written",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "As an array of values in the order they were written",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:As a string that must be parsed",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "As a string that must be parsed",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

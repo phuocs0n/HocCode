@@ -1,0 +1,62 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/capturing-user-input?page=5",
+  "title": "Explaining the Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explaining the Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Go back and revisit the previous code and notice value={title} and value={content}. This enables the fields to show the current state based on user input."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also notice the code here:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "onChange={(e) => setTitle(e.target.value)}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the onChange handler receives an event object e, which describes what happened with the input, i.e., it describes how the user changed the input."
+    },
+    {
+      "type": "paragraph",
+      "content": "The input element that changed is given by e.target, and its current text is e.target.value."
+    },
+    {
+      "type": "paragraph",
+      "content": "So you read the user's input from e.target.value and store it in the state."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run the code and type in the title and content, you'll see that the fields update as you type. That's because React is re-rendering your UI with the new state."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

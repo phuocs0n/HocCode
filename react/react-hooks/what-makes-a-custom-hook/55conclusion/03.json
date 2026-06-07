@@ -1,0 +1,76 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/conclusion?page=4",
+  "title": "Mental Model: When to Extract a Custom Hook",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Mental Model: When to Extract a Custom Hook"
+    },
+    {
+      "type": "paragraph",
+      "content": "The four questions help you understand what a component owns. When the answers cluster, that's the signal to extract."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are a couple of scenarios:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Mental Model: Custom Hook Scenarios"
+        ],
+        [
+          "Scenario 1: The same state always travels with the same effect.\n\nIf isLoading, error, and data always appear alongside the same useEffect(), they belong in one hook.\n\nReason: A component that renders data always needs to know if it's still loading or if an error occurred — you can't have one without the other two."
+        ],
+        [
+          "Scenario 2: The same derived values always sit next to the same handler.\n\nIf filteredEntries from useMemo() always appears next to the query setter, they belong together.\n\nReason: The filtered list is meaningless without the query that drives it."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The Million-Dollar Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "In such scenarios, ask:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "\"Which of these hooks belong together?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The answer names your next custom hook."
+    },
+    {
+      "type": "paragraph",
+      "content": "The next section will give you the big picture view of hooks."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

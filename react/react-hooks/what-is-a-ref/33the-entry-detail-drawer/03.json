@@ -1,0 +1,74 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=4",
+  "title": "Update App.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Update App.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's continue with our changes:"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Import 'Drawer' and render it in the JSX."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import Drawer from \"./components/Drawer\";\n\n... ... ...\n\n// Inside App()\n<Drawer\n  entry={selectedEntry}\n  onClose={() => setSelectedEntry(null)}\n/>"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Reset the UI in 'loadEntries()'."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's go back to the effect and ensure the UI is reset before each load:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n    async function loadEntries() {\n\n      // Reset the UI\n      setIsLoading(true);\n      setError(null);\n      ... ... ...\n  }, [refreshKey]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "setIsLoading(true) ensures the loading indicator appears again when the user clicks Refresh.",
+        "setError(null) clears any previous error banner so it doesn't linger through a successful reload."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's combine this all in a non-executable code snippet so you can get a better picture of where the changes were made."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

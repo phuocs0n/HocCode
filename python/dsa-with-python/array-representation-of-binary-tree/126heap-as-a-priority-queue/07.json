@@ -1,0 +1,47 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-python/heap-as-priority-queue?page=8",
+  "title": "Example: Priority Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Priority Queue"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# change the priority (key) of an element already in the priority queue\n2def change_key(self, value, new_priority):\n3    # search for value\n4    for i in range(self.size()):\n5        # if value is found\n6        if self.heap[i][1] == value:\n7            # change priority\n8            old_priority = self.heap[i][0]\n9            self.heap[i] = (new_priority, value)\n10            # heapify after changing priority to maintain heap property.\n11            # we can simply call heapify but heapify_up/down is more efficient\n12            if new_priority < old_priority:\n13                self.heapify_up(i)\n14            else:\n15                self.heapify_down(i)\n16            return"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Insert tasks into priority queue\n[(5, 'Task5'), (12, 'Task1'), (25, 'Task3'), (16, 'Task4'), (15, 'Task2')]\n--------------\nChange priority of task1 to 20\n[(5, 'Task5'), (15, 'Task2'), (25, 'Task3'), (16, 'Task4'), (20, 'Task1')]\n--------------\nChange priority of task1 to 2\n[(2, 'Task1'), (5, 'Task5'), (25, 'Task3'), (16, 'Task4'), (15, 'Task2')]\n--------------\nTop priority task\n(2, 'Task1')\n-----------\nAfter removing top priority task\n[(5, 'Task5'), (15, 'Task2'), (25, 'Task3'), (16, 'Task4')]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

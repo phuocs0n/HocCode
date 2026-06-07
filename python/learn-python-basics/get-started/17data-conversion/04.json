@@ -1,0 +1,55 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/data-conversion?page=5",
+  "title": "Error Converting String to Float",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Error Converting String to Float"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have already learned not all strings can be converted to integers. Similarly, some strings can't be converted to floating-point numbers. Let's look at an example to see why."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1string_number = \"12a\"\n2\n3\n4# Convert string to float\n5float_number = float(string_number)    # Error!\n6\n7\n8print(float_number)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "ValueError: could not convert string to float: '12a'"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Python cannot convert \"12a\" to its equivalent floating-point number. Hence, we will get an error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

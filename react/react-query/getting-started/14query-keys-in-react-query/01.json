@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/query-keys-in-react-query?page=2",
+  "title": "The Query Key Mistake Everyone Makes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Query Key Mistake Everyone Makes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's say you're building the filter feature in TaskFlow. The user picks a status and you fetch the matching tasks:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [status, setStatus] = useState('')\n \nconst { data: tasks } = useQuery({\n  queryKey: ['tasks'],\n  queryFn: () => fetchTasks({ status })\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "Spot the problem? You're using status inside queryFn but it's not in the queryKey."
+    },
+    {
+      "type": "paragraph",
+      "content": "So what happens? React Query fetches the open tasks and stores them under ['tasks']. The user switches to done. The status variable changes but the key is still ['tasks']. React Query finds data there and returns the old open tasks. It never goes to the server."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix is simple. Whatever you use inside queryFn must also live in queryKey:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const { data: tasks } = useQuery({\n  queryKey: ['tasks', { status }],\n  queryFn: () => fetchTasks({ status })\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now when status changes, the key changes too. React Query sees something new and fetches fresh data automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "Good rule to keep in mind: if it affects what comes back, it belongs in the key."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,88 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/prime-numbers?page=1",
+  "title": "Prime Numbers Between Intervals",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Prime Numbers Between Intervals"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a function to find all the prime numbers between two intervals using a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside main()"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two variables x and y.",
+        "Get input values for x and y such that the value of y should be greater than x.",
+        "Run a loop to access each element between x and y.",
+        "Pass each value (number) between x and y to a function isPrime()."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside isPrime()"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a flag with value 0.",
+        "Run a for loop from i = 2 to i < number (function parameter).",
+        "Inside the loop, check if number is divisible by i. If true, change the value of flag to 1.",
+        "Outside the loop, if flag is equal to 0, print the number (parameter) with a new line character."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input21\n50"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output23\n29\n31\n37\n41\n43\n47"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

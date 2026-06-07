@@ -1,0 +1,46 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=5",
+  "title": "Ví dụ: Vòng lặp while hữu hạn (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Vòng lặp while hữu hạn (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là chương trình từ trang trước:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int count = 1;\n6\n7    while (count <= 3) {\n8        printf(\"I am inside a loop.\\n\");\n9        printf(\"Looping is interesting.\\n\");\n10    }\n11  \n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, vòng lặp tiếp tục mãi mãi vì biểu thức boolean, count <= 3, không bao giờ sai vì giá trị của count luôn là 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

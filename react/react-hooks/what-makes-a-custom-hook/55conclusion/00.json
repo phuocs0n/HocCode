@@ -1,0 +1,84 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-hooks/conclusion?page=1",
+  "title": "What You Built",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What You Built"
+    },
+    {
+      "type": "paragraph",
+      "content": "You started with a form and a hardcoded list. And now, you end with a fully connected journal app that has:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Live data fetched from an API",
+        "Search and pagination",
+        "A detail drawer for reading entries",
+        "All logic cleanly separated into composable hooks"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the full journey:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Hook",
+          "Feature",
+          "What Changed"
+        ],
+        [
+          "useEffect()",
+          "Live data",
+          "Removed the form. Fetched entries from JSONPlaceholder. Added loading, error, and empty states."
+        ],
+        [
+          "useRef()",
+          "Entry detail drawer",
+          "Autofocused the search input. Built a drawer that closes on outside click or Escape key."
+        ],
+        [
+          "useMemo(), useCallback()",
+          "Search + pagination",
+          "Lifted search state. Filtered and paginated entries with derived state. Stabilised function references."
+        ],
+        [
+          "Custom hooks",
+          "Code reuse",
+          "Extracted useFetch(), useSearch(), usePagination(). App composes them in a handful of lines."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's revisit the final project code you built."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

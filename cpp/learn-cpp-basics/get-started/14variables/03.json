@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/variables?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which value can be assigned to the test variable in the given case?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int test;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "19"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "19 is an integer value that can be stored in the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "19 is an integer value that can be stored in the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "19.5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "19.5 is a decimal value which is not correct for the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "19.5 is a decimal value which is not correct for the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"nineteen\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"nineteen\" is a textual value that cannot be stored in the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"nineteen\" is a textual value that cannot be stored in the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"19\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"19\" is enclosed inside double quotes, so it is a textual value."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"19\" is enclosed inside double quotes, so it is a textual value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "19 is an integer value that can be stored in the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "19 is an integer value that can be stored in the int variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "19.5 is a decimal value which is not correct for the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "19.5 is a decimal value which is not correct for the int variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"nineteen\" is a textual value that cannot be stored in the int variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"nineteen\" is a textual value that cannot be stored in the int variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"19\" is enclosed inside double quotes, so it is a textual value."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"19\" is enclosed inside double quotes, so it is a textual value."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which value can be assigned to the test variable in the given case?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:19",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "19",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:19.5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "19.5",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:\"nineteen\"",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "\"nineteen\"",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:\"19\"",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "\"19\"",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

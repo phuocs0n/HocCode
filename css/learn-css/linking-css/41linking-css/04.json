@@ -1,0 +1,183 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/linking-css?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How do you link an external CSS file to your HTML document?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "By using the <style> tag."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <style> tag is used for adding CSS internally in HTML, not for linking external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <style> tag is used for adding CSS internally in HTML, not for linking external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "By using the <script> tag."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <script> tag is used for adding JavaScript to HTML documents, not for adding external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <script> tag is used for adding JavaScript to HTML documents, not for adding external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "By using the <link> tag."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <link> tag is used with the rel=\"stylesheet\" and href=\"filename.css\" attributes for linking external CSS files in the HTML file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <link> tag is used with the rel=\"stylesheet\" and href=\"filename.css\" attributes for linking external CSS files in the HTML file."
+    },
+    {
+      "type": "paragraph",
+      "content": "By using the <meta> tag."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <meta> tag provides metadata about the HTML document and is not used for linking external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <meta> tag provides metadata about the HTML document and is not used for linking external CSS files."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <style> tag is used for adding CSS internally in HTML, not for linking external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <style> tag is used for adding CSS internally in HTML, not for linking external CSS files."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <script> tag is used for adding JavaScript to HTML documents, not for adding external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <script> tag is used for adding JavaScript to HTML documents, not for adding external CSS files."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <link> tag is used with the rel=\"stylesheet\" and href=\"filename.css\" attributes for linking external CSS files in the HTML file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <link> tag is used with the rel=\"stylesheet\" and href=\"filename.css\" attributes for linking external CSS files in the HTML file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <meta> tag provides metadata about the HTML document and is not used for linking external CSS files."
+    },
+    {
+      "type": "paragraph",
+      "content": "The <meta> tag provides metadata about the HTML document and is not used for linking external CSS files."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How do you link an external CSS file to your HTML document?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:By using the <style> tag.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By using the <style> tag.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:By using the <script> tag.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "By using the <script> tag.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:By using the <link> tag.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "By using the <link> tag.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:By using the <meta> tag.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "By using the <meta> tag.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,68 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=6",
+  "title": "Ví dụ: Biểu thức Boolean (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Biểu thức Boolean (III)"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    double total;\n6    int result;\n7\n8    printf(\"Enter total: \");\n9    scanf(\"%lf\", &total);\n10  \n11    // Check if total is greater than 100\n12    result = total > 100;\n13\n14    printf(\"Result: %d\", result);\n15\n16    return 0;\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kết quả giá trị đầu ra sẽ là 0 hoặc 1, tùy thuộc vào tổng đầu vào được cung cấp."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy chạy chương trình này với hai giá trị đầu vào khác nhau:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu ra mẫu 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter total: 70\nResult: 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu ra mẫu 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter total: 150\nResult: 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, bạn sẽ tìm hiểu lý do tại sao những kết quả đầu ra này lại khác nhau."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

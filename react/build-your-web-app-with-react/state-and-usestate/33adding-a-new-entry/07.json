@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/adding-new-entry?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we use setEntries([...entries, newEntry]) instead of entries.push(newEntry) and setEntries(entries)?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React needs to receive a new array to notice the change and update the screen"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you pass the same array back, React sees nothing different and skips the re-render."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you pass the same array back, React sees nothing different and skips the re-render."
+    },
+    {
+      "type": "paragraph",
+      "content": "push() is not allowed in React"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "push() works fine in JavaScript. The problem is that it changes the original array instead of creating a new one."
+    },
+    {
+      "type": "paragraph",
+      "content": "push() works fine in JavaScript. The problem is that it changes the original array instead of creating a new one."
+    },
+    {
+      "type": "paragraph",
+      "content": "Spread syntax runs faster than push()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed is not the reason; it's about how React spots changes, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed is not the reason; it's about how React spots changes, not performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "So we can sort the entries later"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sorting has nothing to do with it. React just needs a fresh array each time state updates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sorting has nothing to do with it. React just needs a fresh array each time state updates."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we use setEntries([...entries, newEntry]) instead of entries.push(newEntry) and setEntries(entries)?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React needs to receive a new array to notice the change and update the screen",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React needs to receive a new array to notice the change and update the screen",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:push() is not allowed in React",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "push() is not allowed in React",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Spread syntax runs faster than push()",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Spread syntax runs faster than push()",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So we can sort the entries later",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So we can sort the entries later",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

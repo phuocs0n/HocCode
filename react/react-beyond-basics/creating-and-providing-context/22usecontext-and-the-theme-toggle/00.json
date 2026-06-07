@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/usecontext-theme-toggle?page=1",
+  "title": "Consuming Context with useTheme()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Consuming Context with useTheme()"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, we created ThemeProvider and wrapped the app with it. Now we need to actually read that context inside a component."
+    },
+    {
+      "type": "paragraph",
+      "content": "useTheme() is the hook that reads from the nearest Provider above it in the tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns whatever is currently in the Provider's value prop. In our case, that is { theme, toggleTheme }."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useTheme } from \"../context/ThemeContext\";\n\nconst { theme, toggleTheme } = useTheme();"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is the full setup for a consumer. One import and one line."
+    },
+    {
+      "type": "paragraph",
+      "content": "The hook re-runs automatically whenever the Provider's value changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "So if the user clicks the toggle button and theme flips from \"light\" to \"dark\", every component calling useTheme() re-renders with the new value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at what this means for intermediate components."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,65 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-css/profile-card?page=10",
+  "title": "Step 8: Chips and Buttons Styling",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 8: Chips and Buttons Styling"
+    },
+    {
+      "type": "paragraph",
+      "content": "Style the expertise badges with a distinct look and add hover effects."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.chips {\n2    display: flex;\n3    list-style-type: none;\n4    padding: 12px 0;\n5    justify-content: space-around;\n6}\n7\n8.chip {\n9    border-radius: 12px;\n10    padding: 10px;\n11    font-size: 15px;\n12    background-color: #eaeaec;\n13    font-weight: 600;\n14    transition: all 0.3s ease-in-out;\n15}\n16\n17.chip:hover {\n18    background-color: #7370f4;\n19    color: white;\n20    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Style the buttons with primary and secondary themes, including a hover effect that scales the button slightly."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.action-button {\n2    border-top: 1px solid #eaeaec;\n3    padding-top: 16px;\n4    gap: 12px;\n5    display: flex;\n6    flex-direction: column;\n7}\n8\n9.action-button a {\n10    background-color: #29283f;\n11    color: white;\n12    padding: 12px;\n13    text-decoration: none;\n14    border-radius: 12px;\n15    font-size: 18px;\n16    display: flex;\n17    justify-content: center;\n18    align-items: center;\n19    transition: transform 0.2s ease-in-out;\n20}\n21\n22.action-button a:hover {\n23    transform: scale(1.05);\n24}\n25\n26.action-button a.secondary {\n27    background-color: inherit;\n28    color: #29283f;\n29    border: 1px solid #29283f;\n30}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that all elements are styled, let's take a look at the final profile card design."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

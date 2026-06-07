@@ -1,0 +1,79 @@
+{
+  "index": 13,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component?page=14",
+  "title": "Let's Add a Clear Button",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Let's Add a Clear Button"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before moving on, add a second button to clear the form. Wrap both buttons in a <div className=\"btn-group\">:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import Header from \"./components/Header\";\n2import EntryCard from \"./components/EntryCard\";\n3import JournalForm from \"./components/JournalForm\";\n4\n5function App() {\n6  const entry = {\n7    title: \"First Day at the Job\",\n8    date: \"February 10, 2026\",\n9    content: \"Today was my first day at the new job. Everyone was welcoming and helpful.\"\n10  };\n11\n12  return (\n13    <div className=\"main-container\">\n14      <Header />\n15      <JournalForm />\n16      <EntryCard \n17        title={entry.title}\n18        date={entry.date}\n19        content={entry.content}\n20      />\n21    </div>\n22  );\n23}\n24\n25export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function Header() {\n2  return (\n3    <header className=\"header\">\n4      <h2 className=\"title-primary\">My Daily Journal</h2>\n5      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n6    </header>\n7  );\n8}\n9\n10export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ title, date, content }) {\n2  return (\n3    <div className=\"entry-item\">\n4    <div className=\"entry-date\">{date}</div>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-content\">{content}</p>\n7    </div>\n8  );\n9}\n10\n11export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function JournalForm() {\n2\n3  return (\n4    <section className=\"card\">\n5      <form>\n6        <div className=\"form-group\">\n7          ... ... ...\n8        <div className=\"btn-group\">\n9          <button type=\"button\" className=\"btn btn-secondary\">Clear</button>\n10          ... ... ...\n11        </div>\n12      </form>\n13    </section>\n14  );\n15}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1:root {\n2  --primary: #2563eb;\n3  --primary-hover: #1d4ed8;\n4  --danger: #ef4444;\n5  --danger-hover: #dc2626;\n6  --background-light: #f8fafc;\n7  --surface: #ffffff;\n8  --text-main: #111827;\n9  --text-muted: #6b7280;\n10  --border: #e5e7eb;\n11  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n12  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);\n13  --radius-lg: 0.5rem;\n14  --radius-xl: 0.75rem;\n15\n16  min-height: 100vh;\n17  display: flex;\n18  flex-direction: column;\n19  align-items: center;\n20  padding: 3rem 1rem;\n21}\n22\n23* {\n24  box-sizing: border-box;\n25}\n26\n27.form-title {\n28  font-size: 1.25rem;\n29  font-weight: 600;\n30  color: #111827;\n31  margin: 0;\n32}\n33\n34body {\n35  margin: 0;\n36  font-family: 'Inter', sans-serif;\n37  background-color: var(--background-light);\n38  color: var(--text-main);\n39  line-height: 1.5;\n40  -webkit-font-smoothing: antialiased;\n41}\n42\n43.layout-root {\n44  min-height: 100vh;\n45  display: flex;\n46  flex-direction: column;\n47  align-items: center;\n48  padding: 3rem 1rem;\n49}\n50\n51.main-container {\n52  width: 100%;\n53  max-width: 48rem;\n54  display: flex;\n55  flex-direction: column;\n56  gap: 2.5rem;\n57}\n58\n59.header {\n60  text-align: center;\n61  display: flex;\n62  flex-direction: column;\n63  gap: 0.75rem;\n64}\n65\n66.title-primary {\n67  font-size: 2.5rem;\n68  font-weight: 700;\n69  letter-spacing: -0.025em;\n70  margin: 0;\n71}\n72\n73@media (min-width: 768px) {\n74  .title-primary {\n75    font-size: 3rem;\n76  }\n77}\n78\n79.entry-item {\n80  background-color: var(--surface);\n81  border-radius: var(--radius-xl);\n82  padding: 1.5rem;\n83  border: 1px solid var(--border);\n84  box-shadow: var(--shadow-sm);\n85  transition: all 0.2s;\n86}\n87\n88.entry-item:hover {\n89  box-shadow: var(--shadow-md);\n90}\n91\n92.entry-date {\n93  font-size: 0.75rem;\n94  font-weight: 600;\n95  letter-spacing: 0.05em;\n96  color: var(--text-muted);\n97  text-transform: uppercase;\n98}\n99\n100.entry-title {\n101  margin: 0.25rem 0 0 0;\n102  font-size: 1.25rem;\n103  font-weight: 700;\n104  color: var(--text-main);\n105}\n106\n107.entry-content {\n108  color: #4b5563;\n109  line-height: 1.625;\n110  margin-top: 1rem;\n111  white-space: pre-wrap;\n112  font-size: 0.9375rem;\n113}\n114\n115.subtitle {\n116  font-size: 1.125rem;\n117  color: var(--text-muted);\n118  font-weight: 300;\n119  margin: 0;\n120}\n121\n122.entries-list {\n123  display: flex;\n124  flex-direction: column;\n125  gap: 1.5rem;\n126}\n127\n128.entries-section {\n129  display: flex;\n130  flex-direction: column;\n131  gap: 1.5rem;\n132}\n133\n134.card {\n135  background-color: var(--surface);\n136  border: 1px solid var(--border);\n137  border-radius: var(--radius-xl);\n138  padding: 1.5rem;\n139  box-shadow: var(--shadow-md);\n140}\n141\n142@media (min-width: 768px) {\n143  .card {\n144    padding: 2rem;\n145  }\n146}\n147\n148.form-header {\n149  margin-bottom: 1.5rem;\n150  display: flex;\n151  align-items: center;\n152  justify-content: space-between;\n153  color: var(--primary);\n154}\n155\n156.flex-center {\n157  display: flex;\n158  align-items: center;\n159  gap: 0.5rem;\n160}\n161\n162.btn-refine {\n163  display: flex;\n164  align-items: center;\n165  gap: 0.25rem;\n166  font-size: 0.75rem;\n167  font-weight: 600;\n168  text-transform: uppercase;\n169  letter-spacing: 0.05em;\n170  background-color: #eff6ff;\n171  color: var(--primary);\n172  padding: 0.375rem 0.75rem;\n173  border-radius: 9999px;\n174  border: none;\n175  cursor: pointer;\n176  transition: all 0.2s;\n177}\n178\n179.btn-refine:hover:not(:disabled) {\n180  background-color: #dbeafe;\n181}\n182\n183.btn-refine:disabled {\n184  opacity: 0.5;\n185  cursor: not-allowed;\n186}\n187\n188.form-group {\n189  margin-bottom: 1.5rem;\n190}\n191\n192.form-group label {\n193  display: block;\n194  font-size: 0.875rem;\n195  font-weight: 500;\n196  color: #374151;\n197  margin-bottom: 0.5rem;\n198}\n199\n200.input-field, .textarea-field {\n201  width: 100%;\n202  border-radius: var(--radius-lg);\n203  border: 1px solid #d1d5db;\n204  padding: 0.75rem 1rem;\n205  font-size: 0.875rem;\n206  box-shadow: var(--shadow-sm);\n207  transition: border-color 0.2s, ring 0.2s;\n208}\n209\n210.input-field:focus, .textarea-field:focus {\n211  outline: none;\n212  border-color: var(--primary);\n213  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);\n214}\n215\n216.textarea-field {\n217  resize: vertical;\n218}\n219\n220.btn-group {\n221  display: flex;\n222  justify-content: flex-end;\n223  gap: 0.75rem;\n224  margin-top: 1.5rem;\n225}\n226\n227.btn {\n228  display: inline-flex;\n229  align-items: center;\n230  padding: 0.625rem 1.25rem;\n231  font-size: 0.875rem;\n232  font-weight: 500;\n233  border-radius: var(--radius-lg);\n234  cursor: pointer;\n235  transition: all 0.2s;\n236  border: none;\n237}\n238\n239.btn-secondary {\n240  background-color: #ffffff;\n241  border: 1px solid #d1d5db;\n242  color: #374151;\n243}\n244\n245.btn-secondary:hover {\n246  background-color: #f9fafb;\n247  color: var(--text-main);\n248}\n249\n250.btn-primary {\n251  background-color: var(--primary);\n252  color: #ffffff;\n253  box-shadow: var(--shadow-sm);\n254}\n255\n256.btn-primary:hover {\n257  background-color: var(--primary-hover);\n258}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run code. You should see two buttons in the output. They don't do anything yet — that's fine. You'll add functionality in Chapter 3."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the following:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The buttons are wrapped in <div className=\"btn-group\">",
+        "Primary action uses className=\"btn btn-primary\"",
+        "Secondary action uses className=\"btn btn-secondary\"",
+        "The Clear button has type=\"button\" to prevent form submission"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

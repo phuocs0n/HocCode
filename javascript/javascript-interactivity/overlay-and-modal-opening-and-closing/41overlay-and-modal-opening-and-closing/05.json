@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/overlay-modal-opening-closing?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: When the user clicks inside the modal, why do we check event.target === overlay before calling closeModal()?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "So the modal does not close when the user clicks the close button."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The close button has its own click handler. This check is for the overlay click handler."
+    },
+    {
+      "type": "paragraph",
+      "content": "The close button has its own click handler. This check is for the overlay click handler."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the modal closes only when the user clicks the overlay, not when they click inside the modal content."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Clicking the overlay should close the modal. Clicking inside the modal should not, otherwise the modal would close while the user is trying to interact with the form."
+    },
+    {
+      "type": "paragraph",
+      "content": "Clicking the overlay should close the modal. Clicking inside the modal should not, otherwise the modal would close while the user is trying to interact with the form."
+    },
+    {
+      "type": "paragraph",
+      "content": "So we can support multiple modals."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Multiple modals are a different design. This check is about separating overlay clicks from modal clicks."
+    },
+    {
+      "type": "paragraph",
+      "content": "Multiple modals are a different design. This check is about separating overlay clicks from modal clicks."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the Escape key still works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Escape is handled in a keydown listener. It does not depend on the overlay click check."
+    },
+    {
+      "type": "paragraph",
+      "content": "Escape is handled in a keydown listener. It does not depend on the overlay click check."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: When the user clicks inside the modal, why do we check event.target === overlay before calling closeModal()?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:So the modal does not close when the user clicks the close button.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "So the modal does not close when the user clicks the close button.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So the modal closes only when the user clicks the overlay, not when they click inside the modal content.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So the modal closes only when the user clicks the overlay, not when they click inside the modal content.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:So we can support multiple modals.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "So we can support multiple modals.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So the Escape key still works.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So the Escape key still works.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

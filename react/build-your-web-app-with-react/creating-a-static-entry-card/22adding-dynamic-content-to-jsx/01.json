@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/adding-dynamic-content-to-jsx?page=2",
+  "title": "Store Data in a Variable",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Store Data in a Variable"
+    },
+    {
+      "type": "paragraph",
+      "content": "So let's take our first step in making our entry card dynamic."
+    },
+    {
+      "type": "paragraph",
+      "content": "To do that, we'll create variables to store the entries inside our App() function, right before the return statement:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function App() {\n2  const entryTitle = \"First Day at the Job\";\n3  const entryDate = \"FEBRUARY 10, 2026\";\n4  const entryContent = \"Today was my first day at the new job. Everyone was welcoming and helpful. I'm excited to learn more about the team and start contributing.\";\n5\n6  return (\n7    <div className=\"main-container\">\n8      <header className=\"header\">\n9        <h2 className=\"title-primary\">My Daily Journal</h2>\n10        <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n11      </header>\n12      \n13      <div className=\"entry-item\">\n14\n15        {/* The hardcoded data will be replaced later */}\n16        <div className=\"entry-date\">FEBRUARY 10, 2026</div>\n17        <h2 className=\"entry-title\">First Day at the Job</h2>\n18        <p className=\"entry-content\">Today was my first day at the new job...</p>\n19      </div>\n20    </div>\n21  );\n22}\n23\n24export default App;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1:root {\n2  --primary: #2563eb;\n3  --primary-hover: #1d4ed8;\n4  --danger: #ef4444;\n5  --danger-hover: #dc2626;\n6  --background-light: #f8fafc;\n7  --surface: #ffffff;\n8  --text-main: #111827;\n9  --text-muted: #6b7280;\n10  --border: #e5e7eb;\n11  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n12  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);\n13  --radius-lg: 0.5rem;\n14  --radius-xl: 0.75rem;\n15\n16  min-height: 100vh;\n17  display: flex;\n18  flex-direction: column;\n19  align-items: center;\n20  padding: 3rem 1rem;\n21}\n22\n23* {\n24  box-sizing: border-box;\n25}\n26\n27.form-title {\n28  font-size: 1.25rem;\n29  font-weight: 600;\n30  color: #111827;\n31  margin: 0;\n32}\n33\n34body {\n35  margin: 0;\n36  font-family: 'Inter', sans-serif;\n37  background-color: var(--background-light);\n38  color: var(--text-main);\n39  line-height: 1.5;\n40  -webkit-font-smoothing: antialiased;\n41}\n42\n43.layout-root {\n44  min-height: 100vh;\n45  display: flex;\n46  flex-direction: column;\n47  align-items: center;\n48  padding: 3rem 1rem;\n49}\n50\n51.main-container {\n52  width: 100%;\n53  max-width: 48rem;\n54  display: flex;\n55  flex-direction: column;\n56  gap: 2.5rem;\n57}\n58\n59.header {\n60  text-align: center;\n61  display: flex;\n62  flex-direction: column;\n63  gap: 0.75rem;\n64}\n65\n66.title-primary {\n67  font-size: 2.5rem;\n68  font-weight: 700;\n69  letter-spacing: -0.025em;\n70  margin: 0;\n71}\n72\n73@media (min-width: 768px) {\n74  .title-primary {\n75    font-size: 3rem;\n76  }\n77}\n78\n79.entry-item {\n80  background-color: var(--surface);\n81  border-radius: var(--radius-xl);\n82  padding: 1.5rem;\n83  border: 1px solid var(--border);\n84  box-shadow: var(--shadow-sm);\n85  transition: all 0.2s;\n86}\n87\n88.entry-item:hover {\n89  box-shadow: var(--shadow-md);\n90}\n91\n92.entry-date {\n93  font-size: 0.75rem;\n94  font-weight: 600;\n95  letter-spacing: 0.05em;\n96  color: var(--text-muted);\n97  text-transform: uppercase;\n98}\n99\n100.entry-title {\n101  margin: 0.25rem 0 0 0;\n102  font-size: 1.25rem;\n103  font-weight: 700;\n104  color: var(--text-main);\n105}\n106\n107.entry-content {\n108  color: #4b5563;\n109  line-height: 1.625;\n110  margin-top: 1rem;\n111  white-space: pre-wrap;\n112  font-size: 0.9375rem;\n113}\n114\n115.subtitle {\n116  font-size: 1.125rem;\n117  color: var(--text-muted);\n118  font-weight: 300;\n119  margin: 0;\n120}\n121\n122.entries-list {\n123  display: flex;\n124  flex-direction: column;\n125  gap: 1.5rem;\n126}\n127\n128.entries-section {\n129  display: flex;\n130  flex-direction: column;\n131  gap: 1.5rem;\n132}"
+    },
+    {
+      "type": "paragraph",
+      "content": "You have the data in variables, but the JSX is still hardcoded since we haven't used the variables inside the entry card."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, you need to explicitly tell React to use the variables. Only that way will your app be dynamic."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

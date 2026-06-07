@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/knuthmorrispratt-kmp-algorithm?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the role of the prefix table in the KMP algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To determine the length of the pattern."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The prefix table is not used to determine the length of the pattern."
+    },
+    {
+      "type": "paragraph",
+      "content": "The prefix table is not used to determine the length of the pattern."
+    },
+    {
+      "type": "paragraph",
+      "content": "To calculate the hash value for substrings."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Calculating hash values for substrings is not the function of the prefix table in KMP."
+    },
+    {
+      "type": "paragraph",
+      "content": "Calculating hash values for substrings is not the function of the prefix table in KMP."
+    },
+    {
+      "type": "paragraph",
+      "content": "To skip unnecessary text and pattern comparison."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The prefix table helps skip unnecessary text and pattern comparisons in an efficient manner."
+    },
+    {
+      "type": "paragraph",
+      "content": "The prefix table helps skip unnecessary text and pattern comparisons in an efficient manner."
+    },
+    {
+      "type": "paragraph",
+      "content": "To store the occurrence of the pattern in the text."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The prefix table stores information about occurrences of the pattern in the text, but that is not its chief role."
+    },
+    {
+      "type": "paragraph",
+      "content": "The prefix table stores information about occurrences of the pattern in the text, but that is not its chief role."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the role of the prefix table in the KMP algorithm?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To determine the length of the pattern.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To determine the length of the pattern.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To calculate the hash value for substrings.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To calculate the hash value for substrings.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To skip unnecessary text and pattern comparison.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To skip unnecessary text and pattern comparison.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To store the occurrence of the pattern in the text.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To store the occurrence of the pattern in the text.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

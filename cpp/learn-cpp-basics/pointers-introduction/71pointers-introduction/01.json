@@ -1,0 +1,140 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/pointers-introduction?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What might be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\nusing namespace std;\n\nint main() {\n    double number = 9.56;\n    cout << &number;\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "9.56"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number doesn't return the value of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "&number doesn't return the value of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "0x7ffce674ed24"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number returns the memory address of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "&number returns the memory address of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "9.56"
+    },
+    {
+      "type": "paragraph",
+      "content": "0x7ffce674ed24"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have only used one cout statement. So there can only be one line of output."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have only used one cout statement. So there can only be one line of output."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code runs without any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code runs without any errors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What might be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:9.56",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "9.56",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:0x7ffce674ed24",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0x7ffce674ed24",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:9.560x7ffce674ed24",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "9.560x7ffce674ed24",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Error",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Error",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

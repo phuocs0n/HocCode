@@ -1,0 +1,108 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/delete-duplicate-rows-from-table?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a table named Travel with columns source, destination, and distance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we need to delete duplicate rows from this table where the distance from source to destination is the same as the distance from destination to source."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, the distance from Mumbai to Bangalore is the same as the distance from Bangalore to Mumbai. So, we need to remove one of the records."
+    },
+    {
+      "type": "paragraph",
+      "content": "This problem has a simple 5-step solution:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use the DELETE statement to remove rows from the Travel table that satisfy our condition."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In the WHERE clause, we use ROWID to identify each row in the table. By default, every row in SQLite has a special column, usually called the \"rowid\", that uniquely identifies that row within the table."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The subquery in the WHERE clause needs to select the minimum ROWID for each unique combination of values between source and destination."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The NOT IN condition excludes these minimum ROWID values, resulting in the deletion of duplicate rows."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "After deleting the duplicate rows, the SELECT statement retrieves and displays all the remaining rows from the Travel table, which are those that have not been deleted."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The output will be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "source",
+          "destination",
+          "distance"
+        ],
+        [
+          "Mumbai",
+          "Bangalore",
+          "500"
+        ],
+        [
+          "Delhi",
+          "Mathura",
+          "150"
+        ],
+        [
+          "Nagpur",
+          "Pune",
+          "500"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

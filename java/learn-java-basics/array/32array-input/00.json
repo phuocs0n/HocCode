@@ -1,0 +1,94 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-basics/array-input?page=1",
+  "title": "Getting Array Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Getting Array Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Like with variables, you can take input from the users to assign values to your array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Like before, you must first import the scanner class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.util.Scanner;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, you must create a Scanner object as:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Scanner input = new Scanner(System.in);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we can also create input values for each array element using input.nextInt()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        // Create object of Scanner\n7        Scanner input = new Scanner(System.in);\n8        \n9        int[] numbers = new int[4];\n10        \n11        System.out.println(\"Enter the first element: \");\n12        numbers[0] = input.nextInt();\n13        \n14        System.out.println(\"Enter the second element: \");\n15        numbers[1] = input.nextInt();\n16        \n17        System.out.println(\"Enter the third element: \");\n18        numbers[2] = input.nextInt();\n19        \n20        System.out.println(\"Enter the fourth element: \");\n21        numbers[3] = input.nextInt();\n22        \n23        // Access array elements\n24        System.out.println(\"Array Elements:\");\n25        for (int index = 0; index < numbers.length; ++index) {\n26            System.out.println(numbers[index]);\n27        }\n28\n29        input.close();\n30    }\n31}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the first element:\n21\nEnter the second element: \n22\nEnter the third element: \n23\nEnter the fourth element: \n24\nArray Elements:\n21\n22\n23\n24"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, each array element, numbers[index], acts as an individual variable and we are getting input value for each of the array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also, we are repeating a similar code to take input value."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers[index] = input.nextInt();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Naturally, we'll replace this with a for loop which we'll cover next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,82 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/python-sets?page=2",
+  "title": "Creating Sets",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Sets"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set is created by placing items inside curly braces {}, separated by commas. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1animals = {'dog', 'cat', 'tiger'}\n2print(animals)   # {'dog', 'cat', 'tiger'}\n3\n4mixed_set = {4, 'tiger', 3.5}\n5print(mixed_set)   # {3.5, 'tiger', 4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we look at the output, we can see that items may be printed in a different order."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Duplicate Items in a Set"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see what will happen if we try to include duplicate items in a set."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = {1, 2, 1, 5, 2}\n2print(numbers)   # {1, 2, 5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we can see that there are no duplicate items in the set since a set cannot contain duplicates."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Creating an Empty Set"
+    },
+    {
+      "type": "paragraph",
+      "content": "We cannot create an empty set using {} because it would create a dictionary instead. To create an empty set, we use the built-in set() function."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# empty set\n2my_set = set()\n3\n4print(my_set)   # set()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn to add and update sets."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

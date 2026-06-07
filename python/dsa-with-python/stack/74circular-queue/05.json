@@ -1,0 +1,47 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-python/circular-queue?page=6",
+  "title": "Source Code: Circular Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Circular Queue"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class CircularQueue:\n2   \n3    def __init__(self, capacity):\n4        self.capacity = capacity\n5        self.queue = [None] * capacity\n6       \n7        self.front = 0  # Points to the item to be removed\n8        self.rear = -1  # Points to the last inserted item\n9        self.count = 0  # Number of elements currently in the queue\n10\n11\n12    def is_full(self):\n13        return self.count == self.capacity\n14\n15\n16    def is_empty(self):\n17        return self.count == 0\n18\n19\n20    def enqueue(self, item):\n21        if self.is_full():\n22            print(\"We can't add elements. The queue is full.\")\n23            return\n24       \n25        self.rear = (self.rear + 1) % self.capacity\n26        self.queue[self.rear] = item\n27        self.count += 1\n28\n29\n30    def dequeue(self):\n31        if self.is_empty():\n32            print(\"We can't remove elements. The queue is empty.\")\n33            return None\n34       \n35        item_removed = self.queue[self.front]\n36        self.queue[self.front] = None\n37        self.front = (self.front + 1) % self.capacity\n38        self.count -= 1\n39        return item_removed\n40\n41\n42    def display(self):\n43        print(self.queue)\n44        print(f\"Front index: {self.front}, Rear index: {self.rear}, Count: {self.count}\")\n45\n46\n47queue1 = CircularQueue(8)\n48\n49queue1.enqueue(12)\n50queue1.enqueue(77)\n51queue1.enqueue(34)\n52queue1.enqueue(21)\n53queue1.enqueue(67)\n54\n55print(\"After inserting five elements:\")\n56queue1.display()\n57print(\"---\")\n58\n59queue1.dequeue()\n60queue1.dequeue()\n61\n62print(\"After removing two elements:\")\n63queue1.display()\n64print(\"---\")\n65\n66queue1.enqueue(45)\n67queue1.enqueue(73)\n68queue1.enqueue(65)\n69\n70print(\"After inserting three elements:\")\n71queue1.display()\n72print(\"---\")\n73\n74queue1.enqueue(54)\n75print(\"After inserting one more (should wrap):\")\n76queue1.display()\n77print(\"---\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "After inserting five elements:\n[12, 77, 34, 21, 67, None, None, None]\nFront index: 0, Rear index: 4, Count: 5\n---\nAfter removing two elements:\n[None, None, 34, 21, 67, None, None, None]\nFront index: 2, Rear index: 4, Count: 3\n---\nAfter inserting three elements:\n[None, None, 34, 21, 67, 45, 73, 65]\nFront index: 2, Rear index: 7, Count: 6\n---\nAfter inserting one more (should wrap):\n[54, None, 34, 21, 67, 45, 73, 65]\nFront index: 2, Rear index: 0, Count: 7\n---"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,136 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/comments?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Identify the comment from the given lines of code."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# print Hello World\nprint(\"Hello World\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(\"Hello World\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not a comment since it doesn't begin with a #."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not a comment since it doesn't begin with a #."
+    },
+    {
+      "type": "paragraph",
+      "content": "# print Hello World"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a comment because it begins with a #."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a comment because it begins with a #."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The # symbol is used to indicate the start of a comment. So, it is only a part of the comment, not the entire comment itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "The # symbol is used to indicate the start of a comment. So, it is only a part of the comment, not the entire comment itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "# print Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "print(\"Hello World\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, only the first line beginning with # is a comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, only the first line beginning with # is a comment."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Identify the comment from the given lines of code.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:print(\"Hello World\")",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "print(\"Hello World\")",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:# print Hello World",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "# print Hello World",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:#",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "#",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:# print Hello Worldprint(\"Hello World\")",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "# print Hello Worldprint(\"Hello World\")",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

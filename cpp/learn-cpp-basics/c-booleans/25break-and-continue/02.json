@@ -1,0 +1,124 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/break-continue?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\nusing namespace std;\n\nint main() {\n\n    for (int i = 1; i < 5; ++i) {\n        if (i == 3) {\n            break;\n        }\n        cout << i << endl;\n    }\n\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the value of i after the break statement. When i is 3, the loop terminates. Hence, 1 and 2 will be printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the value of i after the break statement. When i is 3, the loop terminates. Hence, 1 and 2 will be printed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the value of i after the break statement. When i is 3, the loop terminates. Hence, 3 will not be printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed the value of i after the break statement. When i is 3, the loop terminates. Hence, 3 will not be printed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The for loop should run 4 times. However, the break statement terminates the loop when i is equal to 3."
+    },
+    {
+      "type": "paragraph",
+      "content": "The for loop should run 4 times. However, the break statement terminates the loop when i is equal to 3."
+    },
+    {
+      "type": "paragraph",
+      "content": "(error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:12",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:123",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "123",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:1234",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "1234",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(error)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(error)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

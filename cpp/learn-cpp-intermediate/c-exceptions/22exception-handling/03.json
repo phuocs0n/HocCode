@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/exception-handling?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements is correct?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We put the code that might cause an exception inside the try block."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "This statement is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is compulsory to use the throw statement when handling exceptions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can skip the throw statement in some selected cases."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can skip the throw statement in some selected cases."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to supply a parameter to the try block."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The try block doesn't take arguments."
+    },
+    {
+      "type": "paragraph",
+      "content": "The try block doesn't take arguments."
+    },
+    {
+      "type": "paragraph",
+      "content": "We put the code that might cause an exception inside the catch block."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We put the code to handle the exception in the catch block."
+    },
+    {
+      "type": "paragraph",
+      "content": "We put the code to handle the exception in the catch block."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements is correct?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:We put the code that might cause an exception inside the try block.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We put the code that might cause an exception inside the try block.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It is compulsory to use the throw statement when handling exceptions.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It is compulsory to use the throw statement when handling exceptions.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:We need to supply a parameter to the try block.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "We need to supply a parameter to the try block.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:We put the code that might cause an exception inside the catch block.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "We put the code that might cause an exception inside the catch block.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

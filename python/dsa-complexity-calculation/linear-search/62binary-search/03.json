@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/binary-search?page=4",
+  "title": "Best Case",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Best Case"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the target is present in the middle of the array, then we will find the target in the very first iteration, making it the best case scenario."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Time complexity = O(1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Meaning, the time complexity to find the target value always remains constant regardless of the size of the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use any asymptotic notation to represent the best case."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "O(1)",
+        "Ω(1)",
+        "Θ(1)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

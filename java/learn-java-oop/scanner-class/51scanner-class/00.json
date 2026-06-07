@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/scanner-class?page=1",
+  "title": "Scanner class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Scanner class"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember this code to take input from the user."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5\n6        Scanner input = new Scanner(System.in);\n7\n8        // take integer input from the user\n9        System.out.print(\"Enter an integer: \");\n10        int number = input.nextInt();\n11\n12        System.out.println(\"You entered \" + number);\n13\n14        // closing the scanner object\n15        input.close();\n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter an integer: 3\nYou entered 3"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used Scanner to take input from the user. Notice the code,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Scanner input = new Scanner(System.in);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This looks similar to the syntax of creating objects. It's because Scanner is a class that has various methods defined inside it and we are using the object to call those methods."
+    },
+    {
+      "type": "paragraph",
+      "content": "The System.in parameter is used to take input from the standard input (keyboard)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also, the code import java.util.Scanner; is used to import the Scanner class in our program. Here, java.util is a package where Scanner is defined and the import keyword includes the package in our code."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will explore this in our next course. For now, just remember that this code imports the Scanner class in our program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

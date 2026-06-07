@@ -1,0 +1,68 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-c/example-fibonacci-series?page=1",
+  "title": "Example: Fibonacci Series Using Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Fibonacci Series Using Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will create a program to find the number in the nth position of the Fibonacci series."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Fibonacci series is a sequence where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are 0 and 1."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, ..."
+    },
+    {
+      "type": "paragraph",
+      "content": "A Fibonacci series of n numbers is:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "0, 1, 1, ... value at (n - 2), value at (n - 1), [value at (n -1) + value at (n -2)]"
+    },
+    {
+      "type": "paragraph",
+      "content": "So,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "nth element = (n - 2)th element + (n - 1)th element"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's try to think about this in a recursive way."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

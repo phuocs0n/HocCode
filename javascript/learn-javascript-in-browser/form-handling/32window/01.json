@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/window?page=2",
+  "title": "Using Alert",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using Alert"
+    },
+    {
+      "type": "paragraph",
+      "content": "The alert() method of the window object allows you to display text in a simple alert box."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<button id=\"btn\">Greet</button>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const btn = document.querySelector(\"#btn\");\n2\n3btn.addEventListener(\"click\", () => {\n4    window.alert(\"Hello!\");\n5});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code and click the button."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll see the text \"Hello!\" appear in an alert box."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice alert() and console.log() are quite similar, as both simply display the text specified inside them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see a practical example of where you might use alert()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

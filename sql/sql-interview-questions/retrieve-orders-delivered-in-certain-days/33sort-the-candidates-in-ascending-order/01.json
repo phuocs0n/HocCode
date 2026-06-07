@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/sort-candidates-in-ascending-order?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a Candidates table with the columns candidate_id, name, python, and SQL."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to find the candidates suitable for data science under the alias fit_candidate and sort the result in ascending order of candidate_id."
+    },
+    {
+      "type": "paragraph",
+      "content": "We assume a candidate is suitable for the job if they are Good at both python and SQL."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we need to take the following approach:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Select the rows with the value Good in both the python and SQL columns.",
+        "Retrieve the candidate_id in ascending order.",
+        "Return the names of the candidates as a column under the alias fit_candidate."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, our SQL query will use the WHERE condition along with the ORDER BY, AS, and ASC commands."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

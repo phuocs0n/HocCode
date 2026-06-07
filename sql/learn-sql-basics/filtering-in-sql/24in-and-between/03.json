@@ -1,0 +1,143 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/in-between?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Consider this SQL query:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT age\nFROM Customers\nWHERE age IN (22, 28);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Which of the following is equivalent to the query given above?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT age\nFROM Customers\nWHERE age > 22 OR age < 28;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects customers with ages greater than 22 or less than 28."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects customers with ages greater than 22 or less than 28."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT age\nFROM Customers\nWHERE age = 22 AND age = 28;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects customers with ages that are both 22 and 28, which is not possible. Hence, the result set will be empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects customers with ages that are both 22 and 28, which is not possible. Hence, the result set will be empty."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT age\nFROM Customers\nWHERE age = 22 OR age = 28;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects customers with ages of either 22 or 28."
+    },
+    {
+      "type": "paragraph",
+      "content": "This query selects customers with ages of either 22 or 28."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Consider this SQL query:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:SELECT age\nFROM Customers\nWHERE age > 22 OR age < 28;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "SELECT age\nFROM Customers\nWHERE age > 22 OR age < 28;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:SELECT age\nFROM Customers\nWHERE age = 22 AND age = 28;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "SELECT age\nFROM Customers\nWHERE age = 22 AND age = 28;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:SELECT age\nFROM Customers\nWHERE age = 22 OR age = 28;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "SELECT age\nFROM Customers\nWHERE age = 22 OR age = 28;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

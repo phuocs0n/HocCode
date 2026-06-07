@@ -1,0 +1,83 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/miscellaneous?page=4",
+  "title": "Truthy and Falsy",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Truthy and Falsy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take an example to understand this concept:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int x = 8;\n7\n8    if (x) {\n9        cout << x; \n10    }\n11\n12    return 0;\n13}\n14\n15// Output: 8"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the code inside the if statement is executed. It's because 8 evaluates to true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's take another example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int x = 0;\n7\n8    if (x) {\n9        cout << x; \n10    }\n11\n12    return 0;\n13}\n14\n15// No Output"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the program doesn't print any output. It's because 0 evaluates to false."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values that evaluate to true are known as truthy values. Similarly, values that evaluate to false are called falsy values."
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, these values are considered falsy."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "false",
+        "0",
+        "0.0"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "All other values are considered truthy."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see why this concept is important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

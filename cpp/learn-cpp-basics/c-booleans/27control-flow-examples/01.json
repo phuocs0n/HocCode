@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/control-flow-examples?page=2",
+  "title": "Check Leap Year",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Leap Year"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every leap year follows a certain pattern."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A leap year is perfectly divisible by 4 except for century years (years ending with 00)",
+        "A century year is a leap year only if it is perfectly divisible by 400."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "2017 - Not a leap year. Not divisible by 4. \n2000 - Leap year. Century year that is divisible by 400\n1900 - Not a leap year. Century year but not divisible by 400\n2012 - Leap year. Divisible by 4 and not a century year."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try to implement this logic in our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code 1"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int year = 2000;\n7\n8    // if divisible by 400, it's a leap year\n9    if (year % 400 == 0) {\n10        cout << \"Leap Year\";\n11    }\n12\n13    // at this point, we know it's not divisible by 400\n14    // if it's s century year, it's not a leap year\n15    else if (year % 100 == 0) {\n16        cout << \"Not a Leap Year\";\n17    }\n18  \n19    // at this point we know it's not a century year\n20    // if a non-century year is divisible by 4, it's a leap year\n21    else if (year % 4 == 0) {\n22        cout << \"Leap Year\";\n23    }\n24\n25    // all other remaining years are not a leap year\n26    else {\n27        cout << \"Not a Leap Year\";\n28    }\n29\n30    return 0;\n31}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code 2"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int year = 2000;\n7\n8    // if a year is divisible by 4 and not divisible by 100\n9    // or year is divisible by 400, it's a leap year\n10    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {\n11        cout << \"Leap Year\";\n12    }\n13\n14    // all other remaining years are not a leap year\n15    else {\n16        cout << \"Not a Leap Year\";\n17    }\n18\n19    return 0;\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, there are various ways to solve this problem. Can you think of another way to solve it?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

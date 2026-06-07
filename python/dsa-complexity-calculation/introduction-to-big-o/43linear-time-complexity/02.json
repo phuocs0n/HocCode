@@ -1,0 +1,79 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/linear-time-complexity?page=3",
+  "title": "Understanding Linear Time Complexity",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Linear Time Complexity"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take the same example from our last page to understand linear time complexity better."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_numbers(n):\n2    for i in range(0, n, 3):\n3        print(i)\n4\n5print_numbers(6)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "0\n3"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the function executes a for loop that iterates from 0 to n, with a step of 3. Its execution is complete in 2n3\\cfrac{2n}{3}32n​ steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "The total number of iterations, thus, (and thus the steps executed) is directly proportional to n."
+    },
+    {
+      "type": "paragraph",
+      "content": "Scenarios:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If n = 6, the code executes  23∗6\\cfrac{2}{3} * 632​∗6  = 4 statements",
+        "If n = 87, the code executes 23∗87\\cfrac{2}{3} * 8732​∗87 = 58 statements",
+        "If n = 10002, the code executes 23∗10002\\cfrac{2}{3} * 1000232​∗10002 = 6668 statements"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that the number of steps required to run our code is not equal to the input but directly proportional to the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "As long as the number of steps needed to execute the code is directly proportional to the input size, the function's time complexity is linear—O(n)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

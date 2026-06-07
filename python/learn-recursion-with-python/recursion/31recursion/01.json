@@ -1,0 +1,85 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/recursion?page=2",
+  "title": "Infinite Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Infinite Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is an example of infinite recursion with arguments."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_numbers(n):    \n2    print (n)\n3    print_numbers(n)\n4\n5print_numbers(100)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "100\n100\n100\n100\n..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have called the print_numbers() function with 100 as an argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the first call (original call):"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 100, which is printed.",
+        "The print_numbers() function is called again with 100 as an argument."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In the second call (first recursive call):"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 100 again, which is printed.",
+        "The print_numbers() function is called again with 100 as an argument."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Essentially, this program will run continuously with 100 as an argument in each function call."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will modify this program so the value of the argument is changed with each recursive function call."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

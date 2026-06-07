@@ -1,0 +1,55 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-c-programming/logical-operators?page=7",
+  "title": "!(KHÔNG) Toán tử",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "!(KHÔNG) Toán tử"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dưới đây là ví dụ hiển thị bốn trường hợp cho toán tử OR:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int age = 22;\n6\n7  // 0 (false) because (age > 21) is true\n8  if ( age != 21 ) {\n9      printf(\"You are not 21\");\n10  } \n11  else {\n12     printf(\"You are 21\");\n13 }\n14 \n15    return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu ra mẫu"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "You are not 21"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy kiểm tra sự hiểu biết của bạn bằng một bài kiểm tra tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/custom-hooks-state?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In SpeedBlip, why do all pages read data from custom hooks instead of fetching or storing data directly in components?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React hooks are faster than component-level state for reading from localStorage"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Performance is not the primary reason. Custom hooks and component state have comparable performance for localStorage reads. The reason is about data ownership and consistency."
+    },
+    {
+      "type": "paragraph",
+      "content": "Performance is not the primary reason. Custom hooks and component state have comparable performance for localStorage reads. The reason is about data ownership and consistency."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks require less code than component-level data fetching"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the short term, component-level fetching can actually require less boilerplate. The reason for hooks is about architecture - ensuring one owner for each piece of state - not code brevity."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the short term, component-level fetching can actually require less boilerplate. The reason for hooks is about architecture - ensuring one owner for each piece of state - not code brevity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks create a single source of truth so no two components can have different views of the same data"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. When Dashboard and History both call useSpeedTest(), they read the same results array from the same hook instance. There is no possibility of inconsistency because there is only one data source."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. When Dashboard and History both call useSpeedTest(), they read the same results array from the same hook instance. There is no possibility of inconsistency because there is only one data source."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify's serverless functions only work with custom React hooks"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify's functions are server-side and have no dependency on how React hooks are structured. Custom hooks are a front-end architectural pattern unrelated to serverless functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify's functions are server-side and have no dependency on how React hooks are structured. Custom hooks are a front-end architectural pattern unrelated to serverless functions."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In SpeedBlip, why do all pages read data from custom hooks instead of fetching or storing data directly in components?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React hooks are faster than component-level state for reading from localStorage",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React hooks are faster than component-level state for reading from localStorage",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Custom hooks require less code than component-level data fetching",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Custom hooks require less code than component-level data fetching",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Custom hooks create a single source of truth so no two components can have different views of the same data",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Custom hooks create a single source of truth so no two components can have different views of the same data",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Netlify's serverless functions only work with custom React hooks",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Netlify's serverless functions only work with custom React hooks",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

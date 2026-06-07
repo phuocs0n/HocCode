@@ -1,0 +1,46 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/fetch-api?page=2",
+  "title": "Example: Loading Movie Data",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Loading Movie Data"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a very simple JavaScript code to fetch some movie data:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1fetch(\"https://api.programiz.pro/api/demo/javascript/movies\")\n2    .then(response => {\n3        return response.json();\n4    })\n5    .then(result => {\n6        console.log(\"movies:\", result.movies);\n7    })\n8    .catch(error => {\n9        console.error(\"Could not load movie details:\", error.message);\n10});"
+    },
+    {
+      "type": "paragraph",
+      "content": "At first, it might look like a lot is happening here. So let's slow down and examine the code step by step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

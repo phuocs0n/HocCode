@@ -1,0 +1,50 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-5?page=5",
+  "title": "Removing Unavailable Books",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Removing Unavailable Books"
+    },
+    {
+      "type": "paragraph",
+      "content": "The management team decided to clean the database and said, \"We need to clean up our database by removing all books that are currently marked as unavailable. How can you do that?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, you can use the DELETE FROM statement as:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1DELETE FROM Books\n2WHERE availability = 'No';"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above query removes all the books that are unavailable from the Books table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

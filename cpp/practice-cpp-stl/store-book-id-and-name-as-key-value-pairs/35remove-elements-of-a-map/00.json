@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/remove-elements-of-map?page=1",
+  "title": "Remove Elements of a Map",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Remove Elements of a Map"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to remove the element of a map."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get integer input for the key variable.",
+        "Initialize a map called songs of integer key and string value with the key-value pairs {1, \"Smells Like Teen Spirit\"}, {2, \"Last Kiss\"}, and {3, \"Keep On Rockin In The Free World\"}.",
+        "Remove the element given by the key variable using erase().",
+        "Print the modified map."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputkey = 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output2 - Last Kiss\n3 - Keep On Rockin In The Free World"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

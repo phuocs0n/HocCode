@@ -1,0 +1,46 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors?page=10",
+  "title": "Takeaway From This Project",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Takeaway From This Project"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Using Classes and Objects"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have put all the game-related tasks inside the Game class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we want to run our game again and again until the user decides to quit it. In such scenarios, we can add code to accomplish those functionalities outside of the class. It's because our Game class should contain code only related to the game."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

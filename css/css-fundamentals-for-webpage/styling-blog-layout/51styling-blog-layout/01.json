@@ -1,0 +1,93 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/styling-blog-layout?page=1",
+  "title": "Display Properties – block, inline, inline-block",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Display Properties – block, inline, inline-block"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before layouts, developers ask:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Why is this element taking full width? Why is this one not?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The answer usually starts with a display."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What You're Already Seeing"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "<div>, <section>, <p> → block",
+        "<span>, <a> → inline"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You didn't choose this — HTML did."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Practical Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<article>\n2  <h2>Understanding Display</h2>\n3  <p>\n4    <span>Spans stay inline</span>\n5    and flow with text.\n6  </p>\n7\n8  <div class=\"tag\">HTML</div>\n9  <div class=\"tag\">CSS</div>\n10  <div class=\"tag\">Layout</div>\n11</article>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1article {\n2  display: block;\n3}\n4\n5span {\n6  display: inline;\n7}\n8\n9.tag {\n10  display: inline-block;\n11  padding: 6px 12px;\n12}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Intuition"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "block → full width, stacks vertically",
+        "inline → flows with text",
+        "inline-block → inline, but can have size"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's enough for now."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

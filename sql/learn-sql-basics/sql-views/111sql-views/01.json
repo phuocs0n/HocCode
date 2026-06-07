@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-views?page=1",
+  "title": "SQL Views",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "SQL Views"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous chapter, you learned about SQL Window Functions, which allow you to analyze data without modifying the original tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "What if you frequently need to access specific columns from a table without writing long queries every time?"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is where SQL Views come in. A view is like a virtual table that stores the result of a query, making data retrieval faster and easier."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at a simple real-world scenario where a view can be helpful."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

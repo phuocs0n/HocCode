@@ -1,0 +1,188 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/local-variables?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nvoid findProduct() {\n\n  int result = 4 * 9;\n}\n\nint main() {\n\n  printf(\"%d\", result);\n\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "36"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable inside the main() function is not defined. Remember, the int result = 4 * 9 is local to the findProduct() function only. It doesn't exist outside."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable inside the main() function is not defined. Remember, the int result = 4 * 9 is local to the findProduct() function only. It doesn't exist outside."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable is not defined. It only exists inside the findProduct() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable is not defined. It only exists inside the findProduct() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "result"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the result variable not the text \"result\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the result variable not the text \"result\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable inside the main() function is not defined. Remember, the int result = 4 * 9 is local to the findProduct() function only. It doesn't exist outside."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable inside the main() function is not defined. Remember, the int result = 4 * 9 is local to the findProduct() function only. It doesn't exist outside."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable is not defined. It only exists inside the findProduct() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result variable is not defined. It only exists inside the findProduct() function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the result variable not the text \"result\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are printing the result variable not the text \"result\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:36",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "36",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(Error)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:result",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "result",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

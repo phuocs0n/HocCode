@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-circular-linked-list?page=3",
+  "title": "Source Code: Find Maximum in a Circular Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Find Maximum in a Circular Linked List"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Return the maximum element of he list.\n2T find_max(){\n3    Node<T>* current = head;\n4    // Initally we assume\n5    // the head has a maximum value\n6    int maximum = head->data;\n7    \n8    // Loop until the next node is a head\n9    while(current->next != head){\n10        current = current->next;\n11        // Compare if the value of current node\n12        // is greater than the maximum value\n13        if(current->data > maximum){\n14            // update the maximum value\n15           maximum = current->data;\n16        }\n17    }\n18    return maximum;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "10->20->30->10\nMaximum Value:30"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

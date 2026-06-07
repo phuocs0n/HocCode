@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/check-if-key-exists-in-set?page=1",
+  "title": "Check if a Key Exists in a Set",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check if a Key Exists in a Set"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to check if a key exists in a set."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get string input and store it in the key variable.",
+        "Initialize a string set called languages with the elements C++, Python, Swift, and Java.",
+        "Check if key exists in the set using count().",
+        "If it does, print \"key exists in the set\".",
+        "Else, print \"key doesn't exist in the set\"."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputkey = C++"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputC++ exists in the set"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

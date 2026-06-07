@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/interesting-movies-with-odd-numbered-ids?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have a Movies table with columns movie_id, title, description, and rating."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to retrieve movies that have an odd-numbered movie_id and a description that isn't Boring."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we first need a method to check whether a number is odd or even:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Odd numbers are numbers that aren't perfectly divisible by 2.",
+        "Even numbers are numbers that are perfectly divisible by 2."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we now need to filter movie ids that aren't perfectly divisible by 2, which is given by the condition movie_id % 2 <> 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then filter the rows by the description column, where the value is not equal to Boring."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we will need to sort the result in descending order by rating using the ORDER BY clause."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

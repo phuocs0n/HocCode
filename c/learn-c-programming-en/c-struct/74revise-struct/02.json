@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-struct?page=3",
+  "title": "Store Information of a Student Using Struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Store Information of a Student Using Struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will learn to store information about a student by using a structure."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3struct Student {\n4  char firstName[50];\n5  int roll;\n6  double marks;\n7} student1;\n8\n9int main() {\n10\n11  // get information of the student\n12  printf(\"Enter name: \");\n13  fgets(student1.firstName, sizeof(student1.firstName), stdin);\n14\n15  printf(\"Enter roll: \");\n16  scanf(\" %d\", &student1.roll);\n17\n18  printf(\"Enter marks: \");\n19  scanf(\" %lf\", &student1.marks);\n20\n21\n22  // print student info\n23  printf(\"Name: %s\", student1.firstName);\n24  printf(\"Roll: %d\\n\", student1.roll);\n25  printf(\"Marks: %.2lf\", student1.marks);\n26\n27  return 0;\n28}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter name: John\nEnter roll: 213\nEnter marks: 83\nName: John\nRoll: 213\nMarks: 83.00"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

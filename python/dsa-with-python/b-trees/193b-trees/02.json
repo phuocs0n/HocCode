@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/bplus-trees?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why is latency high for range queries in a B-tree?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "They require pointers to be rearranged frequently."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Rearrangement of pointers is part of tree traversal. However, B-trees require multiple disk accesses due to data being stored in the primary and secondary memories."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rearrangement of pointers is part of tree traversal. However, B-trees require multiple disk accesses due to data being stored in the primary and secondary memories."
+    },
+    {
+      "type": "paragraph",
+      "content": "The same node is accessed repeatedly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While a node might be accessed multiple times, the main reason behind high latency is the need to move data between the primary and secondary memories."
+    },
+    {
+      "type": "paragraph",
+      "content": "While a node might be accessed multiple times, the main reason behind high latency is the need to move data between the primary and secondary memories."
+    },
+    {
+      "type": "paragraph",
+      "content": "Data is transferred frequently between the primary and secondary memories."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Accessing data in B-trees requires frequent disk transfers between the primary and secondary memories, which increases the overall time required for the operation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Accessing data in B-trees requires frequent disk transfers between the primary and secondary memories, which increases the overall time required for the operation."
+    },
+    {
+      "type": "paragraph",
+      "content": "All nodes of the tree are processed at once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "B-tree operations are typically executed on individual nodes, not on all nodes at once."
+    },
+    {
+      "type": "paragraph",
+      "content": "B-tree operations are typically executed on individual nodes, not on all nodes at once."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why is latency high for range queries in a B-tree?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:They require pointers to be rearranged frequently.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "They require pointers to be rearranged frequently.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The same node is accessed repeatedly.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The same node is accessed repeatedly.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Data is transferred frequently between the primary and secondary memories.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Data is transferred frequently between the primary and secondary memories.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:All nodes of the tree are processed at once.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "All nodes of the tree are processed at once.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,77 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors?page=7",
+  "title": "Step 5: Decide Win, Lose, or Draw",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 5: Decide Win, Lose, or Draw"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "add the get_result() function to the Game class to store the result of the game"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Function Objectives"
+    },
+    {
+      "type": "paragraph",
+      "content": "The purpose of this function is to"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "compare user_pick and computer_pick",
+        "return the game result based on our game logic"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\n#include <cstdlib>\n#include <ctime>\nusing namespace std;\n\nclass Game {\n    private:\n        string user_pick;\n        string computer_pick;\n        string result;\n\n    public:\n\n        // function to return computer's pick\n        string get_computer_pick() {\n            \n            // generate random number based on time\n            srand(time(NULL));\n\n            // random number between 1 and 3\n            int random_number = (rand() % 3) + 1;\n\n            switch(random_number) {\n                case 1:\n                    computer_pick = \"rock\";\n                    break;\n        \n                case 2:\n                    computer_pick = \"paper\";\n                    break;\n\n                case 3:\n                    computer_pick = \"scissors\";\n                    break;\n            }\n\n            return computer_pick;\n        }\n\n        // function to return user's pick\n        string get_user_pick() {\n\n            char user_input;\n\n            // get input until user enters 'r', 'p', or 's'\n            while (1) {\n\n                cout << \"Enter Your Choice (r for rock, p for paper, s for scissors): \";\n                cin >> user_input;\n\n                // convert user_pick to lowercase\n                user_input = tolower(user_input);\n\n                // assign appropriate string to user_pick\n                if (user_input == 'r') {\n                    user_pick = \"rock\";\n\n                    // terminate while loop\n                    break;\n                }\n                else if (user_input == 'p') {\n                    user_pick = \"paper\";\n\n                    // terminate while loop\n                    break;\n                }\n                else if (user_input == 's') {\n                    user_pick = \"scissors\";\n\n                    // terminate while loop\n                    break;\n                }\n            }\n\n            return user_pick;\n        }\n\n\n        // return either \"win\", \"lose\" or \"draw\"\n        string get_result(char user_pick, char computer_pick) {\n\n            // condition for user to draw\n            if (user_pick == computer_pick) {\n                return \"draw\";\n            }\n\n            // condition for user to win\n            else if (user_pick == \"paper\" && computer_pick == \"rock\") {\n                return \"win\";\n            }\n\n            else if (user_pick == \"rock\" && computer_pick == \"scissors\") {\n                return \"win\";\n            }\n\n            else if (user_pick == \"scissors\" && computer_pick == \"paper\") {\n                return \"win\";\n            }\n\n            // all other conditions result in loss\n            else {\n                return \"lose\";\n            }\n        }\n\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the get_result() function compares the computer_pick and user_pick and returns"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\"draw\" if the computer pick and the user pick are the same",
+        "\"win\" if the user wins using the rule we described earlier",
+        "\"lose\" if neither condition for draw and win is met"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,75 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/polymorphism?page=1",
+  "title": "What is Polymorphism? How can we implement it in Java?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is Polymorphism? How can we implement it in Java?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (method or operator) can perform different operations in different scenarios."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, we can implements polymorphism with two ways:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Method Overriding"
+    },
+    {
+      "type": "paragraph",
+      "content": "If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// makeSound() in the superclass\nclass Animal {\n    void makeSound() {\n        System.out.println(\"Animal Sound\");\n    }\n}\n\n// makeSound() in the subclass\nclass Dog extends Animal {\n    void makeSound() {\n        System.out.println(\"Woof Woof\");\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see we are able to use the same method makeSound() to perform two different tasks, which is the basic principle of polymorphism."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Method Overloading"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, if two or more methods have same name but different numbers/types of parameters, it is known as method overloading."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// method with two parameters\nvoid add(int number1, int number2) {\n    int sum = number1 + number2;\n    System.out.println(\"Sum of 2 digits: \" + sum);\n}\n    \n// method with 3 parameters\nvoid add(int number1, int number2, int number3) {\n    int sum = number1 + number2 + number3;\n    System.out.println(\"Sum of 3 digits: \" + sum);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the example above, we are able to use the same method for two different purposes i.e., we've \"polymorphed\" the method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

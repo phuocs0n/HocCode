@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/right-join?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does a RIGHT JOIN do in SQL?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Returns all the rows from the left table and matching rows from the right table"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what a LEFT JOIN does, not a RIGHT JOIN."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what a LEFT JOIN does, not a RIGHT JOIN."
+    },
+    {
+      "type": "paragraph",
+      "content": "Returns all the rows from the right table and matching rows from the left table."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A RIGHT JOIN selects all rows from the right table and matching rows from the left table."
+    },
+    {
+      "type": "paragraph",
+      "content": "A RIGHT JOIN selects all rows from the right table and matching rows from the left table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Returns all rows from both tables, regardless of whether they match or not."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what a FULL JOIN does, which we'll learn in the next lesson."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what a FULL JOIN does, which we'll learn in the next lesson."
+    },
+    {
+      "type": "paragraph",
+      "content": "Returns rows that match between the two tables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what an INNER JOIN does, not a RIGHT JOIN."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what an INNER JOIN does, not a RIGHT JOIN."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does a RIGHT JOIN do in SQL?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Returns all the rows from the left table and matching rows from the right table",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Returns all the rows from the left table and matching rows from the right table",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Returns all the rows from the right table and matching rows from the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Returns all the rows from the right table and matching rows from the left table.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Returns all rows from both tables, regardless of whether they match or not.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Returns all rows from both tables, regardless of whether they match or not.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Returns rows that match between the two tables.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Returns rows that match between the two tables.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

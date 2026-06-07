@@ -1,0 +1,56 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/separate-even-odd-numbers-in-array?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given an non-empty array of integer numbers, write a program to separate even numbers and odd numbers from the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Make two ArrayList: evenNumbers and oddNumbers and add even numbers and odd numbers to those lists respectively. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers = {1, 2, 3, 4, 5, 6}\n\nOutput \n\n\neven numbers = [2, 4, 6]\nodd numbers = [1, 3, 5]"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers = {222, 33, 11, 22, 41, 2}\n\nOutput \n\n\neven numbers = [222, 22, 2]\nodd numbers = [33, 11, 41]"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "numbers = {32, 11, 22, 31, 22, 11}\n\nOutput \n\n\neven numbers = [32, 22, 22]\nodd numbers = [11, 31, 11]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

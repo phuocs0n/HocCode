@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/namespaces?page=1",
+  "title": "Naming Conflicts in C++",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Naming Conflicts in C++"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following code:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int main() {\n\n    int var = 5;\n\n    // Error: conflicting declaration\n    double var = 5.55;\n\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code cannot be compiled successfully because we have declared two variables of the same name (var) within the scope of the main() function. In C++, this is known as a naming conflict."
+    },
+    {
+      "type": "paragraph",
+      "content": "One way to compile the code without errors is to declare one var in another scope separate from the other var:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int main() {\n\n    int var = 5;\n\n    // separate local scope\n    {\n        double var = 5.55;\n    }\n\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there is another way to use the same name for multiple variables (or any other identifier for entities such as arrays, vectors, functions, etc.) inside the same scope. And that can be achieved through namespaces."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, namespaces in C++ are a way to prevent naming conflicts within the program, especially if it is a large project."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

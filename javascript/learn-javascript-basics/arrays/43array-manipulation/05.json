@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/array-manipulation?page=5",
+  "title": "Example: Using The map() Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Using The map() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the complete code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Array of prices\n2const prices = [200, 300, 400];\n3\n4// Function to increase the price by $20\n5const increasePrice = (price) => {\n6    return price + 20;\n7};\n8\n9// Store the new array returned by map()\n10const newPrices = prices.map(increasePrice);\n11\n12console.log(newPrices);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[ 220, 320, 420 ]"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, each price in the prices array is increased by $20 in the newPrices array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see how the above code works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/react-hooks/what-makes-custom-hook?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the minimum requirement for a function to be a valid custom hook?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It must be defined in a separate file in a hooks/ folder"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "File location does not matter. The naming convention and internal hook call are what define a custom hook."
+    },
+    {
+      "type": "paragraph",
+      "content": "File location does not matter. The naming convention and internal hook call are what define a custom hook."
+    },
+    {
+      "type": "paragraph",
+      "content": "It must accept props as its first argument"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks can take any parameters you choose — not necessarily props."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks can take any parameters you choose — not necessarily props."
+    },
+    {
+      "type": "paragraph",
+      "content": "Its name must start with use and it must call at least one hook inside it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The use prefix is required for React to apply hook rules, and calling a hook is what makes it a hook."
+    },
+    {
+      "type": "paragraph",
+      "content": "The use prefix is required for React to apply hook rules, and calling a hook is what makes it a hook."
+    },
+    {
+      "type": "paragraph",
+      "content": "It must return an object with at least one property"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A custom hook can return any value — a primitive, array, object, function, or nothing at all."
+    },
+    {
+      "type": "paragraph",
+      "content": "A custom hook can return any value — a primitive, array, object, function, or nothing at all."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the minimum requirement for a function to be a valid custom hook?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It must be defined in a separate file in a hooks/ folder",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It must be defined in a separate file in a hooks/ folder",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It must accept props as its first argument",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It must accept props as its first argument",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Its name must start with use and it must call at least one hook inside it",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Its name must start with use and it must call at least one hook inside it",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It must return an object with at least one property",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It must return an object with at least one property",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

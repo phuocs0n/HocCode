@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/responsive-design/what-to-explore-next?page=3",
+  "title": "Responsive Images with srcset",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Responsive Images with srcset"
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width: 100% stops images from overflowing but the browser still downloads the full size file."
+    },
+    {
+      "type": "paragraph",
+      "content": "A 1200px portrait on a 320px phone downloads all 1200px worth of data even though it only displays at 140px."
+    },
+    {
+      "type": "paragraph",
+      "content": "srcset lets you provide multiple image files at different sizes. The browser picks the right one."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "<img\n  src=\"portrait-400.png\"\n  srcset=\"portrait-400.png 400w, portrait-800.png 800w\"\n  sizes=\"(min-width: 48rem) 14rem, 100vw\"\n  alt=\"Portrait of Abidit\"\n/>"
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, lets see CSS grid."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

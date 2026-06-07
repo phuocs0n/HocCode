@@ -1,0 +1,76 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/building-logic?page=3",
+  "title": "Step 1: Check Prime Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Check Prime Number"
+    },
+    {
+      "type": "paragraph",
+      "content": "A prime number is a number that is only divisible by 1 and itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, 17 is a prime number because it is only divisible by 1 and 17."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Check if a Number is Prime"
+    },
+    {
+      "type": "paragraph",
+      "content": "To determine if a number is prime, follow these steps:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1: Assume the number is prime."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let isPrime = true;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2: Check divisibility."
+    },
+    {
+      "type": "paragraph",
+      "content": "Iterate through numbers from 2 to number - 1. If the number is divisible by any of these, it's not prime."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let isPrime = true;\n\n// Only check if number is greater than 1\nif (number > 1) {\n    for (let i = 2; i < number; i++) {\n        if (number % i === 0) {\n            isPrime = false;\n        }\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If isPrime remains true after the loop, the number is prime. Next, let's use this logic to write code that checks if a number provided by the user is prime."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

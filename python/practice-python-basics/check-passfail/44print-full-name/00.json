@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/print-full-name?page=1",
+  "title": "Print Full Name",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Full Name"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to print full name with space in between using a function."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Define a function named full_name() with two arguments first_name and last_name.",
+        "Inside the function, print first_name and last_name and separate them by an empty space.",
+        "Outside the function, take string input for first name and last name and assign them to first and last variables.",
+        "Call the function and pass first and last as arguments."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputVance\nJoy"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputVance Joy"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

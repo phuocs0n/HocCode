@@ -1,0 +1,79 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/divide-chocolates-among-children?page=1",
+  "title": "Divide N Chocolates Among M Children",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Divide N Chocolates Among M Children"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to divide N number of chocolates among M children."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer value for the number of chocolate.",
+        "Get an integer input for the number of children.",
+        "Find the number of chocolates each child gets after division and print it.",
+        "Find the number of remaining chocolates and print it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Assumption:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Input value for the number of chocolates should be greater than the number of children."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input140\n12"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output11\n8"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

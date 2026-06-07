@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/advanced-interactivity?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You want to add a Dark mode toggle that switches the whole page to a dark theme. Which approach fits the patterns from this course?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use a different CSS file for dark mode and switch the link href in JavaScript."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This can work, but it's more moving parts than you need. In this course, we prefer a single class toggle and let CSS handle the theme."
+    },
+    {
+      "type": "paragraph",
+      "content": "This can work, but it's more moving parts than you need. In this course, we prefer a single class toggle and let CSS handle the theme."
+    },
+    {
+      "type": "paragraph",
+      "content": "Toggle a class on body (for example, .dark) and define dark theme colors in CSS when body.dark is present."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One click toggles a class. CSS does the styling. This matches the same pattern you used for menus, like buttons, and modals."
+    },
+    {
+      "type": "paragraph",
+      "content": "One click toggles a class. CSS does the styling. This matches the same pattern you used for menus, like buttons, and modals."
+    },
+    {
+      "type": "paragraph",
+      "content": "Change every element's style with JavaScript (for example, element.style.background)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This gets messy fast. It's harder to maintain than toggling a class and keeping styles in CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "This gets messy fast. It's harder to maintain than toggling a class and keeping styles in CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Reload the page with a query parameter so the server can send dark mode HTML."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's overkill for a simple theme toggle. You can do it fully on the client with one class."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's overkill for a simple theme toggle. You can do it fully on the client with one class."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You want to add a Dark mode toggle that switches the whole page to a dark theme. Which approach fits the patterns from this course?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Use a different CSS file for dark mode and switch the link href in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Use a different CSS file for dark mode and switch the link href in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Toggle a class on body (for example, .dark) and define dark theme colors in CSS when body.dark is present.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Toggle a class on body (for example, .dark) and define dark theme colors in CSS when body.dark is present.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Change every element's style with JavaScript (for example, element.style.background).",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Change every element's style with JavaScript (for example, element.style.background).",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Reload the page with a query parameter so the server can send dark mode HTML.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Reload the page with a query parameter so the server can send dark mode HTML.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

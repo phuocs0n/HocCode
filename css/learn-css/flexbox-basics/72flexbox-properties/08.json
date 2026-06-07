@@ -1,0 +1,131 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-css/flexbox-properties?page=9",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the justify-content property control?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "How flex items are aligned along the main axis of a flexbox."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property aligns flex items along the main axis of their container."
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property aligns flex items along the main axis of their container."
+    },
+    {
+      "type": "paragraph",
+      "content": "How elements are distributed within the document structure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property works within a flexbox context, not the whole document structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property works within a flexbox context, not the whole document structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "The color and style of the border around an element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property doesn't manipulate the border style; it manages the alignment of flex items within a container instead."
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property doesn't manipulate the border style; it manages the alignment of flex items within a container instead."
+    },
+    {
+      "type": "paragraph",
+      "content": "The font size and style of text within an element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property isn't meant to alter text style. It manages the alignment of flex items within a flexbox."
+    },
+    {
+      "type": "paragraph",
+      "content": "The justify-content property isn't meant to alter text style. It manages the alignment of flex items within a flexbox."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the justify-content property control?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:How flex items are aligned along the main axis of a flexbox.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "How flex items are aligned along the main axis of a flexbox.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:How elements are distributed within the document structure.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "How elements are distributed within the document structure.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The color and style of the border around an element.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The color and style of the border around an element.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The font size and style of text within an element.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The font size and style of text within an element.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

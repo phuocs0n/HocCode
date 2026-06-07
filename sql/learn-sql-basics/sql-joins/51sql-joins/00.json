@@ -1,0 +1,68 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-joins?page=1",
+  "title": "Introduction to JOINs",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to JOINs"
+    },
+    {
+      "type": "paragraph",
+      "content": "In previous chapters, you learned how to retrieve, filter, and organize data from a single table."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, in real-world databases, data is often spread across multiple tables. To make sense of this data, you need to combine data from these tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, imagine you have two tables:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A Customers table with details like names and ages.",
+        "An Orders table with items purchased and customers associated with each order."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, suppose your manager asks:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Which customers made purchases?",
+        "What did each customer buy?",
+        "Are there customers who haven't placed any orders?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To answer these questions, you'll need to join the tables—linking rows from different tables based on a related column. This process is called a JOIN in SQL."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

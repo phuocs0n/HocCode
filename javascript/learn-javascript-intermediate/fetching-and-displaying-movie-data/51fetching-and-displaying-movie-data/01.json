@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/fetching-displaying-movie-data?page=2",
+  "title": "Working of the Project",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of the Project"
+    },
+    {
+      "type": "paragraph",
+      "content": "The goal of this project is to request movie data from a web source, handle the response, and display the relevant data using fetch()."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll do it in the following steps:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Make a GET Request to the Web Source",
+        "Handle Response and Check for Errors",
+        "Display the JSON Data",
+        "Get High-rated Movies",
+        "Extract Movie Names with Ratings Greater than or Equal to 9"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's walk through these steps."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

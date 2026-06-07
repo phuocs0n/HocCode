@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/git/init-add-commit?page=2",
+  "title": "Initialize Your Repository",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practical Git and GitHub"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Initialize Your Repository"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before Git can track anything, you need to initialize a repository. This tells Git to start tracking your project."
+    },
+    {
+      "type": "paragraph",
+      "content": "Open your terminal, go to your project folder, and run:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "$ git init"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Initialized empty Git repository in /Users/you/myproject/.git/"
+    },
+    {
+      "type": "paragraph",
+      "content": "Git creates a hidden i folder inside your project. This is where it stores the history of everything you save."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: Run git init once, at the root of your project. Not inside a subfolder."
+    },
+    {
+      "type": "paragraph",
+      "content": "👉 Next, let's check what Git sees in your project."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

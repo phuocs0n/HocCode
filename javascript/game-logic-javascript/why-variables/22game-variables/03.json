@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-variables?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In our quiz game, what do we use the variable score for?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To hold how many questions the player got right so we can show it and use it later."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. score holds the count of correct answers. We update it when the player answers and use it when we show the result and decide to pass or fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. score holds the count of correct answers. We update it when the player answers and use it when we show the result and decide to pass or fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "To store the list of questions the player answered."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't store the list of answers in the score. score is a single number - the count of correct answers. Lists come later with arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't store the list of answers in the score. score is a single number - the count of correct answers. Lists come later with arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "To remember the player's name."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "score is for the number of correct answers, not the player's name. We use it to show \"Your score is 3/5\" and to decide whether to pass or fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "score is for the number of correct answers, not the player's name. We use it to show \"Your score is 3/5\" and to decide whether to pass or fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "To set the pass mark (40)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The pass mark is stored in passMark, not score. The score holds how many questions the player got right so we can compare it to the pass mark later."
+    },
+    {
+      "type": "paragraph",
+      "content": "The pass mark is stored in passMark, not score. The score holds how many questions the player got right so we can compare it to the pass mark later."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In our quiz game, what do we use the variable score for?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To hold how many questions the player got right so we can show it and use it later.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To hold how many questions the player got right so we can show it and use it later.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To store the list of questions the player answered.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To store the list of questions the player answered.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To remember the player's name.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To remember the player's name.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To set the pass mark (40).",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To set the pass mark (40).",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

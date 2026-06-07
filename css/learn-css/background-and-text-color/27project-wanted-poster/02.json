@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/project-wanted-poster?page=3",
+  "title": "Add CSS to Child Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add CSS to Child Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once the <div> container is styled, the rest of the code is straightforward."
+    },
+    {
+      "type": "paragraph",
+      "content": "Review the code below. We've included comments within the code to make it more intuitive and easy to understand, avoiding lengthy explanations."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3\n4    <head>\n5        <!-- Load the font -->\n6        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n7        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n8        <link href=\"https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap\"\n9        rel=\"stylesheet\">\n10    </head>\n11\n12    <body>\n13\n14        <!-- Covers all the visible HTML elements -->\n15        <div>\n16            <h1>wanted</h1>\n17            <img src=\"/images/learn-css/jack-sparrow.png\">\n18            <h2>jack sparrow</h2>\n19            <p>the notorious pirate</p>\n20            <h3>reward</h3>\n21            <h4><span>$5000</span>$20000</h4>\n22        </div>\n23    </body>\n24\n25</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Complete CSS Code */"
+    },
+    {
+      "type": "paragraph",
+      "content": "Congratulations! With this, you have made your first project using CSS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

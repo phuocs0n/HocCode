@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-functions?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this program to calculate the total for a customer after applying a 10% discount:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let total = parseFloat(prompt(\"Total? \"));\n2let discountPercent = 10;\n3\n4if (total > 100) {\n5    let excess = total - 100;  \n6    let discount = (discountPercent / 100) * excess;  \n7    total -= discount;  \n8}\n9\n10console.log(`The final amount to pay is: $${total}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, suppose you needed to do this for multiple customers. You'd need to repeat the same code for each one, making your program repetitive, longer, and inefficient."
+    },
+    {
+      "type": "paragraph",
+      "content": "Wouldn't it be better if you could write the code once and reuse it for every customer?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's where functions come in. They make code reusable, modular, and easier to maintain."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn what functions are, how to create them, and how to use them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by exploring how to create a function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

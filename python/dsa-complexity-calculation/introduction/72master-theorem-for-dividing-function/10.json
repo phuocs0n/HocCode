@@ -1,0 +1,188 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-dividing-function?page=11",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which case should be considered when finding the time complexity of the following recurrence relation?"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=16T(n4)+nT\\lparen n\\rparen = 16T \\left( \\cfrac{n}{4} \\right) + nT(n)=16T(4n​)+n"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "log⁡ba>k\\log_ba > klogb​a>k"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416>1\\log_416 > 1log4​16>1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416>1\\log_416 > 1log4​16>1."
+    },
+    {
+      "type": "paragraph",
+      "content": "log⁡ba=k\\log_ba = klogb​a=k"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416!=1\\log_416 != 1log4​16!=1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416!=1\\log_416 != 1log4​16!=1."
+    },
+    {
+      "type": "paragraph",
+      "content": "log⁡ba<k\\log_ba < klogb​a<k"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416\\log_416log4​16 is not less than 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416\\log_416log4​16 is not less than 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "log⁡ba>=k\\log_ba >= klogb​a>=k"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Compound inequalities, such as (>= and <=), are not suitable for defining a case in the master theorem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Compound inequalities, such as (>= and <=), are not suitable for defining a case in the master theorem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416>1\\log_416 > 1log4​16>1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416>1\\log_416 > 1log4​16>1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416!=1\\log_416 != 1log4​16!=1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416!=1\\log_416 != 1log4​16!=1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416\\log_416log4​16 is not less than 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since log⁡416\\log_416log4​16 is not less than 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Compound inequalities, such as (>= and <=), are not suitable for defining a case in the master theorem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Compound inequalities, such as (>= and <=), are not suitable for defining a case in the master theorem."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which case should be considered when finding the time complexity of the following recurrence relation?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:log⁡ba>k\\log_ba > klogb​a>k",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "log⁡ba>k\\log_ba > klogb​a>k",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:log⁡ba=k\\log_ba = klogb​a=k",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "log⁡ba=k\\log_ba = klogb​a=k",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:log⁡ba<k\\log_ba < klogb​a<k",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "log⁡ba<k\\log_ba < klogb​a<k",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:log⁡ba>=k\\log_ba >= klogb​a>=k",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "log⁡ba>=k\\log_ba >= klogb​a>=k",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

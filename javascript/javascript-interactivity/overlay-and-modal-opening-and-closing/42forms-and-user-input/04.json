@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/forms-user-input?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we call event.preventDefault() in a form submit handler?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "So the form values are not sent to the server."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The goal is not to block sending forever. The goal is to control the submit flow in JavaScript first."
+    },
+    {
+      "type": "paragraph",
+      "content": "The goal is not to block sending forever. The goal is to control the submit flow in JavaScript first."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the page does not reload and we can handle validation, loading, and success in JavaScript."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "By default, form submit reloads the page. preventDefault() stops that so you can control validation and feedback."
+    },
+    {
+      "type": "paragraph",
+      "content": "By default, form submit reloads the page. preventDefault() stops that so you can control validation and feedback."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the user cannot submit the form twice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Preventing double submit requires disabling the button or tracking state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Preventing double submit requires disabling the button or tracking state."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the modal stays open after submit."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Keeping the modal open is a separate choice. preventDefault() is about stopping the reload."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keeping the modal open is a separate choice. preventDefault() is about stopping the reload."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we call event.preventDefault() in a form submit handler?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:So the form values are not sent to the server.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "So the form values are not sent to the server.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So the page does not reload and we can handle validation, loading, and success in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So the page does not reload and we can handle validation, loading, and success in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:So the user cannot submit the form twice.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "So the user cannot submit the form twice.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So the modal stays open after submit.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So the modal stays open after submit.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

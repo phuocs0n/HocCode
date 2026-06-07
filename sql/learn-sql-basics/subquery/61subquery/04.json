@@ -1,0 +1,140 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/subquery?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the following SQL query, which section is the subquery?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name\nFROM Students\nWHERE id IN (\n    SELECT id\n    FROM Students\n    WHERE grade = 'A'\n);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT name FROM Students"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is part of the main query that retrieves data from the Students table, but it doesn't contain the subquery itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is part of the main query that retrieves data from the Students table, but it doesn't contain the subquery itself."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "WHERE id IN (SELECT id FROM Students WHERE grade = 'A')"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This clause uses the result of a subquery to filter data. Look inside the parentheses to find the subquery."
+    },
+    {
+      "type": "paragraph",
+      "content": "This clause uses the result of a subquery to filter data. Look inside the parentheses to find the subquery."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "WHERE grade = 'A'"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is part of the subquery's WHERE clause, but it's not the subquery itself. The subquery is the entire block inside the parentheses."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is part of the subquery's WHERE clause, but it's not the subquery itself. The subquery is the entire block inside the parentheses."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT id FROM Students WHERE grade = 'A';"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a subquery because it is a query nested inside another query, and its result is used by the outer query to filter or modify the main query's results."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a subquery because it is a query nested inside another query, and its result is used by the outer query to filter or modify the main query's results."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the following SQL query, which section is the subquery?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:SELECT name FROM Students",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "SELECT name FROM Students",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:WHERE id IN (SELECT id FROM Students WHERE grade = 'A')",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "WHERE id IN (SELECT id FROM Students WHERE grade = 'A')",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:WHERE grade = 'A'",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "WHERE grade = 'A'",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:SELECT id FROM Students WHERE grade = 'A';",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "SELECT id FROM Students WHERE grade = 'A';",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

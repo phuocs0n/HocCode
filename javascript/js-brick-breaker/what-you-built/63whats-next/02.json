@@ -1,0 +1,84 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/whats-next?page=2",
+  "title": "Add Sound and Polish ✨",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Brick Breaker with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Sound and Polish ✨"
+    },
+    {
+      "type": "paragraph",
+      "content": "The game is playable. These additions make it feel alive."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sound"
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser has a built-in audio synthesizer. No files required:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "function playBounce(freq = 440, duration = 0.05) {\n\n  const ctx = new AudioContext();\n  const osc = ctx.createOscillator();\n  const gain = ctx.createGain();\n\n  osc.frequency.value = freq;\n  gain.gain.setValueAtTime(0.15, ctx.currentTime);\n  gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);\n\n  osc.connect(gain);\n\n  gain.connect(ctx.destination);\n\n  osc.start();\n  osc.stop(ctx.currentTime + duration);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Call it with different frequencies: playBounce(300) for paddle, playBounce(600) for bricks, playBounce(150) for wall."
+    },
+    {
+      "type": "paragraph",
+      "content": "Screen Shake"
+    },
+    {
+      "type": "paragraph",
+      "content": "Store a shakeDuration counter on Game. At the start of draw(), apply a canvas transform offset:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "draw() {\n  const ctx = this.ctx;\n\n  if (this.shakeDuration > 0) {\n    const dx = (Math.random() - 0.5) * 6;\n    const dy = (Math.random() - 0.5) * 6;\n    ctx.save();\n    ctx.translate(dx, dy);\n\n    this.shakeDuration--;\n  }\n\n  ctx.clearRect(...);\n\n  // ...draw everything...\n  if (this.shakeDuration >= 0) ctx.restore();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ball Trail"
+    },
+    {
+      "type": "paragraph",
+      "content": "Keep an array of the last N ball positions. Draw them as fading circles before drawing the main ball:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "this.trail.push({ x: this.ball.x, y: this.ball.y });\n\nif (this.trail.length > 8) this.trail.shift();\n\nthis.trail.forEach((p, i) => {\n  ctx.globalAlpha = (i / this.trail.length) * 0.3;\n  ctx.beginPath();\n  ctx.arc(p.x, p.y, BALL_RADIUS, 0, Math.PI * 2);\n  ctx.fill();\n});\n\nctx.globalAlpha = 1;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will look at how to take this project further and where your JavaScript skills go from here."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

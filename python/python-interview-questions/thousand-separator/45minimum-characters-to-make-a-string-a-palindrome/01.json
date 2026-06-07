@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/minimum-characters-to-make-string-palindrome?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "At this stage, we know palindrome strings are strings that can be read the same either from start or from the end."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, the string exe is a palindrome because the string would be the same when read from either side."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this problem, we need to count the number of letters needed to make the given string a palindrome."
+    },
+    {
+      "type": "paragraph",
+      "content": "To do this, we need to follow the given steps:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Define the string variable and a counter variable.",
+        "Run a while loop as long as the length of the string is greater than 0.",
+        "Then, compare the original string with the reversed string to check if the string is palindrome.",
+        "If the string is already a palindrome, break the loop.",
+        "Otherwise, update the string by deleting the last letter from the string and increase the counter by 1.",
+        "Repeat the same process until the length of the string is 0.",
+        "Finally, print the counter variable that holds the count of letters needed to make the string palindrome."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

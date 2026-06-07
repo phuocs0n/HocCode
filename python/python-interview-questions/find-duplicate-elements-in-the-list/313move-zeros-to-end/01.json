@@ -1,0 +1,45 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/move-zeros-to-end?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "A list can have multiple zeros. So, we need to loop through each digit in a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "In each iteration, we need to check if the item is zero. And if it is, we need to remove that item (0) and append it to the end of the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we can print the list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

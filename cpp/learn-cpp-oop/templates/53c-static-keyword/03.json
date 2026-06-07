@@ -1,0 +1,68 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/c-static-keyword?page=3",
+  "title": "static Member Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "static Member Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike static functions, static member variables are declared inside the class and defined outside the class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Student {\n    public:\n        // static variable declaration\n        static int subject_code;\n};\n\n// static variable definition\nint Student::subject_code = 13;"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created the static variable subject_code."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you can see we have declared the static variable inside the class; however, we have provided its definition outside the class."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Access static Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Like with static functions, we can use the class name with the scope resolution operator :: to access static variables. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Student {\n5    public:\n6  \n7\n8        // static variable declaration\n9        static int subject_code;\n10\n11};\n12\n13\n14// static variable definition and initialization\n15int Student::subject_code = 13;\n16\n17\n18int main() {\n19    \n20\n21    // access static variable\n22    cout << Student::subject_code << endl; \n23\n24  \n25    return 0;\n26}\n27\n28// Output: 13"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see that we have successfully accessed the static variable without creating an object of the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

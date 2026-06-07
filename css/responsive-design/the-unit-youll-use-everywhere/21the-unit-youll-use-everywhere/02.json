@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/responsive-design/unit-youll-use-everywhere?page=3",
+  "title": "Converting Your Portfolio to rem",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Converting Your Portfolio to rem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now look at your portfolio CSS. These are the values you wrote in the Figma to Code course."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".hero-text h1 { font-size: 60px; }\n.container { padding: 0 24px; }\nnav ul { gap: 32px; }"
+    },
+    {
+      "type": "paragraph",
+      "content": "Swap those out for rem and you get this."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".hero-text h1 {\n  font-size: 3.75rem;\n}\n\n.container {\n  padding: 0 1.5rem;\n}\n\nnav ul {\n  gap: 2rem;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Looks the same on desktop. But now it scales with the user instead of staying locked in place."
+    },
+    {
+      "type": "paragraph",
+      "content": "You won't convert everything right now. We'll do it piece by piece as we fix each part of the layout. Just get comfortable with the pattern and the rest will feel natural."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next up, a quick quiz to see if rem is clicking."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

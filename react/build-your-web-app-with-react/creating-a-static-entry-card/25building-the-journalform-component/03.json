@@ -1,0 +1,49 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component?page=4",
+  "title": "Step 2: Move Components to the New folder",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Move Components to the New folder"
+    },
+    {
+      "type": "paragraph",
+      "content": "Currently, our platform doesn't support directly moving files into other folders. So, you'll have to resort to a roundabout method:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Create new Header.jsx and EntryCard.jsx files inside components.",
+        "Copy the respective contents from the original files into these new files.",
+        "Delete the original Header.jsx and EntryCard.jsx files that are outside the components folder."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll update App.jsx so these changes are properly implemented in your code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

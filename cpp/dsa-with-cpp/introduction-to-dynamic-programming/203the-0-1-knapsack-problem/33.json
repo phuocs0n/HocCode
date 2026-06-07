@@ -1,0 +1,38 @@
+{
+  "index": 33,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/0-1-knapsack-problem?page=34",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3#include <algorithm>\n4using namespace std;\n5\n6int maximize_profit(const vector<int>& w, const vector<int>& v, int capacity) {\n7    // Initialize an empty DP table\n8    vector<vector<int>> DP(w.size() + 1, vector<int>(capacity + 1, 0));\n9\n10    // Run the loop once for each item\n11    for (size_t item_index = 0; item_index < w.size(); ++item_index) {\n12        // Compare and change values\n13        for (int index = 0; index <= capacity; ++index) {\n14            // You can only add an item if the bag size\n15            // is larger than the item weight\n16            if (index >= w[item_index]) {\n17                DP[item_index + 1][index] = max(\n18                    DP[item_index][index], \n19                    DP[item_index][index - w[item_index]] + v[item_index]\n20                );\n21            } \n22            // Otherwise, just copy the profit from one row above\n23            else {\n24                DP[item_index + 1][index] = DP[item_index][index];\n25            }\n26        }\n27    }\n28\n29    // The last cell returns the maximum profit.\n30    return DP[w.size()][capacity];\n31}\n32\n33int main() {\n34    // Initialize variables\n35    vector<int> w = {2, 3, 6};\n36    vector<int> v = {60, 100, 150};\n37    int capacity = 5;\n38\n39    // Call the function and print the result\n40    cout << maximize_profit(w, v, capacity) << endl;\n41\n42    return 0;\n43}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

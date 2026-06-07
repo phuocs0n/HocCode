@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/sorting?page=3",
+  "title": "Different Sorting Algorithms",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Different Sorting Algorithms"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will not use the sort() method to sort elements in this chapter. Instead, we will learn about the internal workings of different sorting algorithms."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each algorithm offers different levels of efficiency, depending on the dataset and its use case."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will cover the following sorting algorithms in this chapter:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Bubble Sort",
+        "Selection Sort",
+        "Insertion Sort",
+        "Merge Sort",
+        "Quick Sort",
+        "Counting Sort"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The first three sorts in the above list are comparison-based sorting algorithms that work by comparing two elements and swapping them if necessary."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn about bubble sort."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

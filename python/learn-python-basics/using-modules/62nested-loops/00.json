@@ -1,0 +1,117 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-python-basics/nested-loops?page=1",
+  "title": "Nested Loops",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Nested Loops"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's possible to put a loop inside another loop. This is known as a nested loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a nested loop, the inner loop is executed for each iteration of the outer loop. Let's try to understand it with the help of an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1attributes = ['Electric', 'Fast']\n2cars = ['Tesla', 'Porsche', 'Mercedes']\n3\n4for attribute in attributes:\n5    for car in cars:\n6        print(attribute, car)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Electric Tesla\nElectric Porsche\nElectric Mercedes\nFast Tesla\nFast Porsche\nFast Mercedes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the inner loop is iterated once for each item of the attributes list. Here's how this code works:"
+    },
+    {
+      "type": "paragraph",
+      "content": "First iteration of the outer loop"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Inner Loop Iteration",
+          "attribute",
+          "car"
+        ],
+        [
+          "1",
+          "'Electric'",
+          "'Tesla'"
+        ],
+        [
+          "2",
+          "'Electric'",
+          "'Porsche'"
+        ],
+        [
+          "3",
+          "'Electric'",
+          "'Mercedes'"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Second iteration of the outer loop"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Inner Loop Iteration",
+          "attribute",
+          "car"
+        ],
+        [
+          "1",
+          "'Fast'",
+          "'Tesla'"
+        ],
+        [
+          "2",
+          "'Fast'",
+          "'Porsche'"
+        ],
+        [
+          "3",
+          "'Fast'",
+          "'Mercedes'"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/sum-of-natural-numbers?page=1",
+  "title": "Sum of Natural Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of Natural Numbers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the sum of first N natural numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Natural numbers are positive integers i.e. 1, 2, 3, ... and the sum of natural numbers up to N is the total sum from 1 to N."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "sum of natural numbers = 1 + 2 + 3 + ... + N"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the variable number.",
+        "Declare another variable sum and initialize it with the value 0.",
+        "Create a for loop that iterates from i = 1 to number.",
+        "Inside the loop, update sum by adding it to i.",
+        "Outside the loop, print the value of sum."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output3"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-pointers?page=1",
+  "title": "Sửa đổi con trỏ",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sửa đổi con trỏ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đầu tiên chúng ta hãy sửa lại con trỏ bằng ví dụ này."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 33;\n6\n7  // pointer variable to store address of number\n8  int* pt = &number;\n9\n10  // print address of number\n11  printf(\"%p\\n\", pt);    // 0x7ffd323dc88c\n12\n13  // print value pointed by the pt pointer\n14  printf(\"%d\", *pt);    // 33\n15\n16  return 0;\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, bạn có thể thấy"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "int* pt - tạo một biến con trỏ",
+        "&number - trả về địa chỉ của biến số",
+        "*pt - trả về giá trị được trỏ bởi con trỏ pt"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Giống như biến số thông thường, chúng ta cũng có thể sử dụng con trỏ để làm việc với các biến cấu trúc mà chúng ta sẽ thấy tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

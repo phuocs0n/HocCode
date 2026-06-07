@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/introduction?page=2",
+  "title": "Asynchronous JavaScript",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Asynchronous JavaScript"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we discussed how JavaScript handles idle-waiting tasks by running them asynchronously."
+    },
+    {
+      "type": "paragraph",
+      "content": "Most operations, like console.log(), are quick and do not block the execution of other tasks, so they are executed synchronously."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, some tasks, such as those requiring a delay or waiting for a server response, block other operations from execution without much benefit. That's why they are handled asynchronously, allowing JavaScript to continue running other code."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, suppose we made a request to a server and had to wait synchronously for its response. Until the response comes back, the entire webpage would freeze and be unresponsive to any user interactions."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an undesirable scenario caused by synchronous execution. To handle such scenarios, JavaScript uses asynchronous execution. We'll explore how it does this further in this chapter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Delays are one example of the codes that are handled asynchronously in JavaScript. There are two ways to add delays:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "setTimeout()",
+        "setInterval()"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by understanding how setTimeout() works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

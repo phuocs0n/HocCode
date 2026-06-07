@@ -1,0 +1,46 @@
+{
+  "index": 16,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=16",
+  "title": "Stage 2: Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Stage 2: Source Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's add the codes for the word database and the random number generator to our main code."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3#include <ctime>\n4\n5\n6using namespace std;\n7\n8const int max_misses = 6;\n9\n10// Message class for displaying messages and design\n11class Message {\n12public:\n13\n14    // method to greet the player\n15    void greet() {\n16        cout << \"------------------------------\" << endl;\n17        cout << \"\\t\\tH A N G M A N\" << endl;\n18        cout << \"------------------------------\" << endl;\n19        cout << \"Guess the Word\" << endl << endl;\n20    }\n21\n22    // method to display the number of misses\n23    void display_misses(int misses) {\n24        cout << \"Remaining misses: \"<< max_misses - misses << endl << endl;\n25    }\n26\n27    // method to display the incorrect guesses\n28    void display_incorrect_guesses(string incorrect) {\n29        cout << \"Incorrect Guesses: \" << incorrect << endl;\n30    }\n31    \n32    // method to display the user answer\n33    void display_user_answer(string user_answer) {\n34        cout << \"Your Answer: \";\n35        for (char c: user_answer) {\n36            cout << c << \" \";\n37        }\n38\n39        cout << endl;\n40    }\n41\n42    // method to call when the user\n43    // enters non-alphabetic character\n44    void invalid_character_message() {\n45        cout << \"\\nInvalid character!\" << endl;\n46        cout << \"Input must be an alphabet!\" << endl;\n47    }\n48\n49    // method to call when the user enters a\n50    // character that has already been entered\n51    void already_entered_message() {\n52        cout << \"\\nYou have already entered this letter!\" << endl;\n53        cout << \"Enter another letter!\" << endl;\n54    }\n55\n56    void correct_message() {\n57        cout << \"\\nCorrect!\" << endl;\n58    }\n59\n60    void incorrect_message() {\n61        cout << \"\\nIncorrect!\" << endl;\n62    }\n63\n64    // print win or loss message\n65    void final_result(string user_answer, string word) {\n66        cout << \"Your Answer: \";\n67        for (char c: user_answer) {\n68            cout << c << \" \";\n69        }\n70\n71        cout << endl << endl;\n72\n73        // print win message\n74        if (user_answer == word) {\n75            cout << \"-----------------------------------------------\" << endl;\n76            cout << \"\\t\\t\\t\\tY O U  W I N\" << endl;\n77            cout << \"-----------------------------------------------\" << endl;\n78        }\n79\n80        // print loss message\n81        else {\n82            cout << \"The correct answer is: \" << word << endl << endl;\n83            cout << \"-----------------------------------------------\" << endl;\n84            cout << \"\\t\\t\\t\\tY O U  L O S E\" << endl;\n85            cout << \"-----------------------------------------------\" << endl;\n86        }\n87    }\n88};\n89\n90// Game class to code the game logic\n91class Game {\n92private:\n93\n94    string word;\n95    string user_answer;\n96    string incorrect;\n97    string entered_characters;\n98    int misses;\n99    Message message;\n100\n101public:\n102\n103    // constructor to initialize attributes\n104    Game(string chosen_word) {\n105        word = chosen_word;\n106        incorrect = \"\";\n107        entered_characters = \"\";\n108        misses = 0;\n109\n110        for (int i = 0; i < word.length(); ++i) {\n111            user_answer += \"_\";\n112        }\n113    }\n114\n115    // method to ensure that user input is\n116    // an alphabet and not a previous input\n117    bool is_guess_valid(char letter) {\n118\n119        if (!isalpha(letter)) {\n120            message.invalid_character_message();\n121            return false;\n122        }\n123\n124        for (int i = 0; i < entered_characters.length(); ++i) {            \n125            if (letter == entered_characters[i]) {\n126                message.already_entered_message();\n127                return false;\n128            }\n129        }\n130\n131        return true;\n132    }\n133\n134    // method to check if guess is correct\n135    void is_guess_correct(char letter) {\n136\n137        bool guess = false;\n138\n139        for (int i = 0; i < word.length(); i++) {\n140            if (letter == word[i]) {\n141                user_answer[i] = letter;\n142                guess = true;\n143            }\n144        }\n145\n146        if (guess) {\n147            message.correct_message();\n148        }\n149        else {\n150            message.incorrect_message();\n151            incorrect += letter;\n152            incorrect += \", \";\n153            ++misses;\n154        }\n155\n156        entered_characters += letter;\n157    }\n158\n159    // method to check if the game is over\n160    bool is_game_over() {\n161        if (user_answer == word || misses >= max_misses) {\n162            return true;\n163        }\n164        return false;\n165    }\n166\n167    // method to display the game status\n168    void display_game_status() {\n169        message.display_incorrect_guesses(incorrect);\n170        message.display_user_answer(user_answer);\n171        message.display_misses(misses);\n172    }\n173\n174    // method to display the final result\n175    void display_final_result() {\n176        message.final_result(user_answer, word);\n177    }\n178};\n179\n180int main() {\n181\n182\n183    // create word database\n184    string library[] = { \n185        \"ALGORITHM\", \n186        \"AUTOPSY\", \n187        \"DATABASE\", \n188        \"UBIQUITOUS\", \n189        \"TANTALIZING\", \n190        \"REVELATION\", \n191        \"SPORADIC\", \n192        \"DISCRETE\", \n193        \"ANALYSIS\", \n194        \"CALCULUS\" \n195    };\n196\n197    // generate random numbers between 0 and 9\n198    srand(time(0));\n199    int index = rand() % 10;\n200\n201    // choose the mystery word\n202    // based on the random number\n203    string chosen_word = library[index];\n204\n205\n206    // variable to take user input\n207    char letter;\n208    \n209    Message message;\n210    Game game(chosen_word);\n211\n212    // greet the player\n213    message.greet();\n214\n215    // play game until victory or loss\n216    while (!game.is_game_over()) {\n217\n218        // display the game status\n219        game.display_game_status();\n220\n221        cout << \"\\nPlease enter your guess: \";\n222\n223        // get user input and convert it to uppercase\n224        cin >> letter;\n225        letter = toupper(letter);\n226\n227        // check if input is an alphabet\n228        if (game.is_guess_valid(letter)) {\n229\n230            // if input is valid, check if guess is correct\n231            game.is_guess_correct(letter);\n232        }\n233    }\n234\n235    game.display_final_result();\n236\n237    return 0;\n238}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move on to the final stage of this project."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

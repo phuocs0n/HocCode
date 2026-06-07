@@ -1,0 +1,72 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/functions-objects?page=2",
+  "title": "Pass Objects to Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pass Objects to Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a class named Student."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Student {\n    ...\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can pass an object of this class to a function."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// function that takes a Student object as argument\nvoid display(Student obj_arg) {\n    ...\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you can see we have included the Student object obj_arg as the parameter to the display() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, to call this function, we can create an object of Student and pass it during the function call."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// create an object ot Student\nStudent obj;\n\n// call the function by passing the object as argument\ndisplay(obj);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have passed the obj object of the Student class to the display() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's look at a working example of this."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

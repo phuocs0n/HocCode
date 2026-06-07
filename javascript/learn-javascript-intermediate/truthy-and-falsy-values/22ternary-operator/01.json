@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/ternary-operator?page=2",
+  "title": "Working: Ternary Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working: Ternary Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is our code from earlier example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function getResult() {\n2    let marks = 76;\n3    let result = (marks >= 32) ? \"Pass\" : \"Fail\";\n4\n5    console.log(\"Result: \" + result);\n6}\n7getResult();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the code,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let result = (marks >= 32) ? \"Pass\" : \"Fail\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, (marks >= 32) is a test expression that results in either true or false. If the test expression is"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "true - \"Pass\" (string before the colon :) is assigned to the result variable",
+        "false - \"Fail\" (string after the colon :) is assigned to the result variable"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "From the example, we can deduce the syntax of ternary operator as:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "(test condition) ? expression1 : expression2;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, when the test condition is true, expression1 is executed and when the test condition is false, expression2 is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see there are 3 operands here, hence the name ternary operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-hooks/building-search-feature?page=6",
+  "title": "Revisiting the Changes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revisiting the Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what changed from the previous lesson:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "query state moved from Header to App, which now owns the value it needs for filtering.",
+        "Header became a controlled component: it receives query and onQueryChange as props instead of managing local state.",
+        "App now computes filteredEntries with useMemo() and renders that instead of the raw entries array.",
+        "The entry count badge ({entries.length}) still uses the full entries array, so it always shows the total count regardless of the search."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll take a quiz to fortify your knowledge, and then I'll share a story of when I first created a search feature using React."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

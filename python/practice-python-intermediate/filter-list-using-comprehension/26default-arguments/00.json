@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-intermediate/default-arguments?page=1",
+  "title": "Default Arguments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Default Arguments"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a function that has arguments with default values."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function named func() that takes two arguments n1 and n2 respectively.",
+        "Set default values of n1 and n2 to 10 and 100 respectively.",
+        "Inside the function, print n1 and n2."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside the function"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take integer input and assign it to n.",
+        "Call the function so that the first argument takes the value of n, and the second argument takes the default value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input13"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output13\n100"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

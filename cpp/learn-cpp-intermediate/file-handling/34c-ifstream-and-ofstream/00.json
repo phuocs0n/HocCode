@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/c-ifstream-ofstream?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, we have used the fstream class to handle our file operations. However, we can also perform these tasks using the ifstream and ofstream classes. These classes are defined inside the <fstream> header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at some of the basic features of these classes."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "fstream Class",
+          "Description"
+        ],
+        [
+          "ifstream",
+          "Stands for Input File Stream.\nUsed for reading files.\nUses ios::in mode by default."
+        ],
+        [
+          "ofstream",
+          "Stands for Output File Stream.\nUsed for writing/appending files.\nUses ios::out mode by default.\nWe need to pass ios::app as an argument for appending."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will use ifstream to read from a file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

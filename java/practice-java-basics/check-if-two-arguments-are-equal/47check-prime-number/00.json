@@ -1,0 +1,89 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/check-prime-number?page=1",
+  "title": "Check Prime Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Prime Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check whether a number is prime or not using a method."
+    },
+    {
+      "type": "paragraph",
+      "content": "A prime number is a number that is only divided by either 1 or itself. For example, 7, 5, 19, etc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a checkPrime() method with an integer parameter, number.",
+        "Inside the method, check if the number is prime or not.",
+        "If the number is prime, print Prime Number. Otherwise, print Not a Prime Number."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside main(), get an integer input for the number variable.",
+        "Call checkPrime() with the argument number."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input11"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputPrime Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

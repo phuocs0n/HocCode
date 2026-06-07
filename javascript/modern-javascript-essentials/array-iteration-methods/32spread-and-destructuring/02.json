@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/spread-destructuring?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does const copy = [...original] create?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A reference to the same array in memory"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That would be const copy = original. Spread creates a new array, not a reference."
+    },
+    {
+      "type": "paragraph",
+      "content": "That would be const copy = original. Spread creates a new array, not a reference."
+    },
+    {
+      "type": "paragraph",
+      "content": "A shallow copy of the original array"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Spread unpacks each element into a brand-new array. Changes to copy do not affect original."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! Spread unpacks each element into a brand-new array. Changes to copy do not affect original."
+    },
+    {
+      "type": "paragraph",
+      "content": "A deep copy including all nested objects"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Spread only copies one level deep. Nested objects are still shared by reference."
+    },
+    {
+      "type": "paragraph",
+      "content": "Spread only copies one level deep. Nested objects are still shared by reference."
+    },
+    {
+      "type": "paragraph",
+      "content": "An empty array"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Spread copies every element from the original. The result has the same elements, not zero."
+    },
+    {
+      "type": "paragraph",
+      "content": "Spread copies every element from the original. The result has the same elements, not zero."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does const copy = [...original] create?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A reference to the same array in memory",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A reference to the same array in memory",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A shallow copy of the original array",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A shallow copy of the original array",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A deep copy including all nested objects",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A deep copy including all nested objects",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:An empty array",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "An empty array",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/templates-defaults?page=1",
+  "title": "Template Literals",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Template Literals"
+    },
+    {
+      "type": "paragraph",
+      "content": "Building strings by joining variables with + gets messy fast. Template literals use backticks instead of quotes and let you embed expressions directly with ${}. Here is the syntax:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "`text ${expression} more text`"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anything inside ${} is evaluated as JavaScript - variables, math, even function calls. The result is inserted into the string automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see template literals in action."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const name = \"Abidit\"; \n2const role = \"instructor\"; \n3const message = `Hi, I am ${name} and I am your ${role}.`;\n4\n5console.log(message);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, ${name} and ${role} are replaced with their values when the string is evaluated. You can put any valid JavaScript expression inside ${}, including math and function calls. It is good practice to use template literals over string concatenation in modern codebases."
+    },
+    {
+      "type": "image",
+      "alt": "String Concatenation vs Template Literal",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDAyYzg5NWFlOGE5MzlmMWFmLTAwNmExN2NmNDAtYWU0YjkyNjgtc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmFlNGI5MjY4LXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "paragraph",
+      "content": "They are easier to read, less error-prone, and support multiline strings without escape characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const message = `Welcome to Modern JavaScript.\n2This message spans\n3multiple lines without using \\n.`;\n4\n5console.log(message);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

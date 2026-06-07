@@ -1,0 +1,66 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/profile-card?page=5",
+  "title": "Step 3: Resetting Browser Styles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Resetting Browser Styles"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can reset the browser's default styles by setting"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "padding and margin to 0.",
+        "box-sizing to border-box."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    padding: 0;\n3    margin: 0;\n4    box-sizing: border-box;\n5    line-height: 1.5;\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code to see how everything is tightened up, unlike how they were spaced before. This means the default padding and margin values provided by the browser have been reset."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, notice line-height is set to 1.5, which has become a commonly accepted value across modern websites. This is to create enough vertical spacing between lines."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

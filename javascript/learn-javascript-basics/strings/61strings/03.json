@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/strings?page=3",
+  "title": "Example: Creating Personalized Email",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Creating Personalized Email"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let firstName = \"Emma\";\n2let event = \"weekly team meeting\";\n3let time = \"Thursday at 10 AM\";\n4\n5let message = \"Hi \" + firstName + \", you are invited to our \" + event + \" on \" + time + \".\";\n6\n7console.log(message);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hi Emma, you are invited to our weekly team meeting on Thursday at 10 AM."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've used string concatenation (join with +) to create a dynamic string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the firstName, event, and time variables can be changed to generate customized messages."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, as you can see, using string concatenation makes it harder to read the code. So, let's see a cleaner way to do this next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-errors?page=5",
+  "title": "Example: Exception",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let age = 42;\n2\n3age.toUpperCase();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "age.toUpperCase();\n    ^\nTypeError: age.toUpperCase is not a function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the age variable is a number, but toUpperCase() is a method designed for strings. Trying to use it on a number causes a TypeError, which is a type of runtime error."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, you might wonder why errors are categorized as syntax and runtime errors. Let's understand the difference on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

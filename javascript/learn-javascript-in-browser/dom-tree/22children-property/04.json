@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/children-property?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How would you access the second child element of an element with the class list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "document.querySelector(\".list\").children[1]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "children[1] accesses the second child in the children collection."
+    },
+    {
+      "type": "paragraph",
+      "content": "children[1] accesses the second child in the children collection."
+    },
+    {
+      "type": "paragraph",
+      "content": "document.querySelector(\"#list\").children[1]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The way to select classes is .list not #list."
+    },
+    {
+      "type": "paragraph",
+      "content": "The way to select classes is .list not #list."
+    },
+    {
+      "type": "paragraph",
+      "content": "document.querySelector(\".list\").querySelector(\"li:nth-child(2)\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector retrieves the second <li> but not via the children property."
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector retrieves the second <li> but not via the children property."
+    },
+    {
+      "type": "paragraph",
+      "content": "document.querySelector(\".list\").lastChild"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "lastChild retrieves the last child node, not necessarily the second."
+    },
+    {
+      "type": "paragraph",
+      "content": "lastChild retrieves the last child node, not necessarily the second."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How would you access the second child element of an element with the class list?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:document.querySelector(\".list\").children[1]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "document.querySelector(\".list\").children[1]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:document.querySelector(\"#list\").children[1]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "document.querySelector(\"#list\").children[1]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:document.querySelector(\".list\").querySelector(\"li:nth-child(2)\")",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "document.querySelector(\".list\").querySelector(\"li:nth-child(2)\")",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:document.querySelector(\".list\").lastChild",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "document.querySelector(\".list\").lastChild",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

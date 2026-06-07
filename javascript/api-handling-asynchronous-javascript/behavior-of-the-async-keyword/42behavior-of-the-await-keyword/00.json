@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/behavior-of-await-keyword?page=1",
+  "title": "First Rule You Must Remember",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "First Rule You Must Remember"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can only use await inside an async function."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you try to use it anywhere else, JavaScript will refuse."
+    },
+    {
+      "type": "paragraph",
+      "content": "You might be wondering why?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because await depends on the ability to pause and resume a function — and only async functions support that behavior."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

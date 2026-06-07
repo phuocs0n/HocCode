@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-generics?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to create a generic class?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "class Main<T> {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <T> parameter to specify the generic class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the <T> parameter to specify the generic class."
+    },
+    {
+      "type": "paragraph",
+      "content": "generic class Main {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no keyword named generic in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no keyword named generic in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "class Main extends Generics {..}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't extend any Generics class to create a generic class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We don't extend any Generics class to create a generic class."
+    },
+    {
+      "type": "paragraph",
+      "content": "generic class Main<T> {..}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We only use the class keyword to create a generic class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We only use the class keyword to create a generic class."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to create a generic class?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:class Main<T> {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "class Main<T> {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:generic class Main {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "generic class Main {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:class Main extends Generics {..}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "class Main extends Generics {..}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:generic class Main<T> {..}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "generic class Main<T> {..}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

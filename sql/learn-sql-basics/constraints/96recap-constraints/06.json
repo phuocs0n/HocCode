@@ -1,0 +1,55 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-7?page=6",
+  "title": "Link each concert to specific genre: FOREIGN KEY",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Link each concert to specific genre: FOREIGN KEY"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose the Genres table is created, where id is the primary key."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Genres (\n2    id INTEGER PRIMARY KEY AUTOINCREMENT, \n3    genre_name VARCHAR(255) NOT NULL \n4);"
+    },
+    {
+      "type": "paragraph",
+      "content": "To meet the last requirement, use the FOREIGN KEY constraint to link genre_id in the Concerts table to id in the Genres table."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1CREATE TABLE Concerts (\n2    id INTEGER PRIMARY KEY AUTOINCREMENT,\n3    genre_id INT,\n4    FOREIGN KEY (genre_id) REFERENCES Genres(id) \n5);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The FOREIGN KEY constraint ensures that the genre_id in the Concerts table matches an existing id in the Genres table, linking each concert to a specific genre."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,75 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/debugging-optimizing-css?page=3",
+  "title": "Understanding Specificity and Overrides (Practically)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Specificity and Overrides (Practically)"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS doesn't apply styles randomly. It follows rules."
+    },
+    {
+      "type": "paragraph",
+      "content": "The most important one for debugging: More specific selectors win."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<main class=\"container\">\n2  <p>This paragraph is outside <code>.article</code>, so it becomes black.</p>\n3\n4  <article class=\"article\">\n5    <h2>Inside Article</h2>\n6    <p>This paragraph is inside <code>.article</code>, so it becomes gray.</p>\n7    <p>This one is also gray due to the more specific selector.</p>\n8  </article>\n9</main>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1p {\n2  color: black;\n3}\n4\n5.article p {\n6  color: gray;\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Paragraphs inside .article will be gray."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Insight"
+    },
+    {
+      "type": "paragraph",
+      "content": "When a style \"doesn't work\", it usually means:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Another rule is winning",
+        "Or your selector isn't specific enough"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

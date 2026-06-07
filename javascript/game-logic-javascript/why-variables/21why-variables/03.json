@@ -1,0 +1,71 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/why-variables?page=3",
+  "title": "Resetting variable",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Resetting variable"
+    },
+    {
+      "type": "paragraph",
+      "content": "A variable can hold a new value later. We say we reset or reassign it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the quiz, we start the score at 0, then add points when the player gets a question right."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var score = 0;\n2console.log(\"Score: \" + score);\n3score = 1;\n4console.log(\"Score: \" + score);\n5score = 2;\n6console.log(\"Score: \" + score)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The same variable score is used three times with different values. Later we'll update it automatically using a loop. For now, the key idea is simple: variables can change, and that's how games track progress."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Mindset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Values like score change over time. That's how we track progress in the game."
+    },
+    {
+      "type": "paragraph",
+      "content": "So I always make sure they're updated in the right place. If I forget to increase the score when the player is correct, the game result is wrong. If I increase it in the wrong branch, the logic breaks."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why I think: Where should this value change?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a loop, it usually means inside the loop, in the branch where the condition is met."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

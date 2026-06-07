@@ -1,0 +1,81 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=9",
+  "title": "Danh sách toán tử so sánh",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Danh sách toán tử so sánh"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là danh sách tất cả các toán tử so sánh trong C so sánh biến var với giá trị 5."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Toán tử",
+          "Sự biểu lộ",
+          "Câu hỏi"
+        ],
+        [
+          ">",
+          "var > 5",
+          "Var có lớn hơn 5 không?"
+        ],
+        [
+          ">=",
+          "biến >= 5",
+          "Var có lớn hơn hoặc bằng 5 không?"
+        ],
+        [
+          "<",
+          "var < 5",
+          "Var có nhỏ hơn 5 không?"
+        ],
+        [
+          "<=",
+          "biến <= 5",
+          "Var có nhỏ hơn hoặc bằng 5 không?"
+        ],
+        [
+          "==",
+          "var == 5",
+          "Var có bằng 5 không?"
+        ],
+        [
+          "!=",
+          "var != 5",
+          "Var không bằng 5 phải không?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ xem từng ví dụ về các toán tử này."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,191 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/local-variables?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function greet() {\n    let greeting = \"Hello\";\n}\n\nconsole.log(greeting);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable inside the console.log() statement is not defined since it is local to the greet() function only. In other words, the variable doesn't exist outside the greet() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable inside the console.log() statement is not defined since it is local to the greet() function only. In other words, the variable doesn't exist outside the greet() function."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "ReferenceError"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined since it only exists inside the greet() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined since it only exists inside the greet() function."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "greeting"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You're printing the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "You're printing the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable inside the console.log() statement is not defined since it is local to the greet() function only. In other words, the variable doesn't exist outside the greet() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable inside the console.log() statement is not defined since it is local to the greet() function only. In other words, the variable doesn't exist outside the greet() function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined since it only exists inside the greet() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greeting variable is not defined since it only exists inside the greet() function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You're printing the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "paragraph",
+      "content": "You're printing the greeting variable, not the \"greeting\" string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:ReferenceError",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "ReferenceError",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:greeting",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "greeting",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

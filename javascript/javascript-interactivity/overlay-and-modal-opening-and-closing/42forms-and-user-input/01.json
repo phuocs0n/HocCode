@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/forms-user-input?page=2",
+  "title": "Reading Form Values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Reading Form Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see it work."
+    },
+    {
+      "type": "paragraph",
+      "content": "This example reads a value from an input when the form is submitted. Instead of reloading the page, it shows a message underneath."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Form Values</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <form id=\"demo-form\">\n11    <label for=\"name\">Name</label>\n12    <input type=\"text\" id=\"name\" name=\"name\" />\n13    <button type=\"submit\">Submit</button>\n14  </form>\n15\n16  <p id=\"output\">(submit to see value)</p>\n17\n18  <script src=\"script.js\"></script>\n19</body>\n20</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6form label,\n7form input {\n8  display: block;\n9  margin-bottom: 8px;\n10}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var form = document.querySelector('#demo-form');\n2var nameInput = document.querySelector('#name');\n3var out = document.querySelector('#output');\n4\n5if (form) {\n6  form.addEventListener('submit', function (e) {\n7    e.preventDefault();\n8\n9    var name = nameInput ? nameInput.value : '';\n10    var cleanName = name.trim();\n11\n12    if (out) {\n13      out.textContent = cleanName ? 'Hello, ' + cleanName : 'Please enter a name.';\n14    }\n15  });\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code. Type a name and submit the form."
+    },
+    {
+      "type": "paragraph",
+      "content": "The page does not reload. The value is read, trimmed, and used to update what the user sees."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the core form pattern:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Stop the reload with preventDefault()",
+        "Read the value with .value",
+        "Update the page using textContent"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will add validation, loading, and success feedback."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

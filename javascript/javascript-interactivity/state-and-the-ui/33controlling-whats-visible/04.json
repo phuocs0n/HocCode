@@ -1,0 +1,108 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-whats-visible?page=4",
+  "title": "Navigating Slides with Prev and Next",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Navigating Slides with Prev and Next"
+    },
+    {
+      "type": "paragraph",
+      "content": "The slider moves. Now let's give the user control."
+    },
+    {
+      "type": "paragraph",
+      "content": "A slider becomes interactive when users can move forward and backward through the slides."
+    },
+    {
+      "type": "paragraph",
+      "content": "The buttons do not move the track directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "They update the state."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the user clicks:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Prev → decrease the index",
+        "Next → increase the index"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Both buttons call the same function: showSlide()."
+    },
+    {
+      "type": "paragraph",
+      "content": "That function:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Keeps the index within a valid range",
+        "Updates currentSlideIndex",
+        "Moves the track so the correct slide appears"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "State changes first. Then the DOM reflects it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Developer Insight"
+    },
+    {
+      "type": "paragraph",
+      "content": "Clamping the index inside showSlide() instead of inside each button handler keeps your logic centralized."
+    },
+    {
+      "type": "paragraph",
+      "content": "This means:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You cannot forget to clamp later",
+        "Keyboard controls or swipe gestures can reuse the same function",
+        "All state control stays in one predictable place"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That makes your slider easier to extend and maintain."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see the complete runnable example with the buttons connected."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

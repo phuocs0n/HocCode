@@ -1,0 +1,55 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/any-all-in-python?page=1",
+  "title": "Explain the Use of any() and all() in Python",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explain the Use of any() and all() in Python"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, any() is an inbuilt function that returns True if any of the values in the passed iterable object is True. Else, it returns False. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1values = [True, True, True]\n2print(any(values))  # True\n3\n4values = [False, False, False]\n5print(any(values))  # False\n6\n7values = [True, False, True]\n8print(any(values))  # True"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, the all() function in Python returns True only if all the values in the passed iterable object are True. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1values = [True, True, True]\n2print(all(values))  # True\n3\n4values = [False, False, False]\n5print(all(values))  # False\n6\n7values = [True, False, True]\n8print(all(values))  # False"
+    },
+    {
+      "type": "paragraph",
+      "content": "In any() and all(), non-boolean values are first converted to True or False based on their \"truthiness\" (e.g., 0 is False, non-zero numbers are True, empty strings are False, etc.)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

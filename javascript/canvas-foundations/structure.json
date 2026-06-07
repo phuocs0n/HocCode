@@ -1,0 +1,62 @@
+{
+  "levels": [
+    {
+      "title": "Welcome and Setup",
+      "lessons": [
+        {
+          "title": "1.1Welcome and Setup",
+          "url": "https://app.programiz.pro/course/canvas-foundations/welcome-setup"
+        },
+        {
+          "title": "1.2Getting Started with Canvas",
+          "url": "https://app.programiz.pro/course/canvas-foundations/getting-started-with-canvas"
+        }
+      ]
+    },
+    {
+      "title": "Shapes and Paths",
+      "lessons": [
+        {
+          "title": "2.1Shapes and Paths",
+          "url": "https://app.programiz.pro/course/canvas-foundations/shapes-paths"
+        },
+        {
+          "title": "2.2Text and Styling",
+          "url": "https://app.programiz.pro/course/canvas-foundations/text-styling"
+        }
+      ]
+    },
+    {
+      "title": "Creating Animation",
+      "lessons": [
+        {
+          "title": "3.1Creating Animation",
+          "url": "https://app.programiz.pro/course/canvas-foundations/creating-animation"
+        }
+      ]
+    },
+    {
+      "title": "Handling User Input",
+      "lessons": [
+        {
+          "title": "4.1Handling User Input",
+          "url": "https://app.programiz.pro/course/canvas-foundations/handling-user-input"
+        }
+      ]
+    },
+    {
+      "title": "Collision Detection",
+      "lessons": [
+        {
+          "title": "5.1Collision Detection",
+          "url": "https://app.programiz.pro/course/canvas-foundations/collision-detection"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 7,
+    "sections": 5,
+    "container": "main-content"
+  }
+}

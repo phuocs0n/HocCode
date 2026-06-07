@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/what-is-zustand?page=2",
+  "title": "Why Zustand?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Zustand?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is what makes Zustand a great fit, especially when you are learning."
+    },
+    {
+      "type": "paragraph",
+      "content": "No special wrapper needed"
+    },
+    {
+      "type": "paragraph",
+      "content": "Some tools require you to wrap your entire app in a special component before they work. Zustand does not. You create a store and use it anywhere, immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "No extra syntax to learn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your state and the functions that change it all live in one plain JavaScript object. If you know JavaScript objects and functions, you already understand most of Zustand."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiny"
+    },
+    {
+      "type": "paragraph",
+      "content": "The whole library is less than 1KB. It adds almost nothing to your app."
+    },
+    {
+      "type": "paragraph",
+      "content": "Smart re-renders"
+    },
+    {
+      "type": "paragraph",
+      "content": "Components only update when the exact piece of state they use changes. Not everything. Just their piece."
+    },
+    {
+      "type": "paragraph",
+      "content": "Simple. Lightweight. Stays out of your way."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will take a look at your coding environment. Let's do a quick quiz before that."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

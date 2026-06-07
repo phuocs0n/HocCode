@@ -1,0 +1,85 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/broadcasting?page=2",
+  "title": "Compatibility Rules for Broadcasting",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compatibility Rules for Broadcasting"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy has defined some rules to determine if an array is broadcastable along a dimension."
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting only works with compatible arrays. NumPy compares a set of array dimensions from right to left."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every set of dimensions must be compatible with the arrays to be broadcastable. While checking compatibility of two shapes of arrays, we compare their dimensions from right to left."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set of dimension lengths is compatible when"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "one of them has a length of 1 or",
+        "they are equal"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "array1 = shape(6, 7)\narray2 = shape(6, 1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, array1 and array2 are arrays with different dimensions (6,7) and (6,1) respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "The right-most dimension of array1 is 7 and array2 is 1. Since, one of them has a length of 1, they are compatible."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's move to the left dimensions. 6 and 6 are compatible since they are the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "As both sets of dimensions are compatible, the arrays are broadcastable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see the list of broadcastable and non-broadcastable shapes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

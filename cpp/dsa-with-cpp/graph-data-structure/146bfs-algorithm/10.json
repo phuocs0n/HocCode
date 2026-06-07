@@ -1,0 +1,107 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/bfs-algorithm?page=11",
+  "title": "Thought Process: BFS Algorithm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: BFS Algorithm"
+    },
+    {
+      "type": "paragraph",
+      "content": "To implement the BFS algorithm, we first need the following:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A vector to store the sequence of traversal.",
+        "An unordered set to keep track of the visited vertices.",
+        "A queue to store the adjacent vertices of the current vertex."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int> traversal_seq;\nunordered_set<int> visited;\nqueue<int> q;\nq.push(start_vertex);"
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we have everything we need, we'll start at start_vertex and follow the given steps to implement DFS in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Dequeue the front element and make it the current vertex."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int current_vertex = q.front();\nq.pop();"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Traverse the current vertex if it hasn't been traversed and add its neighbors to the queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "This steps requires you to do the following:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add current_vertex to the traversal_seq vector.",
+        "Add current_vertex to the visited set.",
+        "Push the neighbors of current_vertex to the queue if they have not been visited."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "if (!visited.count(current_vertex)) {\n    traversal_seq.push_back(current_vertex);\n    visited.insert(current_vertex);\n\n    for (auto neighbor : adj_list[current_vertex]) {\n        if (!visited.count(neighbor)) {\n            q.push(neighbor);\n        }\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Repeat steps 1 and 2 as long as the queue is not empty."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "while (!q.empty()) {\n    // Code of step 1 and 2\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we'll wrap all the code we've written inside the bfs_traversal() method, which will take start_vertex as an argument:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int> bfs_traversal(int start_vertex) {\n    // Code from above steps\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

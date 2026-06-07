@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/class-composition?page=1",
+  "title": "Composition over Inheritance",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Composition over Inheritance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inheritance gets a lot of attention, but in practice, composition is the more flexible pattern. Instead of making classes inherit from each other, you create small, focused classes and combine them. Each class does one thing, and a larger class holds the others as properties."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, a TaskBoard class does not inherit from Task or User. Instead, it creates a Task and a User and coordinates them. This is composition - the board \"has a\" task and \"has a\" user."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "class Task extends TaskBoard { ... }\n\n// Composition: \"has a\" (loose coupling)\nclass TaskBoard {\n    constructor() {\n        this.task = new Task();\n        this.user = new User();\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "I default to composition over inheritance in every project I work on. With inheritance, changing one class can break others that depend on it. Composition keeps each piece independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "I always ask \"does this have a [thing]?\" before \"is this a [thing]?\". This keeps things simpler."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

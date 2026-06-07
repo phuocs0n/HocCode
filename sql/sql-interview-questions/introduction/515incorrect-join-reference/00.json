@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/incorrect-join-reference?page=1",
+  "title": "What's Wrong With The Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With The Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Customers\n3INNER JOIN Orders\n4ON Customers.first_name = Orders.customer_id;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the INNER JOIN condition references the wrong column name in the Customers table."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Update the join condition to reference the correct column name i.e., customer_id."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Customers\n3INNER JOIN Orders\n4ON Customers.customer_id = Orders.customer_id;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

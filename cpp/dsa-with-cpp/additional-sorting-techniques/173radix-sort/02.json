@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/radix-sort?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In what order does radix sort process the digits of the numbers?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Least significant digit to most significant digit."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Radix sort starts with the least significant digit and sorts all the numbers based on that digit. Then, it moves to the next least significant digit, and the process continues."
+    },
+    {
+      "type": "paragraph",
+      "content": "Radix sort starts with the least significant digit and sorts all the numbers based on that digit. Then, it moves to the next least significant digit, and the process continues."
+    },
+    {
+      "type": "paragraph",
+      "content": "Random order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The order in which the digits are processed is crucial to ensuring the numbers are sorted correctly. So, radix doesn't process the digits in random order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The order in which the digits are processed is crucial to ensuring the numbers are sorted correctly. So, radix doesn't process the digits in random order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Depends on the number of digits."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The radix sort always processes the digits in one concrete order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The radix sort always processes the digits in one concrete order."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In what order does radix sort process the digits of the numbers?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Least significant digit to most significant digit.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Least significant digit to most significant digit.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Random order.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Random order.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Depends on the number of digits.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Depends on the number of digits.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

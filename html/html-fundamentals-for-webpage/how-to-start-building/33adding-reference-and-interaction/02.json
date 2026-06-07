@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/adding-reference-interaction?page=2",
+  "title": "Section 1: Adding a Tag Reference Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Section 1: Adding a Tag Reference Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "Developers use tables when information has:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Categories",
+        "Labels",
+        "Repeating rows"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section>\n2  <h2>Common HTML Tags</h2>\n3  <table>\n4    <tr>\n5      <th>Tag</th>\n6      <th>Purpose</th>\n7    </tr>\n8    <tr>\n9      <td>h1</td>\n10      <td>Main page heading</td>\n11    </tr>\n12    <tr>\n13      <td>p</td>\n14      <td>Paragraph of text</td>\n15    </tr>\n16    <tr>\n17      <td>section</td>\n18      <td>Groups related content</td>\n19    </tr>\n20  </table>\n21</section>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Developer thinking:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "<th> defines meaning",
+        "<td> holds data",
+        "Tables are not for layout, only data"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

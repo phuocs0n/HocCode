@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/enumeration?page=2",
+  "title": "Hằng số tích phân",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hằng số tích phân"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C, hằng số enum được biểu diễn bên trong bằng hằng số nguyên. Vì vậy, theo mặc định, giá trị Chủ Nhật là 0, Thứ Hai là 1, Thứ Ba là 2, v.v."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem một ví dụ."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3enum Days {\n4  Sunday,\n5  Monday,\n6  Tuesday,\n7  Wednesday,\n8  Thursday,\n9  Friday,\n10  Saturday\n11};\n12\n13\n14int main() {\n15\n16  // create enum variable\n17  enum Days currentDay;\n18\n19  // assign value to enum variable\n20  currentDay = Friday;\n21\n22\n23  // print enum variable\n24  printf(\"%d\", currentDay);    // 5\n25\n26  \n27  return 0;\n28}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Như bạn có thể thấy, chúng ta lấy hằng số tích phân 5 làm đầu ra, đại diện cho hằng số enum Friday."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

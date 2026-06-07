@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/global-error-handling?page=1",
+  "title": "Handling Errors in One Place",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handling Errors in One Place"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now every useQuery call has its own isError check. That works but it means writing error handling in every component."
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/index.jsx we can set defaults that apply to every query in the app:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const queryClient = new QueryClient({\n  defaultOptions: {\n    queries: {\n      staleTime: 1000 * 60,\n      retry: 1,\n      throwOnError: true,\n    },\n    mutations: {\n      onError: (error) => {\n        console.error('Something went wrong:', error.message)\n      }\n    }\n  }\n})"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "throwOnError: true tells React Query to throw errors up to the nearest Error Boundary instead of returning them in isError.",
+        "retry: 1 means React Query retries a failed query once before giving up. The default is 3 which can feel slow on a bad connection.",
+        "mutations.onError runs every time any mutation in the app fails. A good place to log the error."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full updated index.jsx."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

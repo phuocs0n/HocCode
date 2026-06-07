@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-functions?page=1",
+  "title": "Tệp tiêu đề chuỗi",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tệp tiêu đề chuỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chuỗi là một trong những loại được sử dụng thường xuyên nhất trong lập trình. Để làm việc với chuỗi dễ dàng hơn, có một số hàm chuỗi. Ví dụ: hàm strlen() cho phép chúng ta tìm độ dài của chuỗi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Để sử dụng các hàm này, trước tiên chúng ta phải nhập tệp tiêu đề string.h trong chương trình của mình. Điều này là do định nghĩa của các hàm này được cung cấp bên trong tệp này."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong bài học này, chúng ta sẽ thấy cách hoạt động của một số hàm cơ bản rất tiện dụng khi làm việc với chuỗi."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "strlen() - tìm độ dài của chuỗi",
+        "strcpy() - sao chép một chuỗi sang chuỗi khác",
+        "strcat() - nối hai chuỗi lại với nhau",
+        "strcmp() - so sánh hai chuỗi"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta hãy xem từng ví dụ về các chức năng này."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/truthy-falsy-values?page=2",
+  "title": "Falsy values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Falsy values"
+    },
+    {
+      "type": "paragraph",
+      "content": "Falsy values are those that are treated as false in a Boolean context."
+    },
+    {
+      "type": "paragraph",
+      "content": "This means that if a falsy value is converted to its Boolean equivalent, it returns false."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1if(0){\n2    console.log(\"Truthy\");\n3}\n4else{\n5    console.log(\"Falsy\");\n6};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Falsy"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the code above, 0 is not a boolean, but because the value is falsy, the else block is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are only six falsy values in JavaScript:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "false - The boolean value false",
+        "0 - The number zero",
+        "\"\" or '' or `` - An empty string",
+        "null - Represents the intentional absence of any object value",
+        "undefined - A variable that has been declared but has not yet been assigned a value.",
+        "NaN - Stands for \"Not-a-Number\"."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

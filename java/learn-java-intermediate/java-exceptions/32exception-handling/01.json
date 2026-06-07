@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/exception-handling?page=2",
+  "title": "Example: Exception Handling",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Exception Handling"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4\n5    public static void main(String[] args) {\n6\n7        Scanner input = new Scanner(System.in);\n8        try {\n9\n10            System.out.println(\"Enter numerator: \");\n11            int numerator = input.nextInt();\n12            System.out.println(\"Enter denominator: \");\n13            int denominator = input.nextInt();\n14\n15            int result = numerator / denominator;\n16\n17            System.out.println(\"Result: \" + result);\n18        }\n19\n20        catch (Exception e) {\n21            System.out.println(\"Denominator cannot be 0. Try again.\");\n22        }\n23    }\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the exception occurs if the denominator is 0. Let's see how this program works for different values of denominator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Output when denominator is not 0"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter numerator: \n2\nEnter denominator: \n1\nResult: 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, exceptions do not occur. Hence, the catch block is skipped."
+    },
+    {
+      "type": "paragraph",
+      "content": "Output when denominator is 0"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter numerator: \n4\nEnter denominator: \n0\nDenominator cannot be 0. Try again."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, an exception is raised because of this code int result = numerator / denominator;. When the exception occurs, code after it is ignored, and the catch block is executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

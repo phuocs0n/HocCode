@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/strings-introduction?page=2",
+  "title": "Create Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we use the string keyword to create string variables. Here's how we create strings in C++:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "string text = \"Programiz\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, text is a string and we have assigned \"Programiz\" to it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Print a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "Like with everything else so far, we print strings using cout."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5    \n6    // create a string\n7    string text = \"Programiz\";\n8  \n9    // print string\n10    cout << text;    // Programiz\n11  \n12    return 0;\n13}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

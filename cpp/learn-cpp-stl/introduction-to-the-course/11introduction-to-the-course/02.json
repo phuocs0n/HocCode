@@ -1,0 +1,78 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/introduction-to-stl-in-c?page=1",
+  "title": "C++ STL",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ STL"
+    },
+    {
+      "type": "paragraph",
+      "content": "The C++ Standard Template Library (STL) is a collection of class templates and algorithms that makes it easy to work with common data structures like queues, lists, and stacks."
+    },
+    {
+      "type": "paragraph",
+      "content": "It simplifies complex tasks, so you don't have to write everything from scratch. For example, if you need a stack of integers, you can just write:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "std::stack<int> my_stack;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Don't worry about how this works; just know that it creates a stack. We will learn in detail about how this works later."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you can easily add and remove data from a stack using the push() and pop() functions."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "stack.push(1);\nstack.pop();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Besides data structures, the STL also offers many useful algorithms for tasks like searching and sorting."
+    },
+    {
+      "type": "paragraph",
+      "content": "Throughout the course, we will briefly look into:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "STL Containers - Implementation of various data structures",
+        "STL Algorithms - Implement of various algorithms"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll first start with STL Containers and then move on to STL Algorithms."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

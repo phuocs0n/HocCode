@@ -1,0 +1,111 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-lambda?page=9",
+  "title": "count_if()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "count_if()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we learnt about the count() function which returns the number of occurrences of a given value in the range."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if we wanted to count the number of occurrences of elements less than 5, or the number of even numbers in the container."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is where count_if() comes into play."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider a vector of integers,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int> numbers {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};"
+    },
+    {
+      "type": "paragraph",
+      "content": "We want to count the number of elements less than 5. We can use the count_if() function here."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the function signature."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "size_t count_if(iterator first, iterator last, predicate pred);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This takes two iterators for the start and end of the range and a predicate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every element in the range is passed to the predicate one by one. If the predicate returns true, the element is considered for the count."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's write a predicate (lambda for our case) that returns true when the given number is less than 5."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "auto count_less_than_five = [] (int x) -> bool {\n  if (x < 5) return true;\n\n  else return false;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "We then pass this lambda to the count_if() function."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "size_t less_than_five = count_if(numbers.begin(), numbers.end(), count_less_than_five);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a complete example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3#include <algorithm>\n4\n5using namespace std;\n6\n7int main(){\n8\n9   vector<int> numbers {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};\n10\n11\n12   // A lambda expression that returns true if the number is less than 5.\n13   auto count_less_than_five = [](int x) -> bool{\n14    if (x < 5) return true;\n15    else return false;\n16   };\n17\n18   // Count the number of elements less than 5.\n19   size_t less_than_five = count_if(numbers.begin(), numbers.end(), count_less_than_five);\n20\n21   cout << \"There are \" << less_than_five << \" elements less than five\";\n22   \n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "There are 4 elements less than five"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

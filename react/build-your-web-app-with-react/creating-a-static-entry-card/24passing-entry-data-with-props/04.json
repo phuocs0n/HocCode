@@ -1,0 +1,59 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/passing-entry-data-with-props?page=5",
+  "title": "How Props Work",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How Props Work"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you write:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<EntryCard title=\"First Day\" date=\"Feb 10\" />"
+    },
+    {
+      "type": "paragraph",
+      "content": "React collects all the attributes into an object:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "{\n  title: \"First Day\",\n  date: \"Feb 10\"\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This object is passed to the EntryCard() function as the props parameter. Inside the component, you access the values with props.title, props.date, etc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Props are read-only. You can read them, but you can't change them. If you need to modify data, you'll use state, which we'll cover later."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

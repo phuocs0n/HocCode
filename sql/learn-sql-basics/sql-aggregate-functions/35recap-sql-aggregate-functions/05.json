@@ -1,0 +1,56 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-1?page=6",
+  "title": "Finding Total Products",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding Total Products"
+    },
+    {
+      "type": "paragraph",
+      "content": "The total number of products lets you gauge the diversity of your inventory. It also helps track growth as you add more items to your catalog."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT COUNT(*) AS total_products\n2FROM Products;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Insights:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Total products: 6"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This insight indicates that your current offerings are limited, which may suggest expanding your product range."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

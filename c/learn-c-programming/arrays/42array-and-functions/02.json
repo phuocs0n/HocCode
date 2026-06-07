@@ -1,0 +1,180 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array-functions?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Kết quả của đoạn mã sau là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nvoid product(int n1) {\n  printf(\"%d\", n1 * n1);\n}\n\nint main() {\n\n  int ages[5] = {25, 31, 30, 17, 39};\n\n  product(ages[2]);\n \n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "900"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta đang chuyển phần tử thứ ba là 30 và 30 * 30 cho kết quả là 900."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta đang chuyển phần tử thứ ba là 30 và 30 * 30 cho kết quả là 900."
+    },
+    {
+      "type": "paragraph",
+      "content": "30"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 cho bình phương của giá trị được truyền."
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 cho bình phương của giá trị được truyền."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta đang chuyển phần tử thứ ba là 30 và 30 * 30 cho kết quả là 900."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta đang chuyển phần tử thứ ba là 30 và 30 * 30 cho kết quả là 900."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 cho bình phương của giá trị được truyền."
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 cho bình phương của giá trị được truyền."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang chuyển giá trị ở chỉ mục 2."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Kết quả của đoạn mã sau là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:900",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "900",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:30",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:2",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:4",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

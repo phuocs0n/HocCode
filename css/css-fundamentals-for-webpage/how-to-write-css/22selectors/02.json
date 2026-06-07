@@ -1,0 +1,95 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/selectors?page=2",
+  "title": "Element Selector (What You've Already Used)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Element Selector (What You've Already Used)"
+    },
+    {
+      "type": "paragraph",
+      "content": "An element selector targets all HTML elements of a specific type."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>\n2  If HTML is the <strong>skeleton</strong>, then <em>CSS is the paintbrush</em>\n3  for the browser. This blog helps you understand the building blocks of the web.\n4</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1p {\n2  color: #333;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "What this really means: \"Style every <p> element on the page"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Simple",
+        "Predictable",
+        "Great for base styles"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is usually where developers start:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Body text",
+        "Headings",
+        "Lists"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of element selectors as default rules for your page."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quick Check (Thinking Task)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at your current CSS file and answer:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Which rule you've already written is an element selector?",
+        "What would happen if you added another <p> anywhere in the page?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "(You don't need to code yet — just reason.)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

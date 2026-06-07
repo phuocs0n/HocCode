@@ -1,0 +1,135 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-c-programming/functions-in-c-programming?page=9",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu đố: Bạn gọi một hàm có tên là chào như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "greet;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Để gọi một hàm, chúng ta phải sử dụng dấu ngoặc đơn () sau tên của nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "Để gọi một hàm, chúng ta phải sử dụng dấu ngoặc đơn () sau tên của nó."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Để gọi một hàm, chúng ta sử dụng tên hàm theo sau là ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Để gọi một hàm, chúng ta sử dụng tên hàm theo sau là ()."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "greet();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C, một hàm được gọi bằng cách sử dụng tên của nó theo sau là dấu ngoặc đơn ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C, một hàm được gọi bằng cách sử dụng tên của nó theo sau là dấu ngoặc đơn ()."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "void greet();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi gọi một hàm, chúng ta không bao gồm kiểu trả về của nó (void, int, v.v.)—chúng ta chỉ sử dụng tên của nó theo sau bởi ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi gọi một hàm, chúng ta không bao gồm kiểu trả về của nó (void, int, v.v.)—chúng ta chỉ sử dụng tên của nó theo sau bởi ()."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu đố: Bạn gọi một hàm có tên là chào như thế nào?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:chào;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "chào;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:chào();",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "chào();",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:void chào();",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "void chào();",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

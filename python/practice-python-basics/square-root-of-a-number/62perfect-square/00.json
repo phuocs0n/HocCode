@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/perfect-square?page=1",
+  "title": "Perfect Square",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Perfect Square"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to check if a number is a perfect square or not."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Import math module.",
+        "Get an integer input and store it in the number variable.",
+        "Find the square root of the number using sqrt() function and assign it to square_root variable.",
+        "Use the % operator with 1 to get the remainder of the calculated square root and assign it to check_remainder.",
+        "If the remainder is equal to 0, print Perfect Square.",
+        "Else print Not a Perfect Square."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input49"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputPerfect Square"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

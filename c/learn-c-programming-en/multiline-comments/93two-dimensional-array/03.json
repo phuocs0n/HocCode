@@ -1,0 +1,180 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/two-dimensional-array?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the size of the given array?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int arr[3][5];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "15"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The array can store 3 single dimensional array of size 5 so the total size is 15 (3 * 5)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The array can store 3 single dimensional array of size 5 so the total size is 15 (3 * 5)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "3 represents the number of single dimensional arrays present inside this 2D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "3 represents the number of single dimensional arrays present inside this 2D array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is the number of elements present inside the inner single dimensional array."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is the number of elements present inside the inner single dimensional array."
+    },
+    {
+      "type": "paragraph",
+      "content": "(undefined)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The size of a 2D array can be identified by multiplying rows and columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "The size of a 2D array can be identified by multiplying rows and columns."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The array can store 3 single dimensional array of size 5 so the total size is 15 (3 * 5)."
+    },
+    {
+      "type": "paragraph",
+      "content": "The array can store 3 single dimensional array of size 5 so the total size is 15 (3 * 5)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "3 represents the number of single dimensional arrays present inside this 2D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "3 represents the number of single dimensional arrays present inside this 2D array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is the number of elements present inside the inner single dimensional array."
+    },
+    {
+      "type": "paragraph",
+      "content": "5 is the number of elements present inside the inner single dimensional array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The size of a 2D array can be identified by multiplying rows and columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "The size of a 2D array can be identified by multiplying rows and columns."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the size of the given array?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:15",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:3",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:5",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(undefined)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(undefined)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

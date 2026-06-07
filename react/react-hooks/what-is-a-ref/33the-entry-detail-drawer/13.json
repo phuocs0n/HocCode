@@ -1,0 +1,73 @@
+{
+  "index": 13,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=14",
+  "title": "Summary: Misconceptions and Best Practices",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Summary: Misconceptions and Best Practices"
+    },
+    {
+      "type": "paragraph",
+      "content": "The piling-listener bug is easy to miss. Here's the takeaway:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Event listeners added inside useEffect() only need cleanup if they do something drastic, like timers or subscriptions.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any time we add an event listener to document (or window, or any element outside the component), we must clean it up."
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not track external listeners. Only we can remove what we added."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every addEventListener() inside useEffect() needs a matching removeEventListener() in the cleanup function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Moving On"
+    },
+    {
+      "type": "paragraph",
+      "content": "With the piling bug fixed and the null guard in place, the Drawer component is complete — we just need to wire it into the app. We'll do that in the next chapter."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

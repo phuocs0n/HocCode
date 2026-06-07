@@ -1,0 +1,158 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/project--student-record-analysis-using-numpy?page=2",
+  "title": "Step 1: Create Data as NumPy Arrays",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Create Data as NumPy Arrays"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the first step, we'll create some student records which we can work on. For this, we'll use the concept of array creation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's assume five subjects at random."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "English",
+        "Maths",
+        "Science",
+        "Social",
+        "History"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's create an array with these 5 subjects:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a subject array\n4subject = np.array(['English', 'Maths', 'Science', 'Social', 'History'])\n5\n6print(subject)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "['English' 'Maths' 'Science' 'Social' 'History']"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll create an array of students. We'll use some random names."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a student array\n4students = np.array(['Alice', 'Bob', 'Charlie', 'Dan'])\n5\n6print(students)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "['Alice' 'Bob' 'Charlie' 'Dan']"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, let's assign marks to each student."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a subject array\n4subject = np.array(['English', 'Maths', 'Science', 'Social', 'History'])\n5\n6# create a student array\n7students = np.array(['Alice', 'Bob', 'Charlie', 'Dan'])\n8\n9# assign random marks for each student and subject\n10marks = np.array([[81, 78, 80, 60, 63],\n11                  [50, 60, 65, 48, 55],\n12                  [30, 83, 97, 79, 75],\n13                  [99, 55, 60, 48, 30]])\n14\n15print(marks)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[[81 78 80 60 63]\n [50 60 65 48 55]\n [30 83 97 79 75]\n [99 55 60 48 30]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: We can also use a random function provided by NumPy to create a much larger dataset. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "marks = np.random.randint(30, 101, size=(len(students), len(subjects)))"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, in this project, we manually created datasets to ensure data consistency."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's put all these codes inside a function."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# function to initialize and store data\n4def initialize_data():\n5\n6    subject = np.array(['English', 'Maths', 'Science', 'Social', 'History'])\n7    students = np.array(['Alice', 'Bob', 'Charlie', 'Dan'])\n8    marks = np.array([[81, 78, 80, 60, 63],\n9                      [50, 60, 65, 48, 55],\n10                      [30, 83, 97, 79, 75],\n11                      [99, 55, 60, 48, 30]])\n12    return subject, students, marks\n13\n14# main function\n15def main():\n16    # call the function initialize_data\n17    subject, students, marks = initialize_data()\n18    print(subject)\n19    print(students)\n20    print(marks)\n21\n22# call the main function\n23main()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "['English' 'Maths' 'Science' 'Social' 'History']\n['Alice' 'Bob' 'Charlie' 'Dan']\n[[81 78 80 60 63]\n [50 60 65 48 55]\n [30 83 97 79 75]\n [99 55 60 48 30]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Although the program works just fine without functions, using functions allows us to organize our code into modular and reusable blocks, making it easier to understand, maintain, and debug."
+    },
+    {
+      "type": "paragraph",
+      "content": "To define a function we use:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def function_name(arguments):\n\t# function logic"
+    },
+    {
+      "type": "paragraph",
+      "content": "Later, we can use that function by simply calling it."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "function_name(arguments)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

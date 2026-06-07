@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/select-where?page=3",
+  "title": "Examples: SQL SELECT WHERE",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Examples: SQL SELECT WHERE"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run each query and observe the results."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 1: Retrieve the age and country of customers aged 27 or younger."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select the age and country of customers\n2-- Aged less than or equal to 27\n3\n4SELECT age, country\n5FROM Customers\n6WHERE age <= 27;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Example 2: Retrieve the age and country of customers older than 27."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select the age and country of customers\n2-- Older than 27\n3\n4SELECT age, country\n5FROM Customers\n6WHERE age > 27;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

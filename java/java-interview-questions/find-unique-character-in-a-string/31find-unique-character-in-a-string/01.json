@@ -1,0 +1,114 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-unique-character-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the unique element in a string, we have to check whether each character in the string is repeated or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, we can use two nested for loops — the outer for loop tracks the current character in the string and the inner loop iterates through the rest of the characters to check if the current character is equal to any of the other characters."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, using nested for loop is not a good idea, and in interviews we should try to avoid it as much as we can. So, we will solve the problem without it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's check the unique characters in the text hello."
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the unique characters in the string hello, we first create an integer array with a size of 256 (which is the total number of possible ASCII characters)."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then loop through each character in the string, and for each character we encounter, we increment the count of the corresponding index in the integer array by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, when we first encounter the character h, we increment the count at index 104 (which is the ASCII value for h) by 1. We repeat this process for each character in the string."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "character",
+          "ascii value",
+          "count[ascii value]"
+        ],
+        [
+          "h",
+          "count[104]",
+          "0 + 1 = 1"
+        ],
+        [
+          "e",
+          "count[101]",
+          "0 + 1 = 1"
+        ],
+        [
+          "l",
+          "count[108]",
+          "0 + 1 = 1"
+        ],
+        [
+          "l",
+          "count[108]",
+          "1 + 1 = 2"
+        ],
+        [
+          "o",
+          "count[111]",
+          "0 + 1 = 1"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If the count is equal to 1, we know that this character is unique and has only occurred once in the input string, so we print it out as a unique character."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Convert the string into an array of characters using the toCharArray() method in Java.",
+        "Create an integer array of size 256, where the index represents the ASCII value of the character and the value at each index represents the count of that character in the string.",
+        "Loop through each character in the array, and for each character, increase the count at the corresponding index in the integer array.",
+        "Loop through the character array again, and for each character, check the count of that character in the integer array.",
+        "If the count is 1, then it is a unique character, so print it out."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

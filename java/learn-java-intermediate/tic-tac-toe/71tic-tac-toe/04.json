@@ -1,0 +1,80 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/tic-tac-toe?page=4",
+  "title": "Step 3: Creating the Game Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Creating the Game Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Removed the Player objects from the Main class (we will add it inside the Game class).",
+        "Created the Game class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2import java.util.Scanner;\n3\n4class Board {\n5\n6    // create an ArrayList\n7    ArrayList<String> board = new ArrayList<>();\n8\n9    // add elements to the board ArrayList\n10    void addElements() {\n11        board.add(\" \");\n12        board.add(\" \");\n13        board.add(\" \");\n14        board.add(\" \");\n15        board.add(\" \");\n16        board.add(\" \");\n17        board.add(\" \");\n18        board.add(\" \");\n19        board.add(\" \");\n20    }\n21\n22    // print elements of the board\n23    void printBoard() {\n24\n25        System.out.println(\" \" + board.get(0) + \" | \" + board.get(1) + \" | \" + board.get(2));\n26        System.out.println(\"-----------\");\n27        System.out.println(\" \" + board.get(3) + \" | \" + board.get(4) + \" | \" + board.get(5));\n28        System.out.println(\"-----------\");\n29        System.out.println(\" \" + board.get(6) + \" | \" + board.get(7) + \" | \" + board.get(8));\n30\n31    }\n32}\n33\n34class Player {\n35\n36    String name;\n37    String type;\n38\n39    Player(String type) {\n40\n41        this.type = type;\n42        Scanner input = new Scanner(System.in);\n43        if (type == \"X\") {\n44            System.out.println(\"Player selecting X, enter your name: \");\n45            name = input.nextLine();\n46        }\n47        else {\n48            System.out.println(\"Player selecting O, enter your name: \");\n49            name = input.nextLine();\n50        }\n51    }\n52}\n53\n54\n55class Game {\n56\n57    // create object of Board class\n58    Board b1 = new Board();\n59\n60    // create object of Player class\n61    Player player1 = new Player(\"X\");\n62    Player player2 = new Player(\"O\");\n63\n64    // set currentPlayer as player1\n65    Player currentPlayer = player1;\n66\n67    // this method will be later used to play the game\n68    void play() {\n69        // empty for now\n70    }\n71}\n72\n73\n74class Main {\n75    public static void main(String[] args) {\n76\n77\n78        // create object of Game method\n79        Game game = new Game();\n80        game.play();\n81\n82\n83    }\n84}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: \nRobin\nPlayer selecting O, enter your name: \nLily"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the Game class:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "b1 - object of the Board class",
+        "player1 - object of the Player class for the first player",
+        "player2 - object of the Player class for the second player",
+        "currentPlayer - To identify the turn of either player. At the beginning, it's turn of the first player so we have assigned player1 object to it"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The play() method will be used to write our game logic, which is empty for now."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will update the play() method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

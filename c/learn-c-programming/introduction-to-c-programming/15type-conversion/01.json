@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/type-conversion?page=2",
+  "title": "Chuyển đổi loại ngầm định",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Chuyển đổi loại ngầm định"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong chuyển đổi loại tiềm ẩn, loại sẽ tự động thay đổi. Không có cú pháp đặc biệt cho kiểu chuyển đổi này."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem một ví dụ để hiểu nó tốt hơn."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Initialize a double variable\n6    double doubleValue = 45.4567;\n7    \n8    // Assign double to an int \n9    int intValue = doubleValue;\n10\n11    // Print the int variable\n12    printf(\"%d\", intValue);\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "45"
+    },
+    {
+      "type": "paragraph",
+      "content": "Có hai điểm chính từ đầu ra:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Chúng ta có thể gán một loại biến cho loại khác.",
+        "Chúng tôi có thể gặp phải tình trạng mất dữ liệu. Ví dụ: chúng ta đã mất 0,4567 còn lại trong ví dụ trên."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, giá trị kép 45,4567 được tự động chuyển đổi thành giá trị int 45. Việc chuyển đổi tự động giữa các loại dữ liệu này được gọi là chuyển đổi loại ẩn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong bài học tiếp theo, chúng ta sẽ tìm hiểu cách kiểm soát chuyển đổi loại một cách rõ ràng để thực hiện chuyển đổi có chủ ý hơn."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

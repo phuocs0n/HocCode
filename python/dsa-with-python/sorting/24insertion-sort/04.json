@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-python/insertion-sort?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements best describes the insertion sort algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It repeatedly swaps adjacent elements if they are in the wrong order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the description of the Bubble Sort algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the description of the Bubble Sort algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "It repeatedly picks the smallest element from the unsorted portion and places it in its correct sorted position."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the description of the Selection Sort algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the description of the Selection Sort algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "It divides the list into a sorted and an unsorted sublist. It then repeatedly takes the first element from the unsorted portion and inserts it into its correct position within the sorted portion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This accurately describes the Insertion Sort algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "This accurately describes the Insertion Sort algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements best describes the insertion sort algorithm?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It repeatedly swaps adjacent elements if they are in the wrong order.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It repeatedly swaps adjacent elements if they are in the wrong order.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It repeatedly picks the smallest element from the unsorted portion and places it in its correct sorted position.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It repeatedly picks the smallest element from the unsorted portion and places it in its correct sorted position.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It divides the list into a sorted and an unsorted sublist. It then repeatedly takes the first element from the unsorted portion and inserts it into its correct position within the sorted portion.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It divides the list into a sorted and an unsorted sublist. It then repeatedly takes the first element from the unsorted portion and inserts it into its correct position within the sorted portion.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

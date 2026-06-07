@@ -1,0 +1,77 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/ifelse-statement?page=5",
+  "title": "Indentation is Important",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Indentation is Important"
+    },
+    {
+      "type": "paragraph",
+      "content": "A small mistake in indentation can lead to unexpected behavior or errors. Let's try one more example to see how indentation affects code execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this program:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Check eligibility for discount.\n2\n3total = float(input(\"Enter the total amount: \"))\n4\n5# check if total is greater than 100\n6if total > 100:\n7    print(\"Congratulations!\")\n8    print(\"You are eligible for a discount\")\n9\n10print(\"Program ends.\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the two print() statements immediately after the if block are indented, making them part of the if block:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "print(\"Congratulations!\")\n    print(\"You are eligible for a discount\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, the following line is not indented and is not part of the if block:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "print(\"Program ends.\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why the last print() statement always executes, regardless of whether total > 100 is True or False."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code visualizer below to understand the flow of this program."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Check eligibility for discount.\n2\n3total = float(input(\"Enter the total amount: \"))\n4\n5# Check if total is greater than 100\n6if total > 100:\n7    print(\"Congratulations!\")\n8    print(\"You are eligible for a discount\")\n9\n10print(\"Program ends.\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

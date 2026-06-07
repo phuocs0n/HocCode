@@ -1,0 +1,140 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/important-box-model-concepts?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Given the following code snippet:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "div {\n    width: 100px;\n    height: 100px;\n    padding: 30px;\n    border: 5px;\n    margin: 30px;\n    box-sizing: content-box;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "What is the total width and height of the <div> element?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "width is 100px and height is 100px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the box-sizing property is set to content-box, the total width and height of the <div> also includes padding and border, which isn't the case here."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the box-sizing property is set to content-box, the total width and height of the <div> also includes padding and border, which isn't the case here."
+    },
+    {
+      "type": "paragraph",
+      "content": "width is 135px and height is 135px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you know, applying padding and borders affects all sides of an element. This means that the width will need to account for both the left and right padding and borders, while the height will include the top and bottom padding and borders as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you know, applying padding and borders affects all sides of an element. This means that the width will need to account for both the left and right padding and borders, while the height will include the top and bottom padding and borders as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "width is 170px and height is 170px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting box-sizing to content-box includes padding and border in the total width and height of the element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Setting box-sizing to content-box includes padding and border in the total width and height of the element."
+    },
+    {
+      "type": "paragraph",
+      "content": "width is 230px and height is 230px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "margin is never included in the total width and height of an element, regardless of whether the box-sizing value is applied or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "margin is never included in the total width and height of an element, regardless of whether the box-sizing value is applied or not."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Given the following code snippet:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:width is 100px and height is 100px.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "width is 100px and height is 100px.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:width is 135px and height is 135px.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "width is 135px and height is 135px.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:width is 170px and height is 170px.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "width is 170px and height is 170px.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:width is 230px and height is 230px.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "width is 230px and height is 230px.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

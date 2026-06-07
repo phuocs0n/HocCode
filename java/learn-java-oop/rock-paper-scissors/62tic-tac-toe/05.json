@@ -1,0 +1,80 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-java-oop/tictactoe?page=6",
+  "title": "Step 3: Creating the Game Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Creating the Game Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Removed the Player objects from the Main class (we will add it inside the Game class)",
+        "Created the Game class"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Board {\n4\n5    String board[] = { \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \" };\n6\n7    void printBoard() {\n8\n9        System.out.println(\" \" + board[0] + \" | \" + board[1] + \" | \" + board[2]);\n10        System.out.println(\"-----------\");\n11        System.out.println(\" \" + board[3] + \" | \" + board[4] + \" | \" + board[5]);\n12        System.out.println(\"-----------\");\n13        System.out.println(\" \" + board[6] + \" | \" + board[7] + \" | \" + board[8]);\n14\n15    }\n16}\n17\n18class Player {\n19\n20    String name;\n21\n22    Player(String type) {\n23        Scanner input = new Scanner(System.in);\n24        if (type == \"X\") {\n25            System.out.println(\"Player selecting X, enter your name: \");\n26            name = input.nextLine();\n27        }\n28        else {\n29            System.out.println(\"Player selecting O, enter your name: \");\n30            name = input.nextLine();\n31        }\n32    }\n33\n34}\n35\n36\n37class Game {\n38\n39    Board board = new Board();\n40    Player player1 = new Player(\"X\");\n41    Player player2 = new Player(\"O\");\n42    Player currentPlayer = player1;\n43\n44    // this method will be later used to play the game\n45    void play() {\n46        // empty for now\n47    }\n48}\n49\n50\n51class Main {\n52\n53    public static void main(String[] args) {\n54\n55        Game game = new Game();\n56        game.play();\n57    }\n58}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: \nRobin\nPlayer selecting O, enter your name: \nLily"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the Game class:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "board - object of the Board class",
+        "player1 - object of the Player class for the first player",
+        "player2 - object of the Player class for the second player",
+        "currentPlayer - to identify the turn of either player. In the beginning, it's the turn of the first player so we have assigned the player1 object to it"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The play() method will be used to write our game logic, which is empty for now."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will update the play() method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

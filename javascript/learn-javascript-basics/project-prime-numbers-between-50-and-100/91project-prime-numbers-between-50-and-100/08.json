@@ -1,0 +1,51 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/building-logic?page=9",
+  "title": "Complete Program: Prime Numbers Between 50 and 100",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Complete Program: Prime Numbers Between 50 and 100"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a look at the complete program."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const checkPrime = (number) => {\n2    if (number <= 1) {\n3        return false;\n4    }\n5    \n6    if (number > 1) {\n7        for (let i = 2; i < number; i++) {\n8            if (number % i === 0) {\n9                return false;\n10            }\n11        }\n12        return true;\n13    }\n14}\n15\n16// Iterate loop from 50 to 100\n17for (let i = 50; i <= 100; i++) {\n18    let isPrime = checkPrime(i);\n19    if (isPrime) {\n20        console.log(`${i} is prime`);\n21    }\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "53 is prime  \n59 is prime  \n61 is prime  \n67 is prime  \n71 is prime  \n73 is prime  \n79 is prime  \n83 is prime  \n89 is prime  \n97 is prime"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

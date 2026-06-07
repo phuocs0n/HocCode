@@ -1,0 +1,42 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/circular-linked-list-operations?page=9",
+  "title": "Code: Insert at Given Position",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code: Insert at Given Position"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function to insert nodes at a given position will look like this:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Insert node at any given position(1-based index)\nvoid insert_node_at_position(T data, int position){\n    if (position == 1) {\n        insert_at_beginning(data);\n        return;\n    }\n    // Check if the position is valid\n    if (!position || position < 0 || position > count_elements()){\n        // Append the node if position is invalid.\n        append_node(data);\n        return;\n    }\n    // Create a new_node with the given data\n    Node<T>* new_node = new Node<T>({data});\n    // Currently we are at head.\n    Node<T>* current = head;\n    int i = 1;\n    // Move to the position just before the given position\n    while (i < position - 1){\n           // Move to next node.\n           current = current->next;\n           ++i;\n    }\n    // Update pointers\n    new_node->next = current->next;\n    current->next = new_node;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

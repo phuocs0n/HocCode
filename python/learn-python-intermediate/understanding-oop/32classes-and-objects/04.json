@@ -1,0 +1,79 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/classes-objects?page=5",
+  "title": "Adding Methods",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding Methods"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we will add code at the end to call the check_pass_fail() method we previously created."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class Student:\n2\n3    # add a method to check pass/fail\n4    def check_pass_fail(self):\n5        if self.score >= 40:\n6            return True\n7        else:\n8            return False\n9\n10# create object\n11student1 = Student()\n12\n13# add attributes\n14student1.name = 'Harry'\n15student1.score = 85\n16\n17\n18# call the check_pass_fail() method\n19# calling this method using student1 object\n20did_pass = student1.check_pass_fail()\n21\n22\n23print(did_pass)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "True"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how this code works from the very beginning:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "We have created the Student class. Inside this class, we have added the check_pass_fail() method.",
+        "We have created the object named student1 of the Student class using student1 = Student().",
+        "We have added two attributes to the student1 object: name and score.",
+        "Finally, we have called the check_pass_fail() method using the student1 object using student.check_pass_fail()."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "At this point, you might be wondering how the heck this code is working. You probably have these two obvious questions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Our check_pass_fail() method takes one argument. However, we are calling this method without any argument. Shouldn't this give us an error?",
+        "How is self.score inside the check_pass_fail() method working? We haven't defined it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's answer these two important questions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

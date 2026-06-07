@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-introduction?page=1",
+  "title": "Dây C",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Dây C"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đã sử dụng chuỗi nhiều lần trong chương trình của mình. Hãy nhớ đến chương trình Hello World."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  printf(\"Hello World\");\n6\n7  return 0;\n8}\n9\n10// Output: Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, \"Hello World\" là một ví dụ về chuỗi. Chúng tôi sử dụng dấu ngoặc kép để thể hiện chuỗi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chuỗi là tập hợp các ký tự được sử dụng để biểu diễn dữ liệu văn bản trong lập trình. Ví dụ: chuỗi \"Hello World\" gồm các ký tự 'H', 'e', ​​'l'....."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ chúng ta đã hiểu cơ bản về chuỗi, hãy xem cách chúng ta có thể tạo chúng trong C."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,77 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/check-prime-or-not-using-function?page=1",
+  "title": "Check Prime or Not Using Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Prime or Not Using Function"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to check whether a number is prime or not using a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "A prime number is a number that is only divided by either 1 or itself. For example, 7, 5, 19, etc."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Define a function named check_prime().",
+        "Inside the function, create a variable named flag with value 0 and run a loop from 2 to number - 1, and check if number is divisible by any number between 2 to number - 1.",
+        "If the number is divisible, set the flag variable to 1.",
+        "Outside the loop, if flag is 1, print Not a Prime Number. Otherwise, print Prime Number.",
+        "Outside the function, get an integer input for the number variable.",
+        "Call the function and pass number as an argument."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input7"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputPrime Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/project-rock-paper-scissors?page=2",
+  "title": "Step1 : Generate Random Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step1 : Generate Random Number"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we need to generate a random number between 1 to 3 because the computer only has to choose between three options: rock, paper, and scissors."
+    },
+    {
+      "type": "paragraph",
+      "content": "To accomplish this, we'll be using the Math.random() method."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's revise the working of this method with the help of an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3\n4        // Random number from 1 to 3\n5        int randomNumber = (int) (Math.random() * 3 + 1);\n6\n7        System.out.println(randomNumber);\n8    }\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you run this program, you'll get a random number between 1 to 3. Let's understand what's happening here."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Math.random() - generates random numbers from from 0.0 to less than 1.0",
+        "Math.random() * 3 - generates random numbers from 0.0 to less than 3.0",
+        "Math.random() * 3 + 1 -  generates the random number from 1.0 to 3.0",
+        "(int) - converts the random number to integer (i.e. 1 to 3)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

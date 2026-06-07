@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/python-inheritance?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose a Dog class is derived from an Animal class. Then, which of the following statements is correct?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Animal class inherits all the attributes and methods of the Dog class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the methods and attributes of the base class (parent class), not the other way around."
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the methods and attributes of the base class (parent class), not the other way around."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both classes inherit each other's attributes and methods."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the derived class inherits the base class's methods and attributes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the derived class inherits the base class's methods and attributes."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Dog class inherits all the attributes and methods of the Animal class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the methods and attributes of the base class (parent class)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Derived classes (child classes) inherit the methods and attributes of the base class (parent class)."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose a Dog class is derived from an Animal class. Then, which of the following statements is correct?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The Animal class inherits all the attributes and methods of the Dog class.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The Animal class inherits all the attributes and methods of the Dog class.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Both classes inherit each other's attributes and methods.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Both classes inherit each other's attributes and methods.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The Dog class inherits all the attributes and methods of the Animal class.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The Dog class inherits all the attributes and methods of the Animal class.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

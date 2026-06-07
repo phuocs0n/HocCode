@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-1?page=1",
+  "title": "Recap",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap"
+    },
+    {
+      "type": "paragraph",
+      "content": "Congratulations on completing this chapter!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've learned to analyze employee data for key insights in this chapter. As a data analyst, knowing how to summarize and interpret data is essential for making informed decisions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's apply what you've learned to the Products table, familiar from earlier exercises."
+    },
+    {
+      "type": "paragraph",
+      "content": "To view the table, you can run the following query:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Products;"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also access it anytime from the Available Tables section."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's revisit SQL aggregate functions to uncover insights from this data."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

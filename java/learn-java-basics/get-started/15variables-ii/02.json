@@ -1,0 +1,140 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/variables-ii?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct output of this code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n    public static void main(String[] args) {\n        int x = 11;\n        x = 21;\n        System.out.println(x);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "11"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of x is changed before the print statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of x is changed before the print statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "11"
+    },
+    {
+      "type": "paragraph",
+      "content": "21"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is only one print statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is only one print statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "21"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of x is changed from 11 to 21 before the print statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of x is changed from 11 to 21 before the print statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is the correct answer."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct output of this code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:11",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:1121",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "1121",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:21",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "21",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

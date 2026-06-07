@@ -1,0 +1,59 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-binary-trees?page=7",
+  "title": "Source Code: Binary Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Binary Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we combine all of the individual blocks of code together, we should get a fully-fledged program to implement a binary tree."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class BinaryTreeNode:\n2    def __init__(self, data):\n3        self.data = data\n4        self.left = None\n5        self.right = None\n6        print(f'Node {data} was created')\n7\n8    def add_left_child(self, node):\n9        self.left = node\n10        print(f'Node {node.data} was added as a left child of {self.data}')\n11\n12    def add_right_child(self, node):\n13        self.right = node\n14        print(f'Node {node.data} was added as a right child of {self.data}')\n15    \n16class BinaryTree:\n17    def __init__(self, root=None):\n18        self.root = root\n19        print('A tree was created')\n20\n21# creating nodes\n22root_node = BinaryTreeNode(\"root\")\n23left_node = BinaryTreeNode(\"left\")\n24right_node = BinaryTreeNode(\"right\")\n25\n26# linking nodes\n27root_node.add_left_child(left_node)\n28root_node.add_right_child(right_node)\n29\n30# creating binary tree\n31tree = BinaryTree(root_node)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Node root was created\nNode left was created\nNode right was created\nNode left was added as a left child of root\nNode right was added as a right child of root\nA tree was created"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, like with the implementation of general trees, this code is incomplete without methods of traversals."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll get to them next but before that, here's an exercise."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

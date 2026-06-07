@@ -1,0 +1,84 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-java-basics/project-rock-paper-scissors?page=6",
+  "title": "Putting It All Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Putting It All Together"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4\n5    // Returns either \"rock\", \"paper\" or \"scissors\"\n6    String getComputerChoice() {\n7\n8        String computerChoice;\n9        int randomNumber = (int) (Math.random() * 3) + 1;\n10\n11        if (randomNumber == 1) {\n12            computerChoice = \"rock\";\n13        }\n14\n15        else if (randomNumber == 2) {\n16            computerChoice = \"paper\";\n17        }\n18\n19        else {\n20            computerChoice = \"scissors\";\n21        }\n22\n23        return computerChoice;\n24    }\n25\n26    // Returns user input\n27    String getUserInput() {\n28\n29        Scanner input = new Scanner(System.in);\n30\n31        System.out.println(\"Enter rock, paper or scissors:\");\n32        String userInput = input.nextLine();\n33\n34        userInput = userInput.toLowerCase();\n35\n36        return userInput;\n37    }\n38\n39    // Returns either \"win\", \"lose\" or \"draw\"\n40    String getResult(String userInput, String computerChoice) {\n41\n42        // Condition for user to draw\n43        if (userInput.equals(computerChoice)) {\n44            return \"draw\";\n45        }\n46\n47        // Condition for user to win\n48        else if (userInput.equals(\"paper\") && computerChoice.equals(\"rock\")) {\n49            return \"win\";\n50        } \n51        \n52        else if (userInput.equals(\"rock\") && computerChoice.equals(\"scissors\")) {\n53            return \"win\";\n54        }\n55        \n56        else if (userInput.equals(\"scissors\") && computerChoice.equals(\"paper\")) {\n57            return \"win\";\n58        }\n59        \n60        // All other conditions result to loss\n61        else {\n62            return \"lose\";\n63        }\n64    }\n65\n66    public static void main(String[] args) {\n67\n68        // Creating object of Main class\n69        Main obj = new Main();\n70\n71        // Get users input\n72        String userInput = obj.getUserInput();\n73        \n74        // Get computers choice\n75        String computerChoice = obj.getComputerChoice();\n76\n77        // Get results\n78        String result = obj.getResult(userInput, computerChoice);\n79\n80        System.out.println(\"User Input: \" + userInput);\n81        System.out.println(\"Computer Choice: \" + computerChoice);\n82        System.out.println(result);\n83    }\n84}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors:\npaper\nUser Input: paper\nComputer Choice: scissors\nlose"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors\nscissors\nUser Input: scissors\nComputer Choice: scissors\ndraw"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors:\nrock\nUser Input: rock\nComputer Choice: scissors\nwin"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have already explained the three methods we wrote earlier. Here's how we have used these methods:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// Get users input\nString userInput = obj.getUserInput();"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// Get computers choice\nString computerChoice = obj.getComputerChoice();"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// Get results\nString result = obj.getResult(userInput, computerChoice);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

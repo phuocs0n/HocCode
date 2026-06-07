@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/revise-introduction?page=3",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of hardcoding the values yourself, you can also take the input from the user. For this you need to import the Scanner class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1// Import Scanner Class\n2import java.util.Scanner;\n3\n4class Main {\n5    public static void main(String[] args) {\n6        \n7        System.out.println(\"Enter a number: \");\n8\n9        // Create a Scanner Object       \n10        Scanner input = new Scanner(System.in);\n11\n12        // Take User Input\n13        int number = input.nextInt();\n14        \n15        System.out.println(\"You entered \" + number);\n16\n17        // Close the Scanner\n18        input.close();\n19    }\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Data conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "The data you are trying to use may not always be in the required format. In such situations, you need to perform data conversion."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3      \n4        // Create an int type variable\n5        int number;\n6      \n7        // Assign double value to int\n8        number = (int) 43.87;\n9        System.out.println(number);   // Output: 43\n10    }\n11}"
+    },
+    {
+      "type": "paragraph",
+      "content": "With these foundational concepts in place, you're ready to move ahead to the next lesson."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/take-input?page=2",
+  "title": "User Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the example on the last page, we learned that without user input, an ATM wouldn't know how much money to dispense."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, a program written to print your age wouldn't know what to print unless you provide the specific input (in this case, your age)."
+    },
+    {
+      "type": "paragraph",
+      "content": "In C, to generate that input, we use the scanf() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at an example:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Create a variable\n6    int age;\n7\n8    // Store user input in the variable\n9    scanf(\"%d\", &age);\n10\n11    // Print the variable\n12    printf(\"Age is %d\", age);\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we run this program, the program waits for the user data."
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to enter the age in the designated area in the console and then press the Enter key."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program execution won't be completed until you've done that."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll learn how the above program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

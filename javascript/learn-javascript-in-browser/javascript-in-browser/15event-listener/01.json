@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/event-listener?page=2",
+  "title": "Example: Modifying HTML and CSS",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Modifying HTML and CSS"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this code."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header id=\"header\">\n2    <div id=\"logo\">E-Commerce</div>\n3    <nav>\n4        <ul class=\"nav-links\">\n5            <li><a href=\"#home\">Home</a></li>\n6            <li><a href=\"#products\">Products</a></li>\n7            <li><a href=\"#contact\">Contact</a></li>\n8        </ul>\n9    </nav>\n10</header>\n11\n12<div class=\"hero\">\n13    <h1>Welcome to our store</h1>\n14    <p>Discover the best deals on your favorite products.</p>\n15    <button class=\"button\">Shop Now</button>\n16</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    margin: 0;\n3    font-family: Arial, sans-serif;\n4    background-color: #f9f9f9;\n5}\n6\n7#header {\n8    background-color: #1e67f4;\n9    color: white;\n10    display: flex;\n11    align-items: center;\n12    justify-content: space-between;\n13    padding: 16px 20px;\n14}\n15\n16#logo {\n17    font-weight: bold;\n18}\n19\n20.nav-links {\n21    list-style-type: none;\n22    padding: 0;\n23    margin: 0;\n24    display: inline-flex;\n25    gap: 20px;\n26}\n27\n28a {\n29    text-decoration: none;\n30    color: white;\n31}\n32\n33.hero {\n34    text-align: center;\n35    padding: 50px 20px;\n36    background-color: #ffffff;\n37    color: #343a40;\n38    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n39}\n40\n41.hero h1 {\n42    color: #25265e;\n43    font-size: 2.5em;\n44    margin-bottom: 10px;\n45}\n46\n47.hero p {\n48    color: #414273;\n49    font-size: 1.2em;\n50    margin-bottom: 20px;\n51}\n52\n53.button {\n54    padding: 10px 20px;\n55    font-size: 1em;\n56    background-color: #0556F3;\n57    color: white;\n58    border: none;\n59    border-radius: 5px;\n60    cursor: pointer;\n61}\n62\n63.hero-style {\n64    background-color: pink;\n65    border: 2px solid black;\n66    border-radius: 10px;\n67    margin: 16px;\n68    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);\n69}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const hero = document.querySelector(\".hero\");\n2const shopNowBtn = document.querySelector(\"button\");\n3\n4// Function to update button's text and appearance.\n5const updateButton = () => {\n6    shopNowBtn.textContent = \"Thank you for shopping with us!\";\n7    shopNowBtn.style.backgroundColor = \"#b0b0b0\";\n8}\n9\n10// Calling function.\n11updateButton();"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, we have a function updateButton() to update the \"Shop Now\" button's text and appearance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the function executes immediately, making the changes to the button right away."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's explore how you can trigger this function based on user actions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

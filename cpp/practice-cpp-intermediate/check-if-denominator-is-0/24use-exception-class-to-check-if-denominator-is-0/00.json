@@ -1,0 +1,99 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/use-exception-class-to-check-if-denominator-is?page=1",
+  "title": "Use exception Class to Check if Denominator is 0",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Use exception Class to Check if Denominator is 0"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can catch a non-standard exception (such as floating pont exception) by using the exception class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We do this by throwing the exception() function in the try block."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "try {\n    ... .. ...\n        if (condition)\n        throw exception();\n    ... .. ...\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "So, write a program to catch a floating point exception using the exception class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the try Block"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get double input for numerator and denominator.",
+        "If denominator is 0.0, throw the exception() function.",
+        "Otherwise, divide numerator and denominator and store the result in the double variable result ."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the catch Block"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use the exception object e as the catch parameter.",
+        "Print a custom error message Error! Denominator cannot be 0.",
+        "Then, print the return value of the what() function."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5\n0"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputError! Denominator cannot be 0.\nstd::exception"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

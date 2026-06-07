@@ -1,0 +1,82 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-binary-trees?page=3",
+  "title": "Thought Process: Creating Nodes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Creating Nodes"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can divide the entire process of creating nodes in a tree into the following steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a class to handle nodes."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "class BinaryTreeNode:\n    def __init__(self, data):\n        self.data = data\n        self.left = None\n        self.right = None"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here we have defined a BinaryTreeNode class to handle all the creation of nodes needed in our tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the dunder method, we have added the following fields:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "self.data: The data value.",
+        "self.left: The location of the left child.",
+        "self.right: The location of the right child."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Create methods to add children to a node."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def add_left_child(self, node):\n    self.left = node\n\ndef add_right_child(self, node):\n    self.right = node"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we need to explicitly define if a child is right or left child, we have created two methods:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "add_left_child(): attaches a left child to a node.",
+        "add_right_child(): attaches a right child to a node."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

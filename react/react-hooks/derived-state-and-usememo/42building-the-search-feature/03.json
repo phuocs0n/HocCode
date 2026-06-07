@@ -1,0 +1,88 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/building-search-feature?page=4",
+  "title": "Update App.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Update App.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "App now owns query and is responsible for filtering. So let's make the following changes:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Import 'useMemo'."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useState, useEffect, useMemo } from \"react\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Add the 'query' state declaration."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [query, setQuery] = useState(\"\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Compute 'filteredEntries' directly in the component with 'useMemo()'."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const filteredEntries = useMemo(function () {\n  if (!query.trim()) return entries;\n  const lower = query.toLowerCase();\n\n  return entries.filter(function (entry) {\n    return (\n      entry.title.toLowerCase().includes(lower) ||\n      entry.content.toLowerCase().includes(lower)\n    );\n  });\n}, [entries, query]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Pass 'query' and 'onQueryChange' as props to the Header component."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<Header query={query} onQueryChange={setQuery} />"
+    },
+    {
+      "type": "paragraph",
+      "content": "How It Works"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "When query is empty, filteredEntries is the full entries array: no allocation, no loop.",
+        "When the user types, React recomputes once and caches the result until entries or query changes again."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's put both files together into a complete, runnable version of the app."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

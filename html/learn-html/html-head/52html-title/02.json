@@ -1,0 +1,69 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-html/html-title?page=3",
+  "title": "Why is <title> important?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why is <title> important?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Search engines like Google use the <title> tag to understand the topic of a page. This helps them display relevant websites to users."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why it's important to follow best practices while writing the title."
+    },
+    {
+      "type": "paragraph",
+      "content": "Best Practices"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use a single <title> element per webpage.",
+        "Write a title that accurately reflects the page's content.",
+        "Use a concise yet descriptive title."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Good Title - \"HTML form Elements\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad Title - \"Form\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The first title provides more context and is likely to perform better in search results."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

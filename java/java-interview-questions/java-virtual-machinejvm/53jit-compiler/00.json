@@ -1,0 +1,45 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/jit-compiler?page=1",
+  "title": "What is a JIT Compiler?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is a JIT Compiler?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just-In-Time (JIT) compiler is a type of compiler that is used to improve the performance of a Java program at runtime. It works by compiling bytecode into native machine code on the fly, as the program is executing, rather than ahead of time."
+    },
+    {
+      "type": "paragraph",
+      "content": "The JIT compiler is an important part of the Java runtime environment, as it allows the JVM to execute Java programs more efficiently."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is typically transparent to the programmer and operates automatically in the background as the program runs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

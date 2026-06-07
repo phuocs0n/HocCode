@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/string-vs-numeric-comparison?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM EPL\n3WHERE goals >= '50';"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code above uses a string comparison instead of a numeric comparison for the quantity, which may lead to unexpected results."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, the condition is checking for goals greater than or equal to '50' in the EPL table (which houses soccer statistics)."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, using single quotation marks around the number 50 implies that it is being treated as a string instead of a numeric value."
+    },
+    {
+      "type": "paragraph",
+      "content": "This can lead to unexpected results when the data type of the goals column is not VARCHAR, which makes sense because goals are positive integers in real life."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "To fix this mistake, you should remove the single quotation marks around the number 50 and treat it as a numeric value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the corrected code:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM EPL\n3WHERE goals >= 50;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

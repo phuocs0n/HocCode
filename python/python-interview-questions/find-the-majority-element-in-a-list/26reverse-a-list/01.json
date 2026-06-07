@@ -1,0 +1,90 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/reverse-list?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, we can use slicing to reverse a list. Let's first understand how slicing works."
+    },
+    {
+      "type": "paragraph",
+      "content": "Slicing allows us to get any part of any iterable objects (lists, strings, tuples, and so on) in Python."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a syntax of list slicing:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "num_list[start_index:end_index:step]"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see three parameters are separated by :"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "start_index (inclusive) - specifies from where we should start slicing",
+        "end_index (exclusive) - up to what element we want to slice the list",
+        "step - specifies which item to be selected between start_index and end_index"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if we have a list num_list = [1, 2, 3, 4, 5] then"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "num_list[3:1:-1] - includes start and end index with negative stop, returns [4, 3]",
+        "num_list[3::] - includes only start index, returns [4, 5]",
+        "num_list[2:3:] - includes start and end index, returns [3]"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If you think this concept is difficult to understand, we highly recommend you revisit Python List Slicing."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, you can see that the negative step has returned the list element in reverse order from index 3 to 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, we can use a negative step without a start and end index, num_list[::-1], to get a reversed list: [5, 4, 3, 2, 1]."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try coding this with a practical problem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

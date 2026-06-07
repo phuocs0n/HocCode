@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-ifelse-statement?page=2",
+  "title": "The if Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The if Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax for the if statement is:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "if (boolean_expression) {\n    // statement(s)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the if statement executes the code inside { } based on boolean_expression."
+    },
+    {
+      "type": "paragraph",
+      "content": "If boolean_expression evaluates to:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "true, the code inside { } is executed.",
+        "false, the code inside { } is skipped."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a working example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

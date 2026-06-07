@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-aggregate-functions?page=1",
+  "title": "Introduction to Aggregate Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Aggregate Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous chapter, we covered how to filter and extract specific data from a table. However, simply retrieving raw data isn't sufficient."
+    },
+    {
+      "type": "paragraph",
+      "content": "To derive insights from the data, you need to analyze and summarize this information."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, you're a data analyst working with your company's Employees table:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select all employees' data\n2\n3SELECT *\n4FROM Employees;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your manager asks for the following:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "What is the age of the youngest employee?",
+        "What is the highest salary in the company?",
+        "How many employees work in the Sales department?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To provide these insights, you'll need to use aggregate functions to summarize the data effectively."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

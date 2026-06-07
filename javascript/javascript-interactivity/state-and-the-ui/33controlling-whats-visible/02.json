@@ -1,0 +1,88 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-whats-visible?page=2",
+  "title": "How the Slider Layout Works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How the Slider Layout Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before the slider can move, it needs to be built correctly."
+    },
+    {
+      "type": "paragraph",
+      "content": "A basic slider has three parts:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A container",
+        "A track",
+        "Slides inside the track"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The container hides overflow. The track holds all slides in a row. Each slide takes up one full visible width."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4 <meta charset=\"UTF-8\" />\n5 <title>Slider — one visible</title>\n6 <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9 <div class=\"slider\">\n10   <div class=\"slider-track\">\n11     <div class=\"slide\">Slide 1</div>\n12     <div class=\"slide\">Slide 2</div>\n13     <div class=\"slide\">Slide 3</div>\n14   </div>\n15 </div>\n16 <script src=\"script.js\"></script>\n17</body>\n18</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.slider {\n2  overflow: hidden;\n3  width: 100%;\n4}\n5\n6.slider-track {\n7  display: flex;\n8  width: 300%;\n9  transition: margin-left 0.3s ease;\n10}\n11\n12.slide {\n13  flex: 0 0 33.333%;\n14}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// script.js"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this layout:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The track is 300% wide because there are three slides.",
+        "Each slide takes up one third of the track.",
+        "The container hides anything outside its visible area."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, nothing moves. The structure is in place."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will connect state to movement so the track shifts and different slides come into view."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

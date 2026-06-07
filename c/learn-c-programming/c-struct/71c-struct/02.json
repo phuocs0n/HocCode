@@ -1,0 +1,58 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-struct?page=3",
+  "title": "Ví dụ: Cấu trúc C",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Cấu trúc C"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// create Person struct\n4struct Person {\n5  int age;\n6  double salary;\n7};\n8\n9int main() {\n10\n11  // create struct variable\n12  struct Person person1;\n13\n14\n15  // assign values to struct members\n16  person1.age = 25;\n17  person1.salary = 3465.78;\n18\n19  // print struct members\n20  printf(\"Age: %d\\n\", person1.age);\n21  printf(\"Salary: %.2lf\", person1.salary);\n22\n23\n24  return 0;\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Age: 25\nSalary: 3465.78"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, bạn có thể thấy rằng chúng tôi đã sử dụng"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "user1.age - để gán và truy cập thành viên tuổi của Person",
+        "user1.salary - để gán và truy cập thành viên lương của Person"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

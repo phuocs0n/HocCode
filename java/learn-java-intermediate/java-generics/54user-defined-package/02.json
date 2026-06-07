@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/userdefined-package?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements about Java packages is not true?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can have more than one Java file in a package."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can have as many files as we want in a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can have as many files as we want in a package."
+    },
+    {
+      "type": "paragraph",
+      "content": "We cannot access private members of a package outside the package."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "True, private members of a package cannot be accessed outside of the package."
+    },
+    {
+      "type": "paragraph",
+      "content": "True, private members of a package cannot be accessed outside of the package."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must import the class of the package to use it outside the package."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "True, we must import the class of the package to use it outside the package."
+    },
+    {
+      "type": "paragraph",
+      "content": "True, we must import the class of the package to use it outside the package."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use only built-in packages in our Java files."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use both user-defined and built-in packages in our Java file."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use both user-defined and built-in packages in our Java file."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements about Java packages is not true?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:We can have more than one Java file in a package.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We can have more than one Java file in a package.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:We cannot access private members of a package outside the package.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "We cannot access private members of a package outside the package.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:We must import the class of the package to use it outside the package.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "We must import the class of the package to use it outside the package.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:We can use only built-in packages in our Java files.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "We can use only built-in packages in our Java files.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

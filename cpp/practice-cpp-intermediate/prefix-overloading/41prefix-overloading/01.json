@@ -1,0 +1,93 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/prefix--overloading?page=1",
+  "title": "Prefix ++ Overloading",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Prefix ++ Overloading"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to overload the ++ operator as a prefix."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a Complex class with integer variables real and imag.",
+        "Initialize the member variables using a constructor initializer list.",
+        "Overload the ++ operator as a prefix using the operator() function. Make sure the function returns a Complex object.",
+        "Inside this function, create a Complex object temp by passing (0, 0) as constructor parameters.",
+        "Then, increment the real and imag variables with the prefix ++ operator.",
+        "Store the values in temp.real and temp.imag, respectively.",
+        "Finally, return the temp object."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), get integer inputs for real and imag.",
+        "Create a complex object and pass real and imag as arguments to the constructor.",
+        "Create another object result and pass (0, 0) as constructor parameters.",
+        "Use the overloaded ++ operator on complex and store its return value in the result object.",
+        "Using an if...else statement, print the real and imag variables of result in the format real-imagi if imag is negative.",
+        "Else, print them in the format real+imagi."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input25\n-12"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output26-11i"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

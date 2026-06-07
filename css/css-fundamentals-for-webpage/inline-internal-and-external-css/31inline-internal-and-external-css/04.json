@@ -1,0 +1,183 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/inline-internal-external-css?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You're building a website with multiple pages and you want one place to manage styles across the whole project. Which method fits best?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inline CSS"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inline styles are tied to one element, get messy fast, and don't scale across pages."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inline styles are tied to one element, get messy fast, and don't scale across pages."
+    },
+    {
+      "type": "paragraph",
+      "content": "Internal CSS"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "internal CSS applies to a page, but it stays trapped inside that single HTML file."
+    },
+    {
+      "type": "paragraph",
+      "content": "internal CSS applies to a page, but it stays trapped inside that single HTML file."
+    },
+    {
+      "type": "paragraph",
+      "content": "External CSS"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. External CSS keeps HTML clean and lets you reuse the same stylesheet across pages."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. External CSS keeps HTML clean and lets you reuse the same stylesheet across pages."
+    },
+    {
+      "type": "paragraph",
+      "content": "Browser default styles"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Default styles come from the browser and aren't a method you control for your design."
+    },
+    {
+      "type": "paragraph",
+      "content": "Default styles come from the browser and aren't a method you control for your design."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inline styles are tied to one element, get messy fast, and don't scale across pages."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inline styles are tied to one element, get messy fast, and don't scale across pages."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "internal CSS applies to a page, but it stays trapped inside that single HTML file."
+    },
+    {
+      "type": "paragraph",
+      "content": "internal CSS applies to a page, but it stays trapped inside that single HTML file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. External CSS keeps HTML clean and lets you reuse the same stylesheet across pages."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. External CSS keeps HTML clean and lets you reuse the same stylesheet across pages."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Default styles come from the browser and aren't a method you control for your design."
+    },
+    {
+      "type": "paragraph",
+      "content": "Default styles come from the browser and aren't a method you control for your design."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You're building a website with multiple pages and you want one place to manage styles across the whole project. Which method fits best?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Inline CSS",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Inline CSS",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Internal CSS",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Internal CSS",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:External CSS",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "External CSS",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Browser default styles",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Browser default styles",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

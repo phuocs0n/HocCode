@@ -1,0 +1,94 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/area-of-rectangle?page=1",
+  "title": "Area of Rectangle",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Area of Rectangle"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the area of a rectangle."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to compute the area of a rectangle is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "area = length * breadth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Rectangle with two integer variables length and breadth.",
+        "Create a function named calculate_area() that computes the area using the above formula and prints it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() function, create an object of the Rectangle class named rect.",
+        "Get two integer inputs for  length and breadth of rect.",
+        "Call the calculate_area() function using the object."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input9\n3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output27"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

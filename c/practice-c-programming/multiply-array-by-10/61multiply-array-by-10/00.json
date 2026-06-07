@@ -1,0 +1,67 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/multiply-array-by?page=1",
+  "title": "Multiply Array by 10",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Multiply Array by 10"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to multiply each element of an array by 10."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an integer array with elements: 1, 2, 3, 4, 5.",
+        "Create another array of the same size.",
+        "Run a for loop to access each element of the first array.",
+        "Inside the loop, multiply each element of the first array by 10 and assign it to the second array.",
+        "Print the second array."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output10\n20\n30\n40\n50"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

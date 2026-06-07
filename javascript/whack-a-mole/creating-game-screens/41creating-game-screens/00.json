@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/whack-a-mole/creating-game-screens?page=1",
+  "title": "From Mechanics to Structure! 🎮",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "From Mechanics to Structure! 🎮"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've accomplished something major—you built a fully playable game with working mechanics."
+    },
+    {
+      "type": "paragraph",
+      "content": "But right now, your game starts immediately when the page loads and never ends. That's not how real games work! Real games have:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A start screen where you press \"Play\"",
+        "The actual game",
+        "An end screen showing your final score"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This chapter is all about adding game flow—the structure that makes your game feel complete and professional."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of this chapter, you'll have:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Three screens that switch between each other",
+        "A countdown timer that ends the game",
+        "A proper game loop (start → play → end → restart)",
+        "A polished, complete experience"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by creating the three screens your game needs!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

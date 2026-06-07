@@ -1,0 +1,97 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-struct?page=2",
+  "title": "Tạo biến cấu trúc",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tạo biến cấu trúc"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử chúng ta có một cấu trúc như thế này,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "struct Person {\n  int age;\n  double salary;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, hãy tạo một biến kiểu struct Person."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int main() {\n\n  // create struct variables\n  struct Person person1;\n  struct Person person2;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu bạn nhìn kỹ, cú pháp trông giống như việc tạo các biến thông thường."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "dataType variableName;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đâu"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "struct Person - đại diện cho kiểu dữ liệu",
+        "Person1/person2 - đại diện cho tên biến"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, chúng ta có thể sử dụng các biến cấu trúc này để truy cập các thành viên của cấu trúc."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Truy cập cấu trúc thành viên"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng . toán tử để truy cập các thành viên của một cấu trúc."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử chúng ta muốn gán 25 cho thành viên trong độ tuổi bằng biến Person1. Đây là cách chúng ta có thể làm điều đó"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// assign 25 to person1's age\nperson1.age = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nó khá đơn giản phải không? Hãy xem một ví dụ hoạt động tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,47 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/improving-visuals?page=3",
+  "title": "Style the Game Board 🎨",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Style the Game Board 🎨"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by improving the overall layout and styling of your game!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll center everything on the page, add a nice background, and make the screens look more polished."
+    },
+    {
+      "type": "paragraph",
+      "content": "In style.css,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add comprehensive styling for the game layout. Style the body element to center content and add a background.",
+        "Add styling for all three screens (#start-screen, #play-screen, #end-screen) with text alignment, padding, and backgrounds.",
+        "Style all button elements with padding, border-radius, background color, cursor pointer, and a hover effect."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

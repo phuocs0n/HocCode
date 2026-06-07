@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/figma-to-code/figma--for-developers?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In Figma, if clicking selects the container instead of the element inside it, what should you do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right-click and select child element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right-click menus can help in some cases, but it's not the core workflow here. The simplest method is clicking to drill down."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right-click menus can help in some cases, but it's not the core workflow here. The simplest method is clicking to drill down."
+    },
+    {
+      "type": "paragraph",
+      "content": "Keep clicking until the exact element is selected."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each click selects the next nested layer until you reach the exact element you want."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each click selects the next nested layer until you reach the exact element you want."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zoom in closer."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zooming can make clicking easier, but it doesn't change how nested selection works in Figma."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zooming can make clicking easier, but it doesn't change how nested selection works in Figma."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hold Shift while clicking."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shift-click is for selecting multiple items, not for drilling into elements inside a container."
+    },
+    {
+      "type": "paragraph",
+      "content": "Shift-click is for selecting multiple items, not for drilling into elements inside a container."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In Figma, if clicking selects the container instead of the element inside it, what should you do?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Right-click and select child element.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Right-click and select child element.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Keep clicking until the exact element is selected.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Keep clicking until the exact element is selected.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Zoom in closer.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Zoom in closer.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Hold Shift while clicking.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Hold Shift while clicking.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

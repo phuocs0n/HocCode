@@ -1,0 +1,78 @@
+{
+  "levels": [
+    {
+      "title": "Introduction",
+      "lessons": [
+        {
+          "title": "1.1Introduction",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/introduction"
+        },
+        {
+          "title": "1.2Setting Up Routes",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/setting-up-routes"
+        },
+        {
+          "title": "1.3Dynamic Routes and useParams()",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/dynamic-routes-useparams"
+        }
+      ]
+    },
+    {
+      "title": "Creating and Providing Context",
+      "lessons": [
+        {
+          "title": "2.1Creating and Providing Context",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/creating-providing-context"
+        },
+        {
+          "title": "2.2useContext() and the Theme Toggle",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/usecontext-theme-toggle"
+        }
+      ]
+    },
+    {
+      "title": "Actions and State Transitions",
+      "lessons": [
+        {
+          "title": "3.1Actions and State Transitions",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions"
+        },
+        {
+          "title": "3.2Combining useReducer() and useContext()",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/combining-usereducer-usecontext"
+        }
+      ]
+    },
+    {
+      "title": "Lazy Loading Routes",
+      "lessons": [
+        {
+          "title": "4.1Lazy Loading Routes",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/lazy-loading-routes"
+        },
+        {
+          "title": "4.2Suspense Fallbacks and Loading UX",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/suspense-fallbacks-loading-ux"
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "lessons": [
+        {
+          "title": "5.1Conclusion",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/conclusion"
+        },
+        {
+          "title": "5.2Celebrate Your Success!",
+          "url": "https://app.programiz.pro/course/react-beyond-basics/celebrate-success"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 11,
+    "sections": 5,
+    "container": "main-content"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/print-output?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How do you print this variable with 3 digits after the decimal point?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "double num = 32.4;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%lf\", num);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with 6 digits after the decimal point."
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with 6 digits after the decimal point."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%.2lf\", num);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with 2 digits after the decimal point."
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with 2 digits after the decimal point."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%.1lf\", num);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with only 1 digit after the decimal point."
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with only 1 digit after the decimal point."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "printf(\"%.3lf\", num);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with 3 digits after the decimal point."
+    },
+    {
+      "type": "paragraph",
+      "content": "This prints the variable with 3 digits after the decimal point."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How do you print this variable with 3 digits after the decimal point?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:printf(\"%lf\", num);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "printf(\"%lf\", num);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:printf(\"%.2lf\", num);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "printf(\"%.2lf\", num);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:printf(\"%.1lf\", num);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "printf(\"%.1lf\", num);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:printf(\"%.3lf\", num);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "printf(\"%.3lf\", num);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

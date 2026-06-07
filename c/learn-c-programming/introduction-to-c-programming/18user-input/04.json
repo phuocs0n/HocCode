@@ -1,0 +1,140 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/take-input?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Cách nào sau đây là đúng để nhập giá trị đầu vào của biến x?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int x;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%d\", x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta sử dụng &x với scanf() để lấy dữ liệu đầu vào là số nguyên."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta sử dụng &x với scanf() để lấy dữ liệu đầu vào là số nguyên."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%d\", &x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng công cụ xác định định dạng %d và &x với scanf() để lấy đầu vào số nguyên."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng công cụ xác định định dạng %d và &x với scanf() để lấy đầu vào số nguyên."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%d\" &x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"%d\" và &x phải được phân tách bằng dấu phẩy."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"%d\" và &x phải được phân tách bằng dấu phẩy."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "scanf(\"%c\", &x);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang lấy giá trị đầu vào cho biến int, vì vậy bộ xác định định dạng không phải là %c."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đang lấy giá trị đầu vào cho biến int, vì vậy bộ xác định định dạng không phải là %c."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Cách nào sau đây là đúng để nhập giá trị đầu vào của biến x?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:scanf(\"%d\", x);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "scanf(\"%d\", x);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:scanf(\"%d\", &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "scanf(\"%d\", &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:scanf(\"%d\" &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "scanf(\"%d\" &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:scanf(\"%c\", &x);",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "scanf(\"%c\", &x);",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,92 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/mathematical-operations?page=1",
+  "title": "Mathematical Operations",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Mathematical Operations"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far we've learned about NumPy array basics and array creation. Now we'll learn about array manipulation."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can perform various mathematical operations such as addition and subtraction on each element of the NumPy array."
+    },
+    {
+      "type": "paragraph",
+      "content": "To perform each operation, we can either use the associated operator or built-in functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, to perform addition, we can either use the + operator or the add() built-in function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a list of various mathematical operations along with their associated operators and built-in functions:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Element-wise Operation",
+          "Operator",
+          "Function"
+        ],
+        [
+          "Addition",
+          "+",
+          "add()"
+        ],
+        [
+          "Subtraction",
+          "-",
+          "subtract()"
+        ],
+        [
+          "Multiplication",
+          "*",
+          "multiply()"
+        ],
+        [
+          "Division",
+          "/",
+          "divide()"
+        ],
+        [
+          "Exponentiation",
+          "**",
+          "power()"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see examples of each of these operations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

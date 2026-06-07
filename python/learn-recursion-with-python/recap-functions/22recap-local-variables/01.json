@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/recap-local-variables?page=2",
+  "title": "Why are Local Variables Important?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why are Local Variables Important?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local variables are important because they make functions independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you already know, it doesn't matter what's inside a function and what variables are used in it; we can use that function if we know two things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "arguments that the function takes",
+        "return value from the function"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def add_numbers(n1, n2):\n2    result = n1 + n2\n3    return result\n4\n5n1 = 2\n6n2 = 5\n7result = add_numbers(n1, n2)\n8print(result)    # Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, it's essential to understand that the n1, n2, and result variables inside the function are local to the add_numbers() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "They are different from n1, n2, and result variables that are outside of the function (even though their names are the same)."
+    },
+    {
+      "type": "paragraph",
+      "content": "They can also be written using different variable names. The above program is equivalent to the following program:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def add_numbers(n1, n2):\n2    result = n1 + n2\n3    return result\n4\n5num1 = 2\n6num2 = 5\n7result = add_numbers(num1, num2)\n8print(result)    # 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "This concludes our recap on functions. You'll now take a quiz and then dive straight into recursion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

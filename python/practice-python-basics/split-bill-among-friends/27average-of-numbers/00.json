@@ -1,0 +1,78 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/average-of-numbers?page=1",
+  "title": "Average of Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Average of Numbers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the average of three numbers entered by the user."
+    },
+    {
+      "type": "paragraph",
+      "content": "The average of 3 numbers a, b, and c is given by:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "average = (a + b + c) / 3"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take float input for three variables number1, number2, and number3.",
+        "Calculate the average using the formula and print it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5.5\n86.925\n0.56"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output30.995"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

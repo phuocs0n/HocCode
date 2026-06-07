@@ -1,0 +1,55 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-for-loop?page=5",
+  "title": "Sum of Natural Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of Natural Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Natural numbers are positive numbers starting from 1."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1, 2, 3, 4, ..."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sum of natural numbers up to n is equal to:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "total = 1 + 2 + ... + n"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's build logic to solve this problem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

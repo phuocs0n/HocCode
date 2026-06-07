@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/hash-collision-resolution?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the primary purpose of Separate Chaining in hash tables?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To avoid collisions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The separate chaining does not avoid collisions; it manages what happens once a collision has occurred."
+    },
+    {
+      "type": "paragraph",
+      "content": "The separate chaining does not avoid collisions; it manages what happens once a collision has occurred."
+    },
+    {
+      "type": "paragraph",
+      "content": "To store multiple keys in the same slot if a collision occurs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of simply rejecting a new key/value pair when a collision occurs, separate chaining allows multiple keys to exist in the same bucket slot."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of simply rejecting a new key/value pair when a collision occurs, separate chaining allows multiple keys to exist in the same bucket slot."
+    },
+    {
+      "type": "paragraph",
+      "content": "To improve performance."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While the result might improve performance, the purpose of separate chaining specifically is to manage collisions in the hash tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the result might improve performance, the purpose of separate chaining specifically is to manage collisions in the hash tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "To create complex data structures."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Separate chaining is a technique for managing collisions, not for creating complex structures."
+    },
+    {
+      "type": "paragraph",
+      "content": "Separate chaining is a technique for managing collisions, not for creating complex structures."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the primary purpose of Separate Chaining in hash tables?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To avoid collisions.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To avoid collisions.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To store multiple keys in the same slot if a collision occurs.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To store multiple keys in the same slot if a collision occurs.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To improve performance.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To improve performance.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To create complex data structures.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To create complex data structures.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/lives-reset?page=2",
+  "title": "Reset the Round 🔄",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Brick Breaker with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Reset the Round 🔄"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ball falls out when its top edge passes the bottom of the canvas. You use the top edge rather than the center so the ball is fully off screen before anything happens:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "checkBallOutOfBounds() {\n  if (this.ball.y - this.ball.radius > CANVAS_HEIGHT) this.loseLife();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "When a life is lost the logic is simple. Decrement the counter, update the HUD, then either reset the round or end the game:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "loseLife() {\n\n  this.lives--;\n  this.updateHUD();\n  this.lives <= 0 ? (this.state = STATE.GAME_OVER) : this.resetRound();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "All the \"what happens when you lose a life\" logic lives in one place. That makes it easy to extend later without hunting through the codebase."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will add the out of bounds check so missing the ball actually has a consequence."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

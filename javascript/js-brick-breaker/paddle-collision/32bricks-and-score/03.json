@@ -1,0 +1,54 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/bricks-score?page=3",
+  "title": "Build the Brick Grid 🏗️",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Build the Brick Grid 🏗️"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to add bricks. The Brick class goes in entities.js and a buildBricks() method populates the array in Game."
+    },
+    {
+      "type": "paragraph",
+      "content": "In entities.js, create a Brick class with a constructor(col, row) that calculates x, y, width, height, color, points, and sets isAlive = true."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add a draw(ctx) method that returns early if !isAlive, then draws a rounded rectangle with ctx.roundRect() using the brick's color."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In game.js, add this.bricks = [], this.score = 0, and this.lives = 3 to the constructor."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add a buildBricks() method that fills this.bricks with new Brick(c, r) for each column and row.",
+        "Call buildBricks() from the constructor (temporary — the state machine will handle this in Chapter 4).",
+        "Render bricks in draw() with this.bricks.forEach(b => b.draw(ctx))."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "\"use strict\";"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

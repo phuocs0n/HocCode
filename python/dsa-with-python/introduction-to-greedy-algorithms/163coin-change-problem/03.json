@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/coin-change-problem?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the given coin change problem, what is the form our greedy logic takes?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Swapping coins between the giver and the receiver."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this context, greedy logic does not involve swapping coins. It is an algorithmic approach."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this context, greedy logic does not involve swapping coins. It is an algorithmic approach."
+    },
+    {
+      "type": "paragraph",
+      "content": "Taking as many coins of the highest denomination as possible whenever a payment is made."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedy logic means to always make the choice that seems to be the best at the moment. Here, it means choosing as many highest denomination coins that don't exceed the amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedy logic means to always make the choice that seems to be the best at the moment. Here, it means choosing as many highest denomination coins that don't exceed the amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giving out coins without considering their denomination."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedy logic involves careful consideration of the coins' denominations to minimize the number of coins given."
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedy logic involves careful consideration of the coins' denominations to minimize the number of coins given."
+    },
+    {
+      "type": "paragraph",
+      "content": "Reusing the same coin multiple times."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedy logic does not involve reusing the same coin. It involves choosing the highest suitable denomination."
+    },
+    {
+      "type": "paragraph",
+      "content": "Greedy logic does not involve reusing the same coin. It involves choosing the highest suitable denomination."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the given coin change problem, what is the form our greedy logic takes?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Swapping coins between the giver and the receiver.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Swapping coins between the giver and the receiver.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Taking as many coins of the highest denomination as possible whenever a payment is made.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Taking as many coins of the highest denomination as possible whenever a payment is made.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Giving out coins without considering their denomination.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Giving out coins without considering their denomination.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Reusing the same coin multiple times.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Reusing the same coin multiple times.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/window?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Up until now, you used the document object to access and manipulate a webpage's components."
+    },
+    {
+      "type": "paragraph",
+      "content": "At times, you'll need to interact directly with the browser, which requires using the window object."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, run the code below to see how window can create a browser popup."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1window.alert(\"This a popup!\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll explore different features of window and see how you can use it to control the browser environment."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's get started."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

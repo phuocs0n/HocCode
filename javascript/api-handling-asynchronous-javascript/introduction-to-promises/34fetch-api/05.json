@@ -1,0 +1,58 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/fetch-api?page=6",
+  "title": "Step 4: Using the Data",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Using the Data"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1.then(result => {\n2    console.log(\"movies:\", result.movies);\n3})"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the time this block runs:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the request is complete",
+        "the response is valid",
+        "the JSON is fully parsed"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You can safely use the movie data here without any extra checks."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is why promise-based code often feels synchronous, even though it isn't."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

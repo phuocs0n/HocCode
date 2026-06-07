@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/think-functions?page=2",
+  "title": "Sum of Natural Numbers From 1 to n",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of Natural Numbers From 1 to n"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Summary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to find the sum of first n natural numbers (where n is a positive integer) by creating a function. The function should work for any positive integer."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "sum = 1 + 2 + 3 + ... + n"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Arguments"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to find the sum of numbers from 1 to n. So, our function will take only one argument, n."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Return Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function should return the sum of numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at the source code next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

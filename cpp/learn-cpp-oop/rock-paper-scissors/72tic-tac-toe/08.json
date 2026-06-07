@@ -1,0 +1,61 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/tictactoe?page=9",
+  "title": "Step 6: Calling check_winner() and check_draw() Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 6: Calling check_winner() and check_draw() Functions"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add code to call check_winner() and check_draw() functions from the play() function of the Game class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4class Board {\n5\n6    public:\n7        // count variable\n8        int count = 0;\n9        char board[9] = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };\n10\n11        void print_board() {\n12            cout << \" \" << board[0] << \" | \" << board[1] << \" | \" << board[2] << endl;\n13            cout << \"-----------\" << endl;\n14            cout << \" \" << board[3] << \" | \" << board[4] << \" | \" << board[5] << endl;\n15            cout << \"-----------\" << endl;\n16            cout << \" \" << board[6] << \" | \" << board[7] << \" | \" << board[8] << endl;\n17        }\n18\n19        bool update_board(int position, char type) {\n20\n21            // if a player selects position n, n-1 index should be updated\n22            // if the position is not already filled, update the board\n23            if (board[position - 1] == ' ') {\n24                board[position - 1] = type;\n25\n26                // increase the value of count by 1\n27                count++;\n28                return true;\n29            }\n30\n31            // if the position is already filled, ask user to select another position\n32            else {\n33                cout << \"Position already selected. Select another position.\";\n34                return false;\n35            }\n36        }\n37\n38        // if all variables are selected and there is no winner, it's draw\n39        // returning true if it's draw\n40        bool check_draw() {\n41\n42            // check if count == 9\n43            if (count == 9) {\n44                return true;\n45            } \n46            else {\n47                return false;\n48            }\n49        }\n50\n51        // if three symbols appears in a row, returning true\n52        bool check_winner(char type) {\n53            if ((board[0] == type && board[1] == type && board[2] == type)\n54                    || (board[3] == type && board[4] == type && board[5] == type)\n55                    || (board[6] == type && board[7] == type && board[8] == type)\n56                    || (board[0] == type && board[3] == type && board[6] == type)\n57                    || (board[1] == type && board[4] == type && board[7] == type)\n58                    || (board[2] == type && board[5] == type && board[8] == type)\n59                    || (board[0] == type && board[4] == type && board[8] == type)\n60                    || (board[2] == type && board[4] == type && board[6] == type)) {\n61                return true;\n62            }\n63\n64            else {\n65                return false;\n66            }\n67\n68        }\n69};\n70\n71class Player {\n72    public:\n73        string name;\n74        char type;\n75\n76        // function to select the player type and name\n77        void set_info(char type) {\n78\n79            // player type is 'X' if parameter is 'X' or 'x'            \n80            if (type == 'X' || type == 'x') {\n81\n82                // set member variable to 'X'\n83                this->type = 'X';\n84\n85                // get player name\n86                cout << \"Player selecting \" << this->type << \", enter your name: \";\n87                getline(cin, name);\n88            }\n89\n90            // player type is 'O' if parameter is any other character \n91            else {\n92                this->type = 'O';\n93                cout << \"Player selecting \" << this->type << \", enter your name: \";\n94                getline(cin, name);\n95            }\n96        }\n97};\n98\n99class Game {   \n100    public:\n101\n102        Board board;\n103\n104        Player player1;\n105        Player player2;\n106        Player* current_player;\n107        \n108        // constructor to set player data\n109        Game() {\n110            player1.set_info('X');\n111            player2.set_info('O');\n112            current_player = &player1;\n113        }\n114\n115        void play() {\n116            \n117            int position;\n118\n119            // message to prompt player for their position\n120            string message = \"enter the position (1 - 9): \";\n121\n122            // using an infinite loop to run the game\n123            // we will later add conditions to terminate the loop\n124            while (true) {\n125\n126                cout << current_player->name << \" \" << message;\n127                cin >> position;\n128\n129                // the update_board() function returns true if\n130                // the user selected position is not already filled\n131                bool update = board.update_board(position, current_player->type);\n132\n133                // update the board if the selected position is not filled\n134                if (update) {\n135\n136                    board.print_board();\n137                    \n138\n139                    // call the check_winner() function\n140                    bool win_status = board.check_winner(current_player->type);\n141                    \n142                    // call the check_draw() function\n143                    bool draw_status = board.check_draw();\n144\n145                    // check for winner each time after updating the board\n146                    if (win_status) {\n147                        cout << current_player->name << \" wins!\" << endl;\n148                        break;\n149                    }\n150\n151                    // check for draw each time after updating the board\n152                    else if (draw_status) {\n153                        cout << \"Game is a draw!\" << endl;\n154                        break;\n155                    }\n156\n157\n158                    // change current player when board is updated\n159                    if (current_player == &player1) {\n160                        current_player = &player2;\n161                    }\n162\n163                    else {\n164                        current_player = &player1;\n165                    }\n166                }\n167            }\n168        }\n169};\n170\n171int main() {\n172\n173    Game game;\n174    game.play();\n175\n176    return 0;\n177}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each time a user enters a position, we have called the check_winner() function to see if a player won or not. If a player won the game, we have used the break statement to end the while loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we have called the check_draw() function each time after the board is updated and if the winning condition is not met."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our game is complete. Run this code and see for yourself how this code works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/purpose-of-group-by-clause?page=1",
+  "title": "What is the purpose of the GROUP BY clause in SQL?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is the purpose of the GROUP BY clause in SQL?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The GROUP BY clause in SQL serves the following purposes:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Grouping Rows"
+    },
+    {
+      "type": "paragraph",
+      "content": "The primary purpose of the GROUP BY clause is to group rows based on common values in one or more columns. It allows us to organize and categorize data into distinct groups."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aggregation"
+    },
+    {
+      "type": "paragraph",
+      "content": "The GROUP BY clause works in tandem with aggregate functions (e.g., SUM(), COUNT(), AVG()) to perform calculations on the grouped data. It enables us to generate summarized results, such as finding each group's total, average, or count."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Data Analysis"
+    },
+    {
+      "type": "paragraph",
+      "content": "By utilizing the GROUP BY clause, we can perform data analysis at a higher level of granularity. It helps us gain insights into subsets of data and identify patterns or trends within those groups."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Reporting and Presentation"
+    },
+    {
+      "type": "paragraph",
+      "content": "The GROUP BY clause facilitates the creation of structured reports and presentations. It allows us to present data in a summarized format, making it easier to understand and interpret by grouping related information."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

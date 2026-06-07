@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/control-flow-examples?page=2",
+  "title": "Checking Leap Year",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Checking Leap Year"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every leap year follows a certain pattern."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A leap year is perfectly divisible by 4 except for century years (years ending with 00).",
+        "A century year is a leap year only if it is perfectly divisible by 400."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "2017 - Not a leap year. Not divisible by 4. \n2000 - Leap year. Century year that is divisible by 400.\n1900 - Not a leap year. Century year but not divisible by 400.\n2012 - Leap year. Divisible by 4 and not century year."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's try to implement this logic in our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code 1"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1// Java program to find Leap Year\n2// Using if...else if...else ladder\n3\n4class Main {\n5    public static void main(String[] args) {\n6\n7        int year = 2000;\n8\n9        // If divisible by 400, it's a leap year\n10        if (year % 400 == 0) {\n11            System.out.println(\"leap year\");\n12        }\n13\n14        // At this point, we know it's not divisible by 400\n15        // If it's divisible by 100, it's not a leap year\n16        else if (year % 100 == 0) {\n17            System.out.println(\"not a leap year\");\n18        }\n19        // At this point we know it's not a century year\n20        // If a non-century year is divisible by 4, it's a leap year\n21        else if (year % 4 == 0) {\n22            System.out.println(\"leap year\");\n23        }\n24        // All other remaining years are not a leap year\n25        else {\n26            System.out.println(\"not a leap year\");\n27        }\n28    }\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code 2"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1// Java program to find Leap Year\n2// Using && and || operators with if...else\n3\n4class Main {\n5    public static void main(String[] args) {\n6\n7        int year = 2000;\n8\n9        // If year is divisible by 4 and not divisible by 100\n10        // or if year is divisible by 400, it's a leap year\n11        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {\n12            System.out.println(\"leap year\");\n13        }\n14\n15        // All other remaining years are not a leap year\n16        else {\n17            System.out.println(\"not a leap year\");\n18        }\n19    }\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, there are various ways to solve this problem. Can you think of another way to solve it?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

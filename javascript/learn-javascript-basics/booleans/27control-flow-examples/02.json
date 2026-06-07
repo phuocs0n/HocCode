@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/control-flow-examples?page=3",
+  "title": "Example: Multiplication Table",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Multiplication Table"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's write a program to display the multiplication table for a number up to its 5th multiple. For instance, the multiplication table for 9 would look like this:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "9 * 1 = 9\n9 * 2 = 18\n9 * 3 = 27\n9 * 4 = 36\n9 * 5 = 45"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this table, the multiplier increases by 1 in each step. To achieve this, we'll use a for loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let number = 9;\n2\n3// Iterate loop from 1 to 5\n4for (let multiplier = 1; multiplier <= 5; multiplier++) {\n5    // Compute product in each iteration\n6    let product = number * multiplier;\n7    console.log(`${number} * ${multiplier} = ${product}`);\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you execute this program, you'll get the exact output as shown above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

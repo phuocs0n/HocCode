@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-ref?page=3",
+  "title": "Attaching a Ref to an Element",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Attaching a Ref to an Element"
+    },
+    {
+      "type": "paragraph",
+      "content": "You attach a ref to a JSX element using the ref attribute. From that point on, myRef.current gives you direct access to the DOM node."
+    },
+    {
+      "type": "paragraph",
+      "content": "The pattern is always the same: create the ref → attach it → use it."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { useRef } from \"react\";\n\nfunction SearchBar() {\n\n  // Step 1: create the ref\n  const inputRef = useRef(null);\n\n  return (\n\n    {/* Step 2: Attach using ref attribute */}\n    <input\n      ref={inputRef}\n      type=\"text\"\n      placeholder=\"Search...\"\n    />\n  );\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "After this component renders, inputRef.current points to the actual <input> DOM element. We can now call browser methods on it:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "inputRef.current.focus();\ninputRef.current.value = \"\";\ninputRef.current.scrollIntoView();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's visualize this entire process."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=8",
+  "title": "Revisiting the Changes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revisiting the Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what changed from the previous lesson:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "App now has a refreshKey state (starts at 0). It lives in the useEffect() dependency array, replacing [].",
+        "A Refresh button in the entry list header calls setRefreshKey() on click. React detects the change and re-runs the effect.",
+        "The error display changed from a single <p className=\"error-state\"> to an error-banner div with two child paragraphs.",
+        "Header and EntryCard are unchanged from the previous lesson."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The Refresh button works because refreshKey is in the dependency array."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what happens when a value the effect uses is not in the list?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's the most common mistake when working with useEffect(), and I have a story from my early days that shows just how subtle it can get."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

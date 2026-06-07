@@ -1,0 +1,112 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/arrays?page=2",
+  "title": "Create an Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create an Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "An array is created by placing elements inside curly braces {}, separated by commas. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int numbers[5] = {1, 2, 3, 4, 5};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "numbers - name of the array",
+        "[5] - represents the size of the array (number of elements)",
+        "{1, 2, 3, 4, 5} - elements of the array",
+        "int - indicates that the array can only include integer elements."
+      ]
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's try to access those elements and print them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Access Array Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, each element of an array is associated with a number called array index. The array index specifies the position of the element inside the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the array above,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int numbers[5] = {1, 2, 3, 4, 5};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the array index looks like:"
+    },
+    {
+      "type": "image",
+      "alt": "An array index starts from 0",
+      "src": "data:image/png;base64,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"
+    },
+    {
+      "type": "paragraph",
+      "content": "An array index starts from 0, so the first element of the array will always be at position 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the array index to access elements of the array. Let's see how."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// access the first element\nnumbers[0];\n\n// access the second element\nnumbers[1];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have used the array name, numbers, followed by square brackets [] with index number to access the array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example now."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

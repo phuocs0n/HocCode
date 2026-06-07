@@ -1,0 +1,83 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/common-css-practices?page=5",
+  "title": "Keep Your CSS Organized",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Keep Your CSS Organized"
+    },
+    {
+      "type": "paragraph",
+      "content": "When your styles are arranged logically, it's much easier to understand and update code—especially in larger projects or when working with others."
+    },
+    {
+      "type": "paragraph",
+      "content": "Group related styles together into sections, such as"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Typography",
+        "Layout",
+        "Color schemes"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Use comments to label these sections or describe their purpose."
+    },
+    {
+      "type": "paragraph",
+      "content": "This makes locating and modifying specific CSS parts quicker, improving both efficiency and clarity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Good Example"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "/* Typography */\nh1, h2 {\n    font-family: Arial, sans-serif;\n    color: #333333;\n}\n\n/* Layout */\n.container {\n    width: 100%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n\n/* Color Scheme */\n.primary-button {\n    background-color: #3498db;\n    color: white;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, related styles are grouped by category, making the code clear and easy to navigate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bad Example"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".container {\n    width: 100%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n\nh1 {\n    font-family: Arial, sans-serif;\n    color: #333333;\n}\n\n.primary-button {\n    background-color: #3498db;\n    color: white;\n}\n\nh2 {\n    font-family: Arial, sans-serif;\n    color: #333333;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this version, styles are scattered randomly, making it harder to locate specific sections."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

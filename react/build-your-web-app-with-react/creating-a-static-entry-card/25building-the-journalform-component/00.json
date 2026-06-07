@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component?page=1",
+  "title": "What You're Building",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What You're Building"
+    },
+    {
+      "type": "paragraph",
+      "content": "So you've added your header and entry cards. Now you need a way for users to add new entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll build a form component with:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A text input for the title",
+        "A textarea for the content",
+        "A button to submit the entry"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The form won't work yet (you'll do that in the next chapter). For now, let's just focus on building the UI."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start by creating a separate component for the form, and then proceed to add it to our main React app."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

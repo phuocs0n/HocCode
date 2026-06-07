@@ -1,0 +1,140 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/getting-started?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a valid way to display the following output?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "Welcome to Programiz"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "console.log(Welcome to Programiz);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log(Welcome to Programiz) causes an error because we have not enclosed Welcome to Programiz inside double quotes \"\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log(Welcome to Programiz) causes an error because we have not enclosed Welcome to Programiz inside double quotes \"\"."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "console.log\"Welcome to Programiz\";"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log\"Welcome to Programiz\" causes an error because we have not enclosed \"Welcome to Programiz\" inside parentheses ()."
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log\"Welcome to Programiz\" causes an error because we have not enclosed \"Welcome to Programiz\" inside parentheses ()."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "console.log(\"Welcome to Programiz\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log(\"Welcome to Programiz\") displays Welcome to Programiz on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log(\"Welcome to Programiz\") displays Welcome to Programiz on the screen."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "Console.log(\"Welcome to Programiz\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript is case-sensitive. This code results in an error because Console and console are treated differently in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript is case-sensitive. This code results in an error because Console and console are treated differently in JavaScript."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a valid way to display the following output?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:console.log(Welcome to Programiz);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "console.log(Welcome to Programiz);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:console.log\"Welcome to Programiz\";",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "console.log\"Welcome to Programiz\";",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:console.log(\"Welcome to Programiz\");",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "console.log(\"Welcome to Programiz\");",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Console.log(\"Welcome to Programiz\");",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Console.log(\"Welcome to Programiz\");",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

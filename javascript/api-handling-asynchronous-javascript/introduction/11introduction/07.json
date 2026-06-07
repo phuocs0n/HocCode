@@ -1,0 +1,61 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction?page=8",
+  "title": "Why JavaScript Blocks",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why JavaScript Blocks"
+    },
+    {
+      "type": "paragraph",
+      "content": "So you've experienced first-hand what blocking looks like and why it hurts the user experience. You faced such problems because JavaScript:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Runs code from top to bottom",
+        "Executes one line at a time",
+        "Finishes one task before it starts the next"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Moreover, JavaScript is built on the following pillars:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "JavaScript doesn't multitask.",
+        "It doesn't run code in parallel.",
+        "It finishes one task before starting the next."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This way of executing code is called single threaded execution, and the typical behavior exhibited by JavaScript is called synchronous behavior."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

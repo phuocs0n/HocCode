@@ -1,0 +1,120 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions?page=12",
+  "title": "Add the Bookmark Button",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add the Bookmark Button"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code to mark an entry as bookmarked is already present in our components. So all that remains is adding the bookmark button to each entry in EntryCard.jsx."
+    },
+    {
+      "type": "paragraph",
+      "content": "This bookmark button will behave in the following way:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "When an entry is not bookmarked, the button text will say ☆ Bookmark.",
+        "When an entry is bookmarked, the button text will say ★ Bookmarked."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Additionally, we'll wrap this button inside a new <div> dedicated to actions related to the entry card."
+    },
+    {
+      "type": "paragraph",
+      "content": "This makes it easier for you to personally add other actions of your choosing in the future (such as adding a Mark as Read button)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's code all this in EntryCard.jsx:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { Routes, Route } from 'react-router-dom';\n2import HomePage from './pages/HomePage';\n3import EntryDetailPage from './pages/EntryDetailPage';\n4import NotFoundPage from './pages/NotFoundPage';\n5\n6function App() {\n7  return (\n8    <div className=\"main-container\">\n9      <Routes>\n10        <Route path=\"/\" element={<HomePage />} />\n11        <Route path=\"/entries/:id\" element={<EntryDetailPage />} />\n12        <Route path=\"*\" element={<NotFoundPage />} />\n13      </Routes>\n14    </div>\n15  )\n16}\n17\n18export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2import { useTheme } from '../context/ThemeContext'\n3\n4function Header({ query, onQueryChange }) {\n5  const { theme, toggleTheme } = useTheme()\n6\n7  const searchRef = useRef(null);\n8\n9  useEffect(function () {\n10    searchRef.current.focus();\n11  }, []);\n12\n13  function handleChange(e) {\n14    onQueryChange(e.target.value);\n15  }\n16\n17  function handleClear() {\n18    onQueryChange(\"\");\n19    searchRef.current.focus();\n20  }\n21\n22  return (\n23    <header className=\"header\">\n24      <button className=\"btn btn-secondary theme-toggle\" onClick={toggleTheme}>\n25        {theme === 'light' ? 'Dark mode' : 'Light mode'}\n26      </button>\n27      <h2 className=\"title-primary\">My Daily Journal</h2>\n28      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n29      <div className=\"header-search\">\n30        <input\n31          ref={searchRef}\n32          className=\"search-input\"\n33          type=\"text\"\n34          placeholder=\"Search entries...\"\n35          value={query}\n36          onChange={handleChange}\n37        />\n38        {query && (\n39          <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n40        )}\n41      </div>\n42    </header>\n43  );\n44}\n45\n46export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { Link } from 'react-router-dom'\n2\n3function EntryCard({ id, title, date, author, content, bookmarked, onBookmark }) {\n4  return (\n5    <div className={'entry-card' + (bookmarked ? ' bookmarked' : '')}>\n6      <Link to={'/entries/' + id} state={{ bookmarked }} style={{ textDecoration: 'none', color: 'inherit' }}>\n7        <p className=\"entry-date\">{date}</p>\n8        <h2 className=\"entry-title\">{title}</h2>\n9        <p className=\"entry-author\">by {author}</p>\n10        <p className=\"entry-content\">{content}</p>\n11      </Link>\n12\n13      {/* Add bookmark button inside a <div> */}\n14      <div className=\"entry-card-actions\">\n15        <button className=\"btn btn-secondary\" onClick={function (e) { e.preventDefault(); onBookmark() }}>\n16          {bookmarked ? '★ Bookmarked' : '☆ Bookmark'}\n17        </button>\n18      </div>\n19\n20    </div>\n21  )\n22}\n23\n24export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useEffect } from \"react\";\n2\n3function useFetch(url) {\n4  const [data, setData] = useState(null);\n5  const [isLoading, setIsLoading] = useState(true);\n6  const [error, setError] = useState(null);\n7  const [refetchKey, setRefetchKey] = useState(0);\n8\n9  useEffect(function () {\n10    async function fetchData() {\n11      setIsLoading(true);\n12      setError(null);\n13      try {\n14        const res = await fetch(url);\n15        \n16        if (!res.ok) {\n17          throw new Error(\"Could not load data. Status: \" + res.status);\n18        }\n19        const json = await res.json();\n20        setData(json);\n21        setIsLoading(false);\n22      } catch (err) {\n23        setError(err.message);\n24        setIsLoading(false);\n25      }\n26    }\n27    fetchData();\n28  }, [url, refetchKey]);\n29\n30  function refetch() {\n31    setRefetchKey(function (k) { return k + 1; });\n32  }\n33\n34  return { data, isLoading, error, refetch };\n35}\n36\n37export default useFetch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function useSearch(entries) {\n4  const [query, setQuery] = useState(\"\");\n5\n6  const filteredEntries = useMemo(function () {\n7    if (!query.trim()) return entries;\n8    const lower = query.toLowerCase();\n9    return entries.filter(function (entry) {\n10      return (\n11        entry.title.toLowerCase().includes(lower) ||\n12        entry.content.toLowerCase().includes(lower)\n13      );\n14    });\n15  }, [entries, query]);\n16\n17  return { query, setQuery, filteredEntries };\n18}\n19\n20export default useSearch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function usePagination(entries, pageSize) {\n4  const [currentPage, setCurrentPage] = useState(1);\n5\n6  const totalPages = useMemo(function () {\n7    return Math.ceil(entries.length / pageSize);\n8  }, [entries, pageSize]);\n9\n10  const pagedEntries = useMemo(function () {\n11    const start = (currentPage - 1) * pageSize;\n12    return entries.slice(start, start + pageSize);\n13  }, [entries, currentPage, pageSize]);\n14\n15  function handleNext() {\n16    setCurrentPage(function (p) { return Math.min(p + 1, totalPages); });\n17  }\n18\n19  function handlePrev() {\n20    setCurrentPage(function (p) { return Math.max(p - 1, 1); });\n21  }\n22\n23  function reset() {\n24    setCurrentPage(1);\n25  }\n26\n27  return { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset };\n28}\n29\n30export default usePagination;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useReducer, useState, useEffect } from 'react'\n2import Header from \"../components/Header\";\n3import EntryCard from \"../components/EntryCard\";\n4import useSearch from \"../hooks/useSearch\";\n5import usePagination from \"../hooks/usePagination\";\n6\n7const ENTRIES_PER_PAGE = 5;\n8const API_URL = 'https://dev.api.programiz.pro/api/Demo/v1/journal-entries'\n9\n10function journalReducer(state, action) {\n11  switch (action.type) {\n12    case 'SET_ENTRIES':\n13      return action.payload.map(function (entry) {\n14        return { ...entry, bookmarked: false }\n15      })\n16    case 'BOOKMARK_ENTRY':\n17      return state.map(function (entry) {\n18        return entry.id === action.payload.id\n19          ? { ...entry, bookmarked: !entry.bookmarked }\n20          : entry\n21      })\n22    default:\n23      return state\n24  }\n25}\n26\n27function HomePage() {\n28  const [entries, dispatch] = useReducer(journalReducer, [])\n29  const [isLoading, setIsLoading] = useState(true)\n30  const [error, setError] = useState(null)\n31  const [refetchKey, setRefetchKey] = useState(0)\n32\n33  const { query, setQuery, filteredEntries } = useSearch(entries)\n34  const { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset } = usePagination(\n35    filteredEntries,\n36    ENTRIES_PER_PAGE\n37  )\n38\n39  useEffect(function () {\n40    async function loadEntries() {\n41      setIsLoading(true)\n42      setError(null)\n43      try {\n44        const res = await fetch(API_URL)\n45        if (!res.ok) throw new Error('Could not load data. Status: ' + res.status)\n46        const data = await res.json()\n47        dispatch({ type: 'SET_ENTRIES', payload: data })\n48      } catch (err) {\n49        setError(err.message)\n50      } finally {\n51        setIsLoading(false)\n52      }\n53    }\n54    loadEntries()\n55  }, [refetchKey])\n56\n57  function refetch() {\n58    setRefetchKey(function (k) { return k + 1 })\n59  }\n60\n61  function handleQueryChange(newQuery) {\n62    setQuery(newQuery)\n63    reset()\n64  }\n65\n66  return (\n67    <div className=\"main-container\">\n68      <Header query={query} onQueryChange={handleQueryChange} />\n69      <section className=\"entries-section\">\n70        <div className=\"entry-list-header\">\n71          <h3>Recent Entries</h3>\n72          <span className=\"entry-count\">{filteredEntries.length}</span>\n73          {query && <span className=\"entry-count\">{\"of \" + entries.length}</span>}\n74          <button className=\"btn btn-secondary\" onClick={refetch}>Refresh</button>\n75        </div>\n76        {isLoading ? (\n77          <p className=\"loading-state\">Loading entries...</p>\n78        ) : error ? (\n79          <div className=\"error-banner\">\n80            <p className=\"error-label\">Something went wrong.</p>\n81            <p className=\"error-detail\">{error}</p>\n82          </div>\n83        ) : pagedEntries.length === 0 ? (\n84          <p className=\"empty-state\">No entries found.</p>\n85        ) : (\n86          pagedEntries.map((entry) => (\n87            <EntryCard\n88              key={entry.id}\n89              id={entry.id}\n90              title={entry.title}\n91              date={entry.date}\n92              content={entry.content}\n93              author={entry.author}\n94              bookmarked={entry.bookmarked}\n95              onBookmark={function () { dispatch({ type: 'BOOKMARK_ENTRY', payload: { id: entry.id } }) }}\n96            />\n97          ))\n98        )}\n99        {!isLoading && !error && totalPages > 1 && (\n100          <div className=\"pagination\">\n101            <button className=\"btn btn-secondary\" onClick={handlePrev} disabled={currentPage === 1}>Previous</button>\n102            <span className=\"pagination-info\">Page {currentPage} of {totalPages}</span>\n103            <button className=\"btn btn-secondary\" onClick={handleNext} disabled={currentPage === totalPages}>Next</button>\n104          </div>\n105        )}\n106      </section>\n107    </div>\n108  )\n109}\n110\n111export default HomePage;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useEffect, useState } from 'react'\n2import { useParams, Link, useNavigate } from 'react-router-dom'\n3\n4const API_URL = 'https://dev.api.programiz.pro/api/Demo/v1/journal-entries'\n5\n6function EntryDetailPage() {\n7  const { id } = useParams()\n8  const navigate = useNavigate()\n9  const [entry, setEntry] = useState(null)\n10  const [isLoading, setIsLoading] = useState(true)\n11  const [error, setError] = useState(null)\n12\n13  useEffect(function () {\n14    async function fetchEntry() {\n15      try {\n16        setIsLoading(true)\n17        const res = await fetch(API_URL)\n18        const data = await res.json()\n19        const found = data.find(function (e) { return String(e.id) === id })\n20        if (!found) throw new Error('Entry not found')\n21        setEntry(found)\n22      } catch (err) {\n23        setError(err.message)\n24      } finally {\n25        setIsLoading(false)\n26      }\n27    }\n28    fetchEntry()\n29  }, [id])\n30\n31  if (isLoading) return <p className=\"loading-state\">Loading entry...</p>\n32  if (error) return (\n33    <div className=\"not-found\">\n34      <h2>Entry not found</h2>\n35      <Link className=\"btn btn-primary\" to=\"/\">Back to Journal</Link>\n36    </div>\n37  )\n38  if (!entry) return null\n39\n40  return (\n41    <article className=\"entry-detail\">\n42      <div className=\"entry-detail-nav\">\n43        <button className=\"btn btn-secondary\" onClick={function () { navigate(\"/\") }}>Back to Journal</button>\n44      </div>\n45      <p className=\"entry-date\">{entry.date}</p>\n46      <h2 className=\"entry-title\">{entry.title}</h2>\n47      <p className=\"entry-detail-meta\">by {entry.author}</p>\n48      <p className=\"entry-detail-content\">{entry.content}</p>\n49    </article>\n50  )\n51}\n52\n53export default EntryDetailPage;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react';\n2import { createRoot } from 'react-dom/client';\n3import { BrowserRouter } from \"react-router-dom\";\n4import { ThemeProvider } from \"./context/ThemeContext\";\n5import App from './App';\n6import './style.css';\n7\n8const root = createRoot(document.getElementById('root'));\n9root.render(    \n10    <BrowserRouter>\n11      <ThemeProvider>\n12          <App />\n13     </ThemeProvider>\n14    </BrowserRouter>\n15);"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { createContext, useContext, useState, useEffect } from 'react'\n2\n3const ThemeContext = createContext(null)\n4\n5export function ThemeProvider({ children }) {\n6  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light')\n7\n8  useEffect(function () {\n9    document.documentElement.setAttribute('data-theme', theme)\n10    localStorage.setItem('theme', theme)\n11  }, [theme])\n12\n13  function toggleTheme() {\n14    setTheme(function (t) { return t === 'light' ? 'dark' : 'light' })\n15  }\n16\n17  return (\n18    <ThemeContext.Provider value={{ theme, toggleTheme }}>\n19      {children}\n20    </ThemeContext.Provider>\n21  )\n22}\n23\n24export function useTheme() {\n25  return useContext(ThemeContext)\n26}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { Link } from 'react-router-dom'\n2\n3function NotFoundPage() {\n4  return (\n5    <div className=\"not-found\">\n6      <h2>404 — Page Not Found</h2>\n7      <Link className=\"btn btn-primary\" to=\"/\">Go to Home</Link>\n8    </div>\n9  )\n10}\n11\n12export default NotFoundPage"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

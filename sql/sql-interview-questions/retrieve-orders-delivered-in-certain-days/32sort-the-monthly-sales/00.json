@@ -1,0 +1,80 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/sort-monthly-sales?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Sales"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "sales_id",
+          "sales_date",
+          "sales_amount"
+        ],
+        [
+          "1",
+          "2023-05-30",
+          "50000"
+        ],
+        [
+          "2",
+          "2023-06-03",
+          "80000"
+        ],
+        [
+          "3",
+          "2023-06-23",
+          "100000"
+        ],
+        [
+          "4",
+          "2023-06-30",
+          "90000"
+        ],
+        [
+          "5",
+          "2023-06-22",
+          "800"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Find the monthly sales from the above table and sort them in descending order of sales_amount and sales_date."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

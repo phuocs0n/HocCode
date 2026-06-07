@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/making-status-change-feel-instant?page=2",
+  "title": "Rolling Back When Something Goes Wrong",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Rolling Back When Something Goes Wrong"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the server rejects the mutation, onError fires. We take context.previousTasks and put it straight back into the cache:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "onError: (error, updatedTask, context) => {\n  queryClient.setQueryData(\n    taskKeys.list({ status }),\n    context.previousTasks\n  )\n},"
+    },
+    {
+      "type": "paragraph",
+      "content": "The task status snaps back to what it was before. The user sees it change back and knows something went wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then onSettled runs no matter what, success or failure:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "onSettled: () => {\n  queryClient.invalidateQueries({ queryKey: taskKeys.all })\n},"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the safety net. After everything settles we sync with the server so the cache always ends up in the correct state."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full files at this point."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

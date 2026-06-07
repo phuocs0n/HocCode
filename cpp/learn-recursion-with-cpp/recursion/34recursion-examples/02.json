@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-cpp/recursion-examples?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int calculate_sum(int n) {\n5\n6    if (n == 1) {\n7        return 1;\n8    }\n9\n10    return calculate_sum(n - 1);\n11}\n12\n13int main() {\n14\n15    int result = calculate_sum(3);\n16    cout << result;\n17\n18    return 0;\n19}\n20\n21// Output: 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we get 1 instead of 6 as output. Where did we go wrong?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we have called the function recursively with n - 1, but we have not added n to the result. This leads to only the base case's return value being propagated back up."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's fix this in our code next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

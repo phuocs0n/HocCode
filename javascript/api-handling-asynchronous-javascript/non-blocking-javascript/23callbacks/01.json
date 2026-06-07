@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/callbacks?page=2",
+  "title": "Example: JavaScript Callback",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: JavaScript Callback"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a simple example of a callback function in JavaScript:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const greet = (name, callback) => {\n2  console.log(\"Hello\", name);\n3  callback();\n4};\n5\n6greet(\"Alex\", () => {\n7  console.log(\"Welcome!\");\n8});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello Alex\nWelcome!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "greet() takes a variable and a callback function as arguments.",
+        "So, we call the greet() function and pass \"Alex\" and a callback function as arguments.",
+        "The callback function gets executed only after console.log(\"Hello\", name)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this way, we can control the order of execution using callbacks."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

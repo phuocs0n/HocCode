@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/file-handling?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How do we create a file in Java?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "File file = new File(\"newFile.txt\");"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the File class to create an object of the file. Creating an object doesn't mean creating a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the File class to create an object of the file. Creating an object doesn't mean creating a file."
+    },
+    {
+      "type": "paragraph",
+      "content": "String value = file.createNewFile();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The createNewFile() method returns true or false, so we must assign its value to a boolean variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The createNewFile() method returns true or false, so we must assign its value to a boolean variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "boolean value = file.createNewFile();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The createNewFile() method is used with the object of File to create a new file. As it returns a boolean value we have assigned its value to a boolean variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The createNewFile() method is used with the object of File to create a new file. As it returns a boolean value we have assigned its value to a boolean variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How do we create a file in Java?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:File file = new File(\"newFile.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "File file = new File(\"newFile.txt\");",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:String value = file.createNewFile();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "String value = file.createNewFile();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:boolean value = file.createNewFile();",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "boolean value = file.createNewFile();",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

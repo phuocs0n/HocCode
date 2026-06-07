@@ -1,0 +1,89 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-pointers?page=1",
+  "title": "Pointers Summary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pointers Summary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's revise what we have learned in this chapter:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Memory Address"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number gives the address of the number variable. For example,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 32;\n6\n7  // use of %p to print the address\n8  printf(\"%p\", &number);\n9}\n10\n11// Output: 0x7ffe61e30e94"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Pointer Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "A pointer variable is used to store the memory address of a variable. For example,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 32;\n6  \n7  // pt is a pointer variable that stores\n8  // memory address of number\n9  int* pt = &number;\n10  printf(\"%p\", pt);\n11}\n12\n13// Output: 0x7ffce681f5ec"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Access value using pointers"
+    },
+    {
+      "type": "paragraph",
+      "content": "*pt accesses the value pointed by the address stored in the pt pointer. For example,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int number = 32;\n6  \n7  // pt is a pointer variable that stores\n8  // memory address of number\n9  int* pt = &number;\n10  \n11  // value pointed by pt\n12  printf(\"%d\", *pt);\n13}\n14\n15// Output: 32"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use pointers with arrays and functions which we will revise using the following examples."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add 10 to each element of the array",
+        "Practice: Multiply each element of the array by N",
+        "Add two numbers using function",
+        "Practice: Divide two numbers using function"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

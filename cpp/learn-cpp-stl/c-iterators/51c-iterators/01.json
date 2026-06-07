@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-iterators?page=2",
+  "title": "Example: Access the First Element",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Access the First Element"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3\n4using namespace std;\n5\n6int main() {\n7    vector<int> numbers = {12, 2 ,3, 4, 5};\n8    \n9    // Get an iterator to the first element\n10    auto iter = numbers.begin();\n11\n12    cout << iter << endl;\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run the above program, you will encounter an error instead of getting the first element. Let's understand why."
+    },
+    {
+      "type": "paragraph",
+      "content": "We used begin() to obtain the iterator to its first element."
+    },
+    {
+      "type": "paragraph",
+      "content": "When we try to print the element with:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << iter << endl;"
+    },
+    {
+      "type": "paragraph",
+      "content": "It results in an error because iterators behave like pointers, and we need to dereference them to access the elements they point to."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a working example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

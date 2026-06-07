@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-joins?page=3",
+  "title": "Chapter Overview",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Chapter Overview"
+    },
+    {
+      "type": "paragraph",
+      "content": "In SQL, you can use the JOIN statements to retrieve data stored in multiple tables. A JOIN combines records from two or more tables based on a matching condition between them."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are four commonly used JOIN statements:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL JOIN"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this chapter, you'll learn each of these JOINs in detail. Let's start with the most frequently used one: INNER JOIN."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,56 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-struct?page=4",
+  "title": "Add Two Distances using Struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Two Distances using Struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will learn to take two distances (in the inch-feet system), add them and display the result on the screen."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4typedef struct Distance {\n5    int feet;\n6    int inch;\n7} distances;\n8\n9int main() {\n10\n11    // create struct variables\n12    distances d1;\n13    distances d2;\n14    distances result;\n15\n16    // get feet and inch inputs for d1 and d2\n17\n18    cout << \"Enter 1st distance\" << endl;\n19    cout << \"Enter feet and inch: \";\n20\n21    cin >> d1.feet >> d1.inch;\n22\n23    cout << \"Enter 2nd distance\" << endl;\n24    cout << \"Enter feet and inch: \";\n25\n26    cin >> d2.feet >> d2.inch;\n27\n28    // find sum\n29    result.feet = d1.feet + d2.feet;\n30    result.inch = d1.inch + d2.inch;\n31\n32    // if inch is greater than 12 add it to feet\n33    // and reduce inch\n34    result.feet = result.feet + (result.inch / 12);\n35    result.inch = result.inch % 12;\n36\n37    cout << \"Sum: \" << result.feet << \" feet and \" << result.inch << \" inch\";\n38\n39    return 0;\n40}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter 1st distance\nEnter feet and inch: 5\n6\nEnter 2nd distance\nEnter feet and inch: 6\n11\nSum: 12 feet and 5 inch"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

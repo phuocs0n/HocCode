@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/or--not-operators?page=1",
+  "title": "Explain and, or & not Operators in Python",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explain and, or & not Operators in Python"
+    },
+    {
+      "type": "paragraph",
+      "content": "The and, or, and not are boolean operators in Python. They are used to compare two boolean values."
+    },
+    {
+      "type": "paragraph",
+      "content": "and operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The and operator returns True if both compared values are True. In any other case, the and operator returns False. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(True and True)  # True\n2print(True and False)  # False\n3print(False and True)  # False\n4print(False and False)  # False"
+    },
+    {
+      "type": "paragraph",
+      "content": "or operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The or operator returns True if any of the compared values are True, and only returns False if both compared values are False. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(True or True)  # True\n2print(True or False)  # True\n3print(False or True)  # True\n4print(False or False)  # False"
+    },
+    {
+      "type": "paragraph",
+      "content": "not operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The not operator inverts the boolean value i.e. the True value is inverted to False and vice versa. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(not True)  # False\n2print(not False)  # True"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

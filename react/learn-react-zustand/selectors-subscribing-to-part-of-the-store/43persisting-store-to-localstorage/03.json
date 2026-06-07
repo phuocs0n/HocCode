@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/persisting-store-to-localstorage?page=2",
+  "title": "Adding persist Middleware",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding persist Middleware"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand has a built-in middleware called persist that saves chosen parts of your store to localStorage automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/store/useJournalStore.js you wrap your store with persist."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { create } from 'zustand'\nimport { persist } from 'zustand/middleware'\n\nconst useJournalStore = create(\n  persist(\n    (set) => ({\n      // ... your state and actions\n    }),\n    {\n      name: 'journal-store',\n      partialize: (state) => ({\n        theme: state.theme,\n        searchQuery: state.searchQuery,\n      }),\n    }\n  )\n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "name is the key used in localStorage. partialize tells Zustand which parts of the store to save."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice you only save theme and searchQuery. Not entries. Not loading state. Entries come from the API fresh on every load so saving them locally makes no sense."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see persistence working. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

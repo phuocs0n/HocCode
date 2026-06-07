@@ -1,0 +1,56 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/revise-struct?page=4",
+  "title": "Thêm hai khoảng cách bằng Struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thêm hai khoảng cách bằng Struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong ví dụ này, chúng ta sẽ học cách lấy hai khoảng cách (theo hệ inch-feet), cộng chúng lại và hiển thị kết quả trên màn hình."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Mã nguồn"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3typedef struct Distance {\n4  int feet;\n5  int inch;\n6} distances;\n7\n8int main() {\n9\n10  // create struct variables\n11  distances d1;\n12  distances d2;\n13  distances result;\n14\n15  // get feet and inch inputs for d1 and d2\n16  printf(\"Enter 1st distance\\n\");\n17  printf(\"Enter feet and inch: \");\n18  scanf(\"%d %d\", &d1.feet, &d1.inch);\n19\n20  printf(\"Enter 2nd distance\\n\");\n21  printf(\"Enter feet and inch: \");\n22  scanf(\"%d %d\", &d2.feet, &d2.inch);\n23\n24  // find sum\n25  result.feet = d1.feet + d2.feet;\n26  result.inch = d1.inch + d2.inch;\n27\n28  // if inch is greater than 12 add it to feet\n29  // and reduce inch\n30  result.feet = result.feet + (result.inch / 12);\n31  result.inch = result.inch % 12;\n32\n33  printf(\"Sum: %d feet and %d inch\", result.feet, result.inch);\n34\n35  return 0;\n36}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter 1st distance\nEnter feet and inch: 5\n6\nEnter 2nd distance\nEnter feet and inch: 6\n11\nSum: 12 feet and 5 inch"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

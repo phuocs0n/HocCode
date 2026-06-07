@@ -1,0 +1,69 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/classes-objects?page=1",
+  "title": "Creating a Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating a Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "As mentioned before, we need to create a class first before we can create objects from it."
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we use the class keyword to create a class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Car {\n  ...\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created a class named Car."
+    },
+    {
+      "type": "paragraph",
+      "content": "A class can contain:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "data members - variables/arrays to store data",
+        "member functions - to perform tasks on data members"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: A class ends with the code };. In the past, we have ended loops and functions with the } symbol. For classes, however, we need to add a semicolon ; after the closing brace }."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will gradually add different functions and variables inside a class. But first, let's create objects from the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

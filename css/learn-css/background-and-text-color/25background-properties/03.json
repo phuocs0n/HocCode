@@ -1,0 +1,66 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/background-properties?page=4",
+  "title": "Background Repeat",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Background Repeat"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use the background-repeat property to control how a background image is repeated, whether horizontally, vertically, or not at all."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Value",
+          "Description"
+        ],
+        [
+          "repeat",
+          "The image repeats both horizontally and vertically. This is the default value."
+        ],
+        [
+          "repeat-x",
+          "The image repeats horizontally (left to right)."
+        ],
+        [
+          "repeat-y",
+          "The image repeats vertically (top to bottom)."
+        ],
+        [
+          "no-repeat",
+          "The image does not repeat."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll use no-repeat value to prevent our background from repeating."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

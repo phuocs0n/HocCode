@@ -1,0 +1,64 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/building-logic?page=4",
+  "title": "Example: Check if a Number is Prime",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Check if a Number is Prime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a program that checks whether a user-provided number is prime:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Get user input and check if it's prime\n2let number = parseInt(prompt(\"Enter a number: \"));\n3\n4let isPrime = true;\n5\n6// Only check if number is greater than 1\n7if (number > 1) {\n8    for (let i = 2; i < number; i++) {\n9        if (number % i === 0) {\n10            isPrime = false;\n11        }\n12    }\n13}\n14\n15if (isPrime) {\n16    console.log(`${number} is prime`);\n17} else {\n18    console.log(`${number} is not prime`);\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: 17\n17 is prime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: 12\n12 is not prime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we've written code to check whether a number is prime, let's encapsulate this logic into a function. This will make the code reusable and easier to manage."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

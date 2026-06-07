@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/mobile-first-practice?page=3",
+  "title": "Implementing Mobile-First Design",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implementing Mobile-First Design"
+    },
+    {
+      "type": "paragraph",
+      "content": "To apply mobile-first design:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Write Base Styles: Create CSS for mobile (smallest screen size) without media queries.",
+        "Add Media Queries with min-width: Use media queries to enhance the design for tablets, desktops, and larger screens."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2    <p>Responsive CSS is fun!</p>\n3</body>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Default style for mobile devices */\n2body {\n3    font-size: 16px;\n4    padding: 4px 8px;\n5}\n6\n7/* Style for larger mobile devices (480px and wider) */\n8@media (min-width: 480px) {\n9    body {\n10        font-size: 18px;\n11        padding: 8px 12px;\n12    }\n13}\n14\n15/* Style for small desktop devices (768px and wider) */\n16@media (min-width: 768px) {\n17    body {\n18        font-size: 20px;\n19        padding: 12px 14px;\n20    }\n21}\n22\n23/* Style for desktop devices (1024px and wider) */\n24@media (min-width: 1024px) {\n25    body {\n26        font-size: 22px;\n27        padding: 14px 16px;\n28    }\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This setup starts with a simple design for mobile and progressively adds styles for larger screens."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

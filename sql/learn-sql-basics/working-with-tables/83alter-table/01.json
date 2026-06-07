@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/alter-table?page=2",
+  "title": "Adding a Column",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding a Column"
+    },
+    {
+      "type": "paragraph",
+      "content": "As the business expands, customers from different cities start purchasing the product. To keep track of where they are from, you need to store city-wise information."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose this is the Customers table we have."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM CUSTOMERS"
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to store city information, you can add a city column using:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Add a column\n2\n3ALTER TABLE Customers\n4ADD COLUMN city VARCHAR(200);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: The ALTER TABLE syntax may differ among different database systems."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since no data has been added, the city column contains NULL values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

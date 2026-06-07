@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/classes-objects?page=2",
+  "title": "Creating Objects",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Objects"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we can create objects of a class."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# create a class\nclass Student:\n    pass\n\n# outside the class\n# create objects of Student\n\nstudent1 = Student()\nstudent2 = Student()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, student1 and student2 are objects of the Student class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn how attributes and methods are used."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

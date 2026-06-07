@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/preprocessors?page=2",
+  "title": "C++ #include Preprocessor",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ #include Preprocessor"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we know, the #include preprocessor is used to include header files to our program. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <cmath>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, <cmath> is a header file that is readily available when we install the C++ compiler."
+    },
+    {
+      "type": "paragraph",
+      "content": "The #include preprocessor directive replaces the above line with the contents of the <cmath> header file."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Custom Header Files"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also include custom header files in our program using the #include directive. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include \"C:/cpp_files/my_header.h\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have included the header file named my_header.h in our program before our program is compiled. This header file is inside the cpp_files folder of the C: drive."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a good practice to divide a large program into multiple files. We can then include these files in our main file (say, main.cpp) using the #include preprocessor."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

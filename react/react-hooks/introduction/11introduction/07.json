@@ -1,0 +1,50 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/react-hooks/introduction?page=8",
+  "title": "A Final Prerequisite",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Final Prerequisite"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, you'll also need a basic understanding of async/await, since that's how this course fetches data from an API."
+    },
+    {
+      "type": "paragraph",
+      "content": "If this code looks readable to you, you are ready:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "async function loadData() {\n  try {\n    const res = await fetch(\"https://api.example.com/entries\");\n    const data = await res.json();\n    console.log(data);\n  }\n  catch (err) {\n    console.error(err);\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If it does not, spend a short time with JavaScript async / await before continuing — it'll make the first chapter much easier."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

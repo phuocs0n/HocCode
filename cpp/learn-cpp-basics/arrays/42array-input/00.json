@@ -1,0 +1,90 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/array-input?page=1",
+  "title": "Get Array Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Get Array Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's revise the process of taking an input value."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5    \n6    // create integer variable\n7    int number;\n8    \n9    // take input value for number\n10    cout << \"Enter the number: \";\n11    cin >> number;\n12    \n13    cout << \"Input Value: \" << number;\n14\n15    return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the number: 21\nInput Value: 21"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like this, we can also create input values for each array element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // declare an array\n7    int ages[5];\n8\n9    cout << \"Enter the first element: \";\n10    cin >> ages[0];\n11\n12    cout << \"Enter the second element: \";\n13    cin >> ages[1];\n14  \n15    cout << \"Enter the third element: \";\n16    cin >> ages[2];\n17\n18    cout << \"Enter the fourth element: \";\n19    cin >> ages[3];\n20\n21    cout << \"Enter the fifth element: \";\n22    cin >> ages[4];\n23  \n24    cout << \"Array Elements:\" << endl;\n25\n26    // access array using loop\n27    for (int i = 0; i < 5; ++i) {\n28        cout << ages[i] << endl;\n29    }\n30\n31    return 0;\n32}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the first element: 15\nEnter the second element: 25\nEnter the third element: 35\nEnter the fourth element: 45\nEnter the fifth element: 55\nArray Elements:\n15\n25\n35\n45\n55"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, each array element, ages[index] acts as an individual variable and we are getting input value for each of the array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also, we are repeating a similar code to take input value."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cin >> ages[index];"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case also, we can use a for loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

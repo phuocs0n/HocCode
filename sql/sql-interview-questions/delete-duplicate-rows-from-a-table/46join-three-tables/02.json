@@ -1,0 +1,136 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/join-three-tables?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have been given 3 tables:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Customers table with columns customer_id, first_name, and last_name.",
+        "Orders table with columns order_id, customer_id, and order_date.",
+        "Payments table with columns payment_id, order_id, and amount."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Our task is to join the 3 tables and retrieve the customer_id, first_name, last_name, and a new column called payment_status."
+    },
+    {
+      "type": "paragraph",
+      "content": "This column should display Paid if the total amount of payments for a customer is greater than or equal to 300, and Unpaid otherwise."
+    },
+    {
+      "type": "paragraph",
+      "content": "While this problem may seem super difficult, it is actually pretty intuitive if you break the problem down into smaller parts."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you should approach this problem:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Start by selecting the columns you want to retrieve: customer_id, first_name, last_name, and payment_status (as alias)."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use a CASE statement to calculate the payment status. If the total amount of payments for a customer is greater than or equal to 300, we label it as 'Paid'; otherwise, we label it as 'Unpaid'."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "We need to gather the required information from multiple tables. Therefore, we use the FROM clause to specify the primary table, which is Customers in this case."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "To link the relevant data, we utilize LEFT JOIN to join the Customers and the Orders tables on the matching customer_id columns."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Similarly, we join the Payments table with the Orders table using the order_id columns as the joining condition."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Since we want to calculate the payment status for each customer, we need to group the data. The GROUP BY clause groups the result set by customer_id, first_name, and last_name."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Finally, the result set will include the selected columns (customer_id, first_name, and last_name) along with the calculated payment status."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The SQL code will produce the following output:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "customer_id",
+          "first_name",
+          "last_name",
+          "payment_status"
+        ],
+        [
+          "1",
+          "Dwayne",
+          "Johnson",
+          "Unpaid"
+        ],
+        [
+          "2",
+          "Randy",
+          "Orton",
+          "Paid"
+        ],
+        [
+          "3",
+          "John",
+          "Cena",
+          "Paid"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

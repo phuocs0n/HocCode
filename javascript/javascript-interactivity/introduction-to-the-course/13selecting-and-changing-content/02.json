@@ -1,0 +1,99 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/selecting-changing-content?page=3",
+  "title": "Changing Text and HTML",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Changing Text and HTML"
+    },
+    {
+      "type": "paragraph",
+      "content": "You have selected the element. Now, let's change what is inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two ways to do that. And knowing the difference matters."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "textContent",
+        "innerHTML"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see them side by side."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n6  <title>Changing Content</title>\n7  <link rel=\"stylesheet\" href=\"style.css\" />\n8</head>\n9<body>\n10\n11  <h1>Changing Content Example</h1>\n12\n13  <p id=\"text-demo\">(text)</p>\n14  <p id=\"html-demo\">(html)</p>\n15\n16  <script src=\"script.js\"></script>\n17</body>\n18</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6h1 {\n7  margin-bottom: 20px;\n8}\n9\n10p {\n11  font-size: 18px;\n12  margin-bottom: 10px;\n13}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var textEl = document.querySelector('#text-demo');\n2var htmlEl = document.querySelector('#html-demo');\n3\n4if (textEl) {\n5  textEl.textContent = 'This is plain text';\n6}\n7\n8if (htmlEl) {\n9  htmlEl.innerHTML = 'This has <strong>bold</strong> text';\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code."
+    },
+    {
+      "type": "paragraph",
+      "content": "The first paragraph shows plain text. The second paragraph shows bold formatting. Same pattern, different result."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is why."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "textContent treats everything as text.",
+        "innerHTML treats the value as HTML."
+      ]
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Most of the time, textContent is the better and safer choice."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next is a quick quiz to check your understanding."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

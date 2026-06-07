@@ -1,0 +1,140 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-while-loop?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let counter = 1;\nwhile (counter < 5) {\n    console.log(\"Programiz\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Programiz will be displayed once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The counter variable is not being updated inside the loop. So, the loop condition stays true and continues even after the first iteration."
+    },
+    {
+      "type": "paragraph",
+      "content": "The counter variable is not being updated inside the loop. So, the loop condition stays true and continues even after the first iteration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Programiz will be displayed four times."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The counter variable is not being updated in the loop. So, it won't reach the condition where counter is no longer less than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The counter variable is not being updated in the loop. So, it won't reach the condition where counter is no longer less than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program will enter an infinite loop and continuously print Programiz."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, counter < 5 never evaluates to false because we've not updated the value of counter inside the loop.Therefore, this results in an infinite loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, counter < 5 never evaluates to false because we've not updated the value of counter inside the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, this results in an infinite loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "No output will be produced."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop executes infinitely and prints Programiz in each iteration."
+    },
+    {
+      "type": "paragraph",
+      "content": "The loop executes infinitely and prints Programiz in each iteration."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Programiz will be displayed once.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Programiz will be displayed once.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Programiz will be displayed four times.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Programiz will be displayed four times.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The program will enter an infinite loop and continuously print Programiz.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The program will enter an infinite loop and continuously print Programiz.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:No output will be produced.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "No output will be produced.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

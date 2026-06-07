@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/async-actions--fetching-data-inside-store?page=2",
+  "title": "Moving the Fetch into the Store",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Moving the Fetch into the Store"
+    },
+    {
+      "type": "paragraph",
+      "content": "What if the fetch lived in the store instead? Any component could trigger it. Any component could read the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/store/useJournalStore.js you add a fetchEntries action."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "fetchEntries: async () => {\n  set({ isLoading: true, error: null })\n  try {\n    const res = await fetch('https://api.programiz.pro/api/Demo/v1/journal-entries')\n    const data = await res.json()\n    set({ entries: data, isLoading: false })\n  } catch (err) {\n    set({ error: err.message, isLoading: false })\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "set({ isLoading: true }) — you can pass a plain object to set instead of a function. Zustand merges it into the store automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "try/catch handles both success and failure. If something goes wrong the error goes into the store where any component can read it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will call this action and see real entries on screen. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

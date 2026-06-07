@@ -1,0 +1,45 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/middle-letter?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a function that will return the middle letter of the passed string. If there is no middle letter, return an empty string."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if we pass the string 'hello', the function should return 'l'."
+    },
+    {
+      "type": "paragraph",
+      "content": "But if we pass the string 'nana', the function should return an empty string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

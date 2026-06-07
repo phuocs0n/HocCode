@@ -1,0 +1,188 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/linear-time-complexity?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the time complexity of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def print_numbers(n):\n    i = 0 \n    while i < n: \n        print(i)\n        i += 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "O(1)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity of the above code is not constant because the execution time depends upon the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity of the above code is not constant because the execution time depends upon the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n + 2)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity doesn't include two terms."
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity doesn't include two terms."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n / 2)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Coefficients aren't included in complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Coefficients aren't included in complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "O(n)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the time complexity of our code is O(n)– linear time complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the time complexity of our code is O(n)– linear time complexity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity of the above code is not constant because the execution time depends upon the input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity of the above code is not constant because the execution time depends upon the input size."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity doesn't include two terms."
+    },
+    {
+      "type": "paragraph",
+      "content": "The time complexity doesn't include two terms."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Coefficients aren't included in complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Coefficients aren't included in complexity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the time complexity of our code is O(n)– linear time complexity."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yes, the time complexity of our code is O(n)– linear time complexity."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the time complexity of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:O(1)",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "O(1)",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:O(n + 2)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "O(n + 2)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:O(n / 2)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "O(n / 2)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:O(n)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "O(n)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

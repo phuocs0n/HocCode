@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-javascript/recap-local-variables?page=2",
+  "title": "Local Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how we can use the value returned by the function."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function that returns an integer value\n2function addNumbers(n1, n2) {\n3    let result = n1 + n2;\n4    return result;\n5}\n6\n7// Call the function and store the returned value\n8let output = addNumbers(2, 5);\n9console.log(output);\n10\n11// Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we did not directly use the local variable. Instead, we returned the value to the function call and used the returned value by storing it in a variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now see why this concept of local variables is important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

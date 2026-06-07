@@ -1,0 +1,55 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/learn-css/profile-card?page=11",
+  "title": "Complete Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Complete Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the final code:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"container\">\n2    <div class=\"card\">\n3        <div class=\"background\">\n4            <div class=\"image-wrapper\">\n5                <img src=\"/images/learn-css/jane-austen.jpg\" alt=\"Jane Austen's profile picture\">\n6            </div>\n7        </div>\n8\n9        <div class=\"content\">\n10            <h2>Jane Austen</h2>\n11\n12            <p>\n13                Frontend Developer\n14                <br>\n15                <a href=\"#\" class=\"link\" title=\"Programiz\">Programiz</a>\n16            </p>\n17\n18            <ul class=\"chips\">\n19                <li class=\"chip\">Figma</li>\n20                <li class=\"chip\">ReactJS</li>\n21                <li class=\"chip\">NodeJS</li>\n22            </ul>\n23            <div class=\"action-button\">\n24                <a href=\"#contact-me\" title=\"Contact Me\">Contact Me</a>\n25                <a href=\"#portfolio\" title=\"View Portfolio\" class=\"secondary\">View Portfolio</a>\n26            </div>\n27        </div>\n28    </div>\n29</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Resetting the Browser Styles */\n2* {\n3    margin: 0;\n4    padding: 0;\n5    box-sizing: border-box;\n6    line-height: 1.5;\n7}\n8\n9/* Container and Card Styles */\n10.container {\n11    display: flex;\n12    justify-content: center;\n13}\n14\n15.card {\n16    display: flex;\n17    border-radius: 24px;\n18    background-color: white;\n19    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);\n20    max-width: clamp(320px, 70vw, 740px);\n21    min-width: min(320px, 100vw);\n22    flex-direction: column;\n23}\n24\n25/* Background and Image Styling */\n26.background {\n27    flex: 1 1 250px;\n28    display: grid;\n29    place-items: center;\n30    background-color: #ebeffa;\n31    border-radius: 24px 24px 0 0;\n32}\n33\n34.background .image-wrapper {\n35    display: flex;\n36    width: 220px;\n37    height: 220px;\n38    border-radius: 50%;\n39    overflow: hidden;\n40    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);\n41    border: 1px solid white;\n42}\n43\n44.background img {\n45    max-width: 100%;\n46    height: auto;\n47    object-fit: cover;\n48}\n49\n50/* Content Styling */\n51.content {\n52    flex: 3 1 350px;\n53    display: flex;\n54    flex-direction: column;\n55    padding: 20px;\n56    text-align: center;\n57}\n58\n59.content h2 {\n60    font-size: clamp(1rem, 1vw, 1.5rem);\n61    font-weight: 700;\n62    margin-bottom: clamp(0.35rem, 2vh, 0.55rem);\n63    color: #29283f;\n64}\n65\n66.content>p {\n67    font-size: clamp(1rem, 1.7vw, 1.1rem);\n68    font-weight: 500;\n69    margin: 6px 0;\n70}\n71\n72.content a {\n73    text-decoration: none;\n74    color: #7370f4;\n75    font-weight: 600;\n76}\n77\n78/* Chips and Buttons */\n79.chips {\n80    display: flex;\n81    list-style-type: none;\n82    padding: 12px 0;\n83    justify-content: space-around;\n84}\n85\n86.chip {\n87    border-radius: 12px;\n88    padding: 10px;\n89    font-size: 15px;\n90    background-color: #eaeaec;\n91    font-weight: 600;\n92    transition: all 0.3s ease-in-out;\n93}\n94\n95.chip:hover {\n96    background-color: #7370f4;\n97    color: white;\n98    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n99}\n100\n101.action-button {\n102    border-top: 1px solid #eaeaec;\n103    padding-top: 16px;\n104    gap: 12px;\n105    display: flex;\n106    flex-direction: column;\n107}\n108\n109.action-button a {\n110    background-color: #29283f;\n111    color: white;\n112    padding: 12px;\n113    text-decoration: none;\n114    border-radius: 12px;\n115    font-size: 18px;\n116    display: flex;\n117    justify-content: center;\n118    align-items: center;\n119    transition: transform 0.2s ease-in-out;\n120}\n121\n122.action-button a:hover {\n123    transform: scale(1.05);\n124}\n125\n126.action-button a.secondary {\n127    background-color: inherit;\n128    color: #29283f;\n129    border: 1px solid #29283f;\n130}"
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, you have completed the profile card project."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's time to move on to a more challenging and exciting project—creating your own portfolio page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

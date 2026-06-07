@@ -1,0 +1,74 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/local-variables?page=3",
+  "title": "Why Local Variables Are Important?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Local Variables Are Important?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local variables are important because they make functions independent."
+    },
+    {
+      "type": "paragraph",
+      "content": "As we discussed earlier, it doesn't matter what's inside a function and what variables are used in it. We can use that function if we know two things:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "arguments that the function takes",
+        "return value from the function"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int add_numbers(int n1, int n2) {\n5    int result = n1 + n2;\n6    return result;\n7}\n8\n9int main() {\n10\n11    int n1, n2;\n12    cout << \"Enter two values: \";\n13    cin >> n1 >> n2;\n14\n15    int result = add_numbers(n1, n2);\n16    cout << \"Sum: \" << result;\n17  \n18    return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter two value: 90\n23\nSum: 113"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, it's important to understand that n1, n2, and result variables inside the add_numbers() function are local to that function."
+    },
+    {
+      "type": "paragraph",
+      "content": "They are different from n1, n2, and result variables that are outside of the function (even though names are the same)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

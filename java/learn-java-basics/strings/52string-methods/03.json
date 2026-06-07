@@ -1,0 +1,66 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/string-methods?page=3",
+  "title": "Finding the Longer String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding the Longer String"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's find out the longer string between the two strings."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    \n3    public static void main(String[] args) {\n4        \n5        String first = \"Learn Java\";\n6        String second = \"Programiz Course\";\n7        \n8        // Get length of both strings\n9        int firstLength = first.length();\n10        int secondLength = second.length();\n11        \n12        // Compare the length of strings\n13        if (firstLength > secondLength) {\n14            System.out.println(first);\n15        }\n16        else {\n17            System.out.println(second);\n18        }\n19    }\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Programiz Course"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have two strings: Learn Java and Programiz Course."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "we find the size of both strings using the length() method.",
+        "we then use the if...else statement to compare the size of both strings and print the longer string."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

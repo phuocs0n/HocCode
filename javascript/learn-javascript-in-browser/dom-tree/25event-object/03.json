@@ -1,0 +1,56 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/event-object?page=3",
+  "title": "Event Target",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Event Target"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the element that triggered an event, you can use event.target."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"card\">\n2    <div class=\"image\">\n3        <img src=\"/images/javascript-in-browser/shoes.png\" alt=\"shoes image\">\n4    </div>\n5    <div class=\"content\">\n6        <h2>Shoes on Sale</h2>\n7        <p class=\"view-description\">Explore product details to find your perfect fit.</p>\n8        <button class=\"add-to-cart\">Add to Cart</button>\n9    </div>\n10</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2   font-family: Arial, sans-serif;\n3   display: flex;\n4   justify-content: center;\n5   align-items: center;\n6   margin: 32px;\n7   background-color: #f7f7f7;\n8}\n9\n10.card {\n11   display: flex;\n12   border: 1px solid #ddd;\n13   background-color: white;\n14   border-radius: 10px;\n15   max-width: 450px;\n16   padding: 30px;\n17   gap: 32px;\n18}\n19\n20.card .image {\n21   height: 200px;\n22   width: 200px;\n23   overflow: hidden;\n24   border-radius: 5px;\n25   border: 1px solid #ddd;\n26}\n27\n28.image img {\n29   width: 100%;\n30   position: relative;\n31   bottom: 20px;\n32}\n33\n34.card .content {\n35   width: 50%;\n36   display: flex;\n37   flex-direction: column;\n38   justify-content: center;\n39   text-align: center;\n40   gap: 28px;\n41}\n42\n43.card h2 {\n44   margin: 0;\n45}\n46\n47.card p {\n48   color: #555;\n49}\n50\n51.add-to-cart {\n52   font-family: Arial, sans-serif;\n53   padding: 10px 20px;\n54   background-color:  #0556F3;\n55   color: white;\n56   border: none;\n57   border-radius: 5px;\n58   cursor: pointer;\n59   font-size: 16px;\n60}\n61\n62.add-to-cart:hover {\n63   background-color: #024cdb;\n64}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const addToCartButton = document.querySelector(\".add-to-cart\");\n2\n3\n4addToCartButton.addEventListener(\"click\", () => {\n5    console.log(event.target);\n6});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Try clicking the Add to Cart button. event.target logs the details of the button that triggered the event."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

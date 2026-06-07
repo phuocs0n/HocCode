@@ -1,0 +1,136 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/object-oriented-programming?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the given syntax to create an object, identify the object name and class name."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Vehicle car = new Vehicle();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name is car and object name is new"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name generally signifies the data type of the variable being created and comes in the front. new is a keyword that can't be used as a name for an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name generally signifies the data type of the variable being created and comes in the front. new is a keyword that can't be used as a name for an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name is Vehicle and object name is car"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name generally signifies the data type of the variable being created and comes in the front. The object name comes in second immediately after the class name."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name generally signifies the data type of the variable being created and comes in the front. The object name comes in second immediately after the class name."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name is new Vehicle() and object name is car"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "new Vehicle() creates a new object of the Vehicle class but it's not the name of the class itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "new Vehicle() creates a new object of the Vehicle class but it's not the name of the class itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class name is Vehicle and object name is new"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "new is a keyword that can't be used as a name for an object."
+    },
+    {
+      "type": "paragraph",
+      "content": "new is a keyword that can't be used as a name for an object."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the given syntax to create an object, identify the object name and class name.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Class name is car and object name is new",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Class name is car and object name is new",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Class name is Vehicle and object name is car",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Class name is Vehicle and object name is car",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Class name is new Vehicle() and object name is car",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Class name is new Vehicle() and object name is car",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Class name is Vehicle and object name is new",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Class name is Vehicle and object name is new",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

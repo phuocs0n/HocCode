@@ -1,0 +1,66 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-promise?page=5",
+  "title": "Creating a Promise",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating a Promise"
+    },
+    {
+      "type": "paragraph",
+      "content": "To create a Promise, we use the new Promise() built-in object. You pass in a function with two parameters: resolve and reject."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the syntax to understand in,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let promise = new Promise(function(resolve, reject) {\n     // Write your code here  \n});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "resolve(value) — If the job is finished successfully, with result value.",
+        "reject(error) — If an error occurred, with error error."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's create a promise:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let myPromise = new Promise(function(resolve, reject) {\n2    // change this to false to see the rejection    \n3    let isPizzaAvailable = true;\n4    if (isPizzaAvailable) {\n5        // resolves the promise\n6        resolve(\"Pizza is ready!\");\n7    } else {\n8        // rejects the promise\n9        reject(\"No pizza dough left!\");\n10    }\n11});"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

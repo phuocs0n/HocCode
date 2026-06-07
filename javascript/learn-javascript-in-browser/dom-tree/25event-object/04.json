@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/event-object?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the purpose of the Event Object in JS?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To modify the default behavior of the browser."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object provides details about the event; it doesn't necessarily modify behavior."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object provides details about the event; it doesn't necessarily modify behavior."
+    },
+    {
+      "type": "paragraph",
+      "content": "To store user data from an interaction."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object does not store user data."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object does not store user data."
+    },
+    {
+      "type": "paragraph",
+      "content": "To provide information about an event, such as the type and the element that triggered it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object gives detailed information about what happened during the event."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object gives detailed information about what happened during the event."
+    },
+    {
+      "type": "paragraph",
+      "content": "To trigger new events on the webpage."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object handles existing events, not creates new ones."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Event Object handles existing events, not creates new ones."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the purpose of the Event Object in JS?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To modify the default behavior of the browser.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To modify the default behavior of the browser.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To store user data from an interaction.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To store user data from an interaction.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To provide information about an event, such as the type and the element that triggered it.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To provide information about an event, such as the type and the element that triggered it.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To trigger new events on the webpage.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To trigger new events on the webpage.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

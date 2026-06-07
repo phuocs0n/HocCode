@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/c-take-input?page=2",
+  "title": "cin Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "cin Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the syntax of the cin statement from our previous program"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// take input for age\ncin >> age;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The >> operator along with cin takes input from a standard input device (keyboard) and assigns it to the age variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we can use the same statement to take double and char input from the user."
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: If you look carefully, it looks just the opposite of the cout statement."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// get age input\ncin >> age;\n\n// print age\ncout << age;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

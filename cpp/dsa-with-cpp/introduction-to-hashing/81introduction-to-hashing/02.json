@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-hashing?page=2",
+  "title": "Hash Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hash Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function used to convert keys into hash values is called a hash function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with a simple example of a hash function:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "H(x) = x mod 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "x is the key",
+        "H(x) is the hash function, which gives the remainder when x is divided by 5."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have these keys: 2, 9, 10."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The hash value of 2 will be 2.",
+        "The hash value of 9 will be 4.",
+        "The hash value of 10 will be 0."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In hashing, we create a hash table (a data structure) to store keys and their respective hash values."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's learn about the hash table next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

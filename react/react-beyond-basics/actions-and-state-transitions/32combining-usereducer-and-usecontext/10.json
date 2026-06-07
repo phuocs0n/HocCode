@@ -1,0 +1,87 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/combining-usereducer-usecontext?page=10",
+  "title": "What Reducers in Context Actually Solve",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Reducers in Context Actually Solve"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "A common assumption is that useContext() is for UI state (like themes) and useReducer() is for business logic, and that we would use one or the other, not both."
+    },
+    {
+      "type": "paragraph",
+      "content": "The idea of combining them feels redundant or overcomplicated."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "useContext() solves where state can be accessed.",
+        "useReducer() solves how state changes."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "They address different problems, so combining them is natural."
+    },
+    {
+      "type": "paragraph",
+      "content": "Also remember this:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Context makes the state global.",
+        "The reducer makes the transitions explicit."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Together they give us a lightweight global state system built entirely from React's standard library, no third-party tools needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "We put useReducer() inside a context provider when the state needs to be read or modified from multiple unrelated components, especially across route boundaries."
+    },
+    {
+      "type": "paragraph",
+      "content": "We keep the reducer function in its own file and export a useXxx() custom hook from the context file so consumers only need one import."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

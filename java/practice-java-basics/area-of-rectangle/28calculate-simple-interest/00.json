@@ -1,0 +1,84 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/calculate-simple-interest?page=1",
+  "title": "Calculate Simple Interest",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculate Simple Interest"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to calculate the simple interest and the final amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to calculate simple interest:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Simple Interest = ( P * T * R ) / 100\nFinal Amount = P + Simple Interest"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, P is the principal amount, T is time in years, and R is the rate of interest."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take double input for principal, time and rate, respectively.",
+        "Calculate the simple interest using the formula and store the result in the interest variable.",
+        "Calculate the final amount using the formula and store it in the finalAmount variable.",
+        "Print interest and finalAmount in separate lines."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input15000\n2\n16.5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output4950.0\n19950.0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

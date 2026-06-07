@@ -1,0 +1,67 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/difference-between-throw-throws?page=1",
+  "title": "What is the difference between \"throw\" and \"throws\" in Java Exception Handling?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is the difference between \"throw\" and \"throws\" in Java Exception Handling?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both throw and throws are concepts of exception handling in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "The throws keyword is used to declare which exceptions a method might throw, while the throw keyword is used to explicitly throw an exception within a method or block of code."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example using the throw keyword to throw an exception is:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "if (value < 0) {\n    throw new IllegalArgumentException(\"Value must be non-negative\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the throw keyword is used to throw an IllegalArgumentException if the value is negative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example of using the throws keyword to declare an exception that a method might throw:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public void doSomething() throws IOException {\n    // implementation code\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the doSomething() method declares that it might throw an IOException. This means that the caller of doSomething() must either handle the exception or declare that it throws the exception itself."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

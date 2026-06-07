@@ -1,0 +1,97 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/while-loop?page=5",
+  "title": "while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we can increment the count inside the body of the loop so that our loop doen't run endlessly."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3\n4        // Declare variable\n5        int count = 1;\n6    \n7        // Loop continues as long as count is 3 or less \n8        while(count <= 3) {\n9            System.out.println(\"I am inside a loop\");\n10            System.out.println(\"Loop is interesting.\");\n11\n12           // Increment count by 1 in each iteration\n13\n14            count = count + 1;\n15\n16        }\n17\n18\n19        System.out.println(\"OUTSIDE THE LOOP\");\n20    }\n21}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside a loop\nLoop is interesting.\nI am inside a loop\nLoop is interesting.\nI am inside a loop\nLoop is interesting.\nOUTSIDE THE LOOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the program, we have added a statement, count = count + 1 to increase the value of count by 1 in each iteration of the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Variable",
+          "count <= 3",
+          "Body of loop"
+        ],
+        [
+          "count = 1",
+          "true",
+          "Statements are printed.\ncount is increased to 2."
+        ],
+        [
+          "count = 2",
+          "true",
+          "Statements are printed.\ncount is increased to 3."
+        ],
+        [
+          "count = 3",
+          "true",
+          "Statements are printed.\ncount is increased to 4."
+        ],
+        [
+          "count = 4",
+          "false",
+          "The loop terminates."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "After the loop ends, System.out.println(\"OUTSIDE THE LOOP\"); is executed because it's outside the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "If this seems hard to understand, let's try and visualize the working of the loop with a flowchart."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

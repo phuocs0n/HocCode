@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/exception-handling?page=3",
+  "title": "Example II: Exception Handling",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example II: Exception Handling"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also print the exception directly, instead of our custom message."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4\n5    public static void main(String[] args) {\n6\n7        Scanner input = new Scanner(System.in);\n8        try {\n9\n10            System.out.println(\"Enter numerator: \");\n11            int numerator = input.nextInt();\n12            System.out.println(\"Enter denominator: \");\n13            int denominator = input.nextInt();\n14\n15            int result = numerator / denominator;\n16\n17            System.out.println(result);\n18        }\n19\n20        catch (Exception e) {\n21            System.out.println(e);\n22        }\n23    }\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter numerator: \n1\nEnter denominator: \n0\njava.lang.ArithmeticException: / by zero"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have printed e instead of a custom message. It simply returns the exception."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

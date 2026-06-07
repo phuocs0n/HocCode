@@ -1,0 +1,73 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-hooks/derived-state-usememo?page=3",
+  "title": "Introducing useMemo()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introducing useMemo()"
+    },
+    {
+      "type": "paragraph",
+      "content": "React gives you a hook to help escape the derived state trap, and that hook is useMemo()."
+    },
+    {
+      "type": "paragraph",
+      "content": "It computes a derived value and caches the result — so React doesn't recompute it on every single render."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's its syntax:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const cachedValue = useMemo(function () {\n  // Return the value to cache\n}, [value1, value2, ...]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that useMemo() has two arguments:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A function that returns the computed value.",
+        "A dependency array — same concept as useEffect()."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "React calls the function when any dependency changes, then caches the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "Naturally, you'll store the cached result in a variable. This syntax uses cachedValue as the variable name, but you can use any suitable name of your choice."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see an example of useMemo() implementation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

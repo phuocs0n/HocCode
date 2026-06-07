@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/order-of-execution?page=1",
+  "title": "What will happen if we execute the following query?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What will happen if we execute the following query?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT item, quantity\n2FROM Products\n3WHERE quantity > 10\n4ORDER BY quantity DESC;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code will filter the items with quantity greater than 10 from the Products table in descending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since multiple operations are taking place in the above query, it is important to know about how SQL processes such queries."
+    },
+    {
+      "type": "paragraph",
+      "content": "SQL has a set order of execution to handle queries consistently."
+    },
+    {
+      "type": "paragraph",
+      "content": "The order of execution in SQL determines the sequence of operations in an SQL query."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, the order of execution is:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "FROM > WHERE > SELECT > ORDER BY"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

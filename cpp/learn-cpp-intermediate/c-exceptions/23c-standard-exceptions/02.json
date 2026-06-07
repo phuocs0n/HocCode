@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/c-standard-exceptions?page=3",
+  "title": "C++ std::exception",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ std::exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also use the exception class to catch standard exceptions (or even non-standard ones). Let's explore this by rewriting the bad_alloc program of the previous section."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <exception>\n3using namespace std;\n4\n5int main() {\n6\n7    try {\n8        // allocate excessive memory to dynamically created array\n9        int* ptr = new int[1000000000000000];\n10\n11        // deallocate the memory\n12        delete[] ptr;\n13    }\n14\n15\n16    // catch exception if excessive memory is allocated\n17    // use object of exception class as catch argument\n18    catch (exception e) {\n19\n20        cout << \"Cannot allocate memory!!\" << endl;\n21\n22        cout << \"Error: \" << e.what() << endl;\n23\n24    }\n25\n26    return 0;\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "ERROR!\nCannot allocate memory!!\nError: std::exception"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the program works just fine when we replace the bad_alloc object with an exception object."
+    },
+    {
+      "type": "paragraph",
+      "content": "And since we're using the exception class, the what() function returns the string std::exception instead of std::bad_alloc."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

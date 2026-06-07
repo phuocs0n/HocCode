@@ -1,0 +1,47 @@
+{
+  "index": 16,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-linked-list?page=17",
+  "title": "Source Code: Reverse Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Reverse Linked List"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Reverse the entire linked list\n2void reverse_linked_list() {\n3    Node<T>* prev_node = nullptr;\n4    Node<T>* current = head;\n5    Node<T>* next_node = nullptr;\n6    \n7    // Continue the reversal until you reach the end of the list\n8    while (current != nullptr) {\n9            \n10        next_node = current->next;  \n11        // Reverse current node's pointer\n12        current->next = prev_node;  \n13        // Move prev_node and current one step forward\n14        prev_node = current;        \n15        current = next_node;\n16    }\n17    // Reset head to the new first element\n18    head = prev_node;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Current Linked List:\n2->4->6->8->nullptr\n\nAfter reversing:\n8->6->4->2->nullptr"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

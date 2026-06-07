@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=1",
+  "title": "The Problem: When Should the Effect Re-run?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: When Should the Effect Re-run?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, the app fetches entries once when it mounts. That is all it ever does."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the fetch fails, or if the user wants to reload the list, they have to refresh the browser tab. There's no way to trigger the fetch again from inside the app."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need a \"Refresh\" button. When the user clicks it, the fetch should run again."
+    },
+    {
+      "type": "paragraph",
+      "content": "The answer to \"how do we tell useEffect() to re-run?\" is in the dependency array: the second argument we have been passing as []."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by understanding what it actually is."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,47 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/examples-circular-linked-list?page=3",
+  "title": "Source Code: Find Maximum in a Circular Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Find Maximum in a Circular Linked List"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def find_max(self):\n2    # empty circular linked list has no head\n3    if not self.head:\n4        return None\n5\n6    # start with head\n7    current = self.head\n8    # assign first value as maximum\n9    maximum = current.data\n10\n11    while current.next is not self.head:\n12        current = current.next\n13        if current.data > maximum:\n14            maximum = current.data\n15\n16    return maximum"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "22 -> 88 -> 66 -> 33 -> 22\nMaximum Value: 88"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

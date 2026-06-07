@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/what-is-ref?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is stored in ref.current after you attach a ref to a JSX element?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A copy of the JSX element"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "ref.current is not a React element. It's the underlying browser DOM node."
+    },
+    {
+      "type": "paragraph",
+      "content": "ref.current is not a React element. It's the underlying browser DOM node."
+    },
+    {
+      "type": "paragraph",
+      "content": "The component's state at the time of render"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Refs and state are completely separate. A ref holds a DOM reference, not state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Refs and state are completely separate. A ref holds a DOM reference, not state."
+    },
+    {
+      "type": "paragraph",
+      "content": "The actual DOM node — the browser element React rendered"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "After React renders the element, ref.current points to the real DOM node, not a React element."
+    },
+    {
+      "type": "paragraph",
+      "content": "After React renders the element, ref.current points to the real DOM node, not a React element."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function that last updated the element"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Refs don't track what caused an update. They hold a reference to the DOM node itself."
+    },
+    {
+      "type": "paragraph",
+      "content": "Refs don't track what caused an update. They hold a reference to the DOM node itself."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is stored in ref.current after you attach a ref to a JSX element?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A copy of the JSX element",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A copy of the JSX element",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The component's state at the time of render",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The component's state at the time of render",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The actual DOM node — the browser element React rendered",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The actual DOM node — the browser element React rendered",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The function that last updated the element",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The function that last updated the element",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

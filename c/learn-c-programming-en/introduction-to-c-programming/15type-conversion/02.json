@@ -1,0 +1,136 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/type-conversion?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What value does the variable x after the following statement:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int x = 57.47;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an error, we cannot assign a floating point value to an int."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not an error. It is possible due to implicit type conversion."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not an error. It is possible due to implicit type conversion."
+    },
+    {
+      "type": "paragraph",
+      "content": "57"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The C compiler implicitly converts the floating point value to an int value. So x holds 57."
+    },
+    {
+      "type": "paragraph",
+      "content": "The C compiler implicitly converts the floating point value to an int value. So x holds 57."
+    },
+    {
+      "type": "paragraph",
+      "content": "57.47"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "An integer can only represent numbers without a decimal point, so the values after the decimal point are omitted."
+    },
+    {
+      "type": "paragraph",
+      "content": "An integer can only represent numbers without a decimal point, so the values after the decimal point are omitted."
+    },
+    {
+      "type": "paragraph",
+      "content": "5747"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not assigning a value of 5747 so there is no way x holds this value."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are not assigning a value of 5747 so there is no way x holds this value."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What value does the variable x after the following statement:",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:This is an error, we cannot assign a floating point value to an int.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "This is an error, we cannot assign a floating point value to an int.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:57",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "57",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:57.47",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "57.47",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:5747",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "5747",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

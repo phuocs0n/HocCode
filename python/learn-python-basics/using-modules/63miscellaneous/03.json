@@ -1,0 +1,64 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/miscellaneous?page=4",
+  "title": "None",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "None"
+    },
+    {
+      "type": "paragraph",
+      "content": "The None keyword is used to indicate null i.e. no value."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1x = None\n2print(x)    # None"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we know, a function can return a value. However, if we do not return a value, the function returns None. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def greet():\n2    print(\"Hey\")\n3\n4result = greet()\n5print(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hey\nNone"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the greet() function doesn't return any value, which means it returns None."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

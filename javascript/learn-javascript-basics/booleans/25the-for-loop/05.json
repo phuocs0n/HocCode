@@ -1,0 +1,91 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-for-loop?page=6",
+  "title": "Logic to Find Sum of Natural Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Logic to Find Sum of Natural Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this problem can be solved:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Take an integer input: Prompt the user to enter an integer value for n."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let n = parseInt(prompt(\"Enter an integer: \"));"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Generate numbers from 1 to n: Use a for loop with the syntax for (let i = 1; i <= n; i++) to generate integers from 1 to n."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let n = parseInt(prompt(\"Enter an integer: \"));\n\nfor (let i = 1; i <= n; i++) {\n    console.log(i);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Initialize the total variable to 0: Before adding up the numbers, initialize the total variable to 0 outside the loop."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let n = parseInt(prompt(\"Enter an integer: \"));\n\nlet total = 0;\n\nfor (let i = 1; i <= n; i++) {\n    console.log(i);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Add numbers from the sequence to total: Iterate through the numbers sequence and add each one to the total."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let n = parseInt(prompt(\"Enter an integer: \"));\n\nlet total = 0;\n\nfor (let i = 1; i <= n; i++) {\n    // Add each number to the total\n    total += i;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Display the total outside the loop: Print the final total only once after the loop completes."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let n = parseInt(prompt(\"Enter an integer: \"));\n2\n3let total = 0;\n4\n5for (let i = 1; i <= n; i++) {\n6    total += i;\n7}\n8\n9console.log(`Total = ${total}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter an integer: 5\nTotal = 15"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

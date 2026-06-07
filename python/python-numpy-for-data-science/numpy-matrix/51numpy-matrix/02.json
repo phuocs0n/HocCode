@@ -1,0 +1,95 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-matrix?page=3",
+  "title": "Matrix Using np.matrix()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Matrix Using np.matrix()"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy also has a dedicated function np.matrix() to create a NumPy matrix."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create a 2D matrix\n4matrix1 = np.matrix([[1, 2], [3, 4]])\n5\n6print(matrix1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[[1 2]\n [3 4]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the matrix created by np.array() and np.matrix() is the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, there is one main difference between arrays and matrices in NumPy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Difference Between 2D Array and Matrix in NumPy"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy matrices has special operators * (multiplication) and ** (power), which behaves like they do in linear algebra. For example, the * operator performs matrix multiplication in matrices, and element-wise multiplication in arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# create NumPy arrays\n4array1 = np.array([[1, 2], [3, 4]])\n5array2 = np.array([[2, 0], [1, 2]])\n6\n7print(\"Array multiplication: \\n\", array1 * array2) \n8\n9# create NumPy matrices\n10matrix1 = np.matrix([[1, 2], [3, 4]])\n11matrix2 = np.matrix([[2, 0], [1, 2]])\n12\n13print(\"Matrix multiplication: \\n\", matrix1 * matrix2)\n14print(\"Array power: \\n\", array1**2)  \n15print(\"Matrix power: \\n\", matrix1**2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Array multiplication: \n[[2 0]\n [3 8]]\nMatrix multiplication: \n [[ 4  4]\n [10  8]]\nArray power: \n[[ 1  4]\n [ 9 16]]\nMatrix power: \n [[ 7 10]\n [15 22]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we used * and ** on the NumPy matrix and NumPy array. It performed matrix multiplication and matrix power for matrices, whereas in case of arrays, element-wise operation is performed."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

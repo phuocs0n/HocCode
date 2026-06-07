@@ -1,0 +1,61 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-java-oop/tictactoe?page=9",
+  "title": "Step 6: Calling checkWinner() and checkDraw() Methods",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 6: Calling checkWinner() and checkDraw() Methods"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Added code to call checkWinner() and checkDraw() methods from the play() method of the Game class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Board {\n4\n5    // count variable\n6    int count = 0;\n7    String board[] = { \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \" };\n8\n9    void printBoard() {\n10\n11        System.out.println(\" \" + board[0] + \" | \" + board[1] + \" | \" + board[2]);\n12        System.out.println(\"-----------\");\n13        System.out.println(\" \" + board[3] + \" | \" + board[4] + \" | \" + board[5]);\n14        System.out.println(\"-----------\");\n15        System.out.println(\" \" + board[6] + \" | \" + board[7] + \" | \" + board[8]);\n16\n17    }\n18\n19    boolean updateBoard(int position, String type) {\n20\n21        // if a player selects position n, n-1 index should be updated\n22        // if the position is not already filled, update the board\n23        if (board[position - 1] == \" \") {\n24            board[position - 1] = type;\n25\n26            // increase the value of count by 1\n27            count++;\n28            return true;\n29        }\n30\n31        // if the position is already filled, ask user to select another position\n32        else {\n33            System.out.println(\"Position already selected. Select another position.\");\n34            return false;\n35\n36        }\n37    }\n38\n39    // If all fields are selected and there is no winner, it's draw\n40    // Returning true if it's draw\n41    boolean checkDraw() {\n42\n43        // check if count == 9\n44        if (count == 9) {\n45            return true;\n46        } \n47        else {\n48            return false;\n49        }\n50    }\n51\n52    // if three symbols appears in a row, returning True\n53    boolean checkWinner(String type) {\n54        if ((board[0] == type && board[1] == type && board[2] == type)\n55                || (board[3] == type && board[4] == type && board[5] == type)\n56                || (board[6] == type && board[7] == type && board[8] == type)\n57                || (board[0] == type && board[3] == type && board[6] == type)\n58                || (board[1] == type && board[4] == type && board[7] == type)\n59                || (board[2] == type && board[5] == type && board[8] == type)\n60                || (board[0] == type && board[4] == type && board[8] == type)\n61                || (board[2] == type && board[4] == type && board[6] == type)) {\n62            return true;\n63        }\n64\n65        else {\n66            return false;\n67        }\n68\n69    }\n70}\n71\n72class Player {\n73\n74    String name;\n75\n76    String type;\n77\n78    Player(String type) {\n79        this.type = type;\n80        Scanner input = new Scanner(System.in);\n81        if (type == \"X\") {\n82            System.out.println(\"Player selecting X, enter your name: \");\n83            name = input.nextLine();\n84        } \n85        else {\n86            System.out.println(\"Player selecting O, enter your name: \");\n87            name = input.nextLine();\n88        }\n89    }\n90\n91}\n92\n93class Game {\n94\n95    Board board = new Board();\n96    Player player1 = new Player(\"X\");\n97    Player player2 = new Player(\"O\");\n98\n99    Player currentPlayer = player1;\n100\n101    void play() {\n102        // using an infinite loop to run the game\n103        // we will later add conditions to terminate the loop\n104        String message = \"enter the position (1 - 9):\";\n105        while (true) {\n106\n107            System.out.println(currentPlayer.name + \" \" + message);\n108            Scanner input = new Scanner(System.in);\n109            int position = input.nextInt();\n110\n111            // the updateBoard() method return true if\n112            // the user selected position is not already filled\n113            if (board.updateBoard(position, currentPlayer.type)) {\n114\n115                board.printBoard();\n116\n117                // checking winner each time after updating the board\n118                if (board.checkWinner(currentPlayer.type)) {\n119                    System.out.println(currentPlayer.name + \" wins!\");\n120                    break;\n121                }\n122\n123                // checking draw each time after updating the board\n124                else if (board.checkDraw()) {\n125                    System.out.println(\"Game is a draw!\");\n126                    break;\n127                }\n128\n129                // changing current player when board is updated\n130                else {\n131                    if (currentPlayer == player1) {\n132                        currentPlayer = player2;\n133                    }\n134\n135                    else {\n136                        currentPlayer = player1;\n137                    }\n138\n139                }\n140            }\n141\n142        }\n143\n144    }\n145\n146}\n147\n148class Main {\n149\n150    public static void main(String[] args) {\n151\n152        Game game = new Game();\n153        game.play();\n154\n155    }\n156}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each time a user enters a position, we have called the checkWinner() method to see if a player won or not. If a player won the game, we have used the break statement to end the while loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we have called the checkDraw() method each time after the board is updated and if the winning condition is not met."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our game is complete. Run this code and see for yourself how this code works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

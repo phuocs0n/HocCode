@@ -1,0 +1,60 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/how-to-write-css?page=1",
+  "title": "Your First CSS Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your First CSS Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's write your first CSS code."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>My first CSS code.</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1p {\n2    color: blue;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you run the code, you'll see that the text color of the paragraph is blue."
+    },
+    {
+      "type": "image",
+      "alt": "Your First CSS Code on browser",
+      "src": "data:application/octet-stream;base64,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"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll learn the CSS syntax and understand how the above code works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,94 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/numbers-strings?page=4",
+  "title": "Strings are Fixed Values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Strings are Fixed Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember the very first Python code you wrote?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(\"welcome\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "We asked you to type it exactly like that — and here's why."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, strings are case sensitive. That means uppercase and lowercase letters are treated as completely different."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\"welcome\" is not the same as \"WELCOME\"",
+        "\"welcome\" is not the same as \"Welcome\"",
+        "\"welcome\" is not the same as \"WelCome\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The letters have to match exactly — same spelling, same case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, spaces matter too."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even a small space can change the string completely."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\"welcome\" is not the same as \"wel come\"   (there's a space in the middle)",
+        "\"welcome\" is not the same as \" welcome\"   (space at the beginning)",
+        "\"welcome\" is not the same as \"welcome \"   (space at the end)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To us, it might look similar — but Python sees it as something totally different."
+    },
+    {
+      "type": "paragraph",
+      "content": "So always double-check your spelling, your casing, and your spacing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's learn about numbers in Python."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

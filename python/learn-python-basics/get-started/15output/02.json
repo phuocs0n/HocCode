@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/output?page=2",
+  "title": "Print Multiple Values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Multiple Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can print multiple pieces of data at once by separating them with commas. For example:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Display three numbers\n2print(67, -5, 19)\n3\n4# Display two strings\n5print(\"Hey.\", \"Are you enjoying the course?\")\n6\n7# Display numbers and strings\n8print(\"Rating:\", 8.5)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "67 -5 19\nHey. Are you enjoying the course?\nRating: 8.5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the comma is used for separation and is not printed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Additionally, spaces before or after the comma don't affect the output. By default, print() always inserts a single space between the values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

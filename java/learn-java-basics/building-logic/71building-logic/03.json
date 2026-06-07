@@ -1,0 +1,78 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/building-logic?page=3",
+  "title": "Step 2: Creating a Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Creating a Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can make this program a bit easier to understand by creating a method. So, we'll create a method to check whether the number is prime or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the method will work:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The method will take a single argument (the number we need to check is prime or not).",
+        "The method will check if the number is prime or not. If the number is prime, the method will return true. If not, the method will return false."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4\n5    boolean checkPrime(int number) {\n6\n7        boolean isPrime = true;\n8\n9        // Iterate loop from 2 to number -1\n10        for (int i = 2; i <= number - 1; i++) {\n11\n12            if (number % i == 0) {\n13                isPrime = false;\n14                break;\n15            }\n16        }\n17        return isPrime;\n18    }\n19\n20    public static void main(String[] args) {\n21\n22        Scanner input = new Scanner(System.in);\n23\n24        // Take input from the user\n25        System.out.println(\"Enter a number: \");\n26        int number = input.nextInt();\n27\n28        // Create object of Main class\n29        Main obj = new Main();\n30\n31        boolean isPrime = obj.checkPrime(number);\n32\n33        if (isPrime) {\n34            System.out.println(number + \" is Prime\");\n35        }\n36        else {\n37            System.out.println(number + \" is not Prime\");\n38        }\n39        \n40        input.close();\n41    }\n42}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: \n83\n83 is Prime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the checkPrime() method takes a single argument (the number we need to check for prime)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have iterated the loop from 2 to number - 1. If number is divided by any of these numbers, we know it's not a prime number. In that case, we have returned false."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, if number is not divisible by any number from 2 to number - 1, we know it's prime. So, outside of the loop, we have returned true."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program will not reach this point if the number is not a prime number."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

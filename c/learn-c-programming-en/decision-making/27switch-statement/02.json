@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/switch-statement?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following cases is executed?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int number = 3;\n\nswitch(number) {\n\n  case 1:\n    …\n\n  case 3:\n    …\n\n  case 2:\n    …\n\n  default:\n    ...\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "case 2"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 2 is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 2 is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "case 3"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 3 is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 3 is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "default"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with one of the cases. Hence, the default case is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with one of the cases. Hence, the default case is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "case 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 1 is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 1 is not executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 2 is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 2 is not executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 3 is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 3 is executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with one of the cases. Hence, the default case is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with one of the cases. Hence, the default case is not executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 1 is not executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of number matches with case 3. Hence, case 1 is not executed."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following cases is executed?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:case 2",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "case 2",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:case 3",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "case 3",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:default",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "default",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:case 1",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "case 1",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,99 @@
+{
+  "levels": [
+    {
+      "title": "Getting Started",
+      "lessons": [
+        {
+          "title": "1.1Getting Started",
+          "url": "https://app.programiz.pro/course/whack-a-mole/getting-started"
+        }
+      ]
+    },
+    {
+      "title": "Setting Up the Structure",
+      "lessons": [
+        {
+          "title": "2.1Setting Up the Structure",
+          "url": "https://app.programiz.pro/course/whack-a-mole/setting-up-structure"
+        },
+        {
+          "title": "2.2Working with the DOM",
+          "url": "https://app.programiz.pro/course/whack-a-mole/working-with-dom"
+        },
+        {
+          "title": "2.3Building the Game Grid",
+          "url": "https://app.programiz.pro/course/whack-a-mole/building-game-grid"
+        }
+      ]
+    },
+    {
+      "title": "Adding Moles",
+      "lessons": [
+        {
+          "title": "3.1Adding Moles",
+          "url": "https://app.programiz.pro/course/whack-a-mole/adding-moles"
+        },
+        {
+          "title": "3.2Handling Clicks",
+          "url": "https://app.programiz.pro/course/whack-a-mole/handling-clicks"
+        },
+        {
+          "title": "3.3Tracking Score",
+          "url": "https://app.programiz.pro/course/whack-a-mole/tracking-score"
+        },
+        {
+          "title": "3.4Spawning Moles",
+          "url": "https://app.programiz.pro/course/whack-a-mole/spawning-moles"
+        }
+      ]
+    },
+    {
+      "title": "Creating Game Screens",
+      "lessons": [
+        {
+          "title": "4.1Creating Game Screens",
+          "url": "https://app.programiz.pro/course/whack-a-mole/creating-game-screens"
+        },
+        {
+          "title": "4.2Screen Navigation",
+          "url": "https://app.programiz.pro/course/whack-a-mole/screen-navigation"
+        },
+        {
+          "title": "4.3Adding a Timer",
+          "url": "https://app.programiz.pro/course/whack-a-mole/adding-timer"
+        },
+        {
+          "title": "4.4Ending the Game",
+          "url": "https://app.programiz.pro/course/whack-a-mole/ending-game"
+        }
+      ]
+    },
+    {
+      "title": "Improving Visuals",
+      "lessons": [
+        {
+          "title": "5.1Improving Visuals",
+          "url": "https://app.programiz.pro/course/whack-a-mole/improving-visuals"
+        },
+        {
+          "title": "5.2Final Touches",
+          "url": "https://app.programiz.pro/course/whack-a-mole/final-touches"
+        }
+      ]
+    },
+    {
+      "title": "Reflect & Expand",
+      "lessons": [
+        {
+          "title": "6.1Reflect & Expand",
+          "url": "https://app.programiz.pro/course/whack-a-mole/reflect--expand"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 15,
+    "sections": 6,
+    "container": "main-content"
+  }
+}

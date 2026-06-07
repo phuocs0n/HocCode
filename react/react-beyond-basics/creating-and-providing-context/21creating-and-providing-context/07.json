@@ -1,0 +1,75 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/creating-providing-context?page=7",
+  "title": "How ThemeContext Works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How ThemeContext Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. createContext()"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const ThemeContext = createContext(null);"
+    },
+    {
+      "type": "paragraph",
+      "content": "createContext(null) creates the context object. The null is just the default value. It only applies if a component tries to read context without a Provider above it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll always have a Provider, so this default rarely matters in practice."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. ThemeProvider"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "export function ThemeProvider({ children }) {\n  const [theme, setTheme] = useState(\"light\");\n\n  function toggleTheme() {\n    setTheme(function (t) { return t === \"light\" ? \"dark\" : \"light\"; });\n  }\n  return (\n    <ThemeContext.Provider value={{ theme, toggleTheme }}>\n      {children}\n    </ThemeContext.Provider>\n  );\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "ThemeProvider is a regular React component. It manages theme state and exposes a toggleTheme() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then it renders ThemeContext.Provider with a value prop. That value is what any component deeper in the tree will receive when it reads from context."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we ever want to share more data (like a font size), we just add it to this object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's continue exploring ThemeContext on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

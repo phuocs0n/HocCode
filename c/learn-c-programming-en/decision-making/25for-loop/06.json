@@ -1,0 +1,188 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-c-programming/for-loop?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In this for loop, which one is the update statement?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "for (int i = 1; i < 5; i++) {...}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 is an initialization expression which initializes the value of i to 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 is an initialization expression which initializes the value of i to 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 is a boolean expression which checks if the value of i is less than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 is a boolean expression which checks if the value of i is less than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "i++"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ is an update expression which increases the value of i by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ is an update expression which increases the value of i by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "for"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "for is a keyword which indicates the start of a for loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "for is a keyword which indicates the start of a for loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 is an initialization expression which initializes the value of i to 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "int i = 1 is an initialization expression which initializes the value of i to 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 is a boolean expression which checks if the value of i is less than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "i < 5 is a boolean expression which checks if the value of i is less than 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ is an update expression which increases the value of i by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "i++ is an update expression which increases the value of i by 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "for is a keyword which indicates the start of a for loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "for is a keyword which indicates the start of a for loop."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In this for loop, which one is the update statement?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:int i = 1",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "int i = 1",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:i < 5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "i < 5",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:i++",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "i++",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:for",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "for",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

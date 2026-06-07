@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/final-touches?page=2",
+  "title": "Organizing Your Code 📂",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Organizing Your Code 📂"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's reorganize your JavaScript file to make it easier to read and understand."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now, your code is mixed together—functions, variables, and event listeners are scattered throughout. You'll group related code together in logical sections."
+    },
+    {
+      "type": "paragraph",
+      "content": "How professional developers organize code:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Variables at the top (game state)",
+        "Functions in the middle (what the code does)",
+        "Event listeners next (what responds to user actions)",
+        "Initialization at the bottom (what runs when the page loads)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll add comment headers to separate these sections clearly."
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Reorganize the entire code into four clear sections with comment headers.",
+        "Group all variables at the top under \"Game State Variables\", all functions in the middle under \"Functions\", event listeners under \"Event Listeners\", and the game board initialization at the bottom under \"Initialize Game Board\"."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Use comment separators to make sections clear"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

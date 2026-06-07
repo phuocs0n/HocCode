@@ -1,0 +1,89 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/miscellaneous?page=5",
+  "title": "Example: Truthy and Falsy",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Truthy and Falsy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we need to find the largest number among three numbers."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int n1 = 20;\n7    int n2 = 10;\n8    int n3 = 30;\n9\n10    // print the largest number\n11    if (n1 > n2 && n3) {\n12        cout << n1;\n13    }\n14    else if (n2 > n1 && n3) {\n15        cout << n2;\n16    }\n17    else {\n18        cout << n3;\n19    }\n20\n21    return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "20"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are getting 20 as the largest number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you find out where the error is?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a look at this code:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "if (n1 > n2 && n3) {\n    cout << n1;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n1 > n2 evaluates to true and n3 also evaluates to true because 30 is considered true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead here's what we should have written:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "if (n1 > n2 && n1 > n3) {\n    cout << n1;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the code above, n1 > n2 evaluates to true and n1 > n3 evaluates to false. Hence, n1 > n2 && n1 > n3 evaluates to false."
+    },
+    {
+      "type": "paragraph",
+      "content": "As a result, the statements inside the if block are skipped, and the control flow moves to the else if block, and so on."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

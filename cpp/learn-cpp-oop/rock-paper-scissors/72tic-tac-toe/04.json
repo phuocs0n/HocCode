@@ -1,0 +1,87 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/tictactoe?page=5",
+  "title": "Step 2: Create the Player Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Create the Player Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Remove object of the Board class from the main() function.",
+        "Create the Player class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include<iostream>\n2using namespace std;\n3\n4class Board {\n5\n6    public:\n7        string board[9] = { \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \", \" \" };\n8\n9        void print_board() {\n10            cout << \" \" << board[0] << \" | \" << board[1] << \" | \" << board[2] << endl;\n11            cout << \"-----------\" << endl;\n12            cout << \" \" << board[3] << \" | \" << board[4] << \" | \" << board[5] << endl;\n13            cout << \"-----------\" << endl;\n14            cout << \" \" << board[6] << \" | \" << board[7] << \" | \" << board[8] << endl;\n15        }\n16};\n17\n18\n19class Player {\n20    public:\n21        string name;\n22        char type;\n23\n24        // function to select the player type and name\n25        void set_info(char type) {\n26\n27            // player type is 'X' if parameter is 'X' or 'x'            \n28            if (type == 'X' || type == 'x') {\n29\n30                // set member variable to 'X'\n31                this->type = 'X';\n32\n33                // get player name\n34                cout << \"Player selecting \" << this->type << \", enter your name: \";\n35                getline(cin, name);\n36            }\n37\n38            // player type is 'O' if parameter is any other character \n39            else {\n40                this->type = 'O';\n41                cout << \"Player selecting \" << this->type << \", enter your name: \";\n42                getline(cin, name);\n43            }\n44        }\n45};\n46\n47\n48 int main() {\n49\n50    Player player1;\n51    player1.set_info('X');\n52\n53    Player player2;\n54    player2.set_info('Y');\n55 \n56    return 0;   \n57}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: Lily\nPlayer selecting O, enter your name: Robin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have added the Player class, which has two member variables name and type, where type is used for symbols that are either 'X' or 'O'."
+    },
+    {
+      "type": "paragraph",
+      "content": "The set_info() function is then used to perform the following tasks:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "It sets the type member variable (this->type) to 'X' if the type parameter of the constructor is 'X' or 'x'.",
+        "For all other parameter values, it sets  this->type to 'O'.",
+        "Finally, it sets the full name of the player using getline()."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We will assume that the first player will always take the 'X' symbol and the second player will always take the 'O' symbol."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the main() function, we have created two objects player1 and player2 of the Player class. We have passed 'X' and 'Y' to player1 and player2 respectively while creating their objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see from the output, the type variable of player2 is set as 'O' even though we passed 'Y' to it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

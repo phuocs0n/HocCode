@@ -1,0 +1,71 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header?page=6",
+  "title": "How I First Reacted to JSX",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How I First Reacted to JSX"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first time I opened a React file, I nearly closed it forever. Here's"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function App() {\n  return <h1>Hello, World!</h1>;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML? Inside a JavaScript function? I stared at it for a good five minutes. This looked like a violation of everything I'd been taught about keeping concerns separate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Who approved this? Why did everyone seem okay with it? I begrudgingly kept reading."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what nobody told me upfront: that's not HTML. Not even close."
+    },
+    {
+      "type": "paragraph",
+      "content": "What you're actually writing is this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "function App() {\n  return React.createElement('h1', null, 'Hello, World!');\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSX is just a more readable way to write React.createElement() calls. Your browser never sees JSX — it's compiled away before anything runs. The angle brackets are a gift to your eyes, not a concession to HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once I understood that, JSX stopped feeling like a mistake and started feeling like the cleverest trick in the room."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

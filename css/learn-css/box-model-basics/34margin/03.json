@@ -1,0 +1,135 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/margin?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following margin properties can be used to center an element horizontally?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "margin: auto 0;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This property sets the top and bottom margins to auto. But, to center an element using auto margins, you must set the left and right margins to auto."
+    },
+    {
+      "type": "paragraph",
+      "content": "This property sets the top and bottom margins to auto. But, to center an element using auto margins, you must set the left and right margins to auto."
+    },
+    {
+      "type": "paragraph",
+      "content": "margin: auto 0 auto 0;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This property sets the top and bottom margins to auto. But, to center an element using auto margins, you must set the left and right margins to auto."
+    },
+    {
+      "type": "paragraph",
+      "content": "This property sets the top and bottom margins to auto. But, to center an element using auto margins, you must set the left and right margins to auto."
+    },
+    {
+      "type": "paragraph",
+      "content": "margin-left: auto;"
+    },
+    {
+      "type": "paragraph",
+      "content": "margin-bottom: auto;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even though the left margin is set to auto, the right margin is not set to auto, which means the element will not be centered horizontally."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even though the left margin is set to auto, the right margin is not set to auto, which means the element will not be centered horizontally."
+    },
+    {
+      "type": "paragraph",
+      "content": "margin: 0 auto;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This property sets the left and right margins to auto, allowing the element to be centered horizontally within its container."
+    },
+    {
+      "type": "paragraph",
+      "content": "This property sets the left and right margins to auto, allowing the element to be centered horizontally within its container."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following margin properties can be used to center an element horizontally?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:margin: auto 0;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "margin: auto 0;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:margin: auto 0 auto 0;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "margin: auto 0 auto 0;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:margin-left: auto;margin-bottom: auto;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "margin-left: auto;margin-bottom: auto;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:margin: 0 auto;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "margin: 0 auto;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

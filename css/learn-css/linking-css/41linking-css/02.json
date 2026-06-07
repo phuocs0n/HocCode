@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/linking-css?page=3",
+  "title": "Linking CSS with HTML",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Linking CSS with HTML"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can link a .css file with a .html file using the <link> tag. Simply put it in the <head> tag of the HTML document as follows:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "<head>\n    <link rel=\"stylesheet\" href=\"style.css\">\n</head>"
+    },
+    {
+      "type": "paragraph",
+      "content": "All the styling rules you write in style.css will be applied to the HTML document."
+    },
+    {
+      "type": "paragraph",
+      "content": "This way of linking a CSS file with HTML is also known as external linking."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see why external linking is so great."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

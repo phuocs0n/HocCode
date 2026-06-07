@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-c/recursion-examples?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int calculate_sum(int n) {\n4\n5    if (n == 1) {\n6        return 1; \n7    }\n8\n9    return calculate_sum(n - 1); \n10}\n11\n12int main() {\n13\n14    int result = calculate_sum(3); \n15    printf(\"%d\", result); \n16\n17    return 0;\n18}\n19\n20// Output: 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we get 1 instead of 6 as output. Where did we go wrong?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we have called the function recursively with n - 1, but we have not added n to the result. This leads to only the base case's return value being propagated back up."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's fix this in our code next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

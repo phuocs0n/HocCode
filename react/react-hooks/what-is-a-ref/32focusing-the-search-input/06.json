@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/focusing-search-input?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do you use useEffect() with [] to call .focus() instead of calling it directly in the component body?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The component body runs before React renders the element"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React renders first, then runs effects; the DOM node only exists after render. In other words, ref.current is still null when the component body executes."
+    },
+    {
+      "type": "paragraph",
+      "content": "React renders first, then runs effects; the DOM node only exists after render. In other words, ref.current is still null when the component body executes."
+    },
+    {
+      "type": "paragraph",
+      "content": "useEffect() runs faster than code in the component body"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed is not the reason — timing is. Effects run after the DOM is ready."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed is not the reason — timing is. Effects run after the DOM is ready."
+    },
+    {
+      "type": "paragraph",
+      "content": ".focus() is not a valid method in the component body"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": ".focus() is a valid browser method anywhere. The issue is whether the element exists yet."
+    },
+    {
+      "type": "paragraph",
+      "content": ".focus() is a valid browser method anywhere. The issue is whether the element exists yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "React clears all refs before the component body runs"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React doesn't clear refs; they persist across renders. The problem is the element is not yet mounted."
+    },
+    {
+      "type": "paragraph",
+      "content": "React doesn't clear refs; they persist across renders. The problem is the element is not yet mounted."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do you use useEffect() with [] to call .focus() instead of calling it directly in the component body?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The component body runs before React renders the element",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The component body runs before React renders the element",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:useEffect() runs faster than code in the component body",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "useEffect() runs faster than code in the component body",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:.focus() is not a valid method in the component body",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": ".focus() is not a valid method in the component body",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:React clears all refs before the component body runs",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "React clears all refs before the component body runs",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

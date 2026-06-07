@@ -1,0 +1,144 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-pointers?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Kết quả của đoạn mã sau là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\ntypedef struct Student {\n  int marks;\n} students;\n\nint main() {\n  students *ptr, st1;\n  ptr = &st1;\n  st1.marks = 70;\n  printf(\"%d\\n\", ptr->marks);\n  printf(\"%d\", (*ptr).marks);\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vì ptr trỏ đến st1, cả ptr-> mark và (*ptr).marks đều cho giá trị của st1.marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vì ptr trỏ đến st1, cả ptr-> mark và (*ptr).marks đều cho giá trị của st1.marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks không phải là 0 vì nó mang lại giá trị str1.marks tức là 70."
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks không phải là 0 vì nó mang lại giá trị str1.marks tức là 70."
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "paragraph",
+      "content": "0x7ffd121b258a"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks cung cấp dữ liệu được lưu trữ trong str1.marks chứ không phải địa chỉ của nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks cung cấp dữ liệu được lưu trữ trong str1.marks chứ không phải địa chỉ của nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lỗi"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mã chạy mà không có bất kỳ lỗi nào."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mã chạy mà không có bất kỳ lỗi nào."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Kết quả của đoạn mã sau là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:7070",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "7070",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:700",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "700",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:700x7ffd121b258a",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "700x7ffd121b258a",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Lỗi",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Lỗi",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

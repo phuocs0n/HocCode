@@ -1,0 +1,47 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/presenting-html-blog?page=1",
+  "title": "Overview of the Blog Structure",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Overview of the Blog Structure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we touch any CSS, I want you to see the blog's structure. If the HTML foundation is messy, styling becomes frustrating fast. So we'll start with a layout that's already set up in a clean, developer-friendly way."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Press the Run Code button to view the html structure-->"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* We will write CSS later. */"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

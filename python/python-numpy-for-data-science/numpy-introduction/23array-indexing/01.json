@@ -1,0 +1,82 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-indexing?page=2",
+  "title": "Access NumPy Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Access NumPy Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use indexes to access individual elements of a NumPy array. For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a NumPy array:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "array1 = np.array([1, 2, 3, 4, 5])"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use the index number to access each of these elements. Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "array1[0] - gives us the first element",
+        "array1[1] - gives us the second element",
+        "array1[2] - gives us the third element",
+        "array1[3] - gives us the fourth element",
+        "array1[4] - gives us the fifth element"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3array1 = np.array([1, 2, 3, 4, 5])\n4\n5# access numpy elements\n6print(array1[0])    # 1\n7print(array1[1])    # 2\n8print(array1[2])    # 3\n9print(array1[3])    # 4\n10print(array1[4])    # 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n3\n4\n5"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see we have successfully accessed each element of the NumPy array using the corresponding indexes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,93 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-exceptions?page=2",
+  "title": "Different Types of Exceptions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Different Types of Exceptions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a few different types of exceptions."
+    },
+    {
+      "type": "paragraph",
+      "content": "ArithmeticException"
+    },
+    {
+      "type": "paragraph",
+      "content": "This exception occurs when we divide a number by zero. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static void main(String[] args) {\n4        //   Arithmetic Exception\n5        int result = 5 / 0;\n6        System.out.println(result);\n7    }\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Exception in thread \"main\" java.lang.ArithmeticException: / by zero\n\tat Main.main(Main.java:5)"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we divide a number by zero, the result is undefined. So, we get an ArithmeticException."
+    },
+    {
+      "type": "paragraph",
+      "content": "ArrayIndexOutOfBoundsException"
+    },
+    {
+      "type": "paragraph",
+      "content": "This exception occurs when we are trying to access an array element with an index that is not present in the array. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    public static void main(String[] args) {\n4\n5        int array[] = { 1, 2 };\n6        System.out.println(array[2]);\n7    }\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\n\tat Main.main(Main.java:6)"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we are trying to access index 2, which is not present in the array, we get an ArrayIndexOutOfBoundsException."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we know about exceptions, we will learn to handle exceptions in the next lesson."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

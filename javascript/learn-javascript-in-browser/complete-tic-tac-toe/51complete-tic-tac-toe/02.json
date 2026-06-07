@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/complete-tictactoe?page=3",
+  "title": "Completing the Game",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Completing the Game"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what the complete game will look like:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Setup Screen -->\n2<div id=\"setupScreen\">\n3    …"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    …"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const gameBoard = document.querySelector(\".game-board\");\n2…"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code, play the game, and you'll notice we've added these functionalities:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Game Logic: Defines the rules that govern the game.",
+        "Player Names: Allows players to set their names for a personalized experience.",
+        "Win Counter: Tracks the number of wins for each player."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

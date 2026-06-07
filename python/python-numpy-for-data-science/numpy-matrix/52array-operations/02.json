@@ -1,0 +1,72 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-operations?page=3",
+  "title": "NumPy where()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "NumPy where()"
+    },
+    {
+      "type": "paragraph",
+      "content": "The NumPy where() method finds indices that are true in an array based on a given condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's say we want to replace all negative elements from an array with value 0, we can use np.where() in the following way:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2array1 = np.array([[1,2,-1,-2,10,12,20],[1,2,3,-6,1,-10,-1]])\n3\n4# replace negative values with 0\n5print(np.where(array1>0,array1,0))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[[ 1  2  0  0 10 12 20]\n [ 1  2  3  0  1  0  0]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the code above,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "np.where(array1>0, array1, 0)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The np.where() function creates a new array based on the condition array1 > 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the condition is true, it selects the corresponding element from array1, otherwise, it selects 0."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

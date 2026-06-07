@@ -1,0 +1,75 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/think-methods?page=2",
+  "title": "Sum of Natural Numbers From 1 to n",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of Natural Numbers From 1 to n"
+    },
+    {
+      "type": "paragraph",
+      "content": "Program Summary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the sum of first n natural numbers (where n is a positive integer) by creating a method. The method should work for any positive integer."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "total = 1 + 2 + 3 + ..... + n"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arguments"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are finding the sum from 1 to n. Our method will take only one argument, n. It's because the first number will always be the same value 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Return Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "The method should return the sum of numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    \n3    int computeSum(int number) {\n4        int total = 0;\n5        \n6        for (int i = 0; i <= number; i++) {\n7            total = total + i;\n8        }\n9        \n10        return total;\n11  }\n12\n13    public static void main(String[] args) {\n14        Main obj = new Main();\n15\n16        int total = obj.computeSum(10);\n17        System.out.println(total);  // Output: 55\n18\n19        total = obj.computeSum(100);\n20        System.out.println(total);  // Output: 5050\n21  }\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's not focus on logic to find the sum of first n natural numbers. Instead, focus on how we have used the method argument and the return value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,65 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/pwa-page-transitions?page=3",
+  "title": "Final Fixes and Edge Cases",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Rapid Build With Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Final Fixes and Edge Cases"
+    },
+    {
+      "type": "paragraph",
+      "content": "The final polish phase addressed four issues that only appeared after all pages were built and wired together:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Navigation linking - Some in-app links used <a href> instead of React Router's <Link to>. Hard reloads replaced seamless client-side navigation. Fix: replace all <a href> with <Link to> in app routes."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Chart gaps - The History page chart showed blank gaps when test results were spread hours apart. Fix: use Recharts' connectNulls={true} prop on the <Line> component to draw continuous lines across missing time periods."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Sidebar flicker - The sidebar flashed between expanded and collapsed state on initial render. Fix: use CSS inline styles + willChange: 'width' (covered earlier in this chapter, Lesson 1) and read the persisted collapse preference from localStorage synchronously before first render."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Run test button - The \"Run Test Now\" button stayed disabled after a test completed. Fix: ensure setIsRunning(false) was called in both the success and timeout paths of the worker message handler."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Each of these was caught by the production verification step - testing the live Netlify URL after Chunk 7 deployed, not just the local dev server."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

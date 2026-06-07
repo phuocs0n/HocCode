@@ -1,0 +1,42 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/python-lists?page=3",
+  "title": "List Slicing Examples",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "List Slicing Examples"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1numbers = [10, 20, 30, 40, 50, 60]\n2\n3# items from index 0 to 3\n4print(numbers[0: 4])    # [10, 20, 30, 40]\n5\n6# items from index 3 to 4\n7print(numbers[3: 5])   # [40, 50]\n8\n9# using negative index in slicing\n10\n11# items from the fourth item (3rd index)\n12# to the second-last item\n13\n14print(numbers[3: -1])   # [40, 50]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, numbers[3: -1] returns a list with items from index 3 to index -2 (because the last index -1 is exclusive and not included in the list)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

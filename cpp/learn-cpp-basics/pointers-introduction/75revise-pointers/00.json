@@ -1,0 +1,100 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-pointers?page=1",
+  "title": "Pointers Summary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Pointers Summary"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's revise what we have learned in this chapter:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Memory Address"
+    },
+    {
+      "type": "paragraph",
+      "content": "&number gives the address of the number variable. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number = 32;\n7\n8    // print the address of number variable\n9    cout <<  &number;\n10\n11    return 0;\n12}\n13\n14// Output: 0x7ffeb9e74a54"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Pointer Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "A pointer variable is used to store the memory address of a variable. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number = 32;\n7  \n8    // pt is a pointer variable that stores\n9    // memory address of number\n10    int* pt = &number;\n11    cout << pt;\n12\n13    return 0;\n14}\n15\n16// Output: 0x7ffc89fa4bfc"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Access Value Using Pointers"
+    },
+    {
+      "type": "paragraph",
+      "content": "*pt accesses the value pointed by the address stored in the pt pointer. This process is known as dereferencing a pointer. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number = 32;\n7  \n8    // pt is a pointer variable that stores\n9    // memory address of number\n10    int* pt = &number;\n11  \n12\n13    // value stored in the address pointed by pt\n14    cout << *pt;\n15\n16\n17    return 0;\n18}\n19\n20// Output: 32"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Dynamic Memory Allocation"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we can allocate memory during run-time. We use the following operators to manage memory in C++:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "new - dynamically allocates memory during run-time",
+        "delete - clears the dynamically allocated memory after it is of no use to us"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6\n7    // dynamically allocate memory\n8    int* number = new int;\n9\n10    // assign value to the memory\n11    *number = 256;\n12\n13    cout << *number;\n14\n15    // deallocate the memory\n16    delete number;\n17\n18\n19  return 0;\n20}\n21\n22// Output: 256"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

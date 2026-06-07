@@ -1,0 +1,65 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors?page=9",
+  "title": "Extending the Project",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Extending the Project"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Run the Game N Times"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we want to run our game 5 times. We can do that using a for loop in the main() function."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "Game game;\n    \nfor(int i = 1; i <= 5; ++i) {\n      \n    string user_pick = game.get_user_pick();\n    string computer_pick = game.get_computer_pick();\n    string result = game.get_result();\n\n    cout << \"User Pick: \" << user_pick << endl;\n    cout << \"Computer Pick: \" << computer_pick << endl;\n    cout << \"You \" << result << endl;      \n}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Ask the User to Play the Game Again"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we want to ask the user if they want to play the game again. Here's how we can do it."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "while (1) {\n\n    Game game;\n    char play_again;\n\n    string user_pick = game.get_user_pick();\n    string computer_pick = game.get_computer_pick();\n    string result = game.get_result();\n\n    cout << \"User Pick: \" << user_pick << endl;\n    cout << \"Computer Pick: \" << computer_pick << endl;\n    cout << \"You \" << result << endl;\n     \n    cout << \"Do you want to play again? (y/n): \";      \n    cin>> play_again;\n      \n    // if user enter any other character other than y, the game ends\n    if (play_again != 'y') {\n        break;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, each time a game is completed, the user is asked whether they want to play the game again or not. If the user enters 'y', the game will run again because of the infinite loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

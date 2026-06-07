@@ -1,0 +1,59 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-css/project-positioning-layout?page=7",
+  "title": "Final Results",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Final Results"
+    },
+    {
+      "type": "paragraph",
+      "content": "And that's how you can make a navbar using CSS!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our navbar features a logo, navigation items, and a special offers badge."
+    },
+    {
+      "type": "paragraph",
+      "content": "It stays fixed at the top of the viewport as we scroll through the page. Here's the complete code:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2    <nav class=\"navbar\">\n3        <div class=\"logo\">GreatBrand</div>\n4        <div class=\"navbar-items\">\n5            <div class=\"navbar-item\">About</div>\n6            <div class=\"navbar-item offer\">\n7                Special Offers\n8                <span class=\"offer-badge\">New!</span>\n9            </div>\n10        </div>\n11    </nav>\n12\n13    <main>\n14        <section class=\"hero\">\n15            <div class=\"container\">\n16                <h1>Welcome to GreatBrand</h1>\n17                <p>Discover amazing products and unbeatable offers</p>\n18                <button class=\"cta-button\">\n19                    Get Started\n20                    <span class=\"chevron-right\">❯</span>\n21                </button>\n22            </div>\n23        </section>\n24\n25        <section class=\"features\">\n26            <div class=\"container\">\n27                <h2>Our Features</h2>\n28                <div class=\"feature-list\">\n29                    <div class=\"feature-item\">\n30                        <div class=\"emoji\">🏆</div>\n31                        <h3>Quality Products</h3>\n32                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n33                    </div>\n34                    <div class=\"feature-item\">\n35                        <div class=\"emoji\">🚚</div>\n36                        <h3>Fast Delivery</h3>\n37                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n38                    </div>\n39                    <div class=\"feature-item\">\n40                        <div class=\"emoji\">🎧</div>\n41                        <h3>24/7 Support</h3>\n42                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n43                    </div>\n44                </div>\n45            </div>\n46        </section>\n47\n48        <section class=\"testimonials\">\n49            <div class=\"container\">\n50                <h2>What Our Customers Say</h2>\n51                <div class=\"testimonial-list\">\n52                    <div class=\"testimonial-item\">\n53                        <p>👩‍🎨</p>\n54                        <div>\n55                            <h4>Happy Customer 1</h4>\n56                            <div class=\"stars\">★★★★★</div>\n57                        </div>\n58                        <p>Amazing service! Will definitely buy again.</p>\n59                    </div>\n60                    <div class=\"testimonial-item\">\n61                        <p>🙋‍♀️</p>\n62                        <div>\n63                            <h4>Happy Customer 2</h4>\n64                            <div class=\"stars\">★★★★★</div>\n65                        </div>\n66                        <p>The quality of the products exceeded my expectations.</p>\n67                    </div>\n68                    <div class=\"testimonial-item\">\n69                        <p>🙋🏻</p>\n70                        <div>\n71                            <h4>Happy Customer 3</h4>\n72                            <div class=\"stars\">★★★★★</div>\n73                        </div>\n74                        <p>Fast delivery and great customer support.</p>\n75                    </div>\n76                </div>\n77            </div>\n78        </section>\n79\n80    </main>\n81\n82    <footer class=\"footer\">\n83        <div class=\"container\">\n84            <h3>GreatBrand</h3>\n85            <p>© 2024 GreatBrand. All rights reserved.</p>\n86            <div class=\"footer-links\">\n87                <a href=\"#\">Privacy Policy</a>\n88                <a href=\"#\">Terms of Service</a>\n89                <a href=\"#\">Contact Us</a>\n90            </div>\n91        </div>\n92    </footer>\n93\n94</body>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1We have added some code for the rest of the body."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the next chapter, you'll learn about styling specific HTML elements using CSS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

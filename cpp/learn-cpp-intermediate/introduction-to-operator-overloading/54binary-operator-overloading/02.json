@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/binary-operator-overloading?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct syntax to overload the binary - operator?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Class_Name operator -- () {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the syntax for overloading the prefix -- operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the syntax for overloading the prefix -- operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class_Name operator -- (int) {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the syntax for overloading the postfix -- operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the syntax for overloading the postfix -- operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class_Name operator - (Class_Name obj) {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct syntax for overloading the binary - operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct syntax for overloading the binary - operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class_Name operator - () {...}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We must supply a parameter to the operator() function when overloading a binary operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "We must supply a parameter to the operator() function when overloading a binary operator."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct syntax to overload the binary - operator?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Class_Name operator -- () {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Class_Name operator -- () {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Class_Name operator -- (int) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Class_Name operator -- (int) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Class_Name operator - (Class_Name obj) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Class_Name operator - (Class_Name obj) {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Class_Name operator - () {...}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Class_Name operator - () {...}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

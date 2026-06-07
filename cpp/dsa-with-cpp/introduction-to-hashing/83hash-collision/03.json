@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/hash-collision?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is a collision in hashing?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "When a hash function fails to produce an output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Generally, we choose a hash function in such a way that applying the hash function doesn't result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "Generally, we choose a hash function in such a way that applying the hash function doesn't result in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "When two different keys produce the same hash output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Collisions occur when different keys produce the same hash code in a hash function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Collisions occur when different keys produce the same hash code in a hash function."
+    },
+    {
+      "type": "paragraph",
+      "content": "When a hash table becomes too large to handle."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Collisions are not directly related to the size of the hash table, though a larger hash table typically has a lower probability of collision."
+    },
+    {
+      "type": "paragraph",
+      "content": "Collisions are not directly related to the size of the hash table, though a larger hash table typically has a lower probability of collision."
+    },
+    {
+      "type": "paragraph",
+      "content": "When a hash function produces negative values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Collisions are not related to the sign of the hash code produced by the function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Collisions are not related to the sign of the hash code produced by the function."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is a collision in hashing?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:When a hash function fails to produce an output.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "When a hash function fails to produce an output.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:When two different keys produce the same hash output.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "When two different keys produce the same hash output.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:When a hash table becomes too large to handle.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "When a hash table becomes too large to handle.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:When a hash function produces negative values.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "When a hash function produces negative values.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

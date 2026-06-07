@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header?page=5",
+  "title": "Important: Always Follow This JSX Rule!",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Important: Always Follow This JSX Rule!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JSX must only return a single parent element. For instance, this code works:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1// Return a single parent\n2return (\n3  <div>\n4    <h1>My Daily Journal</h1>\n5    <p>Welcome back</p>\n6  </div>\n7);"
+    },
+    {
+      "type": "paragraph",
+      "content": "But this doesn't work:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1// Return multiple parents\n2return (\n3  <h1>My Daily Journal</h1>\n4  <p>Welcome back</p>\n5);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Why? Because React needs one root element to attach everything else to."
+    },
+    {
+      "type": "paragraph",
+      "content": "Just wrap multiple elements in a <div> or a React fragment (you'll learn about them later) and you're set!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's add some more content to your React component and see how it goes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

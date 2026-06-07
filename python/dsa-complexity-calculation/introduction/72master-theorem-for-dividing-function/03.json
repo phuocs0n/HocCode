@@ -1,0 +1,45 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-dividing-function?page=4",
+  "title": "log⁡ba>k\\log_ba > klogb​a>k",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "log⁡ba>k\\log_ba > klogb​a>k"
+    },
+    {
+      "type": "paragraph",
+      "content": "If log⁡ba>k\\log_ba > klogb​a>k,"
+    },
+    {
+      "type": "paragraph",
+      "content": "then"
+    },
+    {
+      "type": "paragraph",
+      "content": "T(n)=Ө(nlog⁡ba)T\\lparen n \\rparen = Ө(n ^{\\log_ba})T(n)=Ө(nlogb​a)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

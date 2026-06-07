@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/ifelse-statement?page=2",
+  "title": "The if statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The if statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with a simple if statement first. Then, we will learn about the if...else statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of the if statement is:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "if (boolean_expression) {\n    // body of if statement\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how it works."
+    },
+    {
+      "type": "paragraph",
+      "content": "The if statement evaluates boolean_expression that results in either true or false."
+    },
+    {
+      "type": "paragraph",
+      "content": "If boolean_expression is:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 (true) - the statements inside if are executed",
+        "0 (false) - the statements inside if are skipped from execution"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a working example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

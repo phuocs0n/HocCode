@@ -1,0 +1,68 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/digital-world-clock?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll build a digital world clock."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code below to see how the final result will look."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2    <div class=\"container\">\n3        …"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    font-family: Arial, sans-serif;\n3    …"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const clocks = [\n2    { city: \"NEW YORK\", timeZone: \"America/New_York\" },\n3    …"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how it works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Select a city from the dropdown (add more cities if needed).",
+        "Click the button to display a clock showing the city's local time.",
+        "Click on a clock to remove it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

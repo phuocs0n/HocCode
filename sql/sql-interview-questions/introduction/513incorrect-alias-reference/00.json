@@ -1,0 +1,60 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/incorrect-alias-reference?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT department, SUM(salary) AS expense\n2FROM Employees\n3GROUP BY department\n4HAVING expense > 30000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "While there's nothing wrong with the above code, the HAVING clause should not ideally reference the alias expense directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead, the aggregate function should be used in the HAVING clause."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can re-write the above query by including the aggregate function in the HAVING clause to fix the mistake."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT department, SUM(salary) AS expense \n2FROM Employees\n3GROUP BY department\n4HAVING SUM(salary) > 30000"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

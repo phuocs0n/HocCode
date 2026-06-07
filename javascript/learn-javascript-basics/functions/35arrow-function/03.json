@@ -1,0 +1,54 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-arrow-function?page=4",
+  "title": "Returning Values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Returning Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arrow functions don't require the return statement to return values."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Arrow function to add two numbers\n2const addNumbers = (n1, n2) => n1 + n2;\n3\n4// Call addNumbers()\n5let result = addNumbers(2, 5);\n6console.log(result);    // Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, addNumbers() automatically returns the result of n1 + n2 when called."
+    },
+    {
+      "type": "paragraph",
+      "content": "This makes arrow functions concise and easier to read, especially for simple operations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

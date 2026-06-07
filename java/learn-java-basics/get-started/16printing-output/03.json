@@ -1,0 +1,77 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/print-output?page=4",
+  "title": "Printing Spaces",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Printing Spaces"
+    },
+    {
+      "type": "paragraph",
+      "content": "When working with strings, we often need to add spaces in between two strings. This can be done by explicitly adding a space within quotation marks \" \" and joining the strings using the + operator."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3\n4        System.out.println(\"Hello,\" + \" \" + \"How are you?\");\n5    }\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello, How are you?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the spaces are added explicitly between the strings using \" \"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Alternatively, the same output can be achieved by incorporating the spaces directly within the string."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3\n4        System.out.println(\"Hello, \" + \"How are you?\");\n5    }\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello, How are you?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have added space at the end of Hello, eliminating the need to add extra \" \"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

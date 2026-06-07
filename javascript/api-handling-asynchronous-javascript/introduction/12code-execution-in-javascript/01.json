@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/code-execution-in-javascript?page=2",
+  "title": "Demonstration: A Simple JavaScript Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Demonstration: A Simple JavaScript Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at this code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"Start\");\n2console.log(\"Middle\");\n3console.log(\"End\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you run it, think for a while and ask yourself:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"In what order will the messages appear?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "When you run the code, the output will be:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Start\nMiddle\nEnd"
+    },
+    {
+      "type": "paragraph",
+      "content": "You probably already guessed the output. After all, JavaScript executes the codes line by line, one after the other."
+    },
+    {
+      "type": "paragraph",
+      "content": "JS can't execute the next line before completing the first one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

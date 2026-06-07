@@ -1,0 +1,80 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/responsive-design/media-queries?page=3",
+  "title": "Media Query Syntax",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Media Query Syntax"
+    },
+    {
+      "type": "paragraph",
+      "content": "You just saw the hero stack on mobile. But right now that stacking happens for every screen size."
+    },
+    {
+      "type": "paragraph",
+      "content": "What if you only want it to stack on narrow screens and show two columns on wider ones?"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's what a media query does. It's a CSS block that only switches on when a condition is met."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "@media (max-width: 48rem) {\n  .hero-content {\n    display: flex;\n    flex-direction: column;\n  }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "@media opens the block. The condition (max-width: 48rem) is the test. If the viewport is 48rem or narrower the styles inside apply. If not the whole block is skipped. Everything inside targets the same selectors as your regular CSS, just scoped to that width."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here it is on your actual portfolio hero. The base styles set up two columns for desktop. The media query collapses it to one column on narrow screens."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1/* Desktop layout — the base */\n2.hero-content {\n3\n4  display: grid;\n5  grid-template-columns: 14rem 1fr;\n6}\n7\n8/* On screens 48rem or narrower: collapse to one column */\n9@media (max-width: 48rem) {\n10\n11  .hero-content {\n12    display: flex;\n13    flex-direction: column;\n14  }\n15}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1*, *::before, *::after {\n2  box-sizing: border-box;\n3}\n4\n5body, p, h1 {\n6  margin: 0;\n7}\n8\n9body {\n10  font-family: 'Inter', sans-serif;\n11}\n12\n13.container {\n14  max-width: 64rem;\n15  margin: 0 auto;\n16  padding: 0 1.5rem;\n17}\n18\n19.hero {\n20  padding: 5rem 0;\n21}\n22\n23.hero-content {\n24  display: grid;\n25  grid-template-columns: 14rem 1fr;\n26  gap: 4rem;\n27  align-items: center;\n28}\n29\n30@media (max-width: 48rem) {\n31  .hero-content {\n32    display: flex;\n33    flex-direction: column;\n34    gap: 2rem;\n35  }\n36}\n37\n38.hero-image {\n39  max-width: 14rem;\n40  border-radius: 1.5rem;\n41  background: #F3F4F6;\n42}\n43\n44.hero-image img {\n45  width: 100%;\n46  height: auto;\n47  border-radius: 1.5rem;\n48}\n49\n50.hero-text {\n51  display: flex;\n52  flex-direction: column;\n53  gap: 1.5rem;\n54}\n55\n56h1 {\n57  color: #0F172A;\n58  font-family: \"Crimson Pro\", serif;\n59  font-size: 3.75rem;\n60  font-weight: 700;\n61}\n62\n63.hero-subtitle {\n64  color: #14B8A5;\n65  font-family: \"Crimson Pro\", serif;\n66  font-size: 1.25rem;\n67}\n68\n69p {\n70  color: #475569;\n71  font-size: 1.125rem;\n72  line-height: 1.875rem;\n73}\n74\n75.hero-actions {\n76  display: flex;\n77  gap: 1rem;\n78}\n79\n80.btn {\n81  padding: 0.75rem 1.5rem;\n82  font-size: 1rem;\n83  font-weight: 700;\n84  border-radius: 0.75rem;\n85  text-decoration: none;\n86}\n87\n88.btn-dark {\n89  background-color: #0F172A;\n90  color: #fff;\n91}\n92\n93.btn-outline-secondary {\n94  border: 1px solid #E2E8F0;\n95  color: #1E293B;\n96}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and try both mobile and desktop view."
+    },
+    {
+      "type": "paragraph",
+      "content": "Below 48rem the layout stacks. At 48rem and above it switches to two columns. Same HTML the whole time."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, a quick quiz."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

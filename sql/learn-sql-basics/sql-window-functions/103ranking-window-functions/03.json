@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions?page=4",
+  "title": "Example: Ranking Products by Sales Using ROW_NUMBER()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Ranking Products by Sales Using ROW_NUMBER()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider a table Product_sales that stores the products and their sales amounts:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT * \n2FROM Product_sales"
+    },
+    {
+      "type": "paragraph",
+      "content": "To rank products by sales amount, we use the ROW_NUMBER() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *, \n2ROW_NUMBER() OVER (ORDER BY sales_amount DESC) AS rank_by_sales \n3\n4FROM Product_sales;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code displays the rank of the products on the basis of sales amount. Now, you can easily identify the top selling products."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

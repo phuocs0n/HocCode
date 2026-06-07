@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/everything-is-object?page=4",
+  "title": "The id() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The id() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, every object has an id for identity. The id of an object is always unique and constant for this object during its lifetime."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can check the id of an object by using the id() function. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1number1 = 5\n2print(id(number1))   # 9789120\n3\n4number2 = 10\n5print(id(number2))   # 9789280"
+    },
+    {
+      "type": "paragraph",
+      "content": "As we can see, the id of number1 and number2 are different. It means they are two different objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see what will happen if we assign one variable to another."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1number1 = 5\n2print(id(number1))   # 9789120\n3\n4number2 = number1\n5print(id(number2))   # 9789120"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we can see that the id of number1 and number2 is the same. It means these two variables are referring to the same object. Python does this for memory optimization."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

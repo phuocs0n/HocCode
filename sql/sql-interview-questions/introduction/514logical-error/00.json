@@ -1,0 +1,64 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/logical-error?page=1",
+  "title": "What's Wrong With The Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With The Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Employees\n3WHERE (type = 'Full-Time' AND salary > 3000)\n4  OR (type = 'Part-Time' OR salary < 3000);"
+    },
+    {
+      "type": "paragraph",
+      "content": "While there is nothing inherently wrong with the above code, it may cause an error when the problem statement is different."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you need to select employees with a salary more than 3000 and are Full-Time workers or select Part-Time workers with salary less than 3000."
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code is bound to fail as the OR operator in the second condition is logically inconsistent. Such logical errors can be fixed with the correct use of operators."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can simply replace the second OR condition with AND to ensure correct logic. Here is the updated code:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Employees\n3WHERE (type = 'Full-Time' AND salary > 3000)\n4  OR (type = 'Part-Time' AND salary < 3000);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

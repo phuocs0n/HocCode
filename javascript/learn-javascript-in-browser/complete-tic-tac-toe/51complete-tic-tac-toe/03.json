@@ -1,0 +1,75 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/complete-tictactoe?page=4",
+  "title": "Code Refactor",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code Refactor"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you'll add new functionalities to the game, the previous code needs some refactoring."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3  …"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    …"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const gameBoard = document.querySelector(\".game-board\");\n2…"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since functions enable code reuse, you can refactor the previous code into functions like this:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3  …"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    …"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const gameBoard = document.querySelector(\".game-board\");\n2const turnInfo = document.querySelector(\"#turnInfo\");\n3\n4let currentPlayer = \"X\"; \n5\n6// Add click event listener to parent (game board)\n7gameBoard.addEventListener('click', (event) => {\n8    const cell = event.target;\n9\n10    // Ensure the cell is empty before marking it\n11    if (cell.textContent === \"\") {\n12        gameLoop(cell);\n13    }\n14});\n15\n16const gameLoop = (cell) => {\n17    \n18    // Handle player move\n19    handlePlayerMove(cell);\n20\n21    // Update turn info\n22    updateTurnInfo();\n23\n24    // Switch players\n25    currentPlayer = currentPlayer === \"X\" ? \"O\" : \"X\";\n26};\n27\n28\n29const handlePlayerMove = (cell) => {\n30    cell.textContent = currentPlayer;\n31};\n32\n33const updateTurnInfo = () => {\n34    turnInfo.textContent = currentPlayer === \"X\" ? \"Player 2\" : \"Player 1\";\n35};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's start by implementing the game logic."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

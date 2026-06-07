@@ -1,0 +1,54 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-window-functions?page=4",
+  "title": "Using the AVG() Aggregation Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using the AVG() Aggregation Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by trying to achieve the task using the AVG() aggregation function."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Select all entries and get the average salary\n2\n3SELECT *, AVG(salary) AS average_salary\n4FROM Employees;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query calculates the average salary of all employees in the table. However, since aggregate functions return a single value, only the first row will be displayed with the average salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "But the task requires comparing each employee's salary with the company's average salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is where window functions come in. Unlike aggregate functions that summarize data into one row, window functions allow you to perform calculations for each row without collapsing the data."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

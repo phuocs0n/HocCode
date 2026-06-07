@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/convert-snakecase-to-pascalcase?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we must first understand the snake case and pascal case."
+    },
+    {
+      "type": "paragraph",
+      "content": "In snake case, all words are in lowercase but separated by an underscore. For example, this_is_written_in_snake_case."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, in pascal case, each word is separated by the first uppercase letter. For example, ThisIsWrittenInPascalCase."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, to convert snake case to pascal case,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Use a while loop to iterate through characters in a string by its index.",
+        "If the character is the first character, capitalize it and add it to a new string.",
+        "Check if the character is an underscore.",
+        "If the character is an underscore, skip it and capitalize the next character.",
+        "If the character is not an underscore, add the character as it is."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's implement this by writing a program in Python."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

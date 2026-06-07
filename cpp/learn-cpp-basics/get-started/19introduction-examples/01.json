@@ -1,0 +1,71 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/introduction-examples?page=2",
+  "title": "Convert Kilometers to Miles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Convert Kilometers to Miles"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can easily convert distance in kilometers to miles using this formula:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1 kilometer = 0.621 miles"
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Program to convert distance in kilometer to miles\n2// The distance will be entered by the user.\n3\n4#include <iostream>\n5using namespace std;\n6\n7int main() {\n8\n9    // create variables for kilometers and miles\n10    double km, miles;\n11\n12    // take input for kilometers\n13    cout << \"Enter distance in km: \";\n14    cin >> km;\n15\n16    // conversion ratio of km to miles\n17    double conversion_ratio = 0.621;\n18\n19    // computing distance in miles\n20    miles = km * conversion_ratio;\n21\n22    // print the distance in miles\n23    cout << \"Distance in miles: \" << miles;\n24\n25    return 0;\n26}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter distance in km: 10\nDistance in miles: 6.21"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this program works."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "cin >> km; - takes distance input in km from the user and stores it in the km variable.",
+        "miles = km * conversion_ratio; - computes the distance in miles by multiplying the distance in km by 0.621."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/storing-arrays-objects?page=3",
+  "title": "Loading and Error State",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Loading and Error State"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you fetch data from a server three things can happen. The data is loading. The data arrives. Something goes wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your store should be ready for all three. In src/store/useJournalStore.js you add two more pieces of state."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "isLoading: false, error: null,"
+    },
+    {
+      "type": "paragraph",
+      "content": "isLoading starts as false. When a fetch begins you set it to true. When it finishes you set it back to false."
+    },
+    {
+      "type": "paragraph",
+      "content": "error starts as null. If something goes wrong you put the error message there."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your components can then read these and show the right thing."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "if (isLoading) return Loading entries...\nif (error) return Something went wrong: {error}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Simple. And the whole app knows about it because it lives in the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will check your understanding. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

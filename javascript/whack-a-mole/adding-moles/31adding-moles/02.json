@@ -1,0 +1,46 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/adding-moles?page=3",
+  "title": "Create a Mole Element 🏗️",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create a Mole Element 🏗️"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to create your first mole! You'll add a mole div inside each hole using JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "For now, you'll just create moles for all 9 holes and make them visible so you can see what you're building."
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "modify the for loop that creates holes.",
+        "Inside the loop, after creating each hole, create a div element for the mole, add the class \"mole\" to it, and append the mole to the hole before appending the hole to the game board."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

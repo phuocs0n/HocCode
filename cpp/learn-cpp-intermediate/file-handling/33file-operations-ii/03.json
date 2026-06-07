@@ -1,0 +1,187 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/file-operations-ii?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose you want to copy the contents of the file connected to the file2 object to the one connected to the file1 object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Assuming the files are opened in the correct modes, how would you copy the file?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "file1.rdbuf(file2);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "file2.rdbuf(file1);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "file2 << file1.rdbuf();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file1 to the one opened by file2."
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file1 to the one opened by file2."
+    },
+    {
+      "type": "paragraph",
+      "content": "file1 << file2.rdbuf();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file2 to the one opened by file1."
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file2 to the one opened by file1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid way of copying files in C++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file1 to the one opened by file2."
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file1 to the one opened by file2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file2 to the one opened by file1."
+    },
+    {
+      "type": "paragraph",
+      "content": "This copies the contents of the file opened by file2 to the one opened by file1."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose you want to copy the contents of the file connected to the file2 object to the one connected to the file1 object.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:file1.rdbuf(file2);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "file1.rdbuf(file2);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:file2.rdbuf(file1);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "file2.rdbuf(file1);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:file2 << file1.rdbuf();",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "file2 << file1.rdbuf();",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:file1 << file2.rdbuf();",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "file1 << file2.rdbuf();",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

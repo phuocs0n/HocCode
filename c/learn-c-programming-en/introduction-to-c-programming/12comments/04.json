@@ -1,0 +1,183 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/comments?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In C, single-line comments use ___ and multi-line comments use ____."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "# and /* */"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using /* */ for multi-line comments is correct, but # is not used for single-line comments in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using /* */ for multi-line comments is correct, but # is not used for single-line comments in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "// and { }"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The single-line comment syntax (//) is correct, but { } does not function as a comment in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "The single-line comment syntax (//) is correct, but { } does not function as a comment in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "{} and /* */"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The multi-line comment syntax (/* */) is correct, but the single-line comment syntax is incorrect."
+    },
+    {
+      "type": "paragraph",
+      "content": "The multi-line comment syntax (/* */) is correct, but the single-line comment syntax is incorrect."
+    },
+    {
+      "type": "paragraph",
+      "content": "// and /* */"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Single-line comments in C begin with //. Multi-line comments start with /* and end with */, allowing comments to span multiple lines."
+    },
+    {
+      "type": "paragraph",
+      "content": "Single-line comments in C begin with //. Multi-line comments start with /* and end with */, allowing comments to span multiple lines."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using /* */ for multi-line comments is correct, but # is not used for single-line comments in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using /* */ for multi-line comments is correct, but # is not used for single-line comments in C."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The single-line comment syntax (//) is correct, but { } does not function as a comment in C."
+    },
+    {
+      "type": "paragraph",
+      "content": "The single-line comment syntax (//) is correct, but { } does not function as a comment in C."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The multi-line comment syntax (/* */) is correct, but the single-line comment syntax is incorrect."
+    },
+    {
+      "type": "paragraph",
+      "content": "The multi-line comment syntax (/* */) is correct, but the single-line comment syntax is incorrect."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Single-line comments in C begin with //. Multi-line comments start with /* and end with */, allowing comments to span multiple lines."
+    },
+    {
+      "type": "paragraph",
+      "content": "Single-line comments in C begin with //. Multi-line comments start with /* and end with */, allowing comments to span multiple lines."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In C, single-line comments use ___ and multi-line comments use ____.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:# and /* */",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "# and /* */",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:// and { }",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "// and { }",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:{} and /* */",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "{} and /* */",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:// and /* */",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "// and /* */",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

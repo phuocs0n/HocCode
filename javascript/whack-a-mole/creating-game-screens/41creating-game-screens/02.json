@@ -1,0 +1,47 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/creating-game-screens?page=3",
+  "title": "Create Start Screen HTML 🏁",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create Start Screen HTML 🏁"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to build the first thing players will see—the start screen!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll add a title, simple instructions, and a button to start the game."
+    },
+    {
+      "type": "paragraph",
+      "content": "In index.html,"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add content to the #start-screen div. Include an h1 element with \"Whack-a-Mole\" as the title,"
+    },
+    {
+      "type": "paragraph",
+      "content": "A p element with game instructions about clicking moles in 30 seconds, and a button element with id \"start-button\" containing the text \"Start Game\"."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

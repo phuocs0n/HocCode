@@ -1,0 +1,66 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/logical-operators?page=2",
+  "title": "Logical Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Logical Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are three logical operators in JavaScript:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Operator",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "AND (&&)",
+          "true if both the expressions are true.",
+          "weight > 60 && height > 5.5;"
+        ],
+        [
+          "OR (||)",
+          "true if one of the expressions is true.",
+          "weight > 60 || height > 5.5;"
+        ],
+        [
+          "NOT (!)",
+          "true if the expression is false.",
+          "!(weight > 60);"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see each operator one by one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

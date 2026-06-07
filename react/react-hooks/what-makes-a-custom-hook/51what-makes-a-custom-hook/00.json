@@ -1,0 +1,91 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-hooks/what-makes-custom-hook?page=1",
+  "title": "The Problem: Logic Tangled in the Component",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: Logic Tangled in the Component"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at App.jsx as it is now:"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1// Click \"Run Code\" to view the app"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Header({ query, onQueryChange }) {\n4  const searchRef = useRef(null);\n5\n6  useEffect(function () {\n7    searchRef.current.focus();\n8  }, []);\n9\n10  function handleChange(e) {\n11    onQueryChange(e.target.value);\n12  }\n13\n14  function handleClear() {\n15    onQueryChange(\"\");\n16    searchRef.current.focus();\n17  }\n18\n19  return (\n20    <header className=\"header\">\n21      <h2 className=\"title-primary\">My Daily Journal</h2>\n22      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n23      <div className=\"header-search\">\n24        <input\n25          ref={searchRef}\n26          className=\"search-input\"\n27          type=\"text\"\n28          placeholder=\"Search entries...\"\n29          value={query}\n30          onChange={handleChange}\n31        />\n32        {query && (\n33          <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n34        )}\n35      </div>\n36    </header>\n37  );\n38}\n39\n40export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Drawer({ entry, onClose }) {\n4  const drawerRef = useRef(null);\n5\n6  useEffect(function () {\n7    function handleMouseDown(event) {\n8      if (drawerRef.current && !drawerRef.current.contains(event.target)) {\n9        onClose();\n10      }\n11    }\n12\n13    document.addEventListener(\"mousedown\", handleMouseDown);\n14    return function () {\n15      document.removeEventListener(\"mousedown\", handleMouseDown);\n16    };\n17  }, [onClose]);\n18\n19  if (!entry) return null;\n20\n21  return (\n22    <div className=\"drawer-overlay\">\n23      <div className=\"drawer\" ref={drawerRef}>\n24        <button className=\"drawer-close\" onClick={onClose}>×</button>\n25        <h2>{entry.title}</h2>\n26        <p className=\"drawer-meta\">{entry.date} · {entry.author}</p>\n27        <p className=\"drawer-content\">{entry.content}</p>\n28      </div>\n29    </div>\n30  );\n31}\n32\n33export default Drawer;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content, onSelect }) {\n2  return (\n3    <div className=\"entry-card\" onClick={function () { onSelect({ id, title, date, author, content }); }}>\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "This component has:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "seven state variables,",
+        "three useMemo() calls,",
+        "a useEffect(),",
+        "and several handlers."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If a second component anywhere in the app needed to fetch data, we'd need to copy that entire useEffect() block, paste it in, and maintain two identical copies forever."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the problem custom hooks solve."
+    },
+    {
+      "type": "paragraph",
+      "content": "They let us extract hook-based logic out of a component and into a reusable function. Any component can then call that function to get the same behavior."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, what exactly is a custom hook? Let's learn that next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

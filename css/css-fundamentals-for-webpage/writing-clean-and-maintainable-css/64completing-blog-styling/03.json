@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/completing-blog-styling?page=3",
+  "title": "Validate and Cleanup",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Validate and Cleanup"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take this as a final check before submitting your work. Developers usually do this as the final professional step before submitting pull requests to github (submitting their work for peer review). This final step should include:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Re-check HTML structure",
+        "Scan CSS for:\n\t\tUnused rulesDuplicate stylesOverly specific selectors",
+        "Unused rules",
+        "Duplicate styles",
+        "Overly specific selectors"
+      ]
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Unused rules",
+        "Duplicate styles",
+        "Overly specific selectors"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Clean code = easier future changes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

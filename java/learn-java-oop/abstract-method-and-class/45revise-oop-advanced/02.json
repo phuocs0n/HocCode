@@ -1,0 +1,82 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-advanced?page=3",
+  "title": "Overloading the Payment Method of eCommerce",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Overloading the Payment Method of eCommerce"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will implement the payment method for an eCommerce business."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that every eCommerce business has different payment methods like credit card payment, PayPal payment, and many more."
+    },
+    {
+      "type": "paragraph",
+      "content": "All payment methods require different information. For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "To pay through a credit card, we will need a card number, CVV, and expiry date. Similarly, to pay through Paypal, we just need the id."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's implement this same logic and overload the payment method with different numbers of parameters."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Payment {\n2    \n3    // pay through credit card\n4    void makePayment(String cardNumber, String cvv, String expiryDate) {\n5        System.out.println(\"Payment Through Credit Card is Successful\");\n6    }\n7    \n8    // pay through Paypal\n9    void makePayment(String id) {\n10        System.out.println(\"Payment Through PayPal is Successful\");\n11    }\n12}\n13\n14class Main {\n15    public static void main(String[] args) {\n16        \n17        Payment pay = new Payment();\n18        \n19        // make payment through credit card\n20        pay.makePayment(\"5415 3252 3523 6315\", \"131\", \"12/025\");\n21        \n22        // make payment through PayPal\n23        pay.makePayment(\"97629639067\");\n24    }\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Payment Through Credit Card is Successful\nPayment Through PayPal is Successful"
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

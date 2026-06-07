@@ -1,0 +1,56 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/adding-timer?page=3",
+  "title": "Create Timer Variable ⏰",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create Timer Variable ⏰"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, you need a variable to store how much time is left, and a place on screen to show it."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll add a timer display to the play screen, then create a variable in JavaScript to track the seconds remaining."
+    },
+    {
+      "type": "paragraph",
+      "content": "In index.html,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add a timer display to the #play-screen div after the score-display.",
+        "Create a div with id \"timer-display\" containing \"Time: \" and a span with id \"timer-value\" showing 30."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "After the moleInterval variable, create variables: timeLeft set to 30, timerInterval (uninitialized), and timerDisplay that selects the #timer-value element."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

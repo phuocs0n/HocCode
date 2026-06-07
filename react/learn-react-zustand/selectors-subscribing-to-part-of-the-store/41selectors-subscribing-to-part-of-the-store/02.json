@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/selectors--subscribing-to-part-of-store?page=2",
+  "title": "Derived State with Selectors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Derived State with Selectors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes you do not need the raw state. You need something computed from it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Right now EntryList reads all entries and then filters them based on searchQuery. You could move that filtering logic into a selector instead."
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/components/EntryList.jsx instead of two separate reads and a filter:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const entries = useJournalStore((state) => state.entries)\nconst searchQuery = useJournalStore((state) => state.searchQuery)\n\nconst filteredEntries = searchQuery.trim() ? entries.filter(...) : entries"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can write one selector that does the work for you."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const filteredEntries = useJournalStore((state) => {\n  if (!state.searchQuery.trim()) return state.entries\n  return state.entries.filter(\n    (entry) =>\n      entry.title.toLowerCase().includes(state.searchQuery.toLowerCase()) ||\n      entry.content.toLowerCase().includes(state.searchQuery.toLowerCase()) ||\n      entry.date.toLowerCase().includes(state.searchQuery.toLowerCase())\n  )\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "One selector. The component does not need to know anything about how filtering works."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will check your understanding. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

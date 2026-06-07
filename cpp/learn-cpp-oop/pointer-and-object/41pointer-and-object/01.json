@@ -1,0 +1,91 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/pointer-object?page=2",
+  "title": "C++ Pointer to Object",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ Pointer to Object"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before exploring the relationship between pointers and objects, Let's first revise the concept of pointers."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // create a variable\n7    int number = 36;\n8\n9\n10    // create a pointer variable\n11    int* pt;\n12\n13    // assign address of number variable to pointer\n14    pt = &number;\n15\n16    // print the address stored in pt pointer  \n17    cout << \"Value of pt: \" << pt << endl;\n18\n19\n20    // print the address of the number variable\n21    cout << \"Address of number: \" << &number << endl;\n22  \n23    return 0;\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Value of pt: 0x7ffeb13ed51c\nAddress of number: 0x7ffeb13ed51c"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created a pointer type variable pt and assigned the address of the number variable to it."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// integer type pointer\nint* pt;\n\npt = &number;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, we can also create pointers to objects as well. For example, suppose we have a class Student. Then,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// create object of Student\nStudent student1;\n\n// create Student pointer\nStudent* student_pointer;\n\n// assign address of the student1 object\nstudent_pointer = &student1;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, if we need to access the marks variable of the student1 object, we can use the arrow operator ->."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// set marks of student to 56\nstudent_pointer->marks = 56;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code is equivalent to"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "student1.marks = 56;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at this with an example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,490 @@
+{
+  "levels": [
+    {
+      "title": "Introduction to DSA",
+      "lessons": [
+        {
+          "title": "1.1Introduction to DSA",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-dsa"
+        },
+        {
+          "title": "1.2Why Learn DSA?",
+          "url": "https://app.programiz.pro/course/dsa-with-python/why-dsa"
+        },
+        {
+          "title": "1.3Prerequisites",
+          "url": "https://app.programiz.pro/course/dsa-with-python/prerequisites"
+        },
+        {
+          "title": "1.4Python Lists",
+          "url": "https://app.programiz.pro/course/dsa-with-python/python-lists"
+        }
+      ]
+    },
+    {
+      "title": "Sorting",
+      "lessons": [
+        {
+          "title": "2.1Sorting",
+          "url": "https://app.programiz.pro/course/dsa-with-python/sorting"
+        },
+        {
+          "title": "2.2Bubble Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/bubble-sort"
+        },
+        {
+          "title": "2.3Selection Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/selection-sort"
+        },
+        {
+          "title": "2.4Insertion Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/insertion-sort"
+        },
+        {
+          "title": "2.5Merge Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/merge-sort"
+        },
+        {
+          "title": "2.6Quick Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/quick-sort"
+        },
+        {
+          "title": "2.7Counting Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/counting-sort"
+        }
+      ]
+    },
+    {
+      "title": "Search Algorithms",
+      "lessons": [
+        {
+          "title": "3.1Search Algorithms",
+          "url": "https://app.programiz.pro/course/dsa-with-python/search-algorithms"
+        },
+        {
+          "title": "3.2Linear Search",
+          "url": "https://app.programiz.pro/course/dsa-with-python/linear-search"
+        },
+        {
+          "title": "3.3Binary Search",
+          "url": "https://app.programiz.pro/course/dsa-with-python/binary-search"
+        }
+      ]
+    },
+    {
+      "title": "Linked List",
+      "lessons": [
+        {
+          "title": "4.1Linked List",
+          "url": "https://app.programiz.pro/course/dsa-with-python/linked-list"
+        },
+        {
+          "title": "4.2Linked List Operations",
+          "url": "https://app.programiz.pro/course/dsa-with-python/linked-list-operations"
+        },
+        {
+          "title": "4.3Examples: Linked List",
+          "url": "https://app.programiz.pro/course/dsa-with-python/examples-linked-list"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Circular Linked List",
+      "lessons": [
+        {
+          "title": "5.1Introduction to Circular Linked List",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-circular-linked-list"
+        },
+        {
+          "title": "5.2Circular Linked List Operations",
+          "url": "https://app.programiz.pro/course/dsa-with-python/circular-linked-list-operations"
+        },
+        {
+          "title": "5.3Examples: Circular Linked List",
+          "url": "https://app.programiz.pro/course/dsa-with-python/examples-circular-linked-list"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Doubly Linked List",
+      "lessons": [
+        {
+          "title": "6.1Introduction to Doubly Linked List",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-doubly-linked-list"
+        },
+        {
+          "title": "6.2Doubly Linked List Operations",
+          "url": "https://app.programiz.pro/course/dsa-with-python/doubly-linked-list-operations"
+        },
+        {
+          "title": "6.3Examples: Doubly Linked List",
+          "url": "https://app.programiz.pro/course/dsa-with-python/examples-doubly-linked-list"
+        }
+      ]
+    },
+    {
+      "title": "Stack",
+      "lessons": [
+        {
+          "title": "7.1Stack",
+          "url": "https://app.programiz.pro/course/dsa-with-python/stack"
+        },
+        {
+          "title": "7.2Queue",
+          "url": "https://app.programiz.pro/course/dsa-with-python/queue"
+        },
+        {
+          "title": "7.3Fixed-size Queue",
+          "url": "https://app.programiz.pro/course/dsa-with-python/fixedsize-queue"
+        },
+        {
+          "title": "7.4Circular Queue",
+          "url": "https://app.programiz.pro/course/dsa-with-python/circular-queue"
+        },
+        {
+          "title": "7.5Double Ended Queue (Deque)",
+          "url": "https://app.programiz.pro/course/dsa-with-python/double-ended-queue-deque"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Hashing",
+      "lessons": [
+        {
+          "title": "8.1Introduction to Hashing",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-hashing"
+        },
+        {
+          "title": "8.2Hashing Techniques",
+          "url": "https://app.programiz.pro/course/dsa-with-python/hashing-techniques"
+        },
+        {
+          "title": "8.3Hash Collision",
+          "url": "https://app.programiz.pro/course/dsa-with-python/hash-collision"
+        },
+        {
+          "title": "8.4Hash Collision Resolution",
+          "url": "https://app.programiz.pro/course/dsa-with-python/hash-collision-resolution"
+        },
+        {
+          "title": "8.5Hash Functions",
+          "url": "https://app.programiz.pro/course/dsa-with-python/hash-functions"
+        },
+        {
+          "title": "8.6Hashmap",
+          "url": "https://app.programiz.pro/course/dsa-with-python/hashmap"
+        },
+        {
+          "title": "8.7Additional Topics",
+          "url": "https://app.programiz.pro/course/dsa-with-python/additional-topics"
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "lessons": [
+        {
+          "title": "9.1Introduction",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction"
+        },
+        {
+          "title": "9.2Brute Force Method",
+          "url": "https://app.programiz.pro/course/dsa-with-python/brute-force-method"
+        },
+        {
+          "title": "9.3Rabin-Karp String Matching Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/rabinkarp-string-matching-algorithm"
+        },
+        {
+          "title": "9.4Knuth-Morris-Pratt (KMP) Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/knuthmorrispratt-kmp-algorithm"
+        }
+      ]
+    },
+    {
+      "title": "Non-linear Data Structure",
+      "lessons": [
+        {
+          "title": "10.1Non-linear Data Structure",
+          "url": "https://app.programiz.pro/course/dsa-with-python/nonlinear-data-structure"
+        },
+        {
+          "title": "10.2Tree Data Structure",
+          "url": "https://app.programiz.pro/course/dsa-with-python/tree-data-structure"
+        },
+        {
+          "title": "10.3Implementation of Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-trees"
+        },
+        {
+          "title": "10.4Tree Traversal",
+          "url": "https://app.programiz.pro/course/dsa-with-python/tree-traversal"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Binary Trees",
+      "lessons": [
+        {
+          "title": "11.1Introduction to Binary Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-binary-trees"
+        },
+        {
+          "title": "11.2Properties of Binary Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/properties-of-binary-trees"
+        },
+        {
+          "title": "11.3Implementation of Binary Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-binary-trees"
+        },
+        {
+          "title": "11.4Traversal of Binary Tree",
+          "url": "https://app.programiz.pro/course/dsa-with-python/traversal-of-binary-tree"
+        },
+        {
+          "title": "11.5Types of Binary Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/types-of-binary-trees"
+        },
+        {
+          "title": "11.6Example: Huffman Coding",
+          "url": "https://app.programiz.pro/course/dsa-with-python/example-huffman-coding"
+        },
+        {
+          "title": "11.7Example: Binary Search Tree",
+          "url": "https://app.programiz.pro/course/dsa-with-python/example-binary-search-tree"
+        }
+      ]
+    },
+    {
+      "title": "Array Representation of Binary Tree",
+      "lessons": [
+        {
+          "title": "12.1Array Representation of Binary Tree",
+          "url": "https://app.programiz.pro/course/dsa-with-python/array-representation-of-binary-tree"
+        },
+        {
+          "title": "12.2Introduction to Heaps",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-heaps"
+        },
+        {
+          "title": "12.3Heap Operations",
+          "url": "https://app.programiz.pro/course/dsa-with-python/heap-operations"
+        },
+        {
+          "title": "12.4Heapify",
+          "url": "https://app.programiz.pro/course/dsa-with-python/heapify"
+        },
+        {
+          "title": "12.5Heap Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/heap-sort"
+        },
+        {
+          "title": "12.6Heap as a Priority Queue",
+          "url": "https://app.programiz.pro/course/dsa-with-python/heap-as-priority-queue"
+        }
+      ]
+    },
+    {
+      "title": "Graph Data Structure",
+      "lessons": [
+        {
+          "title": "13.1Graph Data Structure",
+          "url": "https://app.programiz.pro/course/dsa-with-python/graph-data-structure"
+        },
+        {
+          "title": "13.2Graph Terminologies",
+          "url": "https://app.programiz.pro/course/dsa-with-python/graph-terminologies"
+        },
+        {
+          "title": "13.3Adjacency Matrix",
+          "url": "https://app.programiz.pro/course/dsa-with-python/adjacency-matrix"
+        },
+        {
+          "title": "13.4Adjacency List",
+          "url": "https://app.programiz.pro/course/dsa-with-python/adjacency-list"
+        },
+        {
+          "title": "13.5Graph Traversal With DFS Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/graph-traversal-with-dfs-algorithm"
+        },
+        {
+          "title": "13.6BFS Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/bfs-algorithm"
+        }
+      ]
+    },
+    {
+      "title": "Graph Connectivity",
+      "lessons": [
+        {
+          "title": "14.1Graph Connectivity",
+          "url": "https://app.programiz.pro/course/dsa-with-python/graph-connectivity"
+        },
+        {
+          "title": "14.2Touring a Graph",
+          "url": "https://app.programiz.pro/course/dsa-with-python/touring-graph"
+        },
+        {
+          "title": "14.3Graph Comparisons and Special Properties",
+          "url": "https://app.programiz.pro/course/dsa-with-python/graph-comparisons-special-properties"
+        },
+        {
+          "title": "14.4Types of Graph",
+          "url": "https://app.programiz.pro/course/dsa-with-python/types-of-graph"
+        }
+      ]
+    },
+    {
+      "title": "Graph Based Algorithms",
+      "lessons": [
+        {
+          "title": "15.1Graph Based Algorithms",
+          "url": "https://app.programiz.pro/course/dsa-with-python/graph-based-algorithms"
+        },
+        {
+          "title": "15.2Topological Sorting",
+          "url": "https://app.programiz.pro/course/dsa-with-python/topological-sorting"
+        },
+        {
+          "title": "15.3Dijkstra's Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/dijkstras-algorithm"
+        },
+        {
+          "title": "15.4Bellman Ford's Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/bellman-fords-algorithm"
+        },
+        {
+          "title": "15.5Ford Fulkerson Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/ford-fulkerson-algorithm"
+        },
+        {
+          "title": "15.6Spanning Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/spanning-trees"
+        },
+        {
+          "title": "15.7Kruskal's Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/kruskals-algorithm"
+        },
+        {
+          "title": "15.8Prim's Algorithm",
+          "url": "https://app.programiz.pro/course/dsa-with-python/prims-algorithm"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Greedy Algorithms",
+      "lessons": [
+        {
+          "title": "16.1Introduction to Greedy Algorithms",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-greedy-algorithms"
+        },
+        {
+          "title": "16.2The Classroom Scheduling Problem",
+          "url": "https://app.programiz.pro/course/dsa-with-python/classroom-scheduling-problem"
+        },
+        {
+          "title": "16.3Coin Change Problem",
+          "url": "https://app.programiz.pro/course/dsa-with-python/coin-change-problem"
+        },
+        {
+          "title": "16.4The Fractional Knapsack Problem",
+          "url": "https://app.programiz.pro/course/dsa-with-python/fractional-knapsack-problem"
+        },
+        {
+          "title": "16.50-1 Knapsack Problem",
+          "url": "https://app.programiz.pro/course/dsa-with-python/knapsack-problem"
+        }
+      ]
+    },
+    {
+      "title": "Additional Sorting Techniques",
+      "lessons": [
+        {
+          "title": "17.1Additional Sorting Techniques",
+          "url": "https://app.programiz.pro/course/dsa-with-python/additional-sorting-techniques"
+        },
+        {
+          "title": "17.2Bucket Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/bucket-sort"
+        },
+        {
+          "title": "17.3Radix Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/radix-sort"
+        },
+        {
+          "title": "17.4Shell Sort",
+          "url": "https://app.programiz.pro/course/dsa-with-python/shell-sort"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Balanced Trees",
+      "lessons": [
+        {
+          "title": "18.1Introduction to Balanced Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-balanced-trees"
+        },
+        {
+          "title": "18.2AVL Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/avl-trees"
+        },
+        {
+          "title": "18.3Red-Black Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/redblack-trees"
+        }
+      ]
+    },
+    {
+      "title": "B-Trees",
+      "lessons": [
+        {
+          "title": "19.1B-Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/btrees"
+        },
+        {
+          "title": "19.2B-Tree Operations",
+          "url": "https://app.programiz.pro/course/dsa-with-python/btree-operations"
+        },
+        {
+          "title": "19.3B+ Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/bplus-trees"
+        },
+        {
+          "title": "19.4Operations in B+ Trees",
+          "url": "https://app.programiz.pro/course/dsa-with-python/operations-in-bplus-trees"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Dynamic Programming",
+      "lessons": [
+        {
+          "title": "20.1Introduction to Dynamic Programming",
+          "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-dynamic-programming"
+        },
+        {
+          "title": "20.2Fibonacci Series Using Dynamic Programming",
+          "url": "https://app.programiz.pro/course/dsa-with-python/fibonacci-series-using-dynamic-programming"
+        },
+        {
+          "title": "20.3The 0-1 Knapsack Problem",
+          "url": "https://app.programiz.pro/course/dsa-with-python/0-1-knapsack-problem"
+        }
+      ]
+    },
+    {
+      "title": "What's Next?",
+      "lessons": [
+        {
+          "title": "21.1What's Next?",
+          "url": "https://app.programiz.pro/course/dsa-with-python/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 94,
+    "sections": 21,
+    "container": "main-content"
+  }
+}

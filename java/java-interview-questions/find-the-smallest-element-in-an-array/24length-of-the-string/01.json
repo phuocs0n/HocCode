@@ -1,0 +1,52 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/length-of-string?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a Java program to find the length of the string without using the length() method. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"Jump\"\noutput = 4\nreason = There are 4 letters in Jump."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"Smooth\"\noutput = 6\nreason = There are 6 letters in Smooth."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"SKY\"\noutput = 3\nreason = There are 3 letters in Sky."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

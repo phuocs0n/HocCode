@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-query/setting-up?page=3",
+  "title": "Connect React Query to Your App",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Connect React Query to Your App"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that React Query is installed, you need to wire it up. You do that by wrapping your app with a QueryClientProvider."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of it like a power source. Every component inside your app that uses React Query gets its power from this one place."
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to pull in two things for this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { QueryClient, QueryClientProvider } from '@tanstack/react-query'\nimport { ReactQueryDevtools } from '@tanstack/react-query-devtools'"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then you create the client and wrap your app:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const queryClient = new QueryClient()\n\n<QueryClientProvider client={queryClient}>\n  <App />\n</QueryClientProvider>"
+    },
+    {
+      "type": "paragraph",
+      "content": "ReactQueryDevtools floats in the corner of your app and shows you exactly what's cached and when things are refetching. You'll use it a lot."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full file so you can see how it all fits together."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

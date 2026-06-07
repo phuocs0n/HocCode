@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/storing-arrays-objects?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why is it better to store isLoading and error in the Zustand store rather than inside a component?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useState cannot hold boolean values"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useState can hold any value including booleans. That is not why."
+    },
+    {
+      "type": "paragraph",
+      "content": "useState can hold any value including booleans. That is not why."
+    },
+    {
+      "type": "paragraph",
+      "content": "So any component in the app can read and react to the loading and error state without prop drilling"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! When isLoading and error live in the store, any component can read them directly. No need to pass them as props through the tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct! When isLoading and error live in the store, any component can read them directly. No need to pass them as props through the tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because Zustand automatically handles fetch errors for you"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not handle errors automatically. You still need to use try/catch inside your async action."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not handle errors automatically. You still need to use try/catch inside your async action."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because components cannot access fetch responses directly"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Components can absolutely fetch data themselves. The reason to move it to the store is about sharing state, not access."
+    },
+    {
+      "type": "paragraph",
+      "content": "Components can absolutely fetch data themselves. The reason to move it to the store is about sharing state, not access."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why is it better to store isLoading and error in the Zustand store rather than inside a component?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because useState cannot hold boolean values",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because useState cannot hold boolean values",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So any component in the app can read and react to the loading and error state without prop drilling",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So any component in the app can read and react to the loading and error state without prop drilling",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because Zustand automatically handles fetch errors for you",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because Zustand automatically handles fetch errors for you",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because components cannot access fetch responses directly",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because components cannot access fetch responses directly",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

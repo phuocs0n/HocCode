@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-visibility-with-classes-toggle?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: For a \"Read more\" section that expands and collapses smoothly, why is it better to toggle a CSS class instead of setting element.style.height directly in JavaScript?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "So the content loads faster."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Changing styles this way does not affect loading speed. The benefit is structure and maintainability."
+    },
+    {
+      "type": "paragraph",
+      "content": "Changing styles this way does not affect loading speed. The benefit is structure and maintainability."
+    },
+    {
+      "type": "paragraph",
+      "content": "So we can use a CSS transition and let the browser handle the animation while keeping styling inside CSS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript changes the state by toggling a class. CSS handles how that state looks and animates."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript changes the state by toggling a class. CSS handles how that state looks and animates."
+    },
+    {
+      "type": "paragraph",
+      "content": "So screen readers can detect the content."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Accessibility is important, but that is not the main reason for choosing classes here."
+    },
+    {
+      "type": "paragraph",
+      "content": "Accessibility is important, but that is not the main reason for choosing classes here."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the button text can change between \"Read more\" and \"Show less.\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The button text can change either way. The key advantage is separating behavior from styling."
+    },
+    {
+      "type": "paragraph",
+      "content": "The button text can change either way. The key advantage is separating behavior from styling."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: For a \"Read more\" section that expands and collapses smoothly, why is it better to toggle a CSS class instead of setting element.style.height directly in JavaScript?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:So the content loads faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "So the content loads faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So we can use a CSS transition and let the browser handle the animation while keeping styling inside CSS.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So we can use a CSS transition and let the browser handle the animation while keeping styling inside CSS.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:So screen readers can detect the content.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "So screen readers can detect the content.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So the button text can change between \"Read more\" and \"Show less.\"",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So the button text can change between \"Read more\" and \"Show less.\"",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

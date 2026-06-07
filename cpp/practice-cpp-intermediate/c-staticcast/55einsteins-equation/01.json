@@ -1,0 +1,116 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/einsteins-equation?page=1",
+  "title": "Einstein's Equation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Einstein's Equation"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to solve Einstein's famous equation:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "E = mc2"
+    },
+    {
+      "type": "paragraph",
+      "content": "where,"
+    },
+    {
+      "type": "paragraph",
+      "content": "E = energy (in Joules)"
+    },
+    {
+      "type": "paragraph",
+      "content": "m = mass (in grams)"
+    },
+    {
+      "type": "paragraph",
+      "content": "c = speed of light (in meters/second2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The speed of light is given by:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "c = 2.988 x 108 m/s2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use #define to set the value of the speed of light macro C to 2.988e8.",
+        "Create a function-like macro calculate_energy() that takes an argument m and returns the value m * C * C."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), get user input for the double variable mass.",
+        "Call the calculate_energy() macro by passing mass as its parameter.",
+        "Store the return value in the energy variable.",
+        "Print energy."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output4.46407e+17"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

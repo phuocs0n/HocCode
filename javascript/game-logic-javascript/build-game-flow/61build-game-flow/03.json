@@ -1,0 +1,57 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/build-game-flow?page=4",
+  "title": "Try it yourself",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Try it yourself"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've built the full game. Now the fun part is making it yours."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run it once from start to finish so you can feel the flow: questions, score, pass/fail, replay."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then change one small thing and run it again. That's how you start seeing the structure:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The rules live at the top (passMark, passMessage, failMessage)",
+        "The content lives in questions (each question has question, options, answer)",
+        "The loop ties it together using questions.length"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "One small edit is enough to see how the pieces connect."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

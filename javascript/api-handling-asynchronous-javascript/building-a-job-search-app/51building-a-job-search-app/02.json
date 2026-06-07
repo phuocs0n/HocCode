@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/building-job-search-app?page=3",
+  "title": "Step 2: API Communication",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: API Communication"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll fetch job listings from Remotive, a real remote job board API. Our fetchJobs() function will:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Build the URL safely using encodeURIComponent() so special characters don't break the request",
+        "Use async/await to handle the asynchronous fetch operation",
+        "Parse the JSON response and return the jobs array",
+        "Wrap everything in a try...catch block to handle any errors that occur"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "async function fetchJobs(keyword) {\n    const url = `https://api.programiz.pro/api/demo/javascript/jobs?title=${encodeURIComponent(keyword)}`;\n\n    try {\n\n        const response = await fetch(url);\n\n        const data = await response.json();\n\n        return data.jobs;\n    }\n    catch (error) {\n        throw new Error(error.message);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function handles the core workflow: build the URL, fetch the data, parse the response, and return the jobs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's focus a bit more on the process of building the URL before moving on to the next step."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

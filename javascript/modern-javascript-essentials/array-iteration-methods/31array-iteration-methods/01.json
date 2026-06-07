@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/array-iteration-methods?page=1",
+  "title": "forEach",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "forEach"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arrays become truly powerful when you can run logic across every element without writing a manual loop. forEach runs a function on each element but returns nothing."
+    },
+    {
+      "type": "paragraph",
+      "content": "To simplify, we use it when we want to do something with each element like printing it or saving it, but do not need a new array back."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice how the function inside uses the arrow syntax you learned in Chapter 1."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const scores = [80, 45, 92, 67];\n2\n3scores.forEach(score => console.log(score));"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, forEach walks through scores one item at a time and logs each value. It does not produce a new array - it simply performs an action on each element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,144 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-pointers?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\ntypedef struct Student {\n  int marks;\n} students;\n\nint main() {\n  students *ptr, st1;\n  ptr = &st1;\n  st1.marks = 70;\n  printf(\"%d\\n\", ptr->marks);\n  printf(\"%d\", (*ptr).marks);\n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since ptr points to st1, both ptr-> marks and (*ptr).marks give the value of st1.marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since ptr points to st1, both ptr-> marks and (*ptr).marks give the value of st1.marks."
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks is not 0 since it gives the value of str1.marks i.e. 70."
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks is not 0 since it gives the value of str1.marks i.e. 70."
+    },
+    {
+      "type": "paragraph",
+      "content": "70"
+    },
+    {
+      "type": "paragraph",
+      "content": "0x7ffd121b258a"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks gives the data stored in str1.marks and not its address."
+    },
+    {
+      "type": "paragraph",
+      "content": "(*ptr).marks gives the data stored in str1.marks and not its address."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code runs without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code runs without any error."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:7070",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "7070",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:700",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "700",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:700x7ffd121b258a",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "700x7ffd121b258a",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Error",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Error",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,46 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-consolelog?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "You have used console.log() to display a single value or variable. Here's a quick recap:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Display a number\n2console.log(34);    // Output: 34\n3\n4// Display a string\n5console.log(\"Squid Game\");    // Output: Squid Game\n6\n7// Create a variable\n8let city = \"London\";\n9\n10// Display the city variable\n11console.log(city);     // Output: London"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you'll learn to print multiple values and variables with a single console.log() statement."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

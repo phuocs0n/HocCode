@@ -1,0 +1,133 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/topological-sorting?page=9",
+  "title": "Thought Process: Topological Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Topological Sort"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we know the working of topological sort, let's try and implement it in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, let's create the necessary containers. For topological sorting we'll need:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A vector indegrees to store the indegrees of all vertices.",
+        "A queue q to store the vertices with zero indegree.",
+        "A vector sorted_vertices to keep track of the sorted vertices.",
+        "A variable current_vertex to store the vertex we are currently at."
+      ]
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can implement topological sorting with the following steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Find the indegrees of all the vertices."
+    },
+    {
+      "type": "paragraph",
+      "content": "We first find the indegree of all vertices. For this, we iterate through the adjacency list and increase the indegree of the vertex with the incoming edge."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "vector<int> indegrees(num_vertices + 1);\nfor(int i = 1; i <= num_vertices; ++i) {\n    for(auto node: adj_list[i]) {\n        ++indegrees[node];\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Add the vertices to the queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "We add all the vertices with zero indegree to the queue."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for(int i = 1; i <= num_vertices; ++i) {\n    if(!indegrees[i]) {\n        q.push(i);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Process the first element."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll now process the first element of the queue by performing a dequeue operation."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int current_vertex = q.front();\nq.pop();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then we'll append this vertex to the sorted_vertices vector."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "sorted_vertices.push_back(current_vertex);"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Update the indegrees of the outgoing vertices."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we have added a vertex to sorted_vertices, we need to remove its influence from the rest of the graph. So, we'll decrease the indegree of every vertex that has an incoming edge from current_vertex."
+    },
+    {
+      "type": "paragraph",
+      "content": "If this results in another vertex having a indegree 0, we'll push it to the queue."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for(int destination_vertex: adj_list[current_vertex]) {\n    --indegrees[destination_vertex];\n    if(!indegrees[destination_vertex]) {\n        q.push(destination_vertex);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Repeat until the queue is empty."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "while (!q.empty()) {\n    // Code of above steps\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

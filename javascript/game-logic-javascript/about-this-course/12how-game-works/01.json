@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/how-game-works?page=2",
+  "title": "Your first tool",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your first tool"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first tool we use is the console. In the browser (or in Node), the console is where your program can print messages."
+    },
+    {
+      "type": "paragraph",
+      "content": "For a quiz, we'll use it to show questions, options, and results. The function that prints text to the console is console.log(). Try this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"Welcome to the Quiz Game\");\n2console.log(\"You will be asked 5 questions\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, each console.log() sends one line to the console. That's our main way to communicate with the player until we add fancier UI later."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Mindset"
+    },
+    {
+      "type": "paragraph",
+      "content": "As a developer, I use console.log for every message the player must see so there's one clear rule: no guessing where output comes from."
+    },
+    {
+      "type": "paragraph",
+      "content": "When I come back to the code later, I know that anything the player sees went through console.log()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

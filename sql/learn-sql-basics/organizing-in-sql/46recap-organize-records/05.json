@@ -1,0 +1,50 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-2?page=6",
+  "title": "Finding the Understaffed Departments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding the Understaffed Departments"
+    },
+    {
+      "type": "paragraph",
+      "content": "To gain deeper insights, you're asked to find the departments with less than two employees. This helps the company pinpoint understaffed departments."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, use the HAVING clause to filter the results after applying the GROUP BY clause."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Find department with less than 2 employees\n2\n3SELECT department, COUNT(*) AS num_of_employees\n4FROM Employees\n5GROUP BY department\n6HAVING COUNT(*) < 2;"
+    },
+    {
+      "type": "paragraph",
+      "content": "From these insights, the company can increase its workforce depending on its requirements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

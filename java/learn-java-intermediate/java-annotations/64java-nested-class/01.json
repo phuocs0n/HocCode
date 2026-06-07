@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-nested-class?page=2",
+  "title": "Access inner / nested class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Access inner / nested class"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a class CPU with a nested class Processor."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// outer class\nclass CPU {\n\n    // nested class\n    class Processor {\n\n        void display() {\n            System.out.println(\"Processor\");\n        }\n\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "To access the fields and methods of nested class:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. We must create an object of outer class"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "CPU cpu = new CPU();"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Create an object of inner class using the object of the outer class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "CPU.Processor p1 = cpu.new Processor();"
+    },
+    {
+      "type": "paragraph",
+      "content": "As the Processor is inside the CPU class the Processor class is referred to as CPU.Processor instead of just Processor."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

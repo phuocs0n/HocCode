@@ -1,0 +1,76 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/multiline-comments?page=1",
+  "title": "Creating Multiline Comments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Multiline Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "By now, you must be familiar with using comments in code."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        // Create a variable\n5        int age = 24;\n6        \n7        // Print the variable\n8        System.out.println(age);\n9    }\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, // Create a variable and // Print the variable are two comments."
+    },
+    {
+      "type": "paragraph",
+      "content": "These are called single-line comments."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, suppose we have to add a comment that extends for multiple lines. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "In this program, we will create an age variable.\nWe will assign the value 24 to the variable.\nAnd finally, print the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, adding // before every sentence doesn't make our code look good. So, instead, we can use a multi-line comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "A multiline comment starts from /* and ends with */. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "/*\nIn this program, we will create an age variable.\nWe will assign the value 24 to the variable.\nAnd finally, print the variable.\n*/"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll see an example using multiline comments."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/building-logic?page=7",
+  "title": "Using the Function in the Program",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using the Function in the Program"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you can use the checkPrime function in the program:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const checkPrime = (number) => {\n2    if (number <= 1) {\n3        return false;\n4    }\n5\n6    if (number > 1) {\n7        for (let i = 2; i < number; i++) {\n8            if (number % i === 0) {\n9                return false;\n10            }\n11        }\n12        return true;\n13    }\n14}\n15\n16const number = parseInt(prompt(\"Enter a number: \"));\n17\n18// Call the checkPrime function\n19let isPrime = checkPrime(number);\n20\n21if (isPrime) {\n22    console.log(`${number} is prime`);\n23} else {\n24    console.log(`${number} is not prime`);\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: 17\n17 is prime"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll learn how to find prime numbers between two numbers."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

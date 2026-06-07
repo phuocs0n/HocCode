@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-python/graph-connectivity?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this chapter, you will learn about different terminologies and the theory behind graph data structure. Let's start with the concept of graph connectivity."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Connectivity"
+    },
+    {
+      "type": "paragraph",
+      "content": "Connectivity in a graph refers to the level of connectedness of a graph. In practical terms, it signifies the fewest number of nodes or edges you must remove to split the graph into at least two isolated parts."
+    },
+    {
+      "type": "paragraph",
+      "content": "The greater the connectivity of a graph, the stronger and more reliable the network becomes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

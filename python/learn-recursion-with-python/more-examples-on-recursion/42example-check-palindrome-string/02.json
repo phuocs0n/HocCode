@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/example-check-palindrome-string?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def check_palindrome(text):\n2\n3    # if the string is empty or contains a single character, \n4    # the string is a palindrome\n5    if text == \"\" or len(text) == 1:\n6        return True\n7    \n8    # check if the first and last characters are the same\n9    if text[0] == text[-1]:\n10        return check_palindrome(text[1: -1])\n11    else:\n12        return False\n13\n14result = check_palindrome(\"level\")\n15print(result)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "True"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will look at how this program works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-python/examples-linked-list?page=7",
+  "title": "Source Code: Reverse Elements of a Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Reverse Elements of a Linked List"
+    },
+    {
+      "type": "paragraph",
+      "content": "To reverse elements of a linked list, we will"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Copy the values of the linked list to a new list.",
+        "Iterate through the new list in reverse order.",
+        "Assign the reversed values to the nodes of the linked list."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def reverse_elements(self):\n2    # new list to copy the values\n3    values = []\n4    current = self.head\n5\n6    # copy values of linked list to the new list\n7    while current:\n8        values.append(current.data)\n9        current = current.next\n10    \n11    current = self.head\n12\n13    # iterate through the new list in reverse order\n14    for value in reversed(values):\n15        # copy the reversed value to the original list\n16        current.data = value\n17        current = current.next"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Original Linked List:\n2->4->6->8->None\n\nReversed Elements:\n8->6->4->2->None"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

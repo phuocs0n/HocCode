@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/numpy-introduction?page=3",
+  "title": "Import NumPy Library",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Import NumPy Library"
+    },
+    {
+      "type": "paragraph",
+      "content": "To use NumPy in Python, we first need to import it."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can import NumPy in Python using the import statement."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import numpy"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code above imports the numpy library in our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, it is a common convention to import NumPy with an alias."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import numpy as np"
+    },
+    {
+      "type": "paragraph",
+      "content": "We shorten the imported name to np for better readability of code using NumPy. This is a widely adopted convention that you should follow so that anyone working with your code can easily understand it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we import NumPy, we can use NumPy functions and objects by calling them using np."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, in our first program, np.array() is the function provided by the NumPy library and we could easily access it using np."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

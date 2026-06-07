@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-annotations?page=1",
+  "title": "Java Annotations",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Java Annotations"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java annotation additional information about the program that can be used by Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "Annotations start with @. Its syntax is:"
+    },
+    {
+      "type": "paragraph",
+      "content": "@AnnotationName"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we learn about annotations, let's quickly revise Java Inheritance which we learned in the Java OOP Course."
+    },
+    {
+      "type": "paragraph",
+      "content": "Revise: Java Inheritance"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of inheritance is simple, the child class can inherit all the fields and methods of the parent class."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use extends keyword to inherit from a parent class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Animal {\n    public void displayInfo() {\n        System.out.println(\"I am an animal.\");\n    }\n}\n\nclass Dog extends Animal {\n\n    // override the display() method\n    public void displayinfo() {\n        System.out.println(\"I am a dog.\");\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Dog - child class (subclass)",
+        "Animal - parent class (superclass)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the Dog class can inherit all fields and methods of Animal class. The Dog class can have its own fields and class too."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

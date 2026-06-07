@@ -1,0 +1,68 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/project-todo-list?page=5",
+  "title": "Adding Tasks",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding Tasks"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, you'll work on the \"+ List Item\" button to add new tasks."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div id=\"container\">\n2    <h1 id=\"title\">To-do List</h1>\n3    <button id=\"add-list-btn\">List Item</button>\n4    <div id=\"todo-lists\"></div>\n5</div>\n6<button id=\"clear-all-btn\">Clear All</button>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1li {\n2    display: flex;\n3    align-items: center;\n4    margin: 0;\n5    padding: 5px;\n6    border: 1px solid black;\n7    border-top: none;\n8}\n9\n10input[type=\"checkbox\"] {\n11    margin-right: 10px;\n12}\n13\n14.delete {\n15    background-color: transparent;\n16    cursor: pointer;\n17    border: none;\n18    margin-left: 10px;\n19    padding: 5px 10px;\n20}\n21\n22.delete:hover {\n23    font-weight: bold;\n24    background-color: #f1f1f1;\n25}\n26\n27input[type=\"text\"] {\n28    color: #25265ede;\n29    background-color: transparent;\n30    flex-grow: 1;\n31    border: none;\n32    outline: none;\n33}\n34\n35input[type=\"text\"]:focus {\n36    border-bottom: 1px solid black;\n37}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1addListBtn.addEventListener(\"click\", () => {\n2    // Create list item.\n3    const todoItem = document.createElement(\"li\");\n4\n5    // Create checkbox.\n6    const checkbox = document.createElement(\"input\");\n7    checkbox.type = \"checkbox\";\n8\n9    // Create textfield.\n10    const inputField = document.createElement(\"input\");\n11    inputField.type = \"text\";\n12    inputField.placeholder = \"Enter Task\";\n13\n14    // Create delete button.\n15    const deleteBtn = document.createElement(\"button\");\n16    deleteBtn.classList.add(\"delete\");\n17    deleteBtn.textContent = \"X\";\n18\n19    // Add checkbox, textfield, and delete buton to list item.\n20    todoItem.append(checkbox, inputField, deleteBtn);\n21\n22    // Add list item to list.\n23    todoListsContainer.appendChild(todoItem);\n24});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code above and click the \"+ List Item\" button."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll notice that each click adds a new list item containing a checkbox, a text field, and a delete (X) button."
+    },
+    {
+      "type": "paragraph",
+      "content": "While the items are being added, the checkbox and delete button are not functional yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's make them functional on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

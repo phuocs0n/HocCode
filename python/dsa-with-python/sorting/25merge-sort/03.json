@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/merge-sort?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why is merge sort considered a divide and conquer algorithm?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It only divides the list without conquering."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Merely dividing without sorting and merging wouldn't accomplish the sort."
+    },
+    {
+      "type": "paragraph",
+      "content": "Merely dividing without sorting and merging wouldn't accomplish the sort."
+    },
+    {
+      "type": "paragraph",
+      "content": "It sorts individual elements before dividing."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The process is to divide first, then sort and merge."
+    },
+    {
+      "type": "paragraph",
+      "content": "The process is to divide first, then sort and merge."
+    },
+    {
+      "type": "paragraph",
+      "content": "It divides the list into two halves recursively, and then recursively sorts and merges them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The essence of merge sort is to divide the list, recursively sort the sublists, and then merge them."
+    },
+    {
+      "type": "paragraph",
+      "content": "The essence of merge sort is to divide the list, recursively sort the sublists, and then merge them."
+    },
+    {
+      "type": "paragraph",
+      "content": "It combines lists without dividing them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dividing the list is a fundamental part of the merge sort algorithm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dividing the list is a fundamental part of the merge sort algorithm."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why is merge sort considered a divide and conquer algorithm?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It only divides the list without conquering.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It only divides the list without conquering.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It sorts individual elements before dividing.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It sorts individual elements before dividing.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It divides the list into two halves recursively, and then recursively sorts and merges them.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It divides the list into two halves recursively, and then recursively sorts and merges them.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It combines lists without dividing them.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It combines lists without dividing them.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

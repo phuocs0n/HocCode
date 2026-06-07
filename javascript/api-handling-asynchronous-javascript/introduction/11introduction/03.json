@@ -1,0 +1,62 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/introduction?page=4",
+  "title": "A Simple Example",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Simple Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're building a blog, and it needs to show a list of articles for people to read and interact with. Those articles are somewhere on a server, and you need to display them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's visualize what the steps would be:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Someone comes to your site",
+        "The JS requests the server for the articles",
+        "The server gives you the articles",
+        "The JS shows the articles with HTML and CSS"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Sounds straightforward right? But there's a problem: step 2 involves sending a request to the server."
+    },
+    {
+      "type": "paragraph",
+      "content": "How long do you think you'll be waiting for the server to respond?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The truth is, you never know: it all depends on the server."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

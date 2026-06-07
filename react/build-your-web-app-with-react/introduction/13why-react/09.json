@@ -1,0 +1,131 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/why-react?page=10",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: You're building a user dashboard that shows a list of tasks, a calendar, and notifications. All three update when the user completes a task. Why might React be a good choice here?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React automatically updates all three sections when the task data changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React keeps the UI in sync with your data."
+    },
+    {
+      "type": "paragraph",
+      "content": "React keeps the UI in sync with your data."
+    },
+    {
+      "type": "paragraph",
+      "content": "React makes the page load faster than plain JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed is not React's main advantage."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed is not React's main advantage."
+    },
+    {
+      "type": "paragraph",
+      "content": "React prevents you from writing any JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React is a JavaScript library, not a replacement for it."
+    },
+    {
+      "type": "paragraph",
+      "content": "React is a JavaScript library, not a replacement for it."
+    },
+    {
+      "type": "paragraph",
+      "content": "React eliminates the need for HTML and CSS"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React uses JSX (which looks like HTML) and still needs CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "React uses JSX (which looks like HTML) and still needs CSS."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: You're building a user dashboard that shows a list of tasks, a calendar, and notifications. All three update when the user completes a task. Why might React be a good choice here?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React automatically updates all three sections when the task data changes",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React automatically updates all three sections when the task data changes",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:React makes the page load faster than plain JavaScript",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "React makes the page load faster than plain JavaScript",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:React prevents you from writing any JavaScript",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "React prevents you from writing any JavaScript",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:React eliminates the need for HTML and CSS",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "React eliminates the need for HTML and CSS",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

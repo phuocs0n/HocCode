@@ -1,0 +1,54 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/right-join?page=6",
+  "title": "Example 2: Validating Customer-Order Connections",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Validating Customer-Order Connections"
+    },
+    {
+      "type": "paragraph",
+      "content": "To ensure that orders are linked to the right customers, you need to identify cases where each order has a corresponding customer entry."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, RIGHT JOIN is perfect because it includes all records from the Orders table and matches them with available records from the Customers table."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Use RIGHT JOIN to ensure each order is \n2-- linked to a customer\n3\n4SELECT Orders.product_name, Customers.customer_name, Customers.city\n5FROM Customers\n6RIGHT JOIN Orders \n7ON Customers.customer_id = Orders.customer_id\n8WHERE Customers.customer_id IS NULL;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, when a customer record exists, it confirms the link is correct; if it's NULL, it indicates an issue. This query returns all orders that have issues."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's reinforce what you've learned with a quiz and practice exercise."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/standard-library-methods?page=1",
+  "title": "Library Methods Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Library Methods Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the last lesson, we learned to create our own methods. More specifically, we wrote the method definition ourselves. These are called user-defined methods."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, there is another type of method called standard library methods."
+    },
+    {
+      "type": "paragraph",
+      "content": "They are built-in methods that are already defined in library files and we can directly use them in our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example to print a text."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        System.out.println(\"Hello World\");\n4    }\n5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, println() of System.out.println() is a standard library method that prints the text on the screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "We haven't provided any definition for the System.out.println() but we are still able to use it in our program."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because the method definition of println() is already defined inside the Java library."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, the nextInt() method that we use to take int input is also a standard library method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

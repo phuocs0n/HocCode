@@ -1,0 +1,42 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/queue?page=3",
+  "title": "Visualize Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Visualize Queue"
+    },
+    {
+      "type": "paragraph",
+      "content": "To get a better understanding of how enqueue and dequeue works in a queue, run the visualizer below:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# create class to represent queue\n2class Queue:\n3    def __init__(self):\n4        self.queue = []\n5\n6    def enqueue(self, item):\n7        self.queue.append(item)\n8\n9    def dequeue(self):\n10        return self.queue.pop(0)\n11\n12    def print_queue(self, message):\n13        print(f\"{message}: {self.queue}\")\n14\n15# Initialize the queue\n16queue1 = Queue()\n17\n18# Add elements to the queue\n19queue1.enqueue(5)\n20queue1.enqueue(10)\n21queue1.enqueue(100)\n22\n23# Print the queue\n24queue1.print_queue(\"Queue after adding 3 elements\")\n25\n26# Remove one item\n27print(f\"Dequeued Element: {queue1.dequeue()}\")\n28queue1.print_queue(\"After removing one item\")\n29\n30# Remove another item\n31print(f\"Dequeued Element: {queue1.dequeue()}\")\n32queue1.print_queue(\"After removing another item\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

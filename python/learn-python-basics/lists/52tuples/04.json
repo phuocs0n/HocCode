@@ -1,0 +1,172 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-python-basics/tuples?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "even_numbers = (2, 4, 6, 8)\nprint(even_numbers[2])"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts at 0. So, even_numbers[2] gives the third item, not the first item."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts at 0. So, even_numbers[2] gives the third item, not the first item."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple index starts from 0, not 1. Hence, even_numbers[2] gives the third item, not the second item."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple index starts from 0, not 1. Hence, even_numbers[2] gives the third item, not the second item."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "even_numbers[2] gives the third item because tuple index starts at 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "even_numbers[2] gives the third item because tuple index starts at 0."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts from 0. So, even_numbers[2] gives the third item, not the fourth item."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts from 0. So, even_numbers[2] gives the third item, not the fourth item."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts at 0. So, even_numbers[2] gives the third item, not the first item."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts at 0. So, even_numbers[2] gives the third item, not the first item."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple index starts from 0, not 1. Hence, even_numbers[2] gives the third item, not the second item."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple index starts from 0, not 1. Hence, even_numbers[2] gives the third item, not the second item."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "even_numbers[2] gives the third item because tuple index starts at 0."
+    },
+    {
+      "type": "paragraph",
+      "content": "even_numbers[2] gives the third item because tuple index starts at 0."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts from 0. So, even_numbers[2] gives the third item, not the fourth item."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuple indexing starts from 0. So, even_numbers[2] gives the third item, not the fourth item."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:2",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:4",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:6",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:8",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "8",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

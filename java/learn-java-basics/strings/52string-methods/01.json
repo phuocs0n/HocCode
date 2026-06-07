@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/string-methods?page=1",
+  "title": "String Methods",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "String Methods"
+    },
+    {
+      "type": "paragraph",
+      "content": "In programming, strings are one the most used data types. It's only natural then that Java comes with multiple inbuilt methods to handle them."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you'll learn about the following methods:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "length() - finds the length of the string",
+        "charAt() - returns a character from the string",
+        "concat() - joins two strings together",
+        "equals() - compares two strings"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with the length() method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

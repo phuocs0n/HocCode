@@ -1,0 +1,47 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-linked-list?page=9",
+  "title": "Source Code: Remove Duplicates From a Sorted Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Remove Duplicates From a Sorted Linked List"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Member function to remove duplicates from a sorted linked list\n2void remove_duplicates(){\n3    // If the list is empty, there is nothing to do\n4    if (head == nullptr) return;\n5    \n6    // Start from the head of the list\n7    Node<T>* current = head;\n8    \n9    // Continue to traverse the list until you reach the end\n10    while(current->next != nullptr){\n11        // Check if the current node and the next node contain the same data\n12        if(current->data == current->next->data) {\n13            // If they do, prepare to delete the next node\n14            Node<T>* node_to_delete = current->next;\n15            \n16            // Bypass the node to be deleted by pointing to the next of next\n17            current->next = node_to_delete->next;\n18            \n19            // Delete the duplicate node\n20            delete node_to_delete;\n21        } \n22        else {\n23            // Move to the next node if there is no duplication\n24            current = current->next;\n25        }\n26    }\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Current Linked List:\n30->55->55->80->80->80->nullptr\n\nAfter removing duplicates:\n30->55->80->nullptr"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

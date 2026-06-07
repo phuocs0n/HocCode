@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/remove-vowels-from-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we need to create a function that takes a string as a parameter and removes all vowels from the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "For that, we need to create a string of all vowels in small and capital letters. We also need to create a blank string so that it will hold the string after removing vowels."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we need to loop through each character in a string. If the character is not in the vowel string, we need to concatenate the character in a new string variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "After completing the loop, we will have a new string by removing all the vowels. Finally, we can print this string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

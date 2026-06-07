@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/array-indexing?page=3",
+  "title": "NumPy Array IndexError",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "NumPy Array IndexError"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, there were 5 elements and we accessed them. But what happens if we try to access the 6th element?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3arr = np.array([1, 2, 3, 4, 5])\n4\n5# access numpy elements\n6print(arr[0])    # 1\n7print(arr[1])    # 2\n8print(arr[2])    # 3\n9print(arr[3])    # 4\n10print(arr[4])    # 5\n11\n12# try to access element at index 5\n13print(arr[5])"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we run this code, we will first get all 5 elements and then an error message:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "IndexError: index 5 is out of bounds for axis 0 with size 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because our array only has 5 elements and we are trying to access the 6th element using index 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/calculate-number-of-times-digit-appears-in-number?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to calculate the number of times a digit appears in a given number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose digit = 5"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 55555\noutput = 5"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 12345\noutput = 1"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "number = 11\noutput = 0"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

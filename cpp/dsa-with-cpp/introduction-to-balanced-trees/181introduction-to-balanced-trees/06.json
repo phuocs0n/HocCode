@@ -1,0 +1,52 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-balanced-trees?page=7",
+  "title": "Why Balance Trees?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Balance Trees?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Balancing a tree guarantees two primary benefits:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Predictable Performance: With a balanced tree, our operations run at a consistent and fast speed.",
+        "Space-Efficient: We don't waste memory due to excessive depth."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This means that basic operations on our balanced tree take a predictable amount of time, usually denoted as O(logn), where n is the number of nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's discuss the common types of structural imbalances that occur in trees."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

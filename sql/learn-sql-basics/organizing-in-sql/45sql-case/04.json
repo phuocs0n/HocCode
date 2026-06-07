@@ -1,0 +1,136 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-case?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is wrong with this code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "SELECT first_name,\n    CASE \n        WHEN score BETWEEN 0 AND 50 \n        WHEN score > 50 AND score <= 100 THEN 'pass'\n        ELSE 'invalid'\n    END AS grade\nFROM Students;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We cannot use BETWEEN in a CASE statement."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use BETWEEN and other operators in a CASE statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use BETWEEN and other operators in a CASE statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "The END part is wrong."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The END keyword is used to indicate that the CASE statement is finished."
+    },
+    {
+      "type": "paragraph",
+      "content": "The END keyword is used to indicate that the CASE statement is finished."
+    },
+    {
+      "type": "paragraph",
+      "content": "A case statement cannot contain the WHEN clause."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The WHEN clause is mandatory in a CASE statement. The WHEN clause is used to specify a condition that should be checked for each row."
+    },
+    {
+      "type": "paragraph",
+      "content": "The WHEN clause is mandatory in a CASE statement. The WHEN clause is used to specify a condition that should be checked for each row."
+    },
+    {
+      "type": "paragraph",
+      "content": "The SQL query is missing the THEN part."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first WHEN clause is missing the THEN part."
+    },
+    {
+      "type": "paragraph",
+      "content": "The first WHEN clause is missing the THEN part."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is wrong with this code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:We cannot use BETWEEN in a CASE statement.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "We cannot use BETWEEN in a CASE statement.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The END part is wrong.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The END part is wrong.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A case statement cannot contain the WHEN clause.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A case statement cannot contain the WHEN clause.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The SQL query is missing the THEN part.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The SQL query is missing the THEN part.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

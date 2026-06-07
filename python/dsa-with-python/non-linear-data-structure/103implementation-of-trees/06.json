@@ -1,0 +1,50 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-python/implementation-of-trees?page=7",
+  "title": "Source Code: Implementation of Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Implementation of Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's combine everything we've done so far into a full-fledged executable program."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# a class to create and add nodes\n2class TreeNode:\n3    def __init__(self, data):\n4        self.data = data\n5        self.children = []\n6\n7    def add_child(self, child):\n8        self.children.append(child)\n9\n10# a class to create tree and perform tree operations\n11class Tree:\n12    def __init__(self, root=None):\n13        self.root = root\n14\n15# create the root node\n16root = TreeNode(\"Book\")\n17\n18# create children of root\n19child1 = TreeNode(1)\n20child2 = TreeNode(2)\n21child3 = TreeNode(3)\n22\n23# create leaf nodes\n24child1_1 = TreeNode(1.1)\n25child1_2 = TreeNode(1.2)\n26child1_3 = TreeNode(1.3)\n27child1_4 = TreeNode(1.4)\n28child2_1 = TreeNode(2.1)\n29child3_1 = TreeNode(3.1)\n30child3_2 = TreeNode(3.2)\n31child3_3 = TreeNode(3.3)\n32\n33# describe relationships between the nodes\n34# and add children to the root node\n35root.add_child(child1)\n36root.add_child(child2)\n37root.add_child(child3)\n38\n39# add children to child1\n40child1.add_child(child1_1)\n41child1.add_child(child1_2)\n42child1.add_child(child1_3)\n43child1.add_child(child1_4)\n44\n45# add children to child2\n46child2.add_child(child2_1)\n47\n48# add children to child3\n49child3.add_child(child3_1)\n50child3.add_child(child3_2)\n51child3.add_child(child3_3)\n52\n53# create the tree\n54general_tree = Tree(root)"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run this program, the output will be empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will learn to traverse a tree to get individual nodes in the next lesson. For now, let's add print statements to get an idea of how this code works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

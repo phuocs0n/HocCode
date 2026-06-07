@@ -1,0 +1,90 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/persisting-store-to-localstorage?page=3",
+  "title": "Seeing Persistence Work",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Seeing Persistence Work"
+    },
+    {
+      "type": "paragraph",
+      "content": "Go ahead and run it. Switch to dark mode. Type something in the search bar. Refresh the page."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { persist } from 'zustand/middleware'\n2 \n3const useJournalStore = create(\n4  persist(\n5    (set) => ({\n6      // ... state and actions\n7    }),\n8    {\n9      name: 'journal-store',\n10      partialize: (state) => ({\n11        theme: state.theme,\n12        searchQuery: state.searchQuery,\n13      }),\n14    }\n15  )\n16)"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import useJournalStore from '../store/useJournalStore'\n2 \n3export default function Header() {\n4  const theme = useJournalStore((state) => state.theme)\n5  const toggleTheme = useJournalStore((state) => state.toggleTheme)\n6  const searchQuery = useJournalStore((state) => state.searchQuery)\n7  const setSearchQuery = useJournalStore((state) => state.setSearchQuery)\n8 \n9  return (\n10    <header className=\"header\">\n11      <h1 className=\"header-title\">My Daily Journal</h1>\n12      <input\n13        className=\"search-input\"\n14        type=\"text\"\n15        placeholder=\"Search entries...\"\n16        value={searchQuery}\n17        onChange={(e) => setSearchQuery(e.target.value)}\n18      />\n19      <button className=\"theme-btn\" onClick={toggleTheme}>\n20        {theme === 'light' ? 'Dark Mode' : 'Light Mode'}\n21      </button>\n22    </header>\n23  )\n24}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import useJournalStore from '../store/useJournalStore'\n2import EntryCard from './EntryCard'\n3 \n4export default function EntryList() {\n5  const entries = useJournalStore((state) => state.entries)\n6  const isLoading = useJournalStore((state) => state.isLoading)\n7  const error = useJournalStore((state) => state.error)\n8  const searchQuery = useJournalStore((state) => state.searchQuery)\n9 \n10  const filteredEntries = searchQuery.trim()\n11    ? entries.filter(\n12        (entry) =>\n13          entry.title.toLowerCase().includes(searchQuery.toLowerCase()) ||\n14          entry.content.toLowerCase().includes(searchQuery.toLowerCase()) ||\n15          entry.date.toLowerCase().includes(searchQuery.toLowerCase())\n16      )\n17    : entries\n18 \n19  if (isLoading) return <p className=\"loading\">Loading entries...</p>\n20  if (error) return <p className=\"error\">Something went wrong: {error}</p>\n21 \n22  return (\n23    <div className=\"entry-list\">\n24      <p className=\"entry-count\">\n25        {filteredEntries.length}{' '}\n26        {filteredEntries.length === 1 ? 'entry' : 'entries'}\n27      </p>\n28      {filteredEntries.length === 0 ? (\n29        <p className=\"empty-state\">No entries found.</p>\n30      ) : (\n31        filteredEntries.map((entry) => (\n32          <EntryCard key={entry.id} entry={entry} />\n33        ))\n34      )}\n35    </div>\n36  )\n37}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState } from 'react'\n2import useJournalStore from '../store/useJournalStore'\n3 \n4export default function EntryCard({ entry }) {\n5  const [isEditing, setIsEditing] = useState(false)\n6  const [editTitle, setEditTitle] = useState(entry.title)\n7  const [editContent, setEditContent] = useState(entry.content)\n8 \n9  const editEntry = useJournalStore((state) => state.editEntry)\n10  const deleteEntry = useJournalStore((state) => state.deleteEntry)\n11 \n12  function handleSave() {\n13    if (!editTitle.trim() || !editContent.trim()) return\n14    editEntry(entry.id, editTitle, editContent)\n15    setIsEditing(false)\n16  }\n17 \n18  function handleCancel() {\n19    setEditTitle(entry.title)\n20    setEditContent(entry.content)\n21    setIsEditing(false)\n22  }\n23 \n24  if (isEditing) {\n25    return (\n26      <div className=\"entry-card\">\n27        <input className=\"input-field\" type=\"text\" value={editTitle} onChange={(e) => setEditTitle(e.target.value)} />\n28        <textarea className=\"textarea-field\" value={editContent} onChange={(e) => setEditContent(e.target.value)} rows={4} />\n29        <div className=\"entry-actions\">\n30          <button className=\"btn-save\" onClick={handleSave}>Save</button>\n31          <button className=\"btn-cancel\" onClick={handleCancel}>Cancel</button>\n32        </div>\n33      </div>\n34    )\n35  }\n36 \n37  return (\n38    <div className=\"entry-card\">\n39      <p className=\"entry-date\">{entry.date}</p>\n40      <h2 className=\"entry-title\">{entry.title}</h2>\n41      <p className=\"entry-content\">{entry.content}</p>\n42      <div className=\"entry-actions\">\n43        <button className=\"btn-edit\" onClick={() => setIsEditing(true)}>Edit</button>\n44        <button className=\"btn-delete\" onClick={() => deleteEntry(entry.id)}>Delete</button>\n45      </div>\n46    </div>\n47  )\n48}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState } from 'react'\n2import useJournalStore from '../store/useJournalStore'\n3 \n4export default function JournalForm() {\n5  const [title, setTitle] = useState('')\n6  const [content, setContent] = useState('')\n7  const addEntry = useJournalStore((state) => state.addEntry)\n8 \n9  function handleSubmit(e) {\n10    e.preventDefault()\n11    if (!title.trim() || !content.trim()) return\n12    addEntry(title, content)\n13    setTitle('')\n14    setContent('')\n15  }\n16 \n17  return (\n18    <form className=\"journal-form\" onSubmit={handleSubmit}>\n19      <input\n20        className=\"input-field\"\n21        type=\"text\"\n22        placeholder=\"Entry title\"\n23        value={title}\n24        onChange={(e) => setTitle(e.target.value)}\n25      />\n26      <textarea\n27        className=\"textarea-field\"\n28        placeholder=\"What is on your mind?\"\n29        value={content}\n30        onChange={(e) => setContent(e.target.value)}\n31        rows={4}\n32      />\n33      <button className=\"btn-submit\" type=\"submit\">Add Entry</button>\n34    </form>\n35  )\n36}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useEffect } from 'react'\n2import useJournalStore from './store/useJournalStore'\n3import Header from './components/Header'\n4import JournalForm from './components/JournalForm'\n5import EntryList from './components/EntryList'\n6import './App.css'\n7 \n8export default function App() {\n9  const theme = useJournalStore((state) => state.theme)\n10  const fetchEntries = useJournalStore((state) => state.fetchEntries)\n11 \n12  useEffect(() => {\n13    fetchEntries()\n14  }, [])\n15 \n16  return (\n17    <div className={theme}>\n18      <Header />\n19      <main className=\"main-container\">\n20        <JournalForm />\n21        <EntryList />\n22      </main>\n23    </div>\n24  )\n25}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react'\n2import { createRoot } from 'react-dom/client'\n3import App from './App'\n4 \n5createRoot(document.getElementById('root')).render(\n6  <React.StrictMode>\n7    <App />\n8  </React.StrictMode>\n9)"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* ── Reset ─────────────────────────────────────────────────────── */\n2*, *::before, *::after {\n3  box-sizing: border-box;\n4  margin: 0;\n5  padding: 0;\n6}\n7\n8/* ── Theme roots ───────────────────────────────────────────────── */\n9.light {\n10  background-color: #ffffff;\n11  color: #111827;\n12  min-height: 100vh;\n13}\n14\n15.dark {\n16  background-color: #1a1a2e;\n17  color: #e2e8f0;\n18  min-height: 100vh;\n19}\n20\n21/* ── Header ───────────────────────────────────────────────────── */\n22.header {\n23  display: flex;\n24  flex-direction: row;\n25  justify-content: space-between;\n26  align-items: center;\n27  padding: 1rem 2rem;\n28  border-bottom: 1px solid rgba(128, 128, 128, 0.25);\n29  position: sticky;\n30  top: 0;\n31  z-index: 10;\n32  background: inherit;\n33  flex-wrap: wrap;\n34  gap: 0.75rem;\n35}\n36\n37.header-title {\n38  font-size: 1.5rem;\n39  font-weight: 700;\n40}\n41\n42.dark .header {\n43  background-color: #1a1a2e;\n44  border-color: #2d3748;\n45  color: #e2e8f0;\n46}\n47\n48.dark .header-title {\n49  color: #e2e8f0;\n50}\n51\n52.dark .search-input {\n53  background-color: #16213e;\n54  color: #e2e8f0;\n55  border-color: #2d3748;\n56}\n57\n58.dark .search-input::placeholder {\n59  color: #718096;\n60}\n61\n62.dark .theme-btn {\n63  color: #e2e8f0;\n64  border-color: #2d3748;\n65  background-color: #16213e;\n66}\n67\n68/* ── Search input ─────────────────────────────────────────────── */\n69.search-input {\n70  width: 300px;\n71  padding: 0.5rem 1rem;\n72  border: 1px solid #d1d5db;\n73  border-radius: 999px;\n74  font-size: 0.9rem;\n75  outline: none;\n76  background: inherit;\n77  color: inherit;\n78  transition: border-color 0.2s;\n79}\n80\n81.search-input:focus {\n82  border-color: #2563eb;\n83}\n84\n85/* ── Theme button ─────────────────────────────────────────────── */\n86.theme-btn {\n87  padding: 0.5rem 1rem;\n88  border: 1px solid rgba(128, 128, 128, 0.35);\n89  border-radius: 999px;\n90  background: transparent;\n91  color: inherit;\n92  font-size: 0.85rem;\n93  cursor: pointer;\n94  white-space: nowrap;\n95  transition: background 0.2s;\n96}\n97\n98.theme-btn:hover {\n99  background: rgba(128, 128, 128, 0.15);\n100}\n101\n102/* ── Main container ───────────────────────────────────────────── */\n103.main-container {\n104  max-width: 48rem;\n105  margin: 0 auto;\n106  padding: 2rem 1rem;\n107  display: flex;\n108  flex-direction: column;\n109  gap: 2rem;\n110}\n111\n112/* ── Journal form ─────────────────────────────────────────────── */\n113.journal-form {\n114  background: #ffffff;\n115  border-radius: 0.75rem;\n116  padding: 1.5rem;\n117  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);\n118  display: flex;\n119  flex-direction: column;\n120  gap: 1rem;\n121}\n122\n123.dark .journal-form {\n124  background: #16213e;\n125  border-color: #2d3748;\n126}\n127\n128/* ── Input & textarea ─────────────────────────────────────────── */\n129.input-field,\n130.textarea-field {\n131  width: 100%;\n132  border: 1px solid #d1d5db;\n133  border-radius: 0.5rem;\n134  padding: 0.75rem 1rem;\n135  font-size: 0.9rem;\n136  font-family: inherit;\n137  outline: none;\n138  background: inherit;\n139  color: inherit;\n140  resize: vertical;\n141  transition: border-color 0.2s;\n142}\n143\n144.input-field:focus,\n145.textarea-field:focus {\n146  border-color: #2563eb;\n147}\n148\n149.dark .input-field,\n150.dark .textarea-field {\n151  background: #1a1a2e;\n152  color: #e2e8f0;\n153  border-color: #2d3748;\n154}\n155\n156.dark .input-field::placeholder,\n157.dark .textarea-field::placeholder {\n158  color: #718096;\n159}\n160\n161/* ── Submit button ────────────────────────────────────────────── */\n162.btn-submit {\n163  align-self: flex-start;\n164  padding: 0.625rem 1.25rem;\n165  background: #2563eb;\n166  color: #ffffff;\n167  border: none;\n168  border-radius: 0.5rem;\n169  font-size: 0.9rem;\n170  font-weight: 500;\n171  cursor: pointer;\n172  transition: background 0.2s;\n173}\n174\n175.btn-submit:hover {\n176  background: #1d4ed8;\n177}\n178\n179/* ── Entry list ───────────────────────────────────────────────── */\n180.entry-list {\n181  display: flex;\n182  flex-direction: column;\n183  gap: 1.5rem;\n184}\n185\n186/* ── Entry count ──────────────────────────────────────────────── */\n187.entry-count {\n188  font-size: 0.75rem;\n189  font-family: monospace;\n190  background: #f3f4f6;\n191  padding: 0.25rem 0.5rem;\n192  border-radius: 0.25rem;\n193  display: inline-block;\n194  margin-bottom: 0.5rem;\n195}\n196\n197.dark .entry-count {\n198  background: #2d3748;\n199  color: #a0aec0;\n200}\n201\n202/* ── Entry card ───────────────────────────────────────────────── */\n203.entry-card {\n204  background: #ffffff;\n205  border-radius: 0.75rem;\n206  padding: 1.5rem;\n207  border: 1px solid #e5e7eb;\n208  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);\n209  display: flex;\n210  flex-direction: column;\n211  gap: 0.5rem;\n212  transition: box-shadow 0.2s;\n213}\n214\n215.entry-card:hover {\n216  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n217}\n218\n219.dark .entry-card {\n220  background: #16213e;\n221  border-color: #2d3748;\n222  color: #e2e8f0;\n223}\n224\n225.dark .entry-title {\n226  color: #e2e8f0;\n227}\n228\n229.dark .entry-content {\n230  color: #a0aec0;\n231}\n232\n233.dark .entry-date {\n234  color: #718096;\n235}\n236\n237/* ── Entry date ───────────────────────────────────────────────── */\n238.entry-date {\n239  font-size: 0.75rem;\n240  font-weight: 600;\n241  color: #6b7280;\n242  text-transform: uppercase;\n243  letter-spacing: 0.05em;\n244}\n245\n246/* ── Entry title ──────────────────────────────────────────────── */\n247.entry-title {\n248  font-size: 1.25rem;\n249  font-weight: 700;\n250  color: inherit;\n251  margin: 0.25rem 0;\n252}\n253\n254/* ── Entry content ────────────────────────────────────────────── */\n255.entry-content {\n256  color: #4b5563;\n257  line-height: 1.625;\n258  white-space: pre-wrap;\n259  font-size: 0.9375rem;\n260}\n261\n262/* ── Entry actions ────────────────────────────────────────────── */\n263.entry-actions {\n264  display: flex;\n265  flex-direction: row;\n266  justify-content: flex-end;\n267  gap: 0.75rem;\n268  margin-top: 1rem;\n269  padding-top: 1rem;\n270  border-top: 1px solid #f3f4f6;\n271}\n272\n273.dark .entry-actions {\n274  border-color: #2d3748;\n275}\n276\n277.btn-edit {\n278  background: transparent;\n279  color: #2563eb;\n280  border: none;\n281  font-size: 0.875rem;\n282  cursor: pointer;\n283  padding: 0.25rem 0.5rem;\n284  border-radius: 0.375rem;\n285}\n286\n287.btn-delete {\n288  background: transparent;\n289  color: #ef4444;\n290  border: none;\n291  font-size: 0.875rem;\n292  cursor: pointer;\n293  padding: 0.25rem 0.5rem;\n294  border-radius: 0.375rem;\n295}\n296\n297.btn-save {\n298  padding: 0.4rem 1rem;\n299  background: #2563eb;\n300  color: #ffffff;\n301  border: none;\n302  border-radius: 0.5rem;\n303  font-size: 0.875rem;\n304  font-weight: 600;\n305  cursor: pointer;\n306}\n307\n308.btn-cancel {\n309  padding: 0.4rem 1rem;\n310  background: #6b7280;\n311  color: #ffffff;\n312  border: none;\n313  border-radius: 0.5rem;\n314  font-size: 0.875rem;\n315  font-weight: 600;\n316  cursor: pointer;\n317}\n318\n319/* ── Empty / loading / error state ───────────────────────────── */\n320.empty-state,\n321.loading,\n322.error {\n323  text-align: center;\n324  color: #9ca3af;\n325  font-size: 0.9rem;\n326  padding: 2rem 0;\n327}\n328\n329.dark .empty-state {\n330  color: #718096;\n331}\n332\n333.error {\n334  color: #ef4444;\n335}"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3  <head>\n4    <title>My Daily Journal</title>\n5  </head>\n6  <body>\n7    <div id=\"root\"></div>\n8    <script type=\"module\" src=\"/src/index.jsx\"></script>\n9  </body>\n10</html>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is what is happening. Every time theme or searchQuery changes Zustand saves them to localStorage. When the page reloads it reads them back before the app renders. So dark mode stays dark. The search stays set. And the entries are fetched fresh from the API just like always."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will check your understanding. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

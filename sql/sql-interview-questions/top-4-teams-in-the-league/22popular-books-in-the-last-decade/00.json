@@ -1,0 +1,92 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/popular-books-in-last-decade?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Books"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "book_id",
+          "title",
+          "date",
+          "sales"
+        ],
+        [
+          "1",
+          "Mockingjay",
+          "2010-01-01",
+          "200000"
+        ],
+        [
+          "2",
+          "Ready Player One",
+          "2011-05-12",
+          "1500000"
+        ],
+        [
+          "3",
+          "The Hate U Give",
+          "2017-06-09",
+          "1200000"
+        ],
+        [
+          "4",
+          "Life After Life",
+          "2013-10-12",
+          "50000"
+        ],
+        [
+          "5",
+          "Lord of the Rings",
+          "1954-05-17",
+          "150000000"
+        ],
+        [
+          "6",
+          "Atonement",
+          "2001-02-23",
+          "1000000"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a query to retrieve the titles and the sale numbers of books published in the last decade (2010 - 2019) that have sold more than 1 million copies."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

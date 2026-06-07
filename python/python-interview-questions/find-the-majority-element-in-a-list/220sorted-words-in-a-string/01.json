@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/sorted-words-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is a simple solution to this problem. If we can remove the spaces and convert the words to a list, we can easily sort the elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, there is an inbuilt string method split() which converts the string into a list. The split() function removes spaces by default and changes the remaining parts into the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can follow these steps to solve the question:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Split the sentence into a list of words using the inbuilt Python string method split().",
+        "Sort the list of words.",
+        "Loop through each word in the word list and print the word."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

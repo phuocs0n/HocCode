@@ -1,0 +1,64 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/string-manipulation?page=3",
+  "title": "Using The slice() Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using The slice() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you omit the second parameter in slice(), it will extract the substring from the start index to the end of the string."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let movie = \"Snowpiercer\";\n2\n3let slicedText = movie.slice(5);\n4\n5console.log(slicedText);    // Output: iercer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, movie.slice(5) extracts the substring starting from index 5 to the end of the string, resulting in \"iercer\"."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Using Negative Value"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also use negative values to count from the end of the string."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let movie = \"Snowpiercer\";\n2\n3let slicedText = movie.slice(-3);\n4\n5console.log(slicedText);    // Output: cer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, movie.slice(-3) starts extracting from 3 characters from the end, giving you \"cer\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

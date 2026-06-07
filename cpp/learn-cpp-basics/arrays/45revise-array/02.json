@@ -1,0 +1,112 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-array?page=3",
+  "title": "Find the Largest Element in an Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find the Largest Element in an Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will print the largest element of the array."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // an array of numbers\n7    int numbers[5];\n8\n9    cout << \"Enter array elements:\" << endl;\n10\n11    // get input for array elements\n12    for (int i = 0; i < 5; ++i) {\n13        cin >> numbers[i];\n14    }\n15  \n16    // assign the first value of the array to the largest variable\n17    int largest = numbers[0];\n18\n19    // iterate each element of the array\n20    for (int i = 1; i < 5; ++i) {\n21        if (largest < numbers[i]) {\n22            largest = numbers[i];\n23        }\n24    }\n25\n26    cout << \"Largest: \" << largest;\n27\n28    return 0;\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter array elements:\n55\n64\n75\n80\n65\nLargest: 80"
+    },
+    {
+      "type": "paragraph",
+      "content": "Initially, the first element of the array is assigned to the largest variable."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int largest = numbers[0];"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have used a for loop to iterate from the second element of the array to the last element."
+    },
+    {
+      "type": "paragraph",
+      "content": "In each iteration, if the largest variable is less than any element of the array, that element is assigned to the largest variable."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// inside the for loop\nif (largest < numbers[i] {\n    largest = numbers[i];\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works in each iteration of the loop."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Iteration",
+          "numbers[i]",
+          "largest < numbers[i]",
+          "largest"
+        ],
+        [
+          "1st (i == 1)",
+          "64",
+          "true",
+          "64"
+        ],
+        [
+          "2nd (i == 2)",
+          "75",
+          "true",
+          "75"
+        ],
+        [
+          "3rd (i == 3)",
+          "80",
+          "true",
+          "80"
+        ],
+        [
+          "4th (i == 4)",
+          "65",
+          "false",
+          "80"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-enum?page=2",
+  "title": "Example: Enum",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Enum"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1// create enum\n2enum Size {\n3\n4    // enum constants\n5    SMALL, MEDIUM, LARGE\n6}\n7\n8class Main {\n9    public static void main(String[] args) {\n10\n11        // access enum\n12        System.out.println(Size.SMALL);\n13        System.out.println(Size.MEDIUM);\n14        System.out.println(Size.LARGE);\n15    }\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "SMALL\nMEDIUM\nLARGE"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created an enum of type Size."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are using the name of enum along with . operator and constant value to access enum constants. That is, Size.SMALL will access the constant SMALL."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

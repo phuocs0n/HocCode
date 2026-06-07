@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/join-two-strings?page=1",
+  "title": "Join Two Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Join Two Strings"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to join two strings using strcat()."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two string variables named text1 and text2.",
+        "Get input value for both variables using scanf().",
+        "Use strcat() function to join two strings.",
+        "Make sure to insert a space between two strings while joining them.",
+        "Print the joined strings."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Assumption: We will assume that the user will only provide a single word as input value."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputC\nProgramming"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputC Programming"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

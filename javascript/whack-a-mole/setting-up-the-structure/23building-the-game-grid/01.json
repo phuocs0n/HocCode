@@ -1,0 +1,47 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/building-game-grid?page=2",
+  "title": "Create 9 Holes with a Loop 🔄",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create 9 Holes with a Loop 🔄"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to level up your code! Instead of creating one hole, you'll create 9 using a for loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "A loop repeats code multiple times. You'll tell it: \"Do this 9 times\"—and it will create 9 holes for you."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In script.js remove your previous hole creation code (the part where you created a const hole and added it to the board).",
+        "Write a for loop that runs 9 times (from i = 0 to i < 9).",
+        "Inside the loop, create a div, add the class hole, and append it to the game board—just like you did before, but now it happens 9 times!"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This is your first real example of automation. You wrote 4 lines of code and created 9 elements. Look at you, programming like a PRO."
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

@@ -1,0 +1,180 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-java-basics/miscellaneous?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the value of the result variable?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "int result = '4' + 5;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, '4' is a character, not an integer value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, '4' is a character, not an integer value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are adding the integer 5 with '4', so the output will be more than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are adding the integer 5 with '4', so the output will be more than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "57"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ASCII value of '4' is 52, so the sum of 52 and 5 is 57."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ASCII value of '4' is 52, so the sum of 52 and 5 is 57."
+    },
+    {
+      "type": "paragraph",
+      "content": "(Error Code)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code runs without any issue."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code runs without any issue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, '4' is a character, not an integer value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, '4' is a character, not an integer value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are adding the integer 5 with '4', so the output will be more than 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are adding the integer 5 with '4', so the output will be more than 5."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ASCII value of '4' is 52, so the sum of 52 and 5 is 57."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ASCII value of '4' is 52, so the sum of 52 and 5 is 57."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code runs without any issue."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code runs without any issue."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the value of the result variable?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:9",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:5",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:57",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "57",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:(Error Code)",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "(Error Code)",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

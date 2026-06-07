@@ -1,0 +1,82 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-intermediate/sum-of-list-items?page=1",
+  "title": "Sum of List Items",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of List Items"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to create a class that will have a method that returns the sum of a student's scores stored in a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Student that will have an attribute named scores (which will take a list).",
+        "Create the __init__() method to initialize the scores attribute.",
+        "Create a method named get_scores_sum() that adds individual items of a list and returns it. Use the built-in sum() function for it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside of the Class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a scores variable and assign the [55, 75, 80, 62, 77] list to it.",
+        "Create an object s1 of Student with the list as an argument.",
+        "Call the get_scores_sum() method and store the return value in the total variable.",
+        "Print the total variable."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output349"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

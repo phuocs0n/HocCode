@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/linear-search?page=4",
+  "title": "Source Code: Linear Search",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Linear Search"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# function to perform  linear search\n2def linear_search(lst, target):\n3    \n4    # traverse through each element\n5    for index, element in enumerate(lst):\n6        \n7        # compare each element with a target value\n8        if element == target:\n9            return index\n10    \n11    # return None if the target isn't found in lst\n12    return None\n13\n14lst = [9, 10, 5, 8, 7, 4, 11, 6, 15, 3]\n15\n16# set a target value\n17target_value = 4\n18\n19result = linear_search(lst, target_value)\n20\n21if result:\n22    print(f\"Index of the target value: {result}\")\n23else:\n24    print(\"Target value not found in the list.\")\n25"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Index of the target value: 5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

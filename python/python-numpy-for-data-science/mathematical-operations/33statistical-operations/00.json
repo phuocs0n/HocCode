@@ -1,0 +1,86 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/statistical-operations?page=1",
+  "title": "Statistical Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Statistical Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Statistics is a branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data.It plays a crucial role in data analysis, interpretation, and decision-making across various fields."
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy provides various built-in functions that can be used to perform different statistical operations on arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "The mean(), median(), std() functions are some examples of the most commonly used statistical functions provided by NumPy."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are some of the statistical functions provided by NumPy:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Functions",
+          "Descriptions"
+        ],
+        [
+          "median()",
+          "returns the median of an array"
+        ],
+        [
+          "mean()",
+          "returns the mean of an array"
+        ],
+        [
+          "std()",
+          "returns the standard deviation of an array"
+        ],
+        [
+          "percentile()",
+          "returns the nth percentile of elements in an array"
+        ],
+        [
+          "min()",
+          "returns the minimum element of an array"
+        ],
+        [
+          "max()",
+          "returns the maximum element of an array"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we will see examples using all these functions one by one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

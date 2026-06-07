@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-query/staletime-in-react-query?page=3",
+  "title": "The Full TaskList with Filtering",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Full TaskList with Filtering"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useQuery } from '@tanstack/react-query'\n2import { useState } from 'react'\n3import { fetchTasks } from './api'\n4 \n5export default function TaskList() {\n6  const [status, setStatus] = useState('')\n7 \n8  const { data: tasks, isLoading, isError } = useQuery({\n9    queryKey: ['tasks', { status }],\n10    queryFn: () => fetchTasks({ status }),\n11  })\n12 \n13  if (isLoading) return <p>Loading...</p>\n14  if (isError) return <p>Something went wrong.</p>\n15 \n16  return (\n17    <div>\n18      <select value={status} onChange={e => setStatus(e.target.value)}>\n19        <option value=''>All</option>\n20        <option value='open'>Open</option>\n21        <option value='inProgress'>In progress</option>\n22        <option value='done'>Done</option>\n23      </select>\n24      <ul>\n25        {tasks.map(task => (\n26          <li key={task.id}>{task.title}</li>\n27        ))}\n28      </ul>\n29    </div>\n30  )\n31}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const BASE = 'https://dummyjson.com/todos'\n2 \n3export function fetchTasks({ status } = {}) {\n4  return fetch(`${BASE}?limit=10`)\n5    .then(r => r.json())\n6    .then(d => d.todos.map((t, i) => ({\n7      id: t.id, title: t.todo,\n8      status: t.completed ? 'done' : (i % 3 === 1 ? 'inProgress' : 'open')\n9    })))\n10    .then(tasks => status ? tasks.filter(t => t.status === status) : tasks)\n11}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react'\n2import { createRoot } from 'react-dom/client'\n3import { QueryClient, QueryClientProvider } from '@tanstack/react-query'\n4import { ReactQueryDevtools } from '@tanstack/react-query-devtools'\n5import App from './App'\n6 \n7const queryClient = new QueryClient({\n8  defaultOptions: { queries: { staleTime: 1000 * 60 } }\n9})\n10 \n11createRoot(document.getElementById('root')).render(\n12  <QueryClientProvider client={queryClient}>\n13    <App />\n14    <ReactQueryDevtools />\n15  </QueryClientProvider>\n16)"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import TaskList from './TaskList'\n2 \n3export default function App() {\n4  return <TaskList />\n5}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1{\n2  \"dependencies\": {\n3    \"react\": \"^18.2.0\",\n4    \"react-dom\": \"^18.2.0\",\n5    \"@tanstack/react-query\": \"^5.0.0\",\n6    \"@tanstack/react-query-devtools\": \"^5.0.0\"\n7  }\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "status comes from the dropdown, lives in the queryKey, and gets passed to fetchTasks. When the filter changes, the key changes, and React Query fetches the right data automatically. staleTime keeps it from refetching too aggressively."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

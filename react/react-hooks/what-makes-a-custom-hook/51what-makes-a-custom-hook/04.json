@@ -1,0 +1,77 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/what-makes-custom-hook?page=5",
+  "title": "What Can a Custom Hook Return?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Can a Custom Hook Return?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A custom hook can return anything the caller needs:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Return Value",
+          "Example"
+        ],
+        [
+          "A primitive",
+          "return width;"
+        ],
+        [
+          "An object",
+          "return { data, isLoading, error };"
+        ],
+        [
+          "An array",
+          "return [value, toggle];"
+        ],
+        [
+          "A function",
+          "return function () { ... };"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Deciding the Return Value"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Objects work well when there are several values to return.",
+        "Arrays work well when the caller wants to rename the values (the same way useState() does)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The real motivation for custom hooks becomes clear when you see them solving a problem you've already faced."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

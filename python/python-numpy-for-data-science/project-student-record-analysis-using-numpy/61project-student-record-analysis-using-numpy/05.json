@@ -1,0 +1,199 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/project--student-record-analysis-using-numpy?page=6",
+  "title": "Step 5: Data Analysis",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 5: Data Analysis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we perform data analysis. The main focus in data analysis is to perform statistical and data analysis operations to gain insights and draw conclusions."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this project we will be obtaining the following statistics and data analysis records."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Average marks for each subject",
+        "Standard deviation and variation of marks",
+        "Identify top performing and bottom performing students",
+        "Subject comparison",
+        "Overall performance"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Average Marks:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can simply use np.mean()to find average marks."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "avgSubject = np.mean(marksArray, axis=0)\navgStudent = np.mean(marksArray, axis=1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "From average marks, we can obtain following insights:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "identify which subjects tend to have higher or lower average marks",
+        "understand the relative difficulty of subjects",
+        "calculate the overall performance of students"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Standard deviation and Variation of Marks:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use np.std() and np.var(). We can calculate deviation and variance for both students and for subjects."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "stdSubject = np.std(marksArray, axis = 0)\nvarSubject = np.var(marksArray, axis = 0)\nstdStudents = np.std(marksArray, axis = 1)\nvarStudents = np.var(marksArray, axis = 1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "For subjects:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Higher standard deviation and variance mean marks are more spread out, with a wider range of performance among students.",
+        "Lower standard deviation and variance mean marks are more consistent, showing similar performance among students."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For students:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Higher standard deviation and variance mean their marks vary more across different subjects.",
+        "Lower standard deviation and variance mean their marks are more consistent across subjects."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Identify top performing and bottom performing students:"
+    },
+    {
+      "type": "paragraph",
+      "content": "We assume that the student with the most marks is the top student and the student with least marks is the bottom performing student. First, we calculate the total marks of each student."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "np.sum(marksArray, axis=1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we find the index at which the sum is maximum."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "np.argmax(np.sum(marksArray, axis=1))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we use this index to find the student."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "topPerformer =  studentArray[np.argmax(np.sum(marksArray, axis=1))]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly for bottom performer,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "bottomPerformer =  studentArray[np.argmin(np.sum(marksArray, axis=1))]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Subject Comparison"
+    },
+    {
+      "type": "paragraph",
+      "content": "We assume the subject with the most marks on average is the easiest subject and the subject with least marks is the hardest subject."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similar to above, we also take mean, use argmax() or argmin() to find corresponding indexes and use indexing to find respective subjects."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "easiestSubject = subjectArray[np.argmax(avgSubject)]\nhardestSubject = subjectArray[np.argmin(avgSubject)]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Overall Performance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we calculate the overall metrics of the student record i.e. average, standard deviation and variance for all students across all subjects. For this use again use np.mean(), np.std() and np.var() without specifying the axis."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "totalAverage = np.mean(marksArray)\ntotalStd = np.std(marksArray)\ntotalVar = np.var(marksArray)"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will create a new function called obtain_results(). This is how the function looks like:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def obtain_results(studentArray, subjectArray, marksArray):\n    \n    # data part\n    #  average marks for each subject\n    avgSubject = np.mean(marksArray, axis=0)\n    \n    # deviation and variation of marks\n    stdSubject = np.std(marksArray, axis = 0)\n    varSubject = np.var(marksArray, axis = 0)\n    stdStudents = np.std(marksArray, axis = 1)\n    varStudents = np.var(marksArray, axis = 1)\n    \n    # top and bottom performing student \n    topPerformer =  studentArray[np.argmax(np.sum(marksArray, axis=1))]\n    bottomPerformer =  studentArray[np.argmin(np.sum(marksArray, axis=1))]\n    \n    # subject comparison\n    easiestSubject = subjectArray[np.argmax(avgSubject)]\n    hardestSubject = subjectArray[np.argmin(avgSubject)]\n    \n    # overall performance\n    totalAverage = np.mean(marksArray)\n    totalStd = np.std(marksArray)\n    totalVar = np.var(marksArray)\n    \n    # analysis and visualization part\n    # total number of students\n    print('Total Number of students: ', len(studentArray))\n    \n    # average marks for each subject\n    print('\\nAverage Marks in Each Subject')\n    for i,subject in enumerate(subjectArray):\n        print('\\t',subject,':', avgSubject[i])\n    \n    # deviation and variation of marks\n    print('\\nStandard Deviation and Variance per Subject')\n    header = np.array(['Subject Name','Standard Deviation','Variance'])\n    print(\"|\".join(header))\n    # print the separator line\n    separator = \"+\".join([\"-\" * len(item) for item in header])\n    print(separator)\n    for i, subject in enumerate(subjectArray):\n        row = f\"{subject :<{len(header[0])}}\" +'|'+ f\"{stdSubject[i] :<{len(header[1])}}\" + '|' + f\"{varSubject[i] :<{len(header[2])}}\"\n        print(row) \n    \n    print('\\nStandard Deviation and Variance per Student')\n    print(\"|\".join(header))\n    # print the separator line\n    print(separator)\n    for i, student in enumerate(studentArray):\n        row = f\"{student :<{len(header[0])}}\" +'|'+ f\"{stdStudents[i] :<{len(header[1])}}\" + '|' + f\"{varStudents[i] :<{len(header[2])}}\"\n        print(row)\n   \n    # top and bottom performing student \n    print('\\nTop performer: ', topPerformer)\n    print('Bottom performer:', bottomPerformer)\n    \n    #subject Comparison\n    print('\\nEasiest Subject:',easiestSubject, '\\nHardest Subject:',hardestSubject)\n    \n    # overall performance\n    print('\\nMetrics across all Students and Subjects')\n    print('Average Marks: ',totalAverage, '\\nStandard Deviation: ',totalStd, '\\nVariance: ',totalVar)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The overall code looks like as follows:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# initialize student records with random value\n4def initialize_data():\n5    # create a subject array\n6    subject = np.array(['English', 'Maths', 'Science', 'Social', 'History'])\n7    # create a student array\n8    students = np.array(['Alice', 'Bob', 'Charlie', 'Dan'])\n9    # generate random marks for each student and subject\n10    marks = np.array([[81, 78, 80, 60, 63],\n11                      [50, 40, 65, 48, 65],\n12                      [30, 83, 97, 97, 75],\n13                      [99, 55, 60, 58, 30]])\n14    return subject, students, marks\n15\n16# display the record in visually pleasing form\n17def display_record(studentArray, subjectArray, marksArray):\n18    \n19    # create a new array for Total, Average and Result    \n20    # calculate total marks for each student\n21    totalArray = np.sum(marksArray, axis=1)\n22    # calculate average marks for each student\n23    avgArray = np.mean(marksArray, axis=1)\n24    # check if all marks in a row are >= 40 and assign 'Pass' or 'Fail' accordingly\n25    resultArray = np.where(np.all(marksArray >= 40, axis=1), 'Pass', 'Fail')\n26    \n27    # add Total, Average and Grade to header\n28    headerArray = np.hstack(('Student/Subject', subjectArray, np.array(['Total', 'Average', 'Result'])))\n29    header = \"|\".join(headerArray)\n30    print(header)\n31    \n32    # create a lengthArray for formatting purpose\n33    lengthArray = np.array([len(element) for element in headerArray])\n34    \n35    # print the separator line\n36    separator = \"+\".join([\"-\" * length for length in lengthArray])\n37    print(separator)\n38    \n39    # print the marks for each student\n40    for i, student in enumerate(studentArray):\n41        row = f\"{student :<{lengthArray[0]}}\"\n42        row += ''.join(f\"|{mark:<{lengthArray[col+1]}}\" for col, mark in enumerate(marksArray[i]))\n43        # add Total, Average and Pass result for each student\n44        row += \"|\" + f\"{totalArray[i]:<{lengthArray[6]}}\" \n45        row += \"|\" + f\"{avgArray[i]:<{lengthArray[7]}}\" \n46        row += \"|\" + f\"{resultArray[i]:<{lengthArray[8]}}\" \n47        print(row)\n48    print(separator)\n49\n50def obtain_results(studentArray, subjectArray, marksArray):\n51    \n52    # data part\n53    #  average marks for each subject\n54    avgSubject = np.mean(marksArray, axis=0)\n55    \n56    # deviation and variation of marks\n57    stdSubject = np.std(marksArray, axis = 0)\n58    varSubject = np.var(marksArray, axis = 0)\n59    stdStudents = np.std(marksArray, axis = 1)\n60    varStudents = np.var(marksArray, axis = 1)\n61    \n62    # top and bottom performing student \n63    topPerformer =  studentArray[np.argmax(np.sum(marksArray, axis=1))]\n64    bottomPerformer =  studentArray[np.argmin(np.sum(marksArray, axis=1))]\n65    \n66    # subject comparison\n67    easiestSubject = subjectArray[np.argmax(avgSubject)]\n68    hardestSubject = subjectArray[np.argmin(avgSubject)]\n69    \n70    # overall performance\n71    totalAverage = np.mean(marksArray)\n72    totalStd = np.std(marksArray)\n73    totalVar = np.var(marksArray)\n74    \n75    # analysis and visualization part\n76    # total number of students\n77    print('Total Number of students: ', len(studentArray))\n78    \n79    # average marks for each subject\n80    print('\\nAverage Marks in Each Subject')\n81    for i,subject in enumerate(subjectArray):\n82        print('\\t',subject,':', avgSubject[i])\n83    \n84    # deviation and variation of marks\n85    print('\\nStandard Deviation and Variance per Subject')\n86    header = np.array(['Subject Name','Standard Deviation','Variance'])\n87    print(\"|\".join(header))\n88    # print the separator line\n89    separator = \"+\".join([\"-\" * len(item) for item in header])\n90    print(separator)\n91    for i, subject in enumerate(subjectArray):\n92        row = f\"{subject :<{len(header[0])}}\" +'|'+ f\"{stdSubject[i] :<{len(header[1])}}\" + '|' + f\"{varSubject[i] :<{len(header[2])}}\"\n93        print(row) \n94    \n95    print('\\nStandard Deviation and Variance per Student')\n96    print(\"|\".join(header))\n97    # print the separator line\n98    print(separator)\n99    for i, student in enumerate(studentArray):\n100        row = f\"{student :<{len(header[0])}}\" +'|'+ f\"{stdStudents[i] :<{len(header[1])}}\" + '|' + f\"{varStudents[i] :<{len(header[2])}}\"\n101        print(row)\n102   \n103    # top and bottom performing student \n104    print('\\nTop performer: ', topPerformer)\n105    print('Bottom performer:', bottomPerformer)\n106    \n107    #subject Comparison\n108    print('\\nEasiest Subject:',easiestSubject, '\\nHardest Subject:',hardestSubject)\n109    \n110    # overall performance\n111    print('\\nMetrics across all Students and Subjects')\n112    print('Average Marks: ',totalAverage, '\\nStandard Deviation: ',totalStd, '\\nVariance: ',totalVar)\n113    \n114def main():\n115    subject, students, marks = initialize_data()\n116    display_record(students, subject, marks)\n117    obtain_results(students, subject, marks)\n118main()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

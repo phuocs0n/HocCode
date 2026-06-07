@@ -1,0 +1,42 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/ifelse-statement?page=4",
+  "title": "Working of the if Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of the if Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the visualizer below with different input values to see how this program behaves."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1total = float(input(\"Enter the total amount: \"))\n2\n3# Check if total is greater than 100\n4if total > 100:\n5    print(\"Congratulations!\")\n6    print(\"You are eligible for a discount\")"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

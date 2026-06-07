@@ -1,0 +1,61 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=6",
+  "title": "typeof Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "typeof Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "To verify the data type of a variable or value, you can use the typeof operator. This helps ensure your data is in the expected format before performing operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lets see examples:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(typeof 123);    // Output: number\n2console.log(typeof 10.5);    // Output: number\n3console.log(typeof \"Hello\");    // Output: string\n4console.log(typeof \"-15.65\");    // Output: string"
+    },
+    {
+      "type": "paragraph",
+      "content": "As shown above,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Numbers (integers or floats) return \"number\".",
+        "Strings return \"string\"."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Using typeof ensures you are working with the correct data type, preventing unexpected results."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

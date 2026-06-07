@@ -1,0 +1,64 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/ternary-operator?page=3",
+  "title": "Checking Odd/Even Using Ternary Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Checking Odd/Even Using Ternary Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will use a ternary operator to check if a value is odd or even."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        Scanner input = new Scanner(System.in);\n7        \n8        System.out.println(\"Enter a number: \");\n9        int number = input.nextInt();\n10        \n11        String result = (number % 2 == 0) ? \"Even\" : \"Odd\";\n12        System.out.println(number + \" is \" + result);\n13        input.close();\n14    }\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: \n5\n5 is Odd"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: \n36\n36 is Even"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, if the number is perfectly divisible by 2, \"Even\" is assigned to the result variable. Otherwise, \"Odd\" is assigned."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

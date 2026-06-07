@@ -1,0 +1,74 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/whack-a-mole/reflect--expand?page=3",
+  "title": "Ideas to Expand 🚀",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ideas to Expand 🚀"
+    },
+    {
+      "type": "paragraph",
+      "content": "Want to keep building? Here are some features you could add:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add Difficulty Levels: Let players choose Easy, Medium, or Hard. Each level changes how fast moles appear and how long they stay visible."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add Sound Effects: Play sounds when moles pop up, get hit, or when the game ends. Use HTML5 Audio: new Audio('hit.mp3').play()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add High Score System: Save the best score using localStorage so it persists even after refreshing the page."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add Multiple Moles: Make 2-3 moles appear at once for more chaos and challenge."
+    },
+    {
+      "type": "paragraph",
+      "content": "Add Combo Multiplier: Award bonus points for hitting multiple moles in a row quickly. Track time between hits with Date.now()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Try Your Own Ideas:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Different themes (zombies, cookies, fruits)",
+        "Power-ups (golden moles with special effects)",
+        "Progressive difficulty (gets harder over time)",
+        "Leaderboard or achievements"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember: Start small, test often, and have fun experimenting!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

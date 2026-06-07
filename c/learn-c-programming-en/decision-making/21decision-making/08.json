@@ -1,0 +1,81 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=9",
+  "title": "Comparison Operators List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Comparison Operators List"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a list of all comparison operators in C comparing variable var with a value, 5."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Operator",
+          "Expression",
+          "Question"
+        ],
+        [
+          ">",
+          "var > 5",
+          "Is var greater than 5?"
+        ],
+        [
+          ">=",
+          "var >= 5",
+          "Is var greater than or equal to 5?"
+        ],
+        [
+          "<",
+          "var < 5",
+          "Is var less than 5?"
+        ],
+        [
+          "<=",
+          "var <= 5",
+          "Is var less than or equal to 5?"
+        ],
+        [
+          "==",
+          "var == 5",
+          "Is var equal to 5?"
+        ],
+        [
+          "!=",
+          "var != 5",
+          "Is var not equal to 5?"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see examples of these operators one by one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

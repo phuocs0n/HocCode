@@ -1,0 +1,79 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/best-practice?page=1",
+  "title": "Best Practice",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Best Practice"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Use of std namespace"
+    },
+    {
+      "type": "paragraph",
+      "content": "To avoid the repetitive std:: prefix, we have included using namespace std; in our code to make the code concise and easier to read."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, you should not do that. Instead, use the std:: prefix to access the standard library component."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, we have followed the following style in our code:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3using namespace std;\n4\n5int main() {\n6    cout << \"Hello World!\\n\";\n7    return 0;\n8}"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, you should use the following style in your code."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3int main() {\n4    std::cout << \"Hello World!\\n\";\n5    return 0;\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Use of Templates"
+    },
+    {
+      "type": "paragraph",
+      "content": "To make sure our code runs equally regardless of the data types used, we will be using templates. Make sure you are comfortable with templates in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Use of raw pointers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Though smart pointers are used instead of raw pointers in real-world projects, we have exclusively used raw pointers in this course. This is done to avoid the added layer of abstraction provided by smart pointers, so you can focus on the core principles of DSA."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

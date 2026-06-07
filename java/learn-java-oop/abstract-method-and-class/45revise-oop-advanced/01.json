@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-advanced?page=2",
+  "title": "Braking Implementation of MotorBike",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Braking Implementation of MotorBike"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this section, we will see an example of abstraction. A practical example of abstraction can be motorbike brakes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that the working of the brake is to stop the motorbike. However, the working of brakes is different for different types of bikes."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, instead of providing a separate braking implementation, we can make it abstract (hide the implementation details)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, all other types of bikes will provide a separate implementation of brakes that suits their needs. However, the actual working of the brake will remain the same (to stop the bike)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1interface MotorBike {\n2    // hide the implementation of brake\n3    abstract void brake();\n4}\n5\n6class SportsBike implements MotorBike {\n7    \n8    // provide an implementation of brake\n9    public void brake() {\n10        System.out.println(\"Stopping the Sports Bike.\");\n11    }\n12}\n13\n14class MountainBike implements MotorBike {\n15    \n16    // provide an implementation of brake\n17    public void brake() {\n18        System.out.println(\"Stopping the Mountain Bike.\");\n19    }\n20}\n21\n22class Main {\n23    public static void main(String[] args) {\n24        \n25        SportsBike s1 = new SportsBike();\n26        s1.brake();\n27        \n28        MountainBike m1 = new MountainBike();\n29        m1.brake();\n30    }\n31}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Stopping the Sports Bike.\nStopping the Mountain Bike."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created an interface MotorBike with an abstract method brake()."
+    },
+    {
+      "type": "paragraph",
+      "content": "The classes SportsBike and MountainBike implement the MotorBike interface and provide the implementation for the abstract method brake()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

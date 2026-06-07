@@ -1,0 +1,176 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-basics/python-for-loop?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the value of the item variable in the second iteration of the loop?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "name = \"Python\"\nfor item in name:\n    print(item)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be P in the first iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be P in the first iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be t in the third iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be t in the third iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Python"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The item variable stores only one character at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "The item variable stores only one character at a time."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be P in the first iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be P in the first iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be t in the third iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value of item will be t in the third iteration. In the second iteration, the value of item will be the second character of the string."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The item variable stores only one character at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "The item variable stores only one character at a time."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the value of the item variable in the second iteration of the loop?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:P",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "P",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:y",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "y",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:t",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "t",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Python",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Python",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

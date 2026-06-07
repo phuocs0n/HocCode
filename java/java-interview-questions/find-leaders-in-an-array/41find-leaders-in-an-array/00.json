@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-leaders-in-array?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Find all the leaders in a non-empty array of integers and print them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Leaders in an array: An element is called a leader if it is greatest rightmost element in an array."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "array = {16, 17, 4, 3, 5, 2}, \noutput: [17, 5, 2]\nreason = 17 and 5 is greater than all the elements to its right side, 2 is the right most element"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "array = {23, 43, 5, 6, 7} \noutput:[7, 43]\nreason = 43 is greater than all the elements to its right side, 7 is the right most element"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "array = {2, 1, 45, 567, 6}\noutput: [6, 567]\nreason = 567 is greater than all the elements to its right side, 6 is the right most element"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

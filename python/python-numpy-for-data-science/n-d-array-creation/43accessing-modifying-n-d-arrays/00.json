@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/accessing--modifying-nd-arrays?page=1",
+  "title": "Accessing Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Accessing Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "Accessing elements in N-D arrays involves providing the indices that correspond to the position of the desired element along each dimension of the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a 2-D array:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "[[1, 2, 3],\n [4, 5, 6],\n [7, 8, 9]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now from this 2-D array, we can access the desired specific element, whole row(s), or even the whole column(s) using the array indexing."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll see how it's done in the following section."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

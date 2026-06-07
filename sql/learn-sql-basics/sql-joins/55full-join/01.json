@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/full-join?page=2",
+  "title": "SQL FULL JOIN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "SQL FULL JOIN"
+    },
+    {
+      "type": "paragraph",
+      "content": "A FULL JOIN combines rows from both tables, returning all records from the left table and the right table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how we can use a FULL JOIN to all the rows from the Customers and Orders tables."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *\n2FROM Customers\n3FULL JOIN Orders\n4ON Customers.customer_id = Orders.customer_id;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the working of the FULL JOIN on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

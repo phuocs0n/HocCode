@@ -1,0 +1,75 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/tic-tac-toe?page=3",
+  "title": "Step 2: Creating the Player Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Creating the Player Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Object of the Board class is removed from the Main class.",
+        "Created the Player class."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.ArrayList;\n2import java.util.Scanner;\n3\n4class Board {\n5\n6    // create an ArrayList\n7    ArrayList<String> board = new ArrayList<>();\n8\n9    // add elements to the board ArrayList\n10    void addElements() {\n11        board.add(\" \");\n12        board.add(\" \");\n13        board.add(\" \");\n14        board.add(\" \");\n15        board.add(\" \");\n16        board.add(\" \");\n17        board.add(\" \");\n18        board.add(\" \");\n19        board.add(\" \");\n20    }\n21\n22    // print elements of the board\n23    void printBoard() {\n24\n25        System.out.println(\" \" + board.get(0) + \" | \" + board.get(1) + \" | \" + board.get(2));\n26        System.out.println(\"-----------\");\n27        System.out.println(\" \" + board.get(3) + \" | \" + board.get(4) + \" | \" + board.get(5));\n28        System.out.println(\"-----------\");\n29        System.out.println(\" \" + board.get(6) + \" | \" + board.get(7) + \" | \" + board.get(8));\n30\n31    }\n32}\n33\n34\n35class Player {\n36\n37    String name;\n38    String type;\n39\n40    Player(String type) {\n41\n42        this.type = type;\n43        Scanner input = new Scanner(System.in);\n44        if (type == \"X\") {\n45            System.out.println(\"Player selecting X, enter your name: \");\n46            name = input.nextLine();\n47        }\n48        else {\n49            System.out.println(\"Player selecting O, enter your name: \");\n50            name = input.nextLine();\n51        }\n52    }\n53}\n54\n55\n56class Main {\n57    public static void main(String[] args) {\n58\n59\n60        // create object of Player class\n61        Player player1 = new Player(\"X\");\n62        Player player2 = new Player(\"O\");\n63\n64    }\n65}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Player selecting X, enter your name: \nLily\nPlayer selecting O, enter your name: \nRobin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we have added the Player class."
+    },
+    {
+      "type": "paragraph",
+      "content": "The constructor is used to get the name of the players. It takes a parameter type. type is used for symbols either X or O."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will assume that the first player will always take the X symbol and the second player will always take the O symbol."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside the Main class, we have created two objects player1 and player2 of the Player class.We have passed X and O to player1 and player2 respectively while creating their objects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

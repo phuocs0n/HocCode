@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/check-if-user-likes-car-or-bike?page=1",
+  "title": "Check if User Likes Car or Bike",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check if User Likes Car or Bike"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to check if the user likes car or bike."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take string as an input and assign it to the choice variable.",
+        "Check if the user input is Car or car. If yes, print I like Car.",
+        "Also check if the user input is Bike or bike. If yes, print I like Bike.",
+        "If user input is anything else other than that, print nothing."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputcar"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputI like Car"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

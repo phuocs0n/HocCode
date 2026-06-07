@@ -1,0 +1,68 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/logical-operators?page=3",
+  "title": "Logical Operator: && (AND)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Logical Operator: && (AND)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The && \"AND\" operator is used with two boolean expressions. It returns:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "true - if both boolean expressions are true",
+        "false - if either of the boolean expressions is false"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose a bank offers a loan if the applicant's credit score is 700 or higher, and they have an annual income of $6000."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, both conditions must be true for the applicant to qualify for the loan. This is where the && operator is applied."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we can write the condition:"
+    },
+    {
+      "type": "paragraph",
+      "content": "(creditScore > 700) && (annualSalary > 6000.00)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use this in a code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

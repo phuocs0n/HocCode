@@ -1,0 +1,93 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-oop/area-of-two-triangles?page=1",
+  "title": "Area of Two Triangles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Area of Two Triangles"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the area of two triangles."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula to compute the area of a triangle is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "area = (base * height) / 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Triangle with integer fields base and height.",
+        "Create a constructor with integer parameters b and h.",
+        "Inside the constructor, initialize the base and height with values of b and h respectively.",
+        "Create a method named calculateArea() to compute the area of triangle using the above formula and print it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create the main() method inside a Main class.",
+        "Inside the method, create an object t1 of the Triangle class with arguments 5 and 14.",
+        "Call the calculateArea() method using the object.",
+        "Create a second object t2 of Triangle with arguments 12 and 32.",
+        "Call calculateArea() using the second object."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output35\n192"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

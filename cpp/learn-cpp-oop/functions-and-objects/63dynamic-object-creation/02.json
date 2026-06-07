@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/dynamic-object-creation?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How do we create an object of the Circle class dynamically?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Circle circle1;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not how we create an object dynamically in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not how we create an object dynamically in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "Circle* circle1 = new Circle();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to create an object dynamically in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to create an object dynamically in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "new Circle* circle1;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the wrong way to dynamically create an object in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the wrong way to dynamically create an object in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "new Circle* circle1();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the wrong way to dynamically create an object in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the wrong way to dynamically create an object in C++."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How do we create an object of the Circle class dynamically?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Circle circle1;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Circle circle1;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Circle* circle1 = new Circle();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Circle* circle1 = new Circle();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:new Circle* circle1;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "new Circle* circle1;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:new Circle* circle1();",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "new Circle* circle1();",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

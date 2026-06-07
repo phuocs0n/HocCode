@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/first-component-app-header?page=3",
+  "title": "What is JSX?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is JSX?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now you might be wondering: \"Why does HTML work inside JavaScript?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "It doesn't, actually. What you're writing is JSX. It looks like HTML, but it's actually JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you write:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<h1>My Daily Journal</h1>"
+    },
+    {
+      "type": "paragraph",
+      "content": "React turns it into:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "React.createElement(\"h1\", null, \"My Daily Journal\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "You don't need to write createElement() yourself since JSX does it for you."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why it feels natural: you write what the UI should look like, and React builds it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's learn the basic syntax to create a JSX element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

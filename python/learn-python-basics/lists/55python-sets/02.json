@@ -1,0 +1,188 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/python-sets?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How many items does this set have?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "numbers = {1, 1, 2, 1}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "four"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Hence, the duplicate items of the set must be counted as a single item."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Hence, the duplicate items of the set must be counted as a single item."
+    },
+    {
+      "type": "paragraph",
+      "content": "three"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have three items."
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have three items."
+    },
+    {
+      "type": "paragraph",
+      "content": "two"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Since there are only two unique items in this set, it thus contains only two items."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Since there are only two unique items in this set, it thus contains only two items."
+    },
+    {
+      "type": "paragraph",
+      "content": "five"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have five items."
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have five items."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Hence, the duplicate items of the set must be counted as a single item."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Hence, the duplicate items of the set must be counted as a single item."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have three items."
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have three items."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Since there are only two unique items in this set, it thus contains only two items."
+    },
+    {
+      "type": "paragraph",
+      "content": "A set cannot contain duplicate items. Since there are only two unique items in this set, it thus contains only two items."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have five items."
+    },
+    {
+      "type": "paragraph",
+      "content": "This set doesn't have five items."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How many items does this set have?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:four",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "four",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:three",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "three",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:two",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "two",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:five",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "five",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

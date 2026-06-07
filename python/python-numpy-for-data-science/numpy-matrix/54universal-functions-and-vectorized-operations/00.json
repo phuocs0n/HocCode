@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/universal-functions-vectorized-operations?page=1",
+  "title": "What are NumPy Universal Functions?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What are NumPy Universal Functions?"
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy ufunc(universal functions) are functions that operate on N-d arrays element by element. These functions support broadcasting and typecasting features of nd arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "These functions are just like regular functions but are vectorized operations, which make them very fast compared to regular Pythonic functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "What are vectorized operations?"
+    },
+    {
+      "type": "paragraph",
+      "content": "We've used the concept of vectorization many times in NumPy. It refers to performing element-wise operations on arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a simple example. When we add a number with a NumPy array, it adds up with each element of the array."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3array1 = np.array([1, 2, 3, 4, 5 ])\n4number = 10\n5\n6#  number sums up with each array element\n7result = array1 + number\n8\n9print(result)\n10\n11# Output: [11 12 13 14 15]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the number 10 adds up with each array element. This is possible because of vectorization."
+    },
+    {
+      "type": "paragraph",
+      "content": "Without vectorization, performing the operation would require the use of loops."
+    },
+    {
+      "type": "paragraph",
+      "content": "NumPy vectorization involves performing mathematical operations on entire arrays, eliminating the need to loop through individual elements."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/building-query-key-factory?page=2",
+  "title": "Using the Factory in TaskList.jsx",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using the Factory in TaskList.jsx"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now in src/TaskList.jsx instead of hardcoding keys we import and use taskKeys:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import { taskKeys } from './queryKeys'\n \nconst { data: tasks } = useQuery({\n  queryKey: taskKeys.list({ status }),\n  queryFn: () => fetchTasks({ status }),\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "And in every mutation we use the same factory:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const createMutation = useMutation({\n  mutationFn: createTask,\n  onSuccess: (data) => {\n    queryClient.setQueryData(taskKeys.list({ status }), (old) => [\n      ...old,\n      { id: data.id, title: data.todo, status: 'open' }\n    ])\n  }\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "Everything lives in one place. If you ever need to change the key structure you change it in queryKeys.js and it updates everywhere automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the full files."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

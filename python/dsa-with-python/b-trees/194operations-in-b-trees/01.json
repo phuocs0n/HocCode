@@ -1,0 +1,52 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/operations-in-bplus-trees?page=2",
+  "title": "Insertion Into a B+ Tree",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Insertion Into a B+ Tree"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like in B-trees, insertion into a B+ tree is a two-step process:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Insert into the tree.",
+        "Split the node in case of overflow."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "There's only a small difference — after splitting a node from its median value, its right child will also contain the split median value."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's clarify this with an example."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

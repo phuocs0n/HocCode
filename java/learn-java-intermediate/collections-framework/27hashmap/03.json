@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/hashmap?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to create a HashMap?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap<String, Integer> hashMap = new HashMap<>();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap stores elements in key/value pairs. Hence, we need to specify both keys and values during the creation of a HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap stores elements in key/value pairs. Hence, we need to specify both keys and values during the creation of a HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap<String> hashMap = new HashMap<>();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify both keys and values during the creation of a HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify both keys and values during the creation of a HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap<Integer> hashMap = new HashMap<>();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify both keys and values during the creation of a HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify both keys and values during the creation of a HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap<> hashmap = new HashMap<String, Integer>();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the invalid way to create a HashMap in Java."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the invalid way to create a HashMap in Java."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to create a HashMap?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:HashMap<String, Integer> hashMap = new HashMap<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "HashMap<String, Integer> hashMap = new HashMap<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:HashMap<String> hashMap = new HashMap<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "HashMap<String> hashMap = new HashMap<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:HashMap<Integer> hashMap = new HashMap<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "HashMap<Integer> hashMap = new HashMap<>();",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:HashMap<> hashmap = new HashMap<String, Integer>();",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "HashMap<> hashmap = new HashMap<String, Integer>();",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,85 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/logical-operators?page=3",
+  "title": "The && Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The && Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The && (AND) operator evaluates to:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "true if both boolean expressions are true",
+        "false if either of the expressions is false"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose a bank offers a loan only if the applicant meets both of the following conditions:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Their credit score is 700 or higher.",
+        "They have a stable income."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, both conditions must be true for the applicant to qualify for the loan. This is where the && operator is applied."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what this condition looks like:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let condition = (creditScore >= 700) && (stableIncome == \"yes\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, it's not necessary to use parentheses. The above code is equivalent to:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let condition = creditScore >= 700 && stableIncome == \"yes\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll use this condition inside an if...else statement."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

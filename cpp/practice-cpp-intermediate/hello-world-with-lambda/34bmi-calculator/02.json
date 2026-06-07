@@ -1,0 +1,86 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/bmi-calculator?page=1",
+  "title": "BMI Calculator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "BMI Calculator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to calculate your Body-Mass Index (BMI) with the help of a lambda function and its capture clause."
+    },
+    {
+      "type": "paragraph",
+      "content": "The formula for calculating BMI is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "BMI = weight / (height * height)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, weight is a person's weight in kg, while height is in meters."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create double variables weight, height, and bmi.",
+        "Get user input for weight and height.",
+        "Create a lambda expression calculate_bmi() that captures weight and height by value and bmi by reference.",
+        "Calculate the BMI inside the lambda and store the result in the bmi variable.",
+        "Outside the lambda, call the calculate_bmi() lambda.",
+        "Finally, print the bmi variable."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input85\n1.82"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output25.6612"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

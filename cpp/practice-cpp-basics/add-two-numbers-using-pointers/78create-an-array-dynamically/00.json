@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/create-array-dynamically?page=1",
+  "title": "Create an Array Dynamically",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create an Array Dynamically"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to dynamically allocate memory to an array."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Declare an integer n and a pointer marks.",
+        "Get input for n.",
+        "Allocate memory to marks of size n using the new operator.",
+        "Get n inputs for marks using a for loop that runs from i = 0 to i = n -1.",
+        "Print the values stored in addresses of marks in separate lines using another for loop.",
+        "Deallocate the memory using delete."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input3\n1\n2\n3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output1\n2\n3"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

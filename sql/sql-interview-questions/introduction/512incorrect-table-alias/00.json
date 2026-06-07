@@ -1,0 +1,60 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/incorrect-table-alias?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT SUM(salary) \n2FROM Employees AS salary_expense;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the salary_expense alias is not specified in the SELECT clause."
+    },
+    {
+      "type": "paragraph",
+      "content": "While retrieving a column as an alias, we must use it on the same line as the SELECT clause."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Update the SELECT clause to include the correct alias:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT SUM(salary) AS salary_expense \n2FROM Employees;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

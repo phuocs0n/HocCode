@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/git/complete-picture?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Before contributing to an open source project, what should you always read first?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the most recent pull requests to understand current activity"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Recent PRs give you useful context on tone and style, but they do not replace the official guidance. The README and CONTRIBUTING.md contain the explicit rules the maintainer has written for contributors."
+    },
+    {
+      "type": "paragraph",
+      "content": "Recent PRs give you useful context on tone and style, but they do not replace the official guidance. The README and CONTRIBUTING.md contain the explicit rules the maintainer has written for contributors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The README and CONTRIBUTING.md files"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. The README explains what the project is and how to set it up. CONTRIBUTING.md contains the project's specific rules for contributors — branch naming, commit format, PR expectations. Following these signals respect for the maintainer's time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. The README explains what the project is and how to set it up. CONTRIBUTING.md contains the project's specific rules for contributors — branch naming, commit format, PR expectations. Following these signals respect for the maintainer's time."
+    },
+    {
+      "type": "paragraph",
+      "content": "The license file to confirm you are allowed to contribute"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The license governs how the code can be used, not how to contribute. While worth knowing, it does not tell you how to structure your contribution — the README and CONTRIBUTING.md do."
+    },
+    {
+      "type": "paragraph",
+      "content": "The license governs how the code can be used, not how to contribute. While worth knowing, it does not tell you how to structure your contribution — the README and CONTRIBUTING.md do."
+    },
+    {
+      "type": "paragraph",
+      "content": "The full git log to understand every commit ever made"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reading the full git log of a large open source project is not practical before contributing. The README and CONTRIBUTING.md give you the essential context in a fraction of the time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Reading the full git log of a large open source project is not practical before contributing. The README and CONTRIBUTING.md give you the essential context in a fraction of the time."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Before contributing to an open source project, what should you always read first?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Only the most recent pull requests to understand current activity",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Only the most recent pull requests to understand current activity",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The README and CONTRIBUTING.md files",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The README and CONTRIBUTING.md files",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The license file to confirm you are allowed to contribute",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The license file to confirm you are allowed to contribute",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The full git log to understand every commit ever made",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The full git log to understand every commit ever made",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

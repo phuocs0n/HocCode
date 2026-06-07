@@ -1,0 +1,46 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=9",
+  "title": "Step 1.4: Assembling the Message Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1.4: Assembling the Message Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, our Message class has taken its final form with all its methods defined. This is how it looks."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Message {\npublic:\n\n    // method to greet the player\n    void greet() {\n        cout << \"------------------------------\" << endl;\n        cout << \"\\t\\tH A N G M A N\" << endl;\n        cout << \"------------------------------\" << endl;\n        cout << \"Guess the Word\" << endl << endl;\n    }\n\n    // method to display the number of misses\n    void display_misses(int misses) {\n        cout << \"Remaining misses: \"<< max_misses - misses << endl << endl;\n    }\n\n    // method to display the incorrect guesses\n    void display_incorrect_guesses(string incorrect) {\n        cout << \"Incorrect Guesses: \" << incorrect << endl;\n    }\n    \n    // method to display the user answer\n    void display_user_answer(string user_answer) {\n        cout << \"Your Answer: \";\n\n        for (char c: user_answer) {\n            cout << c << \" \";\n        }\n\n        cout << endl;\n    }\n\n    // method to call when the user\n    // enters non-alphabetic character\n    void invalid_character_message() {\n        cout << \"\\nInvalid character!\" << endl;\n        cout << \"Input must be an alphabet!\" << endl;\n    }\n\n    // method to call when the user enters a\n    // character that has already been entered\n    void already_entered_message() {\n        cout << \"\\nYou have already entered this letter!\" << endl;\n        cout << \"Enter another letter!\" << endl;\n    }\n\n    void correct_message() {\n        cout << \"\\nCorrect!\" << endl;\n    }\n\n    void incorrect_message() {\n        cout << \"\\nIncorrect!\" << endl;\n    }\n\n    // print win or loss message\n    void final_result(string user_answer, string word) {\n\n        cout << \"Your Answer: \";\n\n        for (char c: user_answer) {\n            cout << c << \" \";\n        }\n\n        cout << endl << endl;\n\n        // print win message\n        if (user_answer == word) {\n            cout << \"-----------------------------------------------\" << endl;\n            cout << \"\\t\\t\\t\\tY O U  W I N\" << endl;\n            cout << \"-----------------------------------------------\" << endl;\n        }\n\n        // print loss message\n        else {\n            cout << \"The correct answer is: \" << word << endl << endl;\n            cout << \"-----------------------------------------------\" << endl;\n            cout << \"\\t\\t\\t\\tY O U  L O S E\" << endl;\n            cout << \"-----------------------------------------------\" << endl;\n        }\n    }\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll let's handle the game logic with the Game class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

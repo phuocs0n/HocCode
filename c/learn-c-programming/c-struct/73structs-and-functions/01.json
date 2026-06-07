@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/structs-functions?page=2",
+  "title": "Truyền cấu trúc cho hàm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Truyền cấu trúc cho hàm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử chúng ta có một cấu trúc như thế này:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "struct Student {\n  char name[50];\n  int age;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta biết rằng struct là một kiểu trong C giống như int và double. Và chúng ta cũng có thể tạo các biến của struct giống như tạo các biến thông thường"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// create struct variable\nstruct Student s1;\n\n// create int variable\nint a1;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vì struct hoạt động giống như một kiểu dữ liệu nên chúng ta cũng có thể truyền các biến struct cho hàm. Ví dụ,"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// passing struct to function\nvoid display(struct Student s1) {\n  ...\n}\n\n// passing a regular variable to function\nvoid display(int a1) {\n  ...\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, hãy xem một ví dụ hoạt động tiếp theo."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

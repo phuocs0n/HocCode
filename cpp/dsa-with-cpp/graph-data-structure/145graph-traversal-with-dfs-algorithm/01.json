@@ -1,0 +1,61 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/graph-traversal-with-dfs-algorithm?page=2",
+  "title": "DFS Algorithm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "DFS Algorithm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Depth-First Search (DFS) is a graph traversal algorithm that starts at a given vertex and goes as far as it can down a path, then backtracks until it finds an unexplored path and then explores it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Real-Life Analogy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're in a maze. You start walking down a path and keep going until you hit a wall or a dead-end."
+    },
+    {
+      "type": "paragraph",
+      "content": "When that happens, you think, \"Oops! This isn't the way out.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "So, you go back to the last spot where you could choose a different direction. This time, you pick a new path to see if that's the way out. You keep trying different paths, going back when you hit dead-ends, and choosing new directions."
+    },
+    {
+      "type": "paragraph",
+      "content": "You keep doing this until you either find the exit or realize you've tried every possible path."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's how someone would tackle a maze, just like DFS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

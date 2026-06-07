@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/array-manipulation?page=2",
+  "title": "Why Use map()?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Use map()?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you have an array of item prices:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const prices = [200, 300, 400];"
+    },
+    {
+      "type": "paragraph",
+      "content": "To increase each item price by $20, you might use a for...of loop like this:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Item prices\n2const prices = [200, 300, 400];\n3\n4// Array to hold new prices\n5const newPrices = [];\n6\n7// Add $20 to each price\n8for (let price of prices) {\n9    newPrices.push(price + 20);\n10\n11}\n12\n13// Print the new prices\n14console.log(newPrices);    // [220, 320, 420]"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works, but it can be simplified. The map() method provides a cleaner and more efficient way to achieve the same result."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with why you should use map() and how it simplifies transforming arrays."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

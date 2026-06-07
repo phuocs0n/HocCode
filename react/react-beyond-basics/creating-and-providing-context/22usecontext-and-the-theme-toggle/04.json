@@ -1,0 +1,105 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/usecontext-theme-toggle?page=5",
+  "title": "Updating ThemeProvider() with useEffect()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Updating ThemeProvider() with useEffect()"
+    },
+    {
+      "type": "paragraph",
+      "content": "The cleanest place to set the data-theme attribute is inside ThemeProvider() itself. We'll add a useEffect() that runs every time theme changes. The flow looks like this:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The Provider's state changes",
+        "useEffect() fires and updates the data-theme attribute on <html>",
+        "CSS takes over from there",
+        "Every element on the page inherits the correct theme automatically"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "All of this logic lives in exactly one place."
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { Routes, Route } from 'react-router-dom'\n2import HomePage from './pages/HomePage'\n3import EntryDetailPage from './pages/EntryDetailPage'\n4\n5function App() {\n6  return (\n7    <Routes>\n8      <Route path=\"/\" element={<HomePage />} />\n9      <Route path=\"/entries/:id\" element={<EntryDetailPage />} />\n10    </Routes>\n11  )\n12}\n13\n14export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2import { useTheme } from '../context/ThemeContext'\n3\n4function Header({ query, onQueryChange }) {\n5  const { theme, toggleTheme } = useTheme()\n6\n7  const searchRef = useRef(null);\n8\n9  useEffect(function () {\n10    searchRef.current.focus();\n11  }, []);\n12\n13  function handleChange(e) {\n14    onQueryChange(e.target.value);\n15  }\n16\n17  function handleClear() {\n18    onQueryChange(\"\");\n19    searchRef.current.focus();\n20  }\n21\n22  return (\n23    <header className=\"header\">\n24      <button className=\"btn btn-secondary theme-toggle\" onClick={toggleTheme}>\n25        {theme === 'light' ? 'Dark mode' : 'Light mode'}\n26      </button>\n27      <h2 className=\"title-primary\">My Daily Journal</h2>\n28      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n29      <div className=\"header-search\">\n30        <input\n31          ref={searchRef}\n32          className=\"search-input\"\n33          type=\"text\"\n34          placeholder=\"Search entries...\"\n35          value={query}\n36          onChange={handleChange}\n37        />\n38        {query && (\n39          <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n40        )}\n41      </div>\n42    </header>\n43  );\n44}\n45\n46export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { Link } from 'react-router-dom'\n2\n3function EntryCard({ id, title, date, author, content}) {\n4  return (\n5    <Link to={`/entries/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>\n6      <div className=\"entry-card\">\n7        <p className=\"entry-date\">{date}</p>\n8        <h2 className=\"entry-title\">{title}</h2>\n9        <p className=\"entry-author\">by {author}</p>\n10        <p className=\"entry-content\">{content}</p>\n11      </div>\n12    </Link>\n13  )\n14}\n15\n16export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useEffect } from \"react\";\n2\n3function useFetch(url) {\n4  const [data, setData] = useState(null);\n5  const [isLoading, setIsLoading] = useState(true);\n6  const [error, setError] = useState(null);\n7  const [refetchKey, setRefetchKey] = useState(0);\n8\n9  useEffect(function () {\n10    async function fetchData() {\n11      setIsLoading(true);\n12      setError(null);\n13      try {\n14        const res = await fetch(url);\n15        \n16        if (!res.ok) {\n17          throw new Error(\"Could not load data. Status: \" + res.status);\n18        }\n19        const json = await res.json();\n20        setData(json);\n21        setIsLoading(false);\n22      } catch (err) {\n23        setError(err.message);\n24        setIsLoading(false);\n25      }\n26    }\n27    fetchData();\n28  }, [url, refetchKey]);\n29\n30  function refetch() {\n31    setRefetchKey(function (k) { return k + 1; });\n32  }\n33\n34  return { data, isLoading, error, refetch };\n35}\n36\n37export default useFetch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function useSearch(entries) {\n4  const [query, setQuery] = useState(\"\");\n5\n6  const filteredEntries = useMemo(function () {\n7    if (!query.trim()) return entries;\n8    const lower = query.toLowerCase();\n9\n10    return entries.filter(function (entry) {\n11      return (\n12        entry.title.toLowerCase().includes(lower) ||\n13        entry.content.toLowerCase().includes(lower)\n14      );\n15    });\n16  }, [entries, query]);\n17\n18  return { query, setQuery, filteredEntries };\n19}\n20\n21export default useSearch;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { useState, useMemo } from \"react\";\n2\n3function usePagination(entries, pageSize) {\n4  const [currentPage, setCurrentPage] = useState(1);\n5\n6  const totalPages = useMemo(function () {\n7    return Math.ceil(entries.length / pageSize);\n8  }, [entries, pageSize]);\n9\n10  const pagedEntries = useMemo(function () {\n11    const start = (currentPage - 1) * pageSize;\n12    return entries.slice(start, start + pageSize);\n13  }, [entries, currentPage, pageSize]);\n14\n15  function handleNext() {\n16    setCurrentPage(function (p) { return Math.min(p + 1, totalPages); });\n17  }\n18\n19  function handlePrev() {\n20    setCurrentPage(function (p) { return Math.max(p - 1, 1); });\n21  }\n22\n23  function reset() {\n24    setCurrentPage(1);\n25  }\n26\n27  return { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset };\n28}\n29\n30export default usePagination;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useMemo } from \"react\";\n2import Header from \"../components/Header\";\n3import EntryCard from \"../components/EntryCard\";\n4import useFetch from \"../hooks/useFetch\";\n5import useSearch from \"../hooks/useSearch\";\n6import usePagination from \"../hooks/usePagination\";\n7\n8const ENTRIES_PER_PAGE = 5;\n9\n10function HomePage() {\n11  const { data, isLoading, error, refetch } = useFetch(\n12    \"https://api.programiz.pro/api/Demo/v1/journal-entries\"\n13  );\n14\n15  const entries = useMemo(function () {\n16    if (!data) return [];\n17    return data.map(function (post) {\n18      return {\n19        ...post,\n20        date: new Date(post.date).toLocaleDateString(\"en-US\", {\n21          year: \"numeric\", month: \"short\", day: \"numeric\"\n22        }).toUpperCase()\n23      };\n24    });\n25  }, [data]);\n26\n27  const { query, setQuery, filteredEntries } = useSearch(entries);\n28  const { currentPage, pagedEntries, totalPages, handleNext, handlePrev, reset } = usePagination(\n29    filteredEntries,\n30    ENTRIES_PER_PAGE\n31  );\n32\n33  function handleQueryChange(newQuery) {\n34    setQuery(newQuery);\n35    reset();\n36  }\n37\n38  return (\n39    <div className=\"main-container\">\n40      <Header query={query} onQueryChange={handleQueryChange} />\n41      <section className=\"entries-section\">\n42        <div className=\"entry-list-header\">\n43          <h3>Recent Entries</h3>\n44          <span className=\"entry-count\">{filteredEntries.length}</span>\n45          {query && <span className=\"entry-count\">{\"of \" + entries.length}</span>}\n46          <button className=\"btn btn-secondary\" onClick={refetch}>Refresh</button>\n47        </div>\n48        {isLoading ? (\n49          <p className=\"loading-state\">Loading entries...</p>\n50        ) : error ? (\n51          <div className=\"error-banner\">\n52            <p className=\"error-label\">Something went wrong.</p>\n53            <p className=\"error-detail\">{error}</p>\n54          </div>\n55        ) : pagedEntries.length === 0 ? (\n56          <p className=\"empty-state\">No entries found.</p>\n57        ) : (\n58          pagedEntries.map((entry) => (\n59            <EntryCard\n60              key={entry.id}\n61              id={entry.id}\n62              title={entry.title}\n63              date={entry.date}\n64              content={entry.content}\n65              author={entry.author}\n66            />\n67          ))\n68        )}\n69        {!isLoading && !error && totalPages > 1 && (\n70          <div className=\"pagination\">\n71            <button className=\"btn btn-secondary\" onClick={handlePrev} disabled={currentPage === 1}>Previous</button>\n72            <span className=\"pagination-info\">Page {currentPage} of {totalPages}</span>\n73            <button className=\"btn btn-secondary\" onClick={handleNext} disabled={currentPage === totalPages}>Next</button>\n74          </div>\n75        )}\n76      </section>\n77    </div>\n78  );\n79}\n80\n81export default HomePage;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useEffect, useState } from 'react'\n2import { useParams, Link, useNavigate } from 'react-router-dom'\n3\n4const API_URL = 'https://dev.api.programiz.pro/api/Demo/v1/journal-entries?_limit=10'\n5\n6function EntryDetailPage() {\n7  const { id } = useParams()\n8  const navigate = useNavigate()\n9  const [entry, setEntry] = useState(null)\n10  const [isLoading, setIsLoading] = useState(true)\n11  const [error, setError] = useState(null)\n12\n13  useEffect(function () {\n14    async function fetchEntry() {\n15      try {\n16        setIsLoading(true)\n17        const res = await fetch(API_URL)\n18        const data = await res.json()\n19        const found = data.find(function (e) { return String(e.id) === id })\n20        if (!found) throw new Error('Entry not found')\n21        setEntry(found)\n22      } catch (err) {\n23        setError(err.message)\n24      } finally {\n25        setIsLoading(false)\n26      }\n27    }\n28    fetchEntry()\n29  }, [id])\n30\n31  if (isLoading) return <p className=\"loading-state\">Loading entry...</p>\n32  if (error) return (\n33    <div className=\"not-found\">\n34      <h2>Entry not found</h2>\n35      <Link className=\"btn btn-primary\" to=\"/\">Back to Journal</Link>\n36    </div>\n37  )\n38  if (!entry) return null\n39\n40  return (\n41    <article className=\"entry-detail\">\n42      <div className=\"entry-detail-nav\">\n43        <button className=\"btn btn-secondary\" onClick={function () { navigate(\"/\") }}>Back to Journal</button>\n44      </div>\n45      <p className=\"entry-date\">{entry.date}</p>\n46      <h2 className=\"entry-title\">{entry.title}</h2>\n47      <p className=\"entry-detail-meta\">by {entry.author}</p>\n48      <p className=\"entry-detail-content\">{entry.content}</p>\n49    </article>\n50  )\n51}\n52\n53export default EntryDetailPage;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react';\n2import { createRoot } from 'react-dom/client';\n3import { BrowserRouter } from \"react-router-dom\";\n4import { ThemeProvider } from \"./context/ThemeContext\";\n5import App from './App';\n6import './style.css';\n7\n8const root = createRoot(document.getElementById('root'));\n9root.render(    \n10    <BrowserRouter>\n11      <ThemeProvider>\n12          <App />\n13     </ThemeProvider>\n14    </BrowserRouter>\n15);"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1export function ThemeProvider({ children }) {\n2  const [theme, setTheme] = useState('light')\n3\n4  useEffect(function () {\n5    document.documentElement.setAttribute('data-theme', theme)\n6  }, [theme])\n7\n8  function toggleTheme() {\n9    setTheme(function (t) { return t === 'light' ? 'dark' : 'light' })\n10  }\n11\n12  return (...)\n13}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

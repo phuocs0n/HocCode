@@ -1,0 +1,65 @@
+{
+  "levels": [
+    {
+      "title": "Welcome and Setup",
+      "lessons": [
+        {
+          "title": "1.1Welcome and Setup",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/welcome-setup"
+        },
+        {
+          "title": "1.2Variables and Arrow Functions",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/variables-arrow-functions"
+        },
+        {
+          "title": "1.3Templates and Defaults",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/templates-defaults"
+        }
+      ]
+    },
+    {
+      "title": "Modern Object Patterns",
+      "lessons": [
+        {
+          "title": "2.1Modern Object Patterns",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/modern-object-patterns"
+        },
+        {
+          "title": "2.2Safe Property Access",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/safe-property-access"
+        }
+      ]
+    },
+    {
+      "title": "Array Iteration Methods",
+      "lessons": [
+        {
+          "title": "3.1Array Iteration Methods",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/array-iteration-methods"
+        },
+        {
+          "title": "3.2Spread and Destructuring",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/spread-destructuring"
+        }
+      ]
+    },
+    {
+      "title": "ES6 Classes",
+      "lessons": [
+        {
+          "title": "4.1ES6 Classes",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/es-classes"
+        },
+        {
+          "title": "4.2Class Composition",
+          "url": "https://app.programiz.pro/course/modern-javascript-essentials/class-composition"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 9,
+    "sections": 4,
+    "container": "main-content"
+  }
+}

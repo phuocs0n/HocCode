@@ -1,0 +1,69 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-basics/array-input?page=3",
+  "title": "Finding Sum of Array Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Finding Sum of Array Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we/l create an array of size 5. Here, we/ll take input values for the array elements and find the sum of all the elements."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        // Create object of Scanner\n7        Scanner input = new Scanner(System.in);\n8        \n9        int[] numbers = new int[5];\n10        \n11        System.out.println(\"Enter Array Elements:\");\n12        for (int index = 0; index < numbers.length; ++index) {\n13            numbers[index] = input.nextInt();\n14        }\n15        \n16        int total = 0;\n17        \n18        // Add all array elements\n19        for (int index = 0; index < numbers.length; ++index) {\n20            total = total + numbers[index];\n21        }\n22        \n23        System.out.println(\"Sum: \" + total);\n24        \n25        input.close();\n26    }\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter Array Elements:\n10\n20\n30\n40\n50\nSum: 150"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have created a for loop to take input values for the array."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (int index = 0; index < numbers.length; ++index) {\n    numbers[index] = input.nextInt();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We then used a second for loop to find the sum of all the array elements."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (int index = 0; index < numbers.length; ++index) {\n    total = total + numbers[index];\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

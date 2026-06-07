@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/count?page=4",
+  "title": "Example 2: Records Matching a Criteria",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Records Matching a Criteria"
+    },
+    {
+      "type": "paragraph",
+      "content": "As a data analyst, you'll mostly use the COUNT() function to count the rows matching the specified criteria."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, your organization asks you to find the number of employees who are eligible for incentives, such as those aged between 22 and 26."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Count the number of employees between 22 and 26\n2\n3SELECT COUNT(*)\n4FROM Employees\n5WHERE age BETWEEN 22 AND 26;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/file-operations-ii?page=2",
+  "title": "Read From a File and Write to Another",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Read From a File and Write to Another"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we will copy the contents of one file to another. For this, we will use"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "getline() function to read the content of a file to a string variable",
+        "the << operator to write the content from the string variable to another file"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a file named source.txt with the following content:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "This is a sample file.\nThis will be copied to another file."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's now copy the file content to another file named destination.txt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the program required to do that:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\n#include <fstream>\nusing namespace std;\n\nint main() {\n\n\n    // open source.txt in read mode\n    fstream source(\"source.txt\", ios::in);\n\n    // open destination.txt in write mode\n    fstream destination(\"destination.txt\", ios::out);\n\n\n    // string variable to store file content\n    string content;\n\n    // check the files for error\n    if (source.fail() || destination.fail()) {\n        cout << \"Error opening file(s).\";\n        exit(0);\n    }\n\n\n    // loop until the end of source.txt\n    while (!source.eof()) {\n\n        // store current line of source.txt\n        // to content variable\n        getline(source, content);\n\n        // write the source content to destination.txt\n        destination << content << endl;\n    }\n\n\n    // close the files\n    source.close();\n    destination.close();\n\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we run this file, the content of the destination.txt file will be"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "This is a sample file.\nThis will be copied to another file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

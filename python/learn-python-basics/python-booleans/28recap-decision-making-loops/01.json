@@ -1,0 +1,83 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/recap-decision-making--loops?page=2",
+  "title": "Recap (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "When working with loops, you often need more control over how the loop runs. This is where the break and continue statements come in."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The break Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The break statement terminates the loop immediately when it is encountered."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Iterate from 1 to 100\n2for i in range(1, 101):\n3\n4    # Terminate the loop when i becomes 3\n5    if i == 3:\n6        break\n7\n8    print(i)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The continue Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "The continue statement skips the rest of the code in the current iteration and moves directly to the next iteration of the loop."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Iterate from 1 to 5\n2for i in range(1, 6):\n3\n4    # Skip printing when i is 3 or 4\n5    if i == 3 or i == 4:\n6        continue\n7\n8    print(i)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\n2\n5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

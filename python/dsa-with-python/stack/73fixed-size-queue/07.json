@@ -1,0 +1,62 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-python/fixedsize-queue?page=8",
+  "title": "Implementation of Dequeuing (Removing) Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implementation of Dequeuing (Removing) Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "To remove from a queue:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "front starts at 0 (first element to remove)",
+        "dequeue() returns the element at front, clears it, and moves front forward"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the code looks:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class Queue:\n2    \n3    def __init__(self, capacity):\n4        self.capacity = capacity\n5        self.queue = [None] * capacity\n6        \n7        # rear points to the last inserted element (starts at -1 because queue is empty)\n8        self.rear = -1\n9\n10        # front points to the element to be removed next\n11        self.front = 0\n12\n13    # Insert elements into the queue\n14    def enqueue(self, item):\n15        # Move rear to the next position\n16        self.rear += 1\n17\n18        # Add the item at the new rear index\n19        self.queue[self.rear] = item\n20\n21    # Remove elements from the queue\n22    def dequeue(self):\n23        item_removed = self.queue[self.front]\n24        self.queue[self.front] = None\n25        self.front += 1\n26        return item_removed\n27\n28    # Display the queue\n29    def display(self):\n30        print(self.queue)\n31\n32queue1 = Queue(5)\n33\n34print(\"Initial queue:\")\n35queue1.display()\n36\n37queue1.enqueue(12)\n38queue1.enqueue(77)\n39\n40print(\"After inserting two elements:\")\n41queue1.display()\n42\n43print(f\"Item removed: {queue1.dequeue()}\")\n44print(\"After removing an item:\")\n45queue1.display()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Initial queue:\n[None, None, None, None, None]\nAfter inserting two elements:\n[12, 77, None, None, None]\nItem removed: 12\nAfter removing an item:\n[None, 77, None, None, None]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

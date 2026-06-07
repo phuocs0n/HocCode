@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-8?page=4",
+  "title": "Calculating Running Total (SUM)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calculating Running Total (SUM)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The next requirement is to calculate the running total of sales for each sales representative."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use the SUM() window function to calculate the cumulative total of sales, partitioned by the sales representative and ordered by the transaction date."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT \n2    sales_rep_id, \n3    sales_rep_name, \n4    sales_amount, \n5    SUM(sales_amount) OVER (PARTITION BY sales_rep_id ORDER BY transaction_date) AS running_total\n6FROM Sales;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query will give you the running total of sales for each representative as you move through their transactions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

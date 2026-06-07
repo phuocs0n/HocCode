@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/why-chunking-works?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why did the SpeedBlip build use 7 separate Claude Code chunks instead of one large prompt?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code has a character limit that prevents long prompts from being submitted"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code can process long prompts. The chunking decision was strategic, not a technical workaround for a character limit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code can process long prompts. The chunking decision was strategic, not a technical workaround for a character limit."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each chunk creates a testable checkpoint and a git commit, so the build never moves forward from a broken state"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Chunking gives you verification checkpoints and safe rollback points. If Chunk 5 breaks something, you can roll back to the Chunk 4 commit and try again without losing earlier work."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Chunking gives you verification checkpoints and safe rollback points. If Chunk 5 breaks something, you can roll back to the Chunk 4 commit and try again without losing earlier work."
+    },
+    {
+      "type": "paragraph",
+      "content": "Smaller prompts are always cheaper to run than large prompts"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cost is not the reason for chunking. The methodology is about build quality and control, not API cost optimization."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cost is not the reason for chunking. The methodology is about build quality and control, not API cost optimization."
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code performs better on UI code than on logic code, so they need to be separated"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code handles both UI and logic well. The chunking separation is about independent testability and scope clarity, not AI performance differences."
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code handles both UI and logic well. The chunking separation is about independent testability and scope clarity, not AI performance differences."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why did the SpeedBlip build use 7 separate Claude Code chunks instead of one large prompt?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Claude Code has a character limit that prevents long prompts from being submitted",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Claude Code has a character limit that prevents long prompts from being submitted",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Each chunk creates a testable checkpoint and a git commit, so the build never moves forward from a broken state",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Each chunk creates a testable checkpoint and a git commit, so the build never moves forward from a broken state",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Smaller prompts are always cheaper to run than large prompts",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Smaller prompts are always cheaper to run than large prompts",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Claude Code performs better on UI code than on logic code, so they need to be separated",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Claude Code performs better on UI code than on logic code, so they need to be separated",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

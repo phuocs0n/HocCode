@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/miscellaneous?page=3",
+  "title": "Ví dụ: Bài tập số học",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Bài tập số học"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ví dụ 1"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int total = 100;\n6  \n7  total += 10;  // total = total + 10\n8  printf(\"%d\", total);\n9\n10  return 0;\n11}\n12\n13// Output: 110"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, tổng += 10 thêm 10 vào biến tổng và gán kết quả trở lại biến tổng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ví dụ 2"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int x = 100;\n6  \n7  x %= 9;  // x = x % 9\n8  printf(\"%d \\n\", x);\n9\n10  return 0;\n11}\n12\n13// Output: 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, x %= 9 tính số dư khi x chia cho 9 và gán kết quả lại cho x."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

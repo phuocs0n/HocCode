@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=2",
+  "title": "Two Problems, One Root Cause",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Two Problems, One Root Cause"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. The message is a lie when the list is genuinely empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the API returns zero entries, the user sees Loading entries... forever. There's no way to tell if data is still coming or if the list is actually empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. A failed request shows nothing."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the fetch fails due to bad network, server down, wrong URL, etc., the following happens:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entries state stays empty,",
+        "loadEntries() silently swallows the error,",
+        "and the user has no idea anything went wrong."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "They just see Loading entries... and wait indefinitely."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both problems have the same root cause: a single piece of state (entries) is being used to represent three different situations."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we need two more states:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "One to track whether data is still loading.",
+        "Another to track whether something went wrong."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's add them one at a time."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

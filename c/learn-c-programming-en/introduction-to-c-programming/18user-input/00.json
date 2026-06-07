@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/take-input?page=1",
+  "title": "Understanding User Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose you're at an ATM to withdraw cash. The machine doesn't randomly dispense money - it waits for you to provide specific inputs."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, it asks you to insert your card and enter your PIN. Then, it asks how much money you'd like to withdraw."
+    },
+    {
+      "type": "paragraph",
+      "content": "Based on your input, the ATM processes the requests and prints the exact amount of cash you asked for."
+    },
+    {
+      "type": "paragraph",
+      "content": "In programming, user input works similarly. A program asks the user to provide some information and then uses that input to produce an output."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, the user might input a number, and the program prints it back to the screen or performs calculations before displaying the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will try to implement this concept in C programming."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

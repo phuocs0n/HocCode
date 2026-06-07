@@ -1,0 +1,64 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/complete-tictactoe?page=7",
+  "title": "Resetting the Game",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Resetting the Game"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the gameLoop() function is responsible for managing game states. Let's use it to reset the game once the game is over."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3  <div id=\"leftScreen\">\n4    <h1>Tic Tac Toe</h1>\n5    <div id=\"turnInfo\">Player 1's Turn</div>\n6  </div>\n7\n8  <div id=\"rightScreen\">\n9    <div class=\"game-board\" id=\"gameBoard\">\n10      <div class=\"cell\" data-index=\"0\"></div>\n11      <div class=\"cell\" data-index=\"1\"></div>\n12      <div class=\"cell\" data-index=\"2\"></div>\n13      <div class=\"cell\" data-index=\"3\"></div>\n14      <div class=\"cell\" data-index=\"4\"></div>\n15      <div class=\"cell\" data-index=\"5\"></div>\n16      <div class=\"cell\" data-index=\"6\"></div>\n17      <div class=\"cell\" data-index=\"7\"></div>\n18      <div class=\"cell\" data-index=\"8\"></div>\n19    </div>\n20  </div>\n21</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    padding: 0;\n4    box-sizing: border-box;\n5}\n6\n7body {\n8    margin: 8px;\n9    font-family: 'Helvetica', 'Arial', sans-serif;\n10}\n11\n12h1 {\n13    font-size: 40px;\n14    color: #2a2a7b;\n15    font-weight: bold;\n16    margin: 20px;\n17}\n18\n19div {\n20    font-size: 24px;\n21    color: #2a2a7b;\n22    font-weight: bold;\n23}\n24\n25/* Game Screen Styles */\n26#gameScreen {\n27    display: flex;\n28    padding: 20px;\n29    justify-content: space-around;\n30}\n31\n32#turnInfo {\n33    font-size: 28px;\n34    font-weight: 500;\n35    color: #6b6b9f;\n36    margin-bottom: 40px;\n37    text-align: center;\n38}\n39\n40.game-board {\n41    display: grid;\n42    background: #40e7e7;\n43    grid-template-columns: repeat(3, 1fr);\n44    grid-template-rows: repeat(3, 100px);\n45    grid-gap: 4px;\n46    width: 320px;\n47}\n48\n49.cell {\n50    display: flex;\n51    align-items: center;\n52    justify-content: center;\n53    background-color: white;\n54    font-size: 36px;\n55    font-weight: bold;\n56    cursor: pointer;\n57}\n58\n59.cell:hover {\n60    background-color: #d5f7f7;\n61}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const gameLoop = (cell) => {\n2    if (cell.textContent === \"\") {\n3        handlePlayerMove(cell);\n4\n5         // Check for a winner.\n6        if (checkWin()) {\n7\n8            // Reset the game if a winner is found\n9            resetGame();  \n10        }\n11    }\n12};\n13\n14const resetGame = () => {\n15    const cells = document.querySelectorAll(\".cell\");\n16    \n17    // Clear the board\n18    cells.forEach(cell => cell.textContent = \"\"); \n19\n20    // Reset attempts\n21    attempts = ['', '', '', '', '', '', '', '', '']; \n22    \n23    // Reset to Player 1\n24    currentPlayer = \"X\"; \n25\n26    // Reset turn info\n27    const turnInfo = document.querySelector(\"#turnInfo\");\n28    turnInfo.textContent = \"Player 1's Turn\"; \n29};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the resetGame() function clears the game board, resets the attempts array, and restores the player turn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since checkWin() and checkDraw() determine when the game ends, we can call resetGame() from gameLoop() whenever the game is over."
+    },
+    {
+      "type": "paragraph",
+      "content": "Complete the game to see how resetGame() works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

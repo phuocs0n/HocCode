@@ -1,0 +1,65 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-compute-student-grade-ii?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember we created a project to calculate a student's average score and their grade?"
+    },
+    {
+      "type": "paragraph",
+      "content": "To calculate the average score, you used the following function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "// Find the average score and return it\nconst getAverageScore = (s1, s2, s3, s4, s5) => {\n\n    // Variable for storing total sum\n    let total = s1 + s2 + s3 + s4 + s5;\n    \n    // Compute average score\n    let averageScore = total / 5;\n    \n    return averageScore;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function works but accepts five individual scores as arguments, which isn't practical for real-world applications."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you've learned about arrays and array manipulation, you can improve this project by:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Storing scores in an array.",
+        "Using array methods to calculate the average score."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Ready? Let's get started."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

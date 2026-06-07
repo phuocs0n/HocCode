@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/type-conversion?page=1",
+  "title": "Type Conversion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Type Conversion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Up to this point, we have worked with three different types of data:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "int - Numbers without decimal parts. For example, 45, -9, 0, etc.",
+        "double - Numbers with decimal parts. For example, 45.87, -32.50, 12.0, etc.",
+        "char - Single characters wrapped inside single quotations. For example, 'a', '5', 'c', etc."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In programming, there might be situations when you have to convert one data to another. For example, double to int, int to char, and so on."
+    },
+    {
+      "type": "paragraph",
+      "content": "This process of converting the value of one data type to another is known as type conversion."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we will learn to perform type conversion in C++. So let's get started."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

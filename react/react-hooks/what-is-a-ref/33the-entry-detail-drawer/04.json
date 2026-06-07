@@ -1,0 +1,46 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=5",
+  "title": "A Snippet of the Full Changes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Snippet of the Full Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a snippet of App.jsx with all the changes we just made:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "import Drawer from \"./components/Drawer\";\n\n... ... ...\n\nfunction App() {\n  ... ... ...\n\n  // Create a selectedEntry state\n  const [selectedEntry, setSelectedEntry] = useState(null);\n\n  useEffect(function () {\n    async function loadEntries() {\n\n      // Reset the UI\n      setIsLoading(true);\n      setError(null);\n\n      ... ... ...\n\n    }\n    loadEntries();\n  }, [refreshKey]);\n\n\n  // Function to set the state\n  function handleSelectEntry(entry) {\n    setSelectedEntry(entry);\n  }\n\n  return (\n    <div className=\"main-container\">\n      <Header />\n      <section className=\"entries-section\">\n        ... ... ...\n\n        {isLoading ? (...)\n        : error ? (...)\n        : entries.length === 0 ? (...)\n        : (\n          entries.map((entry) => (\n            <EntryCard\n              ... ... ...\n\n              {/* Pass onSelect to each entry card */}\n              onSelect={handleSelectEntry}\n            />\n          ))\n        )}\n      </section>\n\n      {/* Render the drawer */}\n      <Drawer\n        entry={selectedEntry}\n        onClose={() => setSelectedEntry(null)}\n      />\n    </div>\n  );\n}\n\nexport default App;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's discuss how these changes work."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,68 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/complete-tictactoe?page=11",
+  "title": "Saving Player Scores",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Saving Player Scores"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you've learned three types of storage in the previous chapter, you can use any of them to store the player scores."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we want the scores to persist even after the page is reloaded, we'll use local storage."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is what the final code will look like:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Setup Screen -->\n2<div id=\"setupScreen\">\n3    <h1>Tic Tac Toe</h1>\n4    <div class=\"input-group\">\n5        <input type=\"text\" class=\"player1-name\" placeholder=\"Enter player 1 name\">\n6    </div>\n7    <div class=\"input-group\">\n8        <input type=\"text\" class=\"player2-name\" placeholder=\"Enter player 2 name\">\n9    </div>\n10    <button id=\"start-button\">Start Game</button>\n11</div>\n12\n13<!-- Game Screen -->  \n14<div id=\"gameScreen\">\n15  <div id=\"leftScreen\">\n16     …\n17      <div id=\"player1Score\"><span class=\"player1-name\"></span>: 0</div>\n18      <div id=\"player2Score\"><span class=\"player2-name\"></span>: 0</div>\n19    </div>\n20  </div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    padding: 0;\n4    box-sizing: border-box;\n5}\n6\n7body {\n8    margin: 8px;\n9    font-family: 'Helvetica', 'Arial', sans-serif;\n10}\n11\n12h1 {\n13    font-size: 40px;\n14    color: #2a2a7b;\n15    font-weight: bold;\n16    margin: 20px;\n17}\n18\n19div {\n20    font-size: 24px;\n21    color: #2a2a7b;\n22    font-weight: bold;\n23}\n24\n25/* Game Screen Styles */\n26#gameScreen {\n27    display: none;\n28    padding: 20px;\n29    justify-content: space-around;\n30}\n31\n32#turnInfo {\n33    font-size: 28px;\n34    font-weight: 500;\n35    color: #6b6b9f;\n36    margin-bottom: 40px;\n37    text-align: center;\n38}\n39\n40.game-board {\n41    display: grid;\n42    background: #40e7e7;\n43    grid-template-columns: repeat(3, 1fr);\n44    grid-template-rows: repeat(3, 100px);\n45    grid-gap: 4px;\n46    width: 320px;\n47}\n48\n49.cell {\n50    display: flex;\n51    align-items: center;\n52    justify-content: center;\n53    background-color: white;\n54    font-size: 36px;\n55    font-weight: bold;\n56    cursor: pointer;\n57}\n58\n59.cell:hover {\n60    background-color: #d5f7f7;\n61}\n62\n63#player1Score, #player2Score {\n64    padding: 18px 16px;\n65    border-radius: 4px;\n66    border: 2px solid #40e7e7;\n67    text-align: center;\n68    margin-bottom: 8px;\n69}\n70\n71/* Setup Screen Styles */\n72#setupScreen {\n73    padding: 20px;\n74    display: flex;\n75    flex-direction: column;\n76    align-items: center;\n77}\n78\n79.input-group {\n80    margin-bottom: 15px;\n81    text-align: left;\n82}\n83\n84.input-group label {\n85    display: block;\n86    color: #2a2a7b;\n87    margin-bottom: 5px;\n88}\n89\n90.input-group input {\n91    width: 100%;\n92    padding: 10px;\n93    border: 1px solid #e0e0e0;\n94    border-radius: 4px;\n95    font-size: 16px;\n96}\n97\n98#start-button {\n99    width: 265px;\n100    padding: 12px;\n101    background-color: #0066ff;\n102    color: white;\n103    border: none;\n104    border-radius: 4px;\n105    font-size: 16px;\n106    cursor: pointer;\n107    margin-top: 20px;\n108}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function to save scores to localStorage\n2const saveScores = () => {\n3    // Retrieve the existing scores array from localStorage or initialize a new array\n4    let scores = JSON.parse(localStorage.getItem(\"Scores\")) || [];\n5\n6    // Function to add a new score or update an existing one\n7    const saveOrUpdateScore = (name, score) => {\n8        // Find the player in the scores array\n9        const existingPlayerIndex = scores.findIndex(entry => entry.name === name);\n10\n11        if (existingPlayerIndex !== -1) {\n12            // Update the existing player's score\n13            scores[existingPlayerIndex].score = score;\n14        } else {\n15            // Add a new player entry\n16            scores.push({ name, score });\n17        }\n18    };\n19\n20    // Save or update scores for both players\n21    saveOrUpdateScore(player1Name, player1Score);\n22    saveOrUpdateScore(player2Name, player2Score);\n23\n24    // Save the updated scores array back to localStorage\n25    localStorage.setItem(\"Scores\", JSON.stringify(scores));\n26};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, saveScores() checks if the player already has a score stored in the localStorage. If it exists, it updates as necessary. Else, it creates an empty list and adds a new entry to it containing the names and scores of both players."
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, you've completed your first browser-based game using JS."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

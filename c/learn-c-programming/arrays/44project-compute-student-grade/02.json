@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=3",
+  "title": "Nhận điểm trung bình",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Nhận điểm trung bình"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Find the average score and return it\n4double getAverageScore(double scores[5]) {\n5\n6    double sum = 0;\n7\n8    // Find the sum\n9    for (int i = 0; i < 5; ++i) {\n10        sum = sum + scores[i];\n11     }\n12\n13     // Calculate the average\n14    double average = sum / 5;\n15\n16    return average;\n17}\n18\n19int main() {\n20\n21    // An array of scores\n22    double scores[5] = {55, 64, 75, 80, 65};\n23\n24    double averageScore = getAverageScore(scores);\n25    printf(\"%.2lf\", averageScore);\n26\n27    return 0;\n28}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "67.80"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, hàm getAverageScore() lấy một mảng làm đối số."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bên trong hàm này, chúng ta đã sử dụng vòng lặp for để tìm tổng của tất cả các điểm."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sau đó, chúng tôi đã tính giá trị trung bình bằng cách chia tổng cho 5 (số phần tử mảng)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng tôi sẽ sử dụng điểm trung bình để tính điểm của học sinh."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

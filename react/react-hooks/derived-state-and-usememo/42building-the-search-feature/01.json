@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/building-search-feature?page=2",
+  "title": "Lifting 'query' out of Header",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Lifting 'query' out of Header"
+    },
+    {
+      "type": "paragraph",
+      "content": "We're lifting query out of Header so that App can use it to filter entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Header will stop managing its own state and instead receive the current value and a setter as props."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, we'll make three changes from the previous version of Header.jsx:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The useState import will be removed.",
+        "query and onQueryChange will come from props instead of local state.",
+        "onChange will call onQueryChange(e.target.value) instead of the local setter."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll also retain the Clear button that we added in a practice challenge from the previous chapter. I recommend you complete that challenge if you haven't already."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, the ref and the autofocus effect will stay exactly as they were."
+    },
+    {
+      "type": "paragraph",
+      "content": "So let's implement these changes next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

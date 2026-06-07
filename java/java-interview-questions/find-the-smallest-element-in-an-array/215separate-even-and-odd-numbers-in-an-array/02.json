@@ -1,0 +1,53 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/java-interview-questions/separate-even-odd-numbers-in-array?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To separate even and odd numbers in an array, determine if the numbers inside the array are even or odd and add them to their respective arraylist."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we are given a numbers array."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create two integer arraylists named evenNumbers and oddNumbers to add even and odd numbers, respectively.",
+        "Loop through each element of the numbers array.",
+        "Check whether the number is even or odd and add that number to its respective arraylist."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

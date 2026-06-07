@@ -1,0 +1,63 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/everything-is-object?page=6",
+  "title": "How Do Variables Actually Work?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How Do Variables Actually Work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have a code like this below:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1list1 = [1, 2, 3]\n2\n3# assign list1 to list2\n4list2 = list1 \n5\n6# append an item to list1\n7list1.append(4)\n8\n9print(list1)\n10print(list2)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you guess the output of this program?"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's obvious that list1 will be [1, 2, 3, 4] because we have appended 4 to [1, 2, 3]. However, list2 will also be [1, 2, 3, 4]."
+    },
+    {
+      "type": "paragraph",
+      "content": "It's because both list1 and list2 are referring to the same object because of this code list2 = list1. And, if we check the id of list1 and list2, they will be the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why we use the list's copy() method to copy one list to another if we do not want this kind of behavior."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1list1 = [1, 2, 3]\n2\n3# assign list1 to list2\n4list2 = list1.copy()\n5\n6list1.append(4)\n7\n8print(list1)    # [1, 2, 3, 4]\n9print(list2)    # [1, 2, 3]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

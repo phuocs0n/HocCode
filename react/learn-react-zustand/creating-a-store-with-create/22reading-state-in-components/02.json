@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/reading-state-in-components?page=2",
+  "title": "Why the Selector Matters",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why the Selector Matters"
+    },
+    {
+      "type": "paragraph",
+      "content": "You might wonder — why pass a function? Why not just do this?"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const store = useJournalStore()"
+    },
+    {
+      "type": "paragraph",
+      "content": "You could. But then your component would re-render every time anything in the store changes. Even things it does not care about."
+    },
+    {
+      "type": "paragraph",
+      "content": "With a selector your component only re-renders when the exact piece of state it selected changes."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const entries = useJournalStore((state) => state.entries)"
+    },
+    {
+      "type": "paragraph",
+      "content": "This component only re-renders when entries changes. Not when theme changes. Not when searchQuery changes. Just entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "That keeps your app fast as it grows."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will check your understanding. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

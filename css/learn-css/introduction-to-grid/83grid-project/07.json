@@ -1,0 +1,71 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-css/grid-project?page=8",
+  "title": "Creating the Tag List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating the Tag List"
+    },
+    {
+      "type": "paragraph",
+      "content": "The tag list contains a horizontal list of items. Remember that flexbox is useful while arranging items in a single dimension—either row or column."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use flexbox to arrange the items and style them individually."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the final code:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"projects-grid\">\n2    <div class=\"primary-card\">\n3        <img src=\"/images/learn-css/shopease.png\" alt=\"Project Image\">\n4        <h3>ShopEase</h3>\n5        <p>ShopEase is a fully responsive and interactive e-commerce platform that offers a seamless\n6            shopping experience. It features product listings, shopping cart functionality, secure checkout,\n7            product filtering, and user reviews. With an integrated payment gateway, it provides users with\n8            a secure and efficient way to shop online. Built using modern web technologies and best\n9            practices.</p>\n10        <div class=\"tech-tag-list\">\n11            <div>HTML</div>\n12            <div>CSS</div>\n13            <div>JavaScript</div>\n14            <div>API Integration</div>\n15            <div>Payment Gateway</div>\n16        </div>\n17        <a href=\"#\">Visit Site</a>\n18    </div>\n19    <div>\n20        <img src=\"/images/learn-css/smoothie.png\" alt=\"Project Image\">\n21        <h3>Smoothie Hub</h3>\n22        <p>A vibrant website featuring a collection of smoothie recipes for health-conscious individuals.</p>\n23        <a href=\"#\">Visit Site</a>\n24    </div>\n25    <div>\n26        <img src=\"/images/learn-css/bakery.png\" alt=\"Project Image\">\n27        <h3>BakeItEasy</h3>\n28        <p>A baking recipe website that showcases step-by-step guides for home bakers.</p>\n29        <a href=\"#\">Visit Site</a>\n30    </div>\n31    <div>\n32        <img src=\"/images/learn-css/meal.png\" alt=\"Project Image\">\n33        <h3>QuickFit Meals</h3>\n34        <p>An easy-to-use site that provides quick and healthy meal ideas for people on the go.</p>\n35        <a href=\"#\">Visit Site</a>\n36    </div>\n37    <div>\n38        <img src=\"/images/learn-css/travel.png\" alt=\"Project Image\">\n39        <h3>TravelShots</h3>\n40        <p>A photography portfolio that highlights unique travel destinations through stunning images.</p>\n41        <a href=\"#\">Visit Site</a>\n42    </div>\n43</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Import custom font */\n2@import url(\"https://fonts.googleapis.com/css2?family=Euclid+Circular+A:wght@400;500&display=swap\");\n3\n4* {\n5    font-family: 'Euclid Circular A', sans-serif;\n6    line-height: 1.5;\n7}\n8\n9.projects-grid {\n10    display: grid;\n11    grid-template-columns: 2fr 1fr 1fr;\n12    grid-template-rows: auto auto;\n13    gap: 20px;\n14}\n15\n16/* Style cards */\n17.projects-grid > div {\n18    background-color: #fff;\n19    border-radius: 10px;\n20    padding: 20px;\n21    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n22}\n23\n24.primary-card {\n25    grid-area: 1 / 1 / 3 / 2;\n26}\n27\n28/* Flex layout */\n29.tech-tag-list {\n30    display: flex;\n31    gap: 10px;\n32    margin-bottom: 10px;\n33}\n34\n35/* Style tags */\n36.tech-tag-list > div {\n37    background-color: #f3f3f3;\n38    color: #49497e;\n39    font-size: 0.8rem;\n40    border-radius: 5px;\n41    padding: 4px 4px;\n42}\n43\n44/* Style images */\n45img {\n46    width: 100%;\n47    border-radius: 10px;\n48}\n49\n50/* Style headings */\n51h3 {\n52    color: #25265e;\n53    font-size: 1.5rem;\n54    font-weight: 550;\n55}\n56\n57/* Style paragraphs */\n58p {\n59    font-size: 16px;\n60}\n61\n62/* Style links */\n63a {\n64    color: #0556f3;\n65    font-weight: medium;\n66    text-decoration: none;\n67}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code to see the final output."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've created a flex layout on the element with the tech-tag-list class."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's right, you can stack one layout above another when using grids!"
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, you have completed the final grid project and learned all the key concepts of grid layout."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,73 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/immutable-deletion-lifting-state-up?page=3",
+  "title": "Lifting State Up: The State Lives in the Parent",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Lifting State Up: The State Lives in the Parent"
+    },
+    {
+      "type": "paragraph",
+      "content": "You know that the list of entries lives in App, not in each EntryCard. Here are its implications:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. One source of truth."
+    },
+    {
+      "type": "paragraph",
+      "content": "The only place that holds the list is entries, which is stored in the parent component App."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Children cannot change it directly."
+    },
+    {
+      "type": "paragraph",
+      "content": "EntryCard does not have setEntries. It only receives data and a callback."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Parent updates state."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the user clicks Delete, the card calls onDelete(id). This runs handleDelete() inside App(), which in turn calls setEntries(...). The list updates and React re-renders all cards."
+    },
+    {
+      "type": "paragraph",
+      "content": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Keeping the list state in the parent (and passing down callbacks so children can request changes) is often called lifting the state up."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, the state is \"up\" inside the common ancestor that needs it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

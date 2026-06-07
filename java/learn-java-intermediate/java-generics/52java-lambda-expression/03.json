@@ -1,0 +1,143 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-lambda-expression?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a lambda expression?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "() -> System.out.println(4 + 5);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a lambda expression."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a lambda expression."
+    },
+    {
+      "type": "paragraph",
+      "content": "@FunctionalInterface"
+    },
+    {
+      "type": "paragraph",
+      "content": "interface AddNumbers {"
+    },
+    {
+      "type": "paragraph",
+      "content": "public void add();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a functional interface."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a functional interface."
+    },
+    {
+      "type": "paragraph",
+      "content": "public void add() {"
+    },
+    {
+      "type": "paragraph",
+      "content": "System.out.println(4 + 5)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a regular method."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a regular method."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is right."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is right."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a lambda expression?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:() -> System.out.println(4 + 5);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "() -> System.out.println(4 + 5);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:@FunctionalInterfaceinterface AddNumbers {    public void add();}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "@FunctionalInterfaceinterface AddNumbers {    public void add();}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:public void add() {    System.out.println(4 + 5)}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "public void add() {    System.out.println(4 + 5)}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

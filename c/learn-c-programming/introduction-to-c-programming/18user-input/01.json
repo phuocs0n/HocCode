@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/take-input?page=2",
+  "title": "Đầu vào của người dùng",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Đầu vào của người dùng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong ví dụ ở trang trước, chúng ta đã biết rằng nếu không có thông tin đầu vào của người dùng, máy ATM sẽ không biết cần phân phát bao nhiêu tiền."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tương tự, một chương trình được viết để in tuổi của bạn sẽ không biết phải in gì trừ khi bạn cung cấp thông tin đầu vào cụ thể (trong trường hợp này là tuổi của bạn)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong C, để tạo đầu vào đó, chúng tôi sử dụng hàm scanf()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem một ví dụ:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Create a variable\n6    int age;\n7\n8    // Store user input in the variable\n9    scanf(\"%d\", &age);\n10\n11    // Print the variable\n12    printf(\"Age is %d\", age);\n13\n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu chúng tôi chạy chương trình này, chương trình sẽ đợi dữ liệu người dùng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn cần nhập tuổi vào vùng được chỉ định trong bảng điều khiển rồi nhấn phím Enter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Việc thực thi chương trình sẽ không được hoàn thành cho đến khi bạn thực hiện xong việc đó."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ tìm hiểu cách hoạt động của chương trình trên."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

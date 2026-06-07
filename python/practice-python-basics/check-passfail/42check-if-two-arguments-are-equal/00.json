@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/check-if-two-arguments-are-equal?page=1",
+  "title": "Check if Two Arguments Are Equal",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check if Two Arguments Are Equal"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to check if the two arguments passed are equal or not by creating a function."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get two integer inputs num1 and num2.",
+        "Create a function my_function() that accepts two arguments.",
+        "Inside the function, check to see if the two arguments are equal.",
+        "If they are equal, return True, else return False.",
+        "Call the function, pass integers num1 and num2 as arguments to the function, and print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input1\n2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputFalse"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

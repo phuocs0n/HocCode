@@ -1,0 +1,65 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-html/html-validation?page=1",
+  "title": "Browser Validation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Browser Validation"
+    },
+    {
+      "type": "paragraph",
+      "content": "HTML code is rendered by browsers. Since different browsers can have their own rules and implementations, some HTML elements will behave differently."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why it is important to validate your HTML code against different browsers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you can validate your code:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Open your HTML page in different browsers.",
+        "Verify if all elements behave the same way."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Some of the common browsers that developers use for validation are:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Google Chrome",
+        "Mozilla Firefox",
+        "Apple Safari",
+        "Microsoft Edge"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

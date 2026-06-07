@@ -1,0 +1,56 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/give-discount?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can split the problem into two parts:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "first, to calculate the discount amount",
+        "second, to calculate the final amount"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To calculate the discount amount, we need to multiply the discount percentage with the total amount and then divide it by 100."
+    },
+    {
+      "type": "paragraph",
+      "content": "After calculating the discount, we need to calculate the final amount after the discount, which is easy since we'll only be subtracting the discount from the total amount."
+    },
+    {
+      "type": "paragraph",
+      "content": "After calculating the discount, we can print the output."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,80 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/complex-number-calculator?page=5",
+  "title": "Step 2: Adding Functionality to the Overloaded Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Adding Functionality to the Overloaded Operators"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's focus our attention on performing the calculations inside the operator() functions. The basic steps for this calculation are:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a Complex object inside the operator() function to store the result.",
+        "Use the respective arithmetic formula to calculate the real and imaginary values.",
+        "Return the Complex object that has the result of the calculation."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For the sake of clarity, let's look at a code snippet of the overloaded + operator. This will help you better analyze the other overloaded operators:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// overload the + operator\nComplex operator + (Complex arg) {\n        \n    // create Complex object\n    Complex complex_sum;\n \n    // add the real and imaginary parts\n    // of this object and arg object\n    complex_sum.real = this->real + arg.real;\n    complex_sum.imag = this->imag + arg.imag;\n        \n    return complex_sum;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created the complex_sum object to store the result of the complex addition."
+    },
+    {
+      "type": "paragraph",
+      "content": "We add the real variable of the calling object (this->real) and the real variable of the argument arg (arg.real) and store it in the real variable of the complex_sum object."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then repeat the same process for the imag variables of those objects. Finally, we return the complex_sum object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's add functionality to all the other overloaded operators."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Complex {\npublic:\n\n    // member variables\n    double real;\n    double imag;\n    \n    // constructor to initialize default values to 0.0\n    Complex() : real(0.0), imag(0.0) {}\n    \n    // constructor to initialize with custom values\n    Complex(double real, double imag) {\n        this->real = real;\n        this->imag = imag;\n    }\n    \n\n    // overload the + operator\n    Complex operator + (Complex arg) {\n        \n        // create Complex object\n        Complex complex_sum;\n        \n        // add the real and imaginary parts\n        // of this object and arg object\n        complex_sum.real = this->real + arg.real;\n        complex_sum.imag = this->imag + arg.imag;\n        \n        return complex_sum;\n    }\n    \n    // overload the - operator\n    Complex operator - (Complex arg) {\n        \n        // create Complex object\n        Complex complex_difference;\n        \n        // subtract the real and imaginary parts\n        // of this object and arg object\n        complex_difference.real = this->real - arg.real;\n        complex_difference.imag = this->imag - arg.imag;\n        \n        return complex_difference;\n    }\n    \n    // overload the * operator\n    Complex operator * (Complex arg) {\n        \n        // create Complex object\n        Complex complex_product;\n        \n        // use complex multiplication formula\n        complex_product.real = (this->real * arg.real) - (this->imag * arg.imag);\n        complex_product.imag = (this->real * arg.imag) + (this->imag * arg.real);\n        \n        return complex_product;\n    }\n    \n    // overload the / operator\n    Complex operator / (Complex arg) {\n        \n        // create Complex object\n        Complex complex_division;\n        \n        double denominator = pow(arg.real, 2) + pow(arg.imag, 2);\n            \n        // use complex division formula\n        complex_division.real = ((this->real * arg.real) + (this->imag * arg.imag)) / denominator;\n        complex_division.imag = ((this->imag * arg.real) - (this->real * arg.imag)) / denominator;\n               \n        return complex_division;\n    }\n\n\n    // method to return the result\n    string get_result() {\n        // code\n    }\n};"
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

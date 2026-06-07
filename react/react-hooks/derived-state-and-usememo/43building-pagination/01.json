@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/building-pagination?page=2",
+  "title": "Page State and the Paginated Slice",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Page State and the Paginated Slice"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need two things for this task:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. A constant for the page size"
+    },
+    {
+      "type": "paragraph",
+      "content": "This constant goes outside the component, since it never changes:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const ENTRIES_PER_PAGE = 5;"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. A state variable to track the current page"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's call this state variable currentPage, and it goes inside the App component:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [currentPage, setCurrentPage] = useState(1);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

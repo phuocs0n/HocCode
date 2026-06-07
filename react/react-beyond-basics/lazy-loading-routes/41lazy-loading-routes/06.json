@@ -1,0 +1,63 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/lazy-loading-routes?page=6",
+  "title": "Wrapping a Named Export for lazy()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Wrapping a Named Export for lazy()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's suppose our EntryDetailPage isn't a default export. This will obviously create problems with lazy()."
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this, we can reshape the module ourselves to match the { default: Component } format that lazy() expects:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const EntryDetailPage = lazy(() =>\n  import(\"./pages/EntryDetailPage\").then(module => ({ default: module.EntryDetailPage }))\n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the generic syntax:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const Component = lazy(() =>\n  import(\"./path\").then(module => ({ default: module.ComponentName }))\n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "For our own files, it's simpler to just use export default. This workaround is mainly useful when lazy-loading from libraries we don't control."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we know how lazy() works, we need to handle what the user sees while a chunk is downloading."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

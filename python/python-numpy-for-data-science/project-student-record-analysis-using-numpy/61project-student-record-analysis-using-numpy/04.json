@@ -1,0 +1,67 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/project--student-record-analysis-using-numpy?page=5",
+  "title": "Step 4: Array Operations",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Array Operations"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll perform some basic operations on finding Total and Average Marks of each student."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use np.sum() for total and np.mean() for average."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will also find out if they have passed. A student is said to pass an exam if and only if they obtain equal to or more than 40 marks on each subject."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use np.where() to check this."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this we need to make some adjustments on the display_record() function."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# display the record in visually pleasing form\n\ndef display_record(studentArray, subjectArray, marksArray):\n    \n\n    # create a new Array for Total, Average and Result\n    \n    # calculate total marks for each student\n    totalArray = np.sum(marksArray, axis=1)\n    # calculate average marks for each student\n    avgArray = np.mean(marksArray, axis=1)\n    # check if all marks in a row are >= 40 and assign 'Pass' or 'Fail' accordingly\n    resultArray = np.where(np.all(marksArray >= 40, axis=1), 'Pass', 'Fail')\n\n    \n\n    # add Total, Average and Grade to header\n    headerArray = np.hstack(('Student/Subject', subjectArray, np.array(['Total', 'Average', 'Result'])))\n\n    header = \"|\".join(headerArray)\n    print(header)\n    \n    # create a lengthArray for formatting purpose\n    lengthArray = np.array([len(element) for element in headerArray])\n    \n    # print the separator line\n    separator = \"+\".join([\"-\" * length for length in lengthArray])\n    print(separator)\n    \n    # print the marks for each student\n    for i, student in enumerate(studentArray):\n        row = f\"{student :<{lengthArray[0]}}\"\n        row += ''.join(f\"|{mark:<{lengthArray[col+1]}}\" for col, mark in enumerate(marksArray[i]))\n\n        # add Total, Average and Pass result for each student\n\n        r\now += \"|\" + f\"{totalArray[i]:<{lengthArray[6]}}\" \n        row += \"|\" + f\"{avgArray[i]:<{lengthArray[7]}}\" \n        row += \"|\" + f\"{resultArray[i]:<{lengthArray[8]}}\" \n\n        print(row)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The result becomes,"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Student/Subject|English|Maths|Science|Social|History|Total|Average|Result\n---------------+-------+-----+-------+------+-------+-----+-------+------\nAlice          |81     |78   |80     |60    |63     |362  |72.4   |Pass  \nBob            |50     |60   |65     |48    |55     |278  |55.6   |Pass  \nCharlie        |30     |83   |97     |79    |75     |364  |72.8   |Fail  \nDan            |99     |55   |60     |48    |30     |292  |58.4   |Fail"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

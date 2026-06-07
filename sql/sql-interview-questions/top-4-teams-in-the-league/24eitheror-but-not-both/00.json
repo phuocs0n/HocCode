@@ -1,0 +1,86 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/eitheror-but-not-both?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider the following table:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Table - Employees"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "emp_id",
+          "name",
+          "department",
+          "salary"
+        ],
+        [
+          "1",
+          "Bryant",
+          "Sales",
+          "90000"
+        ],
+        [
+          "2",
+          "Steph",
+          "Content",
+          "30000"
+        ],
+        [
+          "3",
+          "Hakeem",
+          "Development",
+          "40000"
+        ],
+        [
+          "4",
+          "Shaquille",
+          "Sales",
+          "20000"
+        ],
+        [
+          "5",
+          "Michael",
+          "Sales",
+          "90000"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a query to retrieve the names of all employees from the Employees table who either belong to the Sales department or have a salary greater than 50000, but not both."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

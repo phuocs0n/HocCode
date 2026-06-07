@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/introduction?page=1",
+  "title": "Algorithms",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Algorithms"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start by understanding what an algorithm is — a step-by-step set of instructions to solve a specific problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, an algorithm to print the sum of two numbers might look like this:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Problem: Add Two Numbers"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Step1: Initialize two variables number1 and number2.\nStep2: Add number1 and number2.\nStep3: Print the total."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the algorithm is written in English. However, if we use a programming language to write an algorithm, it's called code."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's examine the Python code for adding two numbers."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# initialize two variables\n2number1 = 33\n3number2 = 2\n4\n5# add the numbers\n6total = number1 + number2\n7\n8# print total\n9print(total)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "35"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the next lesson, we will explore why analyzing algorithms is important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

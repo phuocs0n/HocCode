@@ -1,0 +1,62 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/building-search-feature?page=5",
+  "title": "Combining the Changes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Combining the Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the full executable app as it stands at the end of this lesson. Click Run Code to see the search feature in action."
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1// 1. Import useMemo\n2import { useState, useEffect, useMemo } from \"react\";\n3\n4... ... ...\n5\n6function App() {\n7\n8  ... ... ...\n9\n10  // 2. Add the 'query' state declaration\n11  const [query, setQuery] = useState(\"\");\n12\n13  // 3. Compute 'filteredEntries' directly in the component\n14  const filteredEntries = useMemo(function () {\n15    if (!query.trim()) return entries;\n16    const lower = query.toLowerCase();\n17    return entries.filter(function (entry) {\n18      return (\n19        entry.title.toLowerCase().includes(lower) ||\n20        entry.content.toLowerCase().includes(lower)\n21      );\n22    });\n23  }, [entries, query]);\n24\n25  ... ... ...\n26\n27  return (\n28    ... ... ...\n29\n30      {/* 4. Pass query and onQueryChange as props\n31      <Header query={query} onQueryChange={setQuery} />\n32\n33    ... ... ...\n34  );\n35}\n36\n37export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Header({ query, onQueryChange }) {\n4  const searchRef = useRef(null);\n5\n6  useEffect(function () {\n7    searchRef.current.focus();\n8  }, []);\n9\n10  function handleChange(e) {\n11    onQueryChange(e.target.value);\n12  }\n13\n14  function handleClear() {\n15    onQueryChange(\"\");\n16    searchRef.current.focus();\n17  }\n18\n19  return (\n20    <header className=\"header\">\n21      <h2 className=\"title-primary\">My Daily Journal</h2>\n22      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n23      <div className=\"header-search\">\n24        <input\n25          ref={searchRef}\n26          className=\"search-input\"\n27          type=\"text\"\n28          placeholder=\"Search entries...\"\n29          value={query}\n30          onChange={handleChange}\n31        />\n32        {query && (\n33          <button className=\"btn-clear\" onClick={handleClear}>Clear</button>\n34        )}\n35      </div>\n36    </header>\n37  );\n38}\n39\n40export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useRef, useEffect } from \"react\";\n2\n3function Drawer({ entry, onClose }) {\n4  const drawerRef = useRef(null);\n5\n6  useEffect(function () {\n7    function handleMouseDown(event) {\n8\n9      if (drawerRef.current && !drawerRef.current.contains(event.target)) {\n10        onClose();\n11      }\n12    }\n13\n14    document.addEventListener(\"mousedown\", handleMouseDown);\n15    return function () {\n16      document.removeEventListener(\"mousedown\", handleMouseDown);\n17    };\n18  }, [onClose]);\n19\n20  if (!entry) return null;\n21\n22  return (\n23    <div className=\"drawer-overlay\">\n24      <div className=\"drawer\" ref={drawerRef}>\n25        <button className=\"drawer-close\" onClick={onClose}>×</button>\n26        <h2>{entry.title}</h2>\n27        <p className=\"drawer-meta\">{entry.date} · {entry.author}</p>\n28        <p className=\"drawer-content\">{entry.content}</p>\n29      </div>\n30    </div>\n31  );\n32}\n33\n34export default Drawer;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content, onSelect }) {\n2\n3  return (\n4    <div className=\"entry-card\" onClick={function () { onSelect({ id, title, date, author, content }); }}>\n5      <p className=\"entry-date\">{date}</p>\n6      <h2 className=\"entry-title\">{title}</h2>\n7      <p className=\"entry-author\">by {author}</p>\n8      <p className=\"entry-content\">{content}</p>\n9    </div>\n10  );\n11}\n12\n13export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

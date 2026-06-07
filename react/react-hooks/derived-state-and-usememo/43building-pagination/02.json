@@ -1,0 +1,61 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/building-pagination?page=3",
+  "title": "Computing the Page Slice",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Computing the Page Slice"
+    },
+    {
+      "type": "paragraph",
+      "content": "With both the constant and the state variable in place, we can compute the page slice:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const pagedEntries = useMemo(function () {\n  const start = (currentPage - 1) * ENTRIES_PER_PAGE;\n  return filteredEntries.slice(start, start + ENTRIES_PER_PAGE);\n}, [filteredEntries, currentPage]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "How It Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, pagedEntries depends on filteredEntries and currentPage:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "When either changes, React recomputes the slice.",
+        "When both are unchanged, React returns the cached result."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "There is one more thing to handle: when the user types a new query, the page should reset."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

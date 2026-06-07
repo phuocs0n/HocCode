@@ -1,0 +1,148 @@
+{
+  "levels": [
+    {
+      "title": "Introduction to the Course",
+      "lessons": [
+        {
+          "title": "1.1Introduction to the Course",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/introduction-to"
+        }
+      ]
+    },
+    {
+      "title": "Understanding OOP",
+      "lessons": [
+        {
+          "title": "2.1Understanding OOP",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/understanding-oop"
+        },
+        {
+          "title": "2.2Classes and Objects",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/classes-objects"
+        },
+        {
+          "title": "2.3Constructors",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/constructors"
+        },
+        {
+          "title": "2.4Public and Private Modifiers",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/public-private-modifiers"
+        },
+        {
+          "title": "2.5Revise OOP (Basics)",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/revise-oop-basics"
+        }
+      ]
+    },
+    {
+      "title": "Inheritance",
+      "lessons": [
+        {
+          "title": "3.1Inheritance",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/inheritance"
+        },
+        {
+          "title": "3.2Function Overriding",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/function-overriding"
+        },
+        {
+          "title": "3.3Revision: C++ Inheritance",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/revision-c-inheritance"
+        }
+      ]
+    },
+    {
+      "title": "Pointer and Object",
+      "lessons": [
+        {
+          "title": "4.1Pointer and Object",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/pointer-object"
+        },
+        {
+          "title": "4.2Virtual Functions",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/virtual-functions"
+        },
+        {
+          "title": "4.3Polymorphism",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/polymorphism"
+        },
+        {
+          "title": "4.4Encapsulation",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/encapsulation"
+        },
+        {
+          "title": "4.5Revise OOP (Advanced)",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/revise-oop-advanced"
+        }
+      ]
+    },
+    {
+      "title": "Templates",
+      "lessons": [
+        {
+          "title": "5.1Templates",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/templates"
+        },
+        {
+          "title": "5.2Constructor Overloading",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/constructor-overloading"
+        },
+        {
+          "title": "5.3C++ static Keyword",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/c-static-keyword"
+        },
+        {
+          "title": "5.4Protected Access Modifier",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/protected-access-modifier"
+        },
+        {
+          "title": "5.5Inheritance Access Control",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/inheritance-access-control"
+        }
+      ]
+    },
+    {
+      "title": "Functions and Objects",
+      "lessons": [
+        {
+          "title": "6.1Functions and Objects",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/functions-objects"
+        },
+        {
+          "title": "6.2Friend Function and Friend Class",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/friend-function-friend-class"
+        },
+        {
+          "title": "6.3Dynamic Object Creation",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/dynamic-object-creation"
+        },
+        {
+          "title": "6.4Pointer Types",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/pointer-types"
+        }
+      ]
+    },
+    {
+      "title": "Rock, Paper, Scissors",
+      "lessons": [
+        {
+          "title": "7.1Rock, Paper, Scissors",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors"
+        },
+        {
+          "title": "7.2Tic-Tac-Toe",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/tictactoe"
+        },
+        {
+          "title": "7.3What's Next?",
+          "url": "https://app.programiz.pro/course/learn-cpp-oop/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 26,
+    "sections": 7,
+    "container": "main-content"
+  }
+}

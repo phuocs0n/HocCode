@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/responsive-design/flexbox-for-responsive-components?page=1",
+  "title": "Your Nav and Cards Still Break",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your Nav and Cards Still Break"
+    },
+    {
+      "type": "paragraph",
+      "content": "By this point, your layout structure is responsive. The hero switches from one column to two. Sections stack properly. Your breakpoints work."
+    },
+    {
+      "type": "paragraph",
+      "content": "But when you resize the browser to 320px, something still feels wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "The navigation links feel tight."
+    },
+    {
+      "type": "paragraph",
+      "content": "The stat cards look squeezed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The layout technically works, but it doesn't feel comfortable."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's because we fixed the page structure in Chapter 2. Now we need to fix the components inside that structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, you will:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Replace a rigid grid with flexible cards",
+        "Fix the navigation direction for mobile",
+        "Understand exactly where the new CSS goes"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next you will look at why the stat cards feel cramped on small screens."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

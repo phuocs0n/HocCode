@@ -1,0 +1,131 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/lazy-loading-routes?page=11",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens if we use lazy() without a Suspense boundary?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React throws an error because no fallback UI was specified"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React requires a Suspense boundary to handle the loading state."
+    },
+    {
+      "type": "paragraph",
+      "content": "React requires a Suspense boundary to handle the loading state."
+    },
+    {
+      "type": "paragraph",
+      "content": "The lazy component renders normally with no fallback shown"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React has no way to know what to render while the chunk loads."
+    },
+    {
+      "type": "paragraph",
+      "content": "React has no way to know what to render while the chunk loads."
+    },
+    {
+      "type": "paragraph",
+      "content": "The browser silently waits until the chunk is downloaded"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not silently wait. It needs explicit instruction."
+    },
+    {
+      "type": "paragraph",
+      "content": "React does not silently wait. It needs explicit instruction."
+    },
+    {
+      "type": "paragraph",
+      "content": "The static import is used as a fallback automatically"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no static import when using lazy()."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no static import when using lazy()."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens if we use lazy() without a Suspense boundary?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React throws an error because no fallback UI was specified",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React throws an error because no fallback UI was specified",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The lazy component renders normally with no fallback shown",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The lazy component renders normally with no fallback shown",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The browser silently waits until the chunk is downloaded",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The browser silently waits until the chunk is downloaded",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The static import is used as a fallback automatically",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The static import is used as a fallback automatically",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

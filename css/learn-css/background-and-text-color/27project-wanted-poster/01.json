@@ -1,0 +1,87 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/project-wanted-poster?page=2",
+  "title": "Adding Background and Width",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding Background and Width"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, let's style the main container (<div>) that wraps all the elements."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3\n4<head>\n5    <!-- Load the font -->\n6    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n7    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n8    <link href=\"https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap\"\n9        rel=\"stylesheet\">\n10</head>\n11\n12<body>\n13\n14    <!-- Covers all the visible HTML elements -->\n15    <div>\n16        <h1>wanted</h1>\n17        <img src=\"/images/learn-css/jack-sparrow.png\">\n18        <h2>jack sparrow</h2>\n19        <p>the notorious pirate</p>\n20        <h3>reward</h3>\n21        <h4><span>$5000</span> $20000</h4>\n22    </div>\n23    \n24</body>\n25\n26</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1div {\n2    font-family: \"Old Standard TT\", serif;\n3    text-align: center;\n4    width: 550px;\n5    background: url('/images/learn-css/paper-background.png');\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have added these properties to the <div> element:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. font-family"
+    },
+    {
+      "type": "paragraph",
+      "content": "The font-family property adds the Old Standard TT font to all the text in the poster and sets Serif as the fallback font."
+    },
+    {
+      "type": "paragraph",
+      "content": "By using font-family on <div>, you don't need to apply it to individual elements, as the <div> element wraps all the content within it."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. text-align"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the poster, all the text is aligned to the center. Therefore, we have applied text-align: center; to ensure all the text aligns accordingly."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. width"
+    },
+    {
+      "type": "paragraph",
+      "content": "The poster's width is set to 550 pixels."
+    },
+    {
+      "type": "paragraph",
+      "content": "4. background"
+    },
+    {
+      "type": "paragraph",
+      "content": "By default, the background image repeats, which fits our needs in this case. Right now, the image is larger than the <div>, but if we use a smaller image or a larger <div>, the repeating will be useful."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

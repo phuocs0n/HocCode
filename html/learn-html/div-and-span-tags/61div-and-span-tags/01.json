@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-html/div-span-tags?page=1",
+  "title": "The <div> Tag",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn HTML"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The <div> Tag"
+    },
+    {
+      "type": "paragraph",
+      "content": "The <div> tag is used to group multiple elements together."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose, we have these HTML elements:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h2>HTML Tutorials</h2>\n2<ul>\n3    <li><a href=\"\">HTML Introduction</a></li>\n4    <li><a href=\"\">HTML Tables</a></li>\n5    <li><a href=\"\">HTML Forms</a></li>\n6</ul>\n7\n8\n9<h1>HTML Introduction</h1>\n10<p>HTML stands for Hyper Text Markup Language.</p>\n11<p>HTML is the standard markup language for creating Webpages.</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we can use <div> to structure these elements into two sections:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div>\n2    <h2>HTML Tutorials</h2>\n3    <ul>\n4        <li><a href=\"\">HTML Introduction</a></li>\n5        <li><a href=\"\">HTML Tables</a></li>\n6        <li><a href=\"\">HTML Forms</a></li>\n7    </ul>\n8</div>\n9\n10<div>\n11    <h1>HTML Introduction</h1>\n12    <p>HTML stands for Hyper Text Markup Language.</p>\n13    <p>HTML is the standard markup language for creating Webpages.</p>\n14</div>"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you run both the code, there won't be any visible differences in the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, it's important if we want to apply CSS styles or JavaScript functionalities to a group of content."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's learn about it next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

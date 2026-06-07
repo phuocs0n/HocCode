@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/project-todo-list?page=2",
+  "title": "Complete Project Demo",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Complete Project Demo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click the Run Code button to try the complete project."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div id=\"container\">\n2    <h1 id=\"title\">To-do List</h1>\n3    ..."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    font-family: Arial, sans-serif;\n3..."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const addListBtn = document.querySelector(\"#add-list-btn\");\n2..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the to-do list has the following major functionalities:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add tasks.",
+        "Mark tasks as complete.",
+        "Edit tasks.",
+        "Delete tasks.",
+        "Clear all tasks."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's build the project bit-by-bit, starting from its basic structure."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

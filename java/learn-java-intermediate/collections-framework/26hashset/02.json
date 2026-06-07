@@ -1,0 +1,55 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/hashset?page=3",
+  "title": "Duplicate Items in a Set",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Duplicate Items in a Set"
+    },
+    {
+      "type": "paragraph",
+      "content": "As mentioned earlier, we cannot store duplicate elements in a hashset. Let's see what happens if we add a duplicate element."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.HashSet;\n2\n3class Main {\n4    public static void main(String[] args) {\n5\n6        // create HashSet \n7        HashSet<String> animals = new HashSet<>();\n8\n9        // add elements\n10        animals.add(\"tiger\");\n11        animals.add(\"dog\");\n12        animals.add(\"elephant\");\n13        animals.add(\"elephant\");\n14\n15        // print HashSet\n16        System.out.println(animals);\n17    }\n18}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[tiger, dog, elephant]"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, we have added elephant two times to the hashset. However, it is stored only once inside the hashset."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

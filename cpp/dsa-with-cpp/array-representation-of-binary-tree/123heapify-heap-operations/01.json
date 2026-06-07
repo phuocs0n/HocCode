@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/heapify--heap-operations?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the heapify operation used for in a binary heap?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the kth smallest element in the heap."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The heapify operation is not used for searching specific elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "The heapify operation is not used for searching specific elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "To remove the root element from the heap."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Removing the root element from the heap is achieved by the delete operation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Removing the root element from the heap is achieved by the delete operation."
+    },
+    {
+      "type": "paragraph",
+      "content": "To establish the heap property."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Heapify operation is used to establish the heap property in a binary heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Heapify operation is used to establish the heap property in a binary heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "To reverse the order of elements in the heap."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The heapify operation does not reverse the order of elements in the heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "The heapify operation does not reverse the order of elements in the heap."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the heapify operation used for in a binary heap?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To find the kth smallest element in the heap.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To find the kth smallest element in the heap.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To remove the root element from the heap.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To remove the root element from the heap.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To establish the heap property.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To establish the heap property.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To reverse the order of elements in the heap.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To reverse the order of elements in the heap.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,87 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/prime-numbers-between-intervals?page=1",
+  "title": "Prime Numbers Between Intervals",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Prime Numbers Between Intervals"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a method to find all the prime numbers between two intervals using a method."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a method named checkPrime() with an integer parameter, number.",
+        "Inside the method, check if the number is prime or not.",
+        "If the number is prime, return true. Otherwise, return false."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside main(), get integer inputs for two intervals x and y, such that y should be greater than x.",
+        "Run a loop to access each number between x and y.",
+        "Call checkPrime() with each value between the intervals.",
+        "If the returned value is true, print the number."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input21\n50"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output23\n29\n31\n37\n41\n43\n47"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

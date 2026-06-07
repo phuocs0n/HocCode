@@ -1,0 +1,88 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/daily-active-users?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have an Activity table with columns user_id, session_id, activity_date, and activity_type."
+    },
+    {
+      "type": "paragraph",
+      "content": "Our goal is to find the number of daily active users for a period of 4 days ending in 2023-04-18."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In this problem, we first need to count the number of distinct users and label the result set with the alias daily_active_users."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "We then filter the dates between '2023-04-15' and '2023-04-18', i.e., 4 days."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Finally, we group the result by activity_date."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The result will consist of the following table:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "activity_date",
+          "daily_active_users"
+        ],
+        [
+          "2023-04-15",
+          "2"
+        ],
+        [
+          "2023-04-16",
+          "3"
+        ],
+        [
+          "2023-04-17",
+          "1"
+        ],
+        [
+          "2023-04-18",
+          "1"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,47 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/heap-as-priority-queue?page=8",
+  "title": "Example: Priority Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Priority Queue"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Change the priority (key) of an element\n2// already in the priority queue\n3void change_key(string value, int new_priority) {\n4    for (int i = 0; i < size(); i++) {\n5        if (heap[i].second == value) {\n6            int old_priority = heap[i].first;\n7            heap[i] = {new_priority, value};\n8            if (new_priority < old_priority) {\n9                heapify_up(i);\n10            }\n11            else {\n12                heapify_down(i);\n13            }\n14            return;\n15        }\n16    }\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Insert tasks into priority queue\n[(5, Task5), (12, Task1), (25, Task3), (16, Task4), (15, Task2)]\n--------------\nChange priority of Task1 to 20\n[(5, Task5), (15, Task2), (25, Task3), (16, Task4), (20, Task1)]\n--------------\nChange priority of Task1 to 2\n[(2, Task1), (5, Task5), (25, Task3), (16, Task4), (15, Task2)]\n--------------\nTop priority task\n(2, Task1)\n-----------\nAfter removing top priority task\n[(5, Task5), (15, Task2), (25, Task3), (16, Task4)]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

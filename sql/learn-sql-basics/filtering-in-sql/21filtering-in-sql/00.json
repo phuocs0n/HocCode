@@ -1,0 +1,57 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/filtering-in-sql?page=1",
+  "title": "Introduction to Filtering in SQL",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Filtering in SQL"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous chapter, you learned how to use the SQL SELECT statement to retrieve data from a table."
+    },
+    {
+      "type": "paragraph",
+      "content": "As an analyst, you often don't need all the data in a table; you need to filter it to answer specific questions, such as:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Which customers are from the USA?",
+        "Who are the customers aged between 20 and 30?",
+        "Which customers have names starting with 'J'?"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Filtering in SQL allows you to focus on the data relevant to your queries, displaying only the rows that meet your criteria."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the next page, let's explore the different types of filtering tools you'll learn about in this chapter."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

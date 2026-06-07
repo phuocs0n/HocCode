@@ -1,0 +1,106 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/header-menu?page=4",
+  "title": "Styling by Location (Descendant Selector)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Styling by Location (Descendant Selector)"
+    },
+    {
+      "type": "paragraph",
+      "content": "A very common situation is this:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"I want to style something only when it appears inside a specific section.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, menu items inside the header shouldn't look like content lists."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header>\n2  <h1>Learning HTML & CSS</h1>\n3  <nav>\n4    <ul>\n5      <li>Home</li>\n6      <li>Lessons</li>\n7      <li>Resources</li>\n8    </ul>\n9  </nav>\n10</header>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1header li {\n2  list-style: none;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This reads almost like English:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Select list items that live inside the header.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Nothing outside the header is touched. That's the power here — context without complexity."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Being Intentional About Depth (Child Selector)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes location alone isn't enough."
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine adding a nested list later — suddenly your styles apply in places you didn't expect. Developers avoid that by being explicit."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1<header>\n2  <h1>Learning HTML & CSS</h1>\n3  <nav>\n4    <ul>\n5      <li>Home</li>\n6      <li>Lessons</li>\n7      <li>Resources</li>\n8    </ul>\n9  </nav>\n10</header>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1nav > ul {\n2  padding: 0;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This doesn't mean \"any <ul> in the nav\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "It means:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Only the <ul> that sits directly inside <nav>.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "This kind of precision keeps CSS predictable as pages grow. It's not about being strict — it's about staying safe."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=2",
+  "title": "What Is the Dependency Array?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Is the Dependency Array?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The dependency array is the second argument to useEffect():"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n  // Side effect\n}, []); // ← This is the dependency array"
+    },
+    {
+      "type": "paragraph",
+      "content": "It's a list of values that React watches after every render."
+    },
+    {
+      "type": "paragraph",
+      "content": "After each render, React compares each value in the list to what it was during the previous render. If any value changed, React re-runs the effect."
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, we've been passing an empty list: []. That tells React to watch nothing. So the effect runs once on mount and never again."
+    },
+    {
+      "type": "paragraph",
+      "content": "To make the effect re-run, we add a value to the list. When that value changes, the effect runs again."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's look at all the ways the dependency array can be written."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

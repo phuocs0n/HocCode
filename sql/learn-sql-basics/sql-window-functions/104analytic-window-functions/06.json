@@ -1,0 +1,45 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/analytic-window-functions?page=5",
+  "title": "LEAD()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "LEAD()"
+    },
+    {
+      "type": "paragraph",
+      "content": "After analyzing past sales with LAG(), your manager now asks:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Can we also see the next day's sales to predict trends and identify patterns?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "For this, you can use LEAD(), which retrieves the next row's value, making it useful for forecasting."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

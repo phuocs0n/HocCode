@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/interact-with-game?page=2",
+  "title": "Ask user input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ask user input"
+    },
+    {
+      "type": "paragraph",
+      "content": "We get input from the player with a prompt(\"message\")."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the console, the player types their answer at the prompt and presses Enter; prompt returns what they typed as a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "We store it in a variable and use it in our conditions:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var userAnswer = prompt(\"Enter A, B, or C: \");\n2\n3if (userAnswer) {\n4  userAnswer = userAnswer.trim().toUpperCase();\n5}\n6\n7var correctAnswer = \"A\";\n8var score = 0;\n9\n10if (userAnswer === correctAnswer) {\n11  score = 1;\n12  console.log(\"Correct!\");\n13} else {\n14  console.log(\"Wrong.\");\n15}\n16\n17console.log(\"Score: \" + score);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here we ask once, store in userAnswer, trim and uppercase so \"a\" becomes \"A\", then use the same if/else pattern from earlier."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

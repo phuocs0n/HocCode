@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-x-power-n-using-recursion?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find x to the power n using recursion, multiply x and x, n times."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem recursively."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a recursive function, that takes parameters x and n.",
+        "If n is 0, the return 1, as any number raised to the power of 0 is 1.",
+        "If n is greater than 0, calculate the result of x raised to the power of n-1 by calling itself recursively with x and n-1 as arguments, and then multiply the result by x."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

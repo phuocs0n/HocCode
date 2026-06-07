@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-css/transitions?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is false about the transition property in CSS?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It allows you to control the duration and timing function of style changes on an element."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The transition property gives you control over property, duration, and timing-function, helping you fine-tune animations."
+    },
+    {
+      "type": "paragraph",
+      "content": "The transition property gives you control over property, duration, and timing-function, helping you fine-tune animations."
+    },
+    {
+      "type": "paragraph",
+      "content": "It starts only after some user interaction, like a hover or a click."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Transitions require a state change, such as hover or click, to initiate. They do not run automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "Transitions require a state change, such as hover or click, to initiate. They do not run automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "It will loop animations repeatedly until they are manually stopped."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Transitions only animate once between two states."
+    },
+    {
+      "type": "paragraph",
+      "content": "Transitions only animate once between two states."
+    },
+    {
+      "type": "paragraph",
+      "content": "It makes user interactions feel smoother and natural by providing visual feedback."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Transitions improve user experience by providing smoother, more responsive interactions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Transitions improve user experience by providing smoother, more responsive interactions."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is false about the transition property in CSS?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It allows you to control the duration and  timing function of style changes on an element.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It allows you to control the duration and  timing function of style changes on an element.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It starts only after some user interaction, like a hover or a click.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It starts only after some user interaction, like a hover or a click.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It will loop animations repeatedly until they are manually stopped.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It will loop animations repeatedly until they are manually stopped.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It makes user interactions feel smoother and natural by providing visual feedback.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It makes user interactions feel smoother and natural by providing visual feedback.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

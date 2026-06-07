@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors?page=2",
+  "title": "Step 1: Creating a Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Creating a Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "To create this project will create a class named Game."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Game {\n    \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This class will have three methods:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "getUserPick() - to get the user's pick",
+        "getComputerPick() - to get the computer's pick",
+        "getResult() - to return result based on the user's pick and the computer's pick"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

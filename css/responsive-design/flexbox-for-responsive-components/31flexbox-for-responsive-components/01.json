@@ -1,0 +1,76 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/responsive-design/flexbox-for-responsive-components?page=2",
+  "title": "Meet flex-wrap: wrap",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Meet flex-wrap: wrap"
+    },
+    {
+      "type": "paragraph",
+      "content": "You already know display: flex. But there's one flex property that makes components like cards responsive without a single media query."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "flex-wrap: wrap"
+    },
+    {
+      "type": "paragraph",
+      "content": "By default flex items stay on one line no matter what. No room? They overflow. You've seen this with the stat cards."
+    },
+    {
+      "type": "paragraph",
+      "content": "flex-wrap: wrap changes that. When items run out of space they move to the next row instead of spilling out."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now here's the interesting part. What if each card also knew how wide it wanted to be? That's where flex: 1 1 8rem comes in."
+    },
+    {
+      "type": "paragraph",
+      "content": "The 8rem is the base size, roughly 128px at the default font size, comfortable enough for a stat card to be readable without feeling cramped. Cards grow if there's extra space and wrap when there isn't enough room for all of them. No breakpoints, no media queries. They just figure it out."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1.card-row {\n2  display: flex;\n3  flex-wrap: wrap;\n4  gap: 1rem;\n5}\n6\n7.card {\n8  flex: 1 1 8rem;\n9  padding: 1rem;\n10  background: #F1F5F9;\n11  border-radius: 0.5rem;\n12  text-align: center;\n13}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  margin: 0;\n4  padding: 1rem;\n5}\n6\n7.wrapper {\n8  max-width: 90%;\n9}\n10\n11.heading {\n12  font-size: 2rem;\n13  margin: 0 0 0.5rem;\n14}\n15\n16.body-text {\n17  font-size: 1rem;\n18  margin: 0 0 1.5rem;\n19  color: #475569;\n20}\n21\n22.card-row {\n23  display: flex;\n24  flex-wrap: wrap;\n25  gap: 1rem;\n26}\n27\n28.card {\n29  flex: 1 1 8rem;\n30  padding: 1rem;\n31  background: #F1F5F9;\n32  border-radius: 0.5rem;\n33  text-align: center;\n34}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and narrow the window. You can see the cards wrapping into two rows when there isn't enough space. Widen it and they all sit in one row again."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Now let's see this on your actual portfolio cards."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,69 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/heap-sort?page=4",
+  "title": "Source Code: Heap Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Heap Sort"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Heap sort function\n2vector<int> heap_sort(vector<int>& vec) {\n3    vector<int> sorted_vector;\n4    MinHeap heap;\n5\n6    for (int i : vec) {\n7        heap.insert(i);\n8    }\n9\n10    while (!heap.is_empty()) {\n11        sorted_vector.push_back(heap.extract_min());\n12    }\n13\n14    return sorted_vector;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sorted Array: 5 12 15 16 25"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Things to Remember"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. If you want to sort the vector in descending order, you can simply reverse the sorted vector using the following code:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "std::reverse(sorted_vector.begin(), sorted_vector.end());"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. If you use a max-heap instead of a min-heap, the normal sort would give the vector in descending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, using std::reverse() will give the vector in ascending order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

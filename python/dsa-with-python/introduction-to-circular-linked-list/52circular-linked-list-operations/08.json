@@ -1,0 +1,42 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/dsa-with-python/circular-linked-list-operations?page=9",
+  "title": "Code: Insert at Given Position",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code: Insert at Given Position"
+    },
+    {
+      "type": "paragraph",
+      "content": "So, our helper function to insert nodes at a given position will look like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def insert_at_position(self, data, position):\n    # create a new node\n    new_node = Node(data)\n\n    current = self.head\n\n    # bring a pointer to position - 1\n    # assign it to the current variable\n    for i in range(1, position-1):\n        current = current.next\n\n    # make the new node point to\n    # the next node of the current node\n    new_node.next = current.next\n\n    # make next pointer of current\n    # point to the new node\n    current.next = new_node"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

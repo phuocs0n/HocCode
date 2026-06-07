@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/having?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Chapter 2, you learned how to use the WHERE clause to filter rows."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, when using GROUP BY with aggregate functions, the WHERE clause doesn't work, resulting in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Syntax error: the WHERE clause cannot be used in this SQL query\n2\n3SELECT country, AVG(purchase_amount) AS average_purchase\n4FROM Customers\n5GROUP BY country\n6WHERE AVG(purchase_amount) > 4000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "To filter records in such situations, you must use the HAVING clause."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Group customers by country\n2-- Display records if the average purchase amount of\n3-- customers in a country is more than 4000\n4\n5SELECT country, AVG(purchase_amount) AS average_purchase\n6FROM Customers\n7GROUP BY country\n8HAVING AVG(purchase_amount) > 4000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll look at examples using HAVING."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

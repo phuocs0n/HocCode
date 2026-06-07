@@ -1,0 +1,55 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/header-menu?page=2",
+  "title": "Selectors Are About Context, Not Just Tags",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Selectors Are About Context, Not Just Tags"
+    },
+    {
+      "type": "paragraph",
+      "content": "Early on, it's tempting to write CSS like this:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<ul class=\"menu\">\n2  <li>Home</li>\n3  <li>About</li>\n4  <li>Contact</li>\n5</ul>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1li {\n2  list-style: none;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works — but it affects every list on the page."
+    },
+    {
+      "type": "paragraph",
+      "content": "Real projects need control, not shortcuts. That's why developers rarely style elements in isolation. They style elements based on where they live."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

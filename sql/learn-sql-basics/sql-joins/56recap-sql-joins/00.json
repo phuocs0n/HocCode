@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-3?page=1",
+  "title": "JOINs",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "JOINs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Congratulations on completing this chapter!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a moment to review what you've learned so far."
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're a data analyst at a university tasked with analyzing data for the Student Management System."
+    },
+    {
+      "type": "paragraph",
+      "content": "Currently, you have access to three key tables:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Students: Contains information about each student.",
+        "Enrollments: Tracks which courses each student is enrolled in.",
+        "Courses: Contains the available courses and their details."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You can retrieve these tables as:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT * FROM Students;  \n2SELECT * FROM Enrollments;  \n3SELECT * FROM Courses;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose, the Dean asks you specific questions to help prepare a detailed report on student enrollment trends. Let's find the questions on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

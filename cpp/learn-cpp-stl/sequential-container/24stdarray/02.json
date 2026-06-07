@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/stdarray?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is the correct way to create a std::array?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "array<int> ages = {25, 36};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "std::array needs to know the size of an array"
+    },
+    {
+      "type": "paragraph",
+      "content": "std::array needs to know the size of an array"
+    },
+    {
+      "type": "paragraph",
+      "content": "array<5> ages = {25, 36};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "std::array needs to know about the type of the element it stores."
+    },
+    {
+      "type": "paragraph",
+      "content": "std::array needs to know about the type of the element it stores."
+    },
+    {
+      "type": "paragraph",
+      "content": "array ages = {25, 36}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "std::array needs to know about the type and the size of the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "std::array needs to know about the type and the size of the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "array<int, 2> ages = {25, 36}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define a std::array in C++"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct way to define a std::array in C++"
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is the correct way to create a std::array?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:array<int> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "array<int> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:array<5> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "array<5> ages = {25, 36};",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:array ages = {25, 36}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "array ages = {25, 36}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:array<int, 2> ages = {25, 36}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "array<int, 2> ages = {25, 36}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

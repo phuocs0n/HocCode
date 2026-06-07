@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/double-ended-queue-deque?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which operations can be performed on a deque?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Enqueue at the front and rear ends."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Deque allows enqueue at both the front and rear ends, but this is not the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deque allows enqueue at both the front and rear ends, but this is not the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dequeue from the front and rear ends."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Deque allows dequeue from both the front and rear ends but this is not the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deque allows dequeue from both the front and rear ends but this is not the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Enqueue and dequeue from the front."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Deque allows both enqueue and dequeue from the front, but this is not the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deque allows both enqueue and dequeue from the front, but this is not the right answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Enqueue and dequeue from both the front and rear ends."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A deque (Double-Ended Queue) allows elements to be added and removed from both the front and the rear."
+    },
+    {
+      "type": "paragraph",
+      "content": "A deque (Double-Ended Queue) allows elements to be added and removed from both the front and the rear."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which operations can be performed on a deque?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Enqueue at the front and rear ends.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Enqueue at the front and rear ends.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Dequeue from the front and rear ends.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Dequeue from the front and rear ends.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Enqueue and dequeue from the front.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Enqueue and dequeue from the front.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Enqueue and dequeue from both the front and rear ends.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Enqueue and dequeue from both the front and rear ends.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

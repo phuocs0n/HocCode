@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/uppercase-letters-in-string?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we need to traverse each letter in a string. We also need to track the index of the letter."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we can create an empty list to store all the indexes of the uppercase letters in a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we need to check if the letter is uppercase. In Python, there is a string method, isupper() that returns true if the letter is in uppercase."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the letter is capitalized, we need to append its index to the index list which we created earlier."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we need to print the list of indexes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

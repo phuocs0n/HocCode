@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/why-planning-wins?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the Rapid Building methodology, which phase comes before writing any code?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Installing dependencies and setting up the development environment"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Setup is part of the pre-build checklist, but it comes after planning, design, and prompt architecture are already done."
+    },
+    {
+      "type": "paragraph",
+      "content": "Setup is part of the pre-build checklist, but it comes after planning, design, and prompt architecture are already done."
+    },
+    {
+      "type": "paragraph",
+      "content": "Defining the product, brand guidelines, and prompt architecture"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. All decisions - product definition, brand, design, and prompt structure - are locked before a single line of code is written. This is the core of the methodology."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. All decisions - product definition, brand, design, and prompt structure - are locked before a single line of code is written. This is the core of the methodology."
+    },
+    {
+      "type": "paragraph",
+      "content": "Running Claude Code with an initial draft prompt"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Running Claude Code is a build-phase action. It comes after the planning and design phases are complete."
+    },
+    {
+      "type": "paragraph",
+      "content": "Running Claude Code is a build-phase action. It comes after the planning and design phases are complete."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deploying to Netlify to establish the live URL"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify is connected during pre-build setup, but deploying comes after building. The planning phase still precedes it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify is connected during pre-build setup, but deploying comes after building. The planning phase still precedes it."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the Rapid Building methodology, which phase comes before writing any code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Installing dependencies and setting up the development environment",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Installing dependencies and setting up the development environment",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Defining the product, brand guidelines, and prompt architecture",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Defining the product, brand guidelines, and prompt architecture",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Running Claude Code with an initial draft prompt",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Running Claude Code with an initial draft prompt",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Deploying to Netlify to establish the live URL",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Deploying to Netlify to establish the live URL",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

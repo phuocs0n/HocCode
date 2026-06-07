@@ -1,0 +1,114 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/calculating-space-complexity?page=4",
+  "title": "Constant Space Complexity – O(1)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Constant Space Complexity – O(1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "An algorithm has a constant space complexity when the memory it uses doesn't depend on the change in its input size."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, even if the input size grows, the memory required to execute the program remains the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take an example."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def find_sum(n1, n2, n3):\n2    result = n1 + n2 + n3\n3    print(result)\n4\n5find_sum(1,2,3)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "6"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's find the space complexity of the find_sum() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at variables and their sizes again to understand memory usage."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above program,"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Variables",
+          "Input Size"
+        ],
+        [
+          "n1",
+          "1"
+        ],
+        [
+          "n2",
+          "1"
+        ],
+        [
+          "n3",
+          "1"
+        ],
+        [
+          "result",
+          "1"
+        ]
+      ]
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Space Complexity=1+1+1+1Space\\ Complexity = 1 + 1 + 1 + 1Space Complexity=1+1+1+1Space Complexity=4\\hphantom{Space\\ Complexity }= 4 Space Complexity=4Space Complexity=4∗n0 (Because n0=1)\\hphantom{Space\\ Complexity }= 4 * n^0\\ (Because\\ n^0 = 1)Space Complexity=4∗n0 (Because n0=1)Space Complexity=n0(By frequency count method)\\hphantom{Space\\ Complexity }= n^0(By\\ frequency\\ count\\ method)Space Complexity=n0(By frequency count method)"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the frequency count method, constants are dropped."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Space Complexity=1\\hphantom{Space\\ Complexity }= 1 Space Complexity=1Space Complexity=O(1)\\hphantom{Space\\ Complexity }= O(1) Space Complexity=O(1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "O(1) thus means that, even if the input size increases, the space complexity doesn't change—just like in the case of time complexity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

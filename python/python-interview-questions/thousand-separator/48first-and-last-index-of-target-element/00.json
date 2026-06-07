@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/first-last-index-of-target-element?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a list of numbers, you are given an element called target_element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Find the first and last occurrence of target_element and return its index value."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you are given a list and target element as:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "[1, 5, 6, 7, 8, 2, 7, 9, 1]\ntarget_element = 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, the index of the first occurrence of 7 is 3."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, the index of the last occurrence of 7 is 6."
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to print the two indexes in tuple (3, 6)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,80 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/heap-sort?page=3",
+  "title": "Thought Process: Heap Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Heap Sort"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can sort a given vector using heap sort using the following steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Insert elements into a heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll first insert the elements of the vector into a heap so that the root contains the smallest element."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "for (int i : vec) {\n    heap.insert(i);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Add root to the sorted vector."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we'll extract the root from the heap repeatedly and add it to sorted_vector."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "sorted_vector.push_back(heap.extract_min());"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Repeat the previous step until the heap is empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "After removing the current root, the new heap will have the smallest remaining element as the new root."
+    },
+    {
+      "type": "paragraph",
+      "content": "If we keep on removing the root until there are no elements left in the heap, our vector will be filled in sorted order."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "while (!heap.is_empty()) {\n    sorted_vector.push_back(heap.extract_min());\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

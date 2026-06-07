@@ -1,0 +1,92 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/example-decimal-to-binary-conversion?page=1",
+  "title": "Example: Decimal to Binary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With Java"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Decimal to Binary"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will create a program to convert decimal numbers to binary numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, 6 in the decimal system is equal to 110 in binary."
+    },
+    {
+      "type": "paragraph",
+      "content": "Converting Decimal Numbers to Binary"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can convert a decimal number to binary by dividing the number by 2 and keeping track of the remainder at each step."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the step-by-step process:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Divide the decimal number by 2.",
+        "Record the remainder. It will be either 0 or 1.",
+        "Use the quotient (the result of the division) from the previous step as the new number to divide by 2.",
+        "Repeat steps 1 through 3 until the quotient becomes 0.",
+        "The binary equivalent is the series of remainders read from bottom to top (or from the last remainder obtained to the first)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how we can convert the decimal number 6 to binary."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Quotient",
+          "Remainder",
+          "Result"
+        ],
+        [
+          "6 / 2 = 3",
+          "6 % 2 = 0",
+          "0"
+        ],
+        [
+          "3 / 2 = 1",
+          "3 % 2 = 1",
+          "10"
+        ],
+        [
+          "1 / 2 = 0",
+          "1 % 2 = 1",
+          "110"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

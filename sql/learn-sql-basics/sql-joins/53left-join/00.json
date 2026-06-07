@@ -1,0 +1,49 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/left-join?page=1",
+  "title": "Introduction to LEFT JOIN",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to LEFT JOIN"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, you learned how to join tables using INNER JOIN, which retrieves only the rows with a match in both tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you want to include all records from one table, even if there's no match in the other?"
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, you're analyzing customer data, and you want a list of all customers—even those who haven't placed an order yet."
+    },
+    {
+      "type": "paragraph",
+      "content": "To do this, you can use SQL LEFT JOIN. Let's explore how on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

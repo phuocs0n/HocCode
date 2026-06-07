@@ -1,0 +1,45 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/queue?page=5",
+  "title": "Time Complexity",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Time Complexity"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a queue, operations like enqueue (adding an element to the rear), dequeue (removing an element from the front), and peek (peeking the element at front) take constant time. The size of the queue does not affect the time taken for these operations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, all queue operations take constant time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Time Complexity: O(1)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

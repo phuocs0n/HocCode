@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/capturing-user-input?page=2",
+  "title": "Controlled Inputs",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Controlled Inputs"
+    },
+    {
+      "type": "paragraph",
+      "content": "A controlled input is an HTML input whose value is managed by React state rather than the browser."
+    },
+    {
+      "type": "paragraph",
+      "content": "Normally, the browser tracks what a user types internally."
+    },
+    {
+      "type": "paragraph",
+      "content": "With a controlled input, you store that value in state and feed it back to the input yourself, thus keeping React as the single source of truth."
+    },
+    {
+      "type": "paragraph",
+      "content": "To wire this up, you add two attributes: value and onChange:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<input\n  type=\"text\"\n  placeholder=\"Entry title\"\n  value={title}\n  onChange={(e) => setTitle(e.target.value)}\n/>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see how these controlled inputs work."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,38 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/dsa-with-python/circular-linked-list-operations?page=7",
+  "title": "Code: Insert at the Beginning",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Code: Insert at the Beginning"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# insert at the beginning of the linked list\ndef insert_at_beginning(self, data):\n\n    # create a new node\n    new_node = Node(data)\n\n    # traverse the linked list\n    current = self.head\n    while current.next != self.head:\n        current = current.next\n\n    # update the next pointers\n    current.next = new_node\n    new_node.next = self.head\n\n    # update the head attribute\n    self.head = new_node"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

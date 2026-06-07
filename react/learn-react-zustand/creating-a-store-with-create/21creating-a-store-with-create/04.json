@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/creating-store-with-create?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does calling create() in Zustand return?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A plain JavaScript object with your state"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "create() does not return a plain object — it returns a custom hook you call in components."
+    },
+    {
+      "type": "paragraph",
+      "content": "create() does not return a plain object — it returns a custom hook you call in components."
+    },
+    {
+      "type": "paragraph",
+      "content": "A Provider component you need to wrap your app with"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not require a Provider. That is one of the things that makes it simpler than other libraries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not require a Provider. That is one of the things that makes it simpler than other libraries."
+    },
+    {
+      "type": "paragraph",
+      "content": "A custom React hook you can use in any component"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "create() returns a custom hook — like useJournalStore — that any component can call to read from or update the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "create() returns a custom hook — like useJournalStore — that any component can call to read from or update the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "A class with methods for updating state"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not use classes. Your store is a plain JavaScript object with state and functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand does not use classes. Your store is a plain JavaScript object with state and functions."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does calling create() in Zustand return?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A plain JavaScript object with your state",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A plain JavaScript object with your state",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A Provider component you need to wrap your app with",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A Provider component you need to wrap your app with",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A custom React hook you can use in any component",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A custom React hook you can use in any component",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A class with methods for updating state",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A class with methods for updating state",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

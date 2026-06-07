@@ -1,0 +1,41 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/garbage-collection-in-java?page=1",
+  "title": "Is it correct to say that due to the garbage collection feature in Java, a java program never goes out of memory?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Is it correct to say that due to the garbage collection feature in Java, a java program never goes out of memory?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once an object is eligible for garbage collection (GC), you don't have to worry about reclaiming the memory that object was using."
+    },
+    {
+      "type": "paragraph",
+      "content": "If your program gets low on memory, GC will destroy some or all of the eligible objects, to keep you from running out of RAM. You can still run out of memory, but not before all eligible objects have been hauled off to the dump."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

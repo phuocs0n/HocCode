@@ -1,0 +1,50 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/left-join?page=6",
+  "title": "Example 2: Customers Without Purchases",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2: Customers Without Purchases"
+    },
+    {
+      "type": "paragraph",
+      "content": "To identify customers who have not made any purchases, you need to filter out the customers with no linked orders."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use a LEFT JOIN between the Customers and Orders tables and then apply a WHERE clause to check for NULL in the Orders.product_name column."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1-- Use LEFT JOIN to list all customers and \n2-- Identify those without purchases\n3\n4SELECT Customers.customer_name, Customers.city\n5FROM Customers\n6LEFT JOIN Orders ON Customers.customer_id = Orders.customer_id\n7WHERE Orders.product_name IS NULL;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's reinforce what you've learned with a quiz and practice exercises."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

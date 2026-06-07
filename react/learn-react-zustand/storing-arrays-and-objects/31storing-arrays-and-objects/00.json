@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/storing-arrays-objects?page=1",
+  "title": "Beyond Simple Values",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Beyond Simple Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far your store has two things — an array of entries and a string for theme."
+    },
+    {
+      "type": "paragraph",
+      "content": "But look at what an entry actually is. It is not just a string. It is an object with multiple fields."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "{\n  id: 1,\n  title: 'First Day at the New Job',\n  content: 'Today was my first day.',\n  date: '2026-02-27',\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "And you have a list of them. So your store is holding an array of objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zustand handles this exactly the same way it handles anything else. The shape of the data does not change how Zustand works."
+    },
+    {
+      "type": "paragraph",
+      "content": "But updating objects inside arrays correctly is something worth knowing."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will see how updates work with nested data. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

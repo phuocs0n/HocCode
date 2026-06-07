@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/fixedsize-queue?page=3",
+  "title": "Implementation of Fixed-size Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Implementation of Fixed-size Queue"
+    },
+    {
+      "type": "paragraph",
+      "content": "To implement a fixed-size queue, we start by creating a list with a predefined capacity."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "capacity = 5\n\n# Create a list of size 5 filled with None\nqueue = [None] * capacity"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, we used list's append() method to add elements from the rear and pop(0) to remove elements from the front. These methods change the size of the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, to implement a fixed-size queue, these list-resizing methods are not suitable. Instead, we need to use front and rear pointers (indices) to keep track of where elements should be added and removed without changing the list's size."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll learn how these front and rear indices work in detail."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

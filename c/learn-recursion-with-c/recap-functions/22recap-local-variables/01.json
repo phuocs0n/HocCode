@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-c/recap-local-variables?page=2",
+  "title": "Local Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how we can use the value returned by the function."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int add_numbers(int n1, int n2) {\n4\n5    int result = n1 + n2;\n6    return result;\n7}\n8\n9int main() {\n10\n11    // call the function and store the returned value\n12    int output = add_numbers(2, 5); \n13    printf(\"%d\", output); \n14\n15    return 0;\n16}\n17\n18// Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "By using a return statement, we are not using the local variable directly. Instead, we are returning its value to the calling function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see why this concept of local variables is important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

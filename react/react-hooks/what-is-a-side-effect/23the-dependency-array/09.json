@@ -1,0 +1,62 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=9",
+  "title": "A Filter That Never Updated",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Filter That Never Updated"
+    },
+    {
+      "type": "paragraph",
+      "content": "So I was building an admin panel. A dropdown let admins switch between user accounts and see each user's journal entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Naturally, the effect fetched entries filtered by userId:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n  async function loadEntries() {\n    const res = await fetch(\"/api/entries?userId=\" + userId);\n    const data = await res.json();\n    setEntries(data);\n  }\n\n  loadEntries();\n}, []);"
+    },
+    {
+      "type": "paragraph",
+      "content": "It worked on the first load. Switch to a different user — the entries did not change. Refresh the page manually — entries updated. No errors, no warnings."
+    },
+    {
+      "type": "paragraph",
+      "content": "The dropdown clearly set a new userId in state and the component re-rendered, but the fetch always came back with the first user's data."
+    },
+    {
+      "type": "paragraph",
+      "content": "I spent two hours convinced the bug was in the dropdown. It wasn't."
+    },
+    {
+      "type": "paragraph",
+      "content": "You've probably already guessed what was happening. If not, the next section will explain it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

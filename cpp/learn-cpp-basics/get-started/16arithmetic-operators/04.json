@@ -1,0 +1,77 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/arithmetic-operators?page=3",
+  "title": "+ Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "+ Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "The + (addition) operator is used to add two values or variables. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3 \n4int main() {\n5 \n6    int number1 = 34;\n7    int number2 = 12;\n8 \n9    // + adds values of two variables\n10    int sum = number1 + number2;\n11    cout << \"Sum: \" << sum;\n12 \n13    return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Sum: 46"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, int sum = number1 + number2; first adds the value of number1 and number2. Then, the result is assigned to the sum variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also perform the addition directly inside the print statement. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int number1 = 34;\n7    int number2 = 12;\n8\n9    // print sum of int variables\n10    cout << number1 + number2;\n11\n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider this line in the above program:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "cout << number1 + number2;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This first computes the sum of number1 and number2. Then, the result is directly printed on the screen."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

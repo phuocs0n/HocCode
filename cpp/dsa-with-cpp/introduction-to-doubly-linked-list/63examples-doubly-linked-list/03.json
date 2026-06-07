@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-doubly-linked-list?page=3",
+  "title": "Source Code: Reverse Doubly Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Reverse Doubly Linked List"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1 void reverse_list(){\n2    // No need to reverse if there is 0 or 1 Node.\n3    if (get_length() < 2) return;\n4    // Start from the head node;\n5    Node<T>* current = head;\n6    Node<T>* prev_node = nullptr;\n7\n8    while (true){\n9       // Traverse the list from head to tail\n10       prev_node = current->prev;\n11       current->prev = current->next;\n12       current->next = prev_node;\n13\n14       current = current->prev;\n15       // Stop if we reach the end\n16       if (current == nullptr) break;\n17     }\n18     // Swap head and tail\n19     Node<T>* temp = head;\n20     head = tail;\n21     tail = temp;\n22 }"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Current Linked List:\nnullptr <-> 80 <-> 9 <-> 13 <-> 23 <-> nullptr\nLinked List after Reversal:\nnullptr  <-> 23 <-> 13 <-> 9 <-> 80 <-> nullptr"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

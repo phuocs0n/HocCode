@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/string-functions?page=2",
+  "title": "Find the Length of a String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find the Length of a String"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the length() function to find the length of the string. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <string>\n3using namespace std;\n4\n5int main() {\n6\n7    string text = \"C++ Programming\";\n8    cout << \"string = \" << text << endl;\n9\n10    // text.length() returns the length of text\n11    cout << \"string length = \" << text.length();\n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "string = C++ Programming\nstring length = 15"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "#include <string> - imports the header file in our program",
+        "text.length() - finds the length of the string text"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

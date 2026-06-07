@@ -1,0 +1,50 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/recursion-examples?page=3",
+  "title": "Source Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def calculate_sum(n):\n2\n3    if n == 1:\n4        return 1\n5\n6    return calculate_sum(n - 1)\n7\n8result = calculate_sum(4)\n9print(result)\n10\n11# Output: 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we get 1 instead of 10 as output. Where did we go wrong?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this program, we have called the function recursively with n - 1, but we have not added n to the result. This leads to only the base case's return value being propagated back up."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's fix this in our code next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

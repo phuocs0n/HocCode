@@ -1,0 +1,84 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/array-input?page=2",
+  "title": "Array Input Using for Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Input Using for Loop"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // declare an array\n7    int ages[5];\n8\n9    cout << \"Enter array elements:\" << endl;\n10\n11    for (int index = 0; index < 5; ++index) {\n12        cin >> ages[index];\n13    }\n14\n15    cout << \"Array Elements:\" << endl;\n16\n17    // access array using loop\n18    for (int index = 0; index < 5; ++index) {\n19        cout << ages[index] << endl;\n20    }\n21\n22    return 0;\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter array elements:\n15\n25\n35\n45\n55\nArray Elements:\n15\n25\n35\n45\n55"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the code works in each iteration of the loop."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "index",
+          "cin >> ages[index];"
+        ],
+        [
+          "0",
+          "assigns 15 at index 0"
+        ],
+        [
+          "1",
+          "assigns 25 at index 1"
+        ],
+        [
+          "2",
+          "assigns 35 at index 2"
+        ],
+        [
+          "3",
+          "assigns 45 at index 3"
+        ],
+        [
+          "4",
+          "assigns 55 at index 4"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When the value of index is 5, the condition index < 5 becomes false, hence the loop terminates."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

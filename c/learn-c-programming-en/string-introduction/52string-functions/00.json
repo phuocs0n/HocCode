@@ -1,0 +1,58 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/string-functions?page=1",
+  "title": "String Header File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "String Header File"
+    },
+    {
+      "type": "paragraph",
+      "content": "Strings are one of the most frequently used types in programming. To make working with strings easier, there are several string functions. For example, the strlen() function allows us to find the length of a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "To use these functions, we must first import the string.h header file in our program. This is because the definition of these functions is provided inside this file."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we will see the working of some of the basic functions that are very handy while working with strings."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "strlen() - finds the length of a string",
+        "strcpy() - copies a string to another",
+        "strcat() - joins two strings together",
+        "strcmp() - compares two strings"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see examples of these functions one by one."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,85 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/creating-store-with-create?page=2",
+  "title": "Your First Store",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your First Store"
+    },
+    {
+      "type": "paragraph",
+      "content": "To create a store in Zustand you use create. Now, in src/store/useJournalStore.js you do this."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1import { create } from 'zustand'\n2\n3const useJournalStore = create((set) => ({\n4  entries: [],\n5  theme: 'light',\n6}))\n7\n8export default useJournalStore"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import useJournalStore from './store/useJournalStore'\n2 \n3export default function App() {\n4  const theme = useJournalStore((state) => state.theme)\n5  return (\n6    <div className={theme}>\n7      <h1>My Daily Journal</h1>\n8    </div>\n9  )\n10}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import React from 'react'\n2import { createRoot } from 'react-dom/client'\n3import App from './App'\n4 \n5createRoot(document.getElementById('root')).render(\n6  <React.StrictMode>\n7    <App />\n8  </React.StrictMode>\n9)"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3  <head>\n4    <title>My Daily Journal</title>\n5  </head>\n6  <body>\n7    <div id=\"root\"></div>\n8    <script type=\"module\" src=\"/src/index.jsx\"></script>\n9  </body>\n10</html>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is what is happening, piece by piece."
+    },
+    {
+      "type": "paragraph",
+      "content": "create takes a function, and that function returns a plain object — that object is your store."
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside it, you put your data. Here we have two things: entries, which starts as an empty array ready to hold your journal entries, and theme which starts as 'light' — we will use this later to switch between light and dark mode."
+    },
+    {
+      "type": "paragraph",
+      "content": "create gives you back a hook called useJournalStore. Any component in your app can call that hook to read from the store."
+    },
+    {
+      "type": "paragraph",
+      "content": "You also see set being passed in — that is how you will update state later. Zustand handles that for you automatically."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will check your understanding."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

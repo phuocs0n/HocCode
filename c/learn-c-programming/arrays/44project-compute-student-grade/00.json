@@ -1,0 +1,63 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=1",
+  "title": "Mô tả dự án",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Mô tả dự án"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giả sử bạn là trợ giảng tại một trường đại học và bạn cần chấm điểm cho sinh viên dựa trên điểm trung bình của họ."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điểm số của một học sinh ở các môn học khác nhau được lưu trữ trong một mảng được khai báo là:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "double scores[5] = {55, 64, 75, 80, 65};"
+    },
+    {
+      "type": "paragraph",
+      "content": "Công việc của bạn trước tiên là tính điểm trung bình. Và dựa trên điểm trung bình, bạn cần tính điểm của học sinh."
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là quy định chấm điểm của trường đại học:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Hạng A nếu điểm trung bình bằng hoặc trên 80",
+        "Hạng B nếu điểm trung bình bằng hoặc trên 60 và dưới 80",
+        "Hạng C nếu điểm trung bình bằng hoặc trên 50 và dưới 60",
+        "Hạng F nếu điểm trung bình dưới 50"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,96 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/javascript-in-action?page=2",
+  "title": "Connecting JS to Your Site",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Connecting JS to Your Site"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your portfolio is built. Now it is time to plug JavaScript in."
+    },
+    {
+      "type": "paragraph",
+      "content": "To use JavaScript, you need to connect a JavaScript file to your HTML. You do that with the <script> tag."
+    },
+    {
+      "type": "paragraph",
+      "content": "We add it just before the closing </body> tag."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Connecting JavaScript</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <h1>Hello</h1>\n11\n12  <script src=\"script.js\"></script>\n13</body>\n14</html>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"JavaScript is connected.\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "We add the script before </body> because the browser reads the page from top to bottom."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, the HTML loads."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then JavaScript runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the script runs before the elements are created, JavaScript cannot find them. Placing it at the bottom makes sure everything already exists when the code runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "The src attribute tells the browser which file to load and run."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, click on the script.js tab and click Run Code. You will not see anything change on the page yet, and that is fine."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click the Console tab. You should see the message:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "JavaScript is connected."
+    },
+    {
+      "type": "paragraph",
+      "content": "That confirms your file is properly linked. Your portfolio and JavaScript are now talking to each other."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next is a quick quiz to check your understanding. After that, you will make something react when you click it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

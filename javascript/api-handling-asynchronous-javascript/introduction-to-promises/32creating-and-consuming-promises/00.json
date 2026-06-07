@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/creating-consuming-promises?page=1",
+  "title": "From Promise States to Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "From Promise States to Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, you learned that a promise represents an asynchronous operation and moves through defined states."
+    },
+    {
+      "type": "paragraph",
+      "content": "In practice, developers rarely think about promise states explicitly while writing code. Instead, they work with functions that return promises and flows built from them."
+    },
+    {
+      "type": "paragraph",
+      "content": "This lesson focuses on:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "how promises are created",
+        "how promises are consumed",
+        "how multiple asynchronous steps form a clear, readable chain"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

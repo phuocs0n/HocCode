@@ -1,0 +1,53 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component?page=9",
+  "title": "When to Use Fragments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "When to Use Fragments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use fragments when:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You don't need a wrapper element for styling.",
+        "You're returning multiple elements from a component.",
+        "Adding a <div> would break your layout or CSS."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For JournalForm, using a <section className=\"card\"> is better because it provides structure for styling. But knowing about fragments is still a bonus in my opinion, which is why I introduced it to you."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll see a simple example of a fragment being used inside a component."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

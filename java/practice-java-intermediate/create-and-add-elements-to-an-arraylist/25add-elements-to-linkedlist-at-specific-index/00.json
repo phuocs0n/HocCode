@@ -1,0 +1,73 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/add-elements-to-linkedlist-at-specific-index?page=1",
+  "title": "Add Elements to LinkedList at Specific Index",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Elements to LinkedList at Specific Index"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to add elements to linkedlist at specific index."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() method, declare a new string LinkedList called menu.",
+        "Take three string inputs from the user and store them in input1, input2, input3 variables.",
+        "Add user inputs to the menu linkedlist using the add() function.",
+        "Print menu.",
+        "Add the string Pizza at index 1 of the menu linkedlist using add().",
+        "Print menu again."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputFries\nBurger\nNoodles"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output[Fries, Burger, Noodles]\n[Fries, Pizza, Burger, Noodles]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

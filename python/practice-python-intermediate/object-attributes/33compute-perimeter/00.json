@@ -1,0 +1,87 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-intermediate/compute-perimeter?page=1",
+  "title": "Compute Perimeter",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute Perimeter"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to compute the perimeter of a triangle using OOP."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a Class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Triangle that will have three attributes x, y, z.",
+        "Use the __init__() method to initialize attributes.",
+        "Create a method named get_perimeter() to compute the perimeter and return it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Outside of the class"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Take three integer inputs and assign them to a, b and c respectively. These are the sides of a triangle.",
+        "Create an object of the Triangle class with these values.",
+        "Call the get_perimeter() method using the object which returns the perimeter.",
+        "Print the perimeter."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input1\n2\n3"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output6"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

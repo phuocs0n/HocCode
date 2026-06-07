@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/doubly-linked-list-operations?page=5",
+  "title": "Source Code: Insert Elements in a Doubly Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Insert Elements in a Doubly Linked List"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1 // Method to insert at any given position\n2 void insert_at_position(T data, int position){\n3    // Create a new node to append\n4    Node<T>* new_node = new Node<T>({data});\n5\n6    // If the list is empty\n7    // new_node is the head\n8   if (head == nullptr){\n9      head = new_node;\n10      return;\n11   }\n12\n13   // Call the helper method\n14   // to insert at beginning \n15   if (position == 1) {\n16       insert_at_beginning(data);\n17   } \n18   // Append if invalid position is provided\n19   else if (!position || position < 0 || position > get_length()){\n20        append(data);\n21   }\n22   else {\n23     int i = 1;\n24     // Start from the head\n25     Node<T>* current = head;\n26\n27     while (i < position - 1){\n28        // Move to next node\n29        current = current -> next;\n30\n31        ++i;\n32     }\n33     // Get a pointer to next node\n34     Node<T>* next_node = current->next;\n35\n36     // new_node is next to current_node.\n37     current->next = new_node;\n38\n39     // new_node is prev to next_node\n40     next_node->prev = new_node;\n41\n42     // prev of new_node is current\n43     new_node->prev = current;\n44\n45     // next of new_node is\n46     // next of current node\n47     new_node->next = next_node;\n48   }\n49 }"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Original Linked List:\nnullptr<->nullptr\nLinked List After appending 80:\nnullptr<->80<->nullptr\nLinked List After Inserting 9 at the beginning:\nnullptr<->9<->80<->nullptr\nLinked List After Inserting 13 at the position 2:\nnullptr<->9<->13<->80<->nullptr"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we forward traversed to our desired node. If necessary, you can perform backward traversal to achieve the same thing."
+    },
+    {
+      "type": "paragraph",
+      "content": "In large doubly linked lists, you may choose whether to perform forward or backward traversal depending on the position."
+    },
+    {
+      "type": "paragraph",
+      "content": "We leave that up to you."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn about deleting from a circular linked list."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

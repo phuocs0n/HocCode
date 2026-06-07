@@ -1,0 +1,183 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/postfix-operator-overloading?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following expressions contains the postfix ++ operator?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "+rectangle;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    },
+    {
+      "type": "paragraph",
+      "content": "++rectangle;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes before the operand (i.e. the rectangle object), this is an example of the prefix ++ operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes before the operand (i.e. the rectangle object), this is an example of the prefix ++ operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "rectangle++;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes after the operand (i.e. the rectangle object), this is an example of the postfix ++ operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes after the operand (i.e. the rectangle object), this is an example of the postfix ++ operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "rectangle+;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes before the operand (i.e. the rectangle object), this is an example of the prefix ++ operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes before the operand (i.e. the rectangle object), this is an example of the prefix ++ operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes after the operand (i.e. the rectangle object), this is an example of the postfix ++ operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the ++ comes after the operand (i.e. the rectangle object), this is an example of the postfix ++ operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an invalid code as the + operator is a binary operator (it takes two operands) and is different from the unary operator ++."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following expressions contains the postfix ++ operator?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:+rectangle;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "+rectangle;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:++rectangle;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "++rectangle;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:rectangle++;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "rectangle++;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:rectangle+;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "rectangle+;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

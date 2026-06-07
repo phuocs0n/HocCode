@@ -1,0 +1,168 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/introduction?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "console.log('Start');\nsetTimeout(() => {\n  console.log('Middle');\n}, 1000);\nconsole.log('End');"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Start"
+    },
+    {
+      "type": "paragraph",
+      "content": "End"
+    },
+    {
+      "type": "paragraph",
+      "content": "Middle"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The setTimeout() function prints \"Middle\" 1 second, allowing the next console.log('End') to execute immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "The setTimeout() function prints \"Middle\" 1 second, allowing the next console.log('End') to execute immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "Start"
+    },
+    {
+      "type": "paragraph",
+      "content": "Middle"
+    },
+    {
+      "type": "paragraph",
+      "content": "End"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The \"Middle\" will not appear immediately because it is inside a setTimeout() with a delay."
+    },
+    {
+      "type": "paragraph",
+      "content": "The \"Middle\" will not appear immediately because it is inside a setTimeout() with a delay."
+    },
+    {
+      "type": "paragraph",
+      "content": "Middle"
+    },
+    {
+      "type": "paragraph",
+      "content": "Start"
+    },
+    {
+      "type": "paragraph",
+      "content": "End"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Middle\" cannot appear first because of the setTimeout() delay."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Middle\" cannot appear first because of the setTimeout() delay."
+    },
+    {
+      "type": "paragraph",
+      "content": "End"
+    },
+    {
+      "type": "paragraph",
+      "content": "Start"
+    },
+    {
+      "type": "paragraph",
+      "content": "Middle"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript executes code synchronously by default, so \"Start\" will always appear first."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript executes code synchronously by default, so \"Start\" will always appear first."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:StartEndMiddle",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "StartEndMiddle",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:StartMiddleEnd",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "StartMiddleEnd",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:MiddleStartEnd",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "MiddleStartEnd",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:EndStartMiddle",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "EndStartMiddle",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

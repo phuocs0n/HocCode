@@ -1,0 +1,108 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/project--student-record-analysis-using-numpy?page=3",
+  "title": "Step 2: Add New Student Data from User Input",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 2: Add New Student Data from User Input"
+    },
+    {
+      "type": "paragraph",
+      "content": "So far, we worked on the dataset we created. Next, we will add new student records from user input."
+    },
+    {
+      "type": "paragraph",
+      "content": "For this step, we'll use the concept of indexing and np.append()."
+    },
+    {
+      "type": "paragraph",
+      "content": "First we will read the name of the student."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "studentName = input('Student Name : ')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll read the marks. First, we initialize an empty marks array for new students."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "marks = np.empty(len(subjectArray), dtype=int)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we take user input for each subject."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "for i in range(len(subjectArray)):\n        marks[i] = int(input(f\"Enter marks for {subjectArray[i]}: \"))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we append student to student array and marks to marks array."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "studentArray = np.append(studentArray, studentName)\nmarksArray = np.vstack((marksArray, marks))"
+    },
+    {
+      "type": "paragraph",
+      "content": "Putting it all together,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "# function that takes user input for new record\ndef add_record(studentArray, subjectArray, marksArray):\n    # get student's name\n    studentName = input('Student Name : ')\n    # initialize an empty marks array of same length as subject\n    marks = np.empty(len(subjectArray), dtype=int)\n    \n    # get inputs from the user\n    for i in range(len(subjectArray)):\n        marks[i] = int(input(f\"Enter marks for {subjectArray[i]}: \"))\n    # append new student to studentArray\n    studentArray = np.append(studentArray, studentName)\n    # append marks of new student to studentArray\n    marksArray = np.vstack((marksArray, marks))\n    \n    return studentArray, marksArray"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's see the whole code."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3# function to initialize and store data\n4def initialize_data():\n5    subject = np.array(['English', 'Maths', 'Science', 'Social', 'History'])\n6    students = np.array(['Alice', 'Bob', 'Charlie', 'Dan'])\n7    marks = np.array([[81, 78, 80, 60, 63],\n8                      [50, 60, 65, 48, 55],\n9                      [30, 83, 97, 79, 75],\n10                      [99, 55, 60, 48, 30]])\n11    return subject, students, marks\n12\n13# function that takes user input for new record\n14def add_record(studentArray, subjectArray, marksArray):\n15\n16    # get student's name\n17    studentName = input('Student Name : ')\n18\n19    # initialize an empty marks array of same length as subject\n20    marks = np.empty(len(subjectArray), dtype=int)\n21    \n22    # get inputs from the user\n23    for i in range(len(subjectArray)):\n24        marks[i] = int(input(f\"Enter marks for {subjectArray[i]}: \"))\n25\n26    # append new student to studentArray\n27    studentArray = np.append(studentArray, studentName)\n28\n29    # append marks of new student to studentArray\n30    marksArray = np.vstack((marksArray, marks))\n31    \n32    return studentArray, marksArray\n33    \n34def main():\n35    subject, students, marks = initialize_data()\n36    students, marks = add_record(students, subject, marks)\n37    print(subject)\n38    print(students)\n39    print(marks)\n40\n41main()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Student Name : Eve\nEnter marks for English: 60\nEnter marks for Maths: 48\nEnter marks for Science: 50\nEnter marks for Social: 77\nEnter marks for History: 80\n['English' 'Maths' 'Science' 'Social' 'History']\n['Alice' 'Bob' 'Charlie' 'Dan' 'Eve']\n[[81 78 80 60 63]\n [50 60 65 48 55]\n [30 83 97 79 75]\n [99 55 60 48 30]\n [60 48 50 77 80]]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll display these data in a visually pleasing format."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

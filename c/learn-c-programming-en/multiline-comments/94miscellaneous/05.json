@@ -1,0 +1,81 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/miscellaneous?page=5",
+  "title": "Example: Truthy and Falsy",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Truthy and Falsy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we need to find the largest number among three numbers."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int n1 = 20;\n6  int n2 = 10;\n7  int n3 = 30;\n8\n9  if (n1 > n2 && n3) {\n10    printf(\"%d\", n1);\n11  }\n12  else if (n2 > n1 && n3) {\n13    printf(\"%d\", n2);\n14  }\n15  else {\n16    printf(\"%d\", n3);\n17  }\n18\n19  return 0;\n20}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "20"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are getting 20 as the largest number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Can you find out where the error is?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take a look at this code:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "if (n1 > n2 && n3) {\n  printf(\"%d\", n1);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n1 > n2 evaluates to true and n3 also evaluates to true because 30 is considered true."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead here's what we should have written:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "if (n1 > n2 && n1 > n3) {\n  printf(\"%d\", n1);\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

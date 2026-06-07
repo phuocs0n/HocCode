@@ -1,0 +1,53 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-window-functions?page=5",
+  "title": "Using a Window Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using a Window Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you use AVG(salary) , the result returns only a single value, collapsing all employee data into one row."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, your goal is to compare each employee's salary while keeping all employees visible in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your manager reviews the report and says:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"This only gives me one number. I want to see every employee's salary along with the company average so I can compare them easily.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "To achieve this, you can use a window function. Window functions allow you to calculate the average salary for each row without collapsing the data into a single result."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

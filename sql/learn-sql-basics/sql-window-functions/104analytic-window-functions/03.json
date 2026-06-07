@@ -1,0 +1,52 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/analytic-window-functions?page=2",
+  "title": "Example: Analytic Window Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Analytic Window Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "To spot trends and compare data over time, you need a way to reference previous or future values within a dataset. Analytic window functions make this possible without altering the original structure."
+    },
+    {
+      "type": "paragraph",
+      "content": "SQL provides two key functions for this:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "LAG(): Retrieves the previous row's value for comparisons.",
+        "LEAD(): Retrieves the next row's value for forecasting."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's see how LAG() works in action."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

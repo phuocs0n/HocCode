@@ -1,0 +1,42 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-python-basics/logical-operators?page=7",
+  "title": "Working of the Largest Number Program",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of the Largest Number Program"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run this visualizer with different inputs to understand how this program works."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1n1 = int(input(\"Enter the first number: \"))\n2n2 = int(input(\"Enter the second number: \"))\n3n3 = int(input(\"Enter the third number: \"))\n4\n5if (n1 >= n2) and (n1 >= n3):\n6    largest = n1\n7\n8elif (n2 >= n1) and (n2 >= n3):\n9    largest = n2\n10\n11else:\n12    largest = n3\n13\n14print(\"The largest number is:\", largest)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

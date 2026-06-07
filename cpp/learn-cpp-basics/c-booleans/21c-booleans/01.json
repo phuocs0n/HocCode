@@ -1,0 +1,78 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/c-booleans?page=2",
+  "title": "Booleans Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Booleans Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we learn about decision-making and loops, we need to understand booleans and boolean expressions. Let's discuss them in this lesson."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Booleans"
+    },
+    {
+      "type": "paragraph",
+      "content": "Booleans represent one of two possible values: true or false, and are essential to decision-making in programming."
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like int and char, boolean is a data type in C++ programming, and we use the bool keyword to represent boolean. Let's see an example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    bool result1 = true;\n7    bool result2 = false;\n8\n9    cout << result1;    // 1\n10    cout << endl;\n11    cout << result2;    // 0\n12\n13    return 0;\n14}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, boolean values are represented in terms of integer values:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "false is represented by 0",
+        "true is represented by 1 or all other values except 0"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "There are a few things we need to understand about booleans:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "true is a boolean value. However, if we use true inside double quotes (\"true\") it is a string. It is the same for \"false\".",
+        "true and false are not variables. In fact, we cannot create variables named true and false.",
+        "true and false must always be written in lowercase."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

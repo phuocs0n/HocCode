@@ -1,0 +1,46 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/output?page=1",
+  "title": "Introduction to Output",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to Output"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have previously used print() to display a single value or variable. Here's a quick recap:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# Print an integer\n2print(34)    # Output: 34\n3\n4# Print a string\n5print(\"Squid Game\")    # Output: Squid Game\n6\n7# Create a variable\n8city = \"London\"\n9\n10# Print the city variable\n11print(city)     # Output: London"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you'll learn how to print multiple values and variables. You'll also explore f-strings, which makes it easier to print multiple data in the desired format."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

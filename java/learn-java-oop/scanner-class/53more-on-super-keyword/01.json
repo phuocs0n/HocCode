@@ -1,0 +1,71 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/more-on-super-keyword?page=2",
+  "title": "super with Constructor",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "super with Constructor"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, there is another variation of super that is used to call the constructor of superclass from the subclass. Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Animal {\n2\n3    // constructor of class Animal\n4    Animal() {\n5        System.out.println(\"I am an animal\");\n6    }\n7}\n8\n9class Dog extends Animal {\n10\n11    // constructor of class Dog\n12    Dog() {\n13        // calls the constructor of superclass\n14        super();\n15        System.out.println(\"I am a dog\");\n16    }\n17}\n18\n19class Main {\n20\n21    public static void main(String[] args) {\n22        Dog dog1 = new Dog();\n23    }\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am an animal\nI am a dog"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, notice the constructor of the Dog class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Dog() {\n    super();\n    System.out.println(\"I am a dog\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, super() calls the constructor of the Animal class. When we create the object of Dog, the subclass constructor is invoked which:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "calls the constructor of the Animal class and prints I am an animal",
+        "then executes the statement to print I am a dog"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

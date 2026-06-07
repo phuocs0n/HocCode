@@ -1,0 +1,66 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/local-storage?page=2",
+  "title": "Methods in Local Storage",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Methods in Local Storage"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like sessionStorage, the localStorage object provides different methods to manage data."
+    },
+    {
+      "type": "paragraph",
+      "content": "In fact, localStorage uses the same methods as sessionStorage."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Method",
+          "Purpose"
+        ],
+        [
+          "setItem(key, value)",
+          "Stores data in localStorage as key-value pairs."
+        ],
+        [
+          "getItem(key)",
+          "Retrieves the value associated with a specific key."
+        ],
+        [
+          "removeItem(key)",
+          "Deletes a specific item from localStorage."
+        ],
+        [
+          "clear()",
+          "Removes all items from localStorage."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

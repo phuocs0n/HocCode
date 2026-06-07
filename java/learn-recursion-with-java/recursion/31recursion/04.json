@@ -1,0 +1,184 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-java/recursion?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of this program?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n\n    public static void printNumbers(int n) {\n\n        System.out.println(n);\n        printNumbers(n + 10);\n    }\n\n    public static void main(String[] args) {\n        printNumbers(100);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "100"
+    },
+    {
+      "type": "paragraph",
+      "content": "100"
+    },
+    {
+      "type": "paragraph",
+      "content": "100"
+    },
+    {
+      "type": "paragraph",
+      "content": "..."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number increases by some value in each recursive call."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number increases by some value in each recursive call."
+    },
+    {
+      "type": "paragraph",
+      "content": "100"
+    },
+    {
+      "type": "paragraph",
+      "content": "99"
+    },
+    {
+      "type": "paragraph",
+      "content": "98"
+    },
+    {
+      "type": "paragraph",
+      "content": "..."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number doesn't decrease by 1 in each recursive call. Instead, it increases by some value."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number doesn't decrease by 1 in each recursive call. Instead, it increases by some value."
+    },
+    {
+      "type": "paragraph",
+      "content": "100"
+    },
+    {
+      "type": "paragraph",
+      "content": "110"
+    },
+    {
+      "type": "paragraph",
+      "content": "120"
+    },
+    {
+      "type": "paragraph",
+      "content": "..."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number increases by 10 in each recursive call."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number increases by 10 in each recursive call."
+    },
+    {
+      "type": "paragraph",
+      "content": "100"
+    },
+    {
+      "type": "paragraph",
+      "content": "90"
+    },
+    {
+      "type": "paragraph",
+      "content": "80"
+    },
+    {
+      "type": "paragraph",
+      "content": "..."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number doesn't decrease by 10 in each recursive call. Instead, it increases by some value."
+    },
+    {
+      "type": "paragraph",
+      "content": "The number doesn't decrease by 10 in each recursive call. Instead, it increases by some value."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of this program?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:100100100...",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "100100100...",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:1009998...",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "1009998...",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:100110120...",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "100110120...",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:1009080...",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "1009080...",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

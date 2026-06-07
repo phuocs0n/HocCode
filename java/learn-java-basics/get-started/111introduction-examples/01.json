@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/introduction-examples?page=2",
+  "title": "Convert Kilometers to Miles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Convert Kilometers to Miles"
+    },
+    {
+      "type": "paragraph",
+      "content": "The relation between a kilometer and miles is:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1 kilometer = 0.621 miles"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1// Program to convert distance in kilometer to miles\n2// The distance will be entered by the user\n3\n4import java.util.Scanner;\n5\n6class Main {\n7    public static void main(String[] args) {\n8\n9        Scanner input = new Scanner(System.in);\n10\n11        double conversionRatio = 0.621;\n12\n13        // Take distance input from the user\n14        System.out.println(\"Enter distance in km: \");\n15        double km = input.nextDouble();\n16\n17        // Compute distance in miles\n18        double miles = km * conversionRatio;\n19        System.out.println(\"Distance in Miles: \" + miles);\n20\n21        input.close();\n22    }\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter distance in km: \n33\nDistance in Miles: 20.493"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this program works."
+    },
+    {
+      "type": "paragraph",
+      "content": "In line 15: double km = input.nextDouble();"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are taking distance input in km from the user and storing it in the km variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "In line 18: double miles = km * conversionRatio;"
+    },
+    {
+      "type": "paragraph",
+      "content": "We then calculate the distance in miles by multiplying the distance in km by 0.621."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

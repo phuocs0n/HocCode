@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/python-code-blocks?page=1",
+  "title": "What Are Code Blocks in Python? How Do You Create Them in Python?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Are Code Blocks in Python? How Do You Create Them in Python?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Code blocks are a group of statements that perform some task. For example, a group of statements inside the if statement is a code block. Also, codes within a function are another code block."
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, we create them by indenting lines inside the parent statement followed by the colon (:)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a look at an example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1if True:\n2    print('Code Block 1')\n3\n4\n5def main():\n6    print('Code Block 2')\n7\n8\n9main()"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two code blocks in the above code: one inside the if condition and the other inside the main() function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

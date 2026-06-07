@@ -1,0 +1,56 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/graph-traversal-with-dfs-algorithm?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Graph traversal is the process of visiting every vertex (node) in a graph. It is also known as graph search."
+    },
+    {
+      "type": "paragraph",
+      "content": "Graph is a non-linear data structure. Therefore, there is no straightforward way to traverse a graph."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this course, we will discuss two of the possible graph traversal methods."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Depth-First Search (DFS) method",
+        "Breadth-First Search (BFS) method"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start with the DFS algorithm first, and then move on to BFS in the next lesson."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

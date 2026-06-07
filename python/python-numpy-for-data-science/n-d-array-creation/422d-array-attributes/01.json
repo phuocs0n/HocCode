@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/d-array-attributes?page=2",
+  "title": "Array Shape",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Shape"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shape of an array is a tuple of integers representing the size of the array in each dimension."
+    },
+    {
+      "type": "paragraph",
+      "content": "Getting the shape of the N-D array is similar to that of the 1-D array. For both, we use the shape attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's get the shape of a 2-D array."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np \n2\n3# create an array with 5 rows and 3 columns\n4arr = np.zeros((5,3))\n5\n6print(\"Array is : \\n\",arr)\n7\n8print(\"Shape of the array : \", arr.shape)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Array is : \n[[0. 0. 0.]\n [0. 0. 0.]\n [0. 0. 0.]\n [0. 0. 0.]\n [0. 0. 0.]]\nShape of the array :  (5, 3)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the arr.shape attribute returns a tuple (5, 3), indicating that the array has 5 rows and 3 columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we'll learn how we can access elements in N-D arrays and also to modify them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

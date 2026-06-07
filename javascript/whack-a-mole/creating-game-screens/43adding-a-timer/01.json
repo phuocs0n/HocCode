@@ -1,0 +1,72 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/adding-timer?page=2",
+  "title": "Planning the Countdown ⏳",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Planning the Countdown ⏳"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you code, let's think about how a countdown timer works."
+    },
+    {
+      "type": "paragraph",
+      "content": "What you need:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "A variable to store the remaining time (starts at 30)",
+        "A place on screen to display the time",
+        "Code that runs every second to:\n\t\tDecrease the time by 1Update the displayCheck if time reached zero",
+        "Decrease the time by 1",
+        "Update the display",
+        "Check if time reached zero"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Decrease the time by 1",
+        "Update the display",
+        "Check if time reached zero"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "How setInterval helps: Remember setInterval from spawning moles? You'll use it again here! But instead of spawning moles, it will decrease the timer every second (1000 milliseconds)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of it like a countdown on your phone—every second, the number gets smaller until it reaches zero."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's build it step by step!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

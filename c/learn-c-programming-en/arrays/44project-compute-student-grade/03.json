@@ -1,0 +1,46 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=4",
+  "title": "Compute Student Grade",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute Student Grade"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Compute grade and return it\n4char computeGrade(double averageScore) {\n5\n6    char grade;\n7  \n8    if (averageScore >= 80.0) {\n9        grade = 'A';\n10    }\n11    else if (averageScore >= 60.0) {\n12        grade = 'B';\n13    }\n14    else if (averageScore >= 50.0) {\n15      grade = 'C';\n16    }\n17    else {\n18        grade = 'F';\n19    }\n20\n21    return grade;\n22}\n23\n24int main() {\n25\n26    double averageScore = 67.80;\n27\n28    char grade = computeGrade(averageScore);\n29    printf(\"%c\", grade);  // Output: B\n30\n31    return 0;\n32}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the computeGrade() function computes the student's grade based on the average score and returns it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll combine this program with the previous one to complete our project."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,78 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/dynamic-memory-allocation?page=2",
+  "title": "Phân bổ bộ nhớ động",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Phân bổ bộ nhớ động"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước tiên chúng ta hãy xem lại khái niệm về con trỏ với sự trợ giúp của ví dụ này."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  // create a variable\n6  int number = 36;\n7\n8  // create a pointer variable and\n9  // assign the address of number to it\n10  int* ptr = &number;\n11\n12  // print value of number using ptr\n13  printf(\"%d\", *ptr);    // 36\n14\n15  return 0;\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "&number - địa chỉ bộ nhớ của số",
+        "int* ptr - biến con trỏ",
+        "*ptr - đưa ra giá trị được trỏ bởi con trỏ ptr"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ, hãy quay lại phân bổ bộ nhớ động."
+    },
+    {
+      "type": "paragraph",
+      "content": "C cung cấp ba hàm thư viện chính để thực hiện cấp phát bộ nhớ động."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "malloc()",
+        "realloc()",
+        "miễn phí()"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Để sử dụng các chức năng này, trước tiên chúng ta phải bao gồm tệp tiêu đề stdlib.h."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bây giờ chúng ta cùng tìm hiểu từng chức năng này nhé."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

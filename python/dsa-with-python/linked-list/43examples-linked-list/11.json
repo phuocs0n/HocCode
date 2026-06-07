@@ -1,0 +1,47 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/dsa-with-python/examples-linked-list?page=12",
+  "title": "Source Code: Reverse Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Reverse Linked List"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# reverse linked list\n2def reverse_linked_list(self):\n3\n4    prev_node = None\n5    current = self.head\n6    next_node = current.next\n7\n8    while True:\n9\n10        current.next = prev_node\n11                \n12        prev_node = current\n13        current = next_node\n14        next_node = next_node.next\n15                \n16        if next_node == None:\n17            current.next = prev_node\n18            break\n19\n20    self.head = current"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Original Linked List:\n2->4->6->8->None\n\nReversed Linked List:\n8->6->4->2->None"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

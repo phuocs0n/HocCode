@@ -1,0 +1,191 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/bucket-sort?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Given an array of elements ranging from 1 to 20, what should be the approximate range of each bucket?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "0-6, 6-12, 12-20"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are dividing the elements into three approximately equal ranges, these would be the suitable ranges for the buckets."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are dividing the elements into three approximately equal ranges, these would be the suitable ranges for the buckets."
+    },
+    {
+      "type": "paragraph",
+      "content": "0-5, 5-15, 15-20"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The distribution needs to be uniform for each bucket. This choice leads to uneven distribution."
+    },
+    {
+      "type": "paragraph",
+      "content": "The distribution needs to be uniform for each bucket. This choice leads to uneven distribution."
+    },
+    {
+      "type": "paragraph",
+      "content": "1-10, 10-20, 20-30"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The values in the range 20-30 are greater than the maximum value present in the vector. Hence, it's not the correct range."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values in the range 20-30 are greater than the maximum value present in the vector. Hence, it's not the correct range."
+    },
+    {
+      "type": "paragraph",
+      "content": "1-20, 20-40, 40-60"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The range of buckets depends on the range of input values. If we create three buckets like this, all of our input values will fall in the first bucket and the rest of the buckets will be empty. This undermines the efficiency of bucket sort."
+    },
+    {
+      "type": "paragraph",
+      "content": "The range of buckets depends on the range of input values. If we create three buckets like this, all of our input values will fall in the first bucket and the rest of the buckets will be empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "This undermines the efficiency of bucket sort."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are dividing the elements into three approximately equal ranges, these would be the suitable ranges for the buckets."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we are dividing the elements into three approximately equal ranges, these would be the suitable ranges for the buckets."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The distribution needs to be uniform for each bucket. This choice leads to uneven distribution."
+    },
+    {
+      "type": "paragraph",
+      "content": "The distribution needs to be uniform for each bucket. This choice leads to uneven distribution."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The values in the range 20-30 are greater than the maximum value present in the vector. Hence, it's not the correct range."
+    },
+    {
+      "type": "paragraph",
+      "content": "The values in the range 20-30 are greater than the maximum value present in the vector. Hence, it's not the correct range."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The range of buckets depends on the range of input values. If we create three buckets like this, all of our input values will fall in the first bucket and the rest of the buckets will be empty. This undermines the efficiency of bucket sort."
+    },
+    {
+      "type": "paragraph",
+      "content": "The range of buckets depends on the range of input values. If we create three buckets like this, all of our input values will fall in the first bucket and the rest of the buckets will be empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "This undermines the efficiency of bucket sort."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Given an array of elements ranging from 1 to 20, what should be the approximate range of each bucket?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:0-6, 6-12, 12-20",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "0-6, 6-12, 12-20",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:0-5, 5-15, 15-20",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "0-5, 5-15, 15-20",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:1-10, 10-20, 20-30",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "1-10, 10-20, 20-30",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:1-20, 20-40, 40-60",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "1-20, 20-40, 40-60",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

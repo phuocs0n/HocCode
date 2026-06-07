@@ -1,0 +1,46 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=5",
+  "title": "Example: Finite while Loop (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Finite while Loop (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the program from the previous page:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int count = 1;\n6\n7    while (count <= 3) {\n8        printf(\"I am inside a loop.\\n\");\n9        printf(\"Looping is interesting.\\n\");\n10    }\n11  \n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the loop continues forever because the boolean expression, count <= 3, is never false because the value of count is always 1."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usesearch?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does useSearch() accept entries as a parameter instead of fetching them itself?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because each hook should do only one thing"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A hook that both fetches and filters would be tightly coupled and hard to reuse. useSearch() filters, useFetch() fetches, and they compose together in App."
+    },
+    {
+      "type": "paragraph",
+      "content": "A hook that both fetches and filters would be tightly coupled and hard to reuse. useSearch() filters, useFetch() fetches, and they compose together in App."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because hooks cannot call other hooks"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks can absolutely call other hooks. That is how they are composed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks can absolutely call other hooks. That is how they are composed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because filtering requires the URL, not the entries array"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Filtering only needs the data. It doesn't care where the data came from."
+    },
+    {
+      "type": "paragraph",
+      "content": "Filtering only needs the data. It doesn't care where the data came from."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useMemo() cannot run inside a custom hook"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() works anywhere hooks are allowed, including inside custom hooks."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() works anywhere hooks are allowed, including inside custom hooks."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does useSearch() accept entries as a parameter instead of fetching them itself?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because each hook should do only one thing",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because each hook should do only one thing",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because hooks cannot call other hooks",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because hooks cannot call other hooks",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because filtering requires the URL, not the entries array",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because filtering requires the URL, not the entries array",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because useMemo() cannot run inside a custom hook",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because useMemo() cannot run inside a custom hook",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

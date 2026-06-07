@@ -1,0 +1,63 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/examples-linked-list?page=2",
+  "title": "Find the Largest Number in a Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find the Largest Number in a Linked List"
+    },
+    {
+      "type": "paragraph",
+      "content": "The process of finding the largest value in a linked list is similar to how we find the largest number in a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the largest value in a linked list, we start by assuming the first node's value is the largest."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we traverse through each node. As we go through the nodes, we compare each node's value with our current largest value and update the largest value if needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# method to return the largest number \n2def find_largest(self):\n3    # condition to handle empty linked list\n4    if not self.head:\n5        return None\n6    \n7    current = self.head\n8\n9    # initialize the value of head as largest\n10    largest = current.data\n11\n12    # iterate until the last node\n13    while current:\n14        # update largest if necessary\n15        if current.data > largest:\n16            largest = current.data\n17        current = current.next\n18    return largest"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Linked List: 85->90->78->92->88->None\nLargest value: 92"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

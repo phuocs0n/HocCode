@@ -1,0 +1,183 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/responsive-design/unit-youll-use-everywhere?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: A browser's default font size is 16px. What is 2rem equal to?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "2px"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "rem multiplies the root font size, it doesn't add to it. At 16px default, 2rem is 2 × 16px."
+    },
+    {
+      "type": "paragraph",
+      "content": "rem multiplies the root font size, it doesn't add to it. At 16px default, 2rem is 2 × 16px."
+    },
+    {
+      "type": "paragraph",
+      "content": "20px"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That would be 1.25rem. rem multiplies the root font size, so 2rem means 2 times 16px."
+    },
+    {
+      "type": "paragraph",
+      "content": "That would be 1.25rem. rem multiplies the root font size, so 2rem means 2 times 16px."
+    },
+    {
+      "type": "paragraph",
+      "content": "32px"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "2 × 16px = 32px at the default browser font size."
+    },
+    {
+      "type": "paragraph",
+      "content": "2 × 16px = 32px at the default browser font size."
+    },
+    {
+      "type": "paragraph",
+      "content": "16px"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "16px would be 1rem. 2rem is twice that."
+    },
+    {
+      "type": "paragraph",
+      "content": "16px would be 1rem. 2rem is twice that."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "rem multiplies the root font size, it doesn't add to it. At 16px default, 2rem is 2 × 16px."
+    },
+    {
+      "type": "paragraph",
+      "content": "rem multiplies the root font size, it doesn't add to it. At 16px default, 2rem is 2 × 16px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That would be 1.25rem. rem multiplies the root font size, so 2rem means 2 times 16px."
+    },
+    {
+      "type": "paragraph",
+      "content": "That would be 1.25rem. rem multiplies the root font size, so 2rem means 2 times 16px."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "2 × 16px = 32px at the default browser font size."
+    },
+    {
+      "type": "paragraph",
+      "content": "2 × 16px = 32px at the default browser font size."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "16px would be 1rem. 2rem is twice that."
+    },
+    {
+      "type": "paragraph",
+      "content": "16px would be 1rem. 2rem is twice that."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: A browser's default font size is 16px. What is 2rem equal to?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:2px",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "2px",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:20px",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "20px",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:32px",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "32px",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:16px",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "16px",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

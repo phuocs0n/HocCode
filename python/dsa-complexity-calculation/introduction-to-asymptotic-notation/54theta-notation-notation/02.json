@@ -1,0 +1,49 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/theta-notation-notation?page=3",
+  "title": "Computer Science Interpretation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Computer Science Interpretation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose our code has θ(n) time complexity. This means that for a sufficiently large input,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "our code will complete the execution with θ(n) complexity;",
+        "it will never take θ(n2)θ(n^2)θ(n2) complexity (because the growth of n2n^2n2 is faster than that of n);",
+        "it will never take θ(n3)θ(n^3)θ(n3) complexity (because the growth of n3 is faster than that of n)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Essentially, the Theta notation tells us that if a program has a certain time complexity, let's say θ(log n), we can be certain that the time complexity of the program grows neither faster nor slower than θ(log n)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

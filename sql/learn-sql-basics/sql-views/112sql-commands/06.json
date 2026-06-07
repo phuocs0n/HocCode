@@ -1,0 +1,53 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-commands?page=7",
+  "title": "Transaction Control Language (TCL)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Transaction Control Language (TCL)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The TCL commands allow us to save changes made in a database and roll back to our previous save point if needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Some commonly used TCL commands include:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "SAVEPOINT - for temporarily storing changes performed by DML (INSERT, UPDATE, and DELETE statements)",
+        "ROLLBALL - for reverting to SAVEPOINT",
+        "COMMIT - for permanently storing changes performed by DML (INSERT, UPDATE, and DELETE statements)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Recommendation: We suggest you look into DCL and TCL once you are comfortable with other commands."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

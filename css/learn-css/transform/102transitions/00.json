@@ -1,0 +1,67 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-css/transitions?page=1",
+  "title": "CSS Transitions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "CSS Transitions"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSS transitions allow you to create smooth animations by changing the values of CSS properties over a specified duration when an element's state changes, such as on hover or focus."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at an example:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>CSS Transitions</h1>\n2<p>Click the boxes to see the difference that transitions make.</p>\n3<div class=\"box box1\">Box1</div>\n4<div class=\"box box2\">Box2</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.box1 {\n2    background-color: #50e3c2;\n3\n4    /* No transition */\n5}\n6\n7.box2 {\n8    background-color: #3a8106;\n9\n10    /* Simple transition for smooth effect */\n11    transition: 1.5s ease;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code above and click the boxes to observe how box1 and box2 transform, with and without transitions, respectively."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we've applied a simple transition to box2, making its transformation appear smoothly over time. On the other hand, box1's transformation occurs instantly, without any smooth transition."
+    },
+    {
+      "type": "paragraph",
+      "content": "Adding transitions to your transformations helps create smooth animations, enhancing the user experience and making your website more visually engaging."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's learn how to add transitions to your transformations!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

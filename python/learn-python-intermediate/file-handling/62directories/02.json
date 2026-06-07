@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/directories?page=2",
+  "title": "Get Current Directory Path",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Get Current Directory Path"
+    },
+    {
+      "type": "paragraph",
+      "content": "To get the path to the current directory, we use the getcwd() method of the os module. For example,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\n\n# print current working directory\nprint(os.getcwd())"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose the location of this Python file containing this code was in C:\\Users\\lenovo\\Desktop\\Files\\main.py."
+    },
+    {
+      "type": "paragraph",
+      "content": "In that case, the output of the program will be:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "C:\\Users\\lenovo\\Desktop\\Files"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, getcwd means get current working directory."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

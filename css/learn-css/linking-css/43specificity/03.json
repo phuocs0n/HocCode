@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-css/specificity?page=4",
+  "title": "Handling CSS Rules with the Same Specificity",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handling CSS Rules with the Same Specificity"
+    },
+    {
+      "type": "paragraph",
+      "content": "When two CSS rules have the same specificity, which rule do you think gets applied?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore this with an example:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p>This is a paragraph.</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* First Rule */\n2p {\n3    color: red;\n4}\n5\n6/* Second Rule */\n7p {\n8    color: blue;\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, both rules target all <p> elements and have the same specificity."
+    },
+    {
+      "type": "paragraph",
+      "content": "In such cases, the rule that comes last in your CSS file is applied."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because CSS stands for Cascading Style Sheets. Rules \"cascade,\" meaning they are applied in layers, with the last rule overriding any earlier ones when they have the same specificity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

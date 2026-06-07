@@ -1,0 +1,79 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/introduction-examples?page=2",
+  "title": "Converting Distance in Kilometers to Miles",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Converting Distance in Kilometers to Miles"
+    },
+    {
+      "type": "paragraph",
+      "content": "To convert a distance in kilometers to miles, we need to multiply the distance in kilometers by the value 0.621. This is because:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1 kilometer = 0.621 miles"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a complete program:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1// Program to convert distance in kilometer to miles\n2// The distance will be entered by the user\n3\n4#include <stdio.h>\n5\n6int main() {\n7\n8    double km;\n9    double miles;\n10\n11    // Conversion ratio\n12    double conversionRatio = 0.621;\n13  \n14    printf(\"Enter distance in km: \");\n15\n16    // Take distance input from the user\n17    scanf(\"%lf\", &km);\n18\n19    // Compute distance in miles\n20    miles = km * conversionRatio;\n21\n22    printf(\"Distance in miles: %lf\", miles);\n23\n24    return 0;\n25}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter distance in km: 33\nDistance in miles: 20.493000"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the program works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "scanf(\"%lf\", &km); - takes distance input in kilometers from the user and stores it in the km variable",
+        "miles = km * conversionRatio; - computes the distance in miles by multiplying the distance in km by 0.621."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice how we used the double data type to represent the distance. Distances are generally floating-point numbers, such as 3.5 kilometers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll use a similar concept to convert temperature in Celsius to Fahrenheit."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,100 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/building-journalform-component?page=11",
+  "title": "Form Elements in JSX",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Form Elements in JSX"
+    },
+    {
+      "type": "paragraph",
+      "content": "Form elements work the same in JSX as in HTML, with a few small differences:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. 'class' becomes 'className'"
+    },
+    {
+      "type": "paragraph",
+      "content": "You already know this one:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<input className=\"title-input\" />"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Self-closing tags need a slash"
+    },
+    {
+      "type": "paragraph",
+      "content": "In HTML, you can write <input> or <input />. In JSX, you must close it like this: <input />."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. camelCase for attributes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Some HTML attributes combine two words without camelCasing (eg: tabindex, maxlength). In JSX, they become camelCase:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "tabindex → tabIndex",
+        "maxlength → maxLength",
+        "readonly → readOnly"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "For example:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<input type=\"text\" maxLength={100} />"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. 'for' becomes 'htmlFor'"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you use <label>, the for attribute becomes htmlFor:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<label htmlFor=\"title\">Title</label>\n\n<input id=\"title\" />"
+    },
+    {
+      "type": "paragraph",
+      "content": "Why? Because for is a reserved word in JavaScript (used in for loops)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

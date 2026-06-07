@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/responsive-design/hamburger-menu-on-small-screens?page=2",
+  "title": "How It Works",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How It Works"
+    },
+    {
+      "type": "paragraph",
+      "content": "The nav menu is hidden by default. When a checkbox is checked the nav becomes visible. A label styled as a button is what the user actually taps."
+    },
+    {
+      "type": "paragraph",
+      "content": "The :checked selector is what makes this work. When the checkbox is checked the ~ selector reaches the nav menu and shows it. The label is what the user sees and taps."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1.nav-toggle {\n2  display: none;\n3}\n4\n5.nav-menu {\n6  display: none;\n7}\n8\n9.nav-toggle:checked ~ .nav-menu {\n10  display: flex;\n11  flex-direction: column;\n12  gap: 1rem;\n13}\n14\n15@media (min-width: 48rem) {\n16  .nav-label { display: none; }\n17\n18  .nav-menu {\n19    display: flex;\n20    flex-direction: row;\n21    align-items: center;\n22    gap: 2rem;\n23  }\n24}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1*, *::before, *::after {\n2  box-sizing: border-box;\n3}\n4\n5body {\n6  font-family: sans-serif;\n7  margin: 0;\n8}\n9\n10.container {\n11  max-width: 64rem;\n12  margin: 0 auto;\n13  padding: 0 1.5rem;\n14}\n15\n16.site-header {\n17  padding: 1rem 0;\n18  border-bottom: 1px solid #F3F4F6;\n19  background-color: #fff;\n20}\n21\n22.site-header .container {\n23  display: flex;\n24  flex-wrap: wrap;\n25  align-items: center;\n26  justify-content: space-between;\n27  gap: 1rem;\n28}\n29\n30.brand {\n31  font-size: 1.25rem;\n32  font-weight: 700;\n33  text-decoration: none;\n34  color: #1E293B;\n35}\n36\n37.nav-toggle {\n38  display: none;\n39}\n40\n41.nav-label {\n42  min-width: 2.75rem;\n43  min-height: 2.75rem;\n44  display: flex;\n45  align-items: center;\n46  justify-content: center;\n47  font-size: 1.5rem;\n48  cursor: pointer;\n49  border-radius: 0.5rem;\n50}\n51\n52.nav-menu {\n53  display: none;\n54  width: 100%;\n55}\n56\n57.nav-toggle:checked ~ .nav-menu {\n58  display: flex;\n59  flex-direction: column;\n60  gap: 1rem;\n61}\n62\n63nav ul {\n64  list-style: none;\n65  margin: 0;\n66  padding: 0;\n67  display: flex;\n68  flex-direction: column;\n69  gap: 0.5rem;\n70}\n71\n72nav a {\n73  display: flex;\n74  align-items: center;\n75  padding: 0.75rem 0;\n76  font-size: 0.875rem;\n77  font-weight: 500;\n78  text-decoration: none;\n79  color: #1E293B;\n80  min-height: 2.75rem;\n81}\n82\n83.download-btn {\n84  display: flex;\n85  justify-content: center;\n86  align-items: center;\n87  min-height: 2.75rem;\n88  padding: 0 1rem;\n89  border: 1px solid #14B8A5;\n90  border-radius: 2rem;\n91  text-decoration: none;\n92  font-size: 0.75rem;\n93  font-weight: 700;\n94  color: #14B8A5;\n95}\n96\n97@media (min-width: 48rem) {\n98  .nav-label {\n99    display: none;\n100  }\n101\n102  .nav-menu {\n103    display: flex;\n104    flex-direction: row;\n105    width: auto;\n106    align-items: center;\n107    gap: 2rem;\n108  }\n109\n110  nav ul {\n111    flex-direction: row;\n112    gap: 2rem;\n113  }\n114\n115  nav a {\n116    padding: 0;\n117    min-height: auto;\n118  }\n119}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and narrow the window. Tap the ☰ and watch the nav open. Tap again and it closes."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can see the nav dropping down when you tap the button and snapping into a row when you widen past 48rem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

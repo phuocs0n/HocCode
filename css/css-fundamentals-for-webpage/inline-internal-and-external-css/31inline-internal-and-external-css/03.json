@@ -1,0 +1,76 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/inline-internal-external-css?page=4",
+  "title": "External CSS — Styling with a Separate File",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "External CSS — Styling with a Separate File"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the approach used in real-world frontend projects."
+    },
+    {
+      "type": "paragraph",
+      "content": "What it is:CSS written in a separate .css file and linked to HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "Where it connects:Using a <link> tag inside the <head>."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<head>\n2  <link rel=\"stylesheet\" href=\"style.css\">\n3</head>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1p {\n2  color: #333;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "What to notice:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "HTML stays clean",
+        "CSS is reusable",
+        "Styles scale across pages"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer take:"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the professional standard. Clean, maintainable, and flexible."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

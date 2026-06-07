@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/prefetching-on-hover?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: When does prefetchQuery actually fetch data?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It always fetches regardless of what's in the cache"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "prefetchQuery checks the cache first. If the data is fresh it does nothing."
+    },
+    {
+      "type": "paragraph",
+      "content": "prefetchQuery checks the cache first. If the data is fresh it does nothing."
+    },
+    {
+      "type": "paragraph",
+      "content": "It fetches only if the data is missing or stale in the cache"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. prefetchQuery is smart — it only goes to the network when the cache doesn't have fresh data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. prefetchQuery is smart — it only goes to the network when the cache doesn't have fresh data."
+    },
+    {
+      "type": "paragraph",
+      "content": "It fetches and then deletes the data after 5 seconds"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "prefetchQuery stores data in the cache normally. It doesn't delete it."
+    },
+    {
+      "type": "paragraph",
+      "content": "prefetchQuery stores data in the cache normally. It doesn't delete it."
+    },
+    {
+      "type": "paragraph",
+      "content": "It only works on mouse click events"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "prefetchQuery works anywhere. Mouse enter is just the most common use case."
+    },
+    {
+      "type": "paragraph",
+      "content": "prefetchQuery works anywhere. Mouse enter is just the most common use case."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: When does prefetchQuery actually fetch data?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It always fetches regardless of what's in the cache",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It always fetches regardless of what's in the cache",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It fetches only if the data is missing or stale in the cache",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It fetches only if the data is missing or stale in the cache",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It fetches and then deletes the data after 5 seconds",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It fetches and then deletes the data after 5 seconds",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It only works on mouse click events",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It only works on mouse click events",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

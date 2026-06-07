@@ -1,0 +1,71 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-rock-paper-scissors?page=6",
+  "title": "Assigning Values to Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Assigning Values to Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's assign these numbers to rock, paper, and scissors as follows:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "0 represents rock",
+        "1 represents paper",
+        "2 represents scissors"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the logic:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let options = [\"rock\", \"paper\", \"scissors\"];\n2let choice = Math.floor(Math.random() * 3);\n3console.log(options[choice]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This will randomly output \"rock\", \"paper\", or \"scissors\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's implement this logic inside a function."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const getComputerChoice = () => {\n2    const options = [\"rock\", \"paper\", \"scissors\"];\n3    let choice = Math.floor(Math.random() * 3);\n4    return options[choice];\n5};\n6\n7let computerChoice = getComputerChoice();\n8console.log(computerChoice);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function randomly returns either \"rock\", \"paper\", or \"scissors\". Now, let's take user input to get their choice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,69 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-string?page=3",
+  "title": "Compare Two Strings Using == Operator",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compare Two Strings Using == Operator"
+    },
+    {
+      "type": "paragraph",
+      "content": "We know that the equals to operator == is used to check if two numbers are equal or not. In this example, we will use this operator to check whether two strings are identical or not."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we take two string inputs from the user. Then, we use an if...else statement to check whether the two strings are identical or not with the help of the == operator."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Source Code"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    string text1, text2;\n7\n8    cout << \"Enter first string: \";\n9    getline(cin, text1);\n10\n11    cout << \"Enter second string: \";\n12    getline(cin, text2);\n13\n14    // compare the strings\n15    if (text1 == text2) {\n16        cout << \"The strings are identical.\";\n17    }\n18    else {\n19        cout << \"The strings are not identical.\";\n20    }\n21\n22    return 0;\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter first string: Hulk smash!\nEnter second string: Hulk SMASH!\nThe strings are not identical."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, if (text1 == text2) checks if two strings are identical. If they are, the if block is executed. Otherwise the else block is executed."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

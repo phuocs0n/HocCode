@@ -1,0 +1,62 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/react-query/making-status-change-feel-instant?page=1",
+  "title": "Setting Up onMutate",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Setting Up onMutate"
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/TaskList.jsx let's update the updateMutation to use optimistic updates:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const updateMutation = useMutation({\n  mutationFn: updateTask,\n  onMutate: async (updatedTask) => {\n \n    // Step 1: Cancel any outgoing refetches\n    await queryClient.cancelQueries({ queryKey: taskKeys.list({ status }) })\n \n    // Step 2: Snapshot the current cache\n    const previousTasks = queryClient.getQueryData(taskKeys.list({ status }))\n \n    // Step 3: Optimistically update the cache\n    queryClient.setQueryData(taskKeys.list({ status }), (old) =>\n      old.map(t => t.id === updatedTask.id ? { ...t, ...updatedTask } : t)\n    )\n \n    // Step 4: Return the snapshot for rollback\n    return { previousTasks }\n  },\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "First we call cancelQueries. This stops any in-flight refetches that might overwrite our optimistic update."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then we call getQueryData to take a snapshot of what's currently in the cache. We store this in previousTasks so we can restore it if something goes wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then we call setQueryData to immediately update the cache with the new task data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally we return { previousTasks } so React Query passes it to onError if needed."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's add the rollback."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,88 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/array-input?page=2",
+  "title": "Array Input Using for Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Array Input Using for Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we can use a for loop to reduce redundancy in our previous code."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Main {\n4    public static void main(String[] args) {\n5        \n6        // Create object of Scanner\n7        Scanner input = new Scanner(System.in);\n8        \n9        int[] numbers = new int[4];\n10        \n11        System.out.println(\"Enter Array Elements: \");\n12        for (int index = 0; index < numbers.length; ++index) {\n13            numbers[index] = input.nextInt();\n14        }\n15        \n16        // Access array elements\n17        System.out.println(\"Array Elements:\");\n18        for (int index = 0; index < numbers.length; ++index) {\n19            System.out.println(numbers[index]);\n20        }\n21        \n22        input.close();\n23    }\n24}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter Array Elements: \n21\n22\n23\n24\nArray Elements:\n21\n22\n23\n24"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how the code works in each iteration of the loop"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "index",
+          "numbers[index] = input.nextInt();"
+        ],
+        [
+          "0",
+          "assigns 21 at index 0"
+        ],
+        [
+          "1",
+          "assigns 22 at index 1"
+        ],
+        [
+          "2",
+          "assigns 23 at index 2"
+        ],
+        [
+          "3",
+          "assigns 24 at index 3"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When the value of index is 4, the condition index < numbers.length becomes 4 < 4, which is false. Hence, the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's try solving some interesting problems with arrays."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

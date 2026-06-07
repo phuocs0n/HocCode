@@ -1,0 +1,72 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/state-ui?page=4",
+  "title": "Updating the Page from State",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Updating the Page from State"
+    },
+    {
+      "type": "paragraph",
+      "content": "Did you notice the order of steps in the counter example?"
+    },
+    {
+      "type": "paragraph",
+      "content": "We updated the variable first. Then we updated the UI."
+    },
+    {
+      "type": "paragraph",
+      "content": "That order matters more than it might seem."
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable count holds the current state. Every time the button is clicked, we change that value. Then we update the text on the page using display.textContent = count."
+    },
+    {
+      "type": "paragraph",
+      "content": "The UI does not decide what the value is. The variable decides. The UI reflects it."
+    },
+    {
+      "type": "paragraph",
+      "content": "This pattern keeps your logic predictable:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Update the state",
+        "Update the UI"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If you try to read from the DOM to decide what to do next, things can easily get out of sync. One variable as the source of truth keeps your code clean and easy to follow."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll apply this same pattern to control which section is visible when there are multiple options."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

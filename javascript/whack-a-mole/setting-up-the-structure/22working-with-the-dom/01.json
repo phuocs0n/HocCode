@@ -1,0 +1,83 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/working-with-dom?page=2",
+  "title": "A Quick Look at Functions 🔧",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "A Quick Look at Functions 🔧"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you dive into DOM manipulation, let's quickly review JavaScript functions—you'll use them constantly while building your game."
+    },
+    {
+      "type": "paragraph",
+      "content": "A function is a reusable block of code that performs a specific task. Think of it like a recipe: write the steps once, then use them whenever you need."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, here's a simple function that greets a player:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "function greetPlayer(name) {\n    console.log('Welcome to the game, ' + name + '!');\n}\n\ngreetPlayer('Alex');"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Welcome to the game, Alex!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the code above, greetPlayer is the function name, name is a parameter (input), and the code inside the curly braces runs when you call the function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Why functions matter for your game:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You'll wrap your code in functions to keep it organized",
+        "Functions let you reuse logic (like creating holes or checking scores)",
+        "They make debugging easier—if something breaks, you know which function to check"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this project, we'll keep all game code inside a main() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of main() as the game's \"start button\" in code: when you call it, your game setup runs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

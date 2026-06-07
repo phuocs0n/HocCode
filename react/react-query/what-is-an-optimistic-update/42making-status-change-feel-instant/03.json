@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-query/making-status-change-feel-instant?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does onMutate return and why?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns the updated data so React Query can store it in the cache"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "setQueryData handles the cache update. The return value of onMutate is for something else."
+    },
+    {
+      "type": "paragraph",
+      "content": "setQueryData handles the cache update. The return value of onMutate is for something else."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns a snapshot of the previous cache so onError can roll back to it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Whatever you return from onMutate becomes the context in onError. That's how the rollback knows what to restore."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Whatever you return from onMutate becomes the context in onError. That's how the rollback knows what to restore."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns a boolean that tells React Query whether to proceed with the mutation"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The mutation always proceeds regardless of what onMutate returns."
+    },
+    {
+      "type": "paragraph",
+      "content": "The mutation always proceeds regardless of what onMutate returns."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns the mutationFn result so you can use it in onSuccess"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "onSuccess receives the result of mutationFn, not onMutate."
+    },
+    {
+      "type": "paragraph",
+      "content": "onSuccess receives the result of mutationFn, not onMutate."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does onMutate return and why?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It returns the updated data so React Query can store it in the cache",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It returns the updated data so React Query can store it in the cache",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It returns a snapshot of the previous cache so onError can roll back to it",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It returns a snapshot of the previous cache so onError can roll back to it",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It returns a boolean that tells React Query whether to proceed with the mutation",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It returns a boolean that tells React Query whether to proceed with the mutation",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It returns the mutationFn result so you can use it in onSuccess",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It returns the mutationFn result so you can use it in onSuccess",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

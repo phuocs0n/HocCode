@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/derived-state-usememo?page=1",
+  "title": "The Problem: Storing a Copy That Gets Out of Sync",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Problem: Storing a Copy That Gets Out of Sync"
+    },
+    {
+      "type": "paragraph",
+      "content": "The next feature is filtering the entries through search. When the user types in the header, only matching entries should appear."
+    },
+    {
+      "type": "paragraph",
+      "content": "A natural first instinct is to add a second state variable for the filtered results:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [entries, setEntries] = useState([]);\n\n// Add a new state\nconst [filteredEntries, setFilteredEntries] = useState([]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "But you have to keep them in sync:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Every time entries changes — after a refresh, or after a fetch — you must also update filteredEntries.",
+        "Every time the query changes, you must update filteredEntries again."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Miss one place and the two variables diverge: old data shows up where new data should be."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the derived state trap: you stored a value that could have been computed. Let's learn about derived states next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

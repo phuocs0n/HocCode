@@ -1,0 +1,89 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-oop/get-set-student-name?page=1",
+  "title": "Get and Set Student Name",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Get and Set Student Name"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to access and modify the private variable using getter and setter functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named Student with a private string variable name.",
+        "Inside the class, create a public function set_name() with a string parameter, n.",
+        "Inside the function, print Setting Name and initialize the value of name with the parameter.",
+        "Create another public function named get_name().",
+        "Inside the function, print Getting Name and return the value of name."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "In main(), get a string input for the variable name.",
+        "Create an object of the Student class.",
+        "Use the object to call the set_name() function with the argument name.",
+        "Call the get_name() function using the object and print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputJack Sparrow"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputSetting Name\nGetting Name\nJack Sparrow"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-dynamic-programming?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which method does dynamic programming use to solve complex problems?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "By breaking them into larger, independent subproblems."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming breaks problems into smaller subproblems, and they often overlap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming breaks problems into smaller subproblems, and they often overlap."
+    },
+    {
+      "type": "paragraph",
+      "content": "By breaking them into smaller, overlapping subproblems."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming works by breaking complex problems into smaller, overlapping subproblems."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming works by breaking complex problems into smaller, overlapping subproblems."
+    },
+    {
+      "type": "paragraph",
+      "content": "By solving the entire problem at once."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming breaks the problem into subproblems instead of solving the entire problem at once."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic programming breaks the problem into subproblems instead of solving the entire problem at once."
+    },
+    {
+      "type": "paragraph",
+      "content": "By preventing the problem from being solved."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "By definition, preventing a problem from being solved is the opposite of a solution."
+    },
+    {
+      "type": "paragraph",
+      "content": "By definition, preventing a problem from being solved is the opposite of a solution."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which method does dynamic programming use to solve complex problems?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:By breaking them into larger, independent subproblems.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "By breaking them into larger, independent subproblems.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:By breaking them into smaller, overlapping subproblems.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "By breaking them into smaller, overlapping subproblems.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:By solving the entire problem at once.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "By solving the entire problem at once.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:By preventing the problem from being solved.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "By preventing the problem from being solved.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

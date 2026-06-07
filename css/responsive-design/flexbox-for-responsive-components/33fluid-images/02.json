@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/responsive-design/fluid-images?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we use max-width: 100% and height: auto on images?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To make images load faster."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "These are display properties. They control how the image is rendered in the layout, not how it's downloaded. For faster loading you'd look at srcset or image format like WebP."
+    },
+    {
+      "type": "paragraph",
+      "content": "These are display properties. They control how the image is rendered in the layout, not how it's downloaded. For faster loading you'd look at srcset or image format like WebP."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the image never exceeds its container width and keeps its aspect ratio, no overflow or distortion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width: 100% keeps the image inside the container. height: auto preserves the aspect ratio so the image scales without distorting."
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width: 100% keeps the image inside the container. height: auto preserves the aspect ratio so the image scales without distorting."
+    },
+    {
+      "type": "paragraph",
+      "content": "To hide images on mobile."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width: 100% keeps the image fully visible but constrained. Hiding images on mobile is a different and generally bad practice."
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width: 100% keeps the image fully visible but constrained. Hiding images on mobile is a different and generally bad practice."
+    },
+    {
+      "type": "paragraph",
+      "content": "To force images to be square."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "height: auto tells the browser to calculate height proportionally based on the natural aspect ratio. Setting both to the same fixed value would force a square and distort the image."
+    },
+    {
+      "type": "paragraph",
+      "content": "height: auto tells the browser to calculate height proportionally based on the natural aspect ratio. Setting both to the same fixed value would force a square and distort the image."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we use max-width: 100% and height: auto on images?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To make images load faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To make images load faster.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:So the image never exceeds its container width and keeps its aspect ratio, no overflow or distortion.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "So the image never exceeds its container width and keeps its aspect ratio, no overflow or distortion.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To hide images on mobile.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To hide images on mobile.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To force images to be square.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To force images to be square.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

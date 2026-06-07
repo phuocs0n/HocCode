@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/deploy-verify?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does SpeedBlip's pre-launch verification test the live Netlify URL rather than the local dev server?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Netlify URL loads faster than localhost for end-to-end testing"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed of loading is not the reason. The local dev server is typically faster than a remote URL. The reason is about build environment differences."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed of loading is not the reason. The local dev server is typically faster than a remote URL. The reason is about build environment differences."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify requires a review step before the app is accessible to the public"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify does not require a manual review. Auto-deploys go live immediately after a successful build."
+    },
+    {
+      "type": "paragraph",
+      "content": "Netlify does not require a manual review. Auto-deploys go live immediately after a successful build."
+    },
+    {
+      "type": "paragraph",
+      "content": "The production build handles assets, Service Workers, and environment variables differently from the dev server"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Vite's dev server serves unminified code, skips Service Worker registration, and handles paths differently. Issues like blank charts, failed PWA registration, and broken asset paths only appear in the production build."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. Vite's dev server serves unminified code, skips Service Worker registration, and handles paths differently. Issues like blank charts, failed PWA registration, and broken asset paths only appear in the production build."
+    },
+    {
+      "type": "paragraph",
+      "content": "Local development does not support mobile viewport testing"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local dev servers support mobile viewport simulation via browser DevTools. The distinction is about the build environment, not mobile testing capability."
+    },
+    {
+      "type": "paragraph",
+      "content": "Local dev servers support mobile viewport simulation via browser DevTools. The distinction is about the build environment, not mobile testing capability."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does SpeedBlip's pre-launch verification test the live Netlify URL rather than the local dev server?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The Netlify URL loads faster than localhost for end-to-end testing",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The Netlify URL loads faster than localhost for end-to-end testing",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Netlify requires a review step before the app is accessible to the public",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Netlify requires a review step before the app is accessible to the public",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The production build handles assets, Service Workers, and environment variables differently from the dev server",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The production build handles assets, Service Workers, and environment variables differently from the dev server",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Local development does not support mobile viewport testing",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Local development does not support mobile viewport testing",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

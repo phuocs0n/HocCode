@@ -1,0 +1,58 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/while-loop?page=2",
+  "title": "The while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, there are two types of loops: while loop and for loop. Let's learn about the while loop in this lesson."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of the while loop is:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "while condition:\n    statement(s)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The while loop runs the statements inside it as long as the condition (a boolean expression) evaluates to True."
+    },
+    {
+      "type": "paragraph",
+      "content": "Unlike an if statement that only executes once, the while loop repeatedly checks the condition and continues execution until the condition evaluates to False."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sounds tricky? Let's understand it with the help of an example next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

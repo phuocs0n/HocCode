@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/spread-destructuring?page=2",
+  "title": "Cloning Arrays with Spread",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Cloning Arrays with Spread"
+    },
+    {
+      "type": "paragraph",
+      "content": "Spread also creates genuine copies of arrays. Modifying the copy will not affect the original."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1 const original = [1, 2, 3]; \n2const copy = [...original];\n3\n4copy.push(4);\n5\n6console.log(original); \n7console.log(copy);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, pushing to copy does not change the original because spread creates a shallow copy. Use spread whenever you need to copy and combine arrays. It is shorter and easier to read than the older ways of doing it like concat or slice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/ranged-for-loop?page=2",
+  "title": "Sum of Array Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sum of Array Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "Remember this code to find the sum of array elements."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int numbers[5] = {32, 14, 25, 61, 72};\n7\n8    // initial value of total is 0\n9    int total = 0;\n10\n11    for (int i = 0; i < 5; ++i) {\n12        total = total + numbers[i];\n13    }\n14\n15    cout << \"Total: \" << total;\n16\n17    return 0;\n18}\n19\n20// Output:\n21// Total: 204"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's use the ranged for loop instead of the for loop."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int numbers[5] = {32, 14, 25, 61, 72};\n7\n8    // initial value of total is 0\n9    int total = 0;\n10\n11    for (int number : numbers) {\n12        total = total + number;\n13    }\n14\n15    cout << \"Total: \" << total;\n16\n17    return 0;\n18}\n19\n20// Output:\n21// Total: 204"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, you can see we get the same output. However, the code using the ranged for loop looks much cleaner."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

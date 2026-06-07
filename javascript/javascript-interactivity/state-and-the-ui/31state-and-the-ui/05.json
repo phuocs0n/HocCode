@@ -1,0 +1,92 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/state-ui?page=5",
+  "title": "Controlling Which Section Is Visible",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Controlling Which Section Is Visible"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's apply state to work on something real."
+    },
+    {
+      "type": "paragraph",
+      "content": "Three panels, but only one should be visible at a time. When the user clicks Next or Prev, the visible panel changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of guessing which panel to show, we store that information in a variable. That variable becomes the state."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a complete example."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>State — tabs</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <button id=\"prev\">Prev</button>\n11  <button id=\"next\">Next</button>\n12\n13  <div class=\"panel\">Panel 1</div>\n14  <div class=\"panel\">Panel 2</div>\n15  <div class=\"panel\">Panel 3</div>\n16\n17  <script src=\"script.js\"></script>\n18</body>\n19</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6.panel {\n7  display: none;\n8  padding: 16px;\n9  border: 1px solid #E2E8F0;\n10  margin-top: 8px;\n11}\n12\n13.panel:first-of-type {\n14  display: block;\n15}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var currentIndex = 0;\n2var panels = document.querySelectorAll('.panel');\n3\n4function showPanel(index) {\n5  currentIndex = Math.max(0, Math.min(index, panels.length - 1));\n6\n7  for (var i = 0; i < panels.length; i++) {\n8    panels[i].style.display = i === currentIndex ? 'block' : 'none';\n9  }\n10}\n11\n12document.querySelector('#prev').addEventListener('click', function () {\n13  showPanel(currentIndex - 1);\n14});\n15\n16document.querySelector('#next').addEventListener('click', function () {\n17  showPanel(currentIndex + 1);\n18});\n19\n20showPanel(0);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you click Next or Prev, only one panel remains visible."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what's happening:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "currentIndex stores which panel is active.",
+        "showPanel updates that value and ensures it stays within range.",
+        "Then it updates the DOM so only the correct panel is visible."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable holds the state. The UI reflects it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, a quick quiz to check your understanding before you build."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

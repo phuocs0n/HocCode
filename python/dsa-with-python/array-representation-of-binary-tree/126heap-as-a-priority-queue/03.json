@@ -1,0 +1,67 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/heap-as-priority-queue?page=4",
+  "title": "Thought Process: Priority Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Priority Queue"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a priority queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can create the priority queue as a child of the MinHeap class."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "class PriorityQueue(MinHeap):\n    def __init__(self):\n        super().__init__()"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Insert, peek and extract min in the priority queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have already defined these methods in min heap implementation. So, we can simply use them in our PriorityQueue class."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def insert(self, value, priority):\n    super().insert((priority,value))\n\ndef extract_min(self):\n    return super().extract_min()\n\ndef peek(self):\n    return super().peek()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Note: In priority queues, we are inserting a tuple (priority, value). So, to access the priority of ith node, we use self.heap[i][0], since priority is the first item in the tuple."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, to access the ith value, we use self.heap[i][1]."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

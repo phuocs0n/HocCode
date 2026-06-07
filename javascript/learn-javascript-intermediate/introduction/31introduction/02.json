@@ -1,0 +1,88 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/introduction?page=3",
+  "title": "setTimeout()",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "setTimeout()"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at a JavaScript function called setTimeout()."
+    },
+    {
+      "type": "paragraph",
+      "content": "The setTimeout() function lets you run a piece of code after a certain delay. You tell it what to do and how long to wait before doing it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax of the setTimeout() function is:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "setTimeout(function, milliseconds);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "paragraph",
+      "content": "function: The code you want to run."
+    },
+    {
+      "type": "paragraph",
+      "content": "milliseconds: The delay before the code runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see this in action."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1setTimeout(function() {\n2console.log(\"Task: Water the plants (delayed by 2 seconds).\");\n3}, 2000);"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the message will appear after 2 seconds."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's use it with other functions."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"Task: Sweep the floor\");\n2setTimeout(() => console.log(\"Task: Water the plants (delayed by 2 seconds).\"), 2000);\n3console.log(\"Task: Feed the cat\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, Task: Sweep the floor is printed first, then Task: Feed the cat is printed, and finally, the delayed task is printed after 2 seconds."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

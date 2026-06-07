@@ -1,0 +1,52 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/separate-s-s-from-array?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To separate 0's and 1's from an array, count the number of 0's in it, create a new array of the same size, fill the first count positions in the new array with 0's and the remaining positions with 1's."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Traverse the array and count the number of 0's. Let's say the count is stored in a variable called count.",
+        "Calculate the number of 1's in the array as array.length - count.",
+        "Create a new array of the same size as the input array to store the output.",
+        "Fill the first count positions in the new array with 0's.",
+        "Fill the remaining positions in the new array with 1's.",
+        "Return the new array."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/frequency-of-characters?page=1",
+  "title": "Frequency of Characters in String",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Frequency of Characters in String"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the total occurrence of a character in a string."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get string input for a char array named str.",
+        "Get character input for a char variable named ch.",
+        "Find the length of the input string.",
+        "Run a for loop to access each character of the string.",
+        "Inside the loop, check if the character matches the input character ch.",
+        "If true, increase the value of a count variable by 1.",
+        "Finally print the count."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputi am in love with c programming\nm"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output3"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

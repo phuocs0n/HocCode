@@ -1,0 +1,95 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/circular-queue?page=2",
+  "title": "Adding to the Circular Queue",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding to the Circular Queue"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a regular queue, the enqueue() method looked like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def enqueue(self, item):\n    if self.is_full():\n        print(\"We can't add elements. The queue is full.\")\n        return\n\n    self.rear += 1\n    self.queue[self.rear] = item\n    self.count += 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "This works until the rear reaches the end of the list."
+    },
+    {
+      "type": "paragraph",
+      "content": "After that, you can't insert any more items — even if there are empty slots at the front."
+    },
+    {
+      "type": "paragraph",
+      "content": "To fix this, we wrap the rear back to the beginning."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "self.rear += 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "We do this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "self.rear = (self.rear + 1) % self.capacity"
+    },
+    {
+      "type": "paragraph",
+      "content": "This wraps the rear to index 0 once it reaches the end."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, if the queue size is 5:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If rear = 3, the next rear becomes 4",
+        "If rear = 4, the next rear becomes 0 — but only if there's room (i.e. the queue is not full)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we can reuse empty space at the front."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's implement the above changes to the enqueue() method and visualize how it works in a circular queue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

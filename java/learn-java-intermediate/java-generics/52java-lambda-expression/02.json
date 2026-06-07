@@ -1,0 +1,83 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-lambda-expression?page=3",
+  "title": "Lambda Expressions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Lambda Expressions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lambda expressions are just like regular methods but a lambda expression doesn't have a name. For example,"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have a regular method from the earlier example"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public void add() {\n    System.out.println(4 + 5)\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can replace this method using a lambda expression like this"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "() -> System.out.println(4 + 5);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is an example of a lambda expression that prints the sum of 4 and 5."
+    },
+    {
+      "type": "paragraph",
+      "content": "By looking at the above example, we can see that the syntax of lambda expression is:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "() -> lambda body"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "-> - arrow operator or lambda operator",
+        "lambda body - code present inside the body of a method is kept inside the lambda body"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that you have a basic idea of lambda expression, let's implement a functional interface using it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,135 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-c-programming/variables?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Làm cách nào để tạo một giá trị có tên biến thuộc loại số nguyên?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "value;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn cần đề cập đến kiểu dữ liệu khi khai báo một biến."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn cần đề cập đến kiểu dữ liệu khi khai báo một biến."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn cần nhắc đến tên biến khi khai báo biến."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn cần nhắc đến tên biến khi khai báo biến."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int value;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Một khai báo biến bao gồm hai phần - kiểu dữ liệu và tên biến."
+    },
+    {
+      "type": "paragraph",
+      "content": "Một khai báo biến bao gồm hai phần - kiểu dữ liệu và tên biến."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "value int;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn phải đặt kiểu dữ liệu trước rồi đến tên biến khi khai báo một biến."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn phải đặt kiểu dữ liệu trước rồi đến tên biến khi khai báo một biến."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Làm cách nào để tạo một giá trị có tên biến thuộc loại số nguyên?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:giá trị;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "giá trị;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:int;",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "int;",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:giá trị int;",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "giá trị int;",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:giá trị int;",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "giá trị int;",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

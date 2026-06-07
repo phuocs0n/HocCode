@@ -1,0 +1,136 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/update?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the result of the following query?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "UPDATE Students\nSET name = 'David Lee';"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of the student with a GPA of 3.95 will be updated to \"David Lee\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will update all the rows, not just the one with a GPA of 3.95."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will update all the rows, not just the one with a GPA of 3.95."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only the student named \"David Lee\" will have their name updated."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will update all students' names to \"David Lee\" because, without a WHERE clause, the update is applied to every row in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will update all students' names to \"David Lee\" because, without a WHERE clause, the update is applied to every row in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every student's name will be updated to \"David Lee\"."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Without a WHERE clause, this will apply the update to every row in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "Without a WHERE clause, this will apply the update to every row in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will result in an error since the WHERE clause is missing."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will run successfully; it just updates every row in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "The query will run successfully; it just updates every row in the table."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the result of the following query?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The name of the student with a GPA of 3.95 will be updated to \"David Lee\".",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The name of the student with a GPA of 3.95 will be updated to \"David Lee\".",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Only the student named \"David Lee\" will have their name updated.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Only the student named \"David Lee\" will have their name updated.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Every student's name will be updated to \"David Lee\".",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Every student's name will be updated to \"David Lee\".",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The query will result in an error since the WHERE clause is missing.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The query will result in an error since the WHERE clause is missing.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

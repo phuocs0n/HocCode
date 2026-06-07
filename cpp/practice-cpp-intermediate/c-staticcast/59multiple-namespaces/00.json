@@ -1,0 +1,70 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/multiple-namespaces?page=1",
+  "title": "Multiple Namespaces",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Multiple Namespaces"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to use multiple namespaces."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create 3 namespaces: namespace1, namespace2, and namespace3, each with a variable var of char, int, and double types respectively.",
+        "In main(), get input values for the var variables of the 3 namespaces in serial order i.e. take input for var of namespace1 followed by var of namespace2 and namespace3.",
+        "Then, print the variables in the reverse order of the input."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputR\n25\n66.6"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output66.6\n25\nR"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,68 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/directories?page=5",
+  "title": "Make a New Directory",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Make a New Directory"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can create a new directory using the mkdir() method of the os module. Here, mkdir stands for make directory."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\nos.mkdir('test')"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code creates a new directory named test in the current directory."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Creating a New Directory in a Specified Path"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "import os\n\n# change current working directory\nos.chdir('D:/Projects')\n\nos.mkdir('test')"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have changed the current working directory to D:/Projects before creating the folder."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, this code creates a directory named test inside the Projects directory (which is located"
+    },
+    {
+      "type": "paragraph",
+      "content": "inside the D drive)."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

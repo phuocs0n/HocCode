@@ -1,0 +1,66 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/control-flow-examples?page=4",
+  "title": "Example: Sum of Odd Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Sum of Odd Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's write a program to calculate the sum of odd numbers entered by the user."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rules:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Skip even numbers using the continue statement.",
+        "Terminate the program when the user enters 0 using the break statement."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we don't know in advance when the user wants to stop, we'll use a while loop to allow repeated inputs."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Initialize total to 0\n2let total = 0;\n3\n4while (true) {\n5    // Get input from the user\n6    let number = Number(prompt(\"Enter a number: \"));\n7\n8    // If the number is 0, terminate the loop\n9    if (number === 0) {\n10        break;\n11    }\n12\n13    // If the number is even, skip it\n14    if (number % 2 === 0) {\n15        continue;\n16    }\n17\n18    // Add odd numbers to the total\n19    total += number;\n20}\n21\n22console.log(`Total sum of odd numbers: ${total}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter a number: 11\nEnter a number: 24\nEnter a number: 7\nEnter a number: -12\nEnter a number: 0\nTotal sum of odd numbers: 18"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

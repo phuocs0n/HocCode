@@ -1,0 +1,72 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/wrong-use-of-group-by?page=1",
+  "title": "What's Wrong With This Code?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What's Wrong With This Code?"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT department, COUNT(*)\n2FROM Employees\n3GROUP BY department, salary;"
+    },
+    {
+      "type": "paragraph",
+      "content": "In SQL, the GROUP BY clause is used to group rows based on one or more columns and perform aggregate functions on each group."
+    },
+    {
+      "type": "paragraph",
+      "content": "The columns specified in the GROUP BY clause determine the distinct groups in the result set."
+    },
+    {
+      "type": "paragraph",
+      "content": "Including the salary column in the GROUP BY clause implies that the query should create separate groups for each unique combination of department and salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "This can lead to unintended and potentially incorrect grouping behavior."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How to Fix It?"
+    },
+    {
+      "type": "paragraph",
+      "content": "You must reconsider whether including the salary column in the GROUP BY clause aligns with your intended grouping logic."
+    },
+    {
+      "type": "paragraph",
+      "content": "For instance, if you want to group the data solely based on the department column and retrieve the count of employees in each department category, you can modify the code as follows:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT department, COUNT(*)\n2FROM Employees\n3GROUP BY department;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

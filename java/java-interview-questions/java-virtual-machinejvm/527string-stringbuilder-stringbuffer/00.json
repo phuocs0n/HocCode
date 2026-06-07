@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/string-stringbuilder-stringbuffer?page=1",
+  "title": "What are the differences between String, StringBuilder, and StringBuffer?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What are the differences between String, StringBuilder, and StringBuffer?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java, the String class represents an immutable sequence of characters. This means that once we create a String object, we cannot modify its value. If we need to modify a string, we must create a new string object."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, StringBuilder and StringBuffer are mutable. This means that we can modify the value of a StringBuilder or StringBuffer object without creating a new object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Furthermore, StringBuilder is faster than StringBuffer because it is not thread-safe. This means that StringBuilder is not suitable for use in multi-threaded environments, where multiple threads may access the same object simultaneously."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at the summary of the differences between String, StringBuilder, and StringBuffer."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Class",
+          "Mutable",
+          "Thread-safe"
+        ],
+        [
+          "String",
+          "Immutable",
+          "Yes"
+        ],
+        [
+          "StringBuilder",
+          "Mutable",
+          "No"
+        ],
+        [
+          "StringBuffer",
+          "Mutable",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

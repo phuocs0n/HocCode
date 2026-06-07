@@ -1,0 +1,183 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/nd-array-creation?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following is a 3-D array?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "[[1, 2, 3] [4, 5, 6]]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of two rows and three columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of two rows and three columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "[[1][2][3]]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of three rows and one column"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of three rows and one column"
+    },
+    {
+      "type": "paragraph",
+      "content": "[[[1]]]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 3-D array with a shape of (1, 1, 1), representing one row, one column, and one depth. The [1] is a 1-D array, [[1]] is a 2-D array and [[[1]]] is a 3-D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 3-D array with a shape of (1, 1, 1), representing one row, one column, and one depth. The [1] is a 1-D array, [[1]] is a 2-D array and [[[1]]] is a 3-D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "[1, 2 ,3]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 1-D array because it is a sequence of scalar values."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 1-D array because it is a sequence of scalar values."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of two rows and three columns."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of two rows and three columns."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of three rows and one column"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 2-D array because it consists of three rows and one column"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 3-D array with a shape of (1, 1, 1), representing one row, one column, and one depth. The [1] is a 1-D array, [[1]] is a 2-D array and [[[1]]] is a 3-D array."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 3-D array with a shape of (1, 1, 1), representing one row, one column, and one depth. The [1] is a 1-D array, [[1]] is a 2-D array and [[[1]]] is a 3-D array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 1-D array because it is a sequence of scalar values."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is a 1-D array because it is a sequence of scalar values."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following is a 3-D array?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:[[1, 2, 3] [4, 5, 6]]",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "[[1, 2, 3] [4, 5, 6]]",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:[[1][2][3]]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "[[1][2][3]]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:[[[1]]]",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "[[[1]]]",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:[1, 2 ,3]",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "[1, 2 ,3]",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

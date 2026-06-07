@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/rock-paper-scissors?page=3",
+  "title": "Step 1: Create a Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Create a Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "To create this project, we will first create a class named Game."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Game {\n    ... .. ...    \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "This class will have three private member variables:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "user_pick - to store the user's pick",
+        "computer_pick - to store the computer's pick",
+        "result - to store either \"win\", \"lose\", or \"draw\" based on the user's pick and the computer's pick"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "class Game {\n    private:\n        string user_pick;\n        string computer_pick;\n        string result; \n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have made these variables private because they are sensitive game data, and should be handled with care."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

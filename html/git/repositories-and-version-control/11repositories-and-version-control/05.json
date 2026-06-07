@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/git/repositories-version-control?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the video game analogy, what does a Git repository represent?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A single save point with a timestamp and description"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A save point maps to a commit in Git — a single snapshot. The repository holds all of those commits together."
+    },
+    {
+      "type": "paragraph",
+      "content": "A save point maps to a commit in Git — a single snapshot. The repository holds all of those commits together."
+    },
+    {
+      "type": "paragraph",
+      "content": "The game cartridge — the container that holds everything including all saves and history"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The repository is the cartridge — it contains the full project, every commit, and the entire history. Commits are the individual save points stored inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The repository is the cartridge — it contains the full project, every commit, and the entire history. Commits are the individual save points stored inside it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The cloud backup of your game progress"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cloud backup maps to GitHub in this analogy, not the repository itself. A repository lives locally on your machine until you push it to a remote."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cloud backup maps to GitHub in this analogy, not the repository itself. A repository lives locally on your machine until you push it to a remote."
+    },
+    {
+      "type": "paragraph",
+      "content": "The folder where you copy and rename your project files"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what developers do without Git — the manual copy-and-rename approach. A repository replaces that mess with a clean, tracked history."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what developers do without Git — the manual copy-and-rename approach. A repository replaces that mess with a clean, tracked history."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the video game analogy, what does a Git repository represent?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A single save point with a timestamp and description",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A single save point with a timestamp and description",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:The game cartridge — the container that holds everything including all saves and history",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "The game cartridge — the container that holds everything including all saves and history",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The cloud backup of your game progress",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The cloud backup of your game progress",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The folder where you copy and rename your project files",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The folder where you copy and rename your project files",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

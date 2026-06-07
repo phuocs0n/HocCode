@@ -1,0 +1,92 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-hooks/entry-detail-drawer?page=2",
+  "title": "Building the Drawer Component",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Building the Drawer Component"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start by creating a new file: /src/components/Drawer.jsx."
+    },
+    {
+      "type": "paragraph",
+      "content": "Drawer receives two props:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "entry (the selected entry object, or null when nothing is selected)",
+        "onClose (called when the drawer should close)"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState, useEffect } from \"react\";\n2import Header from \"./components/Header\";\n3import EntryCard from \"./components/EntryCard\";\n4import Drawer from \"./components/Drawer\";\n5\n6function App() {\n7  const [entries, setEntries] = useState([]);\n8  const [isLoading, setIsLoading] = useState(true);\n9  const [error, setError] = useState(null);\n10  const [refreshKey, setRefreshKey] = useState(0);\n11  const [selectedEntry, setSelectedEntry] = useState(null);\n12\n13  useEffect(function () {\n14    async function loadEntries() {\n15      setIsLoading(true);\n16      setError(null);\n17      try {\n18        const res = await fetch(\"https://api.programiz.pro/api/Demo/v1/journal-entries\");\n19        \n20        if (!res.ok) {\n21          throw new Error(\"Could not load entries. Status: \" + res.status);\n22        }\n23        \n24        const data = await res.json();\n25        const mapped = data.map((post) => {\n26          return {\n27            ...post,\n28            date: new Date(post.date).toLocaleDateString(\"en-US\", {\n29              year: \"numeric\", month: \"short\", day: \"numeric\"\n30            }).toUpperCase()\n31          };\n32        });\n33        setEntries(mapped);\n34        setIsLoading(false);\n35      }\n36      catch (err) {\n37        setError(err.message);\n38        setIsLoading(false);\n39      }\n40    }\n41    loadEntries();\n42  }, [refreshKey]);\n43\n44  function handleSelectEntry(entry) {\n45    setSelectedEntry(entry);\n46  }\n47\n48  return (\n49    <div className=\"main-container\">\n50      <Header />\n51      <section className=\"entries-section\">\n52        <div className=\"entry-list-header\">\n53          <h3>Recent Entries</h3>\n54          <span className=\"entry-count\">{entries.length}</span>\n55          <button\n56            className=\"btn btn-secondary\"\n57            onClick={() => setRefreshKey((k) => k + 1)}\n58          >\n59            Refresh\n60          </button>\n61        </div>\n62        {isLoading ? (\n63          <p className=\"loading-state\">Loading entries...</p>\n64        ) : error ? (\n65          <div className=\"error-banner\">\n66            <p className=\"error-label\">Something went wrong.</p>\n67            <p className=\"error-detail\">{error}</p>\n68          </div>\n69        ) : entries.length === 0 ? (\n70          <p className=\"empty-state\">No entries found.</p>\n71        ) : (\n72          entries.map((entry) => (\n73            <EntryCard\n74              key={entry.id}\n75              id={entry.id}\n76              title={entry.title}\n77              date={entry.date}\n78              content={entry.content}\n79              author={entry.author}\n80              onSelect={handleSelectEntry}\n81            />\n82          ))\n83        )}\n84      </section>\n85      <Drawer\n86        entry={selectedEntry}\n87        onClose={() => setSelectedEntry(null)}\n88      />\n89    </div>\n90  );\n91}\n92\n93export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState, useRef, useEffect } from \"react\";\n2\n3function Header() {\n4  const [query, setQuery] = useState(\"\");\n5  const searchRef = useRef(null);\n6\n7  // Utilize useEffect() to focus on the search\n8  useEffect(function () {\n9    searchRef.current.focus();\n10  }, []);\n11\n12  return (\n13    <header className=\"header\">\n14      <h2 className=\"title-primary\">My Daily Journal</h2>\n15      <p className=\"subtitle\">Capture your thoughts, one day at a time.</p>\n16      <input\n17        ref={searchRef}\n18        className=\"search-input\"\n19        type=\"text\"\n20        placeholder=\"Search entries...\"\n21        value={query}\n22        onChange={(e) => setQuery(e.target.value)}\n23      />\n24    </header>\n25  );\n26}\n27\n28export default Header;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function Drawer({ entry, onClose }) {\n2  if (!entry) return null;\n3\n4  return (\n5    <div className=\"drawer-overlay\">\n6      <div className=\"drawer\">\n7        <button className=\"drawer-close\" onClick={onClose}>×</button>\n8        <h2>{entry.title}</h2>\n9        <p className=\"drawer-meta\">{entry.date} · {entry.author}</p>\n10        <p className=\"drawer-content\">{entry.content}</p>\n11      </div>\n12    </div>\n13  );\n14}\n15\n16export default Drawer;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content }) {\n2  return (\n3    <div className=\"entry-card\">\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "How the Code Works"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "When entry is null, the component returns null and nothing renders.",
+        "When an entry is selected, the drawer appears over the page with an overlay behind it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run the code, you should see that Drawer.jsx has now been created. But it won't do anything since we haven't updated our App and EntryCard."
+    },
+    {
+      "type": "paragraph",
+      "content": "Besides, we haven't completed the drawer either. So let's proceed by adding the outside-click behavior."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

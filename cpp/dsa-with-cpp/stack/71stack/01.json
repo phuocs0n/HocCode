@@ -1,0 +1,131 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/stack?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is a stack?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "An algorithm for sorting data."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Stack is a data structure; it's not an algorithm to sort data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Stack is a data structure; it's not an algorithm to sort data."
+    },
+    {
+      "type": "paragraph",
+      "content": "A linear data structure that follows the first-in-first-out (FIFO) principle."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a stack, the first element added is the last to be removed (not the first to be removed)."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a stack, the first element added is the last to be removed (not the first to be removed)."
+    },
+    {
+      "type": "paragraph",
+      "content": "A linear data structure that follows the last-in-first-out (LIFO) principle."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In a stack, the last element added is the first to be removed."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a stack, the last element added is the first to be removed."
+    },
+    {
+      "type": "paragraph",
+      "content": "A physical storage device used in computer systems."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Stacks are not physical devices; they are abstract concepts for data management in computer science."
+    },
+    {
+      "type": "paragraph",
+      "content": "Stacks are not physical devices; they are abstract concepts for data management in computer science."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is a stack?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:An algorithm for sorting data.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "An algorithm for sorting data.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A linear data structure that follows the first-in-first-out (FIFO) principle.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A linear data structure that follows the first-in-first-out (FIFO) principle.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A linear data structure that follows the last-in-first-out (LIFO) principle.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A linear data structure that follows the last-in-first-out (LIFO) principle.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A physical storage device used in computer systems.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A physical storage device used in computer systems.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,87 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-generics?page=2",
+  "title": "Generics Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Generics Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also create our own generics class that can be used with any type of data."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// create a generics class\nclass MyClass<T> {\n\n    public MyClass(T data) {\n        System.out.println(\"Data: \" + data);\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "MyClass - name of generics class",
+        "T - type parameter that indicates the type of data"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can use any type of data with MyClass."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Working with Integer data"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// create an object\nMyClass<Integer> intObj = new MyClass<>(8);"
+    },
+    {
+      "type": "paragraph",
+      "content": "When we create the object of class MyClass, the MyClass constructor will be called. In this case, the T type parameter is Integer. So, we can use only Integer data with intObj."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Working with String data"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "MyClass<String> stringObj = new MyClass<>(\"Hello\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, the T type parameter is String. So, we can use only String data with stringObject."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will see a working example of generics class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

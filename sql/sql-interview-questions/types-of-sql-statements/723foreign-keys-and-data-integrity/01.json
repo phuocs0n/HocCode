@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/foreign-keys-data-integrity?page=1",
+  "title": "How Do Foreign Keys Maintain Data Integrity?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How Do Foreign Keys Maintain Data Integrity?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Foreign keys are a critical component of relational databases that are used to establish relationships between tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "A foreign key is a column or a combination of columns in one table that refers to the primary key of another table. Its primary role is to enforce referential integrity and maintain the consistency and accuracy of data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Foreign keys ensure that the values in the referencing column(s) exist in another table's referenced column(s)."
+    },
+    {
+      "type": "paragraph",
+      "content": "This prevents \"orphan\" records, where a referencing column contains a value that does not correspond to any valid entry in the referenced table."
+    },
+    {
+      "type": "paragraph",
+      "content": "By enforcing this relationship, foreign keys maintain data integrity."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, let's consider two tables: Teams and Matches."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Teams table has a primary key column called team_id, while the Matches table has a foreign key column called home_team_id that references the team_id column in the Teams table."
+    },
+    {
+      "type": "paragraph",
+      "content": "This foreign key relationship ensures that every match recorded in the Matches table is associated with a valid home team from the Teams table."
+    },
+    {
+      "type": "paragraph",
+      "content": "In other words, it prevents the creation of matches with nonexistent home teams, ensuring data integrity within the database."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,60 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/debugging-optimizing-css?page=2",
+  "title": "What to Inspect",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What to Inspect"
+    },
+    {
+      "type": "paragraph",
+      "content": "When something looks wrong:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Right-click the element",
+        "Choose Inspect",
+        "Look at:\n\t\tApplied stylesCrossed-out rulesBox model (margin, padding, border)",
+        "Applied styles",
+        "Crossed-out rules",
+        "Box model (margin, padding, border)"
+      ]
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Applied styles",
+        "Crossed-out rules",
+        "Box model (margin, padding, border)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This tells you why the browser is rendering it this way."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

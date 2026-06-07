@@ -1,0 +1,100 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/transitions?page=3",
+  "title": "Timing Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Timing Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "The previous example used ease for the timing function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore what other values can be used for the timing function."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2    <h1> Hover over the container to see the animation. </h1>\n3\n4    <div class=\"container\">\n5        <div class=\"box box-1\">ease</div>\n6        <div class=\"box box-2\">ease-in</div>\n7        <div class=\"box box-3\">ease-out</div>\n8        <div class=\"box box-4\">ease-in-out</div>\n9        <div class=\"box box-5\">linear</div>\n10        <div class=\"box box-6\">cubic-bezier</div>\n11    </div>\n12</body>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.container:hover .box {\n2    translate: 55vw 0px;\n3}\n4\n5.box-1 {\n6    transition: translate 2s ease;\n7}\n8\n9.box-2 {\n10    transition: translate 2s ease-in;\n11}\n12\n13.box-3 {\n14    transition: translate 2s ease-out;\n15}\n16\n17.box-4 {\n18    transition: translate 2s ease-in-out;\n19}\n20\n21.box-5 {\n22    transition: translate 2s linear;\n23}\n24\n25.box-6 {\n26    transition: translate 2s cubic-bezier(0.075, 0.82, 0.165, 1);\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code and observe the output."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice how their speeds change throughout the phases of the animation."
+    },
+    {
+      "type": "paragraph",
+      "content": "This can be summarized by the table below:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Timing Function",
+          "Description"
+        ],
+        [
+          "ease",
+          "Starts slow, speeds up, then slows down."
+        ],
+        [
+          "linear",
+          "Constant speed from start to finish."
+        ],
+        [
+          "ease-out",
+          "Starts quickly, and then slows down."
+        ],
+        [
+          "ease-in",
+          "Starts slowly, and then speeds up."
+        ],
+        [
+          "ease-in-out",
+          "Starts slowly, speeds up, then slows down."
+        ],
+        [
+          "cubic-bezier",
+          "Follows the speed curve as defined."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

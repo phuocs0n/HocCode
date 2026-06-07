@@ -1,0 +1,66 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/focusing-search-input?page=5",
+  "title": "Why the Input Didn't Focus",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why the Input Didn't Focus"
+    },
+    {
+      "type": "paragraph",
+      "content": "Well, the problem was that I was reaching outside React to find the element."
+    },
+    {
+      "type": "paragraph",
+      "content": "React had no guarantee the element had the class I expected, or even that it existed when my code ran."
+    },
+    {
+      "type": "paragraph",
+      "content": "Solution: Ref Saves the Day!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fortunately, I discovered useRef() not long after."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of hunting for the element by its CSS class, I attached the ref directly to the element in JSX:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const searchRef = useRef(null);\n\n// ...\n\n<input ref={searchRef} className=\"search-input\" ... />"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, React sets searchRef.current to the DOM node automatically, the moment the element is rendered. No query. No guessing. No class names."
+    },
+    {
+      "type": "paragraph",
+      "content": "Just a direct, stable reference that is always in sync with what is on screen."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

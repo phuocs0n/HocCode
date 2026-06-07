@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/whack-a-mole/working-with-dom?page=4",
+  "title": "Find the Game Board 🎮",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find the Game Board 🎮"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your first DOM task is to tell JavaScript to find the game board div you created in the HTML."
+    },
+    {
+      "type": "paragraph",
+      "content": "You will use querySelector to select the element by its ID, store it in a variable, then log it to the console to confirm it worked."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a file named script.js."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function called main().Inside main(), use querySelector to select the element with ID \"game-board\" and store it in a variable called gameBoard.",
+        "Then log the gameBoard variable to the console.",
+        "Finally, call main() to run the code."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

@@ -1,0 +1,89 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/responsive-design/why-fixed-layouts-break?page=3",
+  "title": "Fixed Width vs Fluid Width",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Fixed Width vs Fluid Width"
+    },
+    {
+      "type": "paragraph",
+      "content": "You just saw the portfolio break at 320px. The nav spilled off the edge, the hero got crushed, the cards were squeezed. But what's actually causing that?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Look at your .container CSS."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".container {\n  width: 900px;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's a fixed width. Always 900px no matter what screen it's on. On a desktop that's fine. On a 360px phone 900px is more than twice the viewport. The browser has no choice but to let it overflow."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix is writing widths that respond to the available space instead of ignoring it. That's the difference between fixed and fluid."
+    },
+    {
+      "type": "paragraph",
+      "content": "Fixed means a hard pixel value. Always that wide, always that problem on narrow screens."
+    },
+    {
+      "type": "paragraph",
+      "content": "Fluid means the size is relative to the available space. It stretches and shrinks as the screen changes."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".container {\n  width: 100%;\n  max-width: 64rem;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "width: 100% fills whatever space is available. max-width: 64rem stops it from getting too wide on large screens. Narrow screen? It fills it. Wide screen? It caps and centers."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1.fixed {\n2\n3  width: 900px;\n4  background: #FEE2E2;\n5  padding: 1rem;\n6  margin-bottom: 1rem;\n7}\n8\n9.fluid {\n10\n11  width: 100%;\n12  max-width: 64rem;\n13  background: #DCFCE7;\n14  padding: 1rem;\n15}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1*, *::before, *::after {\n2  box-sizing: border-box;\n3}\n4\n5body {\n6  font-family: sans-serif;\n7  margin: 0;\n8  padding: 1rem;\n9}\n10\n11.label {\n12  font-size: 0.875rem;\n13  color: #64748B;\n14  margin: 0 0 0.5rem;\n15}\n16\n17.fixed {\n18  width: 900px;\n19  background: #FEE2E2;\n20  padding: 1rem;\n21  margin-bottom: 1.5rem;\n22  border-radius: 0.5rem;\n23}\n24\n25.fluid {\n26  width: 100%;\n27  max-width: 64rem;\n28  background: #DCFCE7;\n29  padding: 1rem;\n30  border-radius: 0.5rem;\n31}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and narrow the window. You can see the red fixed box overflowing while the green fluid box adjusts perfectly."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, how this applies to your portfolio."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

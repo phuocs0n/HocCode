@@ -1,0 +1,51 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/strings?page=1",
+  "title": "Strings Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Strings Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have already used strings many times in our program. Let's first revisit what we have already learned."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Create Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "A string is a sequence of characters enclosed inside quotation marks (either single or double quotes)."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1text1 = 'Hello there'\n2print(text1)    # Hello there\n3\n4text2 = \"Heyyy\"\n5print(text2)   # Heyyy"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

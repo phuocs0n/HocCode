@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-python-basics/create-dictionary?page=1",
+  "title": "Create a Dictionary",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create a Dictionary"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Program Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program that uses a loop to take 3 key-value inputs from the user and create a dictionary using these keys and values."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create an empty dictionary named my_dict.",
+        "Use for loop to iterate from 1 to 3, including 3.",
+        "Inside the loop, take inputs for key and value and store them in my_dict.",
+        "Print the updated my_dict."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputgregory\n34\nperry\n84\nsinatra\n76"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output{'gregory': '34', 'perry': '84', 'sinatra': '76'}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

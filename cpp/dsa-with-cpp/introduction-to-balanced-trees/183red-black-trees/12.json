@@ -1,0 +1,49 @@
+{
+  "index": 12,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/redblack-trees?page=13",
+  "title": "Deletion From Red-Black Tree",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Deletion From Red-Black Tree"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before deleting from a red-black tree, let's first examine deletion from a binary search tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "There, we had three cases:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Case I: Deleting a leaf node.",
+        "Case II: Deleting a node with one child.",
+        "Case III: Deleting a node with two children."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

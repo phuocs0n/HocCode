@@ -1,0 +1,81 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-python/recursion?page=3",
+  "title": "Infinite Recursion",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Infinite Recursion"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a slight modification of the program we previously wrote:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def print_numbers(n):    \n2    print (n)\n3\n4    # argument is now n - 1 \n5    print_numbers(n - 1)\n6\n7print_numbers(100)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "100\n99\n98\n97\n96\n..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have initially called the print_numbers() function with 100 as an argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the first call (original call):"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 100, which is printed.",
+        "print_numbers(99) is called."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In the second call (first recursive call):"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n is 99, which is printed.",
+        "print_numbers(98) is called."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Essentially, the value of the argument is reduced by one in each subsequent function call."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

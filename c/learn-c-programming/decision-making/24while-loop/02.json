@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=3",
+  "title": "Ví dụ: Vòng lặp while",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Ví dụ: Vòng lặp while"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int count = 1;\n6\n7    while (count <= 3) {\n8\n9      // Loop continues until count exceeds 3\n10      printf(\"I am inside a loop.\\n\");\n11      printf(\"Looping is interesting.\\n\");\n12    }\n13  \n14    return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ở đây, phần thân vòng lặp chứa hai câu lệnh printf(). Chúng ta biết điều này vì chúng được bao gồm bên trong dấu ngoặc nhọn {} (biểu thị phần thân của vòng lặp)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu bạn chạy chương trình này, hai câu lệnh bên trong vòng lặp sẽ được thực hiện lặp đi lặp lại."
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\n...\n..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy phân tích xem chương trình này đang làm gì."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

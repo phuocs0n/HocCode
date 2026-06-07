@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/responsive-design/fluid-images?page=2",
+  "title": "One Rule, Every Image",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "One Rule, Every Image"
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix is three lines. Add this to your base CSS and every image on the page becomes fluid. Not just the portrait. Every image, including ones you add later."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "img {\n  max-width: 100%;\n  height: auto;\n  display: block;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "max-width: 100% means the image never exceeds its container. height: auto lets the browser calculate the height proportionally so the image never distorts. display: block removes a small gap below inline images caused by the text baseline."
+    },
+    {
+      "type": "paragraph",
+      "content": "Three properties. You never have to think about responsive image CSS again."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1img {\n2  max-width: 100%;\n3  height: auto;\n4  display: block;\n5  border-radius: 1.5rem;\n6}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1*, *::before, *::after {\n2  box-sizing: border-box;\n3}\n4\n5body {\n6  font-family: sans-serif;\n7  margin: 0;\n8  padding: 1rem;\n9}\n10\n11.container {\n12  max-width: 64rem;\n13  margin: 0 auto;\n14  padding: 0 1.5rem;\n15}\n16\n17.hero-content {\n18  display: flex;\n19  flex-direction: column;\n20  gap: 1.5rem;\n21}\n22\n23.hero-image {\n24  max-width: 14rem;\n25  border-radius: 1.5rem;\n26  background: #F3F4F6;\n27}\n28\n29img {\n30  max-width: 100%;\n31  height: auto;\n32  display: block;\n33  border-radius: 1.5rem;\n34}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and narrow the window. You can see the portrait scaling down cleanly with the container, no overflow, aspect ratio preserved."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's make sure this is landing before the practice."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

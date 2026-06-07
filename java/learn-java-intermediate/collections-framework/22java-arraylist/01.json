@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-arraylist?page=2",
+  "title": "Create ArrayList",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create ArrayList"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ArrayList class is defined inside the Java collections framework, so to use an arraylist, we first have to import the ArrayList package."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "import java.util.ArrayList;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once we import the package, we can create an object of the ArrayList class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "ArrayList<String> names = new ArrayList<>();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created a String type arraylist, names."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we can use this arraylist to store the names."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

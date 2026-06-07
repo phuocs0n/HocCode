@@ -1,0 +1,57 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/lazy-loading-routes?page=2",
+  "title": "Solution: Load on Demand!",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Solution: Load on Demand!"
+    },
+    {
+      "type": "paragraph",
+      "content": "So the fix to this big bundle issue is to load components on demand, i.e., only when the user actually navigates to that route."
+    },
+    {
+      "type": "paragraph",
+      "content": "A user who lands on / should not have to load the code for /entries/7 until they go there."
+    },
+    {
+      "type": "paragraph",
+      "content": "React gives us the lazy() function to do exactly that. Instead of loading a component at startup, lazy() defers it until React needs to render it:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The user lands on / — only HomePage loads.",
+        "They click through to /entries/7 — now EntryDetailPage loads.",
+        "They never hit a bad URL — NotFoundPage never loads."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's the idea. So let's look at React lazy() in greater detail."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

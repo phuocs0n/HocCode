@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/selecting-elements?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements about querySelector() is true?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns all elements that match the selector in an array."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() does not return all matching elements; it returns only one element."
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() does not return all matching elements; it returns only one element."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns only the first element that matches the selector."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() selects only the first element that matches the selector."
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() selects only the first element that matches the selector."
+    },
+    {
+      "type": "paragraph",
+      "content": "It returns the last element that matches the selector."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() does not return the last matching element."
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() does not return the last matching element."
+    },
+    {
+      "type": "paragraph",
+      "content": "It throws an error if multiple elements match the selector."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() does not throw an error if multiple elements match the selector."
+    },
+    {
+      "type": "paragraph",
+      "content": "querySelector() does not throw an error if multiple elements match the selector."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements about querySelector() is true?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It returns all elements that match the selector in an array.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It returns all elements that match the selector in an array.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It returns only the first element that matches the selector.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It returns only the first element that matches the selector.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It returns the last element that matches the selector.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It returns the last element that matches the selector.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It throws an error if multiple elements match the selector.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It throws an error if multiple elements match the selector.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

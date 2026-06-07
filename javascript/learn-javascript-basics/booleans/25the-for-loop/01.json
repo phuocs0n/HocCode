@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-for-loop?page=2",
+  "title": "The for loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The for loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the code we wrote earlier to print numbers from 1 to 5 using a while loop:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Using a while loop to print numbers from 1 to 5\n2let i = 1;\n3while (i <= 5) {\n4    console.log(i);\n5    i++;    // Increment the counter\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's rewrite the same code using a for loop:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Using a for loop to print numbers from 1 to 5\n2for (let i = 1; i <= 5; i++) {\n3    console.log(i);\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the for loop is more concise and easier to manage when iterating a fixed number of times."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's visualize the while and for loops side by side to understand the for loop."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

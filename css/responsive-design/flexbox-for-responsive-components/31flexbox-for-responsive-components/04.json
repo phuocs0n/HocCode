@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/responsive-design/flexbox-for-responsive-components?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: How does flex-wrap: wrap help with responsive layouts?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It hides items that don't fit."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "If it hid items you'd silently lose content. flex-wrap moves items to a new row so nothing disappears."
+    },
+    {
+      "type": "paragraph",
+      "content": "If it hid items you'd silently lose content. flex-wrap moves items to a new row so nothing disappears."
+    },
+    {
+      "type": "paragraph",
+      "content": "It lets flex items wrap to the next line when there isn't enough space, so content doesn't overflow."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Items move to a new row when the container is too narrow. Nothing overflows, nothing hides."
+    },
+    {
+      "type": "paragraph",
+      "content": "Items move to a new row when the container is too narrow. Nothing overflows, nothing hides."
+    },
+    {
+      "type": "paragraph",
+      "content": "It only works with exactly two columns."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Flexbox doesn't think in columns. Items fill rows based on available space and their flex-basis."
+    },
+    {
+      "type": "paragraph",
+      "content": "Flexbox doesn't think in columns. Items fill rows based on available space and their flex-basis."
+    },
+    {
+      "type": "paragraph",
+      "content": "It replaces media queries."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "flex-wrap handles reflow within one container. A nav switching direction still needs a media query."
+    },
+    {
+      "type": "paragraph",
+      "content": "flex-wrap handles reflow within one container. A nav switching direction still needs a media query."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: How does flex-wrap: wrap help with responsive layouts?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It hides items that don't fit.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It hides items that don't fit.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It lets flex items wrap to the next line when there isn't enough space, so content doesn't overflow.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It lets flex items wrap to the next line when there isn't enough space, so content doesn't overflow.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It only works with exactly two columns.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It only works with exactly two columns.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It replaces media queries.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It replaces media queries.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,58 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/heap-sort?page=3",
+  "title": "Source Code: Heap Sort",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Heap Sort"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1# heap sort\n2def heap_sort(lst):\n3    # create empty array\n4    sorted_array = []\n5    # create heap\n6    heap = MinHeap()\n7    # insert heap\n8    for i in lst:\n9        heap.insert(i)\n10    # extract min\n11    for i in range(len(lst)):\n12        sorted_array.append(heap.extract_min()) \n13    # return sorted array\n14    return sorted_array"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[5, 12, 15, 16, 25]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notes:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If you want to sort the list in descending order, you can simply reverse the sorted list using return array[::-1].",
+        "If you use a max heap instead of a min heap, the normal sort would give the list in descending order, whereas the reversed sort (using [::-1]) would give the list in ascending order."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

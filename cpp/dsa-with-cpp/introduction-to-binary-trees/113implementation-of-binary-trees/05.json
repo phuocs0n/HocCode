@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/implementation-of-binary-trees?page=6",
+  "title": "Source Code: Binary Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Binary Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we combine all of the individual blocks of code together, we should get a fully-fledged program to implement a binary tree."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2#include <vector>\n3\n4using namespace std;\n5\n6template <typename T>\n7class BinaryTreeNode {\n8public:\n9\n10    BinaryTreeNode(T val): data(val) {\n11        cout << \"Node \" << data << \" was created\\n\";\n12    }\n13\n14    void add_left_child(BinaryTreeNode<T>* node) {\n15        left = node;\n16        cout << \"Node \" << node->data << \" was added as a left child of Node \" << data << \"\\n\";\n17    }\n18\n19    void add_right_child(BinaryTreeNode<T>* node) {\n20        right = node;\n21        cout << \"Node \" << node->data << \" was added as a right child of Node \" << data << \"\\n\";\n22    }\n23\n24    T data;\n25    BinaryTreeNode<T>* left {nullptr};\n26    BinaryTreeNode<T>* right {nullptr};\n27};\n28    \n29template<typename T>\n30class BinaryTree {\n31public:\n32    BinaryTree(BinaryTreeNode<T>* tree_root = nullptr):  root(tree_root) {\n33        cout << \"A tree was created\\n\";\n34    }\n35\n36    BinaryTreeNode<T>* root;\n37};\n38\n39int main() {\n40\n41    // Create nodes\n42    BinaryTreeNode<string>* root_node = new BinaryTreeNode<string>(\"root\");\n43    BinaryTreeNode<string>* left_node = new BinaryTreeNode<string>(\"left\");\n44    BinaryTreeNode<string>* right_node = new BinaryTreeNode<string>(\"right\");\n45\n46    // Link nodes\n47    root_node->add_left_child(left_node);\n48    root_node->add_right_child(right_node);\n49\n50    // Create binary tree\n51    BinaryTree<string> tree = BinaryTree<string>(root_node);\n52\n53    return 0;\n54}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Node root was created\nNode left was created\nNode right was created\nNode left was added as a left child of Node root\nNode right was added as a right child of Node root\nA tree was created"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, like with the implementation of general trees, this code is incomplete without methods of traversals."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll get to them next but before that, polish your skills with a practice exercise!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,61 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-hooks/building-pagination?page=6",
+  "title": "Rendering the Page Slice",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Rendering the Page Slice"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, the entry list rendered filteredEntries. Now that we have pagedEntries, we swap it in:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "{isLoading ? (\n\n  ... ... ...\n\n) : error ? (\n\n  ... ... ...\n\n) : pagedEntries.length === 0 ? (\n  <p className=\"empty-state\">No entries found.</p>\n) : (\n  pagedEntries.map((entry) => (\n    <EntryCard\n      key={entry.id}\n      id={entry.id}\n      title={entry.title}\n      date={entry.date}\n      content={entry.content}\n      author={entry.author}\n      onSelect={handleSelectEntry}\n    />\n  ))\n)}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Two things change here:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The empty check uses pagedEntries.length instead of filteredEntries.length.",
+        "The .map() iterates over pagedEntries instead of filteredEntries."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Everything else in the ternary chain (the loading and error branches) stays the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's create the Previous and Next buttons."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

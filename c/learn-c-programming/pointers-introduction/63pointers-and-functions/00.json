@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/pointers-functions?page=1",
+  "title": "Sửa đổi chức năng",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sửa đổi chức năng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước khi tiếp tục, hãy xem lại hoạt động của một hàm bằng một ví dụ."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// function to add two numbers\n4int addNumbers(int n1, int n2) {\n5  int sum = n1 + n2;\n6  return sum;\n7}\n8\n9int main() {\n10  \n11  int number1 = 32;\n12  int number2 = 44;\n13\n14  // function call\n15  int result = addNumbers(number1, number2);\n16  printf(\"Result: %d\", result);\n17  \n18  return 0;\n19}\n20\n21// Output:\n22// Result: 76"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong chương trình trên, chúng ta đã tạo hàm addNumbers() nhận vào hai tham số n1 và n2 (đầu vào) và tìm tổng của chúng (đầu ra)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giống như các biến thông thường, cũng có thể truyền địa chỉ làm đối số cho hàm. Đó là bởi vì một địa chỉ cũng là một giá trị."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ xem một ví dụ về truyền địa chỉ cho một hàm."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

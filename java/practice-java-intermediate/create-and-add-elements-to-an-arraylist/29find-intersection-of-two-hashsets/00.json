@@ -1,0 +1,75 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-intermediate/find-intersection-of-two-hashsets?page=1",
+  "title": "Find Intersection of two HashSets",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Find Intersection of two HashSets"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the intersection of two hash sets."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the main() method, declare a new string HashSet called wildAnimal.",
+        "Take three string inputs from the user and store them in input1, input2, input3.",
+        "Add input1, input2, input3 to wildAnimal using the add() method.",
+        "Declare another new string HashSet called domesticAnimal.",
+        "Take three string inputs from the user and store them in the input4, input5, input6.",
+        "Add input4, input5, input6 to domesticAnimal using the add() method.",
+        "Use the retainAll() method of wildAnimal to update it to its intersection with domesticAnimal.",
+        "Print wildAnimal."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputCow\nDog\nRabbit\nLion\nTiger\nRabbit"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output[Rabbit]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

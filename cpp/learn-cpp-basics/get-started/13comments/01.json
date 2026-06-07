@@ -1,0 +1,80 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/comments?page=2",
+  "title": "Comments Example",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Comments Example"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a look at another example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // print a string\n7    cout << \"Age = \";\n8\n9    // print an integer\n10    cout << 25;\n11\n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Age = 25"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, these two lines are comments:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "// print a string",
+        "// print an integer"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Comments at Statement End"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can also add comments in the same line as the code."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    cout << 36.5;    // Output: 36.5 \n7\n8    return 0;\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, // Output: 36.5 is a comment. The C++ compiler ignores this code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

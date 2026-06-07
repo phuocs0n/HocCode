@@ -1,0 +1,46 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/summary-8?page=5",
+  "title": "First and Last Sales ( FIRST_VALUE and LAST_VALUE)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "First and Last Sales ( FIRST_VALUE and LAST_VALUE)"
+    },
+    {
+      "type": "paragraph",
+      "content": "To retrieve the first and last sales amounts for each employee, you can use the FIRST_VALUE() and LAST_VALUE() functions to retrieve the first and last sale for each sales representative, ordered by transaction date."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT \n2    sales_rep_id, \n3    sales_rep_name, \n4    sales_amount, \n5    FIRST_VALUE(sales_amount) OVER (PARTITION BY sales_rep_id ORDER BY transaction_date) AS first_sale,\n6    LAST_VALUE(sales_amount) OVER (PARTITION BY sales_rep_id ORDER BY transaction_date ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS last_sale\n7FROM Sales;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This query shows the first and last sales amount for each representative, giving insights into their performance over time."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

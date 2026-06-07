@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/python-booleans?page=3",
+  "title": "Understanding Booleans",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Booleans"
+    },
+    {
+      "type": "paragraph",
+      "content": "Boolean values, True and False, are fixed values, similar to numbers like 25, 5.9, or text like \"Hello\". This means:"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Booleans aren't strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"True\" is a string (text). However, when you use True without quotation marks, it's a boolean value."
+    },
+    {
+      "type": "paragraph",
+      "content": "The boolean value True generally means yes and False means no. This property makes booleans essential for creating programs that make decisions."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Booleans are not variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Even though True and False might seem like variable names, they can't be used as variables because they are fixed values, like numbers and strings. For example:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1True = 25\n2print(True)\n3\n4\n5Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "SyntaxError: cannot assign to True"
+    },
+    {
+      "type": "paragraph",
+      "content": "This error indicates that you can't assign a value to True. However, you can use true (lowercase) and false (lowercase) as variable names."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

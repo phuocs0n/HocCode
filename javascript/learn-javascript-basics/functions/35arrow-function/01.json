@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-arrow-function?page=2",
+  "title": "Arrow Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Arrow Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the previous function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Function to add two numbers\n2function addNumbers(n1, n2) {\n3    return n1 + n2;\n4}\n5\n6let result = addNumbers(2, 5);\n7\n8console.log(result);    // Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now the same function will look like this if we use the arrow function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Arrow function to add two numbers\n2const addNumbers = (n1, n2) => n1 + n2;\n3\n4let result = addNumbers(2, 5);\n5\n6console.log(result);    // Output: 7"
+    },
+    {
+      "type": "paragraph",
+      "content": "This way, the function fits within a single line."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand the syntax on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

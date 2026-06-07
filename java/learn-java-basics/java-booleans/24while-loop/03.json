@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-basics/while-loop?page=4",
+  "title": "while Loop",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the program from the last page:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3\n4        // Declare variable\n5        int count = 1;\n6    \n7\n8        while(count <= 3) {\n9            System.out.println(\"I am inside a loop\");\n10            System.out.println(\"Loop is interesting.\");\n11        }\n12    }\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the boolean expression count <= 3 is never false because the value of count is always 1. So, this loop continues forever."
+    },
+    {
+      "type": "paragraph",
+      "content": "To run this loop only for a fixed number of times, we must update the value of count inside the loop so that count <= 3 eventually becomes false."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

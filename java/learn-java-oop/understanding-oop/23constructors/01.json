@@ -1,0 +1,188 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-oop/constructors?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Find the constructor in this code?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n\n    String construct = \"Constructor\";\n\n    Main() {\n        // code\n    }\n\n    public void display() {\n        // code\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Main"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Main is the name of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Main is the name of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "display()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a method inside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a method inside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "construct"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "construct is a field inside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "construct is a field inside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Main()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by a parenthesis."
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by a parenthesis."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Main is the name of the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "Main is the name of the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a method inside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "display() is a method inside the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "construct is a field inside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "construct is a field inside the class."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by a parenthesis."
+    },
+    {
+      "type": "paragraph",
+      "content": "The name of a constructor is the same as the class followed by a parenthesis."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Find the constructor in this code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Main",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Main",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:display()",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "display()",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:construct",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "construct",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Main()",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Main()",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

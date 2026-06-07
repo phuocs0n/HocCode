@@ -1,0 +1,47 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/examples-linked-list?page=12",
+  "title": "Source Code: Reverse Elements of a Linked List",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Source Code: Reverse Elements of a Linked List"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1// Reverse the list\n2 void reverse_list(){\n3   // If list is empty no nothing\n4    if(head == nullptr) return;\n5    \n6   // Create a vector to store list data\n7    vector<int> list_data;\n8    \n9   // Start from the head node\n10    Node<T>* current = head;\n11    \n12   // Iterate through the vector\n13    while(current != nullptr){\n14     // Insert the node data into the vector\n15      list_data.emplace_back(current->data);\n16      \n17      current = current->next;\n18    }\n19    // Reverse the vector\n20    reverse(list_data.begin(), list_data.end());\n21    \n22    current = head;\n23    for(int val: list_data){\n24       // Change the value of current node\n25       current->data = val;\n26       \n27       // Move to the next node\n28       current = current->next;\n29    }\n30 }"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Current Linked List:\n2->4->6->8->nullptr\n\nAfter reversing:\n8->6->4->2->nullptr"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

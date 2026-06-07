@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-stl/c-lambda?page=2",
+  "title": "Example: A complete Lambda",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: A complete Lambda"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3using namespace std;\n4\n5int main(){\n6\n7    auto lambda_add = [](int x, int y) -> int {\n8        return x + y;\n9    };\n10int sum = lambda_add(5, 5);\n11    cout << \"The sum is \" << sum;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The sum is 10"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we created an lambda expression,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "[](int x, int y) -> int {\n  return x + y;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The lambda takes two parameters, x and y as an input and returns their sum. We then assigned it to a variable, lambda_add."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then invoked the lamdba_add passing it two parameters, 5 and 5."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int sum = lambda_add(5, 5);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

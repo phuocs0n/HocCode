@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/example-huffman-coding?page=2",
+  "title": "Working of Huffman Coding",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Working of Huffman Coding"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have the string BCAADDDCCACACAC."
+    },
+    {
+      "type": "paragraph",
+      "content": "To encode this string to contain only numeric values like 1000111110110110100110110110, we'll follow the given steps:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Create a Huffman Tree",
+        "Use the Huffman Tree to get the equivalent Huffman code to represent each character.",
+        "Replace each character in the string with its Huffman code."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start by creating our Huffman tree."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

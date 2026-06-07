@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/unary-operator-overloading?page=2",
+  "title": "Unary Operator With Objects",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Unary Operator With Objects"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Person {\n5public:\n6    int age;\n7\n8    // constructor to initialize age\n9    Person(int input) : age(input) {}\n10};\n11\n12int main() {\n13\n14    Person person(5);\n15    \n16    // attempt to use ++ to increment person \n17    ++person;  \n18\n19    cout << \"Age: \" << person.age << endl;\n20\n21    return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "ERROR!   17 |     ++person;\n      |     ^~~~~~~~"
+    },
+    {
+      "type": "paragraph",
+      "content": "The C++ unary increment operator ++ is designed to work with predefined data types such as integers, floating-point numbers, and other built-in types."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since Person is a custom class and not a predefined data type, C++ does not inherently know how to increment the value of a Person object using the unary increment operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "To enable this functionality, the operator needs to be explicitly overloaded for the Person class, defining how the increment operation should be performed on Person objects."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

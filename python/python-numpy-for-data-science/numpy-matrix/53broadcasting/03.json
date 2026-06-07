@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/broadcasting?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is broadcasting in the context of NumPy?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Method to display the array elements"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting is not for displaying array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting is not for displaying array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Method to perform operations on arrays of different shapes."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting implicitly expands dimensions of the smaller array to match the larger one, allowing to perform operations on differently shaped arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting implicitly expands dimensions of the smaller array to match the larger one, allowing to perform operations on differently shaped arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Method to duplicate elements in an array"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting is not primarily used to duplicate array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting is not primarily used to duplicate array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Method to convert an array to a different data type"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting does not involve changing the data type of any elements in an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Broadcasting does not involve changing the data type of any elements in an array."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is broadcasting in the context of NumPy?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Method to display the array elements",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Method to display the array elements",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Method to perform operations on arrays of different shapes.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Method to perform operations on arrays of different shapes.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Method to duplicate elements in an array",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Method to duplicate elements in an array",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Method to convert an array to a different data type",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Method to convert an array to a different data type",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

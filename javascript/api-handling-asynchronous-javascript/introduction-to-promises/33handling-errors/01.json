@@ -1,0 +1,66 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/handling-errors?page=2",
+  "title": "Why Do Promises Fail?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Why Do Promises Fail?"
+    },
+    {
+      "type": "paragraph",
+      "content": "As I just said, it isn't always your fault that your promise failed; there are other, external reasons for failing as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "You might see a promise fail when:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "the internet disconnects",
+        "the server returns an error (500 / 404)",
+        "the data is invalid (missing fields, wrong type)",
+        "your code throws an error inside .then()"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Then keep your mindset line:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Always assume your promise can fail."
+    },
+    {
+      "type": "paragraph",
+      "content": "This assumption will make you a better developer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "With that out of the way, let's move on to learning how to actually handle promise errors in JavaScript."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

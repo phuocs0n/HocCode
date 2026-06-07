@@ -1,0 +1,57 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/middle-letter?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In any string, the string length must be an odd number to have any letter in between. So this is how we need to structure our program:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "First, we have to check the length of the string.",
+        "If the length of the string is even, we can return the empty string.",
+        "But if the length of the string is odd, then the string has a middle letter and we need to return it."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the middle letter, we can"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Divide the length of the string by 2.",
+        "Take the floor value of the result. This value is the actual quotient.",
+        "Then return the letter at the string index value of the quotient."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

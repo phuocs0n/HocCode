@@ -1,0 +1,85 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/tic-tac-toe-project?page=4",
+  "title": "Selecting Elements",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Selecting Elements"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll use querySelector to select the game board."
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "const gameBoard = document.querySelector(\".game-board\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, we want certain tasks to happen when a cell is clicked."
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of attaching an eventListener to each cell, let's attach it to the parent, gameBoard. When a cell is clicked, we'll get its data-index and write it into the cell using textContent."
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "// Add click event listener to parent\ngameBoard.addEventListener('click', (event) => {\n    const cellIndex = event.target.getAttribute('data-index');\n    event.target.textContent = cellIndex;\n});"
+    },
+    {
+      "type": "paragraph",
+      "content": "With this, our current code looks like this. Run the code and click the individual cells to see the change:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- Game Screen -->  \n2<div id=\"gameScreen\">\n3    <div id=\"leftScreen\">\n4        <h1>Tic Tac Toe</h1>\n5        <div id=\"turnInfo\">Player 1's Turn</div>\n6    </div>\n7\n8    <div id=\"rightScreen\">\n9        <div class=\"game-board\" id=\"gameBoard\">\n10            <div class=\"cell\" data-index=\"0\"></div>\n11            <div class=\"cell\" data-index=\"1\"></div>\n12            <div class=\"cell\" data-index=\"2\"></div>\n13            <div class=\"cell\" data-index=\"3\"></div>\n14            <div class=\"cell\" data-index=\"4\"></div>\n15            <div class=\"cell\" data-index=\"5\"></div>\n16            <div class=\"cell\" data-index=\"6\"></div>\n17            <div class=\"cell\" data-index=\"7\"></div>\n18            <div class=\"cell\" data-index=\"8\"></div>\n19        </div>\n20    </div>\n21</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1* {\n2    margin: 0;\n3    padding: 0;\n4    box-sizing: border-box;\n5}\n6\n7body {\n8    margin: 8px;\n9    font-family: 'Helvetica', 'Arial', sans-serif;\n10}\n11\n12h1 {\n13    font-size: 40px;\n14    color: #2A2A7B;\n15    font-weight: bold;\n16    margin: 20px;\n17}\n18\n19div {\n20    font-size: 24px;\n21    color: #2A2A7B;\n22    font-weight: bold;\n23}\n24\n25/* Game Screen Styles */\n26#gameScreen {\n27    display: flex;\n28    padding: 20px;\n29    justify-content: space-around;\n30}\n31\n32#turnInfo {\n33    font-size: 28px;\n34    font-weight: 500;\n35    color: #6B6B9F;\n36    margin-bottom: 40px;\n37    text-align: center;\n38}\n39\n40.game-board {\n41    display: grid;\n42    background: #40E7E7;\n43    grid-template-columns: repeat(3, 1fr);\n44    grid-template-rows: repeat(3, 100px);\n45    grid-gap: 4px;\n46    width: 320px;\n47}\n48\n49.cell {\n50    display: flex;\n51    align-items: center;\n52    justify-content: center;\n53    background-color: white;\n54    font-size: 36px;\n55    font-weight: bold;\n56    cursor: pointer;\n57}\n58\n59.cell:hover {\n60    background-color: #d5f7f7;\n61}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const gameBoard = document.querySelector(\".game-board\");\n2\n3// Add click event listener to parent\n4gameBoard.addEventListener('click', (event) => {\n5    const cellIndex = event.target.getAttribute('data-index');\n6    event.target.textContent = cellIndex;\n7});"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you click a cell, the event listener logs which cell was clicked by displaying its index (0 to 8) in the console:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "event.target retrieves the specific cell that was clicked.",
+        "getAttribute('data-index') retrieves the index of that cell, and changes the textContent of the cell."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

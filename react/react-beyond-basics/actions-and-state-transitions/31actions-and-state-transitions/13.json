@@ -1,0 +1,136 @@
+{
+  "index": 13,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/actions-state-transitions?page=14",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What happens when you call the following function?"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "dispatch({ type: \"SET_ENTRIES\", payload: data })"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "React calls setState() internally and merges the payload into the existing state"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useReducer() has no automatic merging. The reducer decides the new state shape entirely."
+    },
+    {
+      "type": "paragraph",
+      "content": "useReducer() has no automatic merging. The reducer decides the new state shape entirely."
+    },
+    {
+      "type": "paragraph",
+      "content": "React re-renders with a new state"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you call dispatch(), React passes the current state and the action object to the reducer, which returns a new state. React then re-renders with this new state."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you call dispatch(), React passes the current state and the action object to the reducer, which returns a new state. React then re-renders with this new state."
+    },
+    {
+      "type": "paragraph",
+      "content": "The action object is stored in a queue and processed on the next render cycle"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "dispatch() triggers the reducer synchronously. The result is scheduled for re-render immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "dispatch() triggers the reducer synchronously. The result is scheduled for re-render immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "The action type is matched against the component's props to decide what to update"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Props have nothing to do with it. The reducer is a plain function that reads state and action."
+    },
+    {
+      "type": "paragraph",
+      "content": "Props have nothing to do with it. The reducer is a plain function that reads state and action."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What happens when you call the following function?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:React calls setState() internally and merges the payload into the existing state",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "React calls setState() internally and merges the payload into the existing state",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:React re-renders with a new state",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "React re-renders with a new state",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The action object is stored in a queue and processed on the next render cycle",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The action object is stored in a queue and processed on the next render cycle",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The action type is matched against the component's props to decide what to update",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The action type is matched against the component's props to decide what to update",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

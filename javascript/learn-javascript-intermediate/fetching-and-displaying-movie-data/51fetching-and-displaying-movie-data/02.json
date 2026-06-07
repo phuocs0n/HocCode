@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/fetching-displaying-movie-data?page=3",
+  "title": "Step 1: Make a GET Request to the Web Source",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1: Make a GET Request to the Web Source"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll first make a GET request to the movie data web source: \"https://api.programiz.pro/api/Demo/javascript/movies\"."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const URL = \"https://api.programiz.pro/api/Demo/javascript/movies\";\n2const movieData = fetch(URL);\n3\n4console.log(movieData);"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code returns a Promise, which could resolve or be rejected."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why, we need to add methods to handle its response."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before that, let's put this code inside a function."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function fetchMovieData(url) {\n2    return fetch(url);\n3}\n4\n5const URL = \"https://api.programiz.pro/javascript/movies\";\n6const movieData = fetchMovieData(URL);\n7\n8console.log(movieData);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

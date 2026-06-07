@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/virtual-functions?page=2",
+  "title": "C++ Virtual Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ Virtual Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "A virtual function is a member function of the parent class that should always be overridden by the child class. We use the virtual keyword to declare virtual functions in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Person {\n5    public:\n6\n7        virtual void display_info() {\n8            cout << \"I am a person.\" << endl;\n9        }\n10\n11};\n12\n13class Student : public Person {\n14    public:\n15        void display_info() {\n16            cout << \"I am a student.\" << endl;\n17        }\n18};\n19\n20int main() {\n21\n22    Student student1;\n23\n24    // create Person pointer that points to student object\n25    Person* ptr = &student1;\n26    \n27    ptr->display_info();\n28\n29    return 0;\n30}\n31\n32// Output: I am a student."
+    },
+    {
+      "type": "paragraph",
+      "content": "This program is similar to the earlier example. The only difference is that we have changed the normal function to a virtual function in the parent class."
+    },
+    {
+      "type": "paragraph",
+      "content": "This time, the Person type pointer to student is invoking the function of the child class, thus overriding the function in the parent class."
+    },
+    {
+      "type": "paragraph",
+      "content": "As you can see, the use of virtual functions allows us to achieve function overriding using pointers as well."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

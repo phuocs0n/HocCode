@@ -1,0 +1,71 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/header-menu?page=1",
+  "title": "What is a Selector (In Practice)?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is a Selector (In Practice)?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before writing any CSS rule, developers answer one simple question:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"Which part of the page am I trying to change?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "A selector is the part of CSS that answers that question. It tells the browser:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "What to look for in the HTML",
+        "Where that element lives",
+        "When a style should apply"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Every CSS rule follows this structure:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"selector\">\n2  This element is targeted by the <code>.selector</code> rule.\n3</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.selector {\n2  property: value;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the selector is unclear, the CSS becomes hard to control —especially as pages grow."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

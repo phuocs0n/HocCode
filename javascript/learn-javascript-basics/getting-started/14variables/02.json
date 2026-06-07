@@ -1,0 +1,184 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-variables--constants?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the code below, which part is the variable?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let jack = \"name\";"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "jack"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The word that follows the let keyword is the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The word that follows the let keyword is the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is a string that's being assigned to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is a string that's being assigned to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "name"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "name is the value of the string being assigned to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "name is the value of the string being assigned to the variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The = symbol assigns the value to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The = symbol assigns the value to the variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The word that follows the let keyword is the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The word that follows the let keyword is the variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is a string that's being assigned to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "\"name\" is a string that's being assigned to the variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "name is the value of the string being assigned to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "name is the value of the string being assigned to the variable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The = symbol assigns the value to the variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "The = symbol assigns the value to the variable."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the code below, which part is the variable?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:jack",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "jack",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:\"name\"",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "\"name\"",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:name",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "name",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:=",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "=",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

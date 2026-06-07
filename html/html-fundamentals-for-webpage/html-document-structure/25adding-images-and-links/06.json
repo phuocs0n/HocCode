@@ -1,0 +1,131 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/adding-images-links?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why is the alt attribute important for images?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It controls the image size"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Size is controlled separately."
+    },
+    {
+      "type": "paragraph",
+      "content": "Size is controlled separately."
+    },
+    {
+      "type": "paragraph",
+      "content": "It describes the image when it can't be seen"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "alt helps screen readers and explains the image's purpose."
+    },
+    {
+      "type": "paragraph",
+      "content": "alt helps screen readers and explains the image's purpose."
+    },
+    {
+      "type": "paragraph",
+      "content": "It improves image loading speed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "alt doesn't affect performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "alt doesn't affect performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "It replaces captions"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Captions serve a different purpose."
+    },
+    {
+      "type": "paragraph",
+      "content": "Captions serve a different purpose."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why is the alt attribute important for images?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It controls the image size",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It controls the image size",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It describes the image when it can't be seen",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It describes the image when it can't be seen",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It improves image loading speed",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It improves image loading speed",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It replaces captions",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It replaces captions",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

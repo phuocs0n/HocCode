@@ -1,0 +1,136 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/queue?page=3",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Like we did with stack, we'll be using a linked list to implement our queue as well."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we can do it."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create the Queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we'll create a class to handle our queue."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "template< typename T>\nclass Queue {\n  public:\n    Queue() = default; // Defaulted constructor\n    ~Queue() = default; // Defaulted destructor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since, we'll be using a linked list to implement our queue, we'll add our LinkedList calls as a member variable."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "private:\n    // Underlying linked list to store queue elements\n    LinkedList<T> linked_list; };"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Check if the Queue is empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before we perform any operation in a queue, we must ensure it's not empty."
+    },
+    {
+      "type": "paragraph",
+      "content": "To check, if the queue is empty, we can simply check if the count of elements of the linked list is zero."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "bool is_empty() {\n    return (linked_list.count_elements() == 0);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Implement a method to enqueue an element to the Queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "To enqueue an element, we can use the insert_node_at_end() method of the linked list."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Enqueue an element to the queue\nvoid enqueue(T item) {\n    linked_list.insert_node_at_end(item);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Implement a method to dequeue an element from the Queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "To dequeue an element, we can use the delete_first_node() method of the linked list."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, attempting to dequeue an element from an empty queue will result in an error. So, we'll dequeue an element only if the queue is not empty."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void dequeue() {\n    if(!is_empty())\n        linked_list.delete_first_node();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Implement a method to peek at the front element of the Queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "To peek at the front element on the queue, we can use the get_first_element() method of the linked list."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "T peek() {\n    return linked_list.get_first_element();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "6. Implement a method to display all the elements of the queue."
+    },
+    {
+      "type": "paragraph",
+      "content": "To display all the elements of the queue, we can invoke the display() method of the linked list."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void print_queue() {\n    linked_list.display();\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,80 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/styling-blog-layout?page=3",
+  "title": "Creating Flex Containers for Main Content",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating Flex Containers for Main Content"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we reach the modern layout tool developers actually use."
+    },
+    {
+      "type": "paragraph",
+      "content": "Flexbox answers:"
+    },
+    {
+      "type": "paragraph",
+      "content": "How do I place things next to each other?"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Basic Flex Setup"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"main-layout-container\">\n2  <aside class=\"sidebar\">Sidebar</aside>\n3  <main class=\"content\">\n4    <h1>Main Content</h1>\n5    <p>This layout uses flexbox to place the sidebar and content side by side.</p>\n6  </main>\n7</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.main-layout-container {\n2  display: flex;\n3}"
+    },
+    {
+      "type": "paragraph",
+      "content": "That's it.Children now align horizontally by default."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Typical Blog Use Case"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Main article",
+        "Sidebar or table of contents"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Flexbox makes this trivial."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,46 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/ranking-window-functions?page=8",
+  "title": "Example: DENSE_RANK() for Movie Rankings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: DENSE_RANK() for Movie Rankings"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's add DENSE_RANK() to rank the movies without skipping the rank."
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT *, \n2RANK() OVER (ORDER BY IMDb_rating DESC) AS rank, \n3DENSE_RANK() OVER (ORDER BY IMDb_rating DESC) AS dense_rank \n4\n5FROM Movies;"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the column dense_rank, you have displayed the rank of movies without skipping the rank after ties. For instance, the movies are ranked as 1, 2, 2, 3, 3, and 4. This is how DENSE_RANK() works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

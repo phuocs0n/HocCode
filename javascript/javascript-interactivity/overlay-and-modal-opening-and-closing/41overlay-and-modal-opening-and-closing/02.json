@@ -1,0 +1,75 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/overlay-modal-opening-closing?page=3",
+  "title": "Basic Overlay and Modal",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Basic Overlay and Modal"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's start simple."
+    },
+    {
+      "type": "paragraph",
+      "content": "This example shows a modal that opens and closes using a class. The button opens the modal. The close button hides it. Nothing else yet."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!DOCTYPE html>\n2<html lang=\"en\">\n3<head>\n4  <meta charset=\"UTF-8\" />\n5  <title>Overlay and Modal</title>\n6  <link rel=\"stylesheet\" href=\"style.css\" />\n7</head>\n8<body>\n9\n10  <button id=\"open-modal\">Open modal</button>\n11\n12  <div id=\"modal-overlay\" class=\"overlay\">\n13    <div class=\"modal\">\n14      <p>Modal content</p>\n15      <button class=\"modal-close\">Close</button>\n16    </div>\n17  </div>\n18\n19  <script src=\"script.js\"></script>\n20</body>\n21</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4}\n5\n6.overlay {\n7  position: fixed;\n8  inset: 0;\n9  background: rgba(0,0,0,0.5);\n10  display: flex;\n11  align-items: center;\n12  justify-content: center;\n13  opacity: 0;\n14  visibility: hidden;\n15  transition: opacity 0.2s, visibility 0.2s;\n16}\n17\n18.overlay.modal-open {\n19  opacity: 1;\n20  visibility: visible;\n21}\n22\n23.modal {\n24  background: #fff;\n25  padding: 24px;\n26  border-radius: 8px;\n27}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var overlay = document.getElementById('modal-overlay');\n2var openBtn = document.getElementById('open-modal');\n3var closeBtn = overlay ? overlay.querySelector('.modal-close') : null;\n4\n5function openModal() {\n6  if (overlay) {\n7    overlay.classList.add('modal-open');\n8  }\n9}\n10\n11function closeModal() {\n12  if (overlay) {\n13    overlay.classList.remove('modal-open');\n14  }\n15}\n16\n17if (openBtn) {\n18  openBtn.addEventListener('click', openModal);\n19}\n20\n21if (closeBtn) {\n22  closeBtn.addEventListener('click', closeModal);\n23}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code.This example only handles:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Open with the button",
+        "Close with the close button"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Two functions. Two listeners. That is the foundation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will extend it to close when clicking the overlay or pressing Escape."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

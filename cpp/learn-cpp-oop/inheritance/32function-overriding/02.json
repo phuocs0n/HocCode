@@ -1,0 +1,140 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/function-overriding?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#include <iostream>\nusing namespace std;\n\nclass Superhero {\n  public:\n    void catch_phrase() {\n      cout << \"Superhero catchphrase!\" << endl;\n    }\n};\n\nclass Batman: public Superhero {\n  public:\n    void catch_phrase() {\n      cout << \"I'm vengeance!\" << endl;\n    }\n};\n\nint main() {\n\n    Batman bat;\n    bat.catch_phrase();\n    return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Superhero catchphrase!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The code bat.catch_phrase(); calls the function of the Batman class."
+    },
+    {
+      "type": "paragraph",
+      "content": "The code bat.catch_phrase(); calls the function of the Batman class."
+    },
+    {
+      "type": "paragraph",
+      "content": "I'm vengeance!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The catch_phrase(); function in Batman overrides the same function in Superhero. Hence, bat.catch_phrase() calls the function in Batman."
+    },
+    {
+      "type": "paragraph",
+      "content": "The catch_phrase(); function in Batman overrides the same function in Superhero. Hence, bat.catch_phrase() calls the function in Batman."
+    },
+    {
+      "type": "paragraph",
+      "content": "Superhero catchphrase!"
+    },
+    {
+      "type": "paragraph",
+      "content": "I'm vengeance!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the functions is called."
+    },
+    {
+      "type": "paragraph",
+      "content": "Only one of the functions is called."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program runs without any error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program runs without any error."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Superhero catchphrase!",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Superhero catchphrase!",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:I'm vengeance!",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "I'm vengeance!",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Superhero catchphrase!I'm vengeance!",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Superhero catchphrase!I'm vengeance!",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Error",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Error",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,64 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/constructor-overloading?page=2",
+  "title": "C++ Constructors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ Constructors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Basically, a constructor is like a member function of a class that has the same name as the class but no return type. A constructor is automatically called when we create an object of the class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Sample {\n5  public:\n6   \n7\n8    // default constructor with no arguments\n9    Sample() {\n10        cout << \"Object created!\" << endl;\n11    }\n12\n13};\n14\n15int main() {\n16\n17\n18    // create an object of the Sample class\n19    Sample sample1;\n20\n21\n22    return 0;\n23}\n24\n25// Output: Object created!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Sample() is a constructor of the Sample class and is called automatically the moment we create the sample1 object. It is a default constructor since it takes no arguments."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Parameterized Constructor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Constructors can also take parameters. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4class Sample {\n5  public:\n6\n7\n8    // constructor with integer parameter\n9    Sample (int num) {\n10        cout << \"Constructor Parameter: \" << num << endl;\n11    }\n12\n13};\n14\n15int main() {\n16\n17\n18    // create object of Sample\n19    // supply 9 as argument to its constructor\n20    Sample sample(9);\n21\n22\n23    return 0;\n24}\n25\n26// Output:\n27// Constructor Parameter: 9"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how we can combine these two programs and overload these constructors. But first, test yourself with a simple quiz!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,86 @@
+{
+  "levels": [
+    {
+      "title": "Introduction to the Course",
+      "lessons": [
+        {
+          "title": "1.1Introduction to the Course",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/introduction-to"
+        }
+      ]
+    },
+    {
+      "title": "Truthy and Falsy Values",
+      "lessons": [
+        {
+          "title": "2.1Truthy and Falsy Values",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/truthy-falsy-values"
+        },
+        {
+          "title": "2.2Ternary Operator",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/ternary-operator"
+        },
+        {
+          "title": "2.3Recursion",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/recursion"
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "lessons": [
+        {
+          "title": "3.1Introduction",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/introduction"
+        },
+        {
+          "title": "3.2Fetch API",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/fetch-api"
+        },
+        {
+          "title": "3.3JavaScript Promise",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-promise"
+        },
+        {
+          "title": "3.4JavaScript async/await",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-asyncawait"
+        }
+      ]
+    },
+    {
+      "title": "JavaScript JSON",
+      "lessons": [
+        {
+          "title": "4.1JavaScript JSON",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-json"
+        },
+        {
+          "title": "4.2Variable Scope",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/variable-scope"
+        },
+        {
+          "title": "4.3JavaScript Hoisting",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-hoisting"
+        }
+      ]
+    },
+    {
+      "title": "Fetching and Displaying Movie Data",
+      "lessons": [
+        {
+          "title": "5.1Fetching and Displaying Movie Data",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/fetching-displaying-movie-data"
+        },
+        {
+          "title": "5.2What's Next?",
+          "url": "https://app.programiz.pro/course/learn-javascript-intermediate/whats-next"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 13,
+    "sections": 5,
+    "container": "main-content"
+  }
+}

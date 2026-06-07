@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/harshad-number?page=1",
+  "title": "Check Harshad Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Harshad Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to check if a number is a Harshad Number."
+    },
+    {
+      "type": "paragraph",
+      "content": "A Harshad number is an integer which is divisible by the sum of its digits. For example, 21 which is perfectly divided by 3 (sum of digits: 2 + 1)."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for a variable number.",
+        "Run a while loop to access each digit of number.",
+        "Inside the loop, find the sum of each digit of number.",
+        "Check if the number is perfectly divisible by the sum.",
+        "If the number is divisible by the sum, print Harshad Number. Otherwise, print Not a Harshad Number."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input21"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputHarshad Number"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,70 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/form-handling?page=2",
+  "title": "Basic Sign-Up Form",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Basic Sign-Up Form"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<form id=\"signup-form\" action=\"/html-form-submit\" method=\"post\">\n2    <div class=\"form-group\">\n3        ..."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1#signup-form {\n2    background-color: #f9f9f9;\n3    ..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the above code to see a basic form created using only HTML and CSS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click the \"Sign-Up\" button and you'll be redirected to another page. This is the default behavior of forms with an action attribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, to handle the form with JS, such as validating the input fields, you need to prevent this behavior. You can do it this way:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<form id=\"signup-form\" action=\"/html-form-submit\" method=\"post\">\n2    <div class=\"form-group\">\n3        ..."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1#signup-form {\n2    background-color: #f9f9f9;\n3    ..."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const signupForm = document.querySelector(\"#signup-form\");\n2\n3signupForm.addEventListener(\"submit\", (event) => {\n4    // Prevent form from redirecting.\n5    event.preventDefault();\n6});"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

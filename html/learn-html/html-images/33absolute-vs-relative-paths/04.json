@@ -1,0 +1,140 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-html/absolute-vs-relative-paths?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: If the current URL is https://example.com/hello, where will the link be directed to in the following code?"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<a href=\"abc\">\n    Programiz PRO website\n</a>"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "https://example.com/abc"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have used the relative path abc in our code. Therefore, abc will be appended to the current path."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have used the relative path abc in our code. Therefore, abc will be appended to the current path."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "https://example.com"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The relative path abc doesn't point to the domain root."
+    },
+    {
+      "type": "paragraph",
+      "content": "The relative path abc doesn't point to the domain root."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "https://example.com/hello/abc"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The relative path abc is appended to the current path."
+    },
+    {
+      "type": "paragraph",
+      "content": "The relative path abc is appended to the current path."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "https://programiz.pro/hello/abc"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the domain of the current page is https://example.com, the link is not directed to a different domain."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since the domain of the current page is https://example.com, the link is not directed to a different domain."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: If the current URL is https://example.com/hello, where will the link be directed to in the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:https://example.com/abc",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "https://example.com/abc",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:https://example.com",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "https://example.com",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:https://example.com/hello/abc",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "https://example.com/hello/abc",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:https://programiz.pro/hello/abc",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "https://programiz.pro/hello/abc",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

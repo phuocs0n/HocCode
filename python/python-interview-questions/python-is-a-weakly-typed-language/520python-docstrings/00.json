@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/python-docstrings?page=1",
+  "title": "Explain Python Docstrings and How We Can Create Them?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Explain Python Docstrings and How We Can Create Them?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Docstring is the comment written immediately after a function or class definition. It is ignored by the interpreter in the same way as comments are ignored."
+    },
+    {
+      "type": "paragraph",
+      "content": "Docstrings are normally written to explain the definition and input/output parameters. We enclose docstrings inside a pair of 3 single quotes ''', as shown below."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1def double_number(n):\n2    '''Takes in a number n, returns n*2'''\n3    return n*2\n4\n5print(double_number.__doc__)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we can see that the __doc__ attribute is used to get the docstring content."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

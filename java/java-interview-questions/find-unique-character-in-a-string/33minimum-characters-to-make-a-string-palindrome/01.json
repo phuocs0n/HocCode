@@ -1,0 +1,87 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/minimum-characters-to-make-string-palindrome?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have the following string to find the minimum number of characters that need to be added to make it a palindrome."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = pepsi"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will check if the text is palindrome or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "As pepsi is not palidrome, we will now check the text is palindrome up to the second last character."
+    },
+    {
+      "type": "paragraph",
+      "content": "And set our counter to 1."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = peps"
+    },
+    {
+      "type": "paragraph",
+      "content": "As peps is not palindrome, we will again remove the last character and check if the string is palindrome."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = pep"
+    },
+    {
+      "type": "paragraph",
+      "content": "As pep is palindrome, we now know that if we add s and i at the beginning of the text, the text will become palindrome. Hence, we must add 2 characters to make the text palindrome."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see how we can implement this logic in our program for a string variable text."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Declare an integer variable counter and initialize it to 0.",
+        "Use a while loop to check if the length of the input string text is greater than 0.",
+        "Inside the loop, check if the input string text is a palindrome using the isPalindrome() method.",
+        "If text is a palindrome, break out of the loop.",
+        "If text is not a palindrome, delete the last character of text using the substring method, and increase the counter variable by 1.",
+        "Return the counter variable when the loop is finished."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

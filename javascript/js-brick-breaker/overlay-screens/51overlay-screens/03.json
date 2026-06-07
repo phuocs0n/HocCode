@@ -1,0 +1,47 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/overlay-screens?page=3",
+  "title": "Show the Launch Hint 💬",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Show the Launch Hint 💬"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add a small text prompt that appears at the bottom of the canvas while the ball is waiting on the paddle."
+    },
+    {
+      "type": "paragraph",
+      "content": "In game.js, add a drawLaunchHint(ctx) method that draws \"Click or Space to launch\" centered at the bottom of the canvas."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Set textAlign = \"center\", textBaseline = \"middle\", fillStyle = \"#aaa\", font = \"14px Segoe UI\".",
+        "Draw the text at (CANVAS_WIDTH / 2, CANVAS_HEIGHT - 10)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In draw(), call this.drawLaunchHint(ctx) when this.state === STATE.PLAYING && !this.ball.isLaunched."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "\"use strict\";"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

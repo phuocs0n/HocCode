@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/game-logic-javascript/game-decisions?page=3",
+  "title": "Decide with if",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Game Logic with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Decide with if"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use if to check a condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the condition is true, JavaScript runs the code inside the { } block."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1var passMark = 40;\n2var percentage = 60;\n3\n4if (percentage >= passMark) {\n5  console.log(\"You passed!\");\n6}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, percentage >= passMark is the condition. When it's true, the message prints. When it's false, nothing happens."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Mindset"
+    },
+    {
+      "type": "paragraph",
+      "content": "When I write game logic, I try to make the condition read like the rule. percentage >= passMark is basically saying: did they reach the pass mark?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Clear variable names help too. When I come back later (or someone else reads it), it's obvious what the code is checking, and debugging becomes much easier."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

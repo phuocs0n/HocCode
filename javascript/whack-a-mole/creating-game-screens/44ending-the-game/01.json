@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/ending-game?page=2",
+  "title": "Detect Time Zero 0️⃣",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Detect Time Zero 0️⃣"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, you need to detect when the timer reaches zero and end the game."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll add a check inside your countdown function. When time hits zero, you'll call a new function that ends the game."
+    },
+    {
+      "type": "paragraph",
+      "content": "Understanding the flow: Right now, countdown just decreases time and updates the display. You'll add an if statement that checks if timeLeft reaches 0, and if it does, call a function to end the game."
+    },
+    {
+      "type": "paragraph",
+      "content": "In script.js,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Modify the countdown function to check if timeLeft is less than or equal to 0.",
+        "If true, call a function named endGame. This will detect when the timer runs out and trigger the game-ending sequence."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "index.html",
+        "script.js",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "<!DOCTYPE html>"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

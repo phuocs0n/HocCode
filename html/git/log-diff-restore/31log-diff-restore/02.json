@@ -1,0 +1,74 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/git/log-diff-restore?page=3",
+  "title": "Comparing Two Saves",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practical Git and GitHub"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Comparing Two Saves"
+    },
+    {
+      "type": "paragraph",
+      "content": "To see what changed since your last save, run:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "$ git diff"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "diff --git a/index.html b/index.html index 3a4b5c6..7d8e9f0 100644 --- a/index.html +++ b/index.html @@ -12,7 +12,7 @@ -"
+    },
+    {
+      "type": "paragraph",
+      "content": "Git shows the difference between your current files and the last commit."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Lines that start with - are what was there before.",
+        "Lines that start with + are what replaced them."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, a line was accidentally removed. That single change explains why the page broke."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can find the issue in seconds."
+    },
+    {
+      "type": "paragraph",
+      "content": "👉 Next, let's fix it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

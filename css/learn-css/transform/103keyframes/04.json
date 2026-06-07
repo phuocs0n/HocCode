@@ -1,0 +1,85 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/keyframes?page=5",
+  "title": "Applying Animation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Applying Animation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Applying animation to an element is similar to applying transitions. The syntax is:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "animation: animation-name duration timing-function;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, this is how it looks like to apply box-animation, along with duration and timing-function:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "animation: box-animation 3s linear;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how it works:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "box-animation is the animation name we defined with @keyframes.",
+        "3s sets the total duration of the animation to 3 seconds.",
+        "linear makes the animation progress at a constant speed from start to finish."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This setup causes the box element to follow the path defined in the keyframes smoothly over 3 seconds."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, our final code looks like this:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"box\">Click and Hold Me!</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.box {\n2    height: 120px;\n3    width: 120px;\n4    background-color: #50e3c2;\n5    border-radius: 15px;\n6\n7    /* Centering the text */\n8    display: flex;\n9    align-items: center;\n10    justify-content: center;\n11}\n12\n13/* Define custom animation */\n14@keyframes box-animation {\n15    0% {\n16        translate: 0px 0px;\n17    }\n18\n19    25% {\n20        translate: 100px 0px;\n21    }\n22\n23    50% {\n24        translate: 100px 100px;\n25    }\n26\n27    75% {\n28        translate: 0px 100px;\n29    }\n30\n31    100% {\n32        translate: 0px 0px;\n33    }\n34}\n35\n36/* Apply animation when clicked */\n37.box:active {\n38    animation: box-animation 3s linear;\n39}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's learn how you can make animations run infinitely."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

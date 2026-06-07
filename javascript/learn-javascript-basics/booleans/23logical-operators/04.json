@@ -1,0 +1,79 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/logical-operators?page=5",
+  "title": "Largest of Three Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Largest of Three Numbers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given three numbers n1, n2, and n3, n1 will be the largest number if:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "n1 is greater than n2, and",
+        "n1 is greater than n3"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, you can check if n2 or n3 is largest using the same logic. To solve this problem, you can use the && operator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the complete code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// User input\n2let n1 = parseInt(prompt(\"Enter the first number: \"));\n3let n2 = parseInt(prompt(\"Enter the second number: \"));\n4let n3 = parseInt(prompt(\"Enter the third number: \"));\n5\n6let largest;\n7\n8// Check if n1 is the largest\n9if (n1 >= n2 && n1 >= n3) {\n10    largest = n1;\n11}\n12// Check if n2 is the largest\n13else if (n2 >= n1 && n2 >= n3) {\n14    largest = n2;\n15} else {\n16    largest = n3;\n17}\n18\n19console.log(\"The largest number is:\", largest);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the first number: 10  \nEnter the second number: 20  \nEnter the third number: 5  \nThe largest number is: 20"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the first number: 15  \nEnter the second number: 15  \nEnter the third number: 10  \nThe largest number is: 15"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's take a quiz for && next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

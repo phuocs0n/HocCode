@@ -1,0 +1,77 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/movies-with-duration-greater-than-average?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given a Movies table with the columns id, title, and duration."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we need to retrieve the movie titles with a duration greater than the average duration of all movies in the table."
+    },
+    {
+      "type": "paragraph",
+      "content": "We can solve this problem using a subquery. The inner query will calculate the average duration of all movies using the AVG() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outer query selects those titles that match the condition of the inner query."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the average duration is given by:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "(193 + 126 + 144) / 3 = 154.33"
+    },
+    {
+      "type": "paragraph",
+      "content": "The only entry in the table with duration greater than this average is (1, Pulp Fiction, 193)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Therefore, the resulting table will be:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "title"
+        ],
+        [
+          "Pulp Fiction"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

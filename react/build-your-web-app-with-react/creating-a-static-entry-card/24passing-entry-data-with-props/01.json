@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/passing-entry-data-with-props?page=2",
+  "title": "What Are Props?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What Are Props?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Props (short for \"properties\") are how you pass data from a parent component to a child component."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of props like function arguments in JavaScript. When you call a function, you pass it data:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Pass \"Alice\" as an argument\ngreet(\"Alice\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "With components, you do the same thing, but the syntax looks like HTML attributes:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<EntryCard title=\"First Day\" />"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, title is a prop, so you're passing the value \"First Day\" to the EntryCard component."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

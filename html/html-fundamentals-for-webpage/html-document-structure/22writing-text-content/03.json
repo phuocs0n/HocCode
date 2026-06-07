@@ -1,0 +1,58 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/writing-text-content?page=4",
+  "title": "Writing the Blog Text",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Writing the Blog Text"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's write the text content for our Learning HTML blog:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>Learning HTML</h1>\n2\n3<p>\n4  Welcome to Learning HTML — a beginner-friendly blog that helps you\n5  understand how the web is built, step by step.\n6</p>\n7\n8<h2>Why Learn HTML?</h2>\n9\n10<p>\n11  HTML is the foundation of every webpage. If you understand HTML,\n12  learning other web technologies becomes much easier.\n13</p>"
+    },
+    {
+      "type": "paragraph",
+      "content": "What's happening here:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "<h1> defines the main identity of the blog",
+        "<h2> introduces a new topic",
+        "<p> explains ideas clearly"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "We haven't added any complicated structures yet — just clear text content."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,74 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/0-1-knapsack-problem?page=1",
+  "title": "Recap: 0-1 Knapsack Problem",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap: 0-1 Knapsack Problem"
+    },
+    {
+      "type": "paragraph",
+      "content": "We've already introduced this problem in our chapter on Greedy Algorithms. Here's how it goes:"
+    },
+    {
+      "type": "paragraph",
+      "content": "You're in a Mr.Beast video, and he will buy you all the items you can fit into a knapsack."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Item",
+          "Weight",
+          "Total Value"
+        ],
+        [
+          "TV",
+          "30 units",
+          "$3000"
+        ],
+        [
+          "Laptop",
+          "20 units",
+          "$2000"
+        ],
+        [
+          "Mobile",
+          "15 units",
+          "$1500"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The capacity of the knapsack is 35 units."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your goal now is to determine the maximum value that can be achieved by selecting items without exceeding the knapsack capacity."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

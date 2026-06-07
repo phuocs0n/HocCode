@@ -1,0 +1,54 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/functions-in-c-programming?page=6",
+  "title": "Calling a Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Calling a Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Defining a function is not enough, we have to call them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's understand what this means by using the following example."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Define a function named sayHello\n4void sayHello() {\n5\n6    // Print the text Hello\n7    printf(\"Hello\");\n8}\n9\n10int main() {\n11\n12    return 0;\n13}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you run this code, you won't get any output. This is because a function definition by itself does nothing; we need to call the function whenever we need its functionality."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we'll learn how to call a function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

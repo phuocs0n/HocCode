@@ -1,0 +1,136 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/code-execution-in-javascript?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In the code below, which function completes its execution first?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "function startMorningRoutine() {\n  brushTeeth();\n}\n\nfunction brushTeeth() {\n  console.log(\"Teeth brushed\");\n}\n\nstartMorningRoutine();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "startMorningRoutine()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function runs first, but it calls brushTeeth() inside it. So, it won't complete its execution unless brushTeeth() has been executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "This function runs first, but it calls brushTeeth() inside it. So, it won't complete its execution unless brushTeeth() has been executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "brushTeeth()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since startMorningRoutine() calls brushTeeth() and nothing else, the latter is the first function that completes execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since startMorningRoutine() calls brushTeeth() and nothing else, the latter is the first function that completes execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "console.log()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "While this function runs briefly, brushTeeth() is the active function running from the call stack."
+    },
+    {
+      "type": "paragraph",
+      "content": "While this function runs briefly, brushTeeth() is the active function running from the call stack."
+    },
+    {
+      "type": "paragraph",
+      "content": "startMorningRoutine() and brushTeeth() are both on top at the same time"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both functions are on the call stack, but only one can be on top at any given moment."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both functions are on the call stack, but only one can be on top at any given moment."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In the code below, which function completes its execution first?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:startMorningRoutine()",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "startMorningRoutine()",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:brushTeeth()",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "brushTeeth()",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:console.log()",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "console.log()",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:startMorningRoutine() and brushTeeth() are both on top at the same time",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "startMorningRoutine() and brushTeeth() are both on top at the same time",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,52 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/introduction-to-responsive-design?page=5",
+  "title": "Responsive Typography and Spacing",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Responsive Typography and Spacing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Responsiveness isn't just layout. Text must remain readable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Simple Adjustment Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"page\">\n2  <h1>Responsive Heading</h1>\n3  <p>Resize the viewport: the heading gets larger at 768px and up.</p>\n4</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1h1 {\n2  font-size: 24px;\n3}\n4\n5@media (min-width: 768px) {\n6  h1 {\n7    font-size: 32px;\n8  }\n9}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

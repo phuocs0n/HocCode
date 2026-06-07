@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/introduction-to-responsive-design?page=3",
+  "title": "Using Media Queries (Only What You Need)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Using Media Queries (Only What You Need)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see the previous media query in action. You need to resize your window to the width value in the media query to see the changes. This width is called breakpoints."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"main-layout-container\">\n2  <aside class=\"sidebar\">\n3    <h2>Sidebar</h2>\n4    <p>On small screens, this stacks. On 768px+, it becomes a flex layout.</p>\n5  </aside>\n6\n7  <main class=\"content\">\n8    <h1>Responsive Layout</h1>\n9    <p>Resize the viewport to see the media query kick in.</p>\n10  </main>\n11</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.main-layout-container {\n2  display: block;\n3}\n4\n5@media (min-width: 768px) {\n6  .main-layout-container {\n7    display: flex;\n8    gap: 24px;\n9  }\n10}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Developer Insight"
+    },
+    {
+      "type": "paragraph",
+      "content": "Most real projects use:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "1–3 breakpoints",
+        "Not dozens"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If you need many breakpoints, your layout is probably too rigid."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

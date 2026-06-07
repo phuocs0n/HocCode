@@ -1,0 +1,66 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/getting-started?page=2",
+  "title": "Your First JavaScript Program",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your First JavaScript Program"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's run your first JavaScript program."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start with something simple—displaying Hello, World! on the screen."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1console.log(\"Hello, World!\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click the Run Code button to run this program."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll see Hello, World! in the Output section."
+    },
+    {
+      "type": "paragraph",
+      "content": "Congratulations! You've successfully run your first program."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pretty cool, right?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's break it down and see how this code actually works."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

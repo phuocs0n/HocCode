@@ -1,0 +1,68 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/preprocessors?page=3",
+  "title": "C++ #define and Macros",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ #define and Macros"
+    },
+    {
+      "type": "paragraph",
+      "content": "The #define directive is used to \"define\" preprocessor variables which can be used in our programs. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "#define PI 3.1415   // value of pi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, when we use PI in our program, it is replaced with 3.1415."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, PI is known as a macro. A macro is a fragment of code which has been given a name."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at this with an example."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2\n3\n4using namespace std;\n5\n6\n7// define the PI macro\n8#define PI 3.1415\n9\n10\n11int main() {\n12\n13    double radius, area;\n14\n15    cout << \"Enter the radius: \";\n16    cin >> radius;\n17\n18\n19    // use the PI macro to calculate area\n20    area = PI * radius * radius;\n21\n22\n23    cout << \"Area = \" << area;\n24\n25    return 0;\n26}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the radius: 4\nArea = 50.264"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

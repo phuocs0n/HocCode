@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/events-toggling-with-classes?page=1",
+  "title": "Understanding Events",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Events"
+    },
+    {
+      "type": "paragraph",
+      "content": "You've already used events before."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you changed a button's text after a click, that was an event in action."
+    },
+    {
+      "type": "paragraph",
+      "content": "An event is simply something the user does."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Clicking",
+        "Scrolling",
+        "Pressing a key"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "When that action happens, JavaScript runs a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "We attach that function using addEventListener."
+    },
+    {
+      "type": "paragraph",
+      "content": "The pattern stays simple:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Select the element",
+        "Listen for an event",
+        "Update something"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "That's it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's look at how interface elements switch between open and closed states."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

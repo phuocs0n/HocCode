@@ -1,0 +1,94 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-intermediate/catch-multiple-exceptions?page=1",
+  "title": "Catch Multiple Exceptions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Catch Multiple Exceptions"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to change an array element based on user input (index). Change the element at index to 100 / index."
+    },
+    {
+      "type": "paragraph",
+      "content": "Throw an exception if the index is 0. Throw another exception if the index doesn't exist in the array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Declare an integer array called numbers with the elements 0, 1, 2, 3, and 4.",
+        "Get integer input for index variable.",
+        "Inside the try block, use an if statement to check if index == 0.",
+        "If true, throw the integer 0 as an exception using the throw keyword.",
+        "Else, if index > 4 or if index < 0, then throw the sting literal \"Array index out of bounds!\".",
+        "After the if...else if statement, try to change the array element at index to 100 / index.",
+        "Also, print the item at index."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inside the first catch block, catch the exception thrown with an int parameter and print \"Division by 0\".",
+        "In the second catch block, catch the array out of bounds exception with the parameter char const* message.",
+        "Then, print the message parameter."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input100"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputArray index out of bounds!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

@@ -1,0 +1,52 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/count-number-of-words-in-string-using-hashmap?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a text that contains several words. Use a HashMap to count the number of words in the given text."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"the quick brown fox jumps over the lazy dog\"\noutput = {the=2, over=1, quick=1, lazy=1, jumps=1, brown=1, dog=1, fox=1}"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"I scream, you scream, we all scream for ice cream!\"\noutput = {all=1, for=1, I=1, scream=1, ice=1, cream!=1, you=1, we=1, scream,=2}"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = it was an amazing amazing amazing day\noutput = {amazing=3, was=1, it=1, an=1, day=1}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,65 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/learn-css/background-properties?page=11",
+  "title": "Background Shorthand",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Background Shorthand"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of background-color or background-image, it is common to use the shorthand background."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the example below, the code specifies a background image with a fallback background color on two separate lines:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div>\n2    <h1>Welcome to Programiz!</h1>\n3    <p>Dive into CSS and start turning boring web pages into something that actually looks good.</p>\n4\n5    <h2>Why Learn with Us?</h2>\n6    <ul>\n7        <li>Code in your browser.</li>\n8        <li>Create real-world projects.</li>\n9        <li>Get certified for in-demand skills.</li>\n10    </ul>\n11</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1div {\n2    background-image: url('/images/learn-css/bg1.png');\n3    background-color: #eeeeee;\n4    background-size: cover;\n5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can instead combine them using the shorthand property background:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<body>\n2    <div>\n3        <h1>Welcome to Programiz!</h1>\n4        <p>Dive into CSS and start turning boring web pages into something that actually looks good.</p>\n5\n6        <h2>Why Learn with Us?</h2>\n7        <ul>\n8            <li>Code in your browser.</li>\n9            <li>Create real-world projects.</li>\n10            <li>Get certified for in-demand skills.</li>\n11        </ul>\n12    </div>\n13</body>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2\n3    /* background image followed by background color */\n4\n5    background: url('/images/learn-css/bg1.png') #eeeeee;\n6    background-size: cover;\n7}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/updating-task?page=2",
+  "title": "Wiring Up the Update Mutation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Wiring Up the Update Mutation"
+    },
+    {
+      "type": "paragraph",
+      "content": "In src/TaskList.jsx we add the update mutation:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const updateMutation = useMutation({\n  mutationFn: updateTask,\n  onSuccess: (_, updatedTask) => {\n    queryClient.setQueryData(taskKeys.list({ status }), (old) =>\n      old.map(t => t.id === updatedTask.id ? { ...t, ...updatedTask } : t)\n    )\n  }\n})"
+    },
+    {
+      "type": "paragraph",
+      "content": "And for each task we add a status dropdown:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "<select\n  value={task.status}\n  onChange={e => updateMutation.mutate({ ...task, status: e.target.value })}\n>\n  <option value='open'>Open</option>\n  <option value='inProgress'>In progress</option>\n  <option value='done'>Done</option>\n</select>"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the user picks a new status we spread the existing task in and just replace the status with the new value."
+    },
+    {
+      "type": "paragraph",
+      "content": "🔜 Next let's see the final full files with all three mutations."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

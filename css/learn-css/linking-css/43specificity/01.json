@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/specificity?page=2",
+  "title": "Example 1: Element and Class Selectors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 1: Element and Class Selectors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Element selectors target all instances of a tag type."
+    },
+    {
+      "type": "paragraph",
+      "content": "Class selectors are more specific, targeting only elements with a particular class. Hence, they override element selectors."
+    },
+    {
+      "type": "paragraph",
+      "content": "Run the code below to see this in action."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<p class=\"my-class\">This is a paragraph.</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Element selector */\n2p {\n3    color: red;\n4}\n5\n6/* Class selector */\n7.my-class {\n8    color: green;\n9}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, the class selector .my-class overrides the element selector p. So, the paragraph text is green."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

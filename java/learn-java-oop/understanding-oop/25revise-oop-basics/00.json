@@ -1,0 +1,86 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-basics?page=1",
+  "title": "Understanding OOP",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding OOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "Java is an object-oriented programming language where we solve complex problems by dividing them into objects."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a class"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Student {\n  \n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Student is the name of the class. A class can have fields (to store data) and methods (to perform operations)."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Student {\n\n    // field\n    String name;\n\n    void displayName() {\n        ...\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Create Objects"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how we create objects in Java"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Student student1 = new Student();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now we can use the student1 object to access the fields and methods of a class. For example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Student {\n2    // field\n3    String name;\n4    \n5    // method\n6    void displayName() {\n7        System.out.println(\"This method displays name.\");\n8    }\n9    \n10    public static void main(String[] args) {\n11        \n12        // create an object of Student\n13        Student student1 = new Student();\n14        \n15        // access the field\n16        student1.name = \"Alex\";\n17        System.out.println(\"Name: \" + student1.name);\n18        \n19        // access the method\n20        student1.displayName();\n21    }\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Name: Alex\nThis method displays name."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

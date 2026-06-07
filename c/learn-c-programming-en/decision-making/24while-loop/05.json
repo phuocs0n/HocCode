@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/while-loop?page=6",
+  "title": "Example: Finite while Loop (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Finite while Loop (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "To run this loop only for a fixed number of times, we must update the value of count inside the loop so that count <= 3 eventually becomes false."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int count = 1;\n6\n7    while (count <= 3) {\n8\n9      printf(\"I am inside a loop.\\n\");\n10      printf(\"Looping is interesting.\\n\");\n11\n12      count = count + 1;\n13    }\n14\n15    // Code outside loop\n16    printf(\"OUTSIDE THE LOOP\");\n17  \n18    return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nI am inside a loop.\nLooping is interesting.\nOUTSIDE THE LOOP"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's understand the working of this program."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

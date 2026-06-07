@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-c-programming/other-data-types?page=1",
+  "title": "Kiểu dữ liệu: gấp đôi",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Kiểu dữ liệu: gấp đôi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Các số có phần thập phân có thể được biểu diễn bằng kiểu dữ liệu kép."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ví dụ: 32,9, -56,5, 9,0, v.v., đều có thể được biểu thị bằng kiểu dữ liệu double."
+    },
+    {
+      "type": "paragraph",
+      "content": "Như chúng ta đã tìm hiểu trước đó, %d là công cụ xác định định dạng cho kiểu dữ liệu int. Tương tự, %lf là công cụ xác định định dạng cho loại kép."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem một chương trình khai báo và in một biến kép:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    // Initialize a double variable\n6    double PI = 3.1415;\n7\n8   // Use %lf to print a double\n9   printf(\"The value of pi is %lf\", PI);\n10\n11   return 0;\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "The value of pi is 3.141500"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chương trình trên in ra 3.141500."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng ta sẽ học cách chỉ in số chữ số được yêu cầu sau dấu thập phân trong bài học 'Thêm về Kết quả In ấn'."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

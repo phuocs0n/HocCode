@@ -1,0 +1,112 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/final-finalize-finally?page=1",
+  "title": "What is the difference between final, finalize and finally?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is the difference between final, finalize and finally?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The differences between final, finalize, and finally in Java:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "final"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Java final is the keyword with variables, methods, and classes to apply some restrictions. For example, if we use final with"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Variables - we cannot change the value of the variable",
+        "Methods - we cannot perform method overriding",
+        "Classes - we cannot inherit the class"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let us see an example of final keyword in Java."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// create final variable\nfinal int number = 34;\n        \n// change the value of the final variable\nnumber = 24;"
+    },
+    {
+      "type": "paragraph",
+      "content": "If we try to change the value of the final variable, we will get the following error:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "error: cannot assign a value to final variable number\n        number = 24;\n        ^\n1 error"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "finally"
+    },
+    {
+      "type": "paragraph",
+      "content": "finally is used in a try-catch block to specify a block of code that will be executed regardless of whether an exception is thrown or not."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let us see an example,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "try {\n    // code that may throw an exception\n} catch (Exception e) {\n    // exception handling code\n} finally {\n    // cleanup operations\n    // will always be executed\n}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "finalize"
+    },
+    {
+      "type": "paragraph",
+      "content": "finalize is a method that is called by the garbage collector when an object is no longer reachable. The finalize() method performs any necessary cleanup operations before the object is destroyed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The syntax for the finalize() method is as follows:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "protected void finalize() throws Throwable \n\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We can use finalize() method by overriding the method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,71 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/add-elements-to-stdarray?page=1",
+  "title": "Add Elements to a std::array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add Elements to a std::array"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to add elements to a std::array."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get three integer inputs from the user and store them in the variables input1, input2, and input3.",
+        "Declare an integer array called marks of size 3.",
+        "Add the input values to the marks array using the [] operator.",
+        "Then, print the array."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Inputinput1 = 33\ninput2 = 44\ninput3 = 55"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output33\n44\n55"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

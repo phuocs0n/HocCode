@@ -1,0 +1,66 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/check-whether-string-is-palindrome-or-not?page=1",
+  "title": "Question",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Question"
+    },
+    {
+      "type": "paragraph",
+      "content": "Given a string, write a program to check whether the string is a palindrome or not. If the string is a palindrome print true, if not print false."
+    },
+    {
+      "type": "paragraph",
+      "content": "Palindrome - a word, that reads the same backward as forward."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"pop\"\noutput = true\nreason = is read same forward and backwards"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"radar\"\noutput = true\nreason = is read same forward and backwards"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"love\"\noutput = false\nreason = is not read same forward and backwards"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"\"\noutput = true\nreason = empty string is read same forward and backwards"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "text = \"s\"\noutput = true\nreason = single character is read same forward and backwards"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

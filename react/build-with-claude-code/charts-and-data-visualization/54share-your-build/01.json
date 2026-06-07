@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/share-build?page=2",
+  "title": "Writing a Build Post",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Rapid Build With Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Writing a Build Post"
+    },
+    {
+      "type": "paragraph",
+      "content": "The SpeedBlip launch post followed a specific structure: it opened with a statement of what was built, showed the result before the process, connected the build to a real problem, and ended with a clear CTA."
+    },
+    {
+      "type": "paragraph",
+      "content": "The post structure that worked:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "[Hook - what you built in one line]\n\n[The problem it solves - 1-2 sentences, personal and specific]\n\n[What it does - 3-4 bullet points, concrete and jargon-free]\n\n[What you learned - 1-2 sentences connecting the build to your expertise]\n\n[CTA - one specific ask: try it, comment your speed, follow for more]"
+    },
+    {
+      "type": "paragraph",
+      "content": "One thing I got right: the post was not about Claude Code. It was about the product - SpeedBlip. Claude Code was mentioned as a tool in passing, not as the subject. Posts that are primarily about AI tools perform worse than posts about real products that happen to have been built with AI."
+    },
+    {
+      "type": "paragraph",
+      "content": "The SpeedBlip post ended with: \"Curious what speed you're getting right now - drop it in the comments.\" That comment prompt drove 40+ responses in the first two hours, which told the algorithm the post was generating conversation."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

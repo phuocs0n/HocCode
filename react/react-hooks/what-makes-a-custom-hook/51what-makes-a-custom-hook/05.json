@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/react-hooks/what-makes-custom-hook?page=6",
+  "title": "💡 Developer's Insight: The State That Kept Multiplying",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "💡 Developer's Insight: The State That Kept Multiplying"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a case I ran into early on. Three screens in an app I was developing all fetched data from different endpoints."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each had the same three state variables: data, isLoading, error. Each had the same useEffect() with the same try...catch block."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Copied into three different components...\nconst [data, setData] = useState(null);\nconst [isLoading, setIsLoading] = useState(true);\nconst [error, setError] = useState(null);\n\nuseEffect(function () {\n  async function load() { ... }\n  load();\n}, [url]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "When the design team asked for a \"retry\" button on errors, I updated two components and forgot the third. Users on that third screen got a broken error state with no way to recover."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix was to extract the pattern into useFetch(). The result was a single place to update, and all three screens inherited the fix automatically."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// In any component that needs data\nconst { data, isLoading, error } = useFetch(url);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

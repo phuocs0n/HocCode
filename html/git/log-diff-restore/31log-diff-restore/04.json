@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/git/log-diff-restore?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In git diff output, what does a line starting with - indicate?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "A new line that was added in the most recent change"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "New additions are marked with +. The - prefix marks the opposite — something that existed in the last commit and is now removed or replaced."
+    },
+    {
+      "type": "paragraph",
+      "content": "New additions are marked with +. The - prefix marks the opposite — something that existed in the last commit and is now removed or replaced."
+    },
+    {
+      "type": "paragraph",
+      "content": "A line that existed in the last commit and was removed or replaced in the current version"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. - lines (shown in red) represent the before state — what was in the last commit. + lines (shown in green) represent the after state — what replaced them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. - lines (shown in red) represent the before state — what was in the last commit. + lines (shown in green) represent the after state — what replaced them."
+    },
+    {
+      "type": "paragraph",
+      "content": "A comment automatically added by Git to explain the change"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Git adds no explanatory comments to diff output. Every line reflects actual file content — either the before state, the after state, or unchanged context."
+    },
+    {
+      "type": "paragraph",
+      "content": "Git adds no explanatory comments to diff output. Every line reflects actual file content — either the before state, the after state, or unchanged context."
+    },
+    {
+      "type": "paragraph",
+      "content": "A file that was deleted entirely from the repository"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A fully deleted file shows as a block of - lines covering the whole file. A single - line means one specific line was changed — not the entire file."
+    },
+    {
+      "type": "paragraph",
+      "content": "A fully deleted file shows as a block of - lines covering the whole file. A single - line means one specific line was changed — not the entire file."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In git diff output, what does a line starting with - indicate?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:A new line that was added in the most recent change",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "A new line that was added in the most recent change",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:A line that existed in the last commit and was removed or replaced in the current version",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "A line that existed in the last commit and was removed or replaced in the current version",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:A comment automatically added by Git to explain the change",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "A comment automatically added by Git to explain the change",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:A file that was deleted entirely from the repository",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "A file that was deleted entirely from the repository",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

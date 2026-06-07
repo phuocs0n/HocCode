@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/merge-sort?page=2",
+  "title": "How do Divide-And-Conquer Algorithms Work?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "How do Divide-And-Conquer Algorithms Work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The divide-and-conquer approach involves three main steps:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Divide: Divide the given problem into smaller subproblems (mostly using recursion).",
+        "Conquer: Solve the smaller subproblems recursively. If the subproblem is small enough, solve it directly using a base case.",
+        "Combine: Combine the solutions of the subproblems that are part of the recursive process to solve the actual problem."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will learn how divide-and-conquer is used in merge sort with the help of images."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

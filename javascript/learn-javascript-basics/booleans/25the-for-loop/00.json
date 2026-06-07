@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-for-loop?page=1",
+  "title": "Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "Just like the while loop, you'll explore another type of loop in this lesson: the for loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "While both loops execute code repeatedly, the for loop is particularly useful when the number of iterations is known in advance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider a scenario where you need to print numbers from 1 to 5. You know:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The loop starts at 1",
+        "It stops at 5",
+        "The value increments by 1 in each iteration"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "In such cases, the for loop is the ideal choice because it allows you to define all these conditions in a single statement."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see an example on the next page."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

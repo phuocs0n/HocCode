@@ -1,0 +1,50 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=2",
+  "title": "Converting to Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Converting to Number"
+    },
+    {
+      "type": "paragraph",
+      "content": "To convert data from other types to numbers, you can use the Number() function. Here's an example:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let stringNumber = \"15\";\n2\n3// Convert string to number\n4let number = Number(stringNumber);\n5\n6console.log(number);    // Output: 15"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this code, the Number() function takes a string and converts it into its numeric equivalent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes, converting to numbers isn't enough. You might need to ensure the result is either an integer or a float. Let's take a look at how you can achieve that next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

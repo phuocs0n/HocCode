@@ -1,0 +1,63 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/header-menu?page=5",
+  "title": "When Multiple Things Need the Same Style",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: CSS Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "When Multiple Things Need the Same Style"
+    },
+    {
+      "type": "paragraph",
+      "content": "Another moment that comes up constantly:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"These elements belong to the same visual group. I don't want to repeat myself.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of writing multiple rules, developers group selectors."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<header>\n2  <h1>Learning HTML & CSS</h1>\n3  <nav>\n4    <ul>\n5      <li>Home</li>\n6      <li>Lessons</li>\n7      <li>Resources</li>\n8    </ul>\n9  </nav>\n10</header>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1header h1,\n2header li {\n3  color: white;\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Same style. One place. If the design changes later, there's only one rule to update."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's not just cleaner — it's how CSS stays maintainable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

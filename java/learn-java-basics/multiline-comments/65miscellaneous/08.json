@@ -1,0 +1,55 @@
+{
+  "index": 8,
+  "url": "https://app.programiz.pro/course/learn-java-basics/miscellaneous?page=6",
+  "title": "Addition of Integer and Character",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Addition of Integer and Character"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        char alphabet = 'a';\n5        \n6        char a = 'r';\n7        int b = 43;\n8        \n9        int sum = a + b;\n10        System.out.println(sum);\n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "157"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are adding the character 'r' with the integer 43. You can see we get the output 157."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because the ASCII value of 'r' is 114, so 114 + 43 is 157."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,53 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/sql-views?page=2",
+  "title": "Scenario",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Scenario"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you work as a data analyst for an e-commerce company. One day, your manager asks:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"We need a quick report on customer demographics—just their age and country. Can you extract that from our database?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "You check the Customers table, which contains many columns, including customer_id, name, email, phone_number, age, and country."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since you only need age and country, you could write a query to select those columns every time."
+    },
+    {
+      "type": "paragraph",
+      "content": "But instead of repeating this query, you can create a view that stores just the required columns!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

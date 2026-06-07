@@ -1,0 +1,102 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=7",
+  "title": "Step 1.2: Defining the Message Methods (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 1.2: Defining the Message Methods (I)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The greet() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method displays the welcome message to the player."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void greet() {\n    cout << \"------------------------------\" << endl;\n    cout << \"\\t\\tH A N G M A N\" << endl;\n    cout << \"------------------------------\" << endl;\n    cout << \"Guess the Word\" << endl << endl;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The display_misses() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method displays the number of misses a player can make before the player loses."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void display_misses(int misses) {\n    cout << \"Remaining misses: \"<< max_misses - misses << endl << endl;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, max_misses is a global variable with a value of 6."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "const int max_misses = 6;"
+    },
+    {
+      "type": "paragraph",
+      "content": "This means that the game ends after the player makes 6 misses."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The display_incorrect_guesses() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method displays all the incorrect letters guessed by the player so far."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void display_incorrect_guesses(string incorrect) {\n    cout << \"Incorrect Guesses: \" << incorrect << endl;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "The display_user_answer() Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "This method displays the answer uncovered by the player so far"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void display_user_answer(string user_answer) {\n    cout << \"Your Answer: \";\n\n    for (char c: user_answer) {\n        cout << c << \" \";\n    }\n\n    cout << endl;\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

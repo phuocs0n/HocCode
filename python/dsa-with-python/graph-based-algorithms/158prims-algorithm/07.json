@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/dsa-with-python/prims-algorithm?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following statements about Prim's algorithm is true?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It works only for connected graphs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Graphs must be connected for Prim's Algorithm to work, but this is not the only correct option."
+    },
+    {
+      "type": "paragraph",
+      "content": "Graphs must be connected for Prim's Algorithm to work, but this is not the only correct option."
+    },
+    {
+      "type": "paragraph",
+      "content": "It works for both connected and disconnected graphs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Prim's algorithm does not work for disconnected graphs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Prim's algorithm does not work for disconnected graphs."
+    },
+    {
+      "type": "paragraph",
+      "content": "It works only for weighted graphs."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The output of the algorithm is a MST. However, this is not the only correct option."
+    },
+    {
+      "type": "paragraph",
+      "content": "The output of the algorithm is a MST. However, this is not the only correct option."
+    },
+    {
+      "type": "paragraph",
+      "content": "Both A and C"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Prim's algorithm is designed for weighted and connected graphs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Prim's algorithm is designed for weighted and connected graphs."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following statements about Prim's algorithm is true?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It works only for connected graphs.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It works only for connected graphs.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It works for both connected and disconnected graphs.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It works for both connected and disconnected graphs.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It works only for weighted graphs.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It works only for weighted graphs.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Both A and C",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Both A and C",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

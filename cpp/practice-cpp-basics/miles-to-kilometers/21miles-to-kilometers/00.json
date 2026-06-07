@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-basics/miles-to-kilometers?page=1",
+  "title": "Miles to Kilometers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Miles to Kilometers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Convert distance in miles to kilometers using the formula:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "kilometer = mile * 1.609344"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create double variables km and mile.",
+        "Get distance in Miles from the user and assign it to mile.",
+        "Convert it to Kilometers using the above formula and assign it to km.",
+        "Print the result."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input11.856"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output19.0804"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

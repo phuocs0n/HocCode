@@ -1,0 +1,82 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/html-fundamentals-for-webpage/understanding-semantic-html?page=3",
+  "title": "Looking Back at What You've Already Used",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: HTML Fundamentals for Your First Webpage"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Looking Back at What You've Already Used"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's revisit tags you already know:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Tag",
+          "What It Does"
+        ],
+        [
+          "<h1> – <h3>",
+          "Define headers/titles in decreasing order of importance"
+        ],
+        [
+          "<section>",
+          "Group related ideas"
+        ],
+        [
+          "<article>",
+          "Standalone content"
+        ],
+        [
+          "<strong>",
+          "Important information"
+        ],
+        [
+          "<em>",
+          "Emphasize ideas"
+        ],
+        [
+          "<form>",
+          "Take user input"
+        ],
+        [
+          "<table>",
+          "Structured data for comparison"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "None of these exist for styling; they exist to describe intent."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's Semantic HTML."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

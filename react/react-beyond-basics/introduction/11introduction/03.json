@@ -1,0 +1,86 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/introduction?page=4",
+  "title": "The Gap: What Real Apps Also Do",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Gap: What Real Apps Also Do"
+    },
+    {
+      "type": "paragraph",
+      "content": "Open any app you use every day — a news reader, a to-do list, a journaling tool — and you'll notice a few things."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. The URL changes as you navigate."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you're on an entry detail screen, the address bar says something like /entries/42. You can copy that URL and send it to someone, and they'll land on the same screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. The browser's back button also works."
+    },
+    {
+      "type": "paragraph",
+      "content": "Press it and you go back to where you were previously, not to a blank screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Settings persist as you move between pages."
+    },
+    {
+      "type": "paragraph",
+      "content": "The settings and themes you choose — like dark mode — aren't lost when you navigate."
+    },
+    {
+      "type": "paragraph",
+      "content": "4. The app doesn't load everything at once."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pages you haven't visited yet don't download until you actually navigate to them."
+    },
+    {
+      "type": "paragraph",
+      "content": "But here's the problem: our current app does none of these things!"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Everything lives inside one URL (/).",
+        "There's no shared state across multiple views.",
+        "State management logic is spread directly in components.",
+        "The entire bundle loads upfront."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This course bridges that gap."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

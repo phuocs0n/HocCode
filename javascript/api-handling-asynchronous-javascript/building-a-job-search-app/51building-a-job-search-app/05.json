@@ -1,0 +1,56 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/building-job-search-app?page=6",
+  "title": "Step 4: Creating the main() Function",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 4: Creating the main() Function"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, we'll connect all the pieces. A single main() function will coordinate everything in the correct order:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "async function main() {\n    let rawKeyword = prompt(\"What job are you looking for? \");\n\n    const validation = validateKeyword(rawKeyword); \n    if (!validation.valid) { \n        console.log(\"Error:\", validation.error); \n        return;\n    }\n\n    console.log(\"Searching...\");\n\n    try { \n        const jobs = await fetchJobs(validation.keyword); \n        displayJobs(jobs, validation.keyword); \n    } \n    catch (error) { \n        console.log(\"Error:\", error.message); \n    }\n}\n\nmain();"
+    },
+    {
+      "type": "paragraph",
+      "content": "The main() function is the conductor — it doesn't do the actual work. Instead, it coordinates the other functions in the correct order:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Get input: We use prompt() to ask the user what they want to search for.",
+        "Validate: We call validateKeyword() and check the result. If invalid, we show the error and exit early with return.",
+        "Provide Feedback: We log \"Searching...\" to the console so the user knows something is happening. Network requests can take time, and silence feels like broken software.",
+        "Fetch and Display: We call fetchJobs() with await because it is async. If successful, we pass the jobs to displayJobs().",
+        "Handle errors. The try...catch block catches any errors thrown by fetchJobs(). We display the error message without crashing."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

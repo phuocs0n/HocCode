@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/fetch-api?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does the previous fetch() example work as a clean promise chain?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because each async step returns a promise that connects to the next"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Returning Promises links all steps into one flow."
+    },
+    {
+      "type": "paragraph",
+      "content": "Returning Promises links all steps into one flow."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because fetch() runs synchronously"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript, fetch() is asynchronous."
+    },
+    {
+      "type": "paragraph",
+      "content": "In JavaScript, fetch() is asynchronous."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because .then() blocks execution"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": ".then() does not block execution."
+    },
+    {
+      "type": "paragraph",
+      "content": ".then() does not block execution."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because .catch() retries requests automatically"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Error handling does not imply retries."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error handling does not imply retries."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does the previous fetch() example work as a clean promise chain?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because each async step returns a promise that connects to the next",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because each async step returns a promise that connects to the next",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because fetch() runs synchronously",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because fetch() runs synchronously",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because .then() blocks execution",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because .then() blocks execution",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because .catch() retries requests automatically",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because .catch() retries requests automatically",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

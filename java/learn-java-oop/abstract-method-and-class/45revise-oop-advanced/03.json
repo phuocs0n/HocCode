@@ -1,0 +1,119 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-java-oop/revise-oop-advanced?page=4",
+  "title": "Compute the Area of Circle using Encapsulation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Compute the Area of Circle using Encapsulation"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will compute the area of a circle using the concepts of encapsulation. Here, we will use the following formula."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "Area of a circle = 3. 14 * radius * radius"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "From the formula, we know that we need the radius to calculate the area. Here, we will be using the private field radius, so that it cannot be directly modified from the outer class."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Area {\n    private double radius;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "We will then use the setter and getter method to modify and access the value of radius from outside."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// setter method\npublic void setRadius(double radius) {\n    \n}"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// getter method\npublic double getRadius()\n\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "However, inside the setter method, we will use the condition to prevent radius from being negative."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "public void setRadius(double radius) {\n\n    if (radius > 0) {\n        this.radius = radius;\n    }\n    else {\n        System.out.println(\"Radius is negative\");\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, this code ensures that radius can't be negative."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's complete this program."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Area {\n4\n5    private double radius;\n6\n7    // setter method\n8    public void setRadius(double radius) {\n9        \n10        if (radius > 0) {\n11            this.radius = radius;\n12        }\n13        else {\n14            System.out.println(\"Radius is negative\");\n15        }\n16    }\n17\n18    // getter method\n19    public double getRadius() {\n20        return this.radius;\n21    }\n22}\n23\n24class Main {\n25\n26    public static void main(String[] args) {\n27\n28        // object of Area class\n29        Area area = new Area();\n30        \n31        // get radius input\n32        System.out.println(\"Enter the value of radius:\");\n33        Scanner input = new Scanner(System.in);\n34        double radius = input.nextDouble();\n35        \n36        // set value of private radius using setter\n37        area.setRadius(radius);\n38\n39        // access the value of radius and compute the area\n40        double circleArea = 3.14 * area.getRadius() * area.getRadius();\n41        System.out.println(\"Area of Circle: \" + circleArea);\n42    }\n43}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the value of radius:\n8\nArea of Circle: 200.96"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter the value of radius:\n-8\nRadius is negative\nArea of Circle: 0.0"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program only assigns the value to radius, if it is not negative. Otherwise, the default value of double 0.0 will be assigned to radius. This way we can control the program by not letting users enter negative values."
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

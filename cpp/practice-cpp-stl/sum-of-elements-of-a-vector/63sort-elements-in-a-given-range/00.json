@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-cpp-stl/sort-elements-in-given-range?page=1",
+  "title": "Sort Elements in a Given Range",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C++ STL"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Sort Elements in a Given Range"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Write a program to sort vector elements in a given range."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get two integer inputs from the user and store them in the index1 and index2 variables.",
+        "Initialize an integer vector called score with the elements 66, 32, 89, 100, 97, 54, 21, and 15.",
+        "Print the vector.",
+        "Use the sort() algorithm to sort the vector in the range of index1 and index2 (inclusive).",
+        "Print the vector again."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Hint: The user input is assumed to be 1-based."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input2\n5"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output66, 32, 89, 100, 97, 54, 21, 15, \n66, 32, 89, 97, 100, 54, 21, 15,"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

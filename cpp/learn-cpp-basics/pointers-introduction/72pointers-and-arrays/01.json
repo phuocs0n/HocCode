@@ -1,0 +1,107 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/pointers-arrays?page=1",
+  "title": "Memory Address and Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Memory Address and Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we can use pointers to work with arrays. But before that, let's revise the working of an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "An array is a collection of multiple data of the same type. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6\n7    // array of numbers\n8    int numbers[5] = {1, 2, 3, 4, 5};\n9\n10\n11    // print array\n12    cout << \"Array Elements: \";\n13\n14    for (int i = 0; i < 5; ++i) {\n15        cout << numbers[i] << \", \";\n16    }\n17\n18    return 0;\n19}\n20\n21// Output:\n22// Array Elements: 1, 2, 3, 4, 5,"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have created an array of numbers. We then used a for loop to print the array elements."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's try to print addresses of array elements."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    // array of numbers\n7    int numbers[5] = {1, 2, 3, 4, 5};\n8\n9    // print the addresses of array elements\n10    for (int i = 0; i < 5; ++i) {\n11        cout << &numbers[i] << endl;\n12    }\n13  \n14    cout << \"Address of the array: \" << numbers;\n15  \n16    return 0;\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "0x7ffd9ab98350\n0x7ffd9ab98354\n0x7ffd9ab98358\n0x7ffd9ab9835c\n0x7ffd9ab98360\nAddress of the array: 0x7ffd9ab98350"
+    },
+    {
+      "type": "paragraph",
+      "content": "Things to notice"
+    },
+    {
+      "type": "paragraph",
+      "content": "1. The difference between the addresses of two array elements is 4."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// the last two digits of this address is 50\n0x7ffd9ab98350\n\n// the last two digits of the next address is 54\n0x7ffd9ab98354"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because our array is of type int and the size of int is 4 bytes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, each array element is taking 4 bytes of memory storage."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. The address of the first array element, 1, and the address of the array, numbers, is the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is because the array address always points to the first element of the array."
+    },
+    {
+      "type": "image",
+      "alt": "Array address points to the first element of the array",
+      "src": "data:image/png;base64,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"
+    },
+    {
+      "type": "image",
+      "alt": "Idea Emoji",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOQSURBVHgBtZbPb9xEFMffzNjx/sruJoqSJUpJS0EiFFWkgOCENuIAhx75H7jAASQqFFXCXLgBFUhccuDEBS5ISESgoAABVSBUipoEKoSESts03Xh3vd61PWPPDG+8bcQhjRdon/Q0s09+34/fPD97Ae6xkbwL9OcvO+1G4bTF7GcVWCcppQxAXtAqXe+0o7VjS+e6/xnQvXTmCYuWPmClyUWwaxbQAmZgioxAp32pQu9iEvuvTpx6+9t/DQgunVmg9vgqqx6fJ84MEFoFAzD6WsUI6ILiN0EOruwmg+D5icW3Lh6kQw8Kaq0JsOJ79sTD86z8ELDCUWCleQwdQcb9uB7F9TjGHgBWfXDGLhRXNjfdsZEB7Z+Xn7bL00ukMAfUnkKvYQVlIKwIFJ1YVaAOxp37gDmzQMuNx+fStDkyYMwZO02LDUasOoqW8CAdBFh4PNhfdEJwTzHGEGRPYkXT+NN+Ias8D6C10bJPEnPXBKumFNfbl+l/OGohCExFrIJb58TWJ2/a+RV87TJKrdK+oNECNXQ9XPWt34Sg76/gnFiczK8AvgGltboM+KSATtAlVpVme63QJcaUwD1HF0OX3JR+Ha62ZS6AuK7Sif5McQ+UHKDH+0KgDTREQIQrzoIMQaU95HVA8ORjsuSm+RWglR6ZWksj7xctWvi891AoGt6xFpkrMwdJmM2CFnuQhu1fU6I+PUjrQAAhLyY8CF9KB1d8nXoo5Gd3ayZ46AOMdRDSwmKuRZBEr0w/6vZHBhibfOzsdzLunZXRX9iCdlaJksNj0UmQASTfwVZ136ksvP7FnXTuCDBWqcGHMmr9JHkHVCaKkAT7kvRBCnP2/lank7x7mMahANJ4bYDde18nCOA+eoCiQQbQAiE8/GjuqWXvMA0LcoyL9IKNwjhIOIFiOBqm2WkAIuFrefm5gMixbnBf9MbKcZXQJHv94rcA4n4omWN7efk074K5hWXv+8vjfmidgrTwJNBaE2D8GdjamaE//jab/m9AVgVXu9eu70G7G4IfBHB15wb4A/HHFBRbebm5R2QsjqW329qDMI5hol6HHkIs5sCX29v8rgDAFBELkKpvmg6JEBBGnLmuq+8KYM/zV0IumvVatd7udCCKIlmtVFbg1rv2MGMwgn21vv77eLXy5/nzPzy3ub0lbra8NxqzR86trq7KvNzcvy23rdlsWkqpY/jVsjc2NrZHzfsbqqLpy8q8XzcAAAAASUVORK5CYII="
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

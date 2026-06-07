@@ -1,0 +1,140 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-python-basics/miscellaneous?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "n = 10\nif n == 10 and 100:\n    print(\"Hello\")"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 10 and 100 evaluates to True because both n == 10 and 100 evaluate to True (non-zero numbers always evaluate to True). Thus, the print(\"Hello\") statement is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 10 and 100 evaluates to True because both n == 10 and 100 evaluate to True (non-zero numbers always evaluate to True). Thus, the print(\"Hello\") statement is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "(no output)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 10 and 100 evaluates to True because both n == 10 and 100 evaluate to True (non-zero numbers always evaluate to True). Hence, the body of the if statement is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, n == 10 and 100 evaluates to True because both n == 10 and 100 evaluate to True (non-zero numbers always evaluate to True). Hence, the body of the if statement is executed."
+    },
+    {
+      "type": "paragraph",
+      "content": "(error code)"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "The program is valid and will not cause any errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hello"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed \"Hello\" only once if the test condition is True."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have printed \"Hello\" only once if the test condition is True."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Hello",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:(no output)",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "(no output)",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:(error code)",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "(error code)",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:HelloHello",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "HelloHello",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

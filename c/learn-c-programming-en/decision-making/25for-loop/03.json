@@ -1,0 +1,59 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/for-loop?page=4",
+  "title": "Example: for Loop (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: for Loop (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the same code written using for loop."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  for (int count = 1; count <= 3; count++) {\n6    printf(\"I am inside the for loop.\\n\");\n7  }\n8  \n9  return 0;\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "I am inside the for loop.\nI am inside the for loop.\nI am inside the for loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "The output using both loops is the same, but the code for the for loop is shorter and clearer to read."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how these two codes compare in detail next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

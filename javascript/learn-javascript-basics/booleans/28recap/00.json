@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/revise?page=1",
+  "title": "Recap (I)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Recap (I)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The if Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Instead of simply executing code sequentially, you can use the if statement to perform different tasks based on specified conditions."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let carColor = \"black\";\n2\n3if (carColor == \"white\") {\n4    console.log(\"You have a white car.\");\n5} else {\n6    console.log(\"You do not have a white car.\");\n7}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The while Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use loops to execute code repeatedly. The while loop repeats a block of code as long as its condition evaluates to true."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Program to take input until user enters a positive integer\n2let number = parseInt(prompt(\"Enter an integer:\"));\n3\n4while (number <= 0) {\n5    number = parseInt(prompt(\"Enter an integer:\"));\n6}\n7\n8console.log(`Positive number you entered: ${number}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The for Loop"
+    },
+    {
+      "type": "paragraph",
+      "content": "The for loop is especially handy when the number of iterations is known in advance or iterating through arrays."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Loop through numbers from 1 to 5\n2for (let i = 1; i <= 5; i++) {\n3    console.log(i);\n4}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you want a quick recap of when to use which loop: while or for, refer to this article."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

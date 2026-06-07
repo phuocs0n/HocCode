@@ -1,0 +1,136 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-throw-statement?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What will be the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let num = -5;\n\ntry {\n    if (num < 0) {\n        throw new Error(\"Negative numbers not allowed\");\n    }\n    console.log(`Valid number: ${num}`);\n} catch (error) {\n    console.log(`Error caught: ${error.message}`);\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Valid number: -5"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The try block throws an error when if number is negative, so console.log(`Valid number: ${num}`); doesn't execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "The try block throws an error when if number is negative, so console.log(`Valid number: ${num}`); doesn't execute."
+    },
+    {
+      "type": "paragraph",
+      "content": "Error caught: Negative numbers not allowed"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since num is -5, the throw statement executes, and the error is caught in the catch block, printing \"Error caught: Negative numbers not allowed\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since num is -5, the throw statement executes, and the error is caught in the catch block, printing \"Error caught: Negative numbers not allowed\"."
+    },
+    {
+      "type": "paragraph",
+      "content": "undefined"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The try block either displays a valid string or throws an error, but it does not return undefined in any case."
+    },
+    {
+      "type": "paragraph",
+      "content": "The try block either displays a valid string or throws an error, but it does not return undefined in any case."
+    },
+    {
+      "type": "paragraph",
+      "content": "SyntaxError"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no syntax error in the given code."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is no syntax error in the given code."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What will be the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Valid number: -5",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Valid number: -5",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Error caught: Negative numbers not allowed",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Error caught: Negative numbers not allowed",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:SyntaxError",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "SyntaxError",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

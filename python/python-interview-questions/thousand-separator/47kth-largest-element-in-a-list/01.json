@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/kth-largest-element-in-list?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem, we can use recursive function to find the largest element. We can also sort the list and find the element at the required index to find the largest element."
+    },
+    {
+      "type": "paragraph",
+      "content": "One more approach would be to remove the max element k-1 times and then the remaining max element is kth largest element in a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "We will use the third approach to find kth largest element in a list."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are the steps to solve this problem:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "First, we need to find the number of times we need to remove the max element from the list. So, loop_timer would be k-1 times.",
+        "Then, a list may contain duplicate elements. We need to remove them as well for more accurate results. We can do so by converting the list to a set using the set() function.",
+        "Again, we need to convert the set to a list using the list() function so that we can find elements by its index.",
+        "Now, run the loop till the loop_timer is 0 and in each loop, find the largest element and remove it from the list. We should remember to decrease the loop_timer by 1 in each iteration.",
+        "After removing the largest element for k-1 times, the remaining largest number in the list is the actual kth largest number in a list."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

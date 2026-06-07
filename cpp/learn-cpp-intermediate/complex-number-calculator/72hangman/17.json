@@ -1,0 +1,76 @@
+{
+  "index": 17,
+  "url": "https://app.programiz.pro/course/learn-cpp-intermediate/hangman?page=17",
+  "title": "Stage 3: Adding Artwork",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Stage 3: Adding Artwork"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have already created a fully functional game of hangman. But it still looks dull without the graphics depicting a hanging man."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's add a text-based artwork to make our game more fun and interactive."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4void display_misses(int misses) {\n5\n6    // add the body parts of the Hangman\n7    // according to the number of misses\n8    switch (misses) {\n9\n10        // display an empty gallows when misses = 0\n11        case 0:\n12            cout << \"  +---+ \" << endl;\n13            cout << \"  |   | \" << endl;\n14            cout << \"      | \" << endl;\n15            cout << \"      | \" << endl;\n16            cout << \"      | \" << endl;\n17            cout << \"      | \" << endl;\n18            cout << \"=========\" << endl;\n19            break;\n20\n21        // draw the Hangman's head\n22        case 1:\n23            cout << \"  +---+ \" << endl;\n24            cout << \"  |   | \" << endl;\n25            cout << \"  O   | \" << endl;\n26            cout << \"      | \" << endl;\n27            cout << \"      | \" << endl;\n28            cout << \"      | \" << endl;\n29            cout << \"=========\" << endl;\n30            break;\n31\n32        // draw the Hangman's torso\n33        case 2:\n34            cout << \"  +---+ \" << endl;\n35            cout << \"  |   | \" << endl;\n36            cout << \"  O   | \" << endl;\n37            cout << \"  |   | \" << endl;\n38            cout << \"      | \" << endl;\n39            cout << \"      | \" << endl;\n40            cout << \"=========\" << endl;\n41            break;\n42\n43        // draw the Hangman's right arm\n44        case 3:\n45            cout << \"  +---+ \" << endl;\n46            cout << \"  |   | \" << endl;\n47            cout << \"  O   | \" << endl;\n48            cout << \" /|   | \" << endl;\n49            cout << \"      | \" << endl;\n50            cout << \"      | \" << endl;\n51            cout << \"=========\" << endl;\n52            break;\n53\n54        // draw the Hangman's left arm\n55        case 4:\n56            cout << \"  +---+ \" << endl;\n57            cout << \"  |   | \" << endl;\n58            cout << \"  O   | \" << endl;\n59            cout << \" /|\\\\  | \" << endl;\n60            cout << \"      | \" << endl;\n61            cout << \"      | \" << endl;\n62            cout << \"=========\" << endl;\n63            break;\n64\n65        // draw the Hangman's left leg\n66        case 5:\n67            cout << \"  +---+ \" << endl;\n68            cout << \"  |   | \" << endl;\n69            cout << \"  O   | \" << endl;\n70            cout << \" /|\\\\  | \" << endl;\n71            cout << \" /    | \" << endl;\n72            cout << \"      | \" << endl;\n73            cout << \"=========\" << endl;\n74            break;\n75\n76        // draw the Hangman's right leg\n77        case 6:\n78            cout << \"  +---+ \" << endl;\n79            cout << \"  |   | \" << endl;\n80            cout << \"  O   | \" << endl;\n81            cout << \" /|\\\\  | \" << endl;\n82            cout << \" / \\\\  | \" << endl;\n83            cout << \"      | \" << endl;\n84            cout << \"=========\" << endl;\n85            break;\n86    }\n87}\n88\n89int main() {\n90\n91    int misses;\n92    \n93    cout << \"Enter number of misses: \";\n94    cin >> misses;\n95\n96    display_misses(misses);\n97\n98    return 0;\n99}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have modified the display_misses() function to draw an artwork based on the number of misses."
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter number of misses: 4\n+---+ \n  |   | \n  O   | \n /|\\  | \n      | \n      | \n========="
+    },
+    {
+      "type": "paragraph",
+      "content": "Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter number of misses: 6\n+---+ \n  |   | \n  O   | \n /|\\  | \n / \\  | \n      | \n========="
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice that the figure is complete at 6 misses, which is the maximum number of misses a player can make."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's complete our project by adding this feature to the main code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

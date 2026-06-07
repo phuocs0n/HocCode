@@ -1,0 +1,83 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/python-interview-questions/python-iterators?page=1",
+  "title": "What are Python Iterators?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What are Python Iterators?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Python iterators are objects that allow us to iterate over the iterables (lists, sets, tuples, etc.) and get data one at a time."
+    },
+    {
+      "type": "paragraph",
+      "content": "Iterators provide __iter__() and __next__() methods with which we can create our own custom loops."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "__iter__() - returns an iterator object",
+        "__next__() - accesses the next data from an iterable"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1class Numbers:\n2    def __iter__(self):\n3        self.num = 1\n4        return self\n5\n6    def __next__(self):\n7        if self.num <= 5:\n8            temp = self.num\n9            self.num += 1\n10            return temp\n11        else:\n12            raise StopIteration\n13\n14\n15obj = iter(Numbers())\n16\n17for o in obj:\n18    print(o)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we've created a class, and inside the class, there are two methods __iter__() and __next__()."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. __iter__() Method"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "returns an iterator object",
+        "is called when we create an object of iterable"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "2. __next__() Method"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "returns the next value starting from num = 1 to 5",
+        "if num is greater than 5, the StopIteration exception will stop the execution."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, we can successfully implement a loop using an iterator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

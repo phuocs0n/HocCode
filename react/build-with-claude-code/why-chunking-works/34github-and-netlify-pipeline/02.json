@@ -1,0 +1,58 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/github-netlify-pipeline?page=3",
+  "title": "The Pre-Build Checklist",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Rapid Build With Claude Code"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Pre-Build Checklist"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before Chunk 1 of the SpeedBlip Claude Code build ran, every item on this list was confirmed:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "GitHub repository created and initial Vite scaffold committed",
+        "Netlify site created and connected to the GitHub repository",
+        "Build command (yarn build) and publish directory (dist) configured in Netlify",
+        "Claude Code installed and authenticated",
+        "Repository cloned locally with git clone",
+        "yarn install run to install initial dependencies",
+        "tailwind.config.ts configured with full brand token extension",
+        "tsconfig.json set to TypeScript strict mode",
+        "Path aliases (@/) configured in both vite.config.ts and tsconfig.json",
+        "ESLint and Prettier installed and configured",
+        "Folder structure (src/components/ui/, src/hooks/, etc.) created manually",
+        "First test deploy: git push origin main confirmed a successful Netlify deploy"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Only after this checklist was complete did Chunk 1 run."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

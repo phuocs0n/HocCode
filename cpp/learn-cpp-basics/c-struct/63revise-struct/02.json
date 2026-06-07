@@ -1,0 +1,51 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-struct?page=3",
+  "title": "Store Information of a Student using Struct",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Store Information of a Student using Struct"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this example, we will learn to store information about students by using structures."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4struct Student {\n5    string name;\n6    int roll;\n7    double marks;\n8} student1;\n9\n10int main() {\n11\n12    // get information of for the student\n13    cout << \"Enter name: \";\n14    getline(cin, student1.name);\n15\n16    cout << \"Enter roll no: \";\n17    cin >> student1.roll;\n18\n19    cout << \"Enter marks: \";\n20    cin >> student1.marks;\n21\n22\n23    // print student info\n24    cout << \"Name: \" << student1.name << endl;\n25    cout << \"Roll: \" << student1.roll << endl;\n26    cout << \"Marks: \" << student1.marks;\n27\n28    return 0;\n29}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter name: John Connor\nEnter roll: 213\nEnter marks: 83\nName: John\nRoll: 213\nMarks: 83"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

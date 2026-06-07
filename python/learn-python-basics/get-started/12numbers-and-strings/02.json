@@ -1,0 +1,89 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-python-basics/numbers-strings?page=3",
+  "title": "Be Careful When Using Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Be Careful When Using Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you do not wrap text inside quotation marks, it is not recognized as a string. For example:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(Hey there)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "ERROR!  File \"<string>\", line 1\n    print(Hey there)\n          ^^^^^^^^^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you execute this program, you will get an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is another example:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(\"Hey)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "ERROR!  File \"<string>\", line 1\n    print(\"Hey)\n          ^\nSyntaxError: unterminated string literal (detected at line 1)"
+    },
+    {
+      "type": "paragraph",
+      "content": "You will get an error here because the closing quotation mark is missing at the end of \"Hey."
+    },
+    {
+      "type": "paragraph",
+      "content": "These kinds of errors are super common when you're starting out, so don't worry — you'll get the hang of it!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ready to move on? Next, you'll look at how even tiny things — like a capital letter or an extra space — can make a big difference."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Next Lesson to continue!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

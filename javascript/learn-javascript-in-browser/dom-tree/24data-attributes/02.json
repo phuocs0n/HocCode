@@ -1,0 +1,83 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-in-browser/data-attributes?page=3",
+  "title": "get/setAttribute for Other Attributes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: JavaScript in Browser"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "get/setAttribute for Other Attributes"
+    },
+    {
+      "type": "paragraph",
+      "content": "The concept of using getAttribute() and setAttribute() can be extended to manipulate other attributes, such as class, id, style, and more."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, we've used classList.add and classList.remove for adding a class to an element so far:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>Change Page Background Color</h1>\n2<p>Select a background color for the page:</p>\n3\n4<button class=\"light-bg\">Light Yellow</button>\n5<button class=\"dark-bg\">Dark Gray</button>\n6<button class=\"blue-bg\">Light Blue</button>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    font-family: Arial, sans-serif;\n3    text-align: center;\n4    padding: 20px;\n5    color: #25265E;\n6}\n7\n8button {\n9    font-family: Arial, sans-serif;\n10    padding: 16px 20px;\n11    font-size: 16px;\n12    background-color: #007bff;\n13    border: 1px solid #ddd;\n14    border-radius: 5px;\n15    cursor: pointer;\n16    margin-top: 20px;\n17}\n18\n19button:hover {\n20    background: #0556F3;\n21    color: white;\n22}\n23\n24\n25.light-bg {\n26    background-color: lightyellow;\n27}\n28\n29.dark-bg {\n30    background-color: darkgray;\n31}\n32\n33.blue-bg {\n34    background-color: lightblue;\n35}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const buttons = document.querySelectorAll(\"button\");\n2\n3buttons.forEach(button => {\n4    button.addEventListener(\"click\", () => {\n5        // Remove all background-related classes from the body\n6        document.body.classList.remove(\"light-bg\", \"dark-bg\", \"blue-bg\");\n7        \n8        // Add the class of the clicked button to the body\n9        const colorClass = button.getAttribute('class');\n10        document.body.classList.add(colorClass);\n11    });\n12});"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's use this property to add a specific class using these functions to change the background color of the page:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<h1>Change Page Background Color</h1>\n2<p>Select a background color for the page:</p>\n3\n4<button class=\"light-bg\">Light Yellow</button>\n5<button class=\"dark-bg\">Dark Gray</button>\n6<button class=\"blue-bg\">Light Blue</button>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2    font-family: Arial, sans-serif;\n3    text-align: center;\n4    padding: 20px;\n5    color: #25265E;\n6}\n7\n8button {\n9    font-family: Arial, sans-serif;\n10    padding: 16px 20px;\n11    font-size: 16px;\n12    background-color: #007bff;\n13    border: 1px solid #ddd;\n14    border-radius: 5px;\n15    cursor: pointer;\n16    margin-top: 20px;\n17}\n18\n19button:hover {\n20    background: #0556F3;\n21    color: white;\n22}\n23\n24\n25.light-bg {\n26    background-color: lightyellow;\n27}\n28\n29.dark-bg {\n30    background-color: darkgray;\n31}\n32\n33.blue-bg {\n34    background-color: lightblue;\n35}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// Select all buttons using querySelectorAll\n2const buttons = document.querySelectorAll(\"button\");\n3\n4// Add event listeners to each button\n5buttons.forEach(button => {\n6    button.addEventListener(\"click\", () => {\n7        // Get the class of the button \n8        const colorClass = button.getAttribute('class'); \n9        \n10        // Apply the class to the body element\n11        document.body.setAttribute('class', colorClass);\n12    });\n13});"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above code, when a button is clicked, the button's class attribute is retrieved using getAttribute('class')."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using this, now we apply that class to the body element using setAttribute('class', colorClass), which changes the page's background color."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

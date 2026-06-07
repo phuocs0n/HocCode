@@ -1,0 +1,131 @@
+{
+  "levels": [
+    {
+      "title": "Getting Started",
+      "lessons": [
+        {
+          "title": "1.1Getting Started",
+          "url": "https://app.programiz.pro/course/react-query/getting-started"
+        },
+        {
+          "title": "1.2Setting Up",
+          "url": "https://app.programiz.pro/course/react-query/setting-up"
+        },
+        {
+          "title": "1.3Fetching Datas in React Query",
+          "url": "https://app.programiz.pro/course/react-query/fetching-datas-in-react-query"
+        },
+        {
+          "title": "1.4Query Keys in React Query",
+          "url": "https://app.programiz.pro/course/react-query/query-keys-in-react-query"
+        },
+        {
+          "title": "1.5staleTime in React Query",
+          "url": "https://app.programiz.pro/course/react-query/staletime-in-react-query"
+        }
+      ]
+    },
+    {
+      "title": "What is a Mutation?",
+      "lessons": [
+        {
+          "title": "2.1What is a Mutation?",
+          "url": "https://app.programiz.pro/course/react-query/what-is-mutation"
+        },
+        {
+          "title": "2.2Creating a Task",
+          "url": "https://app.programiz.pro/course/react-query/creating-task"
+        },
+        {
+          "title": "2.3Deleting a Task",
+          "url": "https://app.programiz.pro/course/react-query/deleting-task"
+        },
+        {
+          "title": "2.4Updating a Task",
+          "url": "https://app.programiz.pro/course/react-query/updating-task"
+        },
+        {
+          "title": "2.5Putting It All Together",
+          "url": "https://app.programiz.pro/course/react-query/putting-all-together"
+        }
+      ]
+    },
+    {
+      "title": "Why Query Key Design Matters",
+      "lessons": [
+        {
+          "title": "3.1Why Query Key Design Matters",
+          "url": "https://app.programiz.pro/course/react-query/why-query-key-design-matters"
+        },
+        {
+          "title": "3.2Building a Query Key Factory",
+          "url": "https://app.programiz.pro/course/react-query/building-query-key-factory"
+        },
+        {
+          "title": "3.3Filtering Tasks with Keys",
+          "url": "https://app.programiz.pro/course/react-query/filtering-tasks-with-keys"
+        }
+      ]
+    },
+    {
+      "title": "What is an Optimistic Update?",
+      "lessons": [
+        {
+          "title": "4.1What is an Optimistic Update?",
+          "url": "https://app.programiz.pro/course/react-query/what-is-optimistic-update"
+        },
+        {
+          "title": "4.2Making Status Change Feel Instant",
+          "url": "https://app.programiz.pro/course/react-query/making-status-change-feel-instant"
+        },
+        {
+          "title": "4.3Optimistic Delete",
+          "url": "https://app.programiz.pro/course/react-query/optimistic-delete"
+        },
+        {
+          "title": "4.4Handling Race Conditions",
+          "url": "https://app.programiz.pro/course/react-query/handling-race-conditions"
+        }
+      ]
+    },
+    {
+      "title": "Prefetching on Hover",
+      "lessons": [
+        {
+          "title": "5.1Prefetching on Hover",
+          "url": "https://app.programiz.pro/course/react-query/prefetching-on-hover"
+        },
+        {
+          "title": "5.2The enabled Flag",
+          "url": "https://app.programiz.pro/course/react-query/enabled-flag"
+        },
+        {
+          "title": "5.3The select Option",
+          "url": "https://app.programiz.pro/course/react-query/select-option"
+        },
+        {
+          "title": "5.4Global Error Handling",
+          "url": "https://app.programiz.pro/course/react-query/global-error-handling"
+        }
+      ]
+    },
+    {
+      "title": "Look How Far You've Come",
+      "lessons": [
+        {
+          "title": "6.1Look How Far You've Come",
+          "url": "https://app.programiz.pro/course/react-query/look-how-far-youve-come"
+        },
+        {
+          "title": "6.2The Complete App",
+          "url": "https://app.programiz.pro/course/react-query/complete-app"
+        }
+      ]
+    }
+  ],
+  "_debug": {
+    "totalLinks": 23,
+    "sections": 6,
+    "container": "main-content"
+  }
+}

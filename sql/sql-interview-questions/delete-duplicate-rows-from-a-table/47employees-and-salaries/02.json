@@ -1,0 +1,129 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/sql-interview-questions/employees-salaries?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: SQL Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are given two tables: Employees and Salaries."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Employees table has the columns emp_id, first_name, and last_name."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Salaries table has the columns emp_id and salary."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to write an SQL query to retrieve the emp_id, first_name, last_name, and a column called salary_category which should display:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "High for salaries greater than or equal to 5000.",
+        "Medium for salaries between 4000 and 4999.",
+        "Low for salaries below 4000."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The above problem has an elegant solution."
+    },
+    {
+      "type": "paragraph",
+      "content": "We start by selecting the columns we want to retrieve: emp_id, first_name, and last_name, along with the new column with the alias salary_category."
+    },
+    {
+      "type": "paragraph",
+      "content": "To classify the salary category, we use a CASE statement:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If the salary (s.salary) is greater than or equal to 5000, we label it High."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If the salary is between 4000 and 4999 (inclusive), we label it Medium."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "For any salary below 4000, we label it Low.",
+        "Finally, we give the resulting column the alias salary_category."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Since we need information from the Employees and Salaries tables, we use an INNER JOIN to combine the data."
+    },
+    {
+      "type": "paragraph",
+      "content": "The joining condition is based on the emp_id column, which is common to both tables."
+    },
+    {
+      "type": "paragraph",
+      "content": "The result set will include the selected columns as shown below:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "emp_id",
+          "first_name",
+          "last_name",
+          "salary_category"
+        ],
+        [
+          "1",
+          "Jaden",
+          "Smith",
+          "Medium"
+        ],
+        [
+          "2",
+          "Marshall",
+          "Mathers",
+          "High"
+        ],
+        [
+          "3",
+          "Jermaine",
+          "Cole",
+          "Low"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

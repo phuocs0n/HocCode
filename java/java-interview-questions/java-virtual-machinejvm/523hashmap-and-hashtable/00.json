@@ -1,0 +1,91 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/java-interview-questions/hashmap-hashtable?page=1",
+  "title": "Can you explain the difference between a HashMap and a Hashtable in Java?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Can you explain the difference between a HashMap and a Hashtable in Java?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The difference between HashMap and HashTable are as follows:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Synchronization"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashTable is synchornized which makes it thread-safe. We can share HashTable between multiple threads in our application."
+    },
+    {
+      "type": "paragraph",
+      "content": "Contrary to HashTable, HashMap is not synchronized and is not thread-safe by default. We cannot share HashMap between multiple threads in our application without synchornization code. We can use Collections.synchronizedMap() to make a thread-safe version of a HashMap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speed"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap is not synchronized, therefore it's faster and uses less memory than Hashtable. Generally, unsynchronized objects are faster than synchronized ones in a single threaded application."
+    },
+    {
+      "type": "paragraph",
+      "content": "Null Values"
+    },
+    {
+      "type": "paragraph",
+      "content": "HashMap allows one null key and any number of null values, while Hashtable does not allow null keys or values."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let use see an example of using null values in HashMap."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// create a HashMap \nMap<String, Integer> hashMap = new HashMap<>();\n        \n// put a null key into the HashMap\nhashMap.put(null, 2);\n        \n        \n// put a null value into the HashMap\nhashMap.put(\"test\", null);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The above code would not create any problem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's see an example of using null values in HashTable."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "// create HashTable\nMap<String, Integer> hashTable = new Hashtable<>();\n\n// try to put a null key and value into the Hashtable\n// this will throw a NullPointerException\nhashTable.put(null, 2);\nhashTable.put(\"text\", null);"
+    },
+    {
+      "type": "paragraph",
+      "content": "The put() method allows the null key and null value to be added to the HashMap, but it throws a NullPointerException when attempting to add them to the Hashtable."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

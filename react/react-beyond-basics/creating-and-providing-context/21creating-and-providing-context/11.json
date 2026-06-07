@@ -1,0 +1,131 @@
+{
+  "index": 11,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/creating-providing-context?page=11",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does the value prop on ThemeContext.Provider control?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "It sets the default value used when createContext() is first called"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The default value in createContext() only applies when there is no Provider above the consumer."
+    },
+    {
+      "type": "paragraph",
+      "content": "The default value in createContext() only applies when there is no Provider above the consumer."
+    },
+    {
+      "type": "paragraph",
+      "content": "It defines what any useContext(ThemeContext) call in the tree receives"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The value prop is the data contract. Whatever you put there is exactly what consumers get back."
+    },
+    {
+      "type": "paragraph",
+      "content": "The value prop is the data contract. Whatever you put there is exactly what consumers get back."
+    },
+    {
+      "type": "paragraph",
+      "content": "It determines which components are allowed to consume the context"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Any component inside the Provider can consume the context."
+    },
+    {
+      "type": "paragraph",
+      "content": "Any component inside the Provider can consume the context."
+    },
+    {
+      "type": "paragraph",
+      "content": "It prevents the Provider from re-rendering when state changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Changing state in the Provider causes a re-render, which updates the value for all consumers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Changing state in the Provider causes a re-render, which updates the value for all consumers."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does the value prop on ThemeContext.Provider control?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:It sets the default value used when createContext() is first called",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "It sets the default value used when createContext() is first called",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:It defines what any useContext(ThemeContext) call in the tree receives",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "It defines what any useContext(ThemeContext) call in the tree receives",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:It determines which components are allowed to consume the context",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "It determines which components are allowed to consume the context",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:It prevents the Provider from re-rendering when state changes",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "It prevents the Provider from re-rendering when state changes",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

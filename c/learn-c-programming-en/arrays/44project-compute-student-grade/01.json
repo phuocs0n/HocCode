@@ -1,0 +1,68 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/project-compute-student-grade?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "The project has two distinct tasks:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "calculating average marks",
+        "calculating grade"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To accomplish these tasks, we will create two functions."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. The getAverageScore() function"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function will take an array as the argument, compute the average score, and return it."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. The computeGrade() function"
+    },
+    {
+      "type": "paragraph",
+      "content": "This function will take the average score as an argument, compute the grade and return it."
+    },
+    {
+      "type": "paragraph",
+      "content": "With these things in mind, let's create our first function."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

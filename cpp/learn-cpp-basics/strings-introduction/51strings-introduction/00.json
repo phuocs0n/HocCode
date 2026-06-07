@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/strings-introduction?page=1",
+  "title": "C++ Strings",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "C++ Strings"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have already used strings many times in our program. Remember the \"Hello World\" program?"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    cout << \"Hello World\";\n7\n8    return 0;\n9}\n10\n11// Output: Hello World"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, \"Hello World\" is an example of a string. We use double quotes to represent strings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Strings are a collection of characters that are used to represent textual data in programming. For example, the string \"Hello World\" consists of the characters: 'H', 'e', 'l', ..."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now that we have a basic understanding of strings, let's see how we can create them in C++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

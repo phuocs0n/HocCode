@@ -1,0 +1,67 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/variable-scope?page=2",
+  "title": "Local Variables",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Local Variables"
+    },
+    {
+      "type": "paragraph",
+      "content": "Local variables are the variables declared inside a function. They have a local scope and are accessible only within that function."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1function getName() {\n2    // local variable\n3    var name = \"John\";\n4\n5    console.log(`Local: ${name}`);\n6}\n7\n8// function call\n9getName();\n10\n11// outside the getName() function\n12console.log(`Global: ${name}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Local: John\nERROR!console.log(`Global: ${name}`);\n... ... ...\nReferenceError: name is not defined"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the name variable is local to the getName() function. So, it can only be accessed within that function."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's why we get an error when we try to access it outside the getName() function."
+    },
+    {
+      "type": "paragraph",
+      "content": "To fix this issue, we can make the name variable global."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,135 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-css/media-queries?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following media query syntax is correct?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "body {\n    @media (min-width: 600px) {\n        background-color: lightblue;\n    }\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSS rulesets must be defined inside the @media keyword, not outside."
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSS rulesets must be defined inside the @media keyword, not outside."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "media (min-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using only media is incorrect as it's missing the @ symbol. Instead, the correct keyword is @media."
+    },
+    {
+      "type": "paragraph",
+      "content": "Using only media is incorrect as it's missing the @ symbol. Instead, the correct keyword is @media."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "@media (min-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The @media keyword indicates the start of a media query, followed by the CSS rulesets that define the changes to take place in the given condition."
+    },
+    {
+      "type": "paragraph",
+      "content": "The @media keyword indicates the start of a media query, followed by the CSS rulesets that define the changes to take place in the given condition."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "@media {\n    body {\n        background-color: lightblue;\n    }\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A media query is started, but no condition is provided to specify when the CSS rules should apply."
+    },
+    {
+      "type": "paragraph",
+      "content": "A media query is started, but no condition is provided to specify when the CSS rules should apply."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following media query syntax is correct?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:body {\n    @media (min-width: 600px) {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "body {\n    @media (min-width: 600px) {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:media (min-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "media (min-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:@media (min-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "@media (min-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:@media {\n    body {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "@media {\n    body {\n        background-color: lightblue;\n    }\n}",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

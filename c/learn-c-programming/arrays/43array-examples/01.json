@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array-examples?page=2",
+  "title": "Tìm phần tử lớn nhất trong mảng",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Tìm phần tử lớn nhất trong mảng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trong ví dụ này, chúng ta sẽ in phần tử lớn nhất của mảng."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    int numbers[5] = {55, 64, 75, 80, 65};\n6\n7    // Assign the first value of the array to the largest variable\n8    int largest = numbers[0];\n9\n10    // Iterate elements of the array\n11    for (int i = 1; i < 5; ++i) {\n12      if (largest < numbers[i]) {\n13        largest = numbers[i];\n14      }\n15    }\n16\n17    printf(\"Largest: %d\", largest);\n18\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Largest: 80"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ hiểu cách mã này hoạt động."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/project-rock-paper-scissors?page=11",
+  "title": "Complete Code: Rock, Paper, Scissors",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Complete Code: Rock, Paper, Scissors"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's the updated code:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const getComputerChoice = () => {\n2    const options = [\"rock\", \"paper\", \"scissors\"];\n3    let choice = Math.floor(Math.random() * 3);\n4    return options[choice];\n5};\n6\n7const getUserChoice = () => {\n8    while (true) {\n9        let choice = prompt(\"Enter your choice: \");\n10        choice = choice.toLowerCase();\n11        if ([\"rock\", \"paper\", \"scissors\"].includes(choice)) {\n12            return choice;\n13        } else {\n14            console.log(\"Invalid choice, please try again.\");\n15        }\n16    }\n17};\n18\n19const determineOutcome = (computerChoice, userChoice) => {\n20    if (computerChoice === userChoice) {\n21        return \"Draw\";\n22    } else if (computerChoice === \"rock\" && userChoice === \"paper\") {\n23        return \"Win\";\n24    } else if (computerChoice === \"paper\" && userChoice === \"scissors\") {\n25        return \"Win\";\n26    } else if (computerChoice === \"scissors\" && userChoice === \"rock\") {\n27        return \"Win\";\n28    } else {\n29        return \"Lose\";\n30    }\n31};\n32\n33// Main game logic\n34let computerChoice = getComputerChoice();\n35let userChoice = getUserChoice();\n36let result = determineOutcome(computerChoice, userChoice);\n37\n38console.log(`Computer's pick: ${computerChoice}`);\n39console.log(`Result: ${result}`);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter your choice: car\nInvalid choice, please try again.\nEnter your choice: papre\nInvalid choice, please try again.\nEnter your choice: paper\nComputer's pick: paper\nResult: Draw"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our project is complete."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

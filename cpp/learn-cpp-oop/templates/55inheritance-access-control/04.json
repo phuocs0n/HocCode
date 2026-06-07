@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/inheritance-access-control?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In public inheritance, protected members can be accessed from"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "anywhere outside the class"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In public inheritance, protected members can be accessed from the derived classes, but not from anywhere outside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "In public inheritance, protected members can be accessed from the derived classes, but not from anywhere outside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "the derived classes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In public inheritance, protected members can be accessed from the derived classes, but not from anywhere outside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "In public inheritance, protected members can be accessed from the derived classes, but not from anywhere outside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "outside the class but not the derived classes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "In public inheritance, protected members can be accessed from the derived classes, but not from anywhere outside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "In public inheritance, protected members can be accessed from the derived classes, but not from anywhere outside the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above answers is correct."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In public inheritance, protected members can be accessed from",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:anywhere outside the class",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "anywhere outside the class",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:the derived classes",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "the derived classes",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:outside the class but not the derived classes",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "outside the class but not the derived classes",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

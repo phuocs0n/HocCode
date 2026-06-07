@@ -1,0 +1,78 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-visibility-with-classes-toggle?page=2",
+  "title": "The Toggle Pattern",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Toggle Pattern"
+    },
+    {
+      "type": "paragraph",
+      "content": "You have seen this before. Now let's name it properly.Many interface elements have only two states:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Open / closed",
+        "Visible / hidden",
+        "Expanded / collapsed"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "To switch between these states, we toggle a class."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can use:"
+    },
+    {
+      "type": "code",
+      "language": "javascriptDOM",
+      "content": "element.classList.toggle('is-open');"
+    },
+    {
+      "type": "paragraph",
+      "content": "If the class is missing, it gets added. If it already exists, it gets removed."
+    },
+    {
+      "type": "paragraph",
+      "content": "One click changes the state. The next click switches it back."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript decides which state is active. CSS reflects that state visually."
+    },
+    {
+      "type": "paragraph",
+      "content": "Simple, Predictable, and Reusable. That is what makes this pattern worth knowing by heart."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll see how to make this interaction feel smooth using CSS transitions."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

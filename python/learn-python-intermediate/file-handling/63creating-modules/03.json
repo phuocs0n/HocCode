@@ -1,0 +1,143 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/creating-modules?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we have a file named person.py and inside this file, a function named get_name() has been defined. How can we call this function from a different file?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "import person"
+    },
+    {
+      "type": "paragraph",
+      "content": "get_name()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to define the module name while calling the get_name() function. Otherwise this code tries to call the get_name() function of the current file."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to define the module name while calling the get_name() function. Otherwise this code tries to call the get_name() function of the current file."
+    },
+    {
+      "type": "paragraph",
+      "content": "person.get_name()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to import the person module first."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to import the person module first."
+    },
+    {
+      "type": "paragraph",
+      "content": "import person"
+    },
+    {
+      "type": "paragraph",
+      "content": "person.get_name()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have imported the person module. Then, the get_name() function of the person module is called."
+    },
+    {
+      "type": "paragraph",
+      "content": "We have imported the person module. Then, the get_name() function of the person module is called."
+    },
+    {
+      "type": "paragraph",
+      "content": "import person"
+    },
+    {
+      "type": "paragraph",
+      "content": "get_name().person"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This code results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "This code results in an error."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we have a file named person.py and inside this file, a function named get_name() has been defined. How can we call this function from a different file?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:import personget_name()",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "import personget_name()",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:person.get_name()",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "person.get_name()",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:import personperson.get_name()",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "import personperson.get_name()",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:import personget_name().person",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "import personget_name().person",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

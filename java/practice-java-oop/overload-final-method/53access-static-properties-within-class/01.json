@@ -1,0 +1,73 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/practice-java-oop/access-static-properties-within-class?page=1",
+  "title": "Access Static Properties within Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Access Static Properties within Class"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to access the static field and method within the class."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a class named College with a static field name and static method display().",
+        "Inside the method, print the value of name.",
+        "Create a main() method.",
+        "Inside the method, get a string input from the user and assign it to the inputName variable.",
+        "Initialize the static field name with the value inputName.",
+        "Call the static method display()."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test InputMIT"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected OutputMIT"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

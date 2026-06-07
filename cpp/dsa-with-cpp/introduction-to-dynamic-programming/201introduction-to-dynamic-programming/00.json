@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/introduction-to-dynamic-programming?page=1",
+  "title": "What is Dynamic Programming?",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "What is Dynamic Programming?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dynamic Programming (DP) is a method for solving complex problems by breaking them into smaller overlapping subproblems."
+    },
+    {
+      "type": "paragraph",
+      "content": "By solving each subproblem only once and storing its result, DP avoids redundant computations, making it highly efficient for specific types of problems."
+    },
+    {
+      "type": "paragraph",
+      "content": "Real-Life Analogy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine you're planning a road trip and want to visit several cities with the least cost. You might:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Calculate the cost of all routes from your starting city to the next city.",
+        "Store the cheapest cost to each city.",
+        "Reuse this information as you calculate costs to subsequent cities."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This approach mirrors DP — solve small parts (subproblems), store their results, and reuse them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

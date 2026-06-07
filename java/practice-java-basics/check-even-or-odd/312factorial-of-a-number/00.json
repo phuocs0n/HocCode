@@ -1,0 +1,81 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-java-basics/factorial-of-number?page=1",
+  "title": "Factorial of a Number",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Factorial of a Number"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the factorial of a number."
+    },
+    {
+      "type": "paragraph",
+      "content": "A factorial of a number N is the product of all numbers from 1 to N. For example,"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Factorial of 6 = 6 * 5 * 4 * 3 * 2 * 1"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Get an integer input for the variable number.",
+        "Initialize an integer variable factorial with value 1.",
+        "Run a for loop from i = 1 to i <= number.",
+        "Inside the loop, multiply factorial by i.",
+        "Print the value of factorial."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input6"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output720"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

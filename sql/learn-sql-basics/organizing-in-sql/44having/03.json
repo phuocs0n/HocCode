@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-sql-basics/having?page=4",
+  "title": "WHERE With GROUP BY",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn SQL Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "WHERE With GROUP BY"
+    },
+    {
+      "type": "paragraph",
+      "content": "By the way, you can use WHERE in a GROUP BY clause like this:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT country, SUM(purchase_amount) AS total_purchase\n2FROM Customers\n3WHERE purchase_amount > 3000\n4GROUP BY country;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the SQL query first selects rows where the purchase amount exceeds 3000. Then, it groups the filtered results by country."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, you cannot use WHERE in a GROUP BY clause like this:"
+    },
+    {
+      "type": "code",
+      "language": "sql",
+      "content": "1SELECT country, SUM(purchase_amount) AS total_purchase\n2FROM Customers\n3GROUP BY country\n4WHERE purchase_amount > 3000;"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, we are trying to filter the results of GROUP BY using the WHERE clause. This results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "You should use the HAVING clause to filter the results of a GROUP BY clause instead."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,148 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/pointers-functions?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to call the following function?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "void func(int* pt) {\n  ....\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "int number = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(number);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function takes the address of the number variable as its argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function takes the address of the number variable as its argument."
+    },
+    {
+      "type": "paragraph",
+      "content": "int number = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(*number);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "*number doesn't represent the address of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "*number doesn't represent the address of the number variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "int number = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(&number);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The function takes the address of the number variable as an argument denoted by &number."
+    },
+    {
+      "type": "paragraph",
+      "content": "The function takes the address of the number variable as an argument denoted by &number."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of the above"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is the correct answer."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the above options is the correct answer."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to call the following function?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:int number = 25;func(number);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "int number = 25;func(number);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:int number = 25;func(*number);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "int number = 25;func(*number);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:int number = 25;func(&number);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "int number = 25;func(&number);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:None of the above",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

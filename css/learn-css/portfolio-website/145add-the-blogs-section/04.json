@@ -1,0 +1,51 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/add-blogs-section?page=5",
+  "title": "Create the Blog Section",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Create the Blog Section"
+    },
+    {
+      "type": "paragraph",
+      "content": "As you know, we have a layout with three cards."
+    },
+    {
+      "type": "paragraph",
+      "content": "First, let's set up the HTML structure for the blog section. This section will include a heading and three cards."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section class=\"blogs\" id=\"blogs\">\n2    <h2>Blogs</h2>\n3\n4    <div class=\"card-row\">\n5        <div class=\"card\">\n6            <img src=\"/images/learn-css/flexbox.png\" alt=\"Understanding Flexbox in CSS\" />\n7            <h3>Understanding Flexbox in CSS</h3>\n8            <p>freeCodeCamp</p>\n9            <button>Read</button>\n10        </div>\n11\n12        <div class=\"card\">\n13            <img src=\"/images/learn-css/responsive-design.png\" alt=\"Mastering Responsive Design\" />\n14            <h3>Mastering Responsive Design</h3>\n15            <p>Medium</p>\n16            <button>Read</button>\n17        </div>\n18\n19        <div class=\"card\">\n20            <img src=\"/images/learn-css/advanced-grid.png\" alt=\"Advanced CSS Grid Techniques\" />\n21            <h3>Advanced CSS Grid Techniques</h3>\n22            <p>Programiz Blogs</p>\n23            <button>Read</button>\n24        </div>\n25    </div>\n26</section>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1Yet to be added"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

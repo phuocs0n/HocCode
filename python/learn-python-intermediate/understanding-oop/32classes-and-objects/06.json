@@ -1,0 +1,192 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-python-intermediate/classes-objects?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Suppose we have a code like this."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "class Test:\n    def print_hello(self):\n        print('Hello')\n\ntest1 = Test()"
+    },
+    {
+      "type": "paragraph",
+      "content": "How can we call the print_hello() method using the test1 object?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "test1.print_hello('Hello')"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The self argument in the print_hello() method takes the value of the test1 object. Since we are calling the print_hello() method with one argument, it cannot be assigned to anything. Hence, this code results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The self argument in the print_hello() method takes the value of the test1 object. Since we are calling the print_hello() method with one argument, it cannot be assigned to anything. Hence, this code results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "print_hello()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify which object is calling the print_hello() method. Hence, this code results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify which object is calling the print_hello() method. Hence, this code results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "test1.print_hello()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are calling the printHello() method using the test1 object. The self argument in the printHello() method takes the value of the test1 object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are calling the printHello() method using the test1 object. The self argument in the printHello() method takes the value of the test1 object."
+    },
+    {
+      "type": "paragraph",
+      "content": "test1.print_text()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Test class doesn't have a method named print_text()."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Test class doesn't have a method named print_text()."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The self argument in the print_hello() method takes the value of the test1 object. Since we are calling the print_hello() method with one argument, it cannot be assigned to anything. Hence, this code results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "The self argument in the print_hello() method takes the value of the test1 object. Since we are calling the print_hello() method with one argument, it cannot be assigned to anything. Hence, this code results in an error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify which object is calling the print_hello() method. Hence, this code results in an error."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to specify which object is calling the print_hello() method. Hence, this code results in an error."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are calling the printHello() method using the test1 object. The self argument in the printHello() method takes the value of the test1 object."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we are calling the printHello() method using the test1 object. The self argument in the printHello() method takes the value of the test1 object."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Test class doesn't have a method named print_text()."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Test class doesn't have a method named print_text()."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Suppose we have a code like this.",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:test1.print_hello('Hello')",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "test1.print_hello('Hello')",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:print_hello()",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "print_hello()",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:test1.print_hello()",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "test1.print_hello()",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:test1.print_text()",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "test1.print_text()",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

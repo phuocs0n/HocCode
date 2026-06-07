@@ -1,0 +1,183 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/standard-library-functions?page=2",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which C++ header file has the definition of the sqrt() function?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "iostream"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sqrt() function isn't defined in the iostream header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sqrt() function isn't defined in the iostream header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "stdio"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The stdio header contains the standard input/output functions for the C programming language."
+    },
+    {
+      "type": "paragraph",
+      "content": "The stdio header contains the standard input/output functions for the C programming language."
+    },
+    {
+      "type": "paragraph",
+      "content": "cmath"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The C++ sqrt() function is defined in the cmath header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The C++ sqrt() function is defined in the cmath header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "math"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The math file is a C language header file that cannot be used in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "The math file is a C language header file that cannot be used in C++."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sqrt() function isn't defined in the iostream header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The sqrt() function isn't defined in the iostream header file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The stdio header contains the standard input/output functions for the C programming language."
+    },
+    {
+      "type": "paragraph",
+      "content": "The stdio header contains the standard input/output functions for the C programming language."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The C++ sqrt() function is defined in the cmath header file."
+    },
+    {
+      "type": "paragraph",
+      "content": "The C++ sqrt() function is defined in the cmath header file."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The math file is a C language header file that cannot be used in C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "The math file is a C language header file that cannot be used in C++."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which C++ header file has the definition of the sqrt() function?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:iostream",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "iostream",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:stdio",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "stdio",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:cmath",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "cmath",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:math",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "math",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

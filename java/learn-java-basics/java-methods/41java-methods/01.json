@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-methods?page=2",
+  "title": "Creating a Method",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating a Method"
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider these two statements."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "System.out.println(\"Hello\");\nSystem.out.println(\"How do you do?\");"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both of these statements serve a similar purpose i.e. they are both greetings. So, we can wrap them inside a method called greet."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "void greet() {\n    System.out.println(\"Hello\");\n    System.out.println(\"How do you do?\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Terms like void and the parenthesis () might seem confusing. So, let's learn the syntax behind creating a method."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

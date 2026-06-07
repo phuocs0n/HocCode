@@ -1,0 +1,63 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/responsive-design/flexbox-for-responsive-components?page=3",
+  "title": "Your Stat Cards",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Your Stat Cards"
+    },
+    {
+      "type": "paragraph",
+      "content": "That was a simple example. Now look at your actual stat cards."
+    },
+    {
+      "type": "paragraph",
+      "content": ".hero-stats is a fixed four-column grid right now. Four columns at every width, even 320px. You already know how that goes."
+    },
+    {
+      "type": "paragraph",
+      "content": "What if you just replaced that grid with flex-wrap: wrap? Same idea as before, just your real portfolio data this time."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1.hero-stats {\n2  display: flex;\n3  flex-wrap: wrap;\n4  gap: 1rem;\n5}\n6\n7.stat-card {\n8  flex: 1 1 8rem;\n9}"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  margin: 0;\n4  padding: 1rem;\n5}\n6\n7.stat-row {\n8  display: flex;\n9  flex-wrap: wrap;\n10  gap: 1rem;\n11}\n12\n13.stat-card {\n14  flex: 1 1 8rem;\n15  padding: 1.25rem 1rem;\n16  background: #f8fafc;\n17  border: 1px solid #e2e8f0;\n18  border-radius: 0.5rem;\n19  display: flex;\n20  flex-direction: column;\n21  align-items: center;\n22  gap: 0.25rem;\n23}\n24\n25.number {\n26  font-size: 1.5rem;\n27  font-weight: 700;\n28  color: #0f172a;\n29}\n30\n31.label {\n32  font-size: 0.875rem;\n33  color: #64748b;\n34}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit Run Code and narrow the window. You can see your actual portfolio cards wrapping into two rows exactly like the plain cards did on the previous page."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, let's do the same for the nav."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

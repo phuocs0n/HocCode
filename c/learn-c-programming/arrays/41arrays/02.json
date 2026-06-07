@@ -1,0 +1,135 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Cách chính xác để tạo một mảng trong C là gì?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int numbers[4] = {3, 4, 5, 6};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều này tạo ra một mảng số nguyên có tên là số với 4 phần tử."
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều này tạo ra một mảng số nguyên có tên là số với 4 phần tử."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int numbers[4] = [3, 4, 5, 6];"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng dấu ngoặc nhọn cho các phần tử mảng chứ không phải dấu ngoặc vuông."
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi sử dụng dấu ngoặc nhọn cho các phần tử mảng chứ không phải dấu ngoặc vuông."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int[4] numbers = {3, 4, 5, 6};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] được đặt sau tên mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] được đặt sau tên mảng."
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "int[4] numbers = [3, 4, 5, 6];"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] được đặt sau tên mảng và chúng ta sử dụng dấu ngoặc nhọn cho các phần tử mảng."
+    },
+    {
+      "type": "paragraph",
+      "content": "[4] được đặt sau tên mảng và chúng ta sử dụng dấu ngoặc nhọn cho các phần tử mảng."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Cách chính xác để tạo một mảng trong C là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:số int[4] = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "số int[4] = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:số int[4] = [3, 4, 5, 6];",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "số int[4] = [3, 4, 5, 6];",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:int[4] số = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "int[4] số = {3, 4, 5, 6};",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:int[4] số = [3, 4, 5, 6];",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "int[4] số = [3, 4, 5, 6];",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

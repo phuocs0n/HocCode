@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/add-project-section?page=2",
+  "title": "Individual Card Design",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Individual Card Design"
+    },
+    {
+      "type": "paragraph",
+      "content": "We won't go in-depth on individual card designs as we have covered them already."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<div class=\"projects-card\">\n2    <img src=\"/images/learn-css/e-commerce.png\" alt=\"Project Image\" />\n3    <h3>ShopEase</h3>\n4    <p class=\"project-summary\">\n5        ShopEase is a responsive e-commerce platform offering product\n6        listings, cart, checkout, filtering, reviews, and secure\n7        payments using modern technologies.\n8    </p>\n9    <p>\n10        ShopEase is a fully responsive and interactive e-commerce\n11        platform that offers a seamless shopping experience. It features\n12        product listings, shopping cart functionality, secure checkout,\n13        product filtering, and user reviews. With an integrated payment\n14        gateway, it provides users with a secure and efficient way to\n15        shop online. Built using modern web technologies and best\n16        practices.\n17    </p>\n18    <div class=\"projects-tech-stack\">\n19        <span>HTML</span>\n20        <span>CSS</span>\n21        <span>JavaScript</span>\n22        <span>API Integration</span>\n23        <span>Payment Gateway</span>\n24    </div>\n25    <a href=\"#\" class=\"visit-link\">Visit Site</a>\n26</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1.projects-card {\n2    background-color: #ffffff;\n3    border-radius: 10px;\n4    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n5    text-align: left;\n6    padding: 12px;\n7    display: flex;\n8    flex-direction: column;\n9    gap: 8px;\n10    width: min(600px, 100vw);\n11}\n12\n13.projects-card img {\n14    width: 100%;\n15    height: 50%;\n16    border-radius: 10px;\n17}\n18\n19.projects-card h3 {\n20    font-size: clamp(12px, 8vw, 24px);\n21    color: #25265e;\n22    font-weight: 550;\n23}\n24\n25.projects-card p {\n26    font-size: 16px;\n27}\n28\n29.projects-card a {\n30    text-decoration: none;\n31    color: #0556f3;\n32    font-weight: medium;\n33}\n34\n35.projects-tech-stack {\n36    display: flex;\n37    gap: 10px;\n38}\n39\n40.projects-tech-stack span {\n41    background-color: #f3f3f3;\n42    color: #49497e;\n43    padding: 5px 10px;\n44    border-radius: 5px;\n45    font-size: 0.8rem;\n46}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        ".projects-card creates a card layout with a white background, shadow, and rounded corners for a clean, professional look. The flexible width keeps it responsive.",
+        "The project image has rounded corners to match the card style and fills the card width.",
+        "The <h3> title uses a responsive font size (clamp) to ensure readability on different screens.",
+        "a.visit-link is styles as a clickable link to the project.",
+        ".projects-tech-stack, a flex container, contains tags for the technologies used in each project."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "This setup organizes each project as a card element with a consistent design and ensures responsiveness across devices."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

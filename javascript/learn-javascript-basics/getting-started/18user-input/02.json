@@ -1,0 +1,67 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/javascript-input-prompt?page=3",
+  "title": "User Input Without Prompt Message",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "User Input Without Prompt Message"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's another way to take user input using the prompt() function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let fullName = prompt();\n2console.log(\"Full Name:\", fullName);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Micheal Smith\nFull Name: Micheal Smith"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's what happens:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The prompt() function is called without any text inside it (no prompt message).",
+        "The program doesn't display any message but waits for the user to type something and press Enter.",
+        "After the user types their input and presses Enter, the input is assigned to the variable fullName."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll write a program to take multiple pieces of user input and display them."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

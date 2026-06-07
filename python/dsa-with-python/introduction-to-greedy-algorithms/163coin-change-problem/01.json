@@ -1,0 +1,45 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/dsa-with-python/coin-change-problem?page=2",
+  "title": "Defining the Greedy Logic",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Defining the Greedy Logic"
+    },
+    {
+      "type": "paragraph",
+      "content": "The greedy approach to solving this problem has the following steps involved."
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Start by choosing the largest coin denomination that can be used without exceeding the amount needed.",
+        "Now, update the amount to be paid by subtracting the value of the coin just used.",
+        "Repeat this process until the amount becomes zero."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

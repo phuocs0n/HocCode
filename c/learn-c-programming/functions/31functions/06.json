@@ -1,0 +1,64 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-c-programming/functions-in-c-programming?page=7",
+  "title": "Gọi hàm (II)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khóa học: Học lập trình C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Gọi hàm (II)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đây là cách chúng tôi gọi một hàm có tên sayHello:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "// Call a function\nsayHello();"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy xem một ví dụ hoàn chỉnh:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3// Define a function named sayHello\n4void sayHello() {\n5\n6    printf(\"Hello\");\n7}\n8\n9int main() {\n10\n11  // Call the function\n12  sayHello();\n13\n14  return 0;\n15}"
+    },
+    {
+      "type": "paragraph",
+      "content": "đầu ra"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Hello"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiếp theo, chúng ta sẽ hiểu cách hoạt động của lệnh gọi hàm."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Nó hoạt động như thế nào?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hãy sử dụng khoảng trống này cho những nghi ngờ của bạn về bài học này. Hãy hỏi chúng tôi bất cứ điều gì khó hiểu và các chuyên gia của chúng tôi sẽ đưa ra lời giải thích để giúp bạn hiểu."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

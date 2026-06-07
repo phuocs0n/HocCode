@@ -1,0 +1,107 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-decreasing-function?page=5",
+  "title": "Example 2",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we are given the following recurrence relation:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=2T(n−1)+1T\\lparen n\\rparen = 2T\\lparen n - 1\\rparen + 1T(n)=2T(n−1)+1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's calculate its time complexity using the master theorem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 1: Compare the recurrence relation with the general form."
+    },
+    {
+      "type": "paragraph",
+      "content": "The general form of T(n) is:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=aT(n−b)+O(nk)T\\lparen n\\rparen = aT\\lparen n - b\\rparen + O(n^k)T(n)=aT(n−b)+O(nk)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 2: Modify recurrence relation to match the general form."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=2∗T(n−1)+O(n0)T\\lparen n\\rparen = 2 *T\\lparen n - 1\\rparen + O(n^0)T(n)=2∗T(n−1)+O(n0)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 3: Find a, b, and k check the conditions for the master theorem."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "a = 2\nb = 1\nk = 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since a > 0, b > 0, and k≥0k \\geq 0k≥0, the master theorem is possible."
+    },
+    {
+      "type": "paragraph",
+      "content": "Step 4: Compare a and 1 and apply the matching rule."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here,"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "a = 2\nk = 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Since a > 1, let's apply the formula to find the time complexity for this scenario."
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=O(nkanb)T\\lparen n\\rparen =O(n^ka ^ \\frac{n}{b})T(n)=O(nkabn​)T(n)=O(n0an1)\\hphantom{T\\lparen n\\rparen} = O(n^0a ^ \\frac{n}{1})T(n)=O(n0a1n​)T(n)=O(1∗2n)\\hphantom{T\\lparen n\\rparen} = O(1 * 2^n)T(n)=O(1∗2n)T(n)=O(2n)\\hphantom{T\\lparen n\\rparen} = O(2^n)T(n)=O(2n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's consider a slightly different recurrence."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

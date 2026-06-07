@@ -1,0 +1,76 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-css/links?page=1",
+  "title": "Links (Anchor Tags <a>)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Links (Anchor Tags <a>)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Links allow users to navigate from one page to another. You can style these links to change their appearance based on how the user interacts with them."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at how to change the color of a link in different states: normal, visited, hovered, and active."
+    },
+    {
+      "type": "paragraph",
+      "content": "Use pseudo-classes such as visited, hover, and active to apply CSS to different states."
+    },
+    {
+      "type": "paragraph",
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<a href=\"https://programiz.pro\" target=\"_blank\">Welcome to Programiz Pro</a>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Normal state:\n2 how the link looks when \n3it's not clicked */\n4a {\n5    color: blue;\n6}\n7\n8/* Visited state: \n9how the link looks after the user \n10has visited it */\n11a:visited {\n12    color: purple;\n13}\n14\n15/* Hover state: \n16how the link looks when the user \n17hovers their mouse over it */\n18a:hover {\n19    color: red;\n20}\n21\n22/* Active state: \n23how the link looks when the \n24user clicks and holds the mouse button */\n25a:active {\n26    color: green;\n27}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hit run code and try it out."
+    },
+    {
+      "type": "paragraph",
+      "content": "The link will change colors as you interact with it:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You can see the link in its default blue state.",
+        "When you hover over it, notice how the color changes to red.",
+        "As you click and hold the link, it turns green, indicating the active state.",
+        "Once you visit the link and return to this page, you'll see it's purple, showing that you've already visited it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

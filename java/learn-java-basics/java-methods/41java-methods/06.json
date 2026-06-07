@@ -1,0 +1,148 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-java-basics/java-methods?page=7",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the correct way to call the following method?"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "class Main {\n    void method() {\n        ...\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Main obj = new Main();"
+    },
+    {
+      "type": "paragraph",
+      "content": "obj.method;"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to include the () at the end of the method name while calling the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to include the () at the end of the method name while calling the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "Main obj = new Main();"
+    },
+    {
+      "type": "paragraph",
+      "content": "obj.method();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the object along with the dot operator to call the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use the object along with the dot operator to call the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "method();"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We use an object of the class to call the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "We use an object of the class to call the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "Method obj = new Method();"
+    },
+    {
+      "type": "paragraph",
+      "content": "obj.method()"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "method() is defined inside the Main class, so we need to use the object of Main to call the method."
+    },
+    {
+      "type": "paragraph",
+      "content": "method() is defined inside the Main class, so we need to use the object of Main to call the method."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the correct way to call the following method?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Main obj = new Main();obj.method;",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Main obj = new Main();obj.method;",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Main obj = new Main();obj.method();",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Main obj = new Main();obj.method();",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:method();",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "method();",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Method obj = new Method();obj.method()",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Method obj = new Method();obj.method()",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,46 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/react-hooks/usecallback-when-functions-change-too-often?page=7",
+  "title": "Revisiting the Changes",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revisiting the Changes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here are the changes we've made in this lesson:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "handleCloseDrawer() replaces the inline arrow passed to Drawer's onClose prop, giving it a stable reference across renders.",
+        "handleRefresh() and handleSelectEntry() are wrapped for the same reason: they could flow into a useEffect() dependency array.",
+        "handleQueryChange(), handleNext(), and handlePrev() are left as plain functions — no useEffect() depends on them.",
+        "useCallback() with an empty dependency array creates the function once and reuses it for the lifetime of the component."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

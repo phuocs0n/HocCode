@@ -1,0 +1,61 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/api-handling-asynchronous-javascript/handling-errors?page=1",
+  "title": "Handling Failures",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: API Handling with Asynchronous Javascript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Handling Failures"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's talk about the final process in promise chaining: handling errors."
+    },
+    {
+      "type": "paragraph",
+      "content": "I would like you to slow down here. This part is a bit tricky: I struggled with it early in my career, and I don't want you to go through the same process again."
+    },
+    {
+      "type": "paragraph",
+      "content": "Promises can fail even if your code is correct."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because the thing you're waiting on might fail. Like a server, a network, or invalid data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's answer the question beginners always ask:"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"If my code is correct, why would a promise fail?\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Click the Next Lesson button to learn more!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

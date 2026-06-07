@@ -1,0 +1,73 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-recursion-with-c/analogy-of-recursion?page=2",
+  "title": "Important Things to Focus On",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Recursion With C"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Important Things to Focus On"
+    },
+    {
+      "type": "paragraph",
+      "content": "To conclude this analogy, we need to focus on two things while programming recursion."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. What should be done in each recursive call? (Recursive Call)"
+    },
+    {
+      "type": "paragraph",
+      "content": "In each recursive call, we need to ask the person in front about their position."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once they return their position, we need to add 1 to it."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. When should the recursion stop? (Base Case)"
+    },
+    {
+      "type": "paragraph",
+      "content": "The base case is the stopping condition for recursion."
+    },
+    {
+      "type": "paragraph",
+      "content": "The recursive call can stop when it reaches the first person. Thus, the base case here is when the question reaches the first person."
+    },
+    {
+      "type": "paragraph",
+      "content": "Emily, the first person, doesn't need to perform any calculations to know her position. So, Emily can simply return 1 as her position, making this our base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, at every step, we're gradually simplifying our problem until we can't simplify it anymore, which is when we reach the base case."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the upcoming lesson, we will explore some programming examples that demonstrate the concept of recursion."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,102 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/dsa-with-python/bfs-algorithm?page=11",
+  "title": "Thought Process: BFS Algorithm",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: BFS Algorithm"
+    },
+    {
+      "type": "paragraph",
+      "content": "To implement the BFS algorithm, we can follow these steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Take a graph to traverse and choose a starting vertex."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def bfs_traversal(adj_list, vertex):"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Initialize the variables."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "traversal_seq = []\nvisited = set()\nqueue = [vertex]"
+    },
+    {
+      "type": "paragraph",
+      "content": "During initialization, we create"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A list to store the sequence of traversal.",
+        "A set to keep track of the visited nodes.",
+        "A queue to store the adjacent vertices of the current vertex."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Dequeue the front element and make it the current vertex."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "current_vertex = queue.pop(0)"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. If the current vertex has not been traversed,"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Add current vertex to the traverse list.",
+        "Add current vertex to the visited set.",
+        "Push the neighbors of the current vertex to the stack if they have not been visited."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "if current_vertex not in visited:\n    traversal_seq.append(current_vertex)\n    visited.add(current_vertex)\n    queue.extend([v for v in adj_list[current_vertex] if v not in visited])"
+    },
+    {
+      "type": "paragraph",
+      "content": "5. Repeat steps 3 and 4 as long as the queue is not empty."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "while queue:"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,50 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-basics/print-output?page=1",
+  "title": "Java Output",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Java Output"
+    },
+    {
+      "type": "paragraph",
+      "content": "We have previously used the System.out.println(); to display a single value or variable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a quick recap:"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3        \n4        // Print an integer\n5        System.out.println(34);  // Output: 34\n6        \n7        // Print a text\n8        System.out.println(\"Squid Game\");  // Output: Squid Game\n9        \n10\n11        int age = 25;\n12        // Print age variable\n13        System.out.println(age);  // Output: 25\n14        \n15    }\n16}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, you'll learn how to print multiple values and variables."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

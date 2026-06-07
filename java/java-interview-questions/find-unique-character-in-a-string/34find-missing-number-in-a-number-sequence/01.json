@@ -1,0 +1,96 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-missing-number-in-number-sequence?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's a thought process of how we will find a missing number in a sequence of natural number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "array = {1, 2, 4, 5}"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the missing number, we first need to find the sum all numbers of the array."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "sum of numbers of array 1 + 2 + 4 + 5 = 12"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we need to determine the expected sum of all the numbers in the sequence if there were no missing numbers."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since there are four elements in the array, and one number is missing, there should be 4 + 1 = 5 elements in the sequence."
+    },
+    {
+      "type": "paragraph",
+      "content": "We then need to find the sum of natural numbers from 1 to 4 + 1."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "sum of n natural numbers = n * (n+1)/2\nsum of 5 natural numbers = 15"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now,"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "missing number = sum of natural numbers - sum of numbers in array\n               = 15 - 12\n               = 3"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this problem:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a variable named sumOfCurrentArray and initialize it to zero.",
+        "Use a for loop to iterate through each element in the array:",
+        "Inside the loop, add the current element to sumOfCurrentArray.",
+        "Create a variable named n and initialize it to the length of the input array + 1.",
+        "Create a variable named sumOfSequence and calculate it as n * (n+1)/2.",
+        "Create a variable named missingNumber and calculate it as sumOfSequence - sumOfCurrentArray."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

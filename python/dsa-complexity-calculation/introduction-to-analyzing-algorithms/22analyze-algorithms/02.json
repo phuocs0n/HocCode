@@ -1,0 +1,76 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/analyze-algorithms?page=3",
+  "title": "Optimizing Code",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Optimizing Code"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's optimize the code we wrote previously using a simple formula to calculate the sum of natural numbers."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Sum = n * (n + 1) / 2"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's rewrite the code using the formula:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1n = 1000\n2\n3total = n * (n + 1) / 2\n4print(total)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "500500.0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Assuming it takes 1 second to run 1 step, our optimized code executes in 1 second."
+    },
+    {
+      "type": "paragraph",
+      "content": "In our previous approach, the loop took 16 minutes to compute the sum. However, this optimized formula, regardless of the value of n, executes in just 1 second."
+    },
+    {
+      "type": "paragraph",
+      "content": "Even if we calculate the sum of 10¹¹ (100 billion) natural numbers, our optimized code still runs in 1 second."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, our code is faster and more scalable, showing why analyzing and optimizing algorithms is so important."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

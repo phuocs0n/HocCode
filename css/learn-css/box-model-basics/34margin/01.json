@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-css/margin?page=2",
+  "title": "inline-block",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "inline-block"
+    },
+    {
+      "type": "paragraph",
+      "content": "We've seen that inline elements (like text links) can't have vertical margins, and block elements can."
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you want something in between? For example, consider you're building a navigation menu. You want the links on the menu on the same line, but also separated by a margin."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's where the inline-block comes in."
+    },
+    {
+      "type": "paragraph",
+      "content": "With inline-block, you get the best of both:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Inline behavior: Elements stay on the same line.",
+        "Block behavior: You can control the element's width and height, and yes—add vertical margins."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's explore this with an example:"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<nav>\n2    <ul>\n3        <li><a href=\"#home\">Home</a></li>\n4        <li><a href=\"#about\">About</a></li>\n5        <li><a href=\"#contact\">Contact</a></li>\n6        <li><a href=\"#services\">Service</a></li>\n7    </ul>\n8</nav>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1nav li {\n2    background-color: pink;\n3    \n4    display: inline-block;\n5\n6    /* Accepts block behavior while remaining inline */\n7    width: 150px;\n8    height: 50px;\n9    margin: 10px; \n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "With this covered, let's get back to margins."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

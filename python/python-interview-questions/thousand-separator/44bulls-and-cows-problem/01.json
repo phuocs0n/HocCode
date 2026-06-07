@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-interview-questions/bulls-cows-problem?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "In this Python program, we need to create a function that takes two parameters - the secret number and the guess - in string format."
+    },
+    {
+      "type": "paragraph",
+      "content": "Then, we have to initialize bulls and cows variables to store the numbers of bulls and cows."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, loop from 0 to the length of the secret number. Within the loop, check if the digits in secret and guess at the same index are equal or not. If it is, increment the bulls variable by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "If the digits in secret and guess are not equal, we need to check if the digit at the current index in secret is also in guess. If it is, we need to increment the cows variable by 1."
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, print the number of bulls and cows in the required format, i.e., xAyB."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

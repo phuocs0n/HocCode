@@ -1,0 +1,109 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/implementation-of-trees?page=4",
+  "title": "Thought Process: Implementation of Trees",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Implementation of Trees"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how we can implement a tree data structure using C++."
+    },
+    {
+      "type": "paragraph",
+      "content": "As trees are a collection of nodes, we'll start with handling the operations of a single node."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Create a class to handle nodes."
+    },
+    {
+      "type": "paragraph",
+      "content": "A node contains:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The value of the node.",
+        "Information of children derived from that node."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we will create a class that includes:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The value of the node.",
+        "A vector to store pointers to its children."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "template <typename T>\nclass TreeNode {\npublic:\n\n    TreeNode(T val): data(val) {}\n        \n    T data;\n    vector<TreeNode<T>*> children;\n};"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Add children to a node."
+    },
+    {
+      "type": "paragraph",
+      "content": "After creating a node, we'll define a method to add children to it."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void add_child(vector<TreeNode<T>*> child_arr) {\n    children = child_arr;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Create a class to handle nodes in a tree."
+    },
+    {
+      "type": "paragraph",
+      "content": "Our TreeNode class will only handle operations related to a single node."
+    },
+    {
+      "type": "paragraph",
+      "content": "To handle all tree-related operations, we will create another Tree class. The class will:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Store information of all the nodes in the tree.",
+        "Establish the relations and hierarchies between them."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "template <typename T>\nclass Tree {\npublic:\n\n    Tree(TreeNode<T>* root_node): root(root_node) {}\n\n    TreeNode<T>* root {nullptr};\n};"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

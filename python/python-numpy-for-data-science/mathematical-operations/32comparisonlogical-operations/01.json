@@ -1,0 +1,87 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/python-numpy-for-data-science/comparisonlogical-operations?page=2",
+  "title": "Example: Comparison Operators",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Python Numpy for Data Science"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Comparison Operators"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1import numpy as np\n2\n3first_array = np.array([1, 2, 3])\n4second_array = np.array([3, 2, 1])\n5\n6# less than operator\n7result = first_array < second_array\n8print(result)    # Output: [ True False False]\n9\n10# greater than operator\n11result = first_array > second_array\n12print(result)    # Output: [False False  True]\n13\n14# equal to operator\n15result = first_array == second_array\n16print(result)    # Output: [False  True False]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "[ True False False]\n[False False  True]\n[False  True False]"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we can see that the output of the comparison operators is also an array, where each element is either True or False."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. first < second returns [True False False] because"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 < 3 (first element of the first_array array < first element of the second_array array) is True",
+        "2 < 2 (second element of the first_array array < second element of the second_array array) is False",
+        "3 < 1 (third element of the first_array_ array < third element of the second_array array) is False"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "2. first > second returns [False False True] because"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 > 3 is False",
+        "2 > 2 is False",
+        "3 > 1 is True"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "3. first == second returns [False True False] because"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "1 == 3 is False",
+        "2 == 2 is True",
+        "3 == 1 is False"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

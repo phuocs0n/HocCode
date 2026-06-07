@@ -1,0 +1,54 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-complexity-calculation/master-theorem-for-dividing-function?page=3",
+  "title": "Solving Recurrence Relation with Master Theorem",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Complexity Calculation"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Solving Recurrence Relation with Master Theorem"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve an equation using recurrence relation for a dividing function, the function must be in the following format:"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "T(n)=ab+f(n)T\\lparen n \\rparen = \\cfrac{a}{b} + f(n)T(n)=ba​+f(n)where,where,where,f(n)=Ө(nk(log⁡n)p),    f\\lparen n \\rparen = Ө(n^k (\\log n)^p), f(n)=Ө(nk(logn)p),a≥1,b>1,    a \\geq 1, b > 1,a≥1,b>1,k≥1,    k \\geq 1,k≥1,p=real number    p = real\\ numberp=real number"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's apply the equation to three different cases:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Case 1: log⁡ba>k\\log_ba > klogb​a>k",
+        "Case 2: log⁡ba=k\\log_ba = klogb​a=k",
+        "Case 3: log⁡ba<k\\log_ba < klogb​a<k"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,62 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/immutable-deletion-lifting-state-up?page=1",
+  "title": "Revisiting What You've Done",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Revisiting What You've Done"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the previous lesson, you added a Delete button and passed handleDelete from App to EntryCard."
+    },
+    {
+      "type": "paragraph",
+      "content": "When the user clicks Delete, the card calls onDelete(id) and the parent runs:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "setEntries(entries.filter((entry) => entry.id !== id));"
+    },
+    {
+      "type": "paragraph",
+      "content": "As a result, the entry disappears."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we'll look at why this method is correct: filter gives you a new array instead of modifying the existing one."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, the list itself is stored in the parent App — not in each card. The cards just call a function to ask the parent to update it."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, let's start exploring deletion in greater detail, and hopefully you'll appreciate why filter is so important!"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,108 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/while-loop?page=6",
+  "title": "Print Numbers From 1 to 5",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Print Numbers From 1 to 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "To solve this program, let's first create a loop that runs 5 times."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int count = 1;\n\nwhile (count <= 5) {\n    count = count + 1;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the loop will iterate 5 times from count = 1 to count = 5. After that, count becomes 6, and the loop terminates."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's complete this program and add a print statement to print the value of count inside the loop."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int count = 1;\n7\n8    while (count <= 5) {\n9\n10\n11        // print the value of count\n12        cout << \"Count = \" << count << endl;\n13\n14\n15        count = count + 1;\n16  }\n17\n18    return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Count = 1\nCount = 2\nCount = 3\nCount = 4\nCount = 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how this code works in each iteration of the loop."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Variable",
+          "count <= 5",
+          "Body of loop"
+        ],
+        [
+          "count = 1",
+          "true",
+          "Count = 1 is printed.\ncount is increased to 2."
+        ],
+        [
+          "count = 2",
+          "true",
+          "Count = 2 is printed.\ncount is increased to 3."
+        ],
+        [
+          "count = 3",
+          "true",
+          "Count = 3 is printed.\ncount is increased to 4."
+        ],
+        [
+          "count = 4",
+          "true",
+          "Count = 4 is printed.\ncount is increased to 5."
+        ],
+        [
+          "count = 5",
+          "true",
+          "Count = 5 is printed.\ncount is increased to 6."
+        ],
+        [
+          "count = 6",
+          "false",
+          "The loop terminates."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

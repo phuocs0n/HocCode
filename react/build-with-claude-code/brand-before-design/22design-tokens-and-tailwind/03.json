@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/design-tokens-tailwind?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does SpeedBlip use semantic token names like brand-primary instead of color names like green-500 in Tailwind?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because Tailwind does not support color names like green-500 in custom configs"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tailwind fully supports color names like green-500. The choice of semantic naming is intentional for maintainability, not a technical constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tailwind fully supports color names like green-500. The choice of semantic naming is intentional for maintainability, not a technical constraint."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because semantic names describe intent, making the token meaningful when the design changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. If SpeedBlip's primary color changes from green to blue in a future version, brand-primary still makes sense. green-500 would be a misleading lie in the codebase."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. If SpeedBlip's primary color changes from green to blue in a future version, brand-primary still makes sense. green-500 would be a misleading lie in the codebase."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because Claude Code cannot process hex values directly in Tailwind config"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code handles hex values in Tailwind config without any issue. The naming choice is about long-term code clarity, not a technical limitation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Claude Code handles hex values in Tailwind config without any issue. The naming choice is about long-term code clarity, not a technical limitation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because Google Fonts recommends semantic naming for typography tokens"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Font token naming is a separate consideration from color token naming. The semantic naming rule applies to all design tokens, not just those related to typography."
+    },
+    {
+      "type": "paragraph",
+      "content": "Font token naming is a separate consideration from color token naming. The semantic naming rule applies to all design tokens, not just those related to typography."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does SpeedBlip use semantic token names like brand-primary instead of color names like green-500 in Tailwind?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because Tailwind does not support color names like green-500 in custom configs",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because Tailwind does not support color names like green-500 in custom configs",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because semantic names describe intent, making the token meaningful when the design changes",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because semantic names describe intent, making the token meaningful when the design changes",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because Claude Code cannot process hex values directly in Tailwind config",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because Claude Code cannot process hex values directly in Tailwind config",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because Google Fonts recommends semantic naming for typography tokens",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because Google Fonts recommends semantic naming for typography tokens",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

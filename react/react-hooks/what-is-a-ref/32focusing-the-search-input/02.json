@@ -1,0 +1,77 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/focusing-search-input?page=3",
+  "title": "Focusing with useEffect() on Mount",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Focusing with useEffect() on Mount"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's complete our modifications to Header.jsx."
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll use useEffect() with an empty dependency array to run the code once, immediately after the component first appears on screen."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the right moment to focus the input — React has finished rendering, so the DOM element exists."
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState, useEffect } from \"react\";\n2import Header from \"./components/Header\";\n3import EntryCard from \"./components/EntryCard\";\n4\n5function App() {\n6  const [entries, setEntries] = useState([]);\n7  const [isLoading, setIsLoading] = useState(true);\n8  const [error, setError] = useState(null);\n9  const [refreshKey, setRefreshKey] = useState(0);\n10\n11  useEffect(function () {\n12    async function loadEntries() {\n13      try {\n14        const res = await fetch(\"https://api.programiz.pro/api/Demo/v1/journal-entries\");\n15        if (!res.ok) {\n16          throw new Error(\"Could not load entries. Status: \" + res.status);\n17        }\n18        const data = await res.json();\n19        const mapped = data.map((post) => {\n20          return {\n21            ...post,\n22            date: new Date(post.date).toLocaleDateString(\"en-US\", {\n23              year: \"numeric\", month: \"short\", day: \"numeric\"\n24            }).toUpperCase()\n25          };\n26        });\n27        setEntries(mapped);\n28        setIsLoading(false);\n29      } catch (err) {\n30        setError(err.message);\n31        setIsLoading(false);\n32      }\n33    }\n34    loadEntries();\n35  }, [refreshKey]);\n36\n37  return (\n38    <div className=\"main-container\">\n39      <Header />\n40      <section className=\"entries-section\">\n41        <div className=\"entry-list-header\">\n42          <h3>Recent Entries</h3>\n43          <span className=\"entry-count\">{entries.length}</span>\n44          <button\n45            className=\"btn btn-secondary\"\n46            onClick={() => setRefreshKey((k) => k + 1)}\n47          >\n48            Refresh\n49          </button>\n50        </div>\n51        {isLoading ? (\n52          <p className=\"loading-state\">Loading entries...</p>\n53        ) : error ? (\n54          <div className=\"error-banner\">\n55            <p className=\"error-label\">Something went wrong.</p>\n56            <p className=\"error-detail\">{error}</p>\n57          </div>\n58        ) : entries.length === 0 ? (\n59          <p className=\"empty-state\">No entries found.</p>\n60        ) : (\n61          entries.map((entry) => (\n62            <EntryCard\n63              key={entry.id}\n64              id={entry.id}\n65              title={entry.title}\n66              date={entry.date}\n67              content={entry.content}\n68              author={entry.author}\n69            />\n70          ))\n71        )}\n72      </section>\n73    </div>\n74  );\n75}\n76\n77export default App;"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1import { useState, useRef, useEffect } from \"react\";\n2\n3function Header() {\n4  const [query, setQuery] = useState(\"\");\n5  const searchRef = useRef(null);\n6\n7  // Utilize useEffect() to focus on the search\n8  useEffect(function () {\n9    searchRef.current.focus();\n10  }, []);\n11\n12  return (...);\n13}"
+    },
+    {
+      "type": "code",
+      "language": "undefined",
+      "content": "1function EntryCard({ id, title, date, author, content }) {\n2  return (\n3    <div className=\"entry-card\">\n4      <p className=\"entry-date\">{date}</p>\n5      <h2 className=\"entry-title\">{title}</h2>\n6      <p className=\"entry-author\">by {author}</p>\n7      <p className=\"entry-content\">{content}</p>\n8    </div>\n9  );\n10}\n11\n12export default EntryCard;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Daily Journal App — React Hooks edition css goes here */"
+    },
+    {
+      "type": "paragraph",
+      "content": "Thanks to the empty array [], .focus() runs once on mount, and never again."
+    },
+    {
+      "type": "paragraph",
+      "content": "That's exactly what you want here: focus on load, not on every re-render."
+    },
+    {
+      "type": "paragraph",
+      "content": "But you might still wonder why we're using ref in the first place? Why not just use .focus() inside the effect directly? I can recount a personal incident about that, too."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

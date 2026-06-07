@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-with-claude-code/toolchain-configuration?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What command correctly initializes a new Vite React TypeScript project with Yarn?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "npm init vite@latest speedblip --template react-typescript"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This uses npm instead of Yarn. For SpeedBlip, Yarn was chosen for its deterministic lockfile and consistent installs across environments."
+    },
+    {
+      "type": "paragraph",
+      "content": "This uses npm instead of Yarn. For SpeedBlip, Yarn was chosen for its deterministic lockfile and consistent installs across environments."
+    },
+    {
+      "type": "paragraph",
+      "content": "yarn create vite speedblip --template react-ts"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. This command uses Yarn to scaffold a Vite project with the React + TypeScript template. The react-ts template gives you TypeScript strict mode support and a Vite dev server out of the box."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. This command uses Yarn to scaffold a Vite project with the React + TypeScript template. The react-ts template gives you TypeScript strict mode support and a Vite dev server out of the box."
+    },
+    {
+      "type": "paragraph",
+      "content": "npx create-react-app speedblip --template typescript"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create React App is the legacy scaffolding tool. SpeedBlip uses Vite for its faster dev server and smaller build output. CRA is not recommended for new projects."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create React App is the legacy scaffolding tool. SpeedBlip uses Vite for its faster dev server and smaller build output. CRA is not recommended for new projects."
+    },
+    {
+      "type": "paragraph",
+      "content": "yarn init react vite speedblip --ts"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not a valid Yarn command syntax. The correct pattern is yarn create vite [project-name] --template [template-name]."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not a valid Yarn command syntax. The correct pattern is yarn create vite [project-name] --template [template-name]."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What command correctly initializes a new Vite React TypeScript project with Yarn?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:npm init vite@latest speedblip --template react-typescript",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "npm init vite@latest speedblip --template react-typescript",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:yarn create vite speedblip --template react-ts",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "yarn create vite speedblip --template react-ts",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:npx create-react-app speedblip --template typescript",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "npx create-react-app speedblip --template typescript",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:yarn init react vite speedblip --ts",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "yarn init react vite speedblip --ts",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

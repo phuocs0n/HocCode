@@ -1,0 +1,131 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/building-usefetch?page=5",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why does useFetch() return data as the raw API response rather than mapped journal entries?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because custom hooks cannot return arrays"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks can return any type, including arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom hooks can return any type, including arrays."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useMemo() cannot process data returned from a custom hook"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() works with any value, including data returned from a custom hook."
+    },
+    {
+      "type": "paragraph",
+      "content": "useMemo() works with any value, including data returned from a custom hook."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because the mapping happens inside useEffect(), not outside it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The mapping is done in a useMemo() inside App, not inside useEffect()."
+    },
+    {
+      "type": "paragraph",
+      "content": "The mapping is done in a useMemo() inside App, not inside useEffect()."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because useFetch() is generic and works with any URL"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "A generic hook should not know about journal entries. The component that calls it is responsible for mapping the data to whatever shape it needs."
+    },
+    {
+      "type": "paragraph",
+      "content": "A generic hook should not know about journal entries. The component that calls it is responsible for mapping the data to whatever shape it needs."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why does useFetch() return data as the raw API response rather than mapped journal entries?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Because custom hooks cannot return arrays",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Because custom hooks cannot return arrays",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Because useMemo() cannot process data returned from a custom hook",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Because useMemo() cannot process data returned from a custom hook",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Because the mapping happens inside useEffect(), not outside it",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Because the mapping happens inside useEffect(), not outside it",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because useFetch() is generic and works with any URL",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because useFetch() is generic and works with any URL",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

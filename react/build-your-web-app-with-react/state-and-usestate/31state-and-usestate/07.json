@@ -1,0 +1,131 @@
+{
+  "index": 7,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/state-usestate?page=8",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Why do we use useState instead of a normal variable for the list of entries?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To improve performance"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useState is all about tracking change and re-rendering, not raw performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "useState is all about tracking change and re-rendering, not raw performance."
+    },
+    {
+      "type": "paragraph",
+      "content": "To make the code shorter"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useState does not exist to shorten code."
+    },
+    {
+      "type": "paragraph",
+      "content": "useState does not exist to shorten code."
+    },
+    {
+      "type": "paragraph",
+      "content": "To pass data to child components"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You pass data with props; state is about change over time."
+    },
+    {
+      "type": "paragraph",
+      "content": "You pass data with props; state is about change over time."
+    },
+    {
+      "type": "paragraph",
+      "content": "So React can re-render the UI when the list changes"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "React only re-renders when state (or props) change."
+    },
+    {
+      "type": "paragraph",
+      "content": "React only re-renders when state (or props) change."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Why do we use useState instead of a normal variable for the list of entries?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To improve performance",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To improve performance",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To make the code shorter",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To make the code shorter",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To pass data to child components",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To pass data to child components",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:So React can re-render the UI when the list changes",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "So React can re-render the UI when the list changes",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

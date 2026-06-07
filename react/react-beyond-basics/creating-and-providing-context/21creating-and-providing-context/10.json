@@ -1,0 +1,65 @@
+{
+  "index": 10,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/creating-providing-context?page=10",
+  "title": "Clearing Misconceptions About Context",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Beyond Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Clearing Misconceptions About Context"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Misconception"
+    },
+    {
+      "type": "paragraph",
+      "content": "\"I'll just pass theme as a prop through every component. It's only one value.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "The Truth"
+    },
+    {
+      "type": "paragraph",
+      "content": "Props don't scale across routing boundaries, and deep trees become unmanageable fast. Each new consumer requires updating every layer between App and that consumer."
+    },
+    {
+      "type": "paragraph",
+      "content": "With React Router, you are already writing element={<HomePage theme={theme} />} for every route, and that list only grows."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Golden Rule"
+    },
+    {
+      "type": "paragraph",
+      "content": "When a piece of data needs to cross multiple component boundaries, especially across routing layers, lift it into Context."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Provider holds the data once; any consumer reads it directly."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

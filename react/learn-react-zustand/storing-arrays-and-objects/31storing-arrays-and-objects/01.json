@@ -1,0 +1,58 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/storing-arrays-objects?page=2",
+  "title": "Updating Objects Inside Arrays",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Updating Objects Inside Arrays"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you update an entry you do not want to lose the other fields. You only want to change the ones that actually changed."
+    },
+    {
+      "type": "paragraph",
+      "content": "That is what the spread operator is for. You already used it in editEntry in src/store/useJournalStore.js."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "entries: state.entries.map((entry) =>\n  entry.id === id ? { ...entry, title, content } : entry\n)"
+    },
+    {
+      "type": "paragraph",
+      "content": "{ ...entry, title, content } copies all the existing fields from the entry, then overwrites just title and content. The id and the date stay exactly the same."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the correct pattern any time you need to update one object inside an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you will add loading and error state to the store. Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

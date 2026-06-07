@@ -1,0 +1,65 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-javascript-basics/data-conversion?page=5",
+  "title": "Converting to Float",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Converting to Float"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Convert Integer to Float"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have an integer and need to turn it into a floating-point number, you can use the parseFloat() function:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let integerNumber = -15;\n2\n3// Convert integer to float\n4let floatNumber = parseFloat(integerNumber);\n5\n6console.log(floatNumber);    // Output: -15"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Convert String to Float"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also convert strings to floating-point numbers using parseFloat():"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1let stringNumber = \"-15.65\";\n2\n3// Convert string to float\n4let floatNumber = parseFloat(stringNumber);\n5\n6console.log(floatNumber);    // Output: -15.65"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's explore how to check the type of these variables using the typeof operator."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

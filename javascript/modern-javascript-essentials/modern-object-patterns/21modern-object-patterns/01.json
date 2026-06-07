@@ -1,0 +1,81 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/modern-object-patterns?page=2",
+  "title": "Object Destructuring",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Object Destructuring"
+    },
+    {
+      "type": "paragraph",
+      "content": "Destructuring lets you extract properties from an object and assign them to variables in a single statement. Instead of accessing each property with dot notation one by one, you list the names you need inside curly braces on the left side of the assignment."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "const { property1, property2 } = sourceObject;"
+    },
+    {
+      "type": "paragraph",
+      "content": "The variable names must match the property names on the object. Let's see it in action."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const user = { name: \"Abidit\", age: 25, role: \"developer\" };\n2\n3const { name, age, role } = user;\n4\n5console.log(name);\n6console.log(age);\n7console.log(role);"
+    },
+    {
+      "type": "image",
+      "alt": "Object Destructuring",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDBkZTEwZDlhMTUwNDAwMTc0LTAwNmExN2NmNDYtYjA0ZGQ4NTEtc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmIwNGRkODUxLXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also set default values during destructuring in case a property is missing. If a property does not exist and you do not provide a default value, the destructured variable becomes undefined."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1const settings = { fontSize: 16 };\n2\n3const { fontSize, theme = \"dark\" } = settings;\n4\n5console.log(fontSize);\n6console.log(theme);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, theme does not exist on the settings object, so the default value \"dark\" is used instead. I reach for destructuring whenever I need more than one property from the same object."
+    },
+    {
+      "type": "paragraph",
+      "content": "It makes function parameters clearer and keeps the code flat instead of nesting dot-notation chains. In any real application where objects carry configuration, user data, or API responses, destructuring cuts down on repetitive dot-notation references throughout your code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

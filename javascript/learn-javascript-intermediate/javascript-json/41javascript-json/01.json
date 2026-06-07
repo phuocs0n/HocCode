@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-javascript-intermediate/javascript-json?page=2",
+  "title": "Breaking down JSON structure",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn JavaScript Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Breaking down JSON structure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's look at the JSON object we created in the previous page."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "let person = {\n    \"name\": \"Beyoncé\",\n    \"age\": 42,\n    \"gender\": \"female\"\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Important Notes About JSON:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Keys in JSON are written inside double quotes.",
+        "A colon (:) is used to separate keys from values.",
+        "String values are enclosed in double quotes, while numeric values are not."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

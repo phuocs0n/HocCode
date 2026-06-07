@@ -1,0 +1,59 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-java-basics/break-continue?page=2",
+  "title": "Java break Statement",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Java break Statement"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sometimes, we may need to end a loop immediately in the middle. In such cases, the break statement is used."
+    },
+    {
+      "type": "paragraph",
+      "content": "The break statement terminates the loop immediately when it is encountered. Let's see an example of it."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2    public static void main(String[] args) {\n3\n4        for (int i = 1; i <= 5; ++i) {\n5            System.out.println(i);\n6\n7            break;\n8\n9        }\n10        System.out.println(\"This is outside the loop.\");\n11    }\n12}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "1\nThis is outside the loop."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the loop should iterate 5 times from i equals 1 to 5. However, after printing 1, the value of i, the break statement is encountered and the loop terminates."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

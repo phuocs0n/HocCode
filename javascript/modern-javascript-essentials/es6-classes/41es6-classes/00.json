@@ -1,0 +1,64 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/modern-javascript-essentials/es-classes?page=1",
+  "title": "Creating a Class",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Modern JavaScript Essentials"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Creating a Class"
+    },
+    {
+      "type": "paragraph",
+      "content": "As programs grow, you need a clean way to bundle data and behavior together. ES6 classes give you a blueprint for creating objects that share the same structure and methods. Here is the basic syntax:"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "class ClassName {\n    constructor(param1, param2) {\n        this.property1 = param1;\n        this.property2 = param2;\n    }\n\n    methodName() {\n        // operates on this instance\n    }\n}\n\nconst instance = new ClassName(value1, value2);"
+    },
+    {
+      "type": "paragraph",
+      "content": "A class starts with the class keyword, followed by a name. Inside, a special constructor method runs when you create a new instance with new. You define methods directly inside the class body - no commas, no function keyword."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example,"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1class Ball {\n2    constructor(x, y, radius) {\n3        this.x = x;\n4        this.y = y;\n5        this.radius = radius;\n6        this.speed = 3;\n7    }\n8\n9    move(dx, dy) {\n10        this.x += dx;\n11        this.y += dy;\n12    }\n13\n14    describe() {\n15        return `Ball at (${this.x}, ${this.y}) with radius ${this.radius}`;\n16    }\n17}\n18\n19const ball = new Ball(400, 300, 10);\n20console.log(ball.describe());\n21\n22ball.move(5, -2);\n23console.log(ball.describe());"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, Ball is a class with a constructor that sets up initial properties and two methods - move and describe. Notice the template literal from Chapter 1 at work inside describe(). Calling new Ball(400, 300, 10) creates an object with those properties, and the methods operate on that specific instance. It is good practice to capitalize class names so they stand out as blueprints, not regular functions."
+    },
+    {
+      "type": "image",
+      "alt": "Anatomy of an ES6 Class",
+      "src": "data:application/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48RXJyb3I+PENvZGU+QWNjZXNzRGVuaWVkPC9Db2RlPjxNZXNzYWdlPjwvTWVzc2FnZT48QnVja2V0TmFtZT5wcm9ncmFtaXotcHJvLXNwYWNlczwvQnVja2V0TmFtZT48UmVxdWVzdElkPnR4MDAwMDAxNjg3YzBmOTdhZmRjZDYxLTAwNmExN2NmNDEtYjA0NGUwYTgtc2ZvM2E8L1JlcXVlc3RJZD48SG9zdElkPmIwNDRlMGE4LXNmbzNhLXNmbzMtemcwMTwvSG9zdElkPjwvRXJyb3I+"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

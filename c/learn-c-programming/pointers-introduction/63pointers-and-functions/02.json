@@ -1,0 +1,148 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/pointers-functions?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Câu hỏi: Cách gọi hàm sau đây đúng là gì?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "void func(int* pt) {\n  ....\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn vào một tùy chọn bên dưới để trả lời:"
+    },
+    {
+      "type": "paragraph",
+      "content": "số int = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(số);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm lấy địa chỉ của biến số làm đối số của nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm lấy địa chỉ của biến số làm đối số của nó."
+    },
+    {
+      "type": "paragraph",
+      "content": "số int = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(*số);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "*số không đại diện cho địa chỉ của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "*số không đại diện cho địa chỉ của biến số."
+    },
+    {
+      "type": "paragraph",
+      "content": "số int = 25;"
+    },
+    {
+      "type": "paragraph",
+      "content": "func(&số);"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Câu trả lời đúng!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm lấy địa chỉ của biến số làm đối số được biểu thị bằng &number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hàm lấy địa chỉ của biến số làm đối số được biểu thị bằng &number."
+    },
+    {
+      "type": "paragraph",
+      "content": "Không có điều nào ở trên"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Không đúng, thử lại lần nữa!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Một trong những lựa chọn trên là câu trả lời đúng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Một trong những lựa chọn trên là câu trả lời đúng."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Câu hỏi: Cách gọi hàm sau đây đúng là gì?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:số int = 25;func(số);",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "số int = 25;func(số);",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:số int = 25;func(*số);",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "số int = 25;func(*số);",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:int number = 25;func(&number);",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "int number = 25;func(&number);",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Không có điều nào ở trên",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Không có điều nào ở trên",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

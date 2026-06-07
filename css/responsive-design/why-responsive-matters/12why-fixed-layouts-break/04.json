@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/responsive-design/why-fixed-layouts-break?page=4",
+  "title": "The Fluid Container Pattern",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Code Work on Every Screen"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Fluid Container Pattern"
+    },
+    {
+      "type": "paragraph",
+      "content": "Almost every production website uses this on its outermost wrapper."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": ".container {\n  width: 100%;\n  max-width: 64rem;\n  margin: 0 auto;\n  padding: 0 1.5rem;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "At 320px the container is 320px wide, fits the phone. At 768px it fills the tablet. At 1440px it caps at 64rem and centers. One pattern, every screen size covered."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your portfolio has width: 900px on .container right now. That's what's causing the overflow you saw. The fix is one swap and the whole page becomes fluid."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "container {\n  width: 100%;\n  max-width: 64rem;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next up you'll make that change yourself."
+    },
+    {
+      "type": "paragraph",
+      "content": "▶️ Next, let's do it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

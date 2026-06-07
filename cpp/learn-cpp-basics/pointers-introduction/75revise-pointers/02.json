@@ -1,0 +1,89 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/revise-pointers?page=3",
+  "title": "Add 10 to Each Element of the Array",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Add 10 to Each Element of the Array"
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose we have an array with elements: {8, 7, 21, 13}. Now, we need to add 10 to each element of the array so our final array looks like this: {18, 17, 31, 23}."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "First, we need to access each array element using a loop. Inside the loop, we need to add 10 to each element and assign the result to the respective position."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4int main() {\n5\n6    int numbers[4] = {8, 7, 21, 13};\n7\n8    // loop to access each array element\n9    for (int i = 0; i < 4; ++i) {\n10\n11        // add 10 to the current array element\n12        *(numbers + i) = *(numbers + i) + 10;\n13    }\n14\n15    // print the array\n16    cout << \"Array Elements: \";\n17    for (int i = 0; i < 4; ++i) {\n18        cout << *(numbers + i) << \", \";\n19    }\n20\n21    return 0;\n22}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Array Elements: 18, 17, 31, 23,"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, notice the line:"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "*(numbers + i) = *(numbers + i) + 10;"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, *(numbers + i) accesses the array element at position i, adds 10 to it and assigns the result to the same position."
+    },
+    {
+      "type": "paragraph",
+      "content": "Quick Reminder:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "numbers - gives the address of first array element",
+        "*numbers - gives the value of the first element",
+        "numbers + 1 - gives the address of the second element",
+        "*(numbers + 1) - gives the value of the second element",
+        "....",
+        "numbers + i - gives the address of the ith element",
+        "*(numbers + i) - gives the value of the ith element"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/css-fundamentals-for-webpage/writing-clean-maintainable-css?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In a real project, why do developers often create a reusable .container class and apply it across sections (header, main, forms, footer)?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To make every section look identical."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. A container standardizes layout boundaries (width/centering/padding), not the visual design of every component."
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. A container standardizes layout boundaries (width/centering/padding), not the visual design of every component."
+    },
+    {
+      "type": "paragraph",
+      "content": "To centralize layout rules (max-width, horizontal padding, centering) in one reusable place."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. This keeps spacing consistent across the site and makes global layout changes safe and fast."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. This keeps spacing consistent across the site and makes global layout changes safe and fast."
+    },
+    {
+      "type": "paragraph",
+      "content": "To replace Flexbox and Grid completely."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. Containers work alongside Flexbox/Grid. They handle page width and alignment, while Flexbox/Grid handle internal layout."
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. Containers work alongside Flexbox/Grid. They handle page width and alignment, while Flexbox/Grid handle internal layout."
+    },
+    {
+      "type": "paragraph",
+      "content": "Because responsive design cannot work without a .container."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. Responsiveness is possible without it, but .container makes it much easier to keep layouts consistent across screen sizes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Incorrect. Responsiveness is possible without it, but .container makes it much easier to keep layouts consistent across screen sizes."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In a real project, why do developers often create a reusable .container class and apply it across sections (header, main, forms, footer)?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To make every section look identical.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To make every section look identical.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To centralize layout rules (max-width, horizontal padding, centering) in one reusable place.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To centralize layout rules (max-width, horizontal padding, centering) in one reusable place.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To replace Flexbox and Grid completely.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To replace Flexbox and Grid completely.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Because responsive design cannot work without a .container.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Because responsive design cannot work without a .container.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

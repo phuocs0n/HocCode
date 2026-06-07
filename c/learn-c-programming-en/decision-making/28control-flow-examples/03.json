@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/learn-c-programming/control-flow-examples?page=4",
+  "title": "Check Leap Year (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Check Leap Year (III)"
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll often find more than one approach to solve a problem when programming. Let's look at another approach:"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5  int year = 2000;\n6\n7  // If a year is divisible by 4 and not divisible by 100\n8  // Or year is divisible by 400, it's a leap year\n9  if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {\n10    printf(\"Leap Year\");\n11  }\n12\n13  // All other remaining years are not a leap year\n14  else {\n15    printf(\"Not a Leap Year\");\n16  }\n17\n18return 0;\n19}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using the && (AND) and || (OR) operator, you can check all three conditions at once."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see another example of if…else next."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

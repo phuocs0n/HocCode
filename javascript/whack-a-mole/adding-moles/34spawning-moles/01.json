@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/whack-a-mole/spawning-moles?page=2",
+  "title": "Understanding Random Selection 🎲",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Whack A Mole"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Understanding Random Selection 🎲"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before you code, let's understand how to make random things happen in JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "content": "The problem: You have 9 holes (numbered 0 through 8 in your array). You need to pick one at random—different every time."
+    },
+    {
+      "type": "paragraph",
+      "content": "The solution: JavaScript has a built-in tool called Math.random() that picks a random decimal number between 0 and 1 (like 0.742 or 0.193)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's how you turn that into a random hole number from 0 to 8:"
+    },
+    {
+      "type": "paragraph",
+      "content": "const randomIndex = Math.floor(Math.random() * 9);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Breaking it down step by step:"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Math.random() gives you a decimal like 0.742",
+        "Multiply by 9 to get a number between 0 and 9: 0.742 × 9 = 6.678",
+        "Math.floor() rounds down to remove decimals: 6.678 becomes 6",
+        "Result: you get a whole number from 0 to 8 (perfect for picking a hole!)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Think of it like rolling a 9-sided die—you get a different number each time."
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll use this pattern to pick a random hole."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

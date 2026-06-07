@@ -1,0 +1,74 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/why-react?page=2",
+  "title": "React is a JavaScript Library",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Build your First Web App with React"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "React is a JavaScript Library"
+    },
+    {
+      "type": "paragraph",
+      "content": "React isn't a new language — it's a JavaScript library. You're still writing JavaScript. React just gives you extra tools on top."
+    },
+    {
+      "type": "paragraph",
+      "content": "Library vs. Framework"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Library",
+          "Framework"
+        ],
+        [
+          "You call the library when you want",
+          "The framework calls your code"
+        ],
+        [
+          "You decide the structure",
+          "The framework decides the structure for you"
+        ],
+        [
+          "Example: React",
+          "Example: Angular, Next.js"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "React is a library — you decide when to use it, how to structure your files, and how to fetch data. Frameworks make those decisions for you."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is why \"React is JavaScript\" is accurate. Your existing JS knowledge — functions, arrays, conditionals, objects — works exactly the same inside React."
+    },
+    {
+      "type": "paragraph",
+      "content": "It layers on top of what you already know, not beside it."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

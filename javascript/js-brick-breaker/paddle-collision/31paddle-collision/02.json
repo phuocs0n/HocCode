@@ -1,0 +1,45 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/js-brick-breaker/paddle-collision?page=3",
+  "title": "Detect the Paddle Hit 🏓",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Detect the Paddle Hit 🏓"
+    },
+    {
+      "type": "paragraph",
+      "content": "Time to make the ball bounce off the paddle. Start with a simple version — detect the overlap and reverse the vertical velocity."
+    },
+    {
+      "type": "paragraph",
+      "content": "In game.js, add a checkPaddleCollision() method to the Game class."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Return early if ballSpeedY <= 0 (ball is moving up).",
+        "Return early if the ball bottom is above the paddle top, below the paddle bottom, or the ball center is outside the paddle sides.",
+        "Set this.ball.ballSpeedY = -Math.abs(this.ball.ballSpeedY) and reposition the ball just above the paddle.",
+        "Call this.checkPaddleCollision() in Game.update() after this.ball.update()."
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "entities.js",
+        "game.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "unknown",
+      "content": "\"use strict\";"
+    }
+  ],
+  "quiz": null,
+  "type": "theory"
+}

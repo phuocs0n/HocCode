@@ -1,0 +1,131 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/git/branches?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does git switch -c feature-x do?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Switches to an existing branch called feature-x"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The -c flag means create. Without it, git switch feature-x would switch to an existing branch. With -c, it creates the branch first, then switches."
+    },
+    {
+      "type": "paragraph",
+      "content": "The -c flag means create. Without it, git switch feature-x would switch to an existing branch. With -c, it creates the branch first, then switches."
+    },
+    {
+      "type": "paragraph",
+      "content": "Creates a new branch called feature-x and immediately switches to it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. The -c flag creates the branch and switches in one step. It is shorthand for running git branch feature-x followed by git switch feature-x."
+    },
+    {
+      "type": "paragraph",
+      "content": "Correct. The -c flag creates the branch and switches in one step. It is shorthand for running git branch feature-x followed by git switch feature-x."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deletes the current branch and creates feature-x in its place"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "git switch -c never deletes anything. It creates a new branch from the current position and leaves the original completely intact."
+    },
+    {
+      "type": "paragraph",
+      "content": "git switch -c never deletes anything. It creates a new branch from the current position and leaves the original completely intact."
+    },
+    {
+      "type": "paragraph",
+      "content": "Copies all commits from main into a new branch called feature-x"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Branches do not copy commits — they share history up to the branching point and then diverge. No files or commits are duplicated."
+    },
+    {
+      "type": "paragraph",
+      "content": "Branches do not copy commits — they share history up to the branching point and then diverge. No files or commits are duplicated."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does git switch -c feature-x do?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Switches to an existing branch called feature-x",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Switches to an existing branch called feature-x",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Creates a new branch called feature-x and immediately switches to it",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Creates a new branch called feature-x and immediately switches to it",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:Deletes the current branch and creates feature-x in its place",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "Deletes the current branch and creates feature-x in its place",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:Copies all commits from main into a new branch called feature-x",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "Copies all commits from main into a new branch called feature-x",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

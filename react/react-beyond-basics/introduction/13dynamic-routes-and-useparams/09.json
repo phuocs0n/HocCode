@@ -1,0 +1,131 @@
+{
+  "index": 9,
+  "url": "https://app.programiz.pro/course/react-beyond-basics/dynamic-routes-useparams?page=9",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What does useParams() return when the route is /entries/:id and the URL is /entries/7?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "The number 7"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useParams() always returns an object whose key-value pair consists of a string value, never a number."
+    },
+    {
+      "type": "paragraph",
+      "content": "useParams() always returns an object whose key-value pair consists of a string value, never a number."
+    },
+    {
+      "type": "paragraph",
+      "content": "An array: [\"id\", \"7\"]"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useParams() returns an object, not an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "useParams() returns an object, not an array."
+    },
+    {
+      "type": "paragraph",
+      "content": "An object: { id: \"7\" }"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The key matches the segment name, the value is always a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "The key matches the segment name, the value is always a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "The full URL string \"/entries/7\""
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "useParams() returns only the captured segment values, not the full URL."
+    },
+    {
+      "type": "paragraph",
+      "content": "useParams() returns only the captured segment values, not the full URL."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What does useParams() return when the route is /entries/:id and the URL is /entries/7?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:The number 7",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "The number 7",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:An array: [\"id\", \"7\"]",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "An array: [\"id\", \"7\"]",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:An object: { id: \"7\" }",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "An object: { id: \"7\" }",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The full URL string \"/entries/7\"",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The full URL string \"/entries/7\"",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

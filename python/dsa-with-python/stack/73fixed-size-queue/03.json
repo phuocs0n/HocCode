@@ -1,0 +1,56 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/fixedsize-queue?page=4",
+  "title": "Front and Rear Pointers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Front and Rear Pointers"
+    },
+    {
+      "type": "paragraph",
+      "content": "In our previous lesson with dynamically sized lists, we conceptually added elements (enqueued) from the rear using append() and removed them from the front (dequeued) using pop(0)."
+    },
+    {
+      "type": "paragraph",
+      "content": "This combination implements the First-In, First-Out (FIFO) principle."
+    },
+    {
+      "type": "paragraph",
+      "content": "However, in a fixed-size queue, we manage the queue using two pointers:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "rear: points to the last inserted element",
+        "front: points to the element to be removed next"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's look more closely at the rear index."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

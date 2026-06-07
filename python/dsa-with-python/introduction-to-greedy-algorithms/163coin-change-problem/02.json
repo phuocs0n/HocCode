@@ -1,0 +1,184 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-python/coin-change-problem?page=3",
+  "title": "Solving the Problem",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with Python"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Solving the Problem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, the amount to be paid is"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Total = 62"
+    },
+    {
+      "type": "paragraph",
+      "content": "In order to solve the problem, let's use the following table:"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Coins",
+          "Count"
+        ],
+        [
+          "$25",
+          "0"
+        ],
+        [
+          "$10",
+          "0"
+        ],
+        [
+          "$5",
+          "0"
+        ],
+        [
+          "$1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's choose the coin with the highest value that is less than or equal to this amount, which is $25."
+    },
+    {
+      "type": "paragraph",
+      "content": "So, we can use two $25 coins, and our remaining amount is"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Total = 62 - (2 * 25) = 12"
+    },
+    {
+      "type": "paragraph",
+      "content": "So, our updated table is"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Coins",
+          "Count"
+        ],
+        [
+          "$25",
+          "2"
+        ],
+        [
+          "$10",
+          "0"
+        ],
+        [
+          "$5",
+          "0"
+        ],
+        [
+          "$1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the coin with the highest value less than or equal to the remaining amount is $10."
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "Total = 12 - 10 = 2"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Coins",
+          "Count"
+        ],
+        [
+          "$25",
+          "2"
+        ],
+        [
+          "$10",
+          "1"
+        ],
+        [
+          "$5",
+          "0"
+        ],
+        [
+          "$1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, the coin we choose is $1, and since we are $2 down the amount, we take two of these."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Coins",
+          "Count"
+        ],
+        [
+          "$25",
+          "2"
+        ],
+        [
+          "$10",
+          "1"
+        ],
+        [
+          "$5",
+          "0"
+        ],
+        [
+          "$1",
+          "2"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Thus, we ended up using a total of five coins in order to collect $62."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now, let's try implementing this in Python."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

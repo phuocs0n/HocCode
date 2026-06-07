@@ -1,0 +1,54 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/learn-java-intermediate/java-enum?page=1",
+  "title": "enum Introduction",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Intermediate"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "enum Introduction"
+    },
+    {
+      "type": "paragraph",
+      "content": "An enum or enumeration is a special kind of class that has a fixed set of constant (unchangeable) values."
+    },
+    {
+      "type": "paragraph",
+      "content": "Create enum"
+    },
+    {
+      "type": "paragraph",
+      "content": "We create an enum, by using the enum keyword."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "enum Size {\n    SMALL, MEDIUM, LARGE\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have an enum named Size. It contains constant values: SMALL, MEDIUM, and LARGE. They are separated by commas."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

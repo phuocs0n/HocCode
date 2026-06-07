@@ -1,0 +1,47 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-css/add-project-section?page=5",
+  "title": "Adding the Section to our Portfolio",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn CSS"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding the Section to our Portfolio"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finally, let's add our Projects section to our portfolio."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<section class=\"projects\" id=\"projects\">\n2    <h2> Projects </h2>\n3    <div class=\"projects-grid\">\n4        <div class=\" primary-card projects-card\">\n5            <img src=\"/images/learn-css/shopease.png\" alt=\"Project Image\">\n6            <h3>ShopEase</h3>\n7            <p>ShopEase is a fully responsive and interactive e-commerce platform that offers a seamless\n8                shopping experience. It features product listings, shopping cart functionality, secure checkout,\n9                product filtering, and user reviews. With an integrated payment gateway, it provides users with\n10                a secure and efficient way to shop online. Built using modern web technologies and best\n11                practices.</p>\n12            <div class=\"tech-tag-list\">\n13                <div>HTML</div>\n14                <div>CSS</div>\n15                <div>JavaScript</div>\n16                <div>API Integration</div>\n17                <div>Payment Gateway</div>\n18            </div>\n19            <a href=\"#\">Visit Site</a>\n20        </div>\n21        <div class=\"projects-card\">\n22            <img src=\"/images/learn-css/smoothie.png\" alt=\"Project Image\">\n23            <h3>Smoothie Hub</h3>\n24            <p>A vibrant website featuring a collection of smoothie recipes for health-conscious individuals.</p>\n25            <a href=\"#\">Visit Site</a>\n26        </div>\n27        <div class=\"projects-card\">\n28            <img src=\"/images/learn-css/bakery.png\" alt=\"Project Image\">\n29            <h3>BakeItEasy</h3>\n30            <p>A baking recipe website that showcases step-by-step guides for home bakers.</p>\n31            <a href=\"#\">Visit Site</a>\n32        </div>\n33        <div class=\"projects-card\">\n34            <img src=\"/images/learn-css/meal.png\" alt=\"Project Image\">\n35            <h3>QuickFit Meals</h3>\n36            <p>An easy-to-use site that provides quick and healthy meal ideas for people on the go.</p>\n37            <a href=\"#\">Visit Site</a>\n38        </div>\n39        <div class=\"projects-card\">\n40            <img src=\"/images/learn-css/travel.png\" alt=\"Project Image\">\n41            <h3>TravelShots</h3>\n42            <p>A photography portfolio that highlights unique travel destinations through stunning images.</p>\n43            <a href=\"#\">Visit Site</a>\n44        </div>\n45    </div>\n46</section>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1/* Import custom font */\n2@import url(\"https://fonts.googleapis.com/css2?family=Euclid+Circular+A:wght@400;500&display=swap\");\n3\n4* {\n5    font-family: 'Euclid Circular A', sans-serif;\n6    line-height: 1.5;\n7}\n8\n9.projects-grid {\n10    display: grid;\n11    grid-template-columns: 2fr 1fr 1fr;\n12    grid-template-rows: auto auto;\n13    gap: 20px;\n14}\n15\n16/* Style cards */\n17.projects-grid > div {\n18    background-color: #ffffff;\n19    border-radius: 10px;\n20    padding: 20px;\n21    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n22}\n23\n24.primary-card {\n25    grid-area: 1 / 1 / 3 / 2;\n26}\n27\n28/* Flex layout */\n29.tech-tag-list {\n30    display: flex;\n31    gap: 10px;\n32}\n33\n34/* Style tags */\n35.tech-tag-list > div {\n36    background-color: #f3f3f3;\n37    color: #49497e;\n38    font-size: 0.8rem;\n39    border-radius: 5px;\n40    padding: 4px 4px;\n41}\n42\n43/* Style images */\n44img {\n45    width: 100%;\n46    border-radius: 10px;\n47}\n48\n49/* Style headings */\n50h3 {\n51    color: #25265e;\n52    font-size: 1.5rem;\n53    font-weight: 550;\n54}\n55\n56/* Style paragraphs */\n57p {\n58    font-size: 16px;\n59}\n60\n61/* Style links */\n62a {\n63    color: #0556f3;\n64    font-weight: medium;\n65    text-decoration: none;\n66}\n67\n68/* Mobile view */\n69@media (max-width: 768px) {\n70\n71    .projects-grid {\n72        display: flex;\n73        flex-direction: column;\n74        align-items: center;\n75        justify-content: center;\n76    }\n77\n78    .tech-tag-list,\n79    .projects-card p {\n80        display: none;\n81    }\n82\n83    .projects-card {\n84        display: flex;\n85        flex-direction: column;\n86        align-items: center;\n87    }\n88}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

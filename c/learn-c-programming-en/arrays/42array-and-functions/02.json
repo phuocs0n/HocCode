@@ -1,0 +1,180 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-c-programming/array-functions?page=3",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: What is the output of the following code?"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "#include <stdio.h>\n\nvoid product(int n1) {\n  printf(\"%d\", n1 * n1);\n}\n\nint main() {\n\n  int ages[5] = {25, 31, 30, 17, 39};\n\n  product(ages[2]);\n \n  return 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "900"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the third element 30 and 30 * 30 gives 900."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the third element 30 and 30 * 30 gives 900."
+    },
+    {
+      "type": "paragraph",
+      "content": "30"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 gives the square of the passed value."
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 gives the square of the passed value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the third element 30 and 30 * 30 gives 900."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the third element 30 and 30 * 30 gives 900."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 gives the square of the passed value."
+    },
+    {
+      "type": "paragraph",
+      "content": "n1 * n1 gives the square of the passed value."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    },
+    {
+      "type": "paragraph",
+      "content": "We are passing the value at index 2."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: What is the output of the following code?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:900",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "900",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:30",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:2",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:4",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

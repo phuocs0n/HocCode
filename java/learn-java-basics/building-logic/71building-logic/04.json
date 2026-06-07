@@ -1,0 +1,78 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/learn-java-basics/building-logic?page=4",
+  "title": "Step 3: Prime Numbers Between 50 to 100",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 3: Prime Numbers Between 50 to 100"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the numbers from 50 to 100, we'll need to create a loop that iterates from 50 to 100. In each iteration of the loop, we'll check if the number is prime or not."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1class Main {\n2\n3    boolean checkPrime(int number) {\n4\n5        boolean isPrime = true;\n6\n7        // Iterate loop from 2 to number -1\n8        for (int i = 2; i <= number - 1; i++) {\n9\n10            if (number % i == 0) {\n11                isPrime = false;\n12                break;\n13            }\n14        }\n15        return isPrime;\n16    }\n17\n18    public static void main(String[] args) {\n19\n20        int n1 = 50;\n21        int n2 = 100;\n22\n23        // Create object of Main class\n24        Main obj = new Main();\n25\n26        for (int i = n1; i <= n2; i++) {\n27            boolean isPrime = obj.checkPrime(i);\n28\n29            if (isPrime) {\n30                // Printing prime numbers\n31                System.out.println(i);\n32            }\n33        }\n34    }\n35}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "53\n59\n61\n67\n71\n73\n79\n83\n89\n97"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, we have iterated a for loop from i equals n1 (50) to n2 (100)."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (int i = n1; i <= n2; i++) {\n    …\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "In each iteration of the loop, we have checked if i is prime or not by calling the checkPrime() method."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (int i = n1; i <= n2; i++) {\n    boolean isPrime = obj.checkPrime(i);\n    …\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "If i is prime, we have printed the number."
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "for (int i = n1; i <= n2; i++) {\n\n    boolean isPrime = obj.checkPrime(i);\n\n    if (isPrime) {\n\n        // Printing prime numbers\n        System.out.println(i);\n    }\n}"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

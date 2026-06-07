@@ -1,0 +1,68 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/learn-c-programming/c-booleans?page=6",
+  "title": "Example: Boolean Expressions (III)",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Example: Boolean Expressions (III)"
+    },
+    {
+      "type": "code",
+      "language": "c",
+      "content": "1#include <stdio.h>\n2\n3int main() {\n4\n5    double total;\n6    int result;\n7\n8    printf(\"Enter total: \");\n9    scanf(\"%lf\", &total);\n10  \n11    // Check if total is greater than 100\n12    result = total > 100;\n13\n14    printf(\"Result: %d\", result);\n15\n16    return 0;\n17}"
+    },
+    {
+      "type": "paragraph",
+      "content": "The output value result will be either 0 or 1, depending on the input total provided."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's run this program with two different input values:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 1"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter total: 70\nResult: 0"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sample Output 2"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter total: 150\nResult: 1"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll learn why these outputs differ."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

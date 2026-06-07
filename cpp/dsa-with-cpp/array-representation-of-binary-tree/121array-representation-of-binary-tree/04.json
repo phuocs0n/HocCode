@@ -1,0 +1,100 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/array-representation-of-binary-tree?page=5",
+  "title": "Thought Process: Array Representation",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process: Array Representation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see how array representation is implemented."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Find the parent index."
+    },
+    {
+      "type": "paragraph",
+      "content": "For any node at index in the array, the parent is located at index (index - 1) / 2."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "int parent(int index) {\n    return (index - 1) / 2;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Find the child indices."
+    },
+    {
+      "type": "paragraph",
+      "content": "For any node at index i in the array:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The left child is located at index 2i + 1.",
+        "The right child is located at index 2i + 2."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Calculate the index of a node's left child\nint left_child(int index) {\n    return 2 * index + 1;\n}\n\n// Calculate the index of a node's right child\nint right_child(int index) {\n    return 2 * index + 2;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Check if the parent exists."
+    },
+    {
+      "type": "paragraph",
+      "content": "Since array indices start at 0, the root node (index 0) doesn't have a valid parent index. And, any other node with a positive index will have a non-negative parent index."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "bool has_parent(int index) {\n    return parent(index) >= 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Check if a child exists."
+    },
+    {
+      "type": "paragraph",
+      "content": "In a binary tree represented as an array, a node's children are present if their indices are within the bounds of the array's length."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "// Check if a node at a given index has a left child\nbool has_left_child(int index) {\n    return left_child(index) < arr.size();\n}\n\n// Check if a node at a given index has a right child\nbool has_right_child(int index) {\n    return right_child(index) < arr.size();\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, we will look at the source code."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

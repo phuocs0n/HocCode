@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-python-basics/comments?page=2",
+  "title": "Python Comments",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Python Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Python Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Python, we use the # symbol to write comments in our code."
+    },
+    {
+      "type": "paragraph",
+      "content": "On the last page, we saw that writing something like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(34.0) this shows the temperature"
+    },
+    {
+      "type": "paragraph",
+      "content": "will give you an error. That's because Python tries to read everything on the line, and it doesn't know what to do with the extra text."
+    },
+    {
+      "type": "paragraph",
+      "content": "But sometimes, you do want to write a quick note to explain what a line of code is doing. To do that without causing an error, you can use a comment."
+    },
+    {
+      "type": "paragraph",
+      "content": "Just add a # before the explanation, like this:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "1print(34.0)  # This shows the temperature"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now Python will run the first part (print(34.0)) and completely ignore anything after the #. In fact, Python skips any line that starts with #—it doesn't run it, and it won't appear in the output at all."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll look at more examples of comments."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

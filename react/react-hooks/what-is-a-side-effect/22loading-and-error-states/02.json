@@ -1,0 +1,62 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/react-hooks/loading-error-states?page=3",
+  "title": "Adding a Loading State",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding a Loading State"
+    },
+    {
+      "type": "paragraph",
+      "content": "We'll start by adding an isLoading state to App.jsx:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "It starts as true since the app is always loading when it first mounts.",
+        "It flips to false once the fetch completes."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "const [isLoading, setIsLoading] = useState(true);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inside useEffect(), we call setIsLoading(false) right after the entries are stored:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "// Inside App()\n\nuseEffect(function () {\n  async function loadEntries() {\n    const res = await fetch(\"https://api.programiz.pro/api/Demo/v1/journal-entries\");\n    const data = await res.json();\n    const mapped = data.map((post) => ({ ... }));\n    setEntries(mapped);\n\n    // Change isLoading to false\n    setIsLoading(false);\n  }\n\n  loadEntries();\n}, []);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now let's use isLoading in the render."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

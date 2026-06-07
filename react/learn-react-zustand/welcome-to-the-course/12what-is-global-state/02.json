@@ -1,0 +1,79 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-react-zustand/what-is-global-state?page=3",
+  "title": "When It Gets Out of Hand",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn React Zustand: The Smarter Way to Handle Data"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "When It Gets Out of Hand"
+    },
+    {
+      "type": "paragraph",
+      "content": "Now imagine your journal app looks like this."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "App\n├── Header\n├── JournalForm\n└── EntryList"
+    },
+    {
+      "type": "paragraph",
+      "content": "Your entries live in App. But JournalForm needs to add entries. EntryList needs to display them. Header needs them for the search feature."
+    },
+    {
+      "type": "paragraph",
+      "content": "So you start passing them down as props."
+    },
+    {
+      "type": "paragraph",
+      "content": "For a small app it is manageable. But imagine your app grows into this:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "App\n└── Layout\n    └── PageWrapper\n        └── MainContent\n            └── ContentArea\n                ├── Sidebar\n                │   └── FilterPanel\n                │       └── SearchBar\n                └── Feed\n                    └── EntryList\n                        └── EntryCard"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every single component in that tree has to accept the props and pass them down. Layout does not care about entries. PageWrapper does not care."
+    },
+    {
+      "type": "paragraph",
+      "content": "ContentArea does not care. Sidebar does not care. They are all just passing the message along."
+    },
+    {
+      "type": "paragraph",
+      "content": "And every time you add something new to your state, you have to touch every single one of them — even the ones that have nothing to do with it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The bigger the app, the deeper the drilling. The deeper the drilling, the harder it is to follow where your data is actually going."
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Next Lesson to continue."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,72 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/javascript-interactivity/controlling-visibility-with-classes-toggle?page=4",
+  "title": "Smooth Expand in Action",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Make Your Website Interactive with JavaScript"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Smooth Expand in Action"
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see it all come together."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "1<!-- index.html -->\n2<!DOCTYPE html>\n3<html lang=\"en\">\n4<head>\n5  <meta charset=\"UTF-8\" />\n6  <title>Read more — smooth expand</title>\n7  <link rel=\"stylesheet\" href=\"style.css\" />\n8</head>\n9<body>\n10  <p>Short teaser text here.</p>\n11\n12  <div class=\"expand-wrap\">\n13    <p>Full content that appears when you click Read more. CSS handles the smooth transition.</p>\n14  </div>\n15\n16  <button class=\"read-more-btn\">Read more</button>\n17\n18  <script src=\"script.js\"></script>\n19</body>\n20</html>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "content": "1body {\n2  font-family: sans-serif;\n3  padding: 20px;\n4  max-width: 400px;\n5}\n6\n7.expand-wrap {\n8  overflow: hidden;\n9  max-height: 0;\n10  transition: max-height 0.3s ease;\n11}\n12\n13.expand-wrap.is-expanded {\n14  max-height: 200px;\n15}\n16\n17.read-more-btn {\n18  margin-top: 8px;\n19  padding: 6px 12px;\n20  cursor: pointer;\n21}"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "content": "1// script.js\n2var btn = document.querySelector('.read-more-btn');\n3var wrap = document.querySelector('.expand-wrap');\n4\n5if (btn && wrap) {\n6  btn.addEventListener('click', function () {\n7    var isExpanded = wrap.classList.toggle('is-expanded');\n8    btn.textContent = isExpanded ? 'Show less' : 'Read more';\n9  });\n10}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Click Run Code."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you click the button, watch the section expand smoothly. Click again, and it collapses back."
+    },
+    {
+      "type": "paragraph",
+      "content": "JavaScript changes the state. CSS handles the animation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Notice the button text changed too. That is state working on two things at once, the section and the label, from a single toggle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll answer a quick quiz to reinforce why this approach is cleaner than setting height directly in JavaScript."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

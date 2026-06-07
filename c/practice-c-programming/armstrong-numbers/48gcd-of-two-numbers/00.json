@@ -1,0 +1,79 @@
+{
+  "index": 0,
+  "url": "https://app.programiz.pro/course/practice-c-programming/gcd-of-two-numbers?page=1",
+  "title": "GCD of Two Numbers",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practice: C Programming"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "content": "Practice:"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "GCD of Two Numbers"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Problem Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Create a program to find the GCD of two numbers using a function."
+    },
+    {
+      "type": "paragraph",
+      "content": "GCD (Greatest Common Divisor) of two numbers is the largest number that can exactly divide both the numbers."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Create a function findGCD() with parameters: num1 and num2.",
+        "Inside the function, create an integer variable gcd with value 1.",
+        "Run a for loop from  i = 1 to i <= num1  and  i <= num2.",
+        "Inside the loop, if i divides both num1 and num2, set gcd as i.",
+        "Return the value of gcd.",
+        "Inside main(), get integer input for two variables x and y.",
+        "Call findGCD() with arguments x and y.",
+        "Print the returned value."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Example"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Test Input81\n153"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Expected Output9"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "exercise"
+}

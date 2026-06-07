@@ -1,0 +1,49 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/java-interview-questions/find-index-of-first-last-occurrence-of-element?page=2",
+  "title": "Thought Process",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Java Interview Questions"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Thought Process"
+    },
+    {
+      "type": "paragraph",
+      "content": "To find the index of the first occurrence, we will check each element of the array from the first index, and to find the last occurrence of an element inside the array, check each element of the array from the last index till we find the element."
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's see a detailed overview of how to solve this problem."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Initialize two integer variables called firstOccurrence and lastOccurrence to -1 to store the indices of the first and last occurrences of the element.",
+        "Iterate through the array using a for loop. For each element in the array, compare it to the element parameter. If the element is equal to element, store the index in the firstOccurrence variable and exit the loop using the break keyword.",
+        "Iterate through the array again, this time starting from the end and going backwards. For each element in the array, compare it to the element parameter. If the array element is equal to element parameter, store the index in the lastOccurrence variable and exit the loop using the break keyword."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

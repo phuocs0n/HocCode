@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/react-hooks/dependency-array?page=4",
+  "title": "Adding Multiple Dependencies",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Hooks: Level Up Your First Web App"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Adding Multiple Dependencies"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, our dependency array checked only a single value: query."
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n  // ...\n}, [query]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "But what if you need to re-render based on other values as well? For instance, you might also need to re-render when you go to the next page of journal entries."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this case, you'll need to add both query and page to the array:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "useEffect(function () {\n  // ...\n}, [query, page]);"
+    },
+    {
+      "type": "paragraph",
+      "content": "Basically, React watches every value in the list. If any of them change between renders, the effect re-runs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, let's visualize this behavior."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

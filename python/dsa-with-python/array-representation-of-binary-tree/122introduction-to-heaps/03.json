@@ -1,0 +1,131 @@
+{
+  "index": 3,
+  "url": "https://app.programiz.pro/course/dsa-with-python/introduction-to-heaps?page=4",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: Which of the following represents a min heap?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each child is smaller than its parent."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a max heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a max heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each child is greater than its parent."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a min heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "This describes a min heap."
+    },
+    {
+      "type": "paragraph",
+      "content": "The nodes in the heap are sorted in ascending order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The nodes in a min heap are not necessarily sorted in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The nodes in a min heap are not necessarily sorted in ascending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The nodes in the heap are sorted in descending order."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The nodes in a min heap are not necessarily sorted in descending order."
+    },
+    {
+      "type": "paragraph",
+      "content": "The nodes in a min heap are not necessarily sorted in descending order."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: Which of the following represents a min heap?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:Each child is smaller than its parent.",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "Each child is smaller than its parent.",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:Each child is greater than its parent.",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "Each child is greater than its parent.",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:The nodes in the heap are sorted in ascending order.",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "The nodes in the heap are sorted in ascending order.",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:The nodes in the heap are sorted in descending order.",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "The nodes in the heap are sorted in descending order.",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,60 @@
+{
+  "index": 6,
+  "url": "https://app.programiz.pro/course/learn-java-oop/rock-paper-scissors?page=7",
+  "title": "Step 6: Putting All Together",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn Java OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Step 6: Putting All Together"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Project Changes"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "created another class Main with the main() method",
+        "created an object of the Game class",
+        "called getComputerPick(), getUserPick(), getResult() methods."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "content": "1import java.util.Scanner;\n2\n3class Game {\n4\n5    String getComputerPick() {\n6\n7        String computerPick;\n8        // get an integer from 1 to 3\n9        int randomNumber = (int) (Math.random() * 3) + 1;\n10\n11        if (randomNumber == 1) {\n12            computerPick = \"rock\";\n13        }\n14\n15        else if (randomNumber == 2) {\n16            computerPick = \"paper\";\n17        }\n18\n19        else {\n20            computerPick = \"scissors\";\n21        }\n22\n23        return computerPick;\n24    }\n25\n26    String getUserPick() {\n27\n28        Scanner input = new Scanner(System.in);\n29\n30        String userPick;\n31\n32        // get input until user enters \"rock\", \"paper\" or \"scissors\"\n33        while (true) {\n34            System.out.println(\"Enter rock, paper or scissors:\");\n35            userPick = input.nextLine();\n36            if (userPick.equals(\"rock\") || userPick.equals(\"paper\") || userPick.equals(\"scissors\")) {\n37                break;\n38            }\n39        }\n40\n41        return userPick;\n42    }\n43\n44    // return either \"win\", \"lose\" or \"draw\"\n45    String getResult(String userPick, String computerPick) {\n46\n47        // condition for user to draw\n48        if (userPick.equals(computerPick)) {\n49            return \"draw\";\n50        }\n51\n52        // condition for user to win\n53        else if (userPick.equals(\"paper\") && computerPick.equals(\"rock\")) {\n54            return \"win\";\n55        }\n56\n57        else if (userPick.equals(\"rock\") && computerPick.equals(\"scissors\")) {\n58            return \"win\";\n59        }\n60\n61        else if (userPick.equals(\"scissors\") && computerPick.equals(\"paper\")) {\n62            return \"win\";\n63        }\n64\n65        // all conditions results to loss\n66        else {\n67            return \"lose\";\n68        }\n69    }\n70}\n71\n72class Main {\n73    public static void main(String[] args) {\n74\n75        Game game = new Game();\n76        String userPick = game.getUserPick();\n77        String computerPick = game.getComputerPick();\n78        String result = game.getResult(userPick, computerPick);\n79\n80        System.out.println(\"User Pick: \" + userPick);\n81        System.out.println(\"Computer Pick: \" + computerPick);\n82        System.out.println(\"You \" + result);\n83\n84    }\n85}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Enter rock, paper or scissors:\nhaha\nEnter rock, paper or scissors:\nrock\nUser Pick: rock\nComputer Pick: scissors\nYou win"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

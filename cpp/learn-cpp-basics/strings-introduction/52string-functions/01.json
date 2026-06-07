@@ -1,0 +1,54 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/learn-cpp-basics/string-functions?page=1",
+  "title": "Introduction to String Functions",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ Basics"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to String Functions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Strings are one of the most frequently used data types in programming. There are several string functions to make working with strings easier. For example, the length() function allows us to find the length of a string."
+    },
+    {
+      "type": "paragraph",
+      "content": "To use these functions, we must first import the string header file in our program. This is because the definition of these functions is provided inside this file."
+    },
+    {
+      "type": "paragraph",
+      "content": "In this lesson, we will learn about these commonly used functions."
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "length() - finds the length of a string",
+        "insert() - inserts characters into an existing string",
+        "substr() - generates a substring from a string",
+        "swap() - swaps values of two string variables"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

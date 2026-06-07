@@ -1,0 +1,97 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/learn-cpp-oop/pointer-types?page=2",
+  "title": "Introduction to 'this' Pointer",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Learn C++ OOP"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Introduction to 'this' Pointer"
+    },
+    {
+      "type": "paragraph",
+      "content": "In C++, we use the this keyword to refer to the current object. Let's see what that means."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// define the Student class\n5class Student {\n6    public:\n7\n8        // public string variable to hold the student's name\n9        string name;\n10\n11        // function that displays the student's name\n12        void display_name() {\n13\n14            cout << \"Student's name using this: \" << this->name << endl;\n15\n16        }\n17};\n18\n19int main() {\n20\n21    // create a Student object and set the name variable \n22    Student student;\n23    student.name = \"John Doe\";\n24\n25\n26    // call the display_name() function\n27    student.display_name();\n28\n29\n30    // print the student's name\n31    cout << \"Student's name using object: \" << student.name << endl;\n32\n33    return 0;\n34}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Student's name using this: John Doe\nStudent's name using object: John Doe"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the above example, you can see both student.name and this->name give the same result, John Doe."
+    },
+    {
+      "type": "paragraph",
+      "content": "Basically, what happens here is when we call the display_name() function using the student object, this will refer to the current object, which is student."
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "void display_name() {\n    cout << \"Student's name using this: \" << this->name << endl;\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hence, we get the output John Doe (value of name for student)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Similarly, if we call the function with another object (let's say student2), this->name will print the value of name for student2. For example,"
+    },
+    {
+      "type": "code",
+      "language": "cpp",
+      "content": "1#include <iostream>\n2using namespace std;\n3\n4// define the Student class\n5class Student {\n6    public:\n7    \n8        // public string variable to hold the student's name\n9        string name;\n10\n11        // function that displays the student's name\n12        void display_name() {\n13\n14            cout << \"Student's name using this: \" << this->name << endl;\n15\n16        }\n17};\n18\n19int main() {\n20    \n21    // create a Student object and set the name variable \n22    Student student;\n23    student.name = \"John Doe\";\n24\n25\n26    // call the display_name() function\n27    student.display_name();\n28\n29  \n30    // create a Student object and set the name variable \n31    Student student2;\n32    student2.name = \"Lily Doe\";\n33\n34\n35    // call the display_name() function\n36    student2.display_name();\n37\n38\n39    return 0;\n40}"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Student's name using this: John Doe\nStudent's name using this: Lily Doe"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here, for the function call"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "student.display_name() - this refers to the student object",
+        "student2.display_name() - this refers to the student2 object"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

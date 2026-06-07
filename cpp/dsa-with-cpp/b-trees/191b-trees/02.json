@@ -1,0 +1,64 @@
+{
+  "index": 2,
+  "url": "https://app.programiz.pro/course/dsa-with-cpp/btrees?page=3",
+  "title": "Order of a B-Tree",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: DSA with C++"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Order of a B-Tree"
+    },
+    {
+      "type": "paragraph",
+      "content": "The order of a tree is defined as the maximum number of children the tree can have."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suppose the order of a B-tree is N. It means every node can have:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A maximum of N children.",
+        "A maximum of N - 1 keys.",
+        "A minimum of (N/2) - 1 keys (not counting the root node)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Let's take a B-tree of order N = 6. According to the properties of the B-tree, any node can have:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A maximum of (N - 1) = 6 - 1 = 5 keys.",
+        "A minimum of (N/2) - 1 = (6/2) - 1 = 2 keys."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Next, you'll take a couple of quizzes, and then learn about branching in B-trees and the key terms and concepts relevant to the topic."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

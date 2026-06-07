@@ -1,0 +1,131 @@
+{
+  "index": 5,
+  "url": "https://app.programiz.pro/course/build-your-web-app-with-react/capturing-user-input?page=6",
+  "title": "",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "content": "Quiz: In a controlled input, what is the role of the value attribute?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tap an option below to answer:"
+    },
+    {
+      "type": "paragraph",
+      "content": "To set the initial value only when the component first loads"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "value is updated on every render, not just the first."
+    },
+    {
+      "type": "paragraph",
+      "content": "value is updated on every render, not just the first."
+    },
+    {
+      "type": "paragraph",
+      "content": "To show the current value from state and keep the input in sync with it"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Correct Answer!"
+    },
+    {
+      "type": "paragraph",
+      "content": "The input displays the current state and updates the state on change."
+    },
+    {
+      "type": "paragraph",
+      "content": "The input displays the current state and updates the state on change."
+    },
+    {
+      "type": "paragraph",
+      "content": "To validate the input before the user submits"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Validation is separate; value is about what is displayed."
+    },
+    {
+      "type": "paragraph",
+      "content": "Validation is separate; value is about what is displayed."
+    },
+    {
+      "type": "paragraph",
+      "content": "To prevent the user from typing more than a certain length"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "Incorrect, give it another shot!"
+    },
+    {
+      "type": "paragraph",
+      "content": "You could do that with maxLength; value is about syncing with state."
+    },
+    {
+      "type": "paragraph",
+      "content": "You could do that with maxLength; value is about syncing with state."
+    }
+  ],
+  "quiz": {
+    "type": "mcq",
+    "question": "Quiz: In a controlled input, what is the role of the value attribute?",
+    "options": [
+      {
+        "index": 0,
+        "text": "A:To set the initial value only when the component first loads",
+        "isCorrect": false
+      },
+      {
+        "index": 1,
+        "text": "To set the initial value only when the component first loads",
+        "isCorrect": false
+      },
+      {
+        "index": 2,
+        "text": "B:To show the current value from state and keep the input in sync with it",
+        "isCorrect": false
+      },
+      {
+        "index": 3,
+        "text": "To show the current value from state and keep the input in sync with it",
+        "isCorrect": false
+      },
+      {
+        "index": 4,
+        "text": "C:To validate the input before the user submits",
+        "isCorrect": false
+      },
+      {
+        "index": 5,
+        "text": "To validate the input before the user submits",
+        "isCorrect": false
+      },
+      {
+        "index": 6,
+        "text": "D:To prevent the user from typing more than a certain length",
+        "isCorrect": false
+      },
+      {
+        "index": 7,
+        "text": "To prevent the user from typing more than a certain length",
+        "isCorrect": false
+      }
+    ],
+    "hint": ""
+  },
+  "type": "quiz"
+}

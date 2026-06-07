@@ -1,0 +1,75 @@
+{
+  "index": 1,
+  "url": "https://app.programiz.pro/course/react-query/handling-race-conditions?page=2",
+  "title": "The Fix is Already in the Pattern",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: React Query: The Practical Guide"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "The Fix is Already in the Pattern"
+    },
+    {
+      "type": "paragraph",
+      "content": "The fix is actually already built into the optimistic update pattern we wrote. Remember this line in onMutate:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "await queryClient.cancelQueries({ queryKey: taskKeys.list({ status }) })"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every time a new mutation fires it cancels any in-flight queries for tasks. That means stale refetches can never overwrite our latest optimistic update."
+    },
+    {
+      "type": "paragraph",
+      "content": "And onSettled always does a final refetch after everything settles:"
+    },
+    {
+      "type": "code",
+      "language": "react",
+      "content": "onSettled: () => {\n  queryClient.invalidateQueries({ queryKey: taskKeys.all })\n}"
+    },
+    {
+      "type": "paragraph",
+      "content": "No matter how many mutations fired or what order the responses came back in, after everything settles we go get fresh data from the server. The cache ends up correct every time."
+    },
+    {
+      "type": "paragraph",
+      "content": "So the full pattern is:"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "onMutate: cancel queries, snapshot, update cache optimistically",
+        "onError: roll back using the snapshot",
+        "onSettled: invalidate and refetch to sync with the server"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Follow this pattern every time you write an optimistic update and race conditions won't be a problem."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}

@@ -1,0 +1,63 @@
+{
+  "index": 4,
+  "url": "https://app.programiz.pro/course/git/remote-push-pull-clone?page=5",
+  "title": "Starting from Someone Else's Game",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Course: Practical Git and GitHub"
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Starting from Someone Else's Game"
+    },
+    {
+      "type": "paragraph",
+      "content": "To download a full project from GitHub, use:"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "$ git clone \nhttps://github.com/someone/project.git"
+    },
+    {
+      "type": "paragraph",
+      "content": "Output"
+    },
+    {
+      "type": "code",
+      "language": "text",
+      "content": "Cloning into 'project'... remote: Enumerating objects: 42, done. remote: Total 42 (delta 0), reused 0 (delta 0) Receiving objects: 100% (42/42), 18.3 KiB | 4.57 MiB/s, done."
+    },
+    {
+      "type": "paragraph",
+      "content": "A new folder appears with the full project inside, already connected to the remote. You can start working immediately."
+    },
+    {
+      "type": "paragraph",
+      "content": "Any public repository on GitHub is one git clone command away. That includes every open source project you have ever used."
+    },
+    {
+      "type": "paragraph",
+      "content": "👉 Next, answer a quick question to check your understanding."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "content": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Use this space for your doubts about this lesson. Ask us anything that's confusing and our experts will provide explanations to help you understand."
+    }
+  ],
+  "quiz": {
+    "type": "unknown",
+    "question": "",
+    "options": [],
+    "hint": ""
+  },
+  "type": "quiz"
+}
